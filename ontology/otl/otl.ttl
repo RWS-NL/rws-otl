@@ -1,0 +1,382 @@
+@prefix : <https://www.rws.nl/otl#> .
+@prefix nta: <https://w3id.org/def/basicsemantics-owl#> .
+@prefix ogc: <http://www.opengis.net/ont/sf#> .
+@prefix otl: <https://www.rws.nl/otl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@base <https://www.rws.nl/otl> .
+
+<https://www.rws.nl/otl> rdf:type owl:Ontology ;
+                          owl:imports <https://w3id.org/def/basicsemantics-owl> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  https://w3id.org/def/basicsemantics-owl#naam
+nta:naam rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://www.rws.nl/otl#beheerder
+otl:beheerder rdf:type owl:ObjectProperty ;
+              rdfs:range otl:party ;
+              skos:definition "Instantie, die object beheert voor eigenaar "@nl ;
+              skos:prefLabel "Beheerder"@nl .
+
+
+###  https://www.rws.nl/otl#eigenaar
+otl:eigenaar rdf:type owl:ObjectProperty ;
+             rdfs:range otl:party ;
+             skos:definition "Instantie, die object in eigendom heeft "@nl ;
+             skos:prefLabel "Eigenaar"@nl .
+
+
+###  https://www.rws.nl/otl#inwinner
+otl:inwinner rdf:type owl:ObjectProperty ;
+             rdfs:range otl:bedrijf ;
+             skos:definition "Degene, die bij controle gegevens van object heeft gewijzigd"@nl ;
+             skos:prefLabel "Inwinner"@nl .
+
+
+###  https://www.rws.nl/otl#niveau-ten-opzichte-van-maaiveld
+otl:niveau-ten-opzichte-van-maaiveld rdf:type owl:ObjectProperty ;
+                                     rdfs:range otl:niveau ;
+                                     skos:definition "Aanduiding in laagnummers van hoogteligging topografielaag t.o.v. maaiveld"@nl ;
+                                     skos:prefLabel "Niveau ten opzichte van maaiveld"@nl .
+
+
+###  https://www.rws.nl/otl#onderhouder
+otl:onderhouder rdf:type owl:ObjectProperty ;
+                rdfs:range otl:party ;
+                skos:definition "Instantie, die object voor beheerder onderhoud "@nl ;
+                skos:prefLabel "Onderhouder"@nl .
+
+
+###  https://www.rws.nl/otl#type
+otl:type rdf:type owl:ObjectProperty ;
+         rdfs:range otl:steunpunt-type ;
+         skos:prefLabel "Type"@nl .
+
+
+###  https://www.rws.nl/otl#vorm-projectie
+otl:vorm-projectie rdf:type owl:ObjectProperty ;
+                   rdfs:range ogc:MultiPolygon ;
+                   skos:definition "De karakteristieke voorstelling of zichtbare vorm van een geografisch object."@nl ;
+                   skos:prefLabel "Vorm-Projectie"@nl .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://www.rws.nl/otl#bouwjaar
+otl:bouwjaar rdf:type owl:DatatypeProperty ;
+             skos:prefLabel "Bouwjaar" .
+
+
+###  https://www.rws.nl/otl#code
+otl:code rdf:type owl:DatatypeProperty ;
+         rdfs:range xsd:string ;
+         skos:prefLabel "Code"@nl .
+
+
+###  https://www.rws.nl/otl#datum-aanleg
+otl:datum-aanleg rdf:type owl:DatatypeProperty ;
+                 rdfs:range xsd:date ;
+                 skos:definition "Datum van aanleg van het object"@nl ;
+                 skos:prefLabel "Datum Aanleg"@nl .
+
+
+###  https://www.rws.nl/otl#datum-inwin
+otl:datum-inwin rdf:type owl:DatatypeProperty ;
+                rdfs:range xsd:date ;
+                skos:definition "Datum, waarop de gegevens zijn gewijzigd tijdens een controle"@nl ;
+                skos:prefLabel "Datum Inwin"@nl .
+
+
+###  https://www.rws.nl/otl#datum-opname
+otl:datum-opname rdf:type owl:DatatypeProperty ;
+                 rdfs:range xsd:date ;
+                 skos:definition "Datum van opname van de geometrie in terrein "@nl ;
+                 skos:prefLabel "Datum opname"@nl .
+
+
+###  https://www.rws.nl/otl#naam
+otl:naam rdf:type owl:DatatypeProperty ;
+         rdfs:range xsd:string ;
+         skos:prefLabel "Naam"@nl .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.opengis.net/ont/sf#MultiPolygon
+ogc:MultiPolygon rdf:type owl:Class .
+
+
+###  https://www.rws.nl/otl#bedrijf
+otl:bedrijf rdf:type owl:Class ;
+            rdfs:subClassOf otl:party ;
+            skos:prefLabel "Bedrijf"@nl .
+
+
+###  https://www.rws.nl/otl#bouwwerk
+otl:bouwwerk rdf:type owl:Class ;
+             rdfs:subClassOf nta:PhysicalObject ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty otl:niveau-ten-opzichte-van-maaiveld ;
+                               owl:cardinality "1"^^xsd:nonNegativeInteger
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty otl:vorm-projectie ;
+                               owl:cardinality "1"^^xsd:nonNegativeInteger
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty otl:code ;
+                               owl:cardinality "1"^^xsd:nonNegativeInteger
+                             ] ;
+             skos:prefLabel "Bouwwerk"@nl .
+
+
+###  https://www.rws.nl/otl#complex
+otl:complex rdf:type owl:Class ;
+            rdfs:subClassOf nta:PhysicalObject ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty otl:beheerder ;
+                              owl:cardinality "1"^^xsd:nonNegativeInteger
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty otl:eigenaar ;
+                              owl:cardinality "1"^^xsd:nonNegativeInteger
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty otl:inwinner ;
+                              owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty otl:onderhouder ;
+                              owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty otl:datum-aanleg ;
+                              owl:cardinality "1"^^xsd:nonNegativeInteger
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty otl:datum-opname ;
+                              owl:cardinality "1"^^xsd:nonNegativeInteger
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty otl:naam ;
+                              owl:cardinality "1"^^xsd:nonNegativeInteger
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty otl:datum-inwin ;
+                              owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                            ] ;
+            skos:definition "Complexen zijn het geheel van verschillende objecten, zoals het sluiscomplex Eefde. Deze bestaat uit een schutsluis, twee gemalen en twee aflaatwerken. In feite is een complex ook een functielabel dat aan een aantal beheerobjecten hangt."@nl ;
+            skos:prefLabel "Complex"@nl .
+
+
+###  https://www.rws.nl/otl#district
+otl:district rdf:type owl:Class ;
+             rdfs:subClassOf otl:party ;
+             skos:prefLabel "District"@nl .
+
+
+###  https://www.rws.nl/otl#geleideconstructie
+otl:geleideconstructie rdf:type owl:Class ;
+                       rdfs:subClassOf otl:bouwwerk ;
+                       skos:prefLabel "Geleideconstructie"^^xsd:string .
+
+
+###  https://www.rws.nl/otl#hemelwaterafvoer
+otl:hemelwaterafvoer rdf:type owl:Class ;
+                     rdfs:subClassOf otl:bouwwerk ;
+                     skos:prefLabel "Hemelwaterafvoer"^^xsd:string .
+
+
+###  https://www.rws.nl/otl#hoofddraagconstructie
+otl:hoofddraagconstructie rdf:type owl:Class ;
+                          rdfs:subClassOf otl:bouwwerk ;
+                          skos:prefLabel "Hoofddraagconstructie"^^xsd:string .
+
+
+###  https://www.rws.nl/otl#leuningconstructie
+otl:leuningconstructie rdf:type owl:Class ;
+                       rdfs:subClassOf otl:bouwwerk ;
+                       skos:prefLabel "Leuningconstructie"^^xsd:string .
+
+
+###  https://www.rws.nl/otl#niveau
+otl:niveau rdf:type owl:Class ;
+           rdfs:subClassOf nta:EnumerationType ;
+           skos:definition "Aanduiding in laagnummers van hoogteligging topografielaag t.o.v. maaiveld"@nl ;
+           skos:prefLabel "Niveau ten opzichte van maaiveld"@nl .
+
+
+###  https://www.rws.nl/otl#oplegging
+otl:oplegging rdf:type owl:Class ;
+              rdfs:subClassOf otl:bouwwerk ;
+              skos:prefLabel "Oplegging"^^xsd:string .
+
+
+###  https://www.rws.nl/otl#party
+otl:party rdf:type owl:Class ;
+          rdfs:subClassOf nta:PhysicalObject ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty otl:naam ;
+                            owl:cardinality "1"^^xsd:nonNegativeInteger
+                          ] ;
+          skos:prefLabel "Party"@nl .
+
+
+###  https://www.rws.nl/otl#schampkant
+otl:schampkant rdf:type owl:Class ;
+               rdfs:subClassOf otl:bouwwerk ;
+               skos:prefLabel "Schampkant"^^xsd:string .
+
+
+###  https://www.rws.nl/otl#steunpunt
+otl:steunpunt rdf:type owl:Class ;
+              rdfs:subClassOf otl:bouwwerk ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty otl:type ;
+                                owl:cardinality "1"^^xsd:nonNegativeInteger
+                              ] ;
+              skos:definition "Een met de vaste wereld verbonden constructie waarop de hoofddraagconstructie wordt ondersteund."@nl ;
+              skos:prefLabel "Steunpunt"@nl .
+
+
+###  https://www.rws.nl/otl#steunpunt-type
+otl:steunpunt-type rdf:type owl:Class ;
+                   rdfs:subClassOf nta:EnumerationType ;
+                   skos:prefLabel "Steunpunt Type"@nl .
+
+
+###  https://www.rws.nl/otl#talud
+otl:talud rdf:type owl:Class ;
+          rdfs:subClassOf otl:bouwwerk ;
+          skos:prefLabel "Talud"^^xsd:string .
+
+
+###  https://www.rws.nl/otl#vaste-brug
+otl:vaste-brug rdf:type owl:Class ;
+               rdfs:subClassOf otl:bouwwerk ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty otl:naam ;
+                                 owl:cardinality "1"^^xsd:nonNegativeInteger
+                               ] ;
+               skos:definition "Vaste verbinding voor verkeer tussen minimaal twee punten die gescheiden worden door hoofdzakelijk waterwegen en onder andere bestaat uit een hoofddraagconstructie en een rijvloer."@nl ;
+               skos:prefLabel "Vaste brug"@nl .
+
+
+###  https://www.rws.nl/otl#verharding-wegtype-1
+otl:verharding-wegtype-1 rdf:type owl:Class ;
+                         rdfs:subClassOf otl:bouwwerk ;
+                         skos:prefLabel "Verharding wegtype 1 (hoofdwegennet)"^^xsd:string .
+
+
+###  https://www.rws.nl/otl#verharding-wegtype-7
+otl:verharding-wegtype-7 rdf:type owl:Class ;
+                         rdfs:subClassOf otl:bouwwerk ;
+                         skos:prefLabel "Verharding wegtype 7 (fietspaden)"^^xsd:string .
+
+
+###  https://www.rws.nl/otl#voegovergang
+otl:voegovergang rdf:type owl:Class ;
+                 rdfs:subClassOf otl:bouwwerk ;
+                 skos:prefLabel "Voegovergang"^^xsd:string .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://www.rws.nl/otl#bedrijf-fugro-inpark
+otl:bedrijf-fugro-inpark rdf:type owl:NamedIndividual ,
+                                  otl:bedrijf ;
+                         otl:naam "Fugro-Inpark" .
+
+
+###  https://www.rws.nl/otl#district-onz
+otl:district-onz rdf:type owl:NamedIndividual ,
+                          otl:district ;
+                 otl:naam "RWS Oost-Nederland District Zuid" .
+
+
+###  https://www.rws.nl/otl#niveau--1
+otl:niveau--1 rdf:type owl:NamedIndividual ,
+                       otl:niveau ;
+              nta:naam "MaaiveldMin1" .
+
+
+###  https://www.rws.nl/otl#niveau--2
+otl:niveau--2 rdf:type owl:NamedIndividual ,
+                       otl:niveau ;
+              nta:naam "MaaiveldMin2" .
+
+
+###  https://www.rws.nl/otl#niveau--3
+otl:niveau--3 rdf:type owl:NamedIndividual ,
+                       otl:niveau ;
+              nta:naam "MaaiveldMin3" .
+
+
+###  https://www.rws.nl/otl#niveau--4
+otl:niveau--4 rdf:type owl:NamedIndividual ,
+                       otl:niveau ;
+              nta:naam "MaaiveldMin4" .
+
+
+###  https://www.rws.nl/otl#niveau-0
+otl:niveau-0 rdf:type owl:NamedIndividual ,
+                      otl:niveau ;
+             nta:naam "Maaiveld" .
+
+
+###  https://www.rws.nl/otl#niveau-1
+otl:niveau-1 rdf:type owl:NamedIndividual ,
+                      otl:niveau ;
+             nta:naam "MaaiveldPlus1" .
+
+
+###  https://www.rws.nl/otl#niveau-2
+otl:niveau-2 rdf:type owl:NamedIndividual ,
+                      otl:niveau ;
+             nta:naam "MaaiveldPlus2" .
+
+
+###  https://www.rws.nl/otl#niveau-3
+otl:niveau-3 rdf:type owl:NamedIndividual ,
+                      otl:niveau ;
+             nta:naam "MaaiveldPlus3" .
+
+
+###  https://www.rws.nl/otl#niveau-4
+otl:niveau-4 rdf:type owl:NamedIndividual ,
+                      otl:niveau ;
+             nta:naam "MaaiveldPlus4" .
+
+
+###  https://www.rws.nl/otl#steunpunt-type-lh
+otl:steunpunt-type-lh rdf:type owl:NamedIndividual ,
+                               otl:steunpunt-type ;
+                      nta:naam "Landhoofd" .
+
+
+###  https://www.rws.nl/otl#steunpunt-type-p
+otl:steunpunt-type-p rdf:type owl:NamedIndividual ,
+                              otl:steunpunt-type ;
+                     nta:naam "Pijler" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

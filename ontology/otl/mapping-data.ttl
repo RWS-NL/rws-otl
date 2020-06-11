@@ -1,0 +1,24 @@
+@prefix koppel: <https://www.rws.nl/bms/koppel/data#> .
+@prefix kerngis-data: <https://www.rws.nl/bms/kerngis/data#> .
+@prefix ultimo-data: <https://www.rws.nl/bms/ultimo/data#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@base <https://www.rws.nl/bms/koppel/data#> .
+
+
+<https://www.rws.nl/bms/koppel/data>    rdf:type owl:Ontology ;
+                                        owl:imports <https://www.rws.nl/bms/kerngis/data#> ;
+                                        owl:imports <https://www.rws.nl/bms/ultimo/data#> ;
+                                        rdfs:comment ""@nl ;
+                                        rdfs:label ""@nl .
+
+
+koppel:2dcf19ec-5a83-4ca6-a741-f90501f43f7a owl:sameAs ultimo-data:790 .
+
+koppel:38b6ec05-2769-40cf-85ef-a17daa2bbb57 owl:sameAs ultimo-data:0000007431 ;
+    owl:sameAs kerngis-data:10509 .
+
+koppel:eaadedfb-2111-4c33-bc60-f9775f19e09c owl:sameAs ultimo-data:0000007432 ;
+    owl:sameAs kerngis-data:9300 .
+
+koppel:0629822d-2719-474f-b7c7-ada94fa205e6 owl:sameAs ultimo-data:0000007433 ;
+    owl:sameAs kerngis-data:9302 .

@@ -1,0 +1,2405 @@
+@prefix kerngis: <https://www.rws.nl/bms/kerngis/def#> .
+@prefix nta: <https://w3id.org/def/basicsemantics-owl#> .
+@prefix ogc: <http://www.opengis.net/ont/sf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.rws.nl/bms/kerngis/def> a owl:Ontology ;
+    owl:imports <https://w3id.org/def/basicsemantics-owl> .
+
+kerngis:dabeheerdereigenaaronderhouder-BVOM a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "BVOM" ;
+    kerngis:Value "BVOM" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2001 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Aa en Hunze (gemeente)" ;
+    kerngis:Value "GEM2001" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2002 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Aalburg (gemeente)" ;
+    kerngis:Value "GEM2002" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2003 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Aalsmeer (gemeente)" ;
+    kerngis:Value "GEM2003" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2004 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Aalten (gemeente)" ;
+    kerngis:Value "GEM2004" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2005 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Abcoude (gemeente)" ;
+    kerngis:Value "GEM2005" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2006 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Achtkarspelen (gemeente)" ;
+    kerngis:Value "GEM2006" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2007 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Alblasserdam (gemeente)" ;
+    kerngis:Value "GEM2007" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2008 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Albrandswaard (gemeente)" ;
+    kerngis:Value "GEM2008" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2009 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Kaag en Braassem (gemeente)" ;
+    kerngis:Value "GEM2009" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2010 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Alkmaar (gemeente)" ;
+    kerngis:Value "GEM2010" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2011 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Almelo (gemeente)" ;
+    kerngis:Value "GEM2011" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2012 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Almere (gemeente)" ;
+    kerngis:Value "GEM2012" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2013 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Alphen aan den Rijn (gemeente)" ;
+    kerngis:Value "GEM2013" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2014 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Alphen-Chaam (gemeente)" ;
+    kerngis:Value "GEM2014" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2015 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Ameland (gemeente)" ;
+    kerngis:Value "GEM2015" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2016 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Amersfoort (gemeente)" ;
+    kerngis:Value "GEM2016" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2017 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Amstelveen (gemeente)" ;
+    kerngis:Value "GEM2017" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2018 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Amsterdam (gemeente)" ;
+    kerngis:Value "GEM2018" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2019 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Andijk (gemeente)" ;
+    kerngis:Value "GEM2019" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2021 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Apeldoorn (gemeente)" ;
+    kerngis:Value "GEM2021" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2022 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Appingedam (gemeente)" ;
+    kerngis:Value "GEM2022" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2023 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Arcen en Velden (gemeente)" ;
+    kerngis:Value "GEM2023" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2024 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Arnhem (gemeente)" ;
+    kerngis:Value "GEM2024" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2025 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Assen (gemeente)" ;
+    kerngis:Value "GEM2025" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2026 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Asten (gemeente)" ;
+    kerngis:Value "GEM2026" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2027 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Baarle-Nassau (gemeente)" ;
+    kerngis:Value "GEM2027" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2028 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Baarn (gemeente)" ;
+    kerngis:Value "GEM2028" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2029 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Barendrecht (gemeente)" ;
+    kerngis:Value "GEM2029" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2030 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Barneveld (gemeente)" ;
+    kerngis:Value "GEM2030" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2031 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Bedum (gemeente)" ;
+    kerngis:Value "GEM2031" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2032 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Beek (gemeente)" ;
+    kerngis:Value "GEM2032" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2033 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Beemster (gemeente)" ;
+    kerngis:Value "GEM2033" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2034 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Beesel (gemeente)" ;
+    kerngis:Value "GEM2034" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2035 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Bellingwedde (gemeente)" ;
+    kerngis:Value "GEM2035" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2036 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Bennebroek (gemeente)" ;
+    kerngis:Value "GEM2036" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2037 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Krimpenerwaard (gemeente)" ;
+    kerngis:Value "GEM2037" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2038 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Bergeijk (gemeente)" ;
+    kerngis:Value "GEM2038" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2039 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Bergen (L) (gemeente)" ;
+    kerngis:Value "GEM2039" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2040 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Bergen (NH) (gemeente)" ;
+    kerngis:Value "GEM2040" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2041 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Bergen op Zoom (gemeente)" ;
+    kerngis:Value "GEM2041" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2042 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Berkelland (gemeente)" ;
+    kerngis:Value "GEM2042" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2043 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Bernheze (gemeente)" ;
+    kerngis:Value "GEM2043" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2044 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "NIssewaard (gemeente)" ;
+    kerngis:Value "GEM2044" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2045 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Best (gemeente)" ;
+    kerngis:Value "GEM2045" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2046 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Beuningen (gemeente)" ;
+    kerngis:Value "GEM2046" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2047 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Beverwijk (gemeente)" ;
+    kerngis:Value "GEM2047" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2048 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "De Bilt (gemeente)" ;
+    kerngis:Value "GEM2048" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2049 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "het Bildt (gemeente)" ;
+    kerngis:Value "GEM2049" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2050 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Binnenmaas (gemeente)" ;
+    kerngis:Value "GEM2050" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2051 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Bladel (gemeente)" ;
+    kerngis:Value "GEM2051" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2052 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Blaricum (gemeente)" ;
+    kerngis:Value "GEM2052" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2053 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Bloemendaal (gemeente)" ;
+    kerngis:Value "GEM2053" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2055 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Bodegraven-Reeuwijk (gemeente)" ;
+    kerngis:Value "GEM2055" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2056 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Boekel (gemeente)" ;
+    kerngis:Value "GEM2056" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2057 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Ten Boer (gemeente)" ;
+    kerngis:Value "GEM2057" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2058 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Sudwest-Fryslan (gemeente)" ;
+    kerngis:Value "GEM2058" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2059 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Borger-Odoorn (gemeente)" ;
+    kerngis:Value "GEM2059" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2060 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Borne (gemeente)" ;
+    kerngis:Value "GEM2060" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2061 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Borsele (gemeente)" ;
+    kerngis:Value "GEM2061" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2063 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Boxmeer (gemeente)" ;
+    kerngis:Value "GEM2063" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2064 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Boxtel (gemeente)" ;
+    kerngis:Value "GEM2064" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2065 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Breda (gemeente)" ;
+    kerngis:Value "GEM2065" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2066 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Stichtse Vecht (gemeente)" ;
+    kerngis:Value "GEM2066" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2067 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Brielle (gemeente)" ;
+    kerngis:Value "GEM2067" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2068 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Bronckhorst (gemeente)" ;
+    kerngis:Value "GEM2068" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2069 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Brummen (gemeente)" ;
+    kerngis:Value "GEM2069" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2070 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Brunssum (gemeente)" ;
+    kerngis:Value "GEM2070" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2071 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Bunnik (gemeente)" ;
+    kerngis:Value "GEM2071" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2072 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Bunschoten (gemeente)" ;
+    kerngis:Value "GEM2072" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2073 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Buren (gemeente)" ;
+    kerngis:Value "GEM2073" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2074 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Bussum (gemeente)" ;
+    kerngis:Value "GEM2074" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2075 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Capelle aan den IJssel (gemeente)" ;
+    kerngis:Value "GEM2075" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2076 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Castricum (gemeente)" ;
+    kerngis:Value "GEM2076" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2077 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Coevorden (gemeente)" ;
+    kerngis:Value "GEM2077" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2078 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Cranendonck (gemeente)" ;
+    kerngis:Value "GEM2078" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2079 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Cromstrijen (gemeente)" ;
+    kerngis:Value "GEM2079" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2080 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Cuijk (gemeente)" ;
+    kerngis:Value "GEM2080" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2081 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Culemborg (gemeente)" ;
+    kerngis:Value "GEM2081" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2082 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Dalfsen (gemeente)" ;
+    kerngis:Value "GEM2082" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2083 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Dantumadiel (gemeente)" ;
+    kerngis:Value "GEM2083" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2084 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Delft (gemeente)" ;
+    kerngis:Value "GEM2084" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2085 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Delfzijl (gemeente)" ;
+    kerngis:Value "GEM2085" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2086 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Deurne (gemeente)" ;
+    kerngis:Value "GEM2086" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2087 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Deventer (gemeente)" ;
+    kerngis:Value "GEM2087" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2088 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Diemen (gemeente)" ;
+    kerngis:Value "GEM2088" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2089 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Dinkelland (gemeente)" ;
+    kerngis:Value "GEM2089" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2090 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Dirksland (gemeente)" ;
+    kerngis:Value "GEM2090" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2091 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Doesburg (gemeente)" ;
+    kerngis:Value "GEM2091" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2092 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Doetinchem (gemeente)" ;
+    kerngis:Value "GEM2092" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2093 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Dongen (gemeente)" ;
+    kerngis:Value "GEM2093" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2094 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Dongeradeel (gemeente)" ;
+    kerngis:Value "GEM2094" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2095 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Dordrecht (gemeente)" ;
+    kerngis:Value "GEM2095" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2096 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Drechterland (gemeente)" ;
+    kerngis:Value "GEM2096" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2097 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Drimmelen (gemeente)" ;
+    kerngis:Value "GEM2097" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2098 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Dronten (gemeente)" ;
+    kerngis:Value "GEM2098" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2099 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Druten (gemeente)" ;
+    kerngis:Value "GEM2099" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2100 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Duiven (gemeente)" ;
+    kerngis:Value "GEM2100" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2101 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Echt-Susteren (gemeente)" ;
+    kerngis:Value "GEM2101" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2102 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Edam-Volendam (gemeente)" ;
+    kerngis:Value "GEM2102" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2103 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Ede (gemeente)" ;
+    kerngis:Value "GEM2103" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2104 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Eemnes (gemeente)" ;
+    kerngis:Value "GEM2104" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2105 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Eemsmond (gemeente)" ;
+    kerngis:Value "GEM2105" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2106 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Eersel (gemeente)" ;
+    kerngis:Value "GEM2106" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2107 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Eijsden-Margraten (gemeente)" ;
+    kerngis:Value "GEM2107" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2108 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Eindhoven (gemeente)" ;
+    kerngis:Value "GEM2108" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2109 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Elburg (gemeente)" ;
+    kerngis:Value "GEM2109" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2110 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Emmen (gemeente)" ;
+    kerngis:Value "GEM2110" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2111 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Enkhuizen (gemeente)" ;
+    kerngis:Value "GEM2111" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2112 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Enschede (gemeente)" ;
+    kerngis:Value "GEM2112" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2113 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Epe (gemeente)" ;
+    kerngis:Value "GEM2113" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2114 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Ermelo (gemeente)" ;
+    kerngis:Value "GEM2114" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2115 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Etten-Leur (gemeente)" ;
+    kerngis:Value "GEM2115" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2116 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Ferwerderadeel / Ferwerderadiel (gemeente)" ;
+    kerngis:Value "GEM2116" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2117 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Franekeradeel (gemeente)" ;
+    kerngis:Value "GEM2117" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2119 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Geertruidenberg (gemeente)" ;
+    kerngis:Value "GEM2119" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2120 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Geldermalsen (gemeente)" ;
+    kerngis:Value "GEM2120" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2121 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Geldrop-Mierlo (gemeente)" ;
+    kerngis:Value "GEM2121" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2122 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Gemert-Bakel (gemeente)" ;
+    kerngis:Value "GEM2122" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2123 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Gennep (gemeente)" ;
+    kerngis:Value "GEM2123" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2124 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Giessenlanden (gemeente)" ;
+    kerngis:Value "GEM2124" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2125 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Gilze en Rijen (gemeente)" ;
+    kerngis:Value "GEM2125" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2126 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Goeree-Overflakkee (gemeente)" ;
+    kerngis:Value "GEM2126" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2127 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Goes (gemeente)" ;
+    kerngis:Value "GEM2127" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2128 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Goirle (gemeente)" ;
+    kerngis:Value "GEM2128" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2129 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Gorinchem (gemeente)" ;
+    kerngis:Value "GEM2129" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2130 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Gouda (gemeente)" ;
+    kerngis:Value "GEM2130" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2131 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Molenwaard (gemeente)" ;
+    kerngis:Value "GEM2131" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2133 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Grave (gemeente)" ;
+    kerngis:Value "GEM2133" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2134 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Den Haag / 's-Gravenhage (gemeente)" ;
+    kerngis:Value "GEM2134" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2135 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Groesbeek (gemeente)" ;
+    kerngis:Value "GEM2135" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2136 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Groningen (gemeente)" ;
+    kerngis:Value "GEM2136" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2137 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Grootegast (gemeente)" ;
+    kerngis:Value "GEM2137" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2138 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Gulpen-Wittem (gemeente)" ;
+    kerngis:Value "GEM2138" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2139 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Haaksbergen (gemeente)" ;
+    kerngis:Value "GEM2139" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2140 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Haaren (gemeente)" ;
+    kerngis:Value "GEM2140" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2141 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Haarlem (gemeente)" ;
+    kerngis:Value "GEM2141" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2142 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Haarlemmerliede en Spaarnwoude (gemeente)" ;
+    kerngis:Value "GEM2142" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2143 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Haarlemmermeer (gemeente)" ;
+    kerngis:Value "GEM2143" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2144 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Halderberge (gemeente)" ;
+    kerngis:Value "GEM2144" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2145 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hardenberg (gemeente)" ;
+    kerngis:Value "GEM2145" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2146 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Harderwijk (gemeente)" ;
+    kerngis:Value "GEM2146" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2147 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hardinxveld-Giessendam (gemeente)" ;
+    kerngis:Value "GEM2147" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2148 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Haren (gemeente)" ;
+    kerngis:Value "GEM2148" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2149 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Harenkarspel (gemeente)" ;
+    kerngis:Value "GEM2149" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2150 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Harlingen (gemeente)" ;
+    kerngis:Value "GEM2150" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2151 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hattem (gemeente)" ;
+    kerngis:Value "GEM2151" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2152 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Heemskerk (gemeente)" ;
+    kerngis:Value "GEM2152" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2153 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Heemstede (gemeente)" ;
+    kerngis:Value "GEM2153" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2154 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Heerde (gemeente)" ;
+    kerngis:Value "GEM2154" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2155 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Heerenveen (gemeente)" ;
+    kerngis:Value "GEM2155" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2156 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Heerhugowaard (gemeente)" ;
+    kerngis:Value "GEM2156" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2157 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Heerlen (gemeente)" ;
+    kerngis:Value "GEM2157" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2158 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Heeze-Leende (gemeente)" ;
+    kerngis:Value "GEM2158" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2159 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Heiloo (gemeente)" ;
+    kerngis:Value "GEM2159" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2160 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Peel en Maas (gemeente)" ;
+    kerngis:Value "GEM2160" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2161 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Den Helder (gemeente)" ;
+    kerngis:Value "GEM2161" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2162 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hellendoorn (gemeente)" ;
+    kerngis:Value "GEM2162" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2163 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hellevoetsluis (gemeente)" ;
+    kerngis:Value "GEM2163" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2164 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Helmond (gemeente)" ;
+    kerngis:Value "GEM2164" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2165 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hendrik-Ido-Ambacht (gemeente)" ;
+    kerngis:Value "GEM2165" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2166 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hengelo (gemeente)" ;
+    kerngis:Value "GEM2166" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2167 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "'s-Hertogenbosch (gemeente)" ;
+    kerngis:Value "GEM2167" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2168 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Heumen (gemeente)" ;
+    kerngis:Value "GEM2168" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2169 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Heusden (gemeente)" ;
+    kerngis:Value "GEM2169" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2170 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hillegom (gemeente)" ;
+    kerngis:Value "GEM2170" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2171 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hilvarenbeek (gemeente)" ;
+    kerngis:Value "GEM2171" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2172 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hilversum (gemeente)" ;
+    kerngis:Value "GEM2172" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2173 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hof van Twente (gemeente)" ;
+    kerngis:Value "GEM2173" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2174 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hoogeveen (gemeente)" ;
+    kerngis:Value "GEM2174" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2175 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hoogezand-Sappemeer (gemeente)" ;
+    kerngis:Value "GEM2175" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2176 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hoorn (gemeente)" ;
+    kerngis:Value "GEM2176" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2177 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Horst aan de Maas (gemeente)" ;
+    kerngis:Value "GEM2177" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2178 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Houten (gemeente)" ;
+    kerngis:Value "GEM2178" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2179 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Huizen (gemeente)" ;
+    kerngis:Value "GEM2179" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2180 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hulst (gemeente)" ;
+    kerngis:Value "GEM2180" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2181 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "IJsselstein (gemeente)" ;
+    kerngis:Value "GEM2181" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2183 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Kampen (gemeente)" ;
+    kerngis:Value "GEM2183" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2184 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Kapelle (gemeente)" ;
+    kerngis:Value "GEM2184" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2185 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Katwijk (gemeente)" ;
+    kerngis:Value "GEM2185" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2186 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Kerkrade (gemeente)" ;
+    kerngis:Value "GEM2186" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2188 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Koggenland (gemeente)" ;
+    kerngis:Value "GEM2188" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2189 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Kollumerland en Nieuwkruisland (gemeente)" ;
+    kerngis:Value "GEM2189" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2190 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Korendijk (gemeente)" ;
+    kerngis:Value "GEM2190" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2191 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Krimpen aan den IJssel (gemeente)" ;
+    kerngis:Value "GEM2191" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2192 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Laarbeek (gemeente)" ;
+    kerngis:Value "GEM2192" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2193 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Landerd (gemeente)" ;
+    kerngis:Value "GEM2193" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2194 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Landgraaf (gemeente)" ;
+    kerngis:Value "GEM2194" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2195 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Landsmeer (gemeente)" ;
+    kerngis:Value "GEM2195" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2196 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Langedijk (gemeente)" ;
+    kerngis:Value "GEM2196" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2197 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Lansingerland (gemeente)" ;
+    kerngis:Value "GEM2197" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2198 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Laren (gemeente)" ;
+    kerngis:Value "GEM2198" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2199 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Leek (gemeente)" ;
+    kerngis:Value "GEM2199" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2200 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Leerdam (gemeente)" ;
+    kerngis:Value "GEM2200" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2201 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Leeuwarden (gemeente)" ;
+    kerngis:Value "GEM2201" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2202 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Leeuwarderadeel (gemeente)" ;
+    kerngis:Value "GEM2202" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2203 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Leiden (gemeente)" ;
+    kerngis:Value "GEM2203" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2204 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Leiderdorp (gemeente)" ;
+    kerngis:Value "GEM2204" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2205 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Leidschendam-Voorburg (gemeente)" ;
+    kerngis:Value "GEM2205" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2206 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Lelystad (gemeente)" ;
+    kerngis:Value "GEM2206" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2208 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Leudal (gemeente)" ;
+    kerngis:Value "GEM2208" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2209 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Leusden (gemeente)" ;
+    kerngis:Value "GEM2209" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2211 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Lingewaal (gemeente)" ;
+    kerngis:Value "GEM2211" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2212 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Lingewaard (gemeente)" ;
+    kerngis:Value "GEM2212" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2213 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Lisse (gemeente)" ;
+    kerngis:Value "GEM2213" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2214 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Lith (gemeente)" ;
+    kerngis:Value "GEM2214" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2215 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Littenseradiel / Littenseradeel (gemeente)" ;
+    kerngis:Value "GEM2215" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2216 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Lochem (gemeente)" ;
+    kerngis:Value "GEM2216" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2218 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Loon op Zand (gemeente)" ;
+    kerngis:Value "GEM2218" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2219 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Lopik (gemeente)" ;
+    kerngis:Value "GEM2219" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2220 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Loppersum (gemeente)" ;
+    kerngis:Value "GEM2220" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2221 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Losser (gemeente)" ;
+    kerngis:Value "GEM2221" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2225 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Maasdriel (gemeente)" ;
+    kerngis:Value "GEM2225" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2226 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Maasgouw (gemeente)" ;
+    kerngis:Value "GEM2226" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2227 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Maassluis (gemeente)" ;
+    kerngis:Value "GEM2227" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2228 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Maastricht (gemeente)" ;
+    kerngis:Value "GEM2228" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2230 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "De Marne (gemeente)" ;
+    kerngis:Value "GEM2230" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2231 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Marum (gemeente)" ;
+    kerngis:Value "GEM2231" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2232 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Medemblik (gemeente)" ;
+    kerngis:Value "GEM2232" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2233 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Meerlo-Wanssum (gemeente)" ;
+    kerngis:Value "GEM2233" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2234 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Meerssen (gemeente)" ;
+    kerngis:Value "GEM2234" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2236 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Menameradiel (gemeente)" ;
+    kerngis:Value "GEM2236" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2237 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Menterwolde (gemeente)" ;
+    kerngis:Value "GEM2237" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2238 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Meppel (gemeente)" ;
+    kerngis:Value "GEM2238" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2239 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Middelburg (gemeente)" ;
+    kerngis:Value "GEM2239" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2240 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Middelharnis (gemeente)" ;
+    kerngis:Value "GEM2240" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2241 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Midden-Delfland (gemeente)" ;
+    kerngis:Value "GEM2241" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2242 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Midden-Drenthe (gemeente)" ;
+    kerngis:Value "GEM2242" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2243 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Mill en Sint Hubert (gemeente)" ;
+    kerngis:Value "GEM2243" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2245 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Moerdijk (gemeente)" ;
+    kerngis:Value "GEM2245" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2246 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Montferland (gemeente)" ;
+    kerngis:Value "GEM2246" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2247 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Montfoort (gemeente)" ;
+    kerngis:Value "GEM2247" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2248 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Mook en Middelaar (gemeente)" ;
+    kerngis:Value "GEM2248" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2249 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zuidplas (gemeente)" ;
+    kerngis:Value "GEM2249" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2250 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Muiden (gemeente)" ;
+    kerngis:Value "GEM2250" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2251 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Naarden (gemeente)" ;
+    kerngis:Value "GEM2251" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2252 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Neder-Betuwe (gemeente)" ;
+    kerngis:Value "GEM2252" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2254 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Nederweert (gemeente)" ;
+    kerngis:Value "GEM2254" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2255 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Neerijnen (gemeente)" ;
+    kerngis:Value "GEM2255" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2257 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Nieuwegein (gemeente)" ;
+    kerngis:Value "GEM2257" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2259 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Nieuwkoop (gemeente)" ;
+    kerngis:Value "GEM2259" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2262 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Nijkerk (gemeente)" ;
+    kerngis:Value "GEM2262" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2263 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Nijmegen (gemeente)" ;
+    kerngis:Value "GEM2263" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2264 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Noord-Beveland (gemeente)" ;
+    kerngis:Value "GEM2264" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2265 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Noordenveld (gemeente)" ;
+    kerngis:Value "GEM2265" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2266 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Noordoostpolder (gemeente)" ;
+    kerngis:Value "GEM2266" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2267 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Noordwijk (gemeente)" ;
+    kerngis:Value "GEM2267" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2268 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Noordwijkerhout (gemeente)" ;
+    kerngis:Value "GEM2268" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2269 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Nuenen, Gerwen en Nederwetten (gemeente)" ;
+    kerngis:Value "GEM2269" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2270 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Nunspeet (gemeente)" ;
+    kerngis:Value "GEM2270" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2271 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Nuth (gemeente)" ;
+    kerngis:Value "GEM2271" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2272 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Oegstgeest (gemeente)" ;
+    kerngis:Value "GEM2272" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2273 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Oirschot (gemeente)" ;
+    kerngis:Value "GEM2273" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2274 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Oisterwijk (gemeente)" ;
+    kerngis:Value "GEM2274" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2275 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Oldebroek (gemeente)" ;
+    kerngis:Value "GEM2275" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2276 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Oldenzaal (gemeente)" ;
+    kerngis:Value "GEM2276" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2277 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Olst-Wijhe (gemeente)" ;
+    kerngis:Value "GEM2277" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2278 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Ommen (gemeente)" ;
+    kerngis:Value "GEM2278" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2279 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Onderbanken (gemeente)" ;
+    kerngis:Value "GEM2279" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2280 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Oosterhout (gemeente)" ;
+    kerngis:Value "GEM2280" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2282 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Oost Gelre (gemeente)" ;
+    kerngis:Value "GEM2282" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2283 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Ooststellingwerf (gemeente)" ;
+    kerngis:Value "GEM2283" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2284 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Oostzaan (gemeente)" ;
+    kerngis:Value "GEM2284" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2285 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Opmeer (gemeente)" ;
+    kerngis:Value "GEM2285" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2286 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Opsterland (gemeente)" ;
+    kerngis:Value "GEM2286" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2287 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Oss (gemeente)" ;
+    kerngis:Value "GEM2287" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2288 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Oud-Beijerland (gemeente)" ;
+    kerngis:Value "GEM2288" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2289 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Oude IJsselstreek (gemeente)" ;
+    kerngis:Value "GEM2289" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2290 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Ouder-Amstel (gemeente)" ;
+    kerngis:Value "GEM2290" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2292 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Oudewater (gemeente)" ;
+    kerngis:Value "GEM2292" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2293 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Overbetuwe (gemeente)" ;
+    kerngis:Value "GEM2293" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2294 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Papendrecht (gemeente)" ;
+    kerngis:Value "GEM2294" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2295 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Pekela (gemeente)" ;
+    kerngis:Value "GEM2295" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2296 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Purmerend (gemeente)" ;
+    kerngis:Value "GEM2296" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2297 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Putten (gemeente)" ;
+    kerngis:Value "GEM2297" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2298 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Pijnacker-Nootdorp (gemeente)" ;
+    kerngis:Value "GEM2298" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2299 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Raalte (gemeente)" ;
+    kerngis:Value "GEM2299" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2302 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Reimerswaal (gemeente)" ;
+    kerngis:Value "GEM2302" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2303 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Renkum (gemeente)" ;
+    kerngis:Value "GEM2303" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2304 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Renswoude (gemeente)" ;
+    kerngis:Value "GEM2304" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2305 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Reusel-De Mierden (gemeente)" ;
+    kerngis:Value "GEM2305" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2306 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Rheden (gemeente)" ;
+    kerngis:Value "GEM2306" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2307 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Rhenen (gemeente)" ;
+    kerngis:Value "GEM2307" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2308 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Ridderkerk (gemeente)" ;
+    kerngis:Value "GEM2308" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2309 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Rijnwaarden (gemeente)" ;
+    kerngis:Value "GEM2309" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2311 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Rijssen-Holten (gemeente)" ;
+    kerngis:Value "GEM2311" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2312 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Rijswijk (gemeente)" ;
+    kerngis:Value "GEM2312" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2313 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Roerdalen (gemeente)" ;
+    kerngis:Value "GEM2313" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2314 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Roermond (gemeente)" ;
+    kerngis:Value "GEM2314" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2315 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "De Ronde Venen (gemeente)" ;
+    kerngis:Value "GEM2315" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2316 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Roosendaal (gemeente)" ;
+    kerngis:Value "GEM2316" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2317 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Rotterdam (gemeente)" ;
+    kerngis:Value "GEM2317" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2318 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Rozenburg (gemeente)" ;
+    kerngis:Value "GEM2318" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2319 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Rozendaal (gemeente)" ;
+    kerngis:Value "GEM2319" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2320 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Rucphen (gemeente)" ;
+    kerngis:Value "GEM2320" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2321 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Schagen (gemeente)" ;
+    kerngis:Value "GEM2321" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2322 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Oldambt (gemeente)" ;
+    kerngis:Value "GEM2322" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2324 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Scherpenzeel (gemeente)" ;
+    kerngis:Value "GEM2324" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2325 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Schiedam (gemeente)" ;
+    kerngis:Value "GEM2325" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2326 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Schiermonnikoog (gemeente)" ;
+    kerngis:Value "GEM2326" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2327 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Schijndel (gemeente)" ;
+    kerngis:Value "GEM2327" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2328 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Schinnen (gemeente)" ;
+    kerngis:Value "GEM2328" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2330 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Schouwen-Duiveland (gemeente)" ;
+    kerngis:Value "GEM2330" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2331 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Sevenum (gemeente)" ;
+    kerngis:Value "GEM2331" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2332 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Simpelveld (gemeente)" ;
+    kerngis:Value "GEM2332" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2333 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Sint Anthonis (gemeente)" ;
+    kerngis:Value "GEM2333" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2334 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Sint-Michielsgestel (gemeente)" ;
+    kerngis:Value "GEM2334" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2335 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Sint-Oedenrode (gemeente)" ;
+    kerngis:Value "GEM2335" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2336 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Sittard-Geleen (gemeente)" ;
+    kerngis:Value "GEM2336" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2338 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Sliedrecht (gemeente)" ;
+    kerngis:Value "GEM2338" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2339 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Slochteren (gemeente)" ;
+    kerngis:Value "GEM2339" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2340 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Sluis (gemeente)" ;
+    kerngis:Value "GEM2340" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2341 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Smallingerland (gemeente)" ;
+    kerngis:Value "GEM2341" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2343 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Soest (gemeente)" ;
+    kerngis:Value "GEM2343" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2344 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Someren (gemeente)" ;
+    kerngis:Value "GEM2344" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2345 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Son en Breugel (gemeente)" ;
+    kerngis:Value "GEM2345" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2347 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Stadskanaal (gemeente)" ;
+    kerngis:Value "GEM2347" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2348 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Staphorst (gemeente)" ;
+    kerngis:Value "GEM2348" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2349 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Stede Broec (gemeente)" ;
+    kerngis:Value "GEM2349" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2350 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Steenbergen (gemeente)" ;
+    kerngis:Value "GEM2350" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2351 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Steenwijkerland (gemeente)" ;
+    kerngis:Value "GEM2351" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2352 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Stein (gemeente)" ;
+    kerngis:Value "GEM2352" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2353 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Strijen (gemeente)" ;
+    kerngis:Value "GEM2353" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2354 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Terneuzen (gemeente)" ;
+    kerngis:Value "GEM2354" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2355 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Terschelling (gemeente)" ;
+    kerngis:Value "GEM2355" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2356 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Texel (gemeente)" ;
+    kerngis:Value "GEM2356" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2357 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Teylingen (gemeente)" ;
+    kerngis:Value "GEM2357" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2358 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Tholen (gemeente)" ;
+    kerngis:Value "GEM2358" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2359 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Tiel (gemeente)" ;
+    kerngis:Value "GEM2359" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2360 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Tilburg (gemeente)" ;
+    kerngis:Value "GEM2360" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2361 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Tubbergen (gemeente)" ;
+    kerngis:Value "GEM2361" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2362 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Twenterand (gemeente)" ;
+    kerngis:Value "GEM2362" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2363 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Tynaarlo (gemeente)" ;
+    kerngis:Value "GEM2363" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2364 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Tietjerksteradeel / Tytsjerksteradiel (gemeente)" ;
+    kerngis:Value "GEM2364" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2366 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Uden (gemeente)" ;
+    kerngis:Value "GEM2366" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2367 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Uitgeest (gemeente)" ;
+    kerngis:Value "GEM2367" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2368 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Uithoorn (gemeente)" ;
+    kerngis:Value "GEM2368" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2369 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Urk (gemeente)" ;
+    kerngis:Value "GEM2369" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2370 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Utrecht (gemeente)" ;
+    kerngis:Value "GEM2370" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2371 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Utrechtse Heuvelrug (gemeente)" ;
+    kerngis:Value "GEM2371" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2372 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Vaals (gemeente)" ;
+    kerngis:Value "GEM2372" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2373 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Valkenburg aan de Geul (gemeente)" ;
+    kerngis:Value "GEM2373" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2374 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Valkenswaard (gemeente)" ;
+    kerngis:Value "GEM2374" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2375 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Veendam (gemeente)" ;
+    kerngis:Value "GEM2375" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2376 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Veenendaal (gemeente)" ;
+    kerngis:Value "GEM2376" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2377 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Veere (gemeente)" ;
+    kerngis:Value "GEM2377" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2378 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Veghel (gemeente)" ;
+    kerngis:Value "GEM2378" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2379 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Veldhoven (gemeente)" ;
+    kerngis:Value "GEM2379" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2380 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Velsen (gemeente)" ;
+    kerngis:Value "GEM2380" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2381 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Venlo (gemeente)" ;
+    kerngis:Value "GEM2381" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2382 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Venray (gemeente)" ;
+    kerngis:Value "GEM2382" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2383 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Vianen (gemeente)" ;
+    kerngis:Value "GEM2383" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2384 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Vlaardingen (gemeente)" ;
+    kerngis:Value "GEM2384" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2385 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Vlagtwedde (gemeente)" ;
+    kerngis:Value "GEM2385" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2386 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Vlieland (gemeente)" ;
+    kerngis:Value "GEM2386" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2387 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Vlissingen (gemeente)" ;
+    kerngis:Value "GEM2387" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2389 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Voerendaal (gemeente)" ;
+    kerngis:Value "GEM2389" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2390 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Voorschoten (gemeente)" ;
+    kerngis:Value "GEM2390" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2391 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Voorst (gemeente)" ;
+    kerngis:Value "GEM2391" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2392 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Vught (gemeente)" ;
+    kerngis:Value "GEM2392" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2393 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waalre (gemeente)" ;
+    kerngis:Value "GEM2393" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2394 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waalwijk (gemeente)" ;
+    kerngis:Value "GEM2394" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2395 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waddinxveen (gemeente)" ;
+    kerngis:Value "GEM2395" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2396 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wageningen (gemeente)" ;
+    kerngis:Value "GEM2396" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2397 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wassenaar (gemeente)" ;
+    kerngis:Value "GEM2397" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2398 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waterland (gemeente)" ;
+    kerngis:Value "GEM2398" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2399 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Weert (gemeente)" ;
+    kerngis:Value "GEM2399" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2400 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Weesp (gemeente)" ;
+    kerngis:Value "GEM2400" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2401 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Werkendam (gemeente)" ;
+    kerngis:Value "GEM2401" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2402 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wervershoof (gemeente)" ;
+    kerngis:Value "GEM2402" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2403 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Westland (gemeente)" ;
+    kerngis:Value "GEM2403" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2404 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "West Maas en Waal (gemeente)" ;
+    kerngis:Value "GEM2404" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2405 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Westerveld (gemeente)" ;
+    kerngis:Value "GEM2405" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2406 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Westervoort (gemeente)" ;
+    kerngis:Value "GEM2406" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2407 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Weststellingwerf (gemeente)" ;
+    kerngis:Value "GEM2407" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2408 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Westvoorne (gemeente)" ;
+    kerngis:Value "GEM2408" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2409 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wierden (gemeente)" ;
+    kerngis:Value "GEM2409" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2410 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hollands Kroon (gemeente)" ;
+    kerngis:Value "GEM2410" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2412 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wijchen (gemeente)" ;
+    kerngis:Value "GEM2412" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2413 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wijdemeren (gemeente)" ;
+    kerngis:Value "GEM2413" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2414 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wijk bij Duurstede (gemeente)" ;
+    kerngis:Value "GEM2414" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2416 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Winsum (gemeente)" ;
+    kerngis:Value "GEM2416" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2417 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Winterswijk (gemeente)" ;
+    kerngis:Value "GEM2417" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2419 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Woensdrecht (gemeente)" ;
+    kerngis:Value "GEM2419" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2420 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Woerden (gemeente)" ;
+    kerngis:Value "GEM2420" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2421 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "De Wolden (gemeente)" ;
+    kerngis:Value "GEM2421" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2422 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wormerland (gemeente)" ;
+    kerngis:Value "GEM2422" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2423 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Woudenberg (gemeente)" ;
+    kerngis:Value "GEM2423" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2424 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Woudrichem (gemeente)" ;
+    kerngis:Value "GEM2424" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2426 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zaanstad (gemeente)" ;
+    kerngis:Value "GEM2426" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2427 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zaltbommel (gemeente)" ;
+    kerngis:Value "GEM2427" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2428 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zandvoort (gemeente)" ;
+    kerngis:Value "GEM2428" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2429 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zederik (gemeente)" ;
+    kerngis:Value "GEM2429" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2430 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zeevang (gemeente)" ;
+    kerngis:Value "GEM2430" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2431 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zeewolde (gemeente)" ;
+    kerngis:Value "GEM2431" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2432 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zeist (gemeente)" ;
+    kerngis:Value "GEM2432" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2433 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zevenaar (gemeente)" ;
+    kerngis:Value "GEM2433" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2435 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zijpe (gemeente)" ;
+    kerngis:Value "GEM2435" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2436 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zoetermeer (gemeente)" ;
+    kerngis:Value "GEM2436" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2437 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zoeterwoude (gemeente)" ;
+    kerngis:Value "GEM2437" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2438 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zuidhorn (gemeente)" ;
+    kerngis:Value "GEM2438" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2439 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zundert (gemeente)" ;
+    kerngis:Value "GEM2439" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2440 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zutphen (gemeente)" ;
+    kerngis:Value "GEM2440" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2441 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zwartewaterland (gemeente)" ;
+    kerngis:Value "GEM2441" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2442 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zwijndrecht (gemeente)" ;
+    kerngis:Value "GEM2442" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2443 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zwolle (gemeente)" ;
+    kerngis:Value "GEM2443" .
+
+kerngis:dabeheerdereigenaaronderhouder-GEM2444 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "De Friese Meren (gemeente)" ;
+    kerngis:Value "GEM2444" .
+
+kerngis:dabeheerdereigenaaronderhouder-MNN a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "RWS Midden-Nederland District Noord" ;
+    kerngis:Value "MNN" .
+
+kerngis:dabeheerdereigenaaronderhouder-MNZ a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "RWS Midden-Nederland District Zuid" ;
+    kerngis:Value "MNZ" .
+
+kerngis:dabeheerdereigenaaronderhouder-NNO a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "RWS Noord-Nederland District Oost" ;
+    kerngis:Value "NNO" .
+
+kerngis:dabeheerdereigenaaronderhouder-NNW a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "RWS Noord-Nederland District West" ;
+    kerngis:Value "NNW" .
+
+kerngis:dabeheerdereigenaaronderhouder-ONN a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "RWS Oost-Nederland District Noord" ;
+    kerngis:Value "ONN" .
+
+kerngis:dabeheerdereigenaaronderhouder-ONO a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "RWS Oost-Nederland District Oost" ;
+    kerngis:Value "ONO" .
+
+kerngis:dabeheerdereigenaaronderhouder-ONZ a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "RWS Oost-Nederland District Zuid" ;
+    kerngis:Value "ONZ" .
+
+kerngis:dabeheerdereigenaaronderhouder-OV a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Overig" ;
+    kerngis:Value "OV" .
+
+kerngis:dabeheerdereigenaaronderhouder-PPS a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Publiek-private samenwerking" ;
+    kerngis:Value "PPS" .
+
+kerngis:dabeheerdereigenaaronderhouder-PROV20 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Groningen (Provincie)" ;
+    kerngis:Value "PROV20" .
+
+kerngis:dabeheerdereigenaaronderhouder-PROV21 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Friesland (Provincie)" ;
+    kerngis:Value "PROV21" .
+
+kerngis:dabeheerdereigenaaronderhouder-PROV22 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Drenthe (Provincie)" ;
+    kerngis:Value "PROV22" .
+
+kerngis:dabeheerdereigenaaronderhouder-PROV23 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Overijssel (Provincie)" ;
+    kerngis:Value "PROV23" .
+
+kerngis:dabeheerdereigenaaronderhouder-PROV24 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Flevoland (Provincie)" ;
+    kerngis:Value "PROV24" .
+
+kerngis:dabeheerdereigenaaronderhouder-PROV25 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Gelderland (Provincie)" ;
+    kerngis:Value "PROV25" .
+
+kerngis:dabeheerdereigenaaronderhouder-PROV26 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Utrecht (Provincie)" ;
+    kerngis:Value "PROV26" .
+
+kerngis:dabeheerdereigenaaronderhouder-PROV27 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Noord-Holland (Provincie)" ;
+    kerngis:Value "PROV27" .
+
+kerngis:dabeheerdereigenaaronderhouder-PROV28 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zuid-Holland (Provincie)" ;
+    kerngis:Value "PROV28" .
+
+kerngis:dabeheerdereigenaaronderhouder-PROV29 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zeeland (Provincie)" ;
+    kerngis:Value "PROV29" .
+
+kerngis:dabeheerdereigenaaronderhouder-PROV30 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Noord-Brabant (Provincie)" ;
+    kerngis:Value "PROV30" .
+
+kerngis:dabeheerdereigenaaronderhouder-PROV31 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Limburg (Provincie)" ;
+    kerngis:Value "PROV31" .
+
+kerngis:dabeheerdereigenaaronderhouder-RWS405 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wegendistrict Flevoland en Afsluitdijk (RWS)" ;
+    kerngis:Value "RWS405" .
+
+kerngis:dabeheerdereigenaaronderhouder-RWS410 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wegendistrict Alkmaar (RWS)" ;
+    kerngis:Value "RWS410" .
+
+kerngis:dabeheerdereigenaaronderhouder-RWS420 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wegendistrict Amsterdam (RWS)" ;
+    kerngis:Value "RWS420" .
+
+kerngis:dabeheerdereigenaaronderhouder-RWS433 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wegendistrict Utrecht (RWS)" ;
+    kerngis:Value "RWS433" .
+
+kerngis:dabeheerdereigenaaronderhouder-RWS510 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wegendistrict Zeeland (RWS)" ;
+    kerngis:Value "RWS510" .
+
+kerngis:dabeheerdereigenaaronderhouder-RWS539 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wegendistrict Venlo (RWS)" ;
+    kerngis:Value "RWS539" .
+
+kerngis:dabeheerdereigenaaronderhouder-RWS549 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wegendistrict St. Joost (RWS)" ;
+    kerngis:Value "RWS549" .
+
+kerngis:dabeheerdereigenaaronderhouder-RWS580 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wegendistrict Breda (RWS)" ;
+    kerngis:Value "RWS580" .
+
+kerngis:dabeheerdereigenaaronderhouder-RWS581 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wegendistrict Eindhoven (RWS)" ;
+    kerngis:Value "RWS581" .
+
+kerngis:dabeheerdereigenaaronderhouder-RWS582 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wegendistrict `s-Hertogenbosch (RWS)" ;
+    kerngis:Value "RWS582" .
+
+kerngis:dabeheerdereigenaaronderhouder-RWS611 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wegendistrict Zwolle (RWS)" ;
+    kerngis:Value "RWS611" .
+
+kerngis:dabeheerdereigenaaronderhouder-RWS622 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wegendistrict Veluwe (RWS)" ;
+    kerngis:Value "RWS622" .
+
+kerngis:dabeheerdereigenaaronderhouder-RWS629 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wegendistrict Twente en Achterhoek (RWS)" ;
+    kerngis:Value "RWS629" .
+
+kerngis:dabeheerdereigenaaronderhouder-RWS644 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wegendistrict Arnhem-Nijmegen (RWS)" ;
+    kerngis:Value "RWS644" .
+
+kerngis:dabeheerdereigenaaronderhouder-RWS704 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wegendistrict Friesland (RWS)" ;
+    kerngis:Value "RWS704" .
+
+kerngis:dabeheerdereigenaaronderhouder-RWS711 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wegendistrict Groningen en Drenthe (RWS)" ;
+    kerngis:Value "RWS711" .
+
+kerngis:dabeheerdereigenaaronderhouder-STB a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Staatsbosbeheer" ;
+    kerngis:Value "STB" .
+
+kerngis:dabeheerdereigenaaronderhouder-VWM a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Verkeer- en Watermanagement (RWS)" ;
+    kerngis:Value "VWM" .
+
+kerngis:dabeheerdereigenaaronderhouder-WNNN a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "RWS West-Nederland Noord District Noord" ;
+    kerngis:Value "WNNN" .
+
+kerngis:dabeheerdereigenaaronderhouder-WNNZ a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "RWS West-Nederland Noord District Zuid" ;
+    kerngis:Value "WNNZ" .
+
+kerngis:dabeheerdereigenaaronderhouder-WNZN a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "RWS West-Nederland Zuid District Noord" ;
+    kerngis:Value "WNZN" .
+
+kerngis:dabeheerdereigenaaronderhouder-WNZZ a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "RWS West-Nederland Zuid District Zuid" ;
+    kerngis:Value "WNZZ" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS101 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waterschap Noorderzijlvest (Groningen, Friesland en Drenthe)" ;
+    kerngis:Value "WS101" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS102 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waterschap Hunze en Aa's (Groningen en Drenthe)" ;
+    kerngis:Value "WS102" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS103 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Wetterskip Frysl?n (Friesland en Groningen)" ;
+    kerngis:Value "WS103" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS104 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waterschap Blija Buitendijks (Friesland)" ;
+    kerngis:Value "WS104" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS105 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waterschap Reest en Wieden (Drenthe en Overijssel)" ;
+    kerngis:Value "WS105" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS106 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waterschap Velt en Vecht (Drenthe en Overijssel)" ;
+    kerngis:Value "WS106" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS107 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waterschap Groot Salland (Overijssel)" ;
+    kerngis:Value "WS107" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS108 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waterschap Regge en Dinkel (Overijssel)" ;
+    kerngis:Value "WS108" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS109 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waterschap Zuiderzeeland (Flevoland)" ;
+    kerngis:Value "WS109" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS110 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hoogheemraadschap Hollands Noorderkwartier (Noord-Holland)" ;
+    kerngis:Value "WS110" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS111 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hoogheemraadschap Amstel, Gooi en Vecht (Noord-Holland en Utrecht)" ;
+    kerngis:Value "WS111" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS112 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hoogheemraadschap De Stichtse Rijnlanden (Utrecht en Zuid-Holland)" ;
+    kerngis:Value "WS112" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS113 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waterschap Vallei en Veluwe (Utrecht en Gelderland)" ;
+    kerngis:Value "WS113" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS115 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waterschap Rijn en IJssel (Gelderland)" ;
+    kerngis:Value "WS115" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS116 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waterschap Rivierenland (Gelderland, Zuid-Holland, Noord-Brabant en Utrecht)" ;
+    kerngis:Value "WS116" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS117 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hoogheemraadschap van Rijnland (Zuid-Holland en Noord-Holland)" ;
+    kerngis:Value "WS117" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS118 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hoogheemraadschap van Delfland (Zuid-Holland)" ;
+    kerngis:Value "WS118" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS119 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Hoogheemraadschap van Schieland en de Krimpenerwaard (Zuid-Holland)" ;
+    kerngis:Value "WS119" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS120 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waterschap Hollandse Delta (Zuid-Holland)" ;
+    kerngis:Value "WS120" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS121 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waterschap Scheldestromen (Zeeland)" ;
+    kerngis:Value "WS121" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS123 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waterschap Brabantse Delta (Noord-Brabant)" ;
+    kerngis:Value "WS123" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS124 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waterschap Aa en Maas (Noord-Brabant)" ;
+    kerngis:Value "WS124" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS125 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waterschap De Dommel (Noord-Brabant)" ;
+    kerngis:Value "WS125" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS126 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waterschap Peel en Maasvallei (Limburg)" ;
+    kerngis:Value "WS126" .
+
+kerngis:dabeheerdereigenaaronderhouder-WS127 a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Waterschap Roer en Overmaas (Limburg)" ;
+    kerngis:Value "WS127" .
+
+kerngis:dabeheerdereigenaaronderhouder-ZDN a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "RWS Zee en Delta District Noord" ;
+    kerngis:Value "ZDN" .
+
+kerngis:dabeheerdereigenaaronderhouder-ZDZ a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "RWS Zee en Delta District Zuid" ;
+    kerngis:Value "ZDZ" .
+
+kerngis:dabeheerdereigenaaronderhouder-ZHL a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "Zuid-Hollands Landschap" ;
+    kerngis:Value "ZHL" .
+
+kerngis:dabeheerdereigenaaronderhouder-ZNM a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "RWS Zuid-Nederland District Midden" ;
+    kerngis:Value "ZNM" .
+
+kerngis:dabeheerdereigenaaronderhouder-ZNW a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "RWS Zuid-Nederland District West" ;
+    kerngis:Value "ZNW" .
+
+kerngis:dabeheerdereigenaaronderhouder-ZNZO a kerngis:dabeheerdereigenaaronderhouder ;
+    kerngis:Name "RWS Zuid-Nederland District Zuid-Oost" ;
+    kerngis:Value "ZNZO" .
+
+kerngis:daboolean-0 a kerngis:daboolean ;
+    kerngis:Name "Neen" ;
+    kerngis:Value "0" .
+
+kerngis:daboolean-1 a kerngis:daboolean ;
+    kerngis:Name "Ja" ;
+    kerngis:Value "1" .
+
+kerngis:dadoelsoort-A a kerngis:dadoelsoort ;
+    kerngis:Name "Amfibieën" ;
+    kerngis:Value "A" .
+
+kerngis:dadoelsoort-CO a kerngis:dadoelsoort ;
+    kerngis:Name "Combinatie groot/ klein wild" ;
+    kerngis:Value "CO" .
+
+kerngis:dadoelsoort-GW a kerngis:dadoelsoort ;
+    kerngis:Name "Grootwild" ;
+    kerngis:Value "GW" .
+
+kerngis:dadoelsoort-Geen-informatie a kerngis:dadoelsoort ;
+    kerngis:Name "Geen informatie" ;
+    kerngis:Value "Geen informatie" .
+
+kerngis:dadoelsoort-KW a kerngis:dadoelsoort ;
+    kerngis:Name "Kleinwild" ;
+    kerngis:Value "KW" .
+
+kerngis:dadoelsoort-Niet-van-toepassing a kerngis:dadoelsoort ;
+    kerngis:Name "Niet van toepassing" ;
+    kerngis:Value "Niet van toepassing" .
+
+kerngis:dadoelsoort-Nog-in-te-winnen a kerngis:dadoelsoort ;
+    kerngis:Name "Nog in te winnen" ;
+    kerngis:Value "Nog in te winnen" .
+
+kerngis:dadoelsoort-OVERIG a kerngis:dadoelsoort ;
+    kerngis:Name "Overig" ;
+    kerngis:Value "OVERIG" .
+
+kerngis:dadoelsoort-R a kerngis:dadoelsoort ;
+    kerngis:Name "Reptielen" ;
+    kerngis:Value "R" .
+
+kerngis:daniveau--1 a kerngis:daniveau ;
+    kerngis:Name "MaaiveldMin1" ;
+    kerngis:Value "-1" .
+
+kerngis:daniveau--2 a kerngis:daniveau ;
+    kerngis:Name "MaaiveldMin2" ;
+    kerngis:Value "-2" .
+
+kerngis:daniveau--3 a kerngis:daniveau ;
+    kerngis:Name "MaaiveldMin3" ;
+    kerngis:Value "-3" .
+
+kerngis:daniveau--4 a kerngis:daniveau ;
+    kerngis:Name "MaaiveldMin4" ;
+    kerngis:Value "-4" .
+
+kerngis:daniveau-0 a kerngis:daniveau ;
+    kerngis:Name "Maaiveld" ;
+    kerngis:Value "0" .
+
+kerngis:daniveau-1 a kerngis:daniveau ;
+    kerngis:Name "MaaiveldPlus1" ;
+    kerngis:Value "1" .
+
+kerngis:daniveau-2 a kerngis:daniveau ;
+    kerngis:Name "MaaiveldPlus2" ;
+    kerngis:Value "2" .
+
+kerngis:daniveau-3 a kerngis:daniveau ;
+    kerngis:Name "MaaiveldPlus3" ;
+    kerngis:Value "3" .
+
+kerngis:daniveau-4 a kerngis:daniveau ;
+    kerngis:Name "MaaiveldPlus4" ;
+    kerngis:Value "4" .
+
+kerngis:dvkunstwerksoort-AQ a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Aquaduct" ;
+    kerngis:Value "AQ" .
+
+kerngis:dvkunstwerksoort-BB a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Brug beweegbaar" ;
+    kerngis:Value "BB" .
+
+kerngis:dvkunstwerksoort-BSG a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Beschoeiing" ;
+    kerngis:Value "BSG" .
+
+kerngis:dvkunstwerksoort-BV a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Vaste brug" ;
+    kerngis:Value "BV" .
+
+kerngis:dvkunstwerksoort-DK a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Duiker >1500 mm" ;
+    kerngis:Value "DK" .
+
+kerngis:dvkunstwerksoort-DW a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Damwand" ;
+    kerngis:Value "DW" .
+
+kerngis:dvkunstwerksoort-EC a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Ecoduct" ;
+    kerngis:Value "EC" .
+
+kerngis:dvkunstwerksoort-F a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Fly-over" ;
+    kerngis:Value "F" .
+
+kerngis:dvkunstwerksoort-FT a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Faunatunnel" ;
+    kerngis:Value "FT" .
+
+kerngis:dvkunstwerksoort-G a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Gemaal" ;
+    kerngis:Value "G" .
+
+kerngis:dvkunstwerksoort-GS a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Geluidbeperkende constructie (weg)" ;
+    kerngis:Value "GS" .
+
+kerngis:dvkunstwerksoort-Geen-informatie a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Geen informatie" ;
+    kerngis:Value "Geen informatie" .
+
+kerngis:dvkunstwerksoort-KRM a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Keermuur" ;
+    kerngis:Value "KRM" .
+
+kerngis:dvkunstwerksoort-KS a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Keersluis" ;
+    kerngis:Value "KS" .
+
+kerngis:dvkunstwerksoort-LH a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Landhoofd" ;
+    kerngis:Value "LH" .
+
+kerngis:dvkunstwerksoort-MR a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Muur" ;
+    kerngis:Value "MR" .
+
+kerngis:dvkunstwerksoort-Niet-van-toepassing a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Niet van toepassing" ;
+    kerngis:Value "Niet van toepassing" .
+
+kerngis:dvkunstwerksoort-Nog-in-te-winnen a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Nog in te winnen" ;
+    kerngis:Value "Nog in te winnen" .
+
+kerngis:dvkunstwerksoort-OK a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Overkluizing" ;
+    kerngis:Value "OK" .
+
+kerngis:dvkunstwerksoort-OND a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Onderdoorgang" ;
+    kerngis:Value "OND" .
+
+kerngis:dvkunstwerksoort-P a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Pijler" ;
+    kerngis:Value "P" .
+
+kerngis:dvkunstwerksoort-PKR a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Pompkelder" ;
+    kerngis:Value "PKR" .
+
+kerngis:dvkunstwerksoort-RST a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Rooster" ;
+    kerngis:Value "RST" .
+
+kerngis:dvkunstwerksoort-SL a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Sluis" ;
+    kerngis:Value "SL" .
+
+kerngis:dvkunstwerksoort-STW a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Stuw" ;
+    kerngis:Value "STW" .
+
+kerngis:dvkunstwerksoort-T a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Tunnel" ;
+    kerngis:Value "T" .
+
+kerngis:dvkunstwerksoort-TR a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Trap" ;
+    kerngis:Value "TR" .
+
+kerngis:dvkunstwerksoort-V a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Viaduct" ;
+    kerngis:Value "V" .
+
+kerngis:dvkunstwerksoort-VDL a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Open tunnelbak" ;
+    kerngis:Value "VDL" .
+
+kerngis:dvkunstwerksoort-WRW a kerngis:dvkunstwerksoort ;
+    kerngis:Name "Waterreguleringswerk" ;
+    kerngis:Value "WRW" .
+
+kerngis:vkunstwerk a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:DatumAanleg ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:Doelsoort ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:Niveau ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:DatumOpname ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:Shape ],
+        [ a owl:Restriction ;
+            owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:Status ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:Soort ],
+        [ a owl:Restriction ;
+            owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:Muteerder ],
+        [ a owl:Restriction ;
+            owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:ObjectTekst ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:Onderhouder ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:Beheerder ],
+        [ a owl:Restriction ;
+            owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:OudeDBWaarde ],
+        [ a owl:Restriction ;
+            owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:DatumInwin ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:Naam ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:Alias ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:Diskcode ],
+        [ a owl:Restriction ;
+            owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:DTB_ID ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:OBJECTID ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:Tekening ],
+        [ a owl:Restriction ;
+            owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:DiameterDuiker ],
+        [ a owl:Restriction ;
+            owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:DatumMutatie ],
+        [ a owl:Restriction ;
+            owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:ObjectCode ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:Photo ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:Hyperlink ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:Faunavoorziening ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:Eigenaar ],
+        [ a owl:Restriction ;
+            owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:Inwinner ],
+        nta:PhysicalObject ;
+    skos:definition """Als de veld 'SOORT' heeft waarde 'AV' is sprake van FeatureType 'Aanleginrichting veerpont' met de definitie: Een kadewand, oevermuur, damwandconstructie of steigerconstructie bij een veerpont waaraan schepen kunnen aanleggen.
+Als de veld 'SOORT' heeft waarde 'AQ' is sprake van FeatureType 'Aquaduct' met de definitie: Kunstwerk, waarmee een waterweg door een bakvormige constructie over een weg, spoorweg, waterweg, leiding of terreinverdieping wordt geleid.
+Als de veld 'SOORT' heeft waarde 'BV' is sprake van FeatureType 'Brug vast' met de definitie: Kunstwerk, waarmee een weg, spoorweg of leiding over een waterweg, leiding of terreinverdieping wordt geleid.
+Als de veld 'SOORT' heeft waarde 'BB' is sprake van FeatureType 'Brug beweegbaar' met de definitie: Een beweegbare verbinding voor het verkeer tussen twee punten die door een water zijn gescheiden.
+Als de veld 'SOORT' heeft waarde 'C' is sprake van FeatureType 'Coupure' met de definitie: Kunstwerk, demontabele kade in een weg (doorsnijding van een waterkering).
+Als de veld 'SOORT' heeft waarde 'DK' is sprake van FeatureType 'Duiker >1500 mm' met de definitie: Koker onder een weg, spoorweg, water of door een dam of dijk, welke koker een functie vervult in de waterhuishouding.
+Als de veld 'SOORT' heeft waarde 'GS' is sprake van FeatureType 'Geluidswering' met de definitie: Geluidswerend schermvormig element van bijv. beton, hout, aarde of glas.
+Als de veld 'SOORT' heeft waarde 'G' is sprake van FeatureType 'Gemaal' met de definitie: Kunstwerk/installatie dienend ter ontlasting van overtollig water of voor toevoer van water naar een gebied met watertekort.
+Als de veld 'SOORT' heeft waarde 'LH' is sprake van FeatureType 'Landhoofd' met de definitie: Steunpunt bestaande uit een grindbetonnen / metselwerk / natuurstenen opbouw of constructie, waarop een oplegging rust, niet zijnde een pijler.
+Als de veld 'SOORT' heeft waarde 'OK' is sprake van FeatureType 'Overkluizing (leidingstraat)' met de definitie: Een ove"""@nl ;
+    skos:prefLabel "vKunstwerk"@nl .
+
+kerngis:Alias a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    skos:definition "Bijnaam van het kunstwerk (of 2e naam)"@nl ;
+    skos:prefLabel "Alias"@nl .
+
+kerngis:Beheerder a owl:ObjectProperty ;
+    rdfs:range kerngis:dabeheerdereigenaaronderhouder ;
+    skos:definition "Instantie, die object beheert voor eigenaar"@nl ;
+    skos:prefLabel "Beheerder"@nl .
+
+kerngis:DTB_ID a owl:DatatypeProperty ;
+    rdfs:range xsd:integer ;
+    skos:definition "Leeg"@nl ;
+    skos:prefLabel "DTB_ID"@nl .
+
+kerngis:DatumAanleg a owl:DatatypeProperty ;
+    rdfs:range xsd:date ;
+    skos:definition "Datum van aanleg van het object"@nl ;
+    skos:prefLabel "DatumAanleg"@nl .
+
+kerngis:DatumInwin a owl:DatatypeProperty ;
+    rdfs:range xsd:date ;
+    skos:definition "Datum, waarop de gegevens zijn gewijzigd tijdens een controle"@nl ;
+    skos:prefLabel "DatumInwin"@nl .
+
+kerngis:DatumMutatie a owl:DatatypeProperty ;
+    rdfs:range xsd:date ;
+    skos:definition "Laatste datum, waarop object is gemuteerd"@nl ;
+    skos:prefLabel "DatumMutatie"@nl .
+
+kerngis:DatumOpname a owl:DatatypeProperty ;
+    rdfs:range xsd:date ;
+    skos:definition "Datum van opname van de geometrie in terrein"@nl ;
+    skos:prefLabel "DatumOpname"@nl .
+
+kerngis:DiameterDuiker a owl:DatatypeProperty ;
+    rdfs:range xsd:integer ;
+    skos:definition "Diameter van duiker"@nl ;
+    skos:prefLabel "DiameterDuiker"@nl .
+
+kerngis:Diskcode a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    skos:definition "Unieke code van een kunstwerk van het programma DISK van de Bouwdienst"@nl ;
+    skos:prefLabel "Diskcode"@nl .
+
+kerngis:Doelsoort a owl:ObjectProperty ;
+    rdfs:range kerngis:dadoelsoort ;
+    skos:definition "Type Fauna"@nl ;
+    skos:prefLabel "Doelsoort"@nl .
+
+kerngis:Eigenaar a owl:ObjectProperty ;
+    rdfs:range kerngis:dabeheerdereigenaaronderhouder ;
+    skos:definition "Instantie, die object in eigendom heeft"@nl ;
+    skos:prefLabel "Eigenaar"@nl .
+
+kerngis:Faunavoorziening a owl:ObjectProperty ;
+    rdfs:range kerngis:daboolean ;
+    skos:definition "Aanduiding of object een faunavoorziening betreft"@nl ;
+    skos:prefLabel "Faunavoorziening"@nl .
+
+kerngis:Hyperlink a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    skos:definition "Koppeling naar een extern bestand"@nl ;
+    skos:prefLabel "Hyperlink"@nl .
+
+kerngis:Inwinner a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    skos:definition "Degene, die bij controle gegevens van object heeft gewijzigd"@nl ;
+    skos:prefLabel "Inwinner"@nl .
+
+kerngis:Muteerder a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    skos:definition "Naam van laatste muteerder"@nl ;
+    skos:prefLabel "Muteerder"@nl .
+
+kerngis:Naam a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    skos:definition "Naam van het kunstwerk"@nl ;
+    skos:prefLabel "Naam"@nl .
+
+kerngis:Name a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    skos:definition "Naam van de domain waarde"@nl ;
+    skos:prefLabel "Name"@nl .
+
+kerngis:Niveau a owl:ObjectProperty ;
+    rdfs:range kerngis:daniveau ;
+    skos:definition "Aanduiding in laagnummers van hoogteligging topografielaag t.o.v. maaiveld"@nl ;
+    skos:prefLabel "Niveau"@nl .
+
+kerngis:OBJECTID a owl:DatatypeProperty ;
+    rdfs:range xsd:integer ;
+    skos:definition "Object ID van Kerngis"@nl ;
+    skos:prefLabel "OBJECTID"@nl .
+
+kerngis:ObjectCode a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    skos:definition "Koppelveld t.b.v. externe gegevenstabellen"@nl ;
+    skos:prefLabel "ObjectCode"@nl .
+
+kerngis:ObjectTekst a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    skos:definition "Thematische gegevens uit DTB"@nl ;
+    skos:prefLabel "ObjectTekst"@nl .
+
+kerngis:Onderhouder a owl:ObjectProperty ;
+    rdfs:range kerngis:dabeheerdereigenaaronderhouder ;
+    skos:definition "Instantie, die object voor beheerder onderhoud"@nl ;
+    skos:prefLabel "Onderhouder"@nl .
+
+kerngis:OudeDBWaarde a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    skos:definition "Oude DB waarde voor centralisatie"@nl ;
+    skos:prefLabel "OudeDBWaarde"@nl .
+
+kerngis:Photo a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    skos:definition "Koppeling naar een externe foto"@nl ;
+    skos:prefLabel "Photo"@nl .
+
+kerngis:Shape a owl:ObjectProperty ;
+    rdfs:range ogc:MultiPolygon ;
+    skos:definition "De karakteristieke voorstelling of zichtbare vorm van een geografisch object."@nl ;
+    skos:prefLabel "Shape"@nl .
+
+kerngis:Soort a owl:ObjectProperty ;
+    rdfs:range kerngis:dvkunstwerksoort ;
+    skos:definition "Object(groep)benaming"@nl ;
+    skos:prefLabel "Soort"@nl .
+
+kerngis:Status a owl:DatatypeProperty ;
+    rdfs:range xsd:integer ;
+    skos:definition "Controleveld: duidt aan of er fouten in de data zitten"@nl ;
+    skos:prefLabel "Status"@nl .
+
+kerngis:Tekening a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    skos:definition "Koppeling naar een externe tekening"@nl ;
+    skos:prefLabel "Tekening"@nl .
+
+kerngis:Value a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    skos:definition "Value van de domain waarde"@nl ;
+    skos:prefLabel "Value"@nl .
+
+kerngis:daboolean a owl:Class ;
+    rdfs:subClassOf kerngis:arcgis-domain ;
+    skos:prefLabel "daBoolean"@nl .
+
+kerngis:arcgis-domain a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:Name ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty kerngis:Value ],
+        nta:EnumerationType ;
+    skos:prefLabel "Arcgis Domain"@nl .
+
+kerngis:dadoelsoort a owl:Class ;
+    rdfs:subClassOf kerngis:arcgis-domain ;
+    skos:prefLabel "daDoelsoort"@nl .
+
+kerngis:daniveau a owl:Class ;
+    rdfs:subClassOf kerngis:arcgis-domain ;
+    skos:prefLabel "daNiveau"@nl .
+
+kerngis:dvkunstwerksoort a owl:Class ;
+    rdfs:subClassOf kerngis:arcgis-domain ;
+    skos:prefLabel "dvKunstwerkSoort"@nl .
+
+kerngis:dabeheerdereigenaaronderhouder a owl:Class ;
+    rdfs:subClassOf kerngis:arcgis-domain ;
+    skos:prefLabel "daBeheerderEigenaarOnderhouder"@nl .
+
