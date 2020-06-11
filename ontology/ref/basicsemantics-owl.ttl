@@ -1,0 +1,490 @@
+@prefix : <https://w3id.org/def/basicsemantics-owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/def/basicsemantics-owl> .
+
+<https://w3id.org/def/basicsemantics-owl> rdf:type owl:Ontology ;
+                                           owl:imports <http://qudt.org/schema/qudt> ,
+                                                       <http://qudt.org/vocab/quantitykind> ,
+                                                       <http://qudt.org/vocab/unit> ,
+                                                       <http://www.w3.org/2004/02/skos/core> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2002/07/owl#qualifiedCardinality
+owl:qualifiedCardinality rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#altLabel
+<http://www.w3.org/2004/02/skos/core#altLabel> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#example
+<http://www.w3.org/2004/02/skos/core#example> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#scopeNote
+<http://www.w3.org/2004/02/skos/core#scopeNote> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/def/basicsemantics-owl#abbreviation
+:abbreviation rdf:type owl:AnnotationProperty ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "abbreviation"@en ,
+                                                              "afkorting"@nl ;
+              rdfs:subPropertyOf <http://www.w3.org/2004/02/skos/core#altLabel> ;
+              rdfs:range xsd:string .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/def/basicsemantics-owl#begins
+:begins rdf:type owl:ObjectProperty ;
+        rdfs:domain :Event ;
+        rdfs:range :Activity ;
+        <http://www.w3.org/2004/02/skos/core#definition> "Deze relatie geldt tussen een Gebeurtenis en een Toestand."@nl ,
+                                                         "This relationship applies between an Event and a State."@en ;
+        <http://www.w3.org/2004/02/skos/core#example> "De blikseminslag (gebeurtenis) is het begin van de bosbrand (toestand)."@nl ,
+                                                      "The lightning strike (event) is the start of the forest fire (state)."@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "begins"@en ,
+                                                        "begint"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#describes
+:describes rdf:type owl:ObjectProperty ;
+           rdfs:domain :InformationObject ;
+           rdfs:range [ rdf:type owl:Class ;
+                        owl:unionOf ( :Activity
+                                      :Event
+                                      :InformationObject
+                                      :PhysicalObject
+                                      :State
+                                    )
+                      ] ;
+           <http://www.w3.org/2004/02/skos/core#definition> "Deze relatie geldt tussen een Informatie Object en een Fysiek Object, een Activiteit, een Gebeurtenis, een Toestand, een Tijdperiode, een Ruimtelijk Gebied of een ander Informatie Object."@nl ,
+                                                            "This relationship applies between an Information Object and a Physical Object, an Activity, an Event, a State, a Time Period, a Spatial Region or another Information Object."@en ;
+           <http://www.w3.org/2004/02/skos/core#example> "Neem de Ketelbrug. Daar is in de loop der tijden een waar dossier ontstaan van tekeningen, specificaties, rapporten, nota's, in analoge of in digitale vorm. Elk van deze documenten beschrijft de Ketelbrug en kan worden gezien als een instantie van een Informatie Object die de Ketelbrug beschrijft."@nl ,
+                                                         "Take the Ketel bridge. Over time, a dossier has been created of drawings, specifications, reports, invoices, in analogue or in digital form. Each of these documents describes the Ketelbrug and can be seen as an instance of an Information Object that describes the Ketelbrug. "@en ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "beschrijft"@nl ,
+                                                           "describes"@en .
+
+
+###  https://w3id.org/def/basicsemantics-owl#ends
+:ends rdf:type owl:ObjectProperty ;
+      rdfs:domain :Event ;
+      rdfs:range :Activity ;
+      <http://www.w3.org/2004/02/skos/core#definition> "Deze relatie geldt tussen een Gebeurtenis en een Toestand."@nl ,
+                                                       "This relationship applies between an Event and a State."@en ;
+      <http://www.w3.org/2004/02/skos/core#example> "Het onweer (gebeurtenis) beeindigde het mooie weer (toestand)."@nl ,
+                                                    "The thunderstorm (event) ended the nice weather (state)."@en ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "beeindigt"@nl ,
+                                                      "ends"@en .
+
+
+###  https://w3id.org/def/basicsemantics-owl#hasBoundary
+:hasBoundary rdf:type owl:ObjectProperty ;
+             rdfs:domain [ rdf:type owl:Class ;
+                           owl:unionOf ( :Activity
+                                         :PhysicalObject
+                                       )
+                         ] ;
+             rdfs:range :SpatialRegion ;
+             <http://www.w3.org/2004/02/skos/core#definition> "Deze relatie geldt tussen een Fysiek Object en een Ruimtelijk Gebied."@nl ,
+                                                              "This relationship applies between a Physical Object and a Spatial Region."@en ;
+             <http://www.w3.org/2004/02/skos/core#example> "A parcel is bounded by a 1D GML polyline."@en ,
+                                                           "Een perceel wordt begrensd door een 1D GML polyline."@nl ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "has boundary"@en ,
+                                                             "heeft begrenzing"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#hasInterior
+:hasInterior rdf:type owl:ObjectProperty ;
+             rdfs:domain [ rdf:type owl:Class ;
+                           owl:unionOf ( :Activity
+                                         :PhysicalObject
+                                       )
+                         ] ;
+             rdfs:range :SpatialRegion ;
+             <http://www.w3.org/2004/02/skos/core#definition> "Deze relatie geldt tussen een Fysiek Object en een (topologisch) Ruimtelijk Gebied, tussen een Activiteit en een Ruimtelijk Gebied en tussen een Toestand en een Ruimtelijk Gebied."@nl ,
+                                                              "This relationship applies between a Physical Object and a (topological) Spatial Region, between an Activity and a Spatial Region and between a State and a Spatial Region."@en ;
+             <http://www.w3.org/2004/02/skos/core#example> "An IfcSpace as physical space can have a Constructive Solid Geometry (CSG) representation as a special case of a 3D region in space."@nl ,
+                                                           "Een IfcSpace als fysieke ruimte kan een Constructive Solid Geometry (CSG) representatie hebben als speciaal geval van een 3D ruimtelijk gebied."@nl ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "has interior"@en ,
+                                                             "heeft inwendige"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#hasPart
+:hasPart rdf:type owl:ObjectProperty ;
+         <http://www.w3.org/2004/02/skos/core#definition> "Deze relatie, zoals al generiek geintroduceerd in de CMM, geldt tussen Fysiek Objecten onderling, tussen Informatie Objecten onderling of tussen Activiteiten onderling."@nl ,
+                                                          "This relationship, as already generically introduced in the CMM, applies between Physical Objects themselves, between Information Objects themselves or between Activities themselves."@en ;
+         <http://www.w3.org/2004/02/skos/core#example> "De fiets van Ellen (fysiek object) bestaat uit een frame, twee wielen en diverse andere onderdelen (allen fysieke objecten)."@nl ,
+                                                       "Ellen's bicycle (physical object) consists of a frame, two wheels and various other parts (all physical objects)."@en ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "has part"@en ,
+                                                         "heeft deel"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#hasPeriod
+:hasPeriod rdf:type owl:ObjectProperty ;
+           rdfs:domain [ rdf:type owl:Class ;
+                         owl:unionOf ( :Activity
+                                       :PhysicalObject
+                                     )
+                       ] ;
+           rdfs:range :TemporalRegion ;
+           <http://www.w3.org/2004/02/skos/core#definition> "Deze relatie geldt tussen een Toestand en een Tijdperiode of tussen een Fysiek Object en een Tijdperiode."@nl ,
+                                                            "This relationship applies between a Condition and a Time Period or between a Physical Object and a Time Period."@en ;
+           <http://www.w3.org/2004/02/skos/core#example> "From Friday 26 July up to and including Sunday 18 August 2019 (time period) the N231 (physical object) is completely closed off (condition) due to major maintenance (activity)."@en ,
+                                                         "Van vrijdag 26 juli tot en met zondag 18 augustus 2019 (tijdperiode) is de N231 (fysiek object) volledig afgesloten (toestand) vanwege groot onderhoud (activiteit)."@nl ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "has period"@en ,
+                                                           "heeft periode"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#hasSpatialLocation
+:hasSpatialLocation rdf:type owl:ObjectProperty ;
+                    rdfs:domain :SpatialRegion ;
+                    rdfs:range :SpatialLocation ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "has spatial location"@en ,
+                                                                    "heeft ruimtelocatie"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#hasSpatialReference
+:hasSpatialReference rdf:type owl:ObjectProperty ;
+                     rdfs:domain :SpatialLocation ;
+                     rdfs:range :SpatialReference ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "has spatial reference"@en ,
+                                                                     "heeft ruimtereferentie"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#hasSpatialReferenceSystem
+:hasSpatialReferenceSystem rdf:type owl:ObjectProperty ;
+                           rdfs:domain :SpatialLocation ;
+                           rdfs:range :SpatialReferenceSystem ;
+                           <http://www.w3.org/2004/02/skos/core#prefLabel> "has spatial reference system"@en ,
+                                                                           "heeft ruimtereferentiesysteem"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#hasState
+:hasState rdf:type owl:ObjectProperty ;
+          rdfs:domain [ rdf:type owl:Class ;
+                        owl:unionOf ( :Activity
+                                      :PhysicalObject
+                                    )
+                      ] ;
+          rdfs:range :State ;
+          <http://www.w3.org/2004/02/skos/core#definition> "Deze relatie geldt tussen een Activiteit en een Toestand of tussen een Fysiek Object en een Toestand."@nl ,
+                                                           "This relationship applies between an Activity and a State or between a Physical Object and a State."@en ;
+          <http://www.w3.org/2004/02/skos/core#example> "A state can contain multiple parameters. In this way, the air pressure, temperature and humidity of a piece of atmosphere can be recorded. These three parameters then define the state of the atmosphere at a certain location and time."@en ,
+                                                        "Een toestand kan meerdere parameters bevatten. Zo kan van een stukje atmosfeer zowel de luchtdruk, temperatuur als de luchtvochtigheid worden vastgelegd. Deze drie parameters definieren dan de toestand van de atmosfeer op een bepaalde locatie en een bepaald tijdstip."@nl ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "has state"@en ,
+                                                          "heeft toestand"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#hasTemporalLocation
+:hasTemporalLocation rdf:type owl:ObjectProperty ;
+                     rdfs:domain :TemporalRegion ;
+                     rdfs:range :TemporalLocation ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "has temporal location"@en ,
+                                                                     "heeft tijdlocatie"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#hasTemporalReference
+:hasTemporalReference rdf:type owl:ObjectProperty ;
+                      rdfs:domain :TemporalLocation ;
+                      rdfs:range :TemporalReference ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "has temporal reference"@en ,
+                                                                      "heeft tijdreferentie"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#hasTemporalReferenceSystem
+:hasTemporalReferenceSystem rdf:type owl:ObjectProperty ;
+                            rdfs:domain :TemporalLocation ;
+                            rdfs:range :TemporalReferenceSystem ;
+                            <http://www.w3.org/2004/02/skos/core#prefLabel> "has temporal reference system"@en ,
+                                                                            "heeft tijdreferentiesysteem"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#performs
+:performs rdf:type owl:ObjectProperty ;
+          rdfs:domain :PhysicalObject ;
+          rdfs:range :Activity ;
+          <http://www.w3.org/2004/02/skos/core#definition> "Deze relatie geldt tussen een Fysiek Object en een Activiteit."@nl ,
+                                                           "This relationship applies between a Physical Object and an Activity."@en ;
+          <http://www.w3.org/2004/02/skos/core#example> "Het Lassen van een brugleuning (een activiteit) wordt uitgevoerd met behulp van een Lasapparaat (fysiek object) en de Lasser (fysiek object)."@nl ,
+                                                        "The welding of a bridge railing (an activity) is carried out with the aid of a welding machine (physical object) and the welder (physical object)."@en ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "performs"@en ,
+                                                          "voert uit"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#quantityKind
+:quantityKind rdf:type owl:ObjectProperty ;
+              rdfs:range <http://qudt.org/schema/qudt/QuantityKind> ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "grootheid"@nl ,
+                                                              "quantity kind"@en .
+
+
+###  https://w3id.org/def/basicsemantics-owl#transforms
+:transforms rdf:type owl:ObjectProperty ;
+            rdfs:domain :Activity ;
+            rdfs:range :PhysicalObject ;
+            <http://www.w3.org/2004/02/skos/core#definition> "Deze relatie geldt tussen een Activiteit en een Fysiek Object of tussen een Activiteit en een Informatie Object."@nl ,
+                                                             "This relationship applies between an Activity and a Physical Object or between an Activity and an Information Object."@en ;
+            <http://www.w3.org/2004/02/skos/core#example> "Baking (an activity) transforms a pizza (a physical object) from unbaked (a state) to baked (another state)."@en ,
+                                                          "Het Bakken (een activiteit) transformeert een pizza (een fysiek object) van ongebakken (een toestand) naar gebakken (een andere toestand)."@nl ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "transformeert"@nl ,
+                                                            "transforms"@en .
+
+
+###  https://w3id.org/def/basicsemantics-owl#triggers
+:triggers rdf:type owl:ObjectProperty ;
+          rdfs:domain [ rdf:type owl:Class ;
+                        owl:unionOf ( :Activity
+                                      :PhysicalObject
+                                    )
+                      ] ;
+          rdfs:range :Event ;
+          <http://www.w3.org/2004/02/skos/core#definition> "Deze relatie geldt tussen een Gebeurtenis en een Activiteit en een Gebeurtenis en een Fysiek Object."@nl ,
+                                                           "This relationship applies between an Event and an Activity and an Event and a Physical Object."@en ;
+          <http://www.w3.org/2004/02/skos/core#example> "Neem een Verkeersongeval (een gebeurtenis). Deze initieert de komst van de hulpdiensten (een activiteit)."@nl ,
+                                                        "Take a traffic accident (an event). This initiates the arrival of the emergency services (an activity)."@en ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "triggers"@en ,
+                                                          "triggert"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#unit
+:unit rdf:type owl:ObjectProperty ;
+      rdfs:range <http://qudt.org/schema/qudt/Unit> ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "eenheid"@nl ,
+                                                      "unit"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://org.semanticweb.owlapi/error#Error1
+<http://org.semanticweb.owlapi/error#Error1> rdf:type owl:Class .
+
+
+###  http://qudt.org/schema/qudt/QuantityKind
+<http://qudt.org/schema/qudt/QuantityKind> rdf:type owl:Class .
+
+
+###  http://qudt.org/schema/qudt/Unit
+<http://qudt.org/schema/qudt/Unit> rdf:type owl:Class .
+
+
+###  https://w3id.org/def/basicsemantics-owl#Activity
+:Activity rdf:type owl:Class ;
+          rdfs:subClassOf owl:Thing ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasPart ;
+                            owl:allValuesFrom :Activity
+                          ] ;
+          <http://www.w3.org/2004/02/skos/core#definition> "An activity is something possibly or actual happens in space and time" ;
+          <http://www.w3.org/2004/02/skos/core#example> "Fluid pressure measurement, driving a car are examples of an <activity> " ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "activiteit"@nl ,
+                                                          "activity"@en ;
+          <http://www.w3.org/2004/02/skos/core#scopeNote> "Process, function, human activity, machine activity, task, procedure, project are subclasses of <Activity>." .
+
+
+###  https://w3id.org/def/basicsemantics-owl#AddressSystem
+:AddressSystem rdf:type owl:Class ;
+               rdfs:subClassOf :SpatialReferenceSystem ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "address system"@en ,
+                                                               "adressysteem"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#CalendarSystem
+:CalendarSystem rdf:type owl:Class ;
+                rdfs:subClassOf :TemporalReferenceSystem ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "calendar system"@en ,
+                                                                "kalendersysteem"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#CoordinateReferenceSystem
+:CoordinateReferenceSystem rdf:type owl:Class ;
+                           rdfs:subClassOf :SpatialReferenceSystem ;
+                           <http://www.w3.org/2004/02/skos/core#prefLabel> "coordinaatreferentiesysteem"@nl ,
+                                                                           "coordinate reference system"@en .
+
+
+###  https://w3id.org/def/basicsemantics-owl#EnumerationType
+:EnumerationType rdf:type owl:Class ;
+                 rdfs:subClassOf owl:Thing ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "The superclass of all user-defined enumeration classes where the allowed enumeration items are individuals" ;
+                 <http://www.w3.org/2004/02/skos/core#example> "LoadLevelType being Low, Medium or High" ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "enumeratietype"@nl ,
+                                                                 "enumeration type"@en .
+
+
+###  https://w3id.org/def/basicsemantics-owl#Event
+:Event rdf:type owl:Class ;
+       rdfs:subClassOf owl:Thing ;
+       <http://www.w3.org/2004/02/skos/core#definition> "A thing that happens or takes place and marks the beginning or ending of an activity or state" ;
+       <http://www.w3.org/2004/02/skos/core#example> "The connection of power to pump P_101, the take-off of a aeroplane are examples of an <Event>. " ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "event"@en ,
+                                                       "gebeurtenis"@nl ;
+       <http://www.w3.org/2004/02/skos/core#scopeNote> "Transition, cause, effect, risk, milestone, issue, accident, point in time are subclasses of <Event>." .
+
+
+###  https://w3id.org/def/basicsemantics-owl#IndexKnownSpatialLocations
+:IndexKnownSpatialLocations rdf:type owl:Class ;
+                            rdfs:subClassOf :SpatialReferenceSystem ;
+                            <http://www.w3.org/2004/02/skos/core#prefLabel> "index bekende ruimtelijke plaatsen"@nl ,
+                                                                            "index known spatial locations"@en .
+
+
+###  https://w3id.org/def/basicsemantics-owl#InformationObject
+:InformationObject rdf:type owl:Class ;
+                   rdfs:subClassOf owl:Thing ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasPart ;
+                                     owl:allValuesFrom :InformationObject
+                                   ] ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "Thing that is a whole of information on itself and has an own identity" ;
+                   <http://www.w3.org/2004/02/skos/core#example> "a file within a computer system, the PDF file with URI http://materialcertificate/M-101-1234.pdf are examples of <InformationObject> " ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "informatieobject"@nl ,
+                                                                   "information object"@en ;
+                   <http://www.w3.org/2004/02/skos/core#scopeNote> "Requirement, document, statement, E-mail, code, identifier are subclasses of<InformationObject> ." .
+
+
+###  https://w3id.org/def/basicsemantics-owl#LinearReferenceSystem
+:LinearReferenceSystem rdf:type owl:Class ;
+                       rdfs:subClassOf :SpatialReferenceSystem ;
+                       <http://www.w3.org/2004/02/skos/core#prefLabel> "lineair referentiesysteem"@nl ,
+                                                                       "linear reference system"@en .
+
+
+###  https://w3id.org/def/basicsemantics-owl#PhysicalObject
+:PhysicalObject rdf:type owl:Class ;
+                rdfs:subClassOf owl:Thing ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasPart ;
+                                  owl:allValuesFrom :PhysicalObject
+                                ] ;
+                <http://www.w3.org/2004/02/skos/core#definition> "Is something that possibly or actually exists in space and time, perceivable through the senses" ;
+                <http://www.w3.org/2004/02/skos/core#example> "Pump P_101, a single living organism are examples of a <PhysicalObject>" ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "fysiek object"@nl ,
+                                                                "physical object"@en ;
+                <http://www.w3.org/2004/02/skos/core#scopeNote> "Artefact, matter, person, organisation, stream, connection are subclasses of <PhysicalObject>." .
+
+
+###  https://w3id.org/def/basicsemantics-owl#QuantityValue
+:QuantityValue rdf:type owl:Class ;
+               rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error1> ,
+                               owl:Thing ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "kwantiteitwaarde"@nl ,
+                                                               "quantity value"@en .
+
+
+###  https://w3id.org/def/basicsemantics-owl#SpatialLocation
+:SpatialLocation rdf:type owl:Class ;
+                 rdfs:subClassOf owl:Thing ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "ruimtelocatie"@nl ,
+                                                                 "spatial location"@en .
+
+
+###  https://w3id.org/def/basicsemantics-owl#SpatialReference
+:SpatialReference rdf:type owl:Class ;
+                  rdfs:subClassOf owl:Thing ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "ruimtereferentie"@nl ,
+                                                                  "spatial reference"@en .
+
+
+###  https://w3id.org/def/basicsemantics-owl#SpatialReferenceSystem
+:SpatialReferenceSystem rdf:type owl:Class ;
+                        rdfs:subClassOf owl:Thing ;
+                        <http://www.w3.org/2004/02/skos/core#prefLabel> "ruimtereferentiesysteem"@nl ,
+                                                                        "spatial reference system"@en .
+
+
+###  https://w3id.org/def/basicsemantics-owl#SpatialRegion
+:SpatialRegion rdf:type owl:Class ;
+               rdfs:subClassOf owl:Thing ;
+               <http://www.w3.org/2004/02/skos/core#definition> "Demarcated space" ;
+               <http://www.w3.org/2004/02/skos/core#example> "an IFC BREP or GeoSPARQL geometry representing a physical space, as special case of a physical object, such as an office space, a construction area for a building, a maritime traffic zone within the Channel, a hazard zone within a plant or the loading gauge of a train are examples of a <SpatialRegion>" ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "ruimtelijk gebied"@nl ,
+                                                               "spatial region"@en .
+
+
+###  https://w3id.org/def/basicsemantics-owl#State
+:State rdf:type owl:Class ;
+       rdfs:subClassOf owl:Thing ;
+       <http://www.w3.org/2004/02/skos/core#definition> "A particular condition that something is in during a specific period in time" ;
+       <http://www.w3.org/2004/02/skos/core#example> "well-functioning of a car, the condition of an elevator of being un-safe are examples of a <State>" ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "state"@en ,
+                                                       "toestand"@nl ;
+       <http://www.w3.org/2004/02/skos/core#scopeNote> "Condition, failure state, objective are subclasses of <State>." .
+
+
+###  https://w3id.org/def/basicsemantics-owl#TemporalCoordinateReferenceSystem
+:TemporalCoordinateReferenceSystem rdf:type owl:Class ;
+                                   rdfs:subClassOf :TemporalReferenceSystem ;
+                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "temporal coordinate reference system"@en ,
+                                                                                   "tijdcoordinaatreferentiesysteem"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#TemporalLocation
+:TemporalLocation rdf:type owl:Class ;
+                  rdfs:subClassOf owl:Thing ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "temporal location"@en ,
+                                                                  "tijdlocatie"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#TemporalReference
+:TemporalReference rdf:type owl:Class ;
+                   rdfs:subClassOf owl:Thing ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "temporal reference"@en ,
+                                                                   "tijdreferentie"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#TemporalReferenceSystem
+:TemporalReferenceSystem rdf:type owl:Class ;
+                         <http://www.w3.org/2004/02/skos/core#prefLabel> "temporal reference system"@en ,
+                                                                         "tijdreferentiesysteem"@nl .
+
+
+###  https://w3id.org/def/basicsemantics-owl#TemporalRegion
+:TemporalRegion rdf:type owl:Class ;
+                rdfs:subClassOf owl:Thing ;
+                <http://www.w3.org/2004/02/skos/core#definition> "A length or portion of time" ;
+                <http://www.w3.org/2004/02/skos/core#example> "week 12 in 2019, design stage of the Schiphol tunnel are examples of a <TemporalRegion>" ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "temporal region"@en ,
+                                                                "temporeel gebied"@nl ;
+                <http://www.w3.org/2004/02/skos/core#scopeNote> "Week, day, life cycle stage are subclasses of <TemporalRegion>." .
+
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+] .
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+   owl:members ( :Activity
+                 :Event
+                 :InformationObject
+                 :PhysicalObject
+                 :SpatialRegion
+                 :State
+                 :TemporalRegion
+               )
+ ] .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

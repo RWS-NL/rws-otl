@@ -1,0 +1,426 @@
+@prefix : <https://www.rws.nl/bms/ultimo/def#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://www.rws.nl/bms/ultimo/def> .
+
+<https://www.rws.nl/bms/ultimo/def> rdf:type owl:Ontology ;
+                                     owl:imports <https://w3id.org/def/basicsemantics-owl> ;
+                                     rdfs:comment "Dit model is gebaseerd op Ultimo RWS in juni 2020. Het is gemodelleerd met als uitgangspunt het OWL topmodel van de NTA 8035. De scope is beperkt tot bruggen."@nl ;
+                                     rdfs:label "Ultimo model t.b.v. Minicase"@nl .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/def/basicsemantics-owl#hasPart
+<https://w3id.org/def/basicsemantics-owl#hasPart> rdf:type owl:AnnotationProperty .
+
+
+###  https://www.rws.nl/bms/ultimo/def#naam
+:naam rdf:type owl:AnnotationProperty ;
+      rdfs:subPropertyOf rdfs:label .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://www.rws.nl/bms/ultimo/def#district
+:district rdf:type owl:ObjectProperty ;
+          rdfs:domain <https://w3id.org/def/basicsemantics-owl#PhysicalObject> ;
+          rdfs:range :District .
+
+
+###  https://www.rws.nl/bms/ultimo/def#onderhoudstrategie
+:onderhoudstrategie rdf:type owl:ObjectProperty ;
+                    rdfs:range :Onderhoudstrategie .
+
+
+###  https://www.rws.nl/bms/ultimo/def#organisatieonderdeel
+:organisatieonderdeel rdf:type owl:ObjectProperty ;
+                      rdfs:domain <https://w3id.org/def/basicsemantics-owl#PhysicalObject> ;
+                      rdfs:range :Organisatieonderdeel .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://www.rws.nl/bms/ultimo/def#bouwjaar
+:bouwjaar rdf:type owl:DatatypeProperty ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Bouwjaar"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#topcode
+:topcode rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:range xsd:string ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Topcode"@nl .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://w3id.org/def/basicsemantics-owl#EnumerationType
+<https://w3id.org/def/basicsemantics-owl#EnumerationType> rdf:type owl:Class .
+
+
+###  https://w3id.org/def/basicsemantics-owl#PhysicalObject
+<https://w3id.org/def/basicsemantics-owl#PhysicalObject> rdf:type owl:Class .
+
+
+###  https://www.rws.nl/bms/ultimo/def#Complex
+:Complex rdf:type owl:Class ;
+         rdfs:subClassOf <https://w3id.org/def/basicsemantics-owl#PhysicalObject> ;
+         :naam "Complex"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#District
+:District rdf:type owl:Class ;
+          rdfs:subClassOf <https://w3id.org/def/basicsemantics-owl#EnumerationType> .
+
+
+###  https://www.rws.nl/bms/ultimo/def#Elementen
+:Elementen rdf:type owl:Class ;
+           rdfs:subClassOf <https://w3id.org/def/basicsemantics-owl#PhysicalObject> ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Elementen"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#Objecten
+:Objecten rdf:type owl:Class ;
+          rdfs:subClassOf <https://w3id.org/def/basicsemantics-owl#PhysicalObject> ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Objecten"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#Onderhoudstrategie
+:Onderhoudstrategie rdf:type owl:Class ;
+                    rdfs:subClassOf <https://w3id.org/def/basicsemantics-owl#EnumerationType> .
+
+
+###  https://www.rws.nl/bms/ultimo/def#Organisatieonderdeel
+:Organisatieonderdeel rdf:type owl:Class ;
+                      rdfs:subClassOf <https://w3id.org/def/basicsemantics-owl#EnumerationType> .
+
+
+###  https://www.rws.nl/bms/ultimo/def#00966
+<https://www.rws.nl/bms/ultimo/def#00966> rdf:type owl:Class ;
+                                          rdfs:subClassOf :Elementen ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Geleideconstructie"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#00973
+<https://www.rws.nl/bms/ultimo/def#00973> rdf:type owl:Class ;
+                                          rdfs:subClassOf :Elementen ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Hemelwaterafvoer (HWA)"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#00976
+<https://www.rws.nl/bms/ultimo/def#00976> rdf:type owl:Class ;
+                                          rdfs:subClassOf :Elementen ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Hoofddraagconstructie"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#01009
+<https://www.rws.nl/bms/ultimo/def#01009> rdf:type owl:Class ;
+                                          rdfs:subClassOf :Elementen ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Oplegging"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#01022
+<https://www.rws.nl/bms/ultimo/def#01022> rdf:type owl:Class ;
+                                          rdfs:subClassOf :Elementen ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Schampkant"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#01031
+<https://www.rws.nl/bms/ultimo/def#01031> rdf:type owl:Class ;
+                                          rdfs:subClassOf :Elementen ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Steunpunt"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#01048
+<https://www.rws.nl/bms/ultimo/def#01048> rdf:type owl:Class ;
+                                          rdfs:subClassOf :Elementen ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Verharding wegtype 1 (hoofdwegennet)"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#01054
+<https://www.rws.nl/bms/ultimo/def#01054> rdf:type owl:Class ;
+                                          rdfs:subClassOf :Elementen ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Verharding wegtype 7 (fietspaden)"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#01062
+<https://www.rws.nl/bms/ultimo/def#01062> rdf:type owl:Class ;
+                                          rdfs:subClassOf :Elementen ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Voegovergang"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#01097
+<https://www.rws.nl/bms/ultimo/def#01097> rdf:type owl:Class ;
+                                          rdfs:subClassOf :Elementen ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Talud"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#01167
+<https://www.rws.nl/bms/ultimo/def#01167> rdf:type owl:Class ;
+                                          rdfs:subClassOf :Objecten ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :district ;
+                                                            owl:allValuesFrom :District
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :organisatieonderdeel ;
+                                                            owl:allValuesFrom :Organisatieonderdeel
+                                                          ] ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Brug (vast)"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#01485
+<https://www.rws.nl/bms/ultimo/def#01485> rdf:type owl:Class ;
+                                          rdfs:subClassOf :Elementen ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Leuningconstructie"@nl .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://www.rws.nl/bms/ultimo/def#MN_Z
+:MN_Z rdf:type owl:NamedIndividual ,
+               :District ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "MN district Zuid"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#NN_O
+:NN_O rdf:type owl:NamedIndividual ,
+               :District ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "NN district Oost"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#NN_W
+:NN_W rdf:type owl:NamedIndividual ,
+               :District ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "NN district West"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#ON
+:ON rdf:type owl:NamedIndividual ,
+             :Organisatieonderdeel ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "ON (Oost-Nederland)"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#ONZ
+:ONZ rdf:type owl:NamedIndividual ,
+              :District ;
+     <http://www.w3.org/2004/02/skos/core#prefLabel> "ON district Zuid"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#ON_N
+:ON_N rdf:type owl:NamedIndividual ,
+               :District ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "ON district Noord"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#ON_O
+:ON_O rdf:type owl:NamedIndividual ,
+               :District ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "ON district Oost"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#ON_Z
+:ON_Z rdf:type owl:NamedIndividual ,
+               :District ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "ON district Zuid"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#RWS_MN
+:RWS_MN rdf:type owl:NamedIndividual ,
+                 :Organisatieonderdeel ;
+        <https://w3id.org/def/basicsemantics-owl#hasPart> <https://www.rws.nl/bms/ultimo/def#0010> .
+
+
+###  https://www.rws.nl/bms/ultimo/def#WNN_N
+:WNN_N rdf:type owl:NamedIndividual ,
+                :District ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "WNN district Noord"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#WNN_Z
+:WNN_Z rdf:type owl:NamedIndividual ,
+                :District ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "WNN district Zuid"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#WNZ0011
+:WNZ0011 rdf:type owl:NamedIndividual ,
+                  :Organisatieonderdeel ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "WNZ (West-Nederland Zuid)"@nl ;
+         <https://w3id.org/def/basicsemantics-owl#hasPart> <https://www.rws.nl/bms/ultimo/def#0016> ,
+                                                           <https://www.rws.nl/bms/ultimo/def#0017> ,
+                                                           <https://www.rws.nl/bms/ultimo/def#0032> .
+
+
+###  https://www.rws.nl/bms/ultimo/def#ZD_Z
+:ZD_Z rdf:type owl:NamedIndividual ,
+               :District ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "ZD district Zuid"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#ZN_M
+:ZN_M rdf:type owl:NamedIndividual ,
+               :District ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "ZN district Midden"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#ZN_W
+:ZN_W rdf:type owl:NamedIndividual ,
+               :District ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "ZN district West"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#ZN_ZO
+:ZN_ZO rdf:type owl:NamedIndividual ,
+                :District ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "ZN district Zuid-Oost"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#0006
+<https://www.rws.nl/bms/ultimo/def#0006> rdf:type owl:NamedIndividual ,
+                                                  :Organisatieonderdeel ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "VWM (Verkeer- en Watermanagement)"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#0008
+<https://www.rws.nl/bms/ultimo/def#0008> rdf:type owl:NamedIndividual ,
+                                                  :Organisatieonderdeel ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "MN (Midden-Nederland)"@nl ;
+                                         <https://w3id.org/def/basicsemantics-owl#hasPart> :MN_Z ,
+                                                                                           <https://www.rws.nl/bms/ultimo/def#0009> .
+
+
+###  https://www.rws.nl/bms/ultimo/def#0009
+<https://www.rws.nl/bms/ultimo/def#0009> rdf:type owl:NamedIndividual ,
+                                                  :District ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "MN district Noord"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#0010
+<https://www.rws.nl/bms/ultimo/def#0010> rdf:type owl:NamedIndividual ,
+                                                  :District ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "MN district Zuid"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#0014
+<https://www.rws.nl/bms/ultimo/def#0014> rdf:type owl:NamedIndividual ,
+                                                  :Organisatieonderdeel ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "WNN (West-Nederland Noord)"@nl ;
+                                         <https://w3id.org/def/basicsemantics-owl#hasPart> :WNN_N ,
+                                                                                           :WNN_Z .
+
+
+###  https://www.rws.nl/bms/ultimo/def#0015
+<https://www.rws.nl/bms/ultimo/def#0015> rdf:type owl:NamedIndividual ,
+                                                  :Organisatieonderdeel ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "NN (Noord-Nederland)"@nl ;
+                                         <https://w3id.org/def/basicsemantics-owl#hasPart> :NN_O ,
+                                                                                           :NN_W .
+
+
+###  https://www.rws.nl/bms/ultimo/def#0016
+<https://www.rws.nl/bms/ultimo/def#0016> rdf:type owl:NamedIndividual ,
+                                                  :District ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "WNZ district noord"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#0017
+<https://www.rws.nl/bms/ultimo/def#0017> rdf:type owl:NamedIndividual ,
+                                                  :District ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "WNZ district zuid"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#0018
+<https://www.rws.nl/bms/ultimo/def#0018> rdf:type owl:NamedIndividual ,
+                                                  :Organisatieonderdeel ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "GPO (Grote Projecten en Onderhoud)"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#0019
+<https://www.rws.nl/bms/ultimo/def#0019> rdf:type owl:NamedIndividual ,
+                                                  :Organisatieonderdeel ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "PPO (Programma's, Projecten en Onderhoud)"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#0020
+<https://www.rws.nl/bms/ultimo/def#0020> rdf:type owl:NamedIndividual ,
+                                                  :Organisatieonderdeel ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "CIV (Centrale Informatievoorziening )"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#0021
+<https://www.rws.nl/bms/ultimo/def#0021> rdf:type owl:NamedIndividual ,
+                                                  :Organisatieonderdeel ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "ZN (Zuid-Nederland)"@nl ;
+                                         <https://w3id.org/def/basicsemantics-owl#hasPart> :ZN_M ,
+                                                                                           :ZN_W ,
+                                                                                           :ZN_ZO .
+
+
+###  https://www.rws.nl/bms/ultimo/def#0022
+<https://www.rws.nl/bms/ultimo/def#0022> rdf:type owl:NamedIndividual ,
+                                                  :Organisatieonderdeel ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "ON (Oost-Nederland)"@nl ;
+                                         <https://w3id.org/def/basicsemantics-owl#hasPart> :ON_N ,
+                                                                                           :ON_O ,
+                                                                                           :ON_Z ,
+                                                                                           <https://www.rws.nl/bms/ultimo/def#0026> ,
+                                                                                           <https://www.rws.nl/bms/ultimo/def#0027> ,
+                                                                                           <https://www.rws.nl/bms/ultimo/def#0028> .
+
+
+###  https://www.rws.nl/bms/ultimo/def#0023
+<https://www.rws.nl/bms/ultimo/def#0023> rdf:type owl:NamedIndividual ,
+                                                  :Organisatieonderdeel ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "ZD (Zee en Delta)"@nl ;
+                                         <https://w3id.org/def/basicsemantics-owl#hasPart> :ZD_Z .
+
+
+###  https://www.rws.nl/bms/ultimo/def#0026
+<https://www.rws.nl/bms/ultimo/def#0026> rdf:type owl:NamedIndividual ,
+                                                  :District ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "ON district Oost"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#0027
+<https://www.rws.nl/bms/ultimo/def#0027> rdf:type owl:NamedIndividual ,
+                                                  :District ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "ON district Noord"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#0028
+<https://www.rws.nl/bms/ultimo/def#0028> rdf:type owl:NamedIndividual ,
+                                                  :District ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "ON district Zuid"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#0029
+<https://www.rws.nl/bms/ultimo/def#0029> rdf:type owl:NamedIndividual ,
+                                                  :Organisatieonderdeel ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "CD (Corporate Dienst)"@nl .
+
+
+###  https://www.rws.nl/bms/ultimo/def#0032
+<https://www.rws.nl/bms/ultimo/def#0032> rdf:type owl:NamedIndividual ,
+                                                  :District ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "WNZ Stormvloedkeringen"@nl .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
