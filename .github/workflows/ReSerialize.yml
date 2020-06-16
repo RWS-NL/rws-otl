@@ -22,9 +22,12 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    - uses: olafurpg/setup-scala@v6
+    - name: Set up JDK 11
+      uses: actions/setup-java@v1
       with:
-        java-version: adopt@1.11
+        java-version: 1.11
+        server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
+        settings-path: ${{ github.workspace }} # location for the settings.xml file
 
     # Runs a single command using the runners shell
     - name: Run ReSerialize for all ttl files in the ontology directory
