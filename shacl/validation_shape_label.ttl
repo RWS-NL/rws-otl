@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+[]
+    a sh:NodeShape ;
+    sh:targetSubjectsOf rdfs:subClassOf ;
+    sh:property [
+        sh:path [ sh:oneOrMorePath rdfs:subClassOf ] ;
+        sh:node <https://w3id.org/def/basicsemantics-owl#PhysicalObject> ;
+    ] ;
+    sh:property [
+        sh:message 'OTL-class needs a label' ;
+        sh:path rdfs:label ;
+        sh:patern '.+' ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:message 'OTL-class needs a skos-definition' ;
+        sh:path <http://www.w3.org/2004/02/skos/core#definition> ;
+        sh:patern '.+' ;
+        sh:minCount 1 ;
+    ] .
