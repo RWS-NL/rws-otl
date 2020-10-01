@@ -5,3 +5,12 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix test-case: <https://test-case#> .
 @base <https://test-case> .
+
+<https://test-case> a owl:Ontology ;
+    rdfs:comment """Dit is alleen ten behoefte om de modelleerlandshcap te testen.
+Het is het voorbeeld van brug modelleren met 3 kenmerken:
+- hoogte van type grootheid in meters
+- naam van type tekst
+- vorm projectie van type polygon
+- materiaal van type materiaal""" ;
+    skos:prefLabel "test modelleerlandschap case" .
