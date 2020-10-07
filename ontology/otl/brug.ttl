@@ -1,0 +1,55 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix test-case: <https://test-case#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://test-case> a owl:Ontology ;
+    rdfs:comment """Dit is alleen ten behoefte om de modelleerlandshcap te testen.
+Het is het voorbeeld van brug modelleren met 3 kenmerken:
+- hoogte van type grootheid in meters
+- naam van type tekst
+- vorm projectie van type polygon
+- materiaal van type materiaal""" ;
+    skos:prefLabel "test modelleerlandschap case" .
+
+test-case:A7IMTTSY4APQH a owl:NamedIndividual,
+        test-case:materiaal ;
+    skos:prefLabel "beton" .
+
+test-case:A7IMTVAF0S04B a owl:NamedIndividual,
+        test-case:materiaal ;
+    skos:prefLabel "ijzer" .
+
+test-case:prop-materiaal a owl:ObjectProperty ;
+    rdfs:domain test-case:brug ;
+    rdfs:range test-case:materiaal ;
+    skos:prefLabel "materiaal" .
+
+test-case:prop-naam a owl:DatatypeProperty ;
+    rdfs:domain test-case:brug ;
+    rdfs:range xsd:string ;
+    skos:prefLabel "Naam" .
+
+test-case:prop-vorm-projectie a owl:ObjectProperty ;
+    rdfs:domain test-case:brug ;
+    rdfs:range <http://www.opengis.net/ont/sf#Polygon> ;
+    skos:prefLabel "Vorm projectie" .
+
+test-case:brug a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty test-case:prop-naam ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty test-case:prop-materiaal ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty test-case:prop-vorm-projectie ] ;
+    skos:definition "Dit is een brug" ;
+    skos:prefLabel "Brug" .
+
+test-case:materiaal a owl:Class ;
+    skos:definition "Een lijst met materialen" ;
+    skos:prefLabel "materiaal" .
+
