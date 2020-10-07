@@ -1,0 +1,156 @@
+@prefix kerngis: <https://www.rws.nl/bms/kerngis/def#> .
+@prefix mapping: <https://www.rws.nl/mapping-bms#> .
+@prefix otl: <https://www.rws.nl/otl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ultimo: <https://www.rws.nl/bms/ultimo/def#> .
+
+<https://www.rws.nl/mapping-bms> a owl:Ontology ;
+    rdfs:label "Mapping model tussen otl en kerngis en ultimo tbv Minicase" ;
+    owl:imports <https://www.rws.nl/bms/kerngis/def>,
+        <https://www.rws.nl/bms/ultimo/def>,
+        <https://www.rws.nl/otl> .
+
+mapping:otl-complex-naam a owl:DatatypeProperty ;
+    rdfs:domain otl:complex ;
+    rdfs:subPropertyOf otl:naam ;
+    owl:equivalentProperty kerngis:Naam .
+
+mapping:otl-landhoofd a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:hasValue otl:steunpunt-type-lh ;
+            owl:onProperty otl:type ],
+        otl:steunpunt ;
+    owl:equivalentClass mapping:kerngis-landhoofd ;
+    skos:prefLabel "Otl Landhoofd" .
+
+mapping:otl-party-naam a owl:DatatypeProperty ;
+    rdfs:domain otl:party ;
+    rdfs:subPropertyOf otl:naam ;
+    owl:equivalentProperty mapping:kerngis-dabeheerdereigenaaronderhouder-naam .
+
+mapping:otl-pijler a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:hasValue otl:steunpunt-type-p ;
+            owl:onProperty otl:type ],
+        otl:steunpunt ;
+    owl:equivalentClass mapping:kerngis-pijler ;
+    skos:prefLabel "Otl Pijler" .
+
+mapping:otl-vaste-brug-naam a owl:DatatypeProperty ;
+    rdfs:domain otl:vaste-brug ;
+    rdfs:subPropertyOf otl:naam ;
+    owl:equivalentProperty kerngis:Naam .
+
+otl:bedrijf owl:equivalentClass mapping:kerngis-bedrijf .
+
+otl:bedrijf-fugro-inpark owl:sameAs mapping:kerngis-bedrijf-fugro-inpark .
+
+otl:beheerder owl:equivalentProperty kerngis:Beheerder .
+
+otl:code owl:equivalentProperty kerngis:ObjectCode .
+
+otl:datum-aanleg owl:equivalentProperty kerngis:DatumAanleg .
+
+otl:datum-inwin owl:equivalentProperty kerngis:DatumInwin .
+
+otl:datum-opname owl:equivalentProperty kerngis:DatumOpname .
+
+otl:district owl:equivalentClass ultimo:District,
+        mapping:kerngis-district .
+
+otl:district-onz owl:sameAs kerngis:dabeheerdereigenaaronderhouder-ONZ .
+
+otl:eigenaar owl:equivalentProperty kerngis:Eigenaar .
+
+otl:geleideconstructie owl:equivalentClass ultimo:00966 .
+
+otl:hoofddraagconstructie owl:equivalentClass ultimo:00976 .
+
+otl:inwinner owl:equivalentProperty kerngis:Inwinner .
+
+otl:leuningconstructie owl:equivalentClass ultimo:01485 .
+
+otl:niveau owl:equivalentClass kerngis:daniveau .
+
+otl:niveau-0 owl:sameAs kerngis:daniveau-0 .
+
+otl:niveau-1 owl:sameAs kerngis:daniveau-1 .
+
+otl:niveau-2 owl:sameAs kerngis:daniveau-2 .
+
+otl:niveau-3 owl:sameAs kerngis:daniveau-3 .
+
+otl:niveau-4 owl:sameAs kerngis:daniveau-4 .
+
+otl:niveau-ten-opzichte-van-maaiveld owl:equivalentProperty kerngis:Niveau .
+
+otl:onderhouder owl:equivalentProperty kerngis:Onderhouder .
+
+otl:oplegging owl:equivalentClass ultimo:01009 .
+
+otl:schampkant owl:equivalentClass ultimo:01022 .
+
+otl:talud owl:equivalentClass ultimo:01097 .
+
+otl:verharding-wegtype-1 owl:equivalentClass ultimo:01048 .
+
+otl:verharding-wegtype-7 owl:equivalentClass ultimo:01054 .
+
+otl:voegovergang owl:equivalentClass ultimo:01062 .
+
+otl:vorm-projectie owl:equivalentProperty kerngis:Shape .
+
+kerngis:dabeheerdereigenaaronderhouder-ONZ a mapping:kerngis-district .
+
+mapping:kerngis-bedrijf-fugro-inpark a mapping:kerngis-bedrijf ;
+    kerngis:Name "Fugro inpark" ;
+    kerngis:Value "Fugro-inpark" .
+
+mapping:kerngis-complex a owl:Class ;
+    skos:prefLabel "Kerngis Complex" .
+
+mapping:kerngis-dabeheerdereigenaaronderhouder-naam a owl:DatatypeProperty ;
+    rdfs:domain kerngis:dabeheerdereigenaaronderhouder ;
+    rdfs:subPropertyOf kerngis:Name .
+
+mapping:kerngis-landhoofd a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:hasValue kerngis:dvkunstwerksoort-LH ;
+            owl:onProperty kerngis:Soort ],
+        kerngis:vkunstwerk ;
+    skos:prefLabel "Kerngis Landhoofd" .
+
+mapping:kerngis-pijler a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:hasValue kerngis:dvkunstwerksoort-P ;
+            owl:onProperty kerngis:Soort ],
+        kerngis:vkunstwerk ;
+    skos:prefLabel "Kerngis Pijler" .
+
+mapping:kerngis-vaste-brug a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:hasValue kerngis:dvkunstwerksoort-BV ;
+            owl:onProperty kerngis:Soort ],
+        kerngis:vkunstwerk ;
+    skos:prefLabel "Kerngis Vaste brug" .
+
+otl:complex owl:equivalentClass ultimo:Complex,
+        mapping:kerngis-complex .
+
+otl:party owl:equivalentClass kerngis:dabeheerdereigenaaronderhouder .
+
+otl:vaste-brug owl:equivalentClass ultimo:01167,
+        mapping:kerngis-vaste-brug .
+
+mapping:kerngis-bedrijf a owl:Class ;
+    rdfs:subClassOf kerngis:dabeheerdereigenaaronderhouder ;
+    skos:prefLabel "Kerngis Bedrijf" .
+
+mapping:kerngis-district a owl:Class ;
+    rdfs:subClassOf kerngis:dabeheerdereigenaaronderhouder ;
+    skos:prefLabel "Kerngis District" .
+
+otl:steunpunt owl:equivalentClass ultimo:01031 .
+
