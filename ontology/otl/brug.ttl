@@ -13,4 +13,4 @@ Het is het voorbeeld van brug modelleren met 3 kenmerken:
 - naam van type tekst
 - vorm projectie van type polygon
 - materiaal van type materiaal""" ;
-    skos:prefLabel "test modelleerlandschap case" .
+    skos:prefLabel "test modelleerlandschap case - 1" .
