@@ -59,7 +59,7 @@ else
 	if [ ${succeed} -eq 0 ]; then
 		echo "COMMIT SUCCEEDED"
 	else
-		echo "COMMIT FAILED"
+		echo "COMMIT FAILED. One of .ttl files is not serialized. Run ReSerialize.sh"
 		exit 1
 	fi
 fi
