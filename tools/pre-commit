@@ -52,11 +52,10 @@ else
 	
 	for file in ${files}; do
 		# Validate each file using
-		git show :$file | $reserialize -f -
+		git show :$file | $reserialize -r -f -
 		succeed=$((${succeed}+$?))
 	done
-	
-	if [ ${succeed} -eq 0 ]; then
+	if [ ${succeed} -lt 2 ]; then
 		echo "COMMIT SUCCEEDED"
 	else
 		echo "COMMIT FAILED"
