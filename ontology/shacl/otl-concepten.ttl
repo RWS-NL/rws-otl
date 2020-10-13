@@ -1,4 +1,4 @@
-@prefix rws-phob: <http://otl.rws.nl/physical-object#> .
+@prefix : <http://otl.rws.nl/physical-object#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -26,35 +26,32 @@
 #################################################################
 
 ###  http://otl.rws.nl/physical-object#OB00428
-rws-phob:OB00428 rdf:type owl:Class ;
-                 rdfs:subClassOf <https://w3id.org/def/basicsemantics-owl#PhysicalObject> ;
-        rdfs:label "Overbrugging" ;
-        <http://www.w3.org/2004/02/skos/core#definition>
-        "Kruisingconstructie die wordt gekenmerkt door een constructie met minimaal twee steunpunten."@nl .
+:OB00428 rdf:type owl:Class ;
+         rdfs:subClassOf <https://w3id.org/def/basicsemantics-owl#PhysicalObject> ;
+         rdfs:label "Overbrugging" ;
+         <http://www.w3.org/2004/02/skos/core#definition> "Kruisingconstructie die wordt gekenmerkt door een constructie met minimaal twee steunpunten."@nl .
+
 
 ###  http://otl.rws.nl/physical-object#OB00436
-rws-phob:OB00436 rdf:type owl:Class ;
-         rdfs:subClassOf rws-phob:OB00428 ;
+:OB00436 rdf:type owl:Class ;
+         rdfs:subClassOf :OB00428 ;
          rdfs:label "Viaduct" ;
-         <http://www.w3.org/2004/02/skos/core#definition>
-                          "Kunstwerk dat een vaste overbrugging vormt over een weg, spoorweg of terrein."@nl ;
+         <http://www.w3.org/2004/02/skos/core#definition> "Kunstwerk dat een vaste overbrugging vormt over een weg, spoorweg of terrein."@nl ;
          <http://www.w3.org/2004/02/skos/core#related> "http://ont.cbnl.org/cb/def/Viaduct" .
 
 
 ###  http://otl.rws.nl/physical-object#OB00938
-rws-phob:OB00938 rdf:type owl:Class ;
-         rdfs:subClassOf rws-phob:OB01256 ;
+:OB00938 rdf:type owl:Class ;
+         rdfs:subClassOf :OB01256 ;
          rdfs:label "Steunpunt" ;
-         <http://www.w3.org/2004/02/skos/core#definition>
-                          "Een met de vaste wereld verbonden constructie waarop de hoofddraagconstructie wordt ondersteund."@nl ;
+         <http://www.w3.org/2004/02/skos/core#definition> "Een met de vaste wereld verbonden constructie waarop de hoofddraagconstructie wordt ondersteund."@nl ;
          <http://www.w3.org/2004/02/skos/core#related> "http://ont.cbnl.org/cb/def/Steunpunt" .
 
 
 ###  http://otl.rws.nl/physical-object#OB01256
-rws-phob:OB01256 rdf:type owl:Class ;
+:OB01256 rdf:type owl:Class ;
          rdfs:subClassOf <https://w3id.org/def/basicsemantics-owl#PhysicalObject> ;
-         ##rdfs:label "Draagconstructie" ;
-                 rdfs:label "" ;
+         rdfs:label "" ;
          <http://www.w3.org/2004/02/skos/core#definition> "Onderdeel van een bouwwerk dat bestemd is om belasting te dragen."@nl .
 
 
