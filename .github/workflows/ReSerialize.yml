@@ -33,4 +33,4 @@ jobs:
     - name: Run ReSerialize for all ttl files in the ontology directory
       run: |
         cd $GITHUB_WORKSPACE
-        for f in `find ontology -type f -name "*.ttl"`;do tools/ReSerialize/bin/ReSerialize -f $f;done
+        for f in `find ontology/def/otl  -type f !-path "*validatie*" -name "*.ttl"`;do tools/ReSerialize/bin/ReSerialize -f $f;done
