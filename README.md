@@ -1,3 +1,5 @@
+**Let op: Deze repository bevat een verouderde ontwikkelversie van de Rijkswaterstaat OTL. Een nieuwe versie wordt binnenkort beschikbaar gesteld in deze repository.**
+
 ![ReSerialize](https://github.com/RWS-NL/airbim-otl/workflows/ReSerialize/badge.svg?branch=master)
 # airbim-otl
 
