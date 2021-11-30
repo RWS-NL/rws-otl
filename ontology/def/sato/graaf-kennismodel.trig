@@ -1,0 +1,364 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sato: <https://data.rws.nl/def/sato/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sato:graaf-kennismodel {
+    sato: a owl:ontology ;
+        skos:note "Model, waarin de verschillende soorten tunneltechnische installaties (TTI) uit deel 7 van het document Specifieke Aspecten Tunnel Ontwerp (SATO, 2005), zijn opgenomen." ;
+        skos:prefLabel "SATO" .
+
+    sato:Installatie a skos:Collection ;
+        skos:definition "In deze collectie staan alle concepten die volgens de SATO Installaties zijn, zonder verder opgedeeld te worden." ;
+        skos:member sato:s7.6.8-Installatie-Bijzondere-borden-DRIPs,
+            sato:t7.11.1-Installatie-Centrale-deurontgrendeling,
+            sato:t7.11.2-Installatie-Kabeltrace-s-kabelgoten-en-ladders,
+            sato:t7.11.3-Installatie-Liften-en-roltrappen,
+            sato:t7.11.4-Installatie-Vluchtwegvoorzieningen--vluchtwegaanduiding,
+            sato:t7.11.5-Installatie-Uitvoering-inritlichtroosters,
+            sato:t7.2.1-Installatie-Aansluiting-op-het-openbaar-net,
+            sato:t7.2.2-Installatie-Aardingsinstallaties,
+            sato:t7.2.3-Installatie-Laagspanningsverdeling,
+            sato:t7.2.4-Installatie-Noodstroomvoorziening,
+            sato:t7.2.5-Installatie-No-break-voorziening,
+            sato:t7.2.6-Installatie-Middenspanningsinstallatie,
+            sato:t7.2.7-Installatie-Alternatieve-energie,
+            sato:t7.3.1-Installatie-Verlichting-verkeerstunnel,
+            sato:t7.3.2-Installatie-Verlichting-middenkanaal-vluchtweg,
+            sato:t7.3.3-Installatie-Openbare-verlichting,
+            sato:t7.4.1-Installatie-Algemeen-drainagepompinstallaties,
+            sato:t7.4.2-Installatie-Hoofdpompinstallaties,
+            sato:t7.4.3-Installatie-Middenpompinstallaties,
+            sato:t7.4.4-Installatie-Hellingpompinstallaties-of-hellingkelders,
+            sato:t7.4.5-Installatie-Bronpompinstallaties,
+            sato:t7.5.2-Installatie-Tunnelventilatie,
+            sato:t7.5.3-Installatie-Meting-van-luchtverontreiniging,
+            sato:t7.5.4-Installatie-Overdrukinstallatie-pompkamers,
+            sato:t7.5.5-Installatie-Vluchtgangventilatie,
+            sato:t7.6.1-Installatie-Algemeen-verkeersinstallaties,
+            sato:t7.6.2-Installatie-Rijstrooksignalering,
+            sato:t7.6.3-Installatie-Verkeerslichten--VRI-,
+            sato:t7.6.4-Installatie-Verkeersdetectie,
+            sato:t7.6.5-Installatie-Hoogtedetectiesysteem,
+            sato:t7.6.6-Installatie-Afsluitbomen-tunnel-en-toeleidende-wegen,
+            sato:t7.6.7-Installatie-Beweegbare-middenbermbeveiliging,
+            sato:t7.7.1-Installatie-Brandblusinstallatie-in-tunnels,
+            sato:t7.7.2-Installatie-Branddetectieinstallatie-in-tunnels,
+            sato:t7.7.3-Installatie-Signalering-hulppostkasten,
+            sato:t7.7.4-Installatie-Vorstbeveiliging-verwarming,
+            sato:t7.8.1-Installatie-Video-en-CCTV-installatie,
+            sato:t7.8.2-Installatie-Hoogfrequent-radiocommunicatiesysteem--HF-systeem-,
+            sato:t7.8.3-Installatie-Intercominstallatie,
+            sato:t7.8.4-Installatie-Luidsprekerinstallatie,
+            sato:t7.8.5-Installatie-Telefooninstallatie,
+            sato:t7.9.1-Installatie-Klimaatinstallatie-in-gebouwen,
+            sato:t7.9.2-Installatie-Beveiliging-van-gebouwen,
+            sato:t7.9.3-Installatie-Licht-en-krachtinstallaties-in-gebouwen,
+            sato:t7.9.4-Installatie-Brandmelding-en-signalering-gebouwen,
+            sato:t7.9.5-Installatie-Brandblusinstallatie-in-gebouwen ;
+        skos:prefLabel "Installatie" .
+
+    sato:Installatiegroep a skos:Collection ;
+        skos:definition "In deze collectie staan alle concepten die volgens de SATO groepen van Installaties zijn." ;
+        skos:member sato:t7-Installatiegroep-Tunnelinstallaties,
+            sato:t7.10-80--Installatiegroep-Besturing--bediening-en-bewaking,
+            sato:t7.11-90--Installatiegroep-Diverse-installaties,
+            sato:t7.2-10--Installatiegroep-Energievoorziening,
+            sato:t7.3-20--Installatiegroep-Verlichting,
+            sato:t7.4-30--Installatiegroep-Drainagepomp-installaties,
+            sato:t7.5-35--Installatiegroep-Ventilatiesysteem,
+            sato:t7.6-40--Installatiegroep-Verkeersinstallaties,
+            sato:t7.7-50--Installatiegroep-Brandblusinstallaties,
+            sato:t7.8-60--Installatiegroep-Communicatie,
+            sato:t7.9-70--Installatiegroep-Gebouwinstallaties ;
+        skos:prefLabel "Installatiegroep" .
+
+    sato:map-id a rdf:Property ;
+        skos:definition "Dit is het nummer waar het concept in de SATO documentatie terug te vinden is." ;
+        skos:prefLabel "mapping ID Sato" .
+
+    sato:s7.6.8-Installatie-Bijzondere-borden-DRIPs a skos:Concept ;
+        skos:broaderTransitive sato:t7.6-40--Installatiegroep-Verkeersinstallaties ;
+        skos:prefLabel "Bijzondere borden/DRIPs" ;
+        sato:map-id "47" .
+
+    sato:t7.10-80--Installatiegroep-Besturing--bediening-en-bewaking a skos:Concept ;
+        skos:broaderTransitive sato:t7-Installatiegroep-Tunnelinstallaties ;
+        skos:prefLabel "Besturing, bediening en bewaking" ;
+        sato:map-id "80" .
+
+    sato:t7.11.1-Installatie-Centrale-deurontgrendeling a skos:Concept ;
+        skos:broaderTransitive sato:t7.11-90--Installatiegroep-Diverse-installaties ;
+        skos:prefLabel "Centrale deurontgrendeling" ;
+        sato:map-id "91" .
+
+    sato:t7.11.2-Installatie-Kabeltrace-s-kabelgoten-en-ladders a skos:Concept ;
+        skos:broaderTransitive sato:t7.11-90--Installatiegroep-Diverse-installaties ;
+        skos:prefLabel "Kabeltrace's, kabelgoten en ladders" ;
+        sato:map-id "92" .
+
+    sato:t7.11.3-Installatie-Liften-en-roltrappen a skos:Concept ;
+        skos:broaderTransitive sato:t7.11-90--Installatiegroep-Diverse-installaties ;
+        skos:prefLabel "Liften en roltrappen" ;
+        sato:map-id "93" .
+
+    sato:t7.11.4-Installatie-Vluchtwegvoorzieningen--vluchtwegaanduiding a skos:Concept ;
+        skos:broaderTransitive sato:t7.11-90--Installatiegroep-Diverse-installaties ;
+        skos:prefLabel "Vluchtwegvoorzieningen, vluchtwegaanduiding" ;
+        sato:map-id "94" .
+
+    sato:t7.11.5-Installatie-Uitvoering-inritlichtroosters a skos:Concept ;
+        skos:broaderTransitive sato:t7.11-90--Installatiegroep-Diverse-installaties ;
+        skos:prefLabel "Uitvoering inritlichtroosters" ;
+        sato:map-id "95" .
+
+    sato:t7.2.1-Installatie-Aansluiting-op-het-openbaar-net a skos:Concept ;
+        skos:broaderTransitive sato:t7.2-10--Installatiegroep-Energievoorziening ;
+        skos:prefLabel "Aansluiting op het openbaar net" ;
+        sato:map-id "11" .
+
+    sato:t7.2.2-Installatie-Aardingsinstallaties a skos:Concept ;
+        skos:broaderTransitive sato:t7.2-10--Installatiegroep-Energievoorziening ;
+        skos:prefLabel "Aardingsinstallaties" ;
+        sato:map-id "12" .
+
+    sato:t7.2.3-Installatie-Laagspanningsverdeling a skos:Concept ;
+        skos:broaderTransitive sato:t7.2-10--Installatiegroep-Energievoorziening ;
+        skos:prefLabel "Laagspanningsverdeling" ;
+        sato:map-id "13" .
+
+    sato:t7.2.4-Installatie-Noodstroomvoorziening a skos:Concept ;
+        skos:broaderTransitive sato:t7.2-10--Installatiegroep-Energievoorziening ;
+        skos:prefLabel "Noodstroomvoorziening" ;
+        sato:map-id "14" .
+
+    sato:t7.2.5-Installatie-No-break-voorziening a skos:Concept ;
+        skos:broaderTransitive sato:t7.2-10--Installatiegroep-Energievoorziening ;
+        skos:prefLabel "No-break voorziening" ;
+        sato:map-id "15" .
+
+    sato:t7.2.6-Installatie-Middenspanningsinstallatie a skos:Concept ;
+        skos:broaderTransitive sato:t7.2-10--Installatiegroep-Energievoorziening ;
+        skos:prefLabel "Middenspanningsinstallatie" ;
+        sato:map-id "16" .
+
+    sato:t7.2.7-Installatie-Alternatieve-energie a skos:Concept ;
+        skos:broaderTransitive sato:t7.2-10--Installatiegroep-Energievoorziening ;
+        skos:prefLabel "Alternatieve energie" ;
+        sato:map-id "17" .
+
+    sato:t7.3.1-Installatie-Verlichting-verkeerstunnel a skos:Concept ;
+        skos:broaderTransitive sato:t7.3-20--Installatiegroep-Verlichting ;
+        skos:prefLabel "Verlichting verkeerstunnel" ;
+        sato:map-id "21" .
+
+    sato:t7.3.2-Installatie-Verlichting-middenkanaal-vluchtweg a skos:Concept ;
+        skos:broaderTransitive sato:t7.3-20--Installatiegroep-Verlichting ;
+        skos:prefLabel "Verlichting middenkanaal/vluchtweg" ;
+        sato:map-id "22" .
+
+    sato:t7.3.3-Installatie-Openbare-verlichting a skos:Concept ;
+        skos:broaderTransitive sato:t7.3-20--Installatiegroep-Verlichting ;
+        skos:prefLabel "Openbare verlichting" ;
+        sato:map-id "23" .
+
+    sato:t7.4.1-Installatie-Algemeen-drainagepompinstallaties a skos:Concept ;
+        skos:broaderTransitive sato:t7.4-30--Installatiegroep-Drainagepomp-installaties ;
+        skos:prefLabel "Algemeen drainagepompinstallaties" ;
+        sato:map-id "30" .
+
+    sato:t7.4.2-Installatie-Hoofdpompinstallaties a skos:Concept ;
+        skos:broaderTransitive sato:t7.4-30--Installatiegroep-Drainagepomp-installaties ;
+        skos:prefLabel "Hoofdpompinstallaties" ;
+        sato:map-id "31" .
+
+    sato:t7.4.3-Installatie-Middenpompinstallaties a skos:Concept ;
+        skos:broaderTransitive sato:t7.4-30--Installatiegroep-Drainagepomp-installaties ;
+        skos:prefLabel "Middenpompinstallaties" ;
+        sato:map-id "32" .
+
+    sato:t7.4.4-Installatie-Hellingpompinstallaties-of-hellingkelders a skos:Concept ;
+        skos:broaderTransitive sato:t7.4-30--Installatiegroep-Drainagepomp-installaties ;
+        skos:prefLabel "Hellingpompinstallaties of hellingkelders" ;
+        sato:map-id "33" .
+
+    sato:t7.4.5-Installatie-Bronpompinstallaties a skos:Concept ;
+        skos:broaderTransitive sato:t7.4-30--Installatiegroep-Drainagepomp-installaties ;
+        skos:prefLabel "Bronpompinstallaties" ;
+        sato:map-id "34" .
+
+    sato:t7.5.2-Installatie-Tunnelventilatie a skos:Concept ;
+        skos:broaderTransitive sato:t7.5-35--Installatiegroep-Ventilatiesysteem ;
+        skos:prefLabel "Tunnelventilatie" ;
+        sato:map-id "36" .
+
+    sato:t7.5.3-Installatie-Meting-van-luchtverontreiniging a skos:Concept ;
+        skos:broaderTransitive sato:t7.5-35--Installatiegroep-Ventilatiesysteem ;
+        skos:prefLabel "Meting van luchtverontreiniging" ;
+        sato:map-id "37" .
+
+    sato:t7.5.4-Installatie-Overdrukinstallatie-pompkamers a skos:Concept ;
+        skos:broaderTransitive sato:t7.5-35--Installatiegroep-Ventilatiesysteem ;
+        skos:prefLabel "Overdrukinstallatie pompkamers" ;
+        sato:map-id "38" .
+
+    sato:t7.5.5-Installatie-Vluchtgangventilatie a skos:Concept ;
+        skos:broaderTransitive sato:t7.5-35--Installatiegroep-Ventilatiesysteem ;
+        skos:prefLabel "Vluchtgangventilatie" ;
+        sato:map-id "39" .
+
+    sato:t7.6.1-Installatie-Algemeen-verkeersinstallaties a skos:Concept ;
+        skos:broaderTransitive sato:t7.6-40--Installatiegroep-Verkeersinstallaties ;
+        skos:prefLabel "Algemeen verkeersinstallaties" ;
+        sato:map-id "40" .
+
+    sato:t7.6.2-Installatie-Rijstrooksignalering a skos:Concept ;
+        skos:broaderTransitive sato:t7.6-40--Installatiegroep-Verkeersinstallaties ;
+        skos:prefLabel "Rijstrooksignalering" ;
+        sato:map-id "41" .
+
+    sato:t7.6.3-Installatie-Verkeerslichten--VRI- a skos:Concept ;
+        skos:broaderTransitive sato:t7.6-40--Installatiegroep-Verkeersinstallaties ;
+        skos:prefLabel "Verkeerslichten (VRI)" ;
+        sato:map-id "42" .
+
+    sato:t7.6.4-Installatie-Verkeersdetectie a skos:Concept ;
+        skos:broaderTransitive sato:t7.6-40--Installatiegroep-Verkeersinstallaties ;
+        skos:prefLabel "Verkeersdetectie" ;
+        sato:map-id "43" .
+
+    sato:t7.6.5-Installatie-Hoogtedetectiesysteem a skos:Concept ;
+        skos:broaderTransitive sato:t7.6-40--Installatiegroep-Verkeersinstallaties ;
+        skos:prefLabel "Hoogtedetectiesysteem" ;
+        sato:map-id "44" .
+
+    sato:t7.6.6-Installatie-Afsluitbomen-tunnel-en-toeleidende-wegen a skos:Concept ;
+        skos:broaderTransitive sato:t7.6-40--Installatiegroep-Verkeersinstallaties ;
+        skos:prefLabel "Afsluitbomen tunnel en toeleidende wegen" ;
+        sato:map-id "45" .
+
+    sato:t7.6.7-Installatie-Beweegbare-middenbermbeveiliging a skos:Concept ;
+        skos:broaderTransitive sato:t7.6-40--Installatiegroep-Verkeersinstallaties ;
+        skos:prefLabel "Beweegbare middenbermbeveiliging" ;
+        sato:map-id "46" .
+
+    sato:t7.7.1-Installatie-Brandblusinstallatie-in-tunnels a skos:Concept ;
+        skos:broaderTransitive sato:t7.7-50--Installatiegroep-Brandblusinstallaties ;
+        skos:prefLabel "Brandblusinstallatie in tunnels" ;
+        sato:map-id "51" .
+
+    sato:t7.7.2-Installatie-Branddetectieinstallatie-in-tunnels a skos:Concept ;
+        skos:broaderTransitive sato:t7.7-50--Installatiegroep-Brandblusinstallaties ;
+        skos:prefLabel "Branddetectieinstallatie in tunnels" ;
+        sato:map-id "52" .
+
+    sato:t7.7.3-Installatie-Signalering-hulppostkasten a skos:Concept ;
+        skos:broaderTransitive sato:t7.7-50--Installatiegroep-Brandblusinstallaties ;
+        skos:prefLabel "Signalering hulppostkasten" ;
+        sato:map-id "53" .
+
+    sato:t7.7.4-Installatie-Vorstbeveiliging-verwarming a skos:Concept ;
+        skos:broaderTransitive sato:t7.7-50--Installatiegroep-Brandblusinstallaties ;
+        skos:prefLabel "Vorstbeveiliging, verwarming" ;
+        sato:map-id "54" .
+
+    sato:t7.8.1-Installatie-Video-en-CCTV-installatie a skos:Concept ;
+        skos:broaderTransitive sato:t7.8-60--Installatiegroep-Communicatie ;
+        skos:prefLabel "Video en CCTV-installatie" ;
+        sato:map-id "61" .
+
+    sato:t7.8.2-Installatie-Hoogfrequent-radiocommunicatiesysteem--HF-systeem- a skos:Concept ;
+        skos:broaderTransitive sato:t7.8-60--Installatiegroep-Communicatie ;
+        skos:prefLabel "Hoogfrequent radiocommunicatiesysteem (HF-systeem)" ;
+        sato:map-id "62" .
+
+    sato:t7.8.3-Installatie-Intercominstallatie a skos:Concept ;
+        skos:broaderTransitive sato:t7.8-60--Installatiegroep-Communicatie ;
+        skos:prefLabel "Intercominstallatie" ;
+        sato:map-id "63" .
+
+    sato:t7.8.4-Installatie-Luidsprekerinstallatie a skos:Concept ;
+        skos:broaderTransitive sato:t7.8-60--Installatiegroep-Communicatie ;
+        skos:prefLabel "Luidsprekerinstallatie" ;
+        sato:map-id "64" .
+
+    sato:t7.8.5-Installatie-Telefooninstallatie a skos:Concept ;
+        skos:broaderTransitive sato:t7.8-60--Installatiegroep-Communicatie ;
+        skos:prefLabel "Telefooninstallatie" ;
+        sato:map-id "65" .
+
+    sato:t7.9.1-Installatie-Klimaatinstallatie-in-gebouwen a skos:Concept ;
+        skos:broaderTransitive sato:t7.9-70--Installatiegroep-Gebouwinstallaties ;
+        skos:prefLabel "Klimaatinstallatie in gebouwen" ;
+        sato:map-id "71" .
+
+    sato:t7.9.2-Installatie-Beveiliging-van-gebouwen a skos:Concept ;
+        skos:broaderTransitive sato:t7.9-70--Installatiegroep-Gebouwinstallaties ;
+        skos:prefLabel "Beveiliging van gebouwen" ;
+        sato:map-id "72" .
+
+    sato:t7.9.3-Installatie-Licht-en-krachtinstallaties-in-gebouwen a skos:Concept ;
+        skos:broaderTransitive sato:t7.9-70--Installatiegroep-Gebouwinstallaties ;
+        skos:prefLabel "Licht en krachtinstallaties in gebouwen" ;
+        sato:map-id "73" .
+
+    sato:t7.9.4-Installatie-Brandmelding-en-signalering-gebouwen a skos:Concept ;
+        skos:broaderTransitive sato:t7.9-70--Installatiegroep-Gebouwinstallaties ;
+        skos:prefLabel "Brandmelding en signalering gebouwen" ;
+        sato:map-id "74" .
+
+    sato:t7.9.5-Installatie-Brandblusinstallatie-in-gebouwen a skos:Concept ;
+        skos:broaderTransitive sato:t7.9-70--Installatiegroep-Gebouwinstallaties ;
+        skos:prefLabel "Brandblusinstallatie in gebouwen" ;
+        sato:map-id "75" .
+
+    sato:t7.3-20--Installatiegroep-Verlichting a skos:Concept ;
+        skos:broaderTransitive sato:t7-Installatiegroep-Tunnelinstallaties ;
+        skos:prefLabel "Verlichting" ;
+        sato:map-id "20" .
+
+    sato:t7.5-35--Installatiegroep-Ventilatiesysteem a skos:Concept ;
+        skos:broaderTransitive sato:t7-Installatiegroep-Tunnelinstallaties ;
+        skos:prefLabel "Ventilatiesysteem" ;
+        sato:map-id "35" .
+
+    sato:t7.7-50--Installatiegroep-Brandblusinstallaties a skos:Concept ;
+        skos:broaderTransitive sato:t7-Installatiegroep-Tunnelinstallaties ;
+        skos:prefLabel "Brandblusinstallaties" ;
+        sato:map-id "50" .
+
+    sato:t7.11-90--Installatiegroep-Diverse-installaties a skos:Concept ;
+        skos:broaderTransitive sato:t7-Installatiegroep-Tunnelinstallaties ;
+        skos:prefLabel "Diverse installaties" ;
+        sato:map-id "90" .
+
+    sato:t7.4-30--Installatiegroep-Drainagepomp-installaties a skos:Concept ;
+        skos:broaderTransitive sato:t7-Installatiegroep-Tunnelinstallaties ;
+        skos:prefLabel "Drainagepomp installaties" ;
+        sato:map-id "30" .
+
+    sato:t7.8-60--Installatiegroep-Communicatie a skos:Concept ;
+        skos:broaderTransitive sato:t7-Installatiegroep-Tunnelinstallaties ;
+        skos:prefLabel "Communicatie" ;
+        sato:map-id "60" .
+
+    sato:t7.9-70--Installatiegroep-Gebouwinstallaties a skos:Concept ;
+        skos:broaderTransitive sato:t7-Installatiegroep-Tunnelinstallaties ;
+        skos:prefLabel "Gebouwinstallaties" ;
+        sato:map-id "70" .
+
+    sato:t7.2-10--Installatiegroep-Energievoorziening a skos:Concept ;
+        skos:broaderTransitive sato:t7-Installatiegroep-Tunnelinstallaties ;
+        skos:prefLabel "Energievoorziening" ;
+        sato:map-id "10" .
+
+    sato:t7.6-40--Installatiegroep-Verkeersinstallaties a skos:Concept ;
+        skos:broaderTransitive sato:t7-Installatiegroep-Tunnelinstallaties ;
+        skos:prefLabel "Verkeersinstallaties" ;
+        sato:map-id "40" .
+
+    sato:t7-Installatiegroep-Tunnelinstallaties a skos:Concept ;
+        skos:prefLabel "Tunnelinstallaties" ;
+        sato:map-id "0" .
+}
+

@@ -1,0 +1,236 @@
+@prefix lbs: <https://data.rws.nl/def/lbs/> .
+@prefix otl: <https://data.rws.nl/def/otl/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+otl:graaf-otl-lbs-linkset {
+    otl:Aandrijving skos:relatedMatch lbs:B-L1-5 .
+
+    otl:AandrijvingEnBewegingswerkElektrohydraulisch skos:relatedMatch lbs:B-L1-5-2 .
+
+    otl:AandrijvingEnBewegingswerkElektromechanisch skos:relatedMatch lbs:B-L1-5-1 .
+
+    otl:AandrijvingEnBewegingswerkMechanisch skos:relatedMatch lbs:B-L6-1-3-1-0-2 .
+
+    otl:AardingEnBliksembeveiligingsinstallatie skos:relatedMatch lbs:B-L2-3-4 .
+
+    otl:Achterloopheidscherm skos:relatedMatch lbs:S-L1-4-1-4 .
+
+    otl:Actuator skos:relatedMatch lbs:B-L6-1-6 .
+
+    otl:Afdekplaat skos:relatedMatch lbs:B-L1-4-1-6-2 .
+
+    otl:Afscheiding skos:relatedMatch lbs:B-L2-2-2 .
+
+    otl:Afsluitboom skos:relatedMatch lbs:B-L3-2 .
+
+    otl:Afsluitboominstallatie skos:relatedMatch lbs:B-L6-2 .
+
+    otl:Afsluitboomverlichting skos:relatedMatch lbs:B-L6-2-4-3 .
+
+    otl:Antenne skos:relatedMatch lbs:B-L8-2-1-2 .
+
+    otl:Balanspriem skos:relatedMatch lbs:B-L1-4-3-3-2 .
+
+    otl:BebordingEnBewegwijzeringStatisch skos:relatedMatch lbs:B-L0-1-2 .
+
+    otl:BedieningsEnBesturingsinstallatie skos:relatedMatch lbs:B-L7 .
+
+    otl:Bekabeling skos:relatedMatch lbs:B-L2-7 .
+
+    otl:Bewegingswerk skos:relatedMatch lbs:B-L6-1-2 .
+
+    otl:Binnenverlichting skos:relatedMatch lbs:B-L2-4-5 .
+
+    otl:Bodembescherming skos:relatedMatch lbs:B-L1-2-1-5 .
+
+    otl:Bordes skos:relatedMatch lbs:B-L2-3-8-1-5 .
+
+    otl:Bovenbouw skos:relatedMatch lbs:B-L1-4-3 .
+
+    otl:Brandblusinstallatie skos:relatedMatch lbs:B-L2-3-3-2 .
+
+    otl:BrandmeldEnOntruimingsinstallatie skos:relatedMatch lbs:B-L2-3-3-1 .
+
+    otl:Brug skos:relatedMatch lbs:B-L1 .
+
+    otl:BrugBeweegbaar skos:relatedMatch lbs:LBB .
+
+    otl:CameraBeweegbaar skos:relatedMatch lbs:B-L8-1-1-3-0-2 .
+
+    otl:CameraVast skos:relatedMatch lbs:B-L8-1-1-3-0-1 .
+
+    otl:Centrale skos:relatedMatch lbs:B-L0-5-2 .
+
+    otl:ClosedCircuitTelevisionInstallatie skos:relatedMatch lbs:B-L8-1-1 .
+
+    otl:Contragewicht skos:relatedMatch lbs:B-L1-4-1-3 .
+
+    otl:Dataloginstallatie skos:relatedMatch lbs:B-L8-3-2 .
+
+    otl:Display skos:relatedMatch lbs:B-L7-1-0-4 .
+
+    otl:Draaipunt skos:relatedMatch lbs:B-L1-4-1-1 .
+
+    otl:DynamischVerkeersmanagementsysteem skos:relatedMatch lbs:B-L3 .
+
+    otl:DynamischeBewegwijzeringEnInformatieSystemen skos:relatedMatch lbs:B-L0-1-3 .
+
+    otl:Elektromotor skos:relatedMatch lbs:B-L1-5-1-1 .
+
+    otl:Fundering skos:relatedMatch lbs:B-L1-4-2-4 .
+
+    otl:Geleiding skos:relatedMatch lbs:B-L1-4-1-8-5 .
+
+    otl:GeluidbeperkendeConstructie skos:relatedMatch lbs:B-L1-1-1-5 .
+
+    otl:GlobalSystemForMobileCommunicationsInstallatie skos:relatedMatch lbs:B-L8-2-3-2 .
+
+    otl:Grendel skos:relatedMatch lbs:B-L6-1-4-1 .
+
+    otl:Grendelinrichting skos:relatedMatch lbs:B-L1-4-1-8-1 .
+
+    otl:HameistijlPoort skos:relatedMatch lbs:B-L1-4-3-3-1 .
+
+    otl:Heftoren skos:relatedMatch lbs:B-L1-4-3-2-1 .
+
+    otl:Hek skos:relatedMatch lbs:B-L2-3-8-1-3 .
+
+    otl:Hoogspanningsinstallatie skos:relatedMatch lbs:B-L2-5-3 .
+
+    otl:Hydromotor skos:relatedMatch lbs:B-L1-5-1-1 .
+
+    otl:Inbraakbeveiligingsinstallatie skos:relatedMatch lbs:B-L2-3-2 .
+
+    otl:Intercominstallatie skos:relatedMatch lbs:B-L8-2-2-1 .
+
+    otl:Kabel skos:relatedMatch lbs:B-L1-5-1-9-2 .
+
+    otl:Kabeltrommel skos:relatedMatch lbs:B-L1-5-1-9-1 .
+
+    otl:Kast skos:relatedMatch lbs:B-L1-5-1-4 .
+
+    otl:Kelder skos:relatedMatch lbs:B-L1-4-2-3 .
+
+    otl:Klep skos:relatedMatch lbs:B-L6-1-3-1-0-1-2 .
+
+    otl:Koppeling skos:relatedMatch lbs:B-L1-5-1-7 .
+
+    otl:Krukstang skos:relatedMatch lbs:B-L1-5-1-8 .
+
+    otl:Laagspanningsinstallatie skos:relatedMatch lbs:B-L2-5-2 .
+
+    otl:Ladder skos:relatedMatch lbs:B-L2-3-8-1-1 .
+
+    otl:Lager skos:relatedMatch lbs:B-L1-4-1-1-1 .
+
+    otl:Landhoofd skos:relatedMatch lbs:B-L1-4-2-2 .
+
+    otl:Landverkeerssein skos:relatedMatch lbs:B-L3-1 .
+
+    otl:Langsligger skos:relatedMatch lbs:B-L1-4-1-5 .
+
+    otl:Leuning skos:relatedMatch lbs:B-L1-1-1-4 .
+
+    otl:LocalAreaNetwork skos:relatedMatch lbs:B-L7-8-2 .
+
+    otl:Luidspreker skos:relatedMatch lbs:B-L7-1-0-2-2 .
+
+    otl:Marifooninstallatie skos:relatedMatch lbs:B-L8-2-1 .
+
+    otl:Meetinstallatie skos:relatedMatch lbs:B-L8-3-1 .
+
+    otl:Meubilair skos:relatedMatch lbs:B-L0-1-2 .
+
+    otl:Microfoon skos:relatedMatch lbs:B-L7-1-0-2-1 .
+
+    otl:Noodhandbediening skos:relatedMatch lbs:B-L7-1-3-1 .
+
+    otl:Noodstop skos:relatedMatch lbs:B-L7-5-0 .
+
+    otl:NoodstroominstallatieRoterend skos:relatedMatch lbs:B-L2-5-4-1 .
+
+    otl:NoodstroominstallatieStatisch skos:relatedMatch lbs:B-L2-5-4 .
+
+    otl:Noodtelefoon skos:relatedMatch lbs:B-L8-2-3-3 .
+
+    otl:Oeverbescherming skos:relatedMatch lbs:B-L1-2-1-6 .
+
+    otl:Omroepinstallatie skos:relatedMatch lbs:B-L8-2-2-3 .
+
+    otl:Onderhoudsvoorziening skos:relatedMatch lbs:B-L9-1 .
+
+    otl:OpenbareVerlichting skos:relatedMatch lbs:B-L2-4-7 .
+
+    otl:Oplegpunt skos:relatedMatch lbs:B-L1-4-1-8-2 .
+
+    otl:Opnamemedium skos:relatedMatch lbs:B-L8-1-1-3 .
+
+    otl:Opzetinrichting skos:relatedMatch lbs:B-L1-4-1-8-3 .
+
+    otl:Overspanningbeveiliging skos:relatedMatch lbs:B-L2-3-5 .
+
+    otl:Panamawiel skos:relatedMatch lbs:B-L1-5-1-8-2 .
+
+    otl:Pijler skos:relatedMatch lbs:B-L1-4-2-1 .
+
+    otl:Praatpaal skos:relatedMatch lbs:B-L8-2-2-2 .
+
+    otl:Radarinstallatie skos:relatedMatch lbs:B-L8-1-2 .
+
+    otl:Rem skos:relatedMatch lbs:B-L1-5-1-3 .
+
+    otl:RemmingEnGeleidewerk skos:relatedMatch lbs:B-L1-2-1-7 .
+
+    otl:Rijdek skos:relatedMatch lbs:B-L1-1-1-1 .
+
+    otl:Schakelaar skos:relatedMatch lbs:B-L2-3-8-3-1 .
+
+    otl:Schampkant skos:relatedMatch lbs:B-L1-1-1-2 .
+
+    otl:Scheepvaartsein skos:relatedMatch lbs:B-L4-1 .
+
+    otl:Sensor skos:relatedMatch lbs:B-L2-8-3 .
+
+    otl:Slijtlaag skos:relatedMatch lbs:B-L1-4-1-7 .
+
+    otl:Sluis skos:relatedMatch lbs:S-L1 .
+
+    otl:Sluishoofd skos:relatedMatch lbs:S-L1-4-1 .
+
+    otl:Startmotor skos:relatedMatch lbs:B-L1-5-1-1 .
+
+    otl:Telefooninstallatie skos:relatedMatch lbs:B-L8-2-3 .
+
+    otl:Telefoontoestel skos:relatedMatch lbs:B-L8-2-3-1 .
+
+    otl:ToegangscontroleInstallatie skos:relatedMatch lbs:B-L2-3-1 .
+
+    otl:Toegangshek skos:relatedMatch lbs:B-L2-3-8-1-3 .
+
+    otl:TransmissieInstallatie skos:relatedMatch lbs:B-L7-8 .
+
+    otl:Trap skos:relatedMatch lbs:B-L2-3-8-1-4 .
+
+    otl:Verbrandingsmotor skos:relatedMatch lbs:B-L1-5-1-1 .
+
+    otl:VerhardingWegtype1Hoofdwegennet skos:relatedMatch lbs:LHWN .
+
+    otl:Verhardingslaag skos:relatedMatch lbs:B-L2-2-1 .
+
+    otl:Verkeersregelinstallatie skos:relatedMatch lbs:B-L0-1-3-2 .
+
+    otl:Verlichtingsinstallatie skos:relatedMatch lbs:B-L2-4 .
+
+    otl:VluchtwegverlichtingDynamisch skos:relatedMatch lbs:B-L2-4-3 .
+
+    otl:Voegovergang skos:relatedMatch lbs:B-L1-4-3-5 .
+
+    otl:Voetpedaal skos:relatedMatch lbs:B-L7-1-0-2-4 .
+
+    otl:Wegkantsysteem skos:relatedMatch lbs:B-L0-1-3-5 .
+
+    otl:Wegmarkering skos:relatedMatch lbs:B-L0-1-2 .
+
+    otl:Windmeter skos:relatedMatch lbs:B-L8-3-1-1 .
+}
+

@@ -1,0 +1,893 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix voc: <https://data.rws.nl/def/lts-voc/> .
+
+voc:graaf-kennismodel {
+    voc:3B-Besturingssysteem a skos:Concept ;
+        skos:definition "(3B-) Besturingssysteem (generieke definitie): Samenstel van hardwarecomponenten alsmede systeem- en applicatie software, met als doel het besturen, bedienen en bewaken van een installatie en/of installatiedelen. Wordt bovenstaande als definitie voor 3B-besturingssysteem gehanteerd, dan geldt tevens dat : 1. 3B-functies (of 3B-besturingsfuncties) uitsluitend de applicatiesoftware betreft; 2. 3B-gedrag dan het “extern” waar te nemen gedrag van een 3B-functie betreft; 3. 3B-laag (of 3B-functielaag) de positie van een 3B- functie definieert binnen het 3 lagenmodel (MMI-3B-LFV); 4. 3B-besturing moet worden gezien als verkorte notatie van 3B- besturingssysteem; 5. 3B-proces een specifieke 3B-functie betreft." ;
+        skos:prefLabel "(3B-) Besturingssysteem" .
+
+    voc:3B_Besturingsfunctie a skos:Concept ;
+        skos:definition "Een 3B besturingsfunctie is een functie die het 3B systeem levert aan het MMI-deelsysteem van de tunnel en die als bedieningselement zichtbaar wordt in de MMI van een tunnel." ;
+        skos:prefLabel "3B Besturingsfunctie" .
+
+    voc:Aanstraalverlichting a skos:Concept ;
+        skos:definition "Verlichting bij vluchtdeuren die de deur aanstraalt en zo zichtbaar maakt." ;
+        skos:prefLabel "Aanstraalverlichting" .
+
+    voc:Aanvalsdeur a skos:Concept ;
+        skos:definition "Een deur specifiek voor gebruik door hulpdiensten waarmee een veilige ruimte of verkeersbuis kan worden betreden." ;
+        skos:prefLabel "Aanvalsdeur" .
+
+    voc:Aanwijsbaarheid a skos:Concept ;
+        skos:definition "De mate waarin een eis of ontwerpdetail individueel identificeerbaar is in de uiteindelijke technische installatie." ;
+        skos:prefLabel "Aanwijsbaarheid" .
+
+    voc:Accentverlichting a skos:Concept ;
+        skos:definition "Verlichting die een bepaalde plek extra benadrukt." ;
+        skos:prefLabel "Accentverlichting" .
+
+    voc:Applicatiefunctie a skos:Concept ;
+        skos:definition "Een functie die onderdeel uitmaakt van de techniek." ;
+        skos:prefLabel "Applicatiefunctie" .
+
+    voc:Applicatieservice a skos:Concept ;
+        skos:definition "Een applicatieservice is een eenheid van functionaliteit die wordt verzorgd door een of meerdere componenten of applicatie functies, benaderbaar op basis van goed-gedefinieerde interfaces en van betekenis voor zijn omgeving." ;
+        skos:prefLabel "Applicatieservice" .
+
+    voc:Aqueous_Film_Forming_Foam a skos:Concept ;
+        skos:definition "Schuimvormend middel dat aan water wordt toegevoegd om branden beter te kunnen blussen." ;
+        skos:prefLabel "Aqueous Film Forming Foam" .
+
+    voc:Automatic_Incident_Detection a skos:Concept ;
+        skos:definition "Functionaliteit van MTM die op basis van lokaal ingewonnen gegevens waarschuwt tegen een plotseling optredende snelheidsvermindering op een weggedeelte." ;
+        skos:prefLabel "Automatic Incident Detection (AID)" .
+
+    voc:Automatische_bediening a skos:Concept ;
+        skos:definition "Een functie, logische functie vervuller, of component wordt bestuurd door de bovenliggende besturingslaag. Alle commando's en instellingen zijn afkomstig van de bovenliggende besturingslaag." ;
+        skos:prefLabel "Auto(matische) bediening" .
+
+    voc:Barrier a skos:Concept ;
+        skos:definition "Een vaste barrier is een metalen of betonnen geleideprofiel dat langs of voor een tunnelwand is geplaatst. De barrier helpt een voertuig dat uit koers is geraakt weer in de goede richting te rijden en beschermt de tunnelwand." ;
+        skos:prefLabel "Barrier" .
+
+    voc:Bedieningsmode a skos:Concept ;
+        skos:definition "De ‘mode’ van een bediening. Meestal één van twee: handmatig of automatisch." ;
+        skos:prefLabel "Bedieningsmode" .
+
+    voc:Bedieningsview a skos:Concept ;
+        skos:definition "Aangeboden beeld van de Tunnelapplicatie welke in één van de volgende bedieningstoestanden heeft: Bedienen: De tunneloperator kan de aangeboden buizenset actief bedienen; Inzien: De tunneloperator kan alles naar eigen inzicht bekijken, maar geen enkele wijziging aanbrengen; Meekijken: De tunneloperator heeft geen enkele controle over de MMI. Hij/zij kan alleen meekijken met wat een ander doet. Meekijken is geen functionaliteit van het tunnelsysteem." ;
+        skos:prefLabel "Bedieningsview" .
+
+    voc:Bedienpost a skos:Concept ;
+        skos:definition "Zie werkplek." ;
+        skos:prefLabel "Bedienpost" .
+
+    voc:Bedrijfstoestand a skos:Concept ;
+        skos:definition "Het gedrag van het Tunnelsysteem onder vastgestelde condities. Op dit moment worden normaalbedrijf, incidentenbedrijf, calamiteitenbedrijf en onderhoudsbedrijf onderkend." ;
+        skos:prefLabel "Bedrijfstoestand" .
+
+    voc:Benedenstrooms a skos:Concept ;
+        skos:definition "Voorbij het incident of de uitgang van de tunnel bezien vanuit de rijrichting mee." ;
+        skos:prefLabel "Benedenstrooms" .
+
+    voc:Beperkt_beschikbaar_functie_gefaald a skos:Concept ;
+        skos:definition "Een functie komt onder het niveau van de functioneel benodigde capaciteit, zoals ontworpen voor Systeem TTI. Denk bijvoorbeeld aan de hoeveelheid lichtopbrengst die gespecificeerd is. Er is sprake van een onacceptabele degradatie van de functie onder het gespecificeerde niveau, maar de faaldefinities zijn nog niet van toepassing. Gevolg is dat de functie nog maar deels kan worden gebruikt voor zijn functie. Deze definitie is verder uitgewerkt in Systeemontwerp, zie nummer SO#6615 en verder, inclusief plaatje dat inzicht over dit begrip verhoogt." ;
+        skos:prefLabel "Beperkt beschikbaar (functie gefaald)" .
+
+    voc:Beschikbaar_Onderhoud_nodig a skos:Concept ;
+        skos:definition "De overdimensionering van een functie is zodanig aangesproken dat onderhoud nodig is om te voorkomen dat de functioneel benodigde capaciteit wordt onderschreden. Om de functie op niveau te blijven handhaven is onderhoud noodzakelijk. De operationele dienstverlening van het Systeem TTI wordt niet verstoord. De functioneel benodigde capaciteit (voor bijvoorbeeld calamiteit) en een deel van de overdimensionering (reserve capaciteit, overcapaciteit) is beschikbaar." ;
+        skos:prefLabel "Beschikbaar, Onderhoud nodig" .
+
+    voc:Beschikbaar_Volledig a skos:Concept ;
+        skos:definition "Een functie en/of logische functie vervuller is volledig operationeel en bruikbaar (en aan te sturen). Zowel functioneel benodigde capaciteit (voor bijvoorbeeld calamiteit) + overdimensionering (reserve capaciteit, overcapaciteit) zijn voldoende beschikbaar. NB. Er kunnen wel onderdelen zijn gefaald, maar dit vormt nog geen aanleiding tot het ondernemen van actie." ;
+        skos:prefLabel "Beschikbaar, Volledig" .
+
+    voc:Beschikbaarheid a skos:Concept ;
+        skos:definition "De waarschijnlijkheid dat de vereiste functie op een gegeven willekeurig moment kan worden uitgevoerd onder gegeven omstandigheden. Dit komt overeen met de fractie van de tijd dat de vereiste functie kan worden uitgevoerd onder gegeven omstandigheden." ;
+        skos:prefLabel "Beschikbaarheid" .
+
+    voc:Besturing_Bediening_en_Bewaking_3B a skos:Concept ;
+        skos:definition "Een (informatie-)systeem voor besturing, bediening en bewaking van (de Tunnel Technische Installaties van) het RWS Tunnelsysteem." ;
+        skos:prefLabel "Besturing, Bediening en Bewaking (3B)" .
+
+    voc:Betrouwbaarheid a skos:Concept ;
+        skos:definition "De waarschijnlijkheid dat de vereiste functie volgens specificatie wordt uitgevoerd onder gegeven omstandigheden gedurende een bepaalde tijdsinterval. Kortweg: kans op faalvrij functioneren (over een gegeven periode). De betrouwbaarheid wordt bepaald door de storingsgraad (aantal storingen per tijdseenheid). De storingsgraad ook wel faalfrequentie genoemd wordt vaak constant verondersteld." ;
+        skos:prefLabel "Betrouwbaarheid" .
+
+    voc:Bevoegdheid a skos:Concept ;
+        skos:definition "Het recht- toegekend aan een functionaris of rolhouder in een organisatie of samenwerkingsverband - om: - te beslissen, - uit te voeren, - te ondersteunen, - geraadpleegd te worden, - geinformeerd te worden." ;
+        skos:prefLabel "Bevoegdheid" .
+
+    voc:Beweegbare_Barrier a skos:Concept ;
+        skos:definition "Een beweegbaar deel van de barrier naast de weg dat kan worden gebruikt voor het vrijgeven dan wel versperren van een verkeerskundige doorsteek door de tussenberm tussen twee rijbanen om het verkeer van de van de ene rijbaan ook toegang te bieden tot de wisselbaan. Hierbij wordt de normale doorgaande rijrichting niet afgesloten." ;
+        skos:prefLabel "Beweegbare Barrier (BeBa)" .
+
+    voc:Blokverkeer a skos:Concept ;
+        skos:definition "Het verkeer alternerend in een bepaalde rijrichting door de tunnelbuis laten rijden, waarbij het verkeer in de andere rijrichting een beperkte tijd moet wachten (bron: Leidraad Veiligheidsdocumentatie)." ;
+        skos:prefLabel "Blokverkeer" .
+
+    voc:Bovenstrooms a skos:Concept ;
+        skos:definition "Voor de ingang van de tunnel of het incident bezien vanuit de rijrichting mee." ;
+        skos:prefLabel "Bovenstrooms" .
+
+    voc:Buitenopstellingskast a skos:Concept ;
+        skos:definition "Apparatuurkast die geschikt is om buiten opgesteld te worden en voldoende bescherming biedt aan de ingebouwde apparatuur." ;
+        skos:prefLabel "Buitenopstellingskast" .
+
+    voc:C2000 a skos:Concept ;
+        skos:definition "Communicatiesysteem als bedoeld in de Regeling C2000 en GMS." ;
+        skos:prefLabel "C2000" .
+
+    voc:Calamiteit a skos:Concept ;
+        skos:definition "Een calamiteit is een ernstig incident, waarbij sprake is van: beknelling en/of ernstig gewond zijn van personen (zodanig dat de hulp van de brandweer nodig wordt geacht), brand of het vrijkomen van gevaarlijke stoffen." ;
+        skos:prefLabel "Calamiteit" .
+
+    voc:Calamiteiten_bestrijdingsplan a skos:Concept ;
+        skos:definition "Het CBP beschrijft hoe incidenten, in het bijzonder calamiteiten, worden afgehandeld door het personeel van de tunnelbeheerder samen met de hulpdiensten en andere partijen (bergers). Het plan moet afgestemd zijn met de hulpdiensten. Het CBP is onderdeel van het veiligheidsbeheerplan." ;
+        skos:prefLabel "Calamiteiten bestrijdingsplan (CBP)" .
+
+    voc:Calamiteitenbedrijf a skos:Concept ;
+        skos:definition "Operationele bedrijfstoestand waarbij de tunnel wordt afgesloten en het gedrag van de TTI in een gedefinieerde toestand wordt gebracht om zelfredding, evacuatie, voorkomen van escalaties en ondersteuning van hulpdiensten te bewerkstelligen." ;
+        skos:prefLabel "Calamiteitenbedrijf" .
+
+    voc:Calamiteitenbuis a skos:Concept ;
+        skos:definition "Tunnelbuis waar een calamiteit plaats vindt." ;
+        skos:prefLabel "Calamiteitenbuis" .
+
+    voc:Calamiteitendoor-steek a skos:Concept ;
+        skos:definition "Gedeelte van de geleiderails waarmee een gedeelte van de tussenberm vrij wordt gemaakt waardoor de overheidshulpdiensten de tussenberm kunnen doorkruisen." ;
+        skos:prefLabel "Calamiteitendoor-steek (CaDo)" .
+
+    voc:Centrale_bediening a skos:Concept ;
+        skos:definition "Bewaking en bediening vanuit een gebouw dat niet noodzakelijkerwijs bij de bediende objecten hoeft te liggen; als gevolg hiervan is steeds een transmissieverbinding tussen werkplek en object noodzakelijk. Vanuit één centrale werkplek (verkeerscentrale) kunnen meerdere objecten worden bewaakt en bediend." ;
+        skos:prefLabel "Centrale bediening" .
+
+    voc:Change_Advisory_Board a skos:Concept ;
+        skos:definition "Een groep functionarissen die de changemanager adviseert bij de assessment, prioritering en planning van changes. Deze groep bestaat meestal uit vertegenwoordigers uit alle afdelingen binnen de IT-serviceprovider, de business en derden (zoals toeleveranciers)." ;
+        skos:prefLabel "Change Advisory Board (CAB)" .
+
+    voc:Change_Management a skos:Concept ;
+        skos:definition "Het proces dat verantwoordelijk is voor het beheersen van de levenscyclus van alle changes. De primaire doelstelling van changemanagement is om changes van toegevoegde waarde mogelijk te maken, met minimale verstoring van de operatie van de tunnel." ;
+        skos:prefLabel "Change Management" .
+
+    voc:Closed_Circuit_TeleVision a skos:Concept ;
+        skos:definition "Een besloten systeem van camera’s; hiermee worden beelden van het tunneltracé opgenomen die vervolgens bij de bedienlocatie worden getoond" ;
+        skos:prefLabel "Closed Circuit TeleVision (CCTV)" .
+
+    voc:Commercial_of_the_shelf a skos:Concept ;
+        skos:definition "Commercial off-the-shelf – een product dat zo te koop is (niet speciaal ontwikkeld)." ;
+        skos:prefLabel "Commercial of the shelf (COTS)" .
+
+    voc:Component a skos:Concept ;
+        skos:definition "Hardware onderdeel van een logische functie vervuller. Voorbeeld: een ‘ventilator’ is een component van ‘LFV Ventilatie’." ;
+        skos:prefLabel "Component" .
+
+    voc:Contourverlichting a skos:Concept ;
+        skos:definition "Verlichting rond een vluchtdeur die wordt aangezet als evacuatie nodig is." ;
+        skos:prefLabel "Contourverlichting" .
+
+    voc:Correctief_onderhoud a skos:Concept ;
+        skos:definition "Correctief onderhoud betreft onderhoudswerkzaamheden met als doel om de functie van een systeem/component te herstellen (verhelpen storingen)." ;
+        skos:prefLabel "Correctief onderhoud" .
+
+    voc:Crisis a skos:Concept ;
+        skos:definition "Een ernstige verstoring van het functioneren van een stelsel waarbij een gecoördineerde inzet van diensten en organisaties van verschillende disciplines benodigd is om de verstoring weg te nemen en de schadelijke gevolgen te beperken." ;
+        skos:prefLabel "Crisis" .
+
+    voc:Curatief_onderhoud a skos:Concept ;
+        skos:definition "Inspectiewerkzaamheden om de onderhoudstoestand van een component vast te stellen en op basis van de onderhoudstoestand en gedefinieerde normen over te gaan tot preventief of correctieve onderhoud." ;
+        skos:prefLabel "Curatief onderhoud" .
+
+    voc:Deelsysteem_alarm a skos:Concept ;
+        skos:definition "Een alarm vanuit tunnelbesturing over een deelsysteem storing uit Systeem TTI. Deelsysteem alarmen betreffen storingen, die (direct) gevolgen hebben voor de beschikbaarheid voor doorstroming van de tunnel (hetzij doordat de veiligheid niet meer geborgd is, hetzij doordat de doorstroming direct negatief wordt beïnvloed). Zie hiervoor de faaldefinities (Bijlage I). Bij een deelsysteem alarm is of een functie van Systeem TTI in het geheel niet meer beschikbaar, of gefaald volgens de faaldefinities." ;
+        skos:prefLabel "Deelsysteem alarm" .
+
+    voc:Deelsysteem_storing_storing a skos:Concept ;
+        skos:definition "Een melding vanuit tunnelbesturing over een storing in Systeem TTI. Storingen betreffen het falen van functies van Systeem TTI (de herkomst kan een component zijn, een deel van de besturingssoftware, een installatie, etc.) Meerdere storingen kunnen er gezamenlijk voor zorgen dat een (bovenliggende) functie van Systeem TTI dusdanig faalt, dat er een deelsysteem alarm ontstaat voor die functie." ;
+        skos:prefLabel "Deelsysteem storing (storing)" .
+
+    voc:Desk a skos:Concept ;
+        skos:definition "Zie werkplek." ;
+        skos:prefLabel "Desk" .
+
+    voc:Dienst_Service a skos:Concept ;
+        skos:definition "Functionaliteit die wordt geleverd- of taken die worden uitgevoerd door een systeem." ;
+        skos:prefLabel "Dienst/Service" .
+
+    voc:Dienstenboom a skos:Concept ;
+        skos:definition "Dit geeft de structuur (samenhang en hiërarchie) van Diensten weer." ;
+        skos:prefLabel "Dienstenboom" .
+
+    voc:Dienstgebouw a skos:Concept ;
+        skos:definition "Gebouw op of naast een kunstwerk waarin (een deel van) de technische tunnelinstallaties zijn geplaatst." ;
+        skos:prefLabel "Dienstgebouw" .
+
+    voc:Doorstroming a skos:Concept ;
+        skos:definition "Verplaatsing van verkeer op een gedefinieerd gedeelte van het wegennetwerk, veelal uitgedrukt in gemiddelde snelheid per uur." ;
+        skos:prefLabel "Doorstroming" .
+
+    voc:Drempelwaarde-verhoging a skos:Concept ;
+        skos:definition "Mate waarin het contrast moet worden verhoogd om het verlies aan waarneming, veroorzaakt door de verblinding ten gevolge van de armaturen van een wegverlichtingsinstallatie, te compenseren. Het begrip wordt meestal gebruikt als een maat voor de begrenzing van de verblinding." ;
+        skos:prefLabel "Drempelwaarde-verhoging" .
+
+    voc:Droogloopniveau a skos:Concept ;
+        skos:definition "Het vloeistofniveau waarop de pompen moeten worden uitgezet om drooglopen te voorkomen." ;
+        skos:prefLabel "Droogloopniveau" .
+
+    voc:Dwarshelling a skos:Concept ;
+        skos:definition "Helling in de richting loodrecht op de rijrichting van de weg." ;
+        skos:prefLabel "Dwarshelling" .
+
+    voc:Dwarsverbinding a skos:Concept ;
+        skos:definition "Verbinding tussen twee tunnelbuizen. In tunnels met dwarsverbindingen worden vluchtenden vanuit de incidentbuis doorgaans via de dwarsverbindingen naar de niet-incidentbuis geleid" ;
+        skos:prefLabel "Dwarsverbinding" .
+
+    voc:Dynamisch_Route_Informatie_Paneel a skos:Concept ;
+        skos:definition "Display boven of naast de weg waarop door middel van tekst en/of een plattegrond informatie (meestal over filevorming) aan de weggebruiker wordt gegeven" ;
+        skos:prefLabel "Dynamisch Route Informatie Paneel (DRIP)" .
+
+    voc:Dynamisch_Verkeers_Management a skos:Concept ;
+        skos:definition "Het geheel van organisatie, mensen en middelen om het verkeer op de rijkswegen te managen; begrip wordt ook gebruikt om de daarvoor gebruikte systemen aan te duiden" ;
+        skos:prefLabel "Dynamisch Verkeers Management (DVM)" .
+
+    voc:Einddeur a skos:Concept ;
+        skos:definition "Vergrendelbare vluchtdeur aan het eind van een middentunnelkanaal waarmee een middentunnelkanaal kan worden verlaten naar de aangrenzende tunnelbuis (indien onderdeel van een vluchtroute)." ;
+        skos:prefLabel "Einddeur" .
+
+    voc:Evacuatie a skos:Concept ;
+        skos:definition "Hiermee wordt doorgaans bedoeld het op last van de overheid verplaatsen van groepen personen in Nederland. Doorgaans gaat het om langdurige massale gebiedsontruiming. In het kader van tunnelveiligheid is 'evacuatie' een verzamelbegrip voor ontvluchten en ontruimen." ;
+        skos:prefLabel "Evacuatie" .
+
+    voc:Eventrecorder a skos:Concept ;
+        skos:definition "Opnamevoorziening die gebeurtenissen vastlegt." ;
+        skos:prefLabel "Eventrecorder" .
+
+    voc:Faalcategorie a skos:Concept ;
+        skos:definition "Een van de volgende maten van ernst bij het falen van een onderdeel: kritische storing, storing, melding. Per faalcategorie is een bepaalde afhandelprocedure van toepassing voor de gebruiker." ;
+        skos:prefLabel "Faalcategorie" .
+
+    voc:Faaldefinitie a skos:Concept ;
+        skos:definition "Een eenduidige weergave van welke onderdelen op welke wijze moeten falen voordat de functie niet meer naar behoren uitgevoerd wordt. Toelichting: faaldefinities definiëren onder andere bij welke faalgevallen van TTI functies de tunnel moet worden afgesloten, en bij welke andere maatregelen moeten worden genomen, zoals een snelheidsbeperking." ;
+        skos:prefLabel "Faaldefinitie" .
+
+    voc:Faaltoestand a skos:Concept ;
+        skos:definition "De actuele toestand van het Tunnelsysteem (dus incl. organisatie) waarbij niet aan alle ontwerpuitgangspunten (performance, betrouwbaarheid, beschikbaarheid, veiligheid, etc.) wordt voldaan." ;
+        skos:prefLabel "Faaltoestand" .
+
+    voc:Falen a skos:Concept ;
+        skos:definition "Een gebeurtenis, of een verzameling gebeurtenissen, waardoor een systeem zijn functionaliteit of een deel van zijn functionaliteit verliest." ;
+        skos:prefLabel "Falen" .
+
+    voc:File a skos:Concept ;
+        skos:definition "een verzamelbegrip voor drie soorten stagnerend verkeer: - langzaam rijdend verkeer: verkeer dat over tenminste 2 kilometer nergens harder rijdt dan 50 km, maar doorgaans wel sneller dan 25 km/u; - stilstaand verkeer: verkeer dat over tenminste 2 kilometer vrijwel overal minder dan 25 km/u rijdt; - langzaam rijdend tot stilstaand verkeer: langzaam rijdend verkeer over veelal wat grotere lengte met hierin “groepen” stilstaand verkeer." ;
+        skos:prefLabel "File" .
+
+    voc:Functioneel_beheer a skos:Concept ;
+        skos:definition "Functioneel beheer houdt zich bezig met het beheren van een technisch systeem in een organisatie. Technische systemen worden gebruikt door een gebruikersorganisatie en moeten aan veranderende eisen worden aangepast. Het beschrijven van deze wijzigingen, het (laten) doorvoeren van de voorgestelde wijzigingen en het controleren van de wijzigingen behoort tot het takenpakket van Functioneel Beheer." ;
+        skos:prefLabel "Functioneel beheer" .
+
+    voc:Gebruikstoestand a skos:Concept ;
+        skos:definition "Een van de volgende toestanden waarin een verkeersbuis zich kan bevinden: normaal gebruik, stand-by na detectie, calamiteit volledig, calamiteit met evacuatie, calamiteit ondersteunend, regulier onderhoud, herstel na calamiteit." ;
+        skos:prefLabel "Gebruikstoestand" .
+
+    voc:Geldigheidsproduct a skos:Concept ;
+        skos:definition "Een document, onderdeel van een aanbieding, dat de geldigheid van een aanbieding (mede) bepaalt. Vaak als onderdeel van een aanbieding op een aanbesteding." ;
+        skos:prefLabel "Geldigheidsproduct" .
+
+    voc:Generiek_bediensysteem_RWS a skos:Concept ;
+        skos:definition "Deze term duidt het hele systeem van werkplekken, verkeerscentrales, (netwerk)infrastructuur e.d. dat ingericht is voor bediening van het hoofdwegennet en de daarbij behorende objecten. Het geeft hiermee de scope aan van de zog. ‘bedienzijde’ van het UKVC. Wordt ook wel gebruikt als 'generiek bediensysteem'." ;
+        skos:prefLabel "Generiek bediensysteem RWS" .
+
+    voc:Gepland_onderhoud a skos:Concept ;
+        skos:definition "Onderhoudswerkzaamheden die planmatig worden uitgevoerd. Het betreft curatief onderhoud, preventief onderhoud en correctief onderhoud dat uitgesteld kan worden zonder dat de beschikbaarheid van het systeem/component negatief wordt beïnvloed. Met het uitstel wordt dit correctief onderhoud planbaar." ;
+        skos:prefLabel "Gepland onderhoud" .
+
+    voc:Grensruimte a skos:Concept ;
+        skos:definition "Een ruimte die grenst aan een vloeistofbassin en die een directe verbinding heeft met een vloeistofbassin die niet te allen tijde geheel dampdicht is." ;
+        skos:prefLabel "Grensruimte" .
+
+    voc:Groepscommando a skos:Concept ;
+        skos:definition "Groep van commando’s (bedienopdrachten) die door de wegverkeersleider als één commando gegeven kunnen worden." ;
+        skos:prefLabel "Groepscommando" .
+
+    voc:Hand-nul-auto_schakelaar a skos:Concept ;
+        skos:definition "Als mogelijke plaatselijke bediening van een LFV of component kan gebruik worden gemaakt van een hand-nul-auto schakelaar. In dat geval gelden voor deze drie standen de volgende definitie; 'Hand'; de LFV of component is plaatselijk ingeschakeld. Dit kan tevens als 'tip-stand' zijn uitgevoerd, 'Nul'; de LFV of component is plaatselijk uitgeschakeld, 'Auto'; de LFV of component kan worden aangestuurd door een bovenliggende besturing (besturing tunnelsysteem of besturing LFV). Het bedienen van deze schakelaar uit de stand 'auto' dient in de MMI te worden gemeld als 'bediening plaatselijk' . Na het inschakelen van de stand 'Auto' van de hand-nul-auto schakelaar bevindt de LFV of component zich in de bedienmode 'Auto', mits geen noodstop of werkschakelaar actief is." ;
+        skos:prefLabel "Hand-nul-auto schakelaar" .
+
+    voc:Handbediening a skos:Concept ;
+        skos:definition "Een functie, logische functie vervuller, of component is door de operator op hand genomen (bediening vanuit MMI). De instelling en commando’s worden bepaald door de bediening van de operator vanuit de MMI." ;
+        skos:prefLabel "Handbediening" .
+
+    voc:Hoofdkelder a skos:Concept ;
+        skos:definition "Vloeistofkelder waarin uit de tunnel afgevoerde vloeistoffen tijdelijk worden opgeslagen, alvorens deze worden afgevoerd naar een lozingspunt buiten de tunnel." ;
+        skos:prefLabel "Hoofdkelder" .
+
+    voc:Hulppostkast a skos:Concept ;
+        skos:definition "Kast in de wand van een tunnel waarin zich veiligheidsvoorzieningen bevinden voor de weggebruiker en de hulpdiensten." ;
+        skos:prefLabel "Hulppostkast" .
+
+    voc:Hulpverlening_LOD a skos:Concept ;
+        skos:definition "Alle maatregelen en procedures voor het faciliteren van de hulpdiensten (brandweer, politie, GGD, berger, pechhulp) zodat zij de hulpverlening tijdens een incident of calamiteit zo efficiënt mogelijk kunnen uitvoeren." ;
+        skos:prefLabel "Hulpverlening (LOD)" .
+
+    voc:Incident a skos:Concept ;
+        skos:definition "Elke gebeurtenis die de capaciteit van de weg nadelig beïnvloedt of kan beïnvloeden en als zodanig de doorstroming van het verkeer belemmert of kan belemmeren, uitgezonderd pechgevallen op de vluchtstrook voor zover sprake is van een aanvaardbaar risico ten aanzien van de doorstroming en de veiligheid van het overige verkeer. (N.B.: Het handboek voorbereiding rampenbestrijding hanteert een nadere definitie van incident.)." ;
+        skos:prefLabel "Incident" .
+
+    voc:Incident_Bedrijf a skos:Concept ;
+        skos:definition "Dit is de situatie waarbij sprake is van een verkeersincident, waarbij veiligheids- en verkeersgeleidingsvoorzieningen geactiveerd zijn." ;
+        skos:prefLabel "Incident Bedrijf" .
+
+    voc:Incident_ITIL a skos:Concept ;
+        skos:definition "Ongeplande onderbreking of kwaliteitsvermindering van ondersteunende IT ten behoeve van de tunnel. Storing van een CI die nog geen impact op de service heeft is ook een incident. Bijvoorbeeld een storing van één disk van een mirror set." ;
+        skos:prefLabel "Incident (ITIL)" .
+
+    voc:Incident_Management a skos:Concept ;
+        skos:definition "Het geheel aan maatregelen die beogen de weg zo snel mogelijk nadat een incident heeft plaatsgevonden voor het verkeer vrij te maken. In de praktijk is het de samenwerking tussen politie, brandweer, ambulance, RWS, bergers en ANWB Wegenwacht bij de veilige en efficiënte afhandeling van een incident." ;
+        skos:prefLabel "Incident Management" .
+
+    voc:Incidentbuis a skos:Concept ;
+        skos:definition "De tunnelbuis waarin zich een incident voordoet." ;
+        skos:prefLabel "Incidentbuis" .
+
+    voc:Ingangszone a skos:Concept ;
+        skos:definition "Het eerste gedeelte van het overdekte deel van de tunnel (nader gedefinieerd in Basisspecificatie TTI), waar het verlichtingsniveau een speciaal verloop kent." ;
+        skos:prefLabel "Ingangszone" .
+
+    voc:Instandhoudingsplan a skos:Concept ;
+        skos:definition "Een plan dat beschrijft hoe de continuïteit van een tunnel object wordt gewaarborgd (met behulp van beheer & onderhoud)." ;
+        skos:prefLabel "Instandhoudingsplan" .
+
+    voc:Interface a skos:Concept ;
+        skos:definition "Een koppelvlak (of interface) is een intermediair met behulp waarvan twee systemen met elkaar communiceren. Specifiek: een gedefinieerde (of gestandaardiseerde) manier waarmee functionaliteit van een module aangesproken kan worden." ;
+        skos:prefLabel "Interface" .
+
+    voc:Kopdeur a skos:Concept ;
+        skos:definition "Vluchtdeur aan de kop van een middentunnelkanaal waarmee het middentunnelkanaal kan worden verlaten richting de verzamelplaats (het eindpunt van een vluchtroute)." ;
+        skos:prefLabel "Kopdeur" .
+
+    voc:Koppelvlak a skos:Concept ;
+        skos:definition "Een grensvlak tussen twee of meerdere elementen (systemen, processen, personen, etc.)." ;
+        skos:prefLabel "Koppelvlak" .
+
+    voc:Landelijk_Tunnelregisseur a skos:Concept ;
+        skos:definition "Functionaris verantwoordelijk voor de standaardisatie van het RWS Tunnelsysteem en het pragmatisch toepassen van de deelproducten in de lopende projecten en de bestaande tunnels." ;
+        skos:prefLabel "Landelijk Tunnelregisseur" .
+
+    voc:Langsgelijkmatigheid a skos:Concept ;
+        skos:definition "Verhouding tussen de laagste en de hoogste waarde van de verlichting in de lengterichting gezien." ;
+        skos:prefLabel "Langsgelijkmatigheid" .
+
+    voc:Langsventilatie a skos:Concept ;
+        skos:definition "Ventilatie in de lengterichting van een verkeersbuis." ;
+        skos:prefLabel "Langsventilatie" .
+
+    voc:Lessenaar a skos:Concept ;
+        skos:definition "De in hoogte verstelbare tafel (deel uitmakend van de Uniforme Werkplek Wegverkeersleiders) waaraan de wegverkeersleider zijn werk doet. De lessenaar is (conform specificatie SSS B&PS UWW) uitgevoerd met 5 beeldschermen en de benodigde invoermiddelen én een Multifunctioneel Aanraakpaneel (MAP) ten behoeve van auditieve communicatie" ;
+        skos:prefLabel "Lessenaar" .
+
+    voc:Lichtreductie-coëfficiënt a skos:Concept ;
+        skos:definition "Mate waarin het licht gereduceerd wordt." ;
+        skos:prefLabel "Lichtreductie-coëfficiënt" .
+
+    voc:Linker_rijbaan a skos:Concept ;
+        skos:definition "Rijbaan van autoweg/snelweg met aflopende hectometer aanduiding (conform BPS)." ;
+        skos:prefLabel "Linker rijbaan" .
+
+    voc:Logische_Functie_Vervuller a skos:Concept ;
+        skos:definition "Deelinstallatie en zijn representatie in het besturingssysteem (door middel van een LFV koppelvlak)." ;
+        skos:prefLabel "Logische Functie Vervuller" .
+
+    voc:Lokale_bediening a skos:Concept ;
+        skos:definition "Bewaking en bediening vanuit een gebouw dat in de onmiddellijke omgeving van het bediende object ligt (bijvoorbeeld het dienstgebouw); meestal wordt lokale bediening toegepast als terugvaloptie van Centrale Bediening." ;
+        skos:prefLabel "Lokale bediening" .
+
+    voc:Luminantiemeting a skos:Concept ;
+        skos:definition "Meting van verlichtingswaarden." ;
+        skos:prefLabel "Luminantiemeting" .
+
+    voc:Maatgevende_bui a skos:Concept ;
+        skos:definition "Gestandaardiseerde maat voor een regenbui die door het vuilwatersysteem van een tunnel verwerkt moet kunnen worden." ;
+        skos:prefLabel "Maatgevende bui" .
+
+    voc:Maatregel a skos:Concept ;
+        skos:definition "Beslissingen/handelingen om een bepaald onderdeel van een eis of een service/dienst in te vullen. Meestal oplossingsvrij geformuleerd." ;
+        skos:prefLabel "Maatregel" .
+
+    voc:Matrix_SignaalGever a skos:Concept ;
+        skos:definition "Onderdeel van MTM dat signaalbeelden toont aan de weggebruiker. 1e generatie: cijfers in dubbele rijen beeldpunten achter een transparante kunststof plaat met losse knipperlichten. 2e generatie: cijfers én knipperlichten samen achter een transparante kunststof plaat 3e generatie: cijfers in enkele rij beeldpunten, alle lichtpunten direct in de frontplaat gemonteerd. MSG en LSCU vormen samen de matrixsignaalgeverinstallatie(MSI)." ;
+        skos:prefLabel "Matrix SignaalGever" .
+
+    voc:Mens_Machine_Interface a skos:Concept ;
+        skos:definition "Het ‘raakvlak’ tussen de computer, waar de tunnelbedien-applicatie op draait, en de bedienaar; bestaat uit zowel de Grafische User Interface (GUI) als de in- en uitvoermiddelen." ;
+        skos:prefLabel "Mens Machine Interface" .
+
+    voc:Middenkelder a skos:Concept ;
+        skos:definition "Vloeistofkelder waarin uit de tunnel afgevoerde vloeistoffen tijdelijk worden opgeslagen, alvorens ze worden afgevoerd naar de hoofdkelder." ;
+        skos:prefLabel "Middenkelder" .
+
+    voc:Middentunnelkanaal a skos:Concept ;
+        skos:definition "Kanaal tussen twee aangrenzende verkeersbuizen dat dienst doet als vluchtroute. Meestal zijn hierin ook kabels en leidingen aangebracht (afgeschermd van de vluchtweg), en biedt het kanaal servicetoegang tot installatiedelen." ;
+        skos:prefLabel "Middentunnelkanaal" .
+
+    voc:Mitigatie_LOD a skos:Concept ;
+        skos:definition "Alle maatregelen en procedures waarmee aanwezigen in een tunnel, als mede de tunneloperator, in de gelegenheid worden gesteld om escalatie van incidenten te voorkomen." ;
+        skos:prefLabel "Mitigatie (LOD)" .
+
+    voc:Mode a skos:Concept ;
+        skos:definition "Een ‘mode’ is een goed te onderscheiden instelling als onderdeel van een computer programma of een (fysieke) machine interface." ;
+        skos:prefLabel "Mode" .
+
+    voc:Module a skos:Concept ;
+        skos:definition "Aanwijsbaar logisch onderdeel van het systeem met een gedefinieerde interface en een gedefinieerd gedrag; dit kan zowel uit software als hardware of een combinatie daarvan bestaan." ;
+        skos:prefLabel "Module" .
+
+    voc:Motorway_Traffic_Management_ a skos:Concept ;
+        skos:definition "Motorway Traffic Managementsysteem - versie 2. Het systeem voor verkeerssignalering dat RWS op de (snel)wegen toepast." ;
+        skos:prefLabel "Motorway Traffic Management (MTM-2)" .
+
+    voc:Multifunctioneel_Aanraak_Paneel a skos:Concept ;
+        skos:definition "Toestel met aanraakscherm voor het bedienen van auditieve communicatie (telefoon, mobilofoon, omroep, enz.)." ;
+        skos:prefLabel "Multifunctioneel Aanraak Paneel (MAP)" .
+
+    voc:Niet-beschikbaar_GUI_context a skos:Concept ;
+        skos:definition "Aanduiding in de GUI dat een LFV niet-beschikbaar is als deze voor de actuele bedrijfstoestand presteert onder zijn ontwerpwaarde." ;
+        skos:prefLabel "Niet-beschikbaar (GUI context)" .
+
+    voc:Niet_beschikbaar a skos:Concept ;
+        skos:definition "De functie faalt volgens de faaldefinities. Denk bijvoorbeeld aan het uitvallen van 100m van de verlichting." ;
+        skos:prefLabel "Niet beschikbaar" .
+
+    voc:No-break_voorziening a skos:Concept ;
+        skos:definition "Voorziening die bij uitval van de netstroomvoorziening kan zorgen voor een tijdelijke ononderbroken stroomvoorziening." ;
+        skos:prefLabel "No-break voorziening" .
+
+    voc:Noodbediening a skos:Concept ;
+        skos:definition "Een technische voorziening om een tunnelbuis of tunnel te kunnen sluiten als de reguliere bedieningsfunctie niet beschikbaar is" ;
+        skos:prefLabel "Noodbediening" .
+
+    voc:Noodstopbediening_plaatselijk a skos:Concept ;
+        skos:definition "Een doeltreffend geplaatste noodstopschakelaar voor het in noodgevallen uitschakelen van de aandrijvende motoren van omvangrijke werktuigen die gevaar voor ernstige ongevallen kunnen veroorzaken." ;
+        skos:prefLabel "Noodstopbediening (plaatselijk)" .
+
+    voc:Normaalbedrijf a skos:Concept ;
+        skos:definition "Dit is de primair gewenste toestand van het RWS tunnelsysteem. In deze bedrijfstoestand wordt geoptimaliseerd naar doorstroming, waarbij preventieve maatregelen voor veiligheid van toepassing zijn." ;
+        skos:prefLabel "Normaalbedrijf" .
+
+    voc:Notificatie a skos:Concept ;
+        skos:definition "Technische berichtgeving op initiatief van de verzender, bijvoorbeeld van een conditieverandering." ;
+        skos:prefLabel "Notificatie" .
+
+    voc:Nuttige_berging a skos:Concept ;
+        skos:definition "Netto bergingscapaciteit die wordt bepaald door het maximum toegestane vloeistofniveau en het droogloopniveau." ;
+        skos:prefLabel "Nuttige berging" .
+
+    voc:Onderhoud a skos:Concept ;
+        skos:definition "Activiteiten om de bruikbaarheid van het object of de installatie op peil te houden. Hieronder kunnen vallen: reinigen, repareren en vervangen van onderdelen of (beschermings)middelen." ;
+        skos:prefLabel "Onderhoud" .
+
+    voc:Onderhoudbaarheid a skos:Concept ;
+        skos:definition "De waarschijnlijkheid dat de activiteiten voor onderhoud binnen de hiervoor vastgestelde tijden en onder gegeven omstandigheden om de vereiste functie te kunnen vervullen, kunnen worden uitgevoerd. De onderhoudbaarheid van een systeem/component wordt bepaald door de gemiddelde reparatieduur (Mean Time To Repair)." ;
+        skos:prefLabel "Onderhoudbaarheid" .
+
+    voc:Onderhoudsbedrijf a skos:Concept ;
+        skos:definition "Dit is een toestand waarin het RWS Tunnelsysteem zich bevindt, als er onderhoud aan het Tunnel Object wordt gepleegd (waarbij de TTI zich anders gedraagt en/of (gedeeltelijk) uitgeschakeld is c.q. de verkeersgeleiding door de tunnel moet worden aangepast)." ;
+        skos:prefLabel "Onderhoudsbedrijf" .
+
+    voc:Ondersteunende_buis a skos:Concept ;
+        skos:definition "Een voor het verkeer afgesloten buis waarmee in het geval van een calamiteit aan de hulpdiensten een veilige aanvalsroute en werkomgeving wordt geboden." ;
+        skos:prefLabel "Ondersteunende buis" .
+
+    voc:Ongepland_onderhoud_vanwege_falen a skos:Concept ;
+        skos:definition "Onderhoudswerkzaamheden als gevolg van storingen (correctief onderhoud) die niet/lastig zijn te voorzien en die meteen de beschikbaarheid van het systeem/component beïnvloeden" ;
+        skos:prefLabel "Ongepland onderhoud (vanwege falen)" .
+
+    voc:Ontwerpsnelheid a skos:Concept ;
+        skos:definition "De snelheid waarmee rekening gehouden is bij het wegontwerp." ;
+        skos:prefLabel "Ontwerpsnelheid" .
+
+    voc:Onvoorwaardelijk_rood a skos:Concept ;
+        skos:definition "Verkeersbuis afsluiten met behulp van een VRI die vanuit rust meteen op vast geel licht gaat en vervolgens op vast rood licht." ;
+        skos:prefLabel "Onvoorwaardelijk rood" .
+
+    voc:Operationeel_Verkeers_Management a skos:Concept ;
+        skos:definition "Afdeling van de regionale dienst die verantwoordelijk is voor de veilige doorstroming op het wegennet. Uitvoering vindt plaats door Wegverkeersleiders in de verkeerscentrale." ;
+        skos:prefLabel "Operationeel Verkeers Management (OVM)" .
+
+    voc:Optiepakket a skos:Concept ;
+        skos:definition "Een optiepakket is een pakket voorzieningen dat onder gespecificeerde omstandigheden -als gevolg van een variatiepunt- in een tunnel object kan worden opgenomen." ;
+        skos:prefLabel "Optiepakket" .
+
+    voc:Pan-Tilt-Zoom a skos:Concept ;
+        skos:definition "Bewegingsmogelijkheden van een op afstand bestuurde camera: pan = beweging in horizontaal vlak, tilt = beweging in vertikaal vlak, zoom = verandering van brandpuntafstand lens." ;
+        skos:prefLabel "Pan-Tilt-Zoom." .
+
+    voc:Pan-tilt-zoom_CCTV_cameras a skos:Concept ;
+        skos:definition "Camera’s in een gesloten tv-circuit die kunnen bewegen in een horizontaal en een verticaal vlak en waarmee het beeld kan worden uitvergroot." ;
+        skos:prefLabel "Pan-tilt-zoom CCTV camera’s" .
+
+    voc:Pixelruimte a skos:Concept ;
+        skos:definition "De totale ruimte die de schermen op de Uniforme Werkplek Wegverkeersleiders (conform specificatie SSS B&PS UWW) en de bijbehorende videowand bieden om applicaties op af te beelden" ;
+        skos:prefLabel "Pixelruimte" .
+
+    voc:Plaatselijke_Bediening a skos:Concept ;
+        skos:definition "Plaatselijke bediening is alleen van toepassing op logische functie vervullers of componenten. De plaatselijke bediening vindt direct op logische functie vervuller of component plaats middels een of meerdere bedien elementen ter plaatse. Deze bediening grijpt direct in op het niveau van de functie vervuller en/of component. Een logische functie vervuller of component in de bedienmode “plaatselijk” kan niet meer worden bediend van uit de MMI of worden bestuurd vanuit een bovenliggende besturingslaag. Een logische functie vervuller of component in de bedienmode “plaatselijk” is daarmee tevens “Niet Beschikbaar”." ;
+        skos:prefLabel "Plaatselijke Bediening" .
+
+    voc:Portaal a skos:Concept ;
+        skos:definition "Constructie bestaande uit twee opgaande wanden of kolommen met daarop een horizontale ligger, die met tenminste een van de wanden of kolommen een stijve verbinding vormt ten behoeve van bewegwijzering (bewegwijzeringsportaal), en/of signaalgevers (signaleringsportaal of combiportaal (ingeval van bewegwijzering èn signaalgevers))." ;
+        skos:prefLabel "Portaal" .
+
+    voc:Preventie_LOD a skos:Concept ;
+        skos:definition "Alle maatregelen en procedures met als doel het ontstaan van incidenten te voorkomen en de kans op calamiteiten te minimaliseren." ;
+        skos:prefLabel "Preventie (LOD)" .
+
+    voc:Preventief_onderhoud a skos:Concept ;
+        skos:definition "Onderhoudswerkzaamheden bedoeld voor het voorkomen van storingen." ;
+        skos:prefLabel "Preventief onderhoud" .
+
+    voc:Primaire_bedieningen_GUI_context a skos:Concept ;
+        skos:definition "De bedieningen per verkeersbuis die steeds bereikbaar dienen te zijn voor de tunneloperator (omdat ze i.v.m. veiligheid direct te bedienen moeten zijn, of omdat ze vaak nodig zijn), zoals: afsluiten verkeersbuis, omschakelen bedrijfstoestand, volgstand camera’s." ;
+        skos:prefLabel "Primaire bedieningen (GUI context)" .
+
+    voc:Pro-actie_LOD a skos:Concept ;
+        skos:definition "Het wegnemen van structurele oorzaken van onveiligheid ter voorkoming van het ontstaan ervan." ;
+        skos:prefLabel "Pro-actie (LOD)" .
+
+    voc:Procedure a skos:Concept ;
+        skos:definition "Beschrijving van een proces waarbij per procesonderdeel of per (cluster van) activiteit(en) de bevoegdheid van personen (functionarissen of rolhouders) in de betrokken organisatie of het samenwerkingsverband is vastgelegd." ;
+        skos:prefLabel "Procedure" .
+
+    voc:Proces a skos:Concept ;
+        skos:definition "Een aaneengesloten reeks van activiteiten (inclusief beslissingen) die verricht worden om in een behoefte van een klant te kunnen voorzien gestart vanuit een trigger en ondersteund met informatie." ;
+        skos:prefLabel "Proces" .
+
+    voc:Profiel_van_de_vrije_ruimte a skos:Concept ;
+        skos:definition "Doorsnede van de verkeersbuis, loodrecht op het wegdek en loodrecht op de langsrichting, die de begrenzing aangeeft waarbinnen objecten het verkeer niet mogen hinderen." ;
+        skos:prefLabel "Profiel van de vrije ruimte" .
+
+    voc:Programmable_Logic_Controller a skos:Concept ;
+        skos:definition "Een industriële computer die op basis van de informatie op zijn verschillende ingangen, zijn uitgangen (vaak een technische installatie) aanstuurt." ;
+        skos:prefLabel "Programmable Logic Controller" .
+
+    voc:Quality_of_Service a skos:Concept ;
+        skos:definition "Prestatie-eisen van een dienst. Voor netwerken betreft het o.a. de bandbreedte en de latency." ;
+        skos:prefLabel "Quality of Service" .
+
+    voc:Raai a skos:Concept ;
+        skos:definition "Denkbeeldige lijn dwars over een weg." ;
+        skos:prefLabel "Raai" .
+
+    voc:Radio_Data_System a skos:Concept ;
+        skos:definition "Digitale informatie die wordt meegestuurd met een FM-radiosignaal voor autoradio’s, bv. verkeersinformatie." ;
+        skos:prefLabel "Radio Data System" .
+
+    voc:Rechter_rijbaan a skos:Concept ;
+        skos:definition "Rijbaan van autoweg/snelweg met oplopende hectometer aanduiding (conform BPS)." ;
+        skos:prefLabel "Rechter rijbaan" .
+
+    voc:Richtlijn a skos:Concept ;
+        skos:definition "Een kader stellende uitspraak voor een specifiek onderdeel van het Tunnelsysteem." ;
+        skos:prefLabel "Richtlijn" .
+
+    voc:Rijbaan a skos:Concept ;
+        skos:definition "Een groep van een of meer aan elkaar grenzende rijstroken die op basis van de belijning op de weg bij elkaar horen en waarop het verkeer zich in dezelfde richting begeeft." ;
+        skos:prefLabel "Rijbaan" .
+
+    voc:Rijstrook a skos:Concept ;
+        skos:definition "Bedoeld voor de afwikkeling van rijdend verkeer. Onderdeel van de rijbaan in het dwarsprofiel van de tunnel. De breedte van een rijstrook is de afstand tussen de binnenkant van de kantstreep en het hart van de deelstreep (of tussen het hart van twee deelstrepen)." ;
+        skos:prefLabel "Rijstrook" .
+
+    voc:Risicomanagement a skos:Concept ;
+        skos:definition "Het proces dat verantwoordelijk is voor het identificeren, beoordelen en het beheersen van risico's (ongewenste gebeurtenissen) in relatie tot een bepaalde doelstelling." ;
+        skos:prefLabel "Risicomanagement" .
+
+    voc:Rol a skos:Concept ;
+        skos:definition "Een persoon (functionaris) in de betrokken organisatie of het samenwerkingsverband met de daarbij behorende bevoegdheid, gekoppeld aan samenhangende(delen van) processen of activiteiten." ;
+        skos:prefLabel "Rol" .
+
+    voc:SSS_B_PS_UWW a skos:Concept ;
+        skos:definition "Systeemspecificatie Bediening en Presentatiesysteem (B&PS) van de Uniforme Werkplek Wegverkeersleider (UWW)" ;
+        skos:prefLabel "SSS B&PS UWW" .
+
+    voc:STI-waarde a skos:Concept ;
+        skos:definition "Speech Transmission Index – eenheid om de verstaanbaarheid van gesproken tekst aan te geven." ;
+        skos:prefLabel "STI-waarde" .
+
+    voc:Signaleringsraai a skos:Concept ;
+        skos:definition "Portaal dwars over de snelweg met verkeerssignalerings-borden." ;
+        skos:prefLabel "Signaleringsraai" .
+
+    voc:Snelheid_Onderschrijding_Systeem a skos:Concept ;
+        skos:definition "Systeem dat detecteert dat een voertuig langzamer rijdt dan een ingestelde waarde." ;
+        skos:prefLabel "Snelheid Onderschrijding Systeem (SOS)" .
+
+    voc:Snelheids_Differentiatie_Systeem a skos:Concept ;
+        skos:definition "Systeem dat detecteert of voertuigen op verschillende rijstroken naast elkaar te grote snelheidsverschillen hebben." ;
+        skos:prefLabel "Snelheids Differentiatie Systeem (SDS)" .
+
+    voc:Stakeholder a skos:Concept ;
+        skos:definition "Belanghebbenden bij de afname en/of de levering van de diensten van het RWS Tunnelsysteem." ;
+        skos:prefLabel "Stakeholder" .
+
+    voc:State a skos:Concept ;
+        skos:definition "Een unieke configuratie van informatie (toestands-variabelen) in een programma of machine (definitie uit de automaten theorie). In de tunnelstandaard wordt ‘State’ gebruikt voor de toestand van de TTI van verkeersbuizen." ;
+        skos:prefLabel "State" .
+
+    voc:State_transitie_diagram a skos:Concept ;
+        skos:definition "Een tekentechniek om de relatie tussen de mogelijke systeemtoestanden (system states) en het tijdsafhankelijke gedrag van een systeem op te schrijven." ;
+        skos:prefLabel "State transitie diagram" .
+
+    voc:State_transitie_model a skos:Concept ;
+        skos:definition "Model welke de relatie en overgangen tussen de verschillende States aangeeft." ;
+        skos:prefLabel "State transitie model" .
+
+    voc:Steunpunt_Tunnelveiligheid a skos:Concept ;
+        skos:definition "Aanspreekpunt voor advisering over tunnelveiligheid binnen Rijkswaterstaat." ;
+        skos:prefLabel "Steunpunt Tunnelveiligheid" .
+
+    voc:Stopafstand a skos:Concept ;
+        skos:definition "De afstand die is vereist om een met de ontwerpsnelheid rijdend voertuig tot volledige stilstand te brengen, daarbij rekening houdend met de reactietijd van de bestuurder en de remvertraging." ;
+        skos:prefLabel "Stopafstand" .
+
+    voc:Structurele_Verandering a skos:Concept ;
+        skos:definition "Eén van de projecten die de Landelijk Tunnel Regisseur heeft opgezet. Doel van dit project is het definiëren van een standaard voor RWS tunnelsystemen." ;
+        skos:prefLabel "Structurele Verandering" .
+
+    voc:Supervisory_Control_And_Data_Acquisition a skos:Concept ;
+        skos:definition "Een combinatie van hard- en software voor het verzamelen, doorsturen, verwerken en visualiseren van meet- en regelsignalen en bedieningen van verschillende installaties, meestal verbonden met PLC's (programmable logic controllers)." ;
+        skos:prefLabel "Supervisory Control And Data Acquisition" .
+
+    voc:Systeem a skos:Concept ;
+        skos:definition "Generiek begrip voor een aantal componenten (processen, organisaties, technische delen (modules)) die gezamenlijk een of meerdere functionaliteiten realiseren." ;
+        skos:prefLabel "Systeem" .
+
+    voc:Systeemtoestand_Systeemstate a skos:Concept ;
+        skos:definition "Synoniemen voor het begrip ‘State’." ;
+        skos:prefLabel "Systeemtoestand, Systeemstate" .
+
+    voc:Taak a skos:Concept ;
+        skos:definition "Onderdeel van een activiteit toegekend aan een persoon, meestal gekoppeld aan een specifieke plaats van uitvoering." ;
+        skos:prefLabel "Taak" .
+
+    voc:Tegengesteld_verkeer a skos:Concept ;
+        skos:definition "Het verkeer in de rijrichting tegengesteld aan de normale rijrichting door de tunnelbuis laten rijden, waarbij voor alle rijstroken dezelfde rijrichting geldt." ;
+        skos:prefLabel "Tegengesteld verkeer" .
+
+    voc:Tegenverkeer a skos:Concept ;
+        skos:definition "Het verkeer tegelijkertijd in twee rijrichtingen door de tunnelbuis laten rijden, waarbij er voor elke rijrichting een bepaald aantal rijstroken is gereserveerd (bron: Leidraad Veiligheidsdocumentatie)." ;
+        skos:prefLabel "Tegenverkeer" .
+
+    voc:Terrestrial_Digital_Audio_Broadcasting a skos:Concept ;
+        skos:definition "Methode om digitale radiosignalen over te sturen." ;
+        skos:prefLabel "Terrestrial Digital Audio Broadcasting" .
+
+    voc:Tidal_Flow a skos:Concept ;
+        skos:definition "Wisselende verkeersrichtingen in één of meerdere tunnelbuizen." ;
+        skos:prefLabel "Tidal Flow" .
+
+    voc:Toerit a skos:Concept ;
+        skos:definition "De constructie die de aansluiting verzorgt van de weg op maaiveld naar het overdekte gedeelte van de tunnel. Enkele tunnelinstallaties kunnen in of zelfs nog vòòr de toerit zijn geplaatst, waaronder afsluitbomen, verkeersregelinstallaties, etc. Bij bovengronds liggende tunnels (overkapping) is de toerit niet verdiept en daarom nader te definiëren. Ook: weggedeelte dat invoegt op een snelweg." ;
+        skos:prefLabel "Toerit" .
+
+    voc:Transitie a skos:Concept ;
+        skos:definition "Overgang tussen Bedrijfstoestanden/States. De Transities zijn ondeelbaar en tijdloos verondersteld." ;
+        skos:prefLabel "Transitie" .
+
+    voc:Tunnel_Object a skos:Concept ;
+        skos:definition "De fysieke tunnel inclusief het Systeem TTI." ;
+        skos:prefLabel "Tunnel Object" .
+
+    voc:Tunnel_Technische_Installaties a skos:Concept ;
+        skos:definition "Het geheel van de tunnel- en verkeerskundige installaties inclusief de bediening, besturing, bewaking en dataverkeer tussen verkeerscentrales en tunnel, voor zover vallend binnen de systeemafbakening van het RWS tunnelsysteem." ;
+        skos:prefLabel "Tunnel Technische Installaties" .
+
+    voc:Tunnelbediening a skos:Concept ;
+        skos:definition "De activiteiten waarmee de verkeersafwikkeling in en rond de tunnel, en de werking van de verkeers- en tunnel technische installaties, worden bewaakt door een wegverkeersleider. Bij verstoringen of afwijkingen grijpt de wegverkeersleider handmatig in op basis van gestandaardiseerde procedures." ;
+        skos:prefLabel "Tunnelbediening" .
+
+    voc:Tunnelbeheerder a skos:Concept ;
+        skos:definition "De beheerder van de weg voor zover de weg in de tunnel ligt of een andere rechtspersoon aan wie het gehele wegbeheer voor de in de tunnel gelegen weg is opgedragen. Verantwoordelijk voor het beheer van de tunnel." ;
+        skos:prefLabel "Tunnelbeheerder" .
+
+    voc:Tunnelbuis a skos:Concept ;
+        skos:definition "Buis die onderdeel is van een tunnel en waarin verkeer kan rijden." ;
+        skos:prefLabel "Tunnelbuis" .
+
+    voc:Tunnelbuis_Wi a skos:Concept ;
+        skos:definition "Naamgeving van een tunnelbuis die als wisselbuis gebruikt wordt (conform de RARVW)." ;
+        skos:prefLabel "Tunnelbuis Wi" .
+
+    voc:Tunnelingang a skos:Concept ;
+        skos:definition "De locatie waar de toerit overgaat in de verkeersbuis van de tunnel; ook ingangsportaal." ;
+        skos:prefLabel "Tunnelingang" .
+
+    voc:Tunnelmond a skos:Concept ;
+        skos:definition "Zie tunnelingang/ingangsportaal." ;
+        skos:prefLabel "Tunnelmond" .
+
+    voc:Tunneloperator a skos:Concept ;
+        skos:definition "Wettelijk gedefinieerde rol van degene die de tunnel bewaakt en tunnelsystemen bedient; bij RWS wordt deze rol uitgevoerd door speciaal daarvoor opgeleide Wegverkeersleiders." ;
+        skos:prefLabel "Tunneloperator" .
+
+    voc:Tunnelsysteem a skos:Concept ;
+        skos:definition "Het RWS Tunnelsysteem als onderdeel van het Hoofdwegennet bestaande uit het totaal van diensten, processen, organisatie, tunnel technische installaties, IT en Civiel technische infrastructuur waarmee RWS Tunnelsysteem diensten worden geleverd." ;
+        skos:prefLabel "Tunnelsysteem" .
+
+    voc:Tunneltracé a skos:Concept ;
+        skos:definition "Wegvak waarin tunnel is gelegen, inclusief toeleidende wegen en gebied waarop apparatuur geplaatst is welke vanuit TTI of VTI wordt aangestuurd. Het tracé bevat het eerste t/m laatste matrixbord dat door tunnel applicatie wordt aangestuurd. In de praktijk komt dit neer op 2 of 3 portalen voor de VRI die op enige afstand vóór de tunnelmond staat en de eerste voorwaarschuwing voor het verkeerslicht." ;
+        skos:prefLabel "Tunneltracé" .
+
+    voc:Tunneluitgang a skos:Concept ;
+        skos:definition "De locatie waar de verkeersbuis van de tunnel overgaat in de uitrit (=toerit (SATO)); ook uitgangsportaal." ;
+        skos:prefLabel "Tunneluitgang" .
+
+    voc:Tunnelveiligheidsplan a skos:Concept ;
+        skos:definition "Een plan van de initiatiefnemer / tunnelbeheerder, waarmee hij aantoont dat een veilig en veilig te gebruiken tunnelsysteem wordt of is verkregen. Afweging van alle veiligheidsaspecten die een rol spelen bij de keuze van locatie, ontwerp en beoogd gebruik. Vereist op grond van de WARVW in het geval dat overwogen wordt een tunnel te bouwen of het gebruik ervan te veranderen." ;
+        skos:prefLabel "Tunnelveiligheidsplan" .
+
+    voc:Uitgangsvluchtdeur a skos:Concept ;
+        skos:definition "Vergrendelbare vluchtdeur waarmee een dwarsverbinding kan worden verlaten naar de aangrenzende tunnelbuis (indien onderdeel van een vluchtroute)." ;
+        skos:prefLabel "Uitgangsvluchtdeur" .
+
+    voc:Uitgangszone a skos:Concept ;
+        skos:definition "Het laatste gedeelte van het overdekte deel van de tunnel (nader gedefinieerd in Basisspecificatie TTI), waar het verlichtingsniveau een speciaal verloop kent." ;
+        skos:prefLabel "Uitgangszone" .
+
+    voc:Uitrit a skos:Concept ;
+        skos:definition "Uitrit is de constructie die de aansluiting verzorgt van het overdekte gedeelte van de tunnel naar de weg op maaiveld. Weinig gebruikt, meestal is een uitrit hetzelfde als een toerit. Ook: weggedeelte dat uitvoegt vanaf een snelweg (Ook: Afrit)." ;
+        skos:prefLabel "Uitrit" .
+
+    voc:Uniforme_Werkplek_Wegverkeersleiders a skos:Concept ;
+        skos:definition "De standaard werkplek voor wegverkeersleiders in de RWS-verkeerscentrales conform de specificatie SSS B&PS UWW." ;
+        skos:prefLabel "Uniforme Werkplek Wegverkeersleiders (UWW)" .
+
+    voc:Validatie a skos:Concept ;
+        skos:definition "Het kwalteitszorgproces (Quality Assurance) om aan te tonen dat er een hoge mate van zekerheid bestaat dat een (tussen-)product, dienst of systeem voldoet aan de oorspronkelijke doelstellingen. Dit vergt meestal acceptatie (‘fitness for purpose’) door eindgebruikers en/of andere belanghebbenden (stakeholders)." ;
+        skos:prefLabel "Validatie" .
+
+    voc:Variatiepunt a skos:Concept ;
+        skos:definition "Een variatiepunt is een aspect of eigenschap van een systeem dat een geïdentificeerde afwijking van dat systeem beschrijft." ;
+        skos:prefLabel "Variatiepunt" .
+
+    voc:Veilige_buis a skos:Concept ;
+        skos:definition "synoniem voor 'ondersteunende buis'." ;
+        skos:prefLabel "Veilige buis" .
+
+    voc:Veilige_ruimte a skos:Concept ;
+        skos:definition "Een ruimte die veilig gebruikt kan worden als vluchtweg. Vaak uitgevoerd als een middentunnelkanaal." ;
+        skos:prefLabel "Veilige ruimte" .
+
+    voc:Veiligheidsdossier a skos:Concept ;
+        skos:definition "Een verzameling documenten, die betrekking hebben op veiligheid. Dit is vereist vanuit de WARVW. Bevat vastleggingen van gemaakte keuzes en onderbouwingen ervan. Documenten kunnen worden ingebracht door verschillende partijen. De tunnelbeheerder is verantwoordelijk voor het onderhouden van het veiligheidsdossier." ;
+        skos:prefLabel "Veiligheidsdossier" .
+
+    voc:Verantwoordelijkheid a skos:Concept ;
+        skos:definition "Recht om het proces of de activiteit uit te (laten) voeren plus de zorg voor de kwaliteit/het resultaat daarvan." ;
+        skos:prefLabel "Verantwoordelijkheid" .
+
+    voc:Vergrendelbare_vluchtdeur a skos:Concept ;
+        skos:definition "Vluchtdeur in een vluchtroute, toegang biedend tot een aangrenzende verkeersbuis, die vergrendeld kan worden." ;
+        skos:prefLabel "Vergrendelbare vluchtdeur" .
+
+    voc:Verificatie a skos:Concept ;
+        skos:definition "Het kwaliteitsbeheersingsproces (Quality Control) om te beoordelen of een (tussen-)product, dienst of systeem voldoet aan regelgeving, specificaties of voorwaarden zoals bij aanvang van de ontwikkelingsfase van het betreffende (tussen-)product, dienst of systeem overeengekomen met de opdrachtgever." ;
+        skos:prefLabel "Verificatie" .
+
+    voc:VerkeersCentrale a skos:Concept ;
+        skos:definition "Centrale voor het centraal uitvoeren van de activiteiten voor Operationeel Verkeersmanagement. RWS heeft vijf verkeerscentrales: VCMN in Utrecht, VCNON in Wolfheze, VCNWN in Velsen-Zuid, VCZN in Helmond en VCZWN in Rhoon." ;
+        skos:prefLabel "VerkeersCentrale (VC)" .
+
+    voc:VerkeersCentrum_Nederland a skos:Concept ;
+        skos:definition "VerkeersCentrum Nederland – centrale meldkamer van Rijkswaterstaat die regio overstijgende maatregelen initieert en verkeersinformatie genereert ten behoeve van service providers (zoals: ANWB, VID, TomTom enz.)." ;
+        skos:prefLabel "VerkeersCentrum Nederland (VCNL)" .
+
+    voc:Verkeers_Technische_Installaties a skos:Concept ;
+        skos:definition "Verzameling installaties in de nabijheid van een tunnel die gericht zijn op het verzorgen van specifieke functies die het verkeer kunnen beïnvloeden of geleiden (bv. verkeerslichten, verplaatsbare vangrails)." ;
+        skos:prefLabel "Verkeers Technische Installaties (VTI)" .
+
+    voc:Verkeers_en_Tunnel_Technische_Installaties a skos:Concept ;
+        skos:definition "De combinatie van VTI & TTI." ;
+        skos:prefLabel "Verkeers en Tunnel Technische Installaties (VTTI)" .
+
+    voc:Verkeersbuis a skos:Concept ;
+        skos:definition "Synoniem voor 'tunnelbuis'." ;
+        skos:prefLabel "Verkeersbuis" .
+
+    voc:Verkeershinder a skos:Concept ;
+        skos:definition "Verkeershinder is een vorm van doorstroombeperking voor het verkeer, door het nemen van verkeersmaatregelen, die bij normale werkingstoestand van de tunnel niet van toepassing zijn. Toelichting: voorbeelden van maatregelen zijn het openstellen van een beperkt aantal rijstroken, invoeren van een ingestelde snelheidsbeperking, of het omleiden van (vracht)verkeer." ;
+        skos:prefLabel "Verkeershinder" .
+
+    voc:Verkeerskundig_alarm a skos:Concept ;
+        skos:definition "Een alarm vanuit tunnelbesturing met verkeerskundige gevolgen op basis van detecties die gerelateerd zijn aan de veiligheid van het verkeer." ;
+        skos:prefLabel "Verkeerskundig alarm" .
+
+    voc:Verplaatsbare_Vangrails a skos:Concept ;
+        skos:definition "Zie 'Verrijdbare Bermbeveiliging'. (vroeger bekend als VeVA)" ;
+        skos:prefLabel "Verplaatsbare Vangrails (vroeger bekend als VeVA)" .
+
+    voc:Verrijdbare_bermbeveiliging a skos:Concept ;
+        skos:definition "Horizontaal bewegend geleideprofiel waarmee het verkeer van de ene rijbaan naar de andere rijbaan geleid kan worden. Te gebruiken bij onderhoud of om vaststaand verkeer weg te laten rijden. Een verrijdbare bermbeveiliging is ‘voor het verkeer’ geplaatst, wat betekent dat als een auto niet op tijd van rijbaan wisselt, hij tegen de verrijdbare bermbeveiliging aanrijdt." ;
+        skos:prefLabel "Verrijdbare bermbeveiliging" .
+
+    voc:Videobeeld a skos:Concept ;
+        skos:definition "Het camerabeeld zoals weergegeven op de videowand." ;
+        skos:prefLabel "Videobeeld" .
+
+    voc:Videowand a skos:Concept ;
+        skos:definition "Een samenstel van beeldschermen (conform specificatie SSS B&PS UWW) waarop camerabeelden afgebeeld worden." ;
+        skos:prefLabel "Videowand" .
+
+    voc:Vloeistofkelder a skos:Concept ;
+        skos:definition "Synoniem voor waterkelder." ;
+        skos:prefLabel "Vloeistofkelder" .
+
+    voc:Vluchtdeur a skos:Concept ;
+        skos:definition "Deur die men door moet als men gebruik maakt van een vluchtroute." ;
+        skos:prefLabel "Vluchtdeur" .
+
+    voc:Voorwaardelijk_rood a skos:Concept ;
+        skos:definition "Verkeersbuis afsluiten met behulp van een VRI die vanuit rust eerst op knipperend geel licht gaat, vervolgens op vast geel licht gaat en daarna op vast rood licht." ;
+        skos:prefLabel "Voorwaardelijk rood" .
+
+    voc:Voorziening a skos:Concept ;
+        skos:definition "Een middel om services/maatregelen in te vullen." ;
+        skos:prefLabel "Voorziening" .
+
+    voc:WIKI a skos:Concept ;
+        skos:definition "RWS interne Wiki (website) met bedienconcept voor de Coentunnel." ;
+        skos:prefLabel "WIKI" .
+
+    voc:Waterkelder a skos:Concept ;
+        skos:definition "Een ruimte waarin regenwater, eventueel lekwater, bluswater en verloren vloeistoffen tijdelijk opgeslagen worden." ;
+        skos:prefLabel "Waterkelder" .
+
+    voc:WegInSpecteur a skos:Concept ;
+        skos:definition "Functionaris van Rijkswaterstaat belast met het assisteren van weggebruikers, het controleren van de staat van de weg en het zo nodig weer gebruiksgereed (laten) maken van de weg." ;
+        skos:prefLabel "WegInSpecteur (WIS)" .
+
+    voc:WegVerkeersLeider a skos:Concept ;
+        skos:definition "Functionaris van Rijkswaterstaat belast met het bewaken en begeleiden van het verkeer op de Nederlandse of andere Rijkswegen indien hierover afspraken zijn gemaakt met provincie of gemeente." ;
+        skos:prefLabel "WegVerkeersLeider (WVL)" .
+
+    voc:Werkplek a skos:Concept ;
+        skos:definition "Hiermee wordt meestal de UWW bedoeld. De termen ‘bedienpost’ en ‘desk’ worden hier ook voor gebruikt." ;
+        skos:prefLabel "Werkplek" .
+
+    voc:Werkschakelaar a skos:Concept ;
+        skos:definition "Indien bij niet-elektrotechnische werkzaamheden gevaar voor lichamelijk letsel kan ontstaan door een onverwachte inschakeling van elektrische machines of toestellen (LFV of component) moeten een of meer werkschakelaars of daarmee gelijk te stellen toestellen zijn aangebracht. Uitschakeling hiermee van de LFV of component mag niet op een andere plaats ongedaan kunnen worden gemaakt. Het uitschakelen middels de bediening van de werkschakelaar moet worden gemeld in de MMI. Na het ongedaan maken van de uitschakeling bevindt de LFV of component zich in de bedienmode 'plaatselijk' of 'auto'. Hierbij geldt: 'plaatselijk' indien voor bediening van de werkschakelaar de bediening reeds plaatselijk was genomen, 'auto' indien voor bediening van de werkschakelaar de bedienmode 'auto' of 'hand was gekozen en geen noodstopschakelaar (meer) actief is." ;
+        skos:prefLabel "Werkschakelaar" .
+
+    voc:Widget a skos:Concept ;
+        skos:definition "Onderdeel van een grafische gebruikersinterface met een bepaald uiterlijk, interactiegedrag en koppelvlak." ;
+        skos:prefLabel "Widget" .
+
+    voc:Wisselbaan a skos:Concept ;
+        skos:definition "Wegvak waarvan de rijrichting door een wegverkeersleider, door het openen/sluiten van Beweegbare Barriers, kan worden ingesteld. NB.: In een wisselbaan kán een wisselbuis liggen. NNB.: De wisselbaan is geen onderdeel van het Tunnelsysteem zoals beschreven in de tunnelstandaard." ;
+        skos:prefLabel "Wisselbaan" .
+
+    voc:Wisselbuis a skos:Concept ;
+        skos:definition "Verkeersbuis bedoeld om verkeer, afhankelijk van het verkeersaanbod, in verschillende rijrichtingen te verwerken (bv. door het openstellen in de spitsrichting). De installaties van een wisselbuis zijn geschikt voor het verwerken van verkeer in elk van de twee rijrichtingen. NB.: de verwerking van verkeer in verschillende richtingen kan nooit tegelijkertijd plaatsvinden." ;
+        skos:prefLabel "Wisselbuis" .
+
+    voc:Wrakkendepot_Wrakkenplaats a skos:Concept ;
+        skos:definition "Plek buiten de tunnel waarheen defecte voertuigen of wrakken gesleept worden." ;
+        skos:prefLabel "Wrakkendepot/ Wrakkenplaats" .
+
+    voc:Zandvang a skos:Concept ;
+        skos:definition "Gedeelte van de vloeistofkelder waarin zand kan bezinken." ;
+        skos:prefLabel "Zandvang" .
+
+    voc:Zelfomvattende_module_LOD a skos:Concept ;
+        skos:definition "Module met minimale afhankelijkheden in beschermd proces." ;
+        skos:prefLabel "Zelfomvattende module" .
+
+    voc:Zelfredzaamheid a skos:Concept ;
+        skos:definition "Alle maatregelen en procedures ten behoeve van het ondersteunen van het vluchtconcept, waarbij zelfredzame personen in de tunnel na het ontstaan van een incident/calamiteit, zich zo snel mogelijk en zonder ondersteuning van hulpdiensten in veiligheid kunnen brengen." ;
+        skos:prefLabel "Zelfredzaamheid (LOD)" .
+
+    voc:Zichtmeting a skos:Concept ;
+        skos:definition "Het meten van de licht doorlaatbaarheid van de lucht in de tunnel. Hiermee wordt de luchtkwaliteit bewaakt en brand gedetecteerd." ;
+        skos:prefLabel "Zichtmeting" .
+}
+
