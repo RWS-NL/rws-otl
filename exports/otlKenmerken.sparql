@@ -1,0 +1,18 @@
+PREFIX otl: <https://data.rws.nl/def/otl/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT 
+	?ConceptURI 
+	?ConceptNaam 
+	(GROUP_CONCAT(?Definitie; separator="\n=====\n") AS ?Definities)
+
+FROM otl:graaf-kennismodel
+
+WHERE { 
+	?ConceptURI a rdf:Property ;
+            skos:definition ?Definitie ;
+            skos:prefLabel ?ConceptNaam .
+} 
+
+GROUP BY ?ConceptURI ?ConceptNaam
