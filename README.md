@@ -1,10 +1,8 @@
 # Rijkswaterstaat AIRBIM-OTL
 
-Welcome to the official public Git repository of the Rijkswaterstaat Object Type Library (OTL)!
+Welkom op de officiele, openbare Git repository van de Rijkswaterstaat Object Type Library (OTL).
 
-In this repository you will find the technical files of the most recent release of the Rijkswaterstaat OTL.
-
-[Rijkswaterstaat](https://www.rijkswaterstaat.nl/) is part of the Dutch Ministry of Infrastructure and Water Management and responsible for the design, construction, management and maintenance of the main infrastructure facilities in the Netherlands. The Rijkswaterstaat OTL is being maintained by the AIRBIM Program of Rijkswaterstaat.
+In dit repository vind je de technische files van de meest recente versie van de Rijkswaterstaat OTL.
 
 ## Inhoud
 
