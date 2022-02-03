@@ -281,8 +281,6 @@ otl:graaf-otl-nen-2767 {
 
     otl:BrugVast dct:conformsTo nen2767-4:Beheerobject_AG .
 
-    otl:Brugdeel dct:conformsTo nen2767-4:Bouwdeel_1105 .
-
     otl:Buffer dct:conformsTo nen2767-4:Bouwdeel_1106 .
 
     otl:Buisaansluiting dct:conformsTo nen2767-4:Bouwdeel_2053 .

@@ -1,6 +1,9 @@
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix lbs: <https://data.rws.nl/def/lbs/> .
 @prefix otl: <https://data.rws.nl/def/otl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
 otl:graaf-otl-lbs-linkset {
     otl:Aandrijving skos:relatedMatch lbs:B-L1-5 .
@@ -14,8 +17,6 @@ otl:graaf-otl-lbs-linkset {
     otl:AardingEnBliksembeveiligingsinstallatie skos:relatedMatch lbs:B-L2-3-4 .
 
     otl:Achterloopheidscherm skos:relatedMatch lbs:S-L1-4-1-4 .
-
-    otl:Actuator skos:relatedMatch lbs:B-L6-1-6 .
 
     otl:Afdekplaat skos:relatedMatch lbs:B-L1-4-1-6-2 .
 
@@ -45,13 +46,11 @@ otl:graaf-otl-lbs-linkset {
 
     otl:Bordes skos:relatedMatch lbs:B-L2-3-8-1-5 .
 
-    otl:Bovenbouw skos:relatedMatch lbs:B-L1-4-3 .
+    otl:Bovenbouwconstructie skos:relatedMatch lbs:B-L1-4-3 .
 
     otl:Brandblusinstallatie skos:relatedMatch lbs:B-L2-3-3-2 .
 
     otl:BrandmeldEnOntruimingsinstallatie skos:relatedMatch lbs:B-L2-3-3-1 .
-
-    otl:Brug skos:relatedMatch lbs:B-L1 .
 
     otl:BrugBeweegbaar skos:relatedMatch lbs:LBB .
 
@@ -70,8 +69,6 @@ otl:graaf-otl-lbs-linkset {
     otl:Display skos:relatedMatch lbs:B-L7-1-0-4 .
 
     otl:Draaipunt skos:relatedMatch lbs:B-L1-4-1-1 .
-
-    otl:DynamischVerkeersmanagementsysteem skos:relatedMatch lbs:B-L3 .
 
     otl:DynamischeBewegwijzeringEnInformatieSystemen skos:relatedMatch lbs:B-L0-1-3 .
 
@@ -193,8 +190,6 @@ otl:graaf-otl-lbs-linkset {
 
     otl:Slijtlaag skos:relatedMatch lbs:B-L1-4-1-7 .
 
-    otl:Sluis skos:relatedMatch lbs:S-L1 .
-
     otl:Sluishoofd skos:relatedMatch lbs:S-L1-4-1 .
 
     otl:Startmotor skos:relatedMatch lbs:B-L1-5-1-1 .
@@ -215,11 +210,7 @@ otl:graaf-otl-lbs-linkset {
 
     otl:VerhardingWegtype1Hoofdwegennet skos:relatedMatch lbs:LHWN .
 
-    otl:Verhardingslaag skos:relatedMatch lbs:B-L2-2-1 .
-
     otl:Verkeersregelinstallatie skos:relatedMatch lbs:B-L0-1-3-2 .
-
-    otl:Verlichtingsinstallatie skos:relatedMatch lbs:B-L2-4 .
 
     otl:VluchtwegverlichtingDynamisch skos:relatedMatch lbs:B-L2-4-3 .
 
@@ -232,5 +223,12 @@ otl:graaf-otl-lbs-linkset {
     otl:Wegmarkering skos:relatedMatch lbs:B-L0-1-2 .
 
     otl:Windmeter skos:relatedMatch lbs:B-L8-3-1-1 .
+
+    otl:graaf-otl-lbs-linkset a void:Linkset ;
+        dct:description "De OTL-LBS linkset legt een koppeling tussen OTL-concepten en LBS-concepten."@nl ;
+        dct:title "OTL-LBS linkset"@nl ;
+        void:objectsTarget lbs: ;
+        void:subjectsTarget otl:graaf-kennismodel ;
+        owl:imports otl:graaf-kennismodel .
 }
 
