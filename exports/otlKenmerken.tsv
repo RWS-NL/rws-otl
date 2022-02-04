@@ -1,0 +1,136 @@
+?ConceptURI	?ConceptNaam	?Definities
+<https://data.rws.nl/def/otl/aanduidingObject>	"Aanduiding object"@nl	Aanduiding van een DTB object, bijv. vuilnisbak, bank, picknick tafel
+<https://data.rws.nl/def/otl/aansluitwijzeCommunicatieKoperGlas>	"Aansluitwijze communicatie (koper, glas)"@nl	* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *
+<https://data.rws.nl/def/otl/aansluitwijzeMast>	"Aansluitwijze mast (in, in-uit, VCS)"@nl	* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *
+<https://data.rws.nl/def/otl/aansturing>	"Aansturing"@nl	"Aansturing van bijv. \r\nSchakel regime (Welke tijden in/uit, lux instelling)"
+<https://data.rws.nl/def/otl/aantal>	"Aantal"@nl	"Bijv. deuren, armaturen, lampen, uithouders enz. (st)\r\nte baggeren hoeveelheid (tds/m3 bu)"
+<https://data.rws.nl/def/otl/afstandParameteriseerbaar>	"Afstand parameteriseerbaar"@nl	Soort / Type
+<https://data.rws.nl/def/otl/afstandhoofdliggers>	"AfstandHoofdLiggers"@nl	Afstand tussen de liggers (hart op hart).
+<https://data.rws.nl/def/otl/alarmeringssysteem>	"Alarmeringssysteem"@nl	Omschrijving van het soort
+<https://data.rws.nl/def/otl/alias>	"Alias"@nl	Lokale benaming object / Alias kunstwerk
+<https://data.rws.nl/def/otl/asWKT-RD>	"heeft RD geometrie"@nl	Een subproperty van geo:asWKT om aan te duiden dat de hierop volgende geometrie Rijkdsdriehoek coordinaten zal bevatten.
+<https://data.rws.nl/def/otl/beginpunt>	"Beginpunt"@nl	Beginpunt traject / Kilometer (RAAI) / Start
+<https://data.rws.nl/def/otl/beheerCode>	"Beheer code"@nl	Geeft bijv. een unieke code voor de aanwezige vegetatie- en watertypes aan voor Groenbeheerplan
+<https://data.rws.nl/def/otl/beheerObjectcode>	"Beheer objectcode"@nl	Complexcode + Objectnummer conform DISK
+<https://data.rws.nl/def/otl/beheerder>	"Beheerder"@nl	Bijv. Districtnaam / Nautische beheerder. Er zijn meerdere instanties mogelijk
+<https://data.rws.nl/def/otl/belastingBovengrond>	"Belasting bovengrond (cq Belastingklasse)"@nl	* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *
+<https://data.rws.nl/def/otl/bereikbaarViaTelefoonNummer>	"Bereikbaar via telefoon nummer"@nl	Bijv. storingsnummer, contactpersoon, objecten
+<https://data.rws.nl/def/otl/bestekNummer>	"Bestek nummer"@nl	"Besteknr van bijv. Aanleg-, Vast Onderhoud-, \r\nVariabel onderhoud contract"
+<https://data.rws.nl/def/otl/bevestigdAan>	"Bevestigd aan"@nl	Bijv. een draagconstructie aan een viaduct, tunnel t.b.v. koppeling aan DISK
+<https://data.rws.nl/def/otl/bevestiging>	"Bevestiging"@nl	Soort draagconstructie / op vangrail of op paaltje
+<https://data.rws.nl/def/otl/bknCode>	"BKN-Code"@nl	Code beheer kaart nat
+<https://data.rws.nl/def/otl/bobIn>	"BOB in"@nl	* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *
+<https://data.rws.nl/def/otl/bobUit>	"BOB uit"@nl	* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *
+<https://data.rws.nl/def/otl/boordatum>	"Boordatum"@nl	Soort / Type en Datum boorkern
+<https://data.rws.nl/def/otl/bouwdatum>	"Bouwdatum"@nl	Datum waarop de asset gebouwd, geconstrueerd of gefabriceerd is.
+<https://data.rws.nl/def/otl/bouwjaar>	"Bouwjaar"@nl	"Bijv. fabricagedatum bord, productiedatum, bouwjaar folie (4-cijfer combinatie)\n=====\nJaar waarin de asset gebouwd, geconstrueerd of gefabriceerd  is."
+<https://data.rws.nl/def/otl/breedte>	"Breedte"@nl	Breedte van de asset.
+<https://data.rws.nl/def/otl/calamiteitenvoorzieningAanwezigLokaal>	"Calamiteitenvoorziening aanwezig (lokaal)"@nl	Soort / Type
+<https://data.rws.nl/def/otl/capaciteit>	"Capaciteit"@nl	"Bijv. doorvoercapaciteit in m³ per uur / Maximale druk in bar / De capaciteit van de kabel, afhankelijk van het soort\n=====\nHet vermogen tot opslaan of vermogen tot het verwerken van iets door een asset."
+<https://data.rws.nl/def/otl/capaciteitmaximaal>	"CapaciteitMaximaal"@nl	De maximale capaciteit van een asset.
+<https://data.rws.nl/def/otl/capaciteitminimaal>	"CapaciteitMinimaal"@nl	De minimale  capaciteit van een asset.
+<https://data.rws.nl/def/otl/categorie>	"Categorie"@nl	"Bijv. \r\nIALA Categorien (Cat 1. 99,8% beschikbaarheid)\r\nScheepvaartklasse (CEMT)\r\nUitbuigingsklasse (4, 6, 10) (zie Handboek lichtmasten (CROW))\r\nWindklassegebied (I, II, III) \r\nVerkeersklasse (belasting)"
+<https://data.rws.nl/def/otl/cemtKlasse>	"CEMT-klasse"@nl	Klasse-indeling voor maximale afmetingen van het schip.
+<https://data.rws.nl/def/otl/code>	"Code"@nl	Code bijv. volgens CROW/RVV / OV-Beheer
+<https://data.rws.nl/def/otl/communicatie>	"Communicatie"@nl	Communicatie bijv. SAT-line
+<https://data.rws.nl/def/otl/complexcode>	"Complexcode"@nl	Complexcode conform DISK
+<https://data.rws.nl/def/otl/constructiebreedte>	"Constructiebreedte"@nl	Maximale constructiebreedte.
+<https://data.rws.nl/def/otl/constructiehoogte>	"Constructiehoogte"@nl	Hoogte van de constructie.
+<https://data.rws.nl/def/otl/coordinatenstelsel>	"Coördinatenstelsel"@nl	Aanduiding van het coördinatenstelsel waar geregistreerde coördinaten in staan
+<https://data.rws.nl/def/otl/datumAanleg>	"Datum aanleg"@nl	Aanleg, plaatsingsdatum
+<https://data.rws.nl/def/otl/datumEindeOvereenkomst>	"Datum einde overeenkomst"@nl	* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *
+<https://data.rws.nl/def/otl/datumEindeVergunning>	"Datum einde vergunning"@nl	None
+<https://data.rws.nl/def/otl/datumOplevering>	"Datum oplevering"@nl	Bijv. datum inbedrijfstelling
+<https://data.rws.nl/def/otl/datumOppervlaktebehandeling>	"Datum oppervlaktebehandeling"@nl	Bijv. schilderdatum, conserveren of aanbrengen slijtlaag
+<https://data.rws.nl/def/otl/datumStartOvereenkomst>	"Datum start overeenkomst"@nl	* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *
+<https://data.rws.nl/def/otl/datumStartVergunning>	"Datum start vergunning"@nl	None
+<https://data.rws.nl/def/otl/deursluiting>	"Deursluiting"@nl	Bijv. driekant, vierkant
+<https://data.rws.nl/def/otl/dikte>	"Dikte"@nl	Dikte van de slijtlaag op het wegdek.
+<https://data.rws.nl/def/otl/dimbaarheid>	"Dimbaarheid"@nl	Dimbaarheid bijv. dag/nachtlicht geschakeld (in- en uitrij zijde tunnel)
+<https://data.rws.nl/def/otl/discipline>	"Discipline"@nl	Expertisegebied waarbinnen de asset valt.
+<https://data.rws.nl/def/otl/doel>	"Doel"@nl	"Doel systeem (Vrachtwagenweegsysteem, toegang havens voor diepstekende scheepvaart …)\r\nDoelsoorten (voor welke soorten dieren is faunavoorziening bedoeld)\r\nFunctie / doel (Werkplaats, magazijn, zoutloods, bedieningsgebouw, dienstgebouw / zweepmast, verkeers"
+<https://data.rws.nl/def/otl/doorvaartbreedte>	"Doorvaartbreedte"@nl	Breedte zoals aangegeven bij brug (Bord C 3, BPR).
+<https://data.rws.nl/def/otl/duuropenen>	"DuurOpenen"@nl	Tijd benodigd voor openen van de brug.
+<https://data.rws.nl/def/otl/duursluiten>	"DuurSluiten"@nl	Tijd benodigd voor sluiten van de brug.
+<https://data.rws.nl/def/otl/dynamischUitgevoerd>	"Dynamisch uitgevoerd"@nl	Soort / Type
+<https://data.rws.nl/def/otl/eigenaar>	"Eigenaar"@nl	Bijv. Districtnaam. Er zijn meerdere instanties mogelijk
+<https://data.rws.nl/def/otl/eindpunt>	"Eindpunt"@nl	Eindpunt traject / Kilometer (RAAI) / Eind
+<https://data.rws.nl/def/otl/fabrikaat>	"Fabrikaat"@nl	Bijv. productnaam, artikel
+<https://data.rws.nl/def/otl/fabrikant>	"Fabrikant"@nl	Naam fabrikant bijv. Philips
+<https://data.rws.nl/def/otl/faseAansluiting>	"Fase aansluiting"@nl	Lamp(en) aangesloten op fase L1, L2 of L3
+<https://data.rws.nl/def/otl/functioneleOmschrijving>	"Functionele omschrijving"@nl	"Bijv. Functie (Primair/secundair/etc.)\r\nNautische functies (bv. Vogelverlichting, verkeerssein, stuurlicht, stormseinmast, sperlicht, oeverlicht, noodverlichting, mistlichten, heliverlichting, lichttoren, lichtopstand, , bordverlichting)"
+<https://data.rws.nl/def/otl/garantieTot>	"Garantie tot"@nl	Komt vaak uit bestek
+<https://data.rws.nl/def/otl/gebruik>	"Gebruik"@nl	Bijv. of een kabel wel of niet in gebruik is
+<https://data.rws.nl/def/otl/gewicht>	"Gewicht"@nl	Gewicht van de asset.
+<https://data.rws.nl/def/otl/hoofdzekering>	"Hoofdzekering"@nl	Soort / Type
+<https://data.rws.nl/def/otl/horizontaleAfmetingen>	"(Horizontale) Afmetingen"@nl	"Horizontale afmeting bijv.\r\nLengte, Breedte\r\nDikte\r\nLengte nominaal\r\nLengte traject"
+<https://data.rws.nl/def/otl/id>	"ID"@nl	"Code waarmee een specifiek voorkomen van een ding of concept geïdentificeerd kan worden.\n=====\nIdentifier van bijv. dynamische verlichting (OLC/ILM, segment controller)"
+<https://data.rws.nl/def/otl/indeling>	"Indeling"@nl	Beschrijving  van de indeling van de asset.
+<https://data.rws.nl/def/otl/indicatorzoetnaarzoet>	"IndicatorZoetNaarZoet"@nl	Indicator of de pomp van het gemaal zoetwater naar zoetwater pompt. Dit heeft te maken met de waterkracht.
+<https://data.rws.nl/def/otl/indicatorzoetnaarzout>	"IndicatorZoetNaarZout"@nl	Indicator of de pomp van het gemaal zoetwater naar zoutwater pompt. Dit heeft te maken met de waterkracht.
+<https://data.rws.nl/def/otl/indicatorzoutnaarzout>	"IndicatorZoutNaarZout"@nl	Indicator of de pomp van het gemaal zoutwater naar zoutwater pompt. Dit heeft te maken met de waterkracht.
+<https://data.rws.nl/def/otl/insteek>	"Insteek"@nl	Hoogte insteek bijv. ten opzichte van NAP
+<https://data.rws.nl/def/otl/ipAdres>	"IP adres"@nl	Internet protocol van bijv. dynamische verlichting (DOV: IP-adres kast)
+<https://data.rws.nl/def/otl/kleur>	"Kleur"@nl	Bijv. Zichtbare kleur van de kabel / Objectkleur / Objectkleurpatroon
+<https://data.rws.nl/def/otl/kompasFunctie>	"Kompas functie"@nl	Soort / Type bijv. bepaling in welke richting camera kijkt
+<https://data.rws.nl/def/otl/koppelNaar>	"Koppel Naar"@nl	Nummer van object, waar object naar toe gaat (kast, put, etc.)
+<https://data.rws.nl/def/otl/koppelVan>	"Koppel Van"@nl	Nummer van object, waar object  vandaan komt (kast, put, etc.)
+<https://data.rws.nl/def/otl/lengte>	"Lengte"@nl	De lengte van de asset.
+<https://data.rws.nl/def/otl/leverancier>	"Leverancier"@nl	Naam van leverancier bijv. Energieleverancier
+<https://data.rws.nl/def/otl/locatie>	"Locatie (BPS)"@nl	Beschrijvende Plaatsaanduiding Systematiek (BPS)
+<https://data.rws.nl/def/otl/locatieCoordinaten>	"Locatie (coördinaten)"@nl	Coördinaten (Bijvoorbeeld: GPS, XYZ, etc)
+<https://data.rws.nl/def/otl/locatieInkoppelingWeer>	"Locatie inkoppeling \"weer\""@nl	Bijv. locatie (lokaal, centraal)
+<https://data.rws.nl/def/otl/maaiveldBeschermingJaNee>	"Maaiveld bescherming (ja/nee)"@nl	Soort / Type
+<https://data.rws.nl/def/otl/materiaal>	"Materiaal"@nl	"Bekledingsvorm / kunstof, staal, RVS, aluminium, composiet, hout, beton, zetsteen, stortsteen of combinatie etc….\n=====\nStof of materie met een specifieke functie."
+<https://data.rws.nl/def/otl/monumentaleStatus>	"Monumentale status"@nl	Aanduiding of object een monumentale status heeft bijv. Rijksmonument of UNESCO
+<https://data.rws.nl/def/otl/naam>	"Naam"@nl	"De naam waarmee een ding, concept, situatie, toestand etc. wordt aangeduid.\n=====\nNaam van bijv. kunstwerk / terrein / DRIP"
+<https://data.rws.nl/def/otl/niveau>	"Niveau"@nl	Aanduiding van het niveau (Bijvoorbeeld 0=maaiveld, +1=viaduct of -1=tunnel of 3,5 meter +NAP)
+<https://data.rws.nl/def/otl/nummer>	"Nummer"@nl	Nummer van bijv. Mast / Krib / Derden / Kast / RWS Bord / ID nummer
+<https://data.rws.nl/def/otl/omschrijving>	"Omschrijving"@nl	Globale aanduiding van een ding, concept, situatie, toestand etc.
+<https://data.rws.nl/def/otl/omschrijvingObject>	"Omschrijving object"@nl	Aanvullende of specifieke omschrijving object bijv. Fly-Over of Aanbrug
+<https://data.rws.nl/def/otl/onderhouder>	"Onderhouder"@nl	Bijv. Opdrachtgever / Opdrachtnemer onderhoud. Er zijn meerdere instanties mogelijk
+<https://data.rws.nl/def/otl/openingshoek>	"Openingshoek"@nl	Maximale openingshoek van de val (klep).
+<https://data.rws.nl/def/otl/oppervlaktebehandeling>	"Oppervlaktebehandeling"@nl	Soort / Type
+<https://data.rws.nl/def/otl/overeenkomsthouder>	"Overeenkomsthouder"@nl	* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *
+<https://data.rws.nl/def/otl/overeenkomstnummer>	"Overeenkomstnummer"@nl	* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *
+<https://data.rws.nl/def/otl/paspoortgegevens>	"Paspoortgegevens"@nl	Paspoortnummer is gelijk aan bijv. beheerobjectcode of constructienummer
+<https://data.rws.nl/def/otl/plaatsing>	"Plaatsing"@nl	"Plaats OLC (armatuur, lichtmast)\r\nPlaatsing (ondergronds deel / voetplaat)\r\nPlaatsing in gestabiliseerde grond/beton\r\nPlaatsing op mast (L/R)\r\nMontagewijze armatuur (opzet / schuif)\r\nMontage op mastnummer"
+<https://data.rws.nl/def/otl/productNummer>	"Product nummer (CE-nr.)"@nl	* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *
+<https://data.rws.nl/def/otl/sato>	"SATO"@nl	SATO (Specifieke Aspecten Tunnel Ontwerp) coderingen ten behoeve van tunnels
+<https://data.rws.nl/def/otl/serviceLevensduur>	"Service levensduur"@nl	* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *
+<https://data.rws.nl/def/otl/signaalNaarDerden>	"Signaal naar derden"@nl	Bijv. Ondiepte melding
+<https://data.rws.nl/def/otl/signaalVanDerden>	"Signaal van derden"@nl	Bijv. Stremming tgv calamiteit
+<https://data.rws.nl/def/otl/sleutelnummer>	"Sleutelnummer"@nl	Nummer van bijv. het sluitplannummer / cilindercode
+<https://data.rws.nl/def/otl/sleuteltype>	"Sleuteltype"@nl	Soort / Type conform sluitplan
+<https://data.rws.nl/def/otl/software>	"Software"@nl	"alle bij het object \r\nbehorende software \r\nt.b.v. aansturing object"
+<https://data.rws.nl/def/otl/softwareVersienummer>	"Software versienummer"@nl	* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *
+<https://data.rws.nl/def/otl/soort>	"Soort"@nl	"Bijv. Terreinsoort (Districtsterrein, steunpunt,  verzorginsplaats)\r\nObstakelsoort (Stalen damwand, puin, duiker, riool, archeologische vindplaats)\r\nSoort verharding"
+<https://data.rws.nl/def/otl/teerAanwezigInFundering>	"Teer aanwezig in fundering"@nl	Soort / Type en boorlocatie
+<https://data.rws.nl/def/otl/tekst>	"Tekst"@nl	Bijv. Tekst op Bewegwijzering
+<https://data.rws.nl/def/otl/telefoonnummer>	"Telefoonnummer"@nl	Telefoonnummer van bijv. een brug, een tunnel of een DRIP (GSM)
+<https://data.rws.nl/def/otl/tijd>	"Tijd"@nl	"Bijv. maximal ligtijd, gemiddelde schuttijd, draaiuren.\r\nResponstijd\r\n\r\nJaren/Dagen/Uren/Minuten/Seconden"
+<https://data.rws.nl/def/otl/topcoordinaatRdx>	"TopCoördinaat_RDX"@nl	x-coördinaat volgens stelsel rijksdriekhoekscoördinaten.
+<https://data.rws.nl/def/otl/topcoordinaatRdy>	"TopCoördinaat_RDY"@nl	y-coördinaat volgens stelsel rijksdriekhoekscoördinaten.
+<https://data.rws.nl/def/otl/type>	"Type"@nl	"Bijv. Rimob, Barrier, \r\nVorm lichtmast (cylindrisch, verjongd)\r\nAchtergrond (bord) magnetisch\r\nType asfalt (verhouding 0/8, 0/11, 0/16, 4/8, enz)\r\nMarkeringstype (Laterale,  cardinale)\n=====\nSpecifiekere onderverdeling van een ding of concept."
+<https://data.rws.nl/def/otl/typemaalcapaciteit>	"TypeMaalcapaciteit"@nl	Een gemaal kan een vaste of een variabele maalcapaciteit hebben.
+<https://data.rws.nl/def/otl/veiligheidsConnectorToegepastPlopstekker>	"Veiligheids connector toegepast (plopstekker)"@nl	* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *
+<https://data.rws.nl/def/otl/vergunninghouder>	"Vergunninghouder"@nl	* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *
+<https://data.rws.nl/def/otl/vergunningsnummer>	"Vergunningsnummer"@nl	Vergunningen
+<https://data.rws.nl/def/otl/verkeersklasse>	"Verkeersklasse"@nl	Klasse m.b.t. de maximumbelasting van het wegdek.  Hiervoor zijn verschillende normen, afhankelijk van de bouwperiode: VOSB 1938: A,B,C,D of E; VOSB 1963/95: 30, 45 of 60.
+<https://data.rws.nl/def/otl/verlichtingsGroepZone>	"Verlichtings groep/zone"@nl	zie Handboek dynamische verlichting autosnelwegen
+<https://data.rws.nl/def/otl/verticaleAfmetingen>	"(Verticale) Afmetingen"@nl	"Verticale afmetingen bijv.\r\nHoogte, Diepte\r\n(laag)Dikte\r\nDoorvaart/rijbreedte\r\nDoorvaart/rijhoogte"
+<https://data.rws.nl/def/otl/verwachteLevensduur>	"Verwachte levensduur"@nl	* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *
+<https://data.rws.nl/def/otl/waterpeil>	"Waterpeil"@nl	Waterpeil bijv. ten opzichte van NAP
+<https://data.rws.nl/def/otl/zijde>	"Zijde"@nl	Ligging van object t.o.v. bijv. rivieras, baan orientatie lijn (BOL)
+<https://data.rws.nl/def/otl/gnsURI>	"voorkeursurl (GNS)"@nl	Legt de koppeling vast tussen het BMS-object en het GNS-id.
+<https://data.rws.nl/def/otl/pdfFile>	"heeft pdfFile"@nl	Locatie van de Padverwijzing rendition file. Middels slashes is het subpath aangegeven.
+<https://data.rws.nl/def/otl/vault>	"heeft vault"@nl	Naam van de meridian beheeromgeving
+<https://data.rws.nl/def/otl/niveleermethode>	"Niveleermethode"@nl	De nivelleermethode van een schutsluis.
+<https://data.rws.nl/def/otl/schutspeilmaximaal>	"SchutspeilMaximaal"@nl	Het maximale schutspeil van een schutsluis.
+<https://data.rws.nl/def/otl/schutspeilminimaal>	"SchutspeilMinimaal"@nl	Het minimale schutspeil van een schutsluis.
+<https://data.rws.nl/def/otl/drempeldiepte>	"Drempeldiepte"@nl	De drempeldiepte van een asset.
+<https://data.rws.nl/def/otl/indicatorhoofdtransportas>	"IndicatorHoofdtransportas"@nl	Een sluis bevindt zich in hoogdtransportas (HTS) of overige vaarwegen. Indicator of een sluis zich in een hoofdtransportas bevindt.
+<https://data.rws.nl/def/otl/bedieningstijd>	"Bedieningstijd"@nl	De bedieningstijden van een asset.
+<https://data.rws.nl/def/otl/indicatorzoetwater>	"IndicatorZoetwater"@nl	Indicator of een asset zich in een zoetwater bevindt.
+<https://data.rws.nl/def/otl/indicatorzoutwater>	"IndicatorZoutwater"@nl	Indicator of een asset zich in een zoutwater bevindt.
+<https://data.rws.nl/def/otl/niveaudekzerk>	"NiveauDekzerk"@nl	Niveau van de dekzerken wordt gerekend als de bovenkant van de sluiskolk.
