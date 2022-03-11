@@ -1,0 +1,195 @@
+@prefix bstti: <https://data.rws.nl/def/lts-bstti/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix otl: <https://data.rws.nl/def/otl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+otl:graaf-otl-bstti-linkset {
+    otl:Aanstraalverlichting skos:relatedMatch bstti:tunnel-comp-Aanstraalverlichting .
+
+    otl:Aardrail skos:relatedMatch bstti:tunnel-deelinstallatie-Aardrail .
+
+    otl:Accu skos:relatedMatch bstti:tunnel-deelinstallatie-Accu .
+
+    otl:Afsluitboom skos:relatedMatch bstti:tunnel-deelinstallatie-Afsluitboom .
+
+    otl:Afsluiter skos:relatedMatch bstti:tunnel-deelinstallatie-Afsluiter .
+
+    otl:Antenne skos:relatedMatch bstti:tunnel-deelinstallatie-Antenne .
+
+    otl:Appendage skos:relatedMatch bstti:tunnel-deelinstallatie-Appendage .
+
+    otl:Armatuur skos:relatedMatch bstti:tunnel-deelinstallatie-Armatuur .
+
+    otl:BebordingEnBewegwijzeringStatisch skos:relatedMatch bstti:tunnel-deelinstallatie-verkeersbord- .
+
+    otl:Bedieningspaneel skos:relatedMatch bstti:tunnel-deelinstallatie-Bedieningspaneel .
+
+    otl:Besturingssysteem skos:relatedMatch bstti:Besturingssysteem--Algemeen .
+
+    otl:Binnenverlichting skos:relatedMatch bstti:tunnel-6.6 .
+
+    otl:Bliksemafleider skos:relatedMatch bstti:tunnel-deelinstallatie-bliksembeveiliging .
+
+    otl:BrandblusinstallatieDienstgebouw skos:relatedMatch bstti:Tunnel-6.3 .
+
+    otl:BrandblusinstallatieInDeTunnel skos:relatedMatch bstti:tunnel-8.7 .
+
+    otl:Brandblusser skos:broadMatch bstti:tunnel-deelinstallatie-Draagbaar-brandblusapparaat .
+
+    otl:BrandmeldinstallatieDienstgebouw skos:relatedMatch bstti:tunnel-8.6 .
+
+    otl:Buffer skos:narrowMatch bstti:tunnel-deelinstallatie-full-scale-botsabsorber-aanrijdbuffer .
+
+    otl:CalamiteitenDoorsteekInstallatie skos:closeMatch bstti:tunnel-8.11 .
+
+    otl:CameraBeweegbaar skos:broadMatch bstti:tunnel-comp-Camera .
+
+    otl:CameraVast skos:broadMatch bstti:tunnel-comp-Camera .
+
+    otl:CentraleBedieningEnBewaking skos:relatedMatch bstti:tunnel-deelinstallatie-Centrale-Bediening .
+
+    otl:CentraleDeurontgrendeling skos:relatedMatch bstti:Centrale-deurontgrendelingsinstallatie--Algemeen .
+
+    otl:ClosedCircuitTelevisionInstallatie skos:narrowMatch bstti:tunnel-5.12,
+            bstti:tunnel-6.1 .
+
+    otl:CoaxstralersTunnelbekabeling skos:closeMatch bstti:tunnel-deelinstallatie-Coaxstralers--tunnelbekabeling- .
+
+    otl:Dak skos:closeMatch bstti:tunnel-deelinstallatie-Dak .
+
+    otl:Detectielus skos:relatedMatch bstti:tunnel-deelinstallatie-Detectielus .
+
+    otl:Detector skos:relatedMatch bstti:tunnel-deelinstallatie-Detector .
+
+    otl:Deur skos:relatedMatch bstti:tunnel-comp-Deur .
+
+    otl:DienstgebouwCiviel skos:relatedMatch bstti:NCS0025165 .
+
+    otl:Energievoorziening skos:relatedMatch bstti:tunnel-8.18 .
+
+    otl:Evacuatieverlichting skos:relatedMatch bstti:tunnel-deelinstallatie-Noodverlichtingsarmatuur .
+
+    otl:Flens skos:relatedMatch bstti:tunnel-deelinstallatie-flensverbinding .
+
+    otl:Frame skos:relatedMatch bstti:tunnel-deelinstallatie-Frame .
+
+    otl:Fundatie skos:relatedMatch bstti:tunnel-deelinstallatie-Fundatie .
+
+    otl:Geluidsdemper skos:relatedMatch bstti:tunnel-deelinstallatie-Geluiddemper .
+
+    otl:Glasvezelkabel skos:relatedMatch bstti:tunnel-deelinstallatie-Glasvezelkabel .
+
+    otl:Haspel skos:narrowMatch bstti:tunnel-deelinstallatie-Slanghaspel .
+
+    otl:HoogtedetectieInstallatie skos:closeMatch bstti:Tunnel-5.1 .
+
+    otl:Hulppostkast skos:relatedMatch bstti:tunnel-deelinstallatie-hulppostkast .
+
+    otl:Inbraakbeveiligingsinstallatie skos:relatedMatch bstti:tunnel-6.5 .
+
+    otl:Intercom skos:relatedMatch bstti:tunnel-8.9 .
+
+    otl:Kabel skos:relatedMatch bstti:tunnel-deelinstallatie-kabels .
+
+    otl:Kabeldoorvoer skos:relatedMatch bstti:tunnel-deelinstallatie-Kabeldoorvoer .
+
+    otl:Kabeldraagconstructie skos:relatedMatch bstti:tunnel-deelinstallatie-kabeldraagsysteem .
+
+    otl:Kabelgoot skos:relatedMatch bstti:tunnel-deelinstallatie-Kabelgoot .
+
+    otl:KabelgotenEnLadders skos:relatedMatch bstti:Kabeltracees--kabelgoten-en-ladders--Algemeen .
+
+    otl:Kast skos:relatedMatch bstti:tunnel-deelinstallatie-kast--afsluitbaar .
+
+    otl:Klep skos:relatedMatch bstti:tunnel-deelinstallatie-Klep .
+
+    otl:Klimaatinstallatie skos:relatedMatch bstti:tunnel-6.4 .
+
+    otl:Koelmachine skos:relatedMatch bstti:tunnel-deelinstallatie-Koelmachine .
+
+    otl:Kozijn skos:relatedMatch bstti:tunnel-deelinstallatie-kozijn .
+
+    otl:KwhMetering skos:relatedMatch bstti:tunnel-deelinstallatie-kWh-meter .
+
+    otl:Laagspanningsinstallatie skos:relatedMatch bstti:tunnel-deelinstallatie-laagspanningsinstallatie .
+
+    otl:Laagspanningsverdeelinrichting skos:relatedMatch bstti:Laagspanningsverdeelinrichting--Algemeen .
+
+    otl:Ladderbaan skos:relatedMatch bstti:tunnel-deelinstallatie-Ladderbaan .
+
+    otl:Leiding skos:relatedMatch bstti:tunnel-deelinstallatie-Leidingen .
+
+    otl:Luchtkanaal skos:relatedMatch bstti:tunnel-deelinstallatie-Luchtkanaal .
+
+    otl:Luidspreker skos:relatedMatch bstti:tunnel-deelinstallatie-Luidspreker .
+
+    otl:Mantelbuis skos:narrowMatch bstti:tunnel-deelinstallatie-Mantelbuis-kunststof .
+
+    otl:Mast skos:relatedMatch bstti:tunnel-deelinstallatie-Mast .
+
+    otl:Meetinstallatie skos:relatedMatch bstti:tunnel-deelinstallatie-Meetinstallatie .
+
+    otl:Microfoon skos:relatedMatch bstti:tunnel-deelinstallatie-microfoon .
+
+    otl:Monitor skos:relatedMatch bstti:tunnel-deelinstallatie-Monitor .
+
+    otl:Noodhandbediening skos:relatedMatch bstti:tunnel-8.3 .
+
+    otl:Noodtelefoon skos:relatedMatch bstti:tunnel-5.15 .
+
+    otl:OpenbaarNutsbedrijf skos:relatedMatch bstti:Openbaar-nutsbedrijf--Algemeen .
+
+    otl:Ophangconstructie skos:relatedMatch bstti:tunnel-deelinstallatie-ophangconstructie .
+
+    otl:Opnamemedium skos:relatedMatch bstti:tunnel-deelinstallatie-Opnameapparatuur .
+
+    otl:Overgangsconstructie skos:relatedMatch bstti:tunnel-deelinstallatie-overgangsconstructie .
+
+    otl:Overspanningbeveiliging skos:relatedMatch bstti:tunnel-deelinstallatie-Overspanningsbeveiliging .
+
+    otl:Pictogram skos:relatedMatch bstti:tunnel-deelinstallatie-Pictogram .
+
+    otl:Pomp skos:relatedMatch bstti:tunnel-comp-Pomp .
+
+    otl:Rooster skos:relatedMatch bstti:tunnel-deelinstallatie-Rooster .
+
+    otl:Schakelaar skos:relatedMatch bstti:tunnel-deelinstallatie-Schakelaar .
+
+    otl:Sensor skos:relatedMatch bstti:tunnel-deelinstallatie-Sensor .
+
+    otl:Server skos:relatedMatch bstti:tunnel-deelinstallatie-Servers .
+
+    otl:Telefooninstallatie skos:relatedMatch bstti:tunnel-8.10 .
+
+    otl:Telefoontoestel skos:relatedMatch bstti:tunnel-deelinstallatie-telefoontoestel .
+
+    otl:Terreinverlichting skos:relatedMatch bstti:tunnel-8.1 .
+
+    otl:Transformator skos:relatedMatch bstti:tunnel-comp-Transformator .
+
+    otl:Tunnel skos:relatedMatch bstti:NCS0025166 .
+
+    otl:Ventilator skos:relatedMatch bstti:tunnel-comp-Ventilator .
+
+    otl:Verbinding skos:relatedMatch bstti:tunnel-deelinstallatie-Verbindingen .
+
+    otl:Verkeersbord skos:relatedMatch bstti:tunnel-deelinstallatie-verkeersbord- .
+
+    otl:Versterker skos:relatedMatch bstti:tunnel-deelinstallatie-Versterker .
+
+    otl:Vluchtdeur skos:relatedMatch bstti:tunnel-deelinstallatie-vluchtdeur .
+
+    otl:Vluchtdeuren skos:relatedMatch bstti:tunnel-deelinstallatie-vluchtdeur .
+
+    otl:Wand skos:relatedMatch bstti:tunnel-deelinstallatie-Wand .
+
+    otl:graaf-otl-bstti-linkset a void:Linkset ;
+        dct:description "De OTL-BSTTI linkset legt een koppeling tussen OTL-concepten en LTS-BSTTI-concepten."@nl ;
+        dct:title "OTL-BSTTI linkset"@nl ;
+        void:objectsTarget bstti: ;
+        void:subjectsTarget otl:graaf-kennismodel ;
+        owl:imports otl:graaf-kennismodel .
+}
+

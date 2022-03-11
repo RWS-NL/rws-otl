@@ -9,19 +9,7 @@
 @prefix unit: <http://qudt.org/vocab/unit/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-otl:graaf-ib-pihp {
-    otl-patroon:Aalgoot a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aalgoot binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Aalgoot"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
+otl:graaf-ib-pihp-3.1.2 {
     otl-patroon:Aandrijving a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aandrijving binnen de context van informatieproduct p-IHP"@nl ;
         sh:name "Aandrijving"@nl ;
@@ -305,18 +293,6 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Afslagzone a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afslagzone binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Afslagzone"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Afsluitboom a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afsluitboom binnen de context van informatieproduct p-IHP"@nl ;
         sh:name "Afsluitboom"@nl ;
@@ -490,9 +466,9 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Asfaltverharding a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Asfaltverharding binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Asfaltverharding"@nl ;
+    otl-patroon:Asfaltconstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Asfaltconstructie binnen de context van informatieproduct p-IHP"@nl ;
+        sh:name "Asfaltconstructie"@nl ;
         sh:property [ sh:path otl:bouwjaar ;
                 sh:pattern "^\\d{4}$" ],
             [ sh:minCount 1 ;
@@ -769,18 +745,6 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:id ] .
 
-    otl-patroon:BegroeidTerreindeel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Begroeid terreindeel binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Begroeid terreindeel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Begroeiing a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Begroeiing binnen de context van informatieproduct p-IHP"@nl ;
         sh:name "Begroeiing"@nl ;
@@ -790,6 +754,19 @@ otl:graaf-ib-pihp {
                 sh:path otl:huidigeleeftijd ],
             [ sh:minCount 1 ;
                 sh:path otl:id ] .
+
+    otl-patroon:BegroeiingsvrijGebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Begroeiingsvrij gebied binnen de context van informatieproduct p-IHP"@nl ;
+        sh:name "Begroeiingsvrij gebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ;
+                sh:pattern "^\\d{4}$" ],
+            [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:id ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Bekabeling a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bekabeling binnen de context van informatieproduct p-IHP"@nl ;
@@ -1006,30 +983,6 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Binnenberm a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Binnenberm binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Binnenberm"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Binnenduin a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Binnenduin binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Binnenduin"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Binnentalud a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Binnentalud binnen de context van informatieproduct p-IHP"@nl ;
         sh:name "Binnentalud"@nl ;
@@ -1112,14 +1065,6 @@ otl:graaf-ib-pihp {
         sh:name "Bodembedekkende heester"@nl ;
         sh:property [ sh:path otl:bouwjaar ;
                 sh:pattern "^\\d{4}$" ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
-
-    otl-patroon:Bodembedekker a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bodembedekker binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Bodembedekker"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
             [ sh:minCount 1 ;
                 sh:path otl:id ] .
 
@@ -1650,18 +1595,6 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:id ] .
 
-    otl-patroon:Buitenberm a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Buitenberm binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Buitenberm"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Buitentalud a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Buitentalud binnen de context van informatieproduct p-IHP"@nl ;
         sh:name "Buitentalud"@nl ;
@@ -2181,16 +2114,6 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Doorvoer a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doorvoer binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Doorvoer"@nl ;
-        sh:property [ sh:path otl:bouwjaar ;
-                sh:pattern "^\\d{4}$" ],
-            [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
-
     otl-patroon:Douche a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Douche binnen de context van informatieproduct p-IHP"@nl ;
         sh:name "Douche"@nl ;
@@ -2433,15 +2356,7 @@ otl:graaf-ib-pihp {
         sh:property [ sh:path otl:bouwjaar ;
                 sh:pattern "^\\d{4}$" ],
             [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:id ] .
 
     otl-patroon:DuurzameEnergiebron a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duurzame energiebron binnen de context van informatieproduct p-IHP"@nl ;
@@ -2485,6 +2400,14 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:id ] .
 
+    otl-patroon:ElektrischeAandrijving a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Elektrische aandrijving binnen de context van informatieproduct p-IHP"@nl ;
+        sh:name "Elektrische aandrijving"@nl ;
+        sh:property [ sh:path otl:bouwjaar ;
+                sh:pattern "^\\d{4}$" ],
+            [ sh:minCount 1 ;
+                sh:path otl:id ] .
+
     otl-patroon:Elektromotor a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Elektromotor binnen de context van informatieproduct p-IHP"@nl ;
         sh:name "Elektromotor"@nl ;
@@ -2509,14 +2432,6 @@ otl:graaf-ib-pihp {
         sh:property [ sh:path otl:bouwjaar ;
                 sh:pattern "^\\d{4}$" ],
             [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
-
-    otl-patroon:EmbryonaalDuin a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Embryonaal-duin binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Embryonaal-duin"@nl ;
-        sh:property [ sh:minCount 1 ;
                 sh:path otl:huidigeleeftijd ],
             [ sh:minCount 1 ;
                 sh:path otl:id ] .
@@ -3231,14 +3146,6 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:id ] .
 
-    otl-patroon:GrasKruid a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gras/kruid binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Gras/kruid"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
-
     otl-patroon:Grasvegetatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grasvegetatie binnen de context van informatieproduct p-IHP"@nl ;
         sh:name "Grasvegetatie"@nl ;
@@ -3266,18 +3173,6 @@ otl:graaf-ib-pihp {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ;
                 sh:pattern "^\\d{4}$" ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Grensprofiel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grensprofiel binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Grensprofiel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
@@ -3373,10 +3268,6 @@ otl:graaf-ib-pihp {
                 sh:pattern "^\\d{4}$" ],
             [ sh:minCount 1 ;
                 sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ],
             [ sh:minCount 1 ;
                 sh:path otl:id ],
             [ sh:minCount 1 ;
@@ -3822,18 +3713,6 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Hoogwatervluchtplaats a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoogwatervluchtplaats binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Hoogwatervluchtplaats"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Hulppostkast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hulppostkast binnen de context van informatieproduct p-IHP"@nl ;
         sh:name "Hulppostkast"@nl ;
@@ -4182,6 +4061,16 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Kabeldoorvoer a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kabeldoorvoer binnen de context van informatieproduct p-IHP"@nl ;
+        sh:name "Kabeldoorvoer"@nl ;
+        sh:property [ sh:path otl:bouwjaar ;
+                sh:pattern "^\\d{4}$" ],
+            [ sh:minCount 1 ;
+                sh:path otl:huidigeleeftijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:id ] .
+
     otl-patroon:Kabeldraagconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kabeldraagconstructie binnen de context van informatieproduct p-IHP"@nl ;
         sh:name "Kabeldraagconstructie"@nl ;
@@ -4408,14 +4297,6 @@ otl:graaf-ib-pihp {
                 sh:path otl:id ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Kerf a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kerf binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Kerf"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
 
     otl-patroon:Keringschuif a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Keringschuif binnen de context van informatieproduct p-IHP"@nl ;
@@ -4839,26 +4720,6 @@ otl:graaf-ib-pihp {
                 sh:path otl:id ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Kwelkade a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kwelkade binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Kwelkade"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Kwelscherm a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kwelscherm binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Kwelscherm"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
 
     otl-patroon:KwhMetering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type KWh-metering binnen de context van informatieproduct p-IHP"@nl ;
@@ -5831,14 +5692,6 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:OevervegetatieLangsSloten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oevervegetatie (langs sloten) binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Oevervegetatie (langs sloten)"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
-
     otl-patroon:Oeverzwaluwenwand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oeverzwaluwenwand binnen de context van informatieproduct p-IHP"@nl ;
         sh:name "Oeverzwaluwenwand"@nl ;
@@ -5892,19 +5745,6 @@ otl:graaf-ib-pihp {
         sh:name "Omroepinstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:OnbegroeidTerreindeel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onbegroeid terreindeel binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Onbegroeid terreindeel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ;
-                sh:pattern "^\\d{4}$" ],
             [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
@@ -6316,14 +6156,6 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:id ] .
 
-    otl-patroon:Oversteek a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oversteek binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Oversteek"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
-
     otl-patroon:Paaiplaats a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Paaiplaats binnen de context van informatieproduct p-IHP"@nl ;
         sh:name "Paaiplaats"@nl ;
@@ -6348,14 +6180,6 @@ otl:graaf-ib-pihp {
         sh:property [ sh:path otl:bouwjaar ;
                 sh:pattern "^\\d{4}$" ],
             [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
-
-    otl-patroon:Palenrij a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Palenrij binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Palenrij"@nl ;
-        sh:property [ sh:minCount 1 ;
                 sh:path otl:huidigeleeftijd ],
             [ sh:minCount 1 ;
                 sh:path otl:id ] .
@@ -6399,14 +6223,6 @@ otl:graaf-ib-pihp {
         sh:name "Parkeerbeugel"@nl ;
         sh:property [ sh:path otl:bouwjaar ;
                 sh:pattern "^\\d{4}$" ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
-
-    otl-patroon:Peilbuis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Peilbuis binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Peilbuis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
             [ sh:minCount 1 ;
                 sh:path otl:id ] .
 
@@ -6578,14 +6394,6 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Plant a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Plant binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Plant"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
-
     otl-patroon:Plasberm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Plasberm binnen de context van informatieproduct p-IHP"@nl ;
         sh:name "Plasberm"@nl ;
@@ -6701,14 +6509,6 @@ otl:graaf-ib-pihp {
                 sh:path otl:id ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Portofoon a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Portofoon binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Portofoon"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
 
     otl-patroon:Praatpaal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Praatpaal binnen de context van informatieproduct p-IHP"@nl ;
@@ -6981,14 +6781,6 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:id ] .
 
-    otl-patroon:RegelbareAandrijving a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Regelbare aandrijving binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Regelbare aandrijving"@nl ;
-        sh:property [ sh:path otl:bouwjaar ;
-                sh:pattern "^\\d{4}$" ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
-
     otl-patroon:Reling a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reling binnen de context van informatieproduct p-IHP"@nl ;
         sh:name "Reling"@nl ;
@@ -7099,14 +6891,6 @@ otl:graaf-ib-pihp {
                 sh:path otl:id ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Rivierhout a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rivierhout binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Rivierhout"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
 
     otl-patroon:Roerwerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Roerwerk binnen de context van informatieproduct p-IHP"@nl ;
@@ -7486,14 +7270,6 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:id ] .
 
-    otl-patroon:Schijnduiker a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schijnduiker binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Schijnduiker"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
-
     otl-patroon:Schokdemper a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schokdemper binnen de context van informatieproduct p-IHP"@nl ;
         sh:name "Schokdemper"@nl ;
@@ -7870,14 +7646,6 @@ otl:graaf-ib-pihp {
                 sh:path otl:id ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Slufter a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Slufter binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Slufter"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
 
     otl-patroon:SluisdeurHefPuntRol a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sluisdeur (hef, punt, rol) binnen de context van informatieproduct p-IHP"@nl ;
@@ -8376,28 +8144,12 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:id ] .
 
-    otl-patroon:Struikroos a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Struikroos binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Struikroos"@nl ;
+    otl-patroon:Struikrozen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Struikrozen binnen de context van informatieproduct p-IHP"@nl ;
+        sh:name "Struikrozen"@nl ;
         sh:property [ sh:path otl:bouwjaar ;
                 sh:pattern "^\\d{4}$" ],
             [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
-
-    otl-patroon:Stuifkuil a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stuifkuil binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Stuifkuil"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
-
-    otl-patroon:Stuifscherm a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stuifscherm binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Stuifscherm"@nl ;
-        sh:property [ sh:minCount 1 ;
                 sh:path otl:huidigeleeftijd ],
             [ sh:minCount 1 ;
                 sh:path otl:id ] .
@@ -9125,14 +8877,6 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Uitmonding a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uitmonding binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Uitmonding"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
-
     otl-patroon:Uitstroombak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uitstroombak binnen de context van informatieproduct p-IHP"@nl ;
         sh:name "Uitstroombak"@nl ;
@@ -9203,18 +8947,6 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Valbeveiliging a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Valbeveiliging binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Valbeveiliging"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Valreep a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Valreep binnen de context van informatieproduct p-IHP"@nl ;
         sh:name "Valreep"@nl ;
@@ -9278,14 +9010,6 @@ otl:graaf-ib-pihp {
         sh:name "Veldafscheiding"@nl ;
         sh:property [ sh:path otl:bouwjaar ;
                 sh:pattern "^\\d{4}$" ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
-
-    otl-patroon:Veldbus a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veldbus binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Veldbus"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
             [ sh:minCount 1 ;
                 sh:path otl:id ] .
 
@@ -10282,18 +10006,6 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:id ] .
 
-    otl-patroon:WaterlichaamOppervlaktewater a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterlichaam (oppervlaktewater) binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Waterlichaam (oppervlaktewater)"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Watermistinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Watermistinstallatie (WMS) binnen de context van informatieproduct p-IHP"@nl ;
         sh:name "Watermistinstallatie (WMS)"@nl ;
@@ -10306,9 +10018,9 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Waterplant a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Waterplant"@nl ;
+    otl-patroon:WaterplantDrijvend a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant (drijvend) binnen de context van informatieproduct p-IHP"@nl ;
+        sh:name "Waterplant (drijvend)"@nl ;
         sh:property [ sh:path otl:bouwjaar ;
                 sh:pattern "^\\d{4}$" ],
             [ sh:minCount 1 ;
@@ -10438,14 +10150,6 @@ otl:graaf-ib-pihp {
         sh:name "Wervelventiel"@nl ;
         sh:property [ sh:path otl:bouwjaar ;
                 sh:pattern "^\\d{4}$" ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ] .
-
-    otl-patroon:WideAreaNetwork a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wide Area Network (WAN) binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Wide Area Network (WAN)"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:huidigeleeftijd ],
             [ sh:minCount 1 ;
                 sh:path otl:id ] .
 
@@ -10600,18 +10304,6 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:id ] .
 
-    otl-patroon:Zeestrand a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zeestrand binnen de context van informatieproduct p-IHP"@nl ;
-        sh:name "Zeestrand"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:ZeeuwseHaag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zeeuwse haag binnen de context van informatieproduct p-IHP"@nl ;
         sh:name "Zeeuwse haag"@nl ;
@@ -10721,14 +10413,15 @@ otl:graaf-ib-pihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl:graaf-ib-pihp a owl:Ontology ;
-        dct:created "2022-03-03"^^xsd:date ;
+    otl:graaf-ib-pihp-3.1.2 a owl:Ontology ;
+        dct:created "2021-12-16"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'p-IHP' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'p-IHP'"@nl ;
-        pav:currentVersion otl:graaf-ib-pihp-3.1.6 ;
-        pav:derivedFrom "IB RWS Release 20220127" ;
+        pav:derivedFrom "IB RWS Release 20211207" ;
+        pav:version "3.1.2" ;
         owl:imports pav:,
             unit:,
-            otl:graaf-informatiemodel .
+            otl:graaf-informatiemodel ;
+        owl:versionInfo "None"@nl .
 }
 

@@ -10,7 +10,7 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-otl:graaf-informatiemodel {
+otl:graaf-informatiemodel-3.1.6 {
     otl-patroon:Aalgoot a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Aalgoot-concepten"@nl ;
@@ -48204,12 +48204,12 @@ otl:graaf-informatiemodel {
         sh:path otl:gnsURI ;
         sh:pattern "^https:\\/\\/data\\.rws\\.nl\\/id\\/a\\/\\w+-\\S+$" .
 
-    otl:graaf-informatiemodel a owl:Ontology ;
+    otl:graaf-informatiemodel-3.1.6 a owl:Ontology ;
         dct:created "2022-03-03"^^xsd:date ;
         dct:description "Het OTL informatiemodel bevat informatie over de mogelijke eigenschappen van objecttypen."@nl ;
         dct:title "OTL informatiemodel"@nl ;
-        pav:currentVersion otl:graaf-informatiemodel-3.1.6 ;
         pav:derivedFrom "IB RWS Release 20220127" ;
+        pav:version "3.1.6" ;
         owl:imports qudt:,
             sh:,
             otl:graaf-kennismodel .

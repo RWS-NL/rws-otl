@@ -10,24 +10,7 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-otl:graaf-informatiemodel {
-    otl-patroon:Aalgoot a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Aalgoot-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Aalgoot"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Aalgoot>
-            }""" ] .
-
+otl:graaf-informatiemodel-3.1.3 {
     otl-patroon:Aandrijving a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Aandrijving-concepten"@nl ;
@@ -1446,23 +1429,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Afscheiding>
             }""" ] .
 
-    otl-patroon:Afslagzone a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Afslagzone-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Afslagzone"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Afslagzone>
-            }""" ] .
-
     otl-patroon:Afsluitboom a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Afsluitboom-concepten"@nl ;
@@ -2412,11 +2378,11 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Asbestemming>
             }""" ] .
 
-    otl-patroon:Asfaltverharding a sh:NodeShape ;
+    otl-patroon:Asfaltconstructie a sh:NodeShape ;
         sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Asfaltverharding-concepten"@nl ;
+        sh:description "Basispatroon voor het vastleggen van Asfaltconstructie-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Asfaltverharding"@nl ;
+        sh:name "Asfaltconstructie"@nl ;
         sh:property otl-patroon:aanduidingObject,
             otl-patroon:aantal,
             otl-patroon:barcode,
@@ -2453,7 +2419,7 @@ otl:graaf-informatiemodel {
             otl-patroon:verwachteLevensduur ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Asfaltverharding>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Asfaltconstructie>
             }""" ] .
 
     otl-patroon:Asfaltwapening a sh:NodeShape ;
@@ -3740,31 +3706,22 @@ otl:graaf-informatiemodel {
 
     otl-patroon:BegroeidTerreindeel a sh:NodeShape ;
         sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Begroeid Terreindeel-concepten"@nl,
-            "Basispatroon voor het vastleggen van Begroeid terreindeel-concepten"@nl ;
+        sh:description "Basispatroon voor het vastleggen van Begroeid Terreindeel-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Begroeid Terreindeel"@nl,
-            "Begroeid terreindeel"@nl ;
+        sh:name "Begroeid Terreindeel"@nl ;
         sh:property otl-patroon:bgtFysiekvoorkomenBegroeidterreindeel,
             otl-patroon:bgtStatus,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
             otl-patroon:bronhouder,
-            otl-patroon:categorie,
             otl-patroon:datumtijdeindregistratie,
             otl-patroon:datumtijdregistratie,
-            otl-patroon:discipline,
             otl-patroon:geometrie,
-            otl-patroon:id,
             otl-patroon:identificatie,
             otl-patroon:inonderzoekindicator,
             otl-patroon:inwinnendeinstantie,
             otl-patroon:kruinlijngeometrie,
             otl-patroon:lvpublicatiedatum,
-            otl-patroon:naam,
             otl-patroon:objectbegintijd,
             otl-patroon:objecteindtijd,
-            otl-patroon:omschrijving,
             otl-patroon:optaludindicator,
             otl-patroon:plusFysiekvoorkomenBegroeidterreindeel,
             otl-patroon:plusStatus,
@@ -3810,6 +3767,55 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Begroeiing>
+            }""" ] .
+
+    otl-patroon:BegroeiingsvrijGebied a sh:NodeShape ;
+        sh:closed true ;
+        sh:description "Basispatroon voor het vastleggen van Begroeiingsvrij gebied-concepten"@nl ;
+        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
+        sh:name "Begroeiingsvrij gebied"@nl ;
+        sh:property otl-patroon:aantal,
+            otl-patroon:beginpunt,
+            otl-patroon:beheerder,
+            otl-patroon:bestekNummer,
+            otl-patroon:bknCode,
+            otl-patroon:bouwdatum,
+            otl-patroon:bouwjaar,
+            otl-patroon:categorie,
+            otl-patroon:coordinatenstelsel,
+            otl-patroon:datumAanleg,
+            otl-patroon:datumEindeOvereenkomst,
+            otl-patroon:datumEindeVergunning,
+            otl-patroon:datumOplevering,
+            otl-patroon:datumStartOvereenkomst,
+            otl-patroon:datumStartVergunning,
+            otl-patroon:discipline,
+            otl-patroon:doel,
+            otl-patroon:eigenaar,
+            otl-patroon:eindpunt,
+            otl-patroon:functioneleOmschrijving,
+            otl-patroon:horizontaleAfmetingen,
+            otl-patroon:id,
+            otl-patroon:locatieCoordinaten,
+            otl-patroon:naam,
+            otl-patroon:omschrijving,
+            otl-patroon:onderhouder,
+            otl-patroon:overeenkomsthouder,
+            otl-patroon:overeenkomstnummer,
+            otl-patroon:paspoortgegevens,
+            otl-patroon:signaalNaarDerden,
+            otl-patroon:signaalVanDerden,
+            otl-patroon:software,
+            otl-patroon:soort,
+            otl-patroon:tijd,
+            otl-patroon:vergunninghouder,
+            otl-patroon:vergunningsnummer,
+            otl-patroon:verticaleAfmetingen,
+            otl-patroon:verwachteLevensduur,
+            otl-patroon:zijde ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BegroeiingsvrijGebied>
             }""" ] .
 
     otl-patroon:BeheerobjectOverstijgendeVoorziening a sh:NodeShape ;
@@ -4894,40 +4900,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BinnenBuitendeurenEnRolluiken>
             }""" ] .
 
-    otl-patroon:Binnenberm a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Binnenberm-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Binnenberm"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Binnenberm>
-            }""" ] .
-
-    otl-patroon:Binnenduin a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Binnenduin-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Binnenduin"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Binnenduin>
-            }""" ] .
-
     otl-patroon:Binnentalud a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Binnentalud-concepten"@nl ;
@@ -5270,31 +5242,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BodembedekkendeHeester>
-            }""" ] .
-
-    otl-patroon:Bodembedekker a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Bodembedekker-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Bodembedekker"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Bodembedekker>
             }""" ] .
 
     otl-patroon:Bodembescherming a sh:NodeShape ;
@@ -7240,23 +7187,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Buisleiding>
-            }""" ] .
-
-    otl-patroon:Buitenberm a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Buitenberm-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Buitenberm"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Buitenberm>
             }""" ] .
 
     otl-patroon:Buitentalud a sh:NodeShape ;
@@ -9773,15 +9703,13 @@ otl:graaf-informatiemodel {
             }""" ] .
 
     otl-patroon:Document a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van Document-concepten"@nl ;
-        sh:name "Document"@nl ;
+        sh:description "Document"@nl ;
+        sh:name "Generiek model Document patroon."@nl ;
         sh:property otl-patroon:Document-beheerObjectcode,
             otl-patroon:Document-date,
             otl-patroon:Document-describes,
             otl-patroon:Document-description,
-            otl-patroon:Document-documentSoort,
             otl-patroon:Document-format,
-            otl-patroon:Document-heeftVersie,
             otl-patroon:Document-identifier,
             otl-patroon:Document-modified,
             otl-patroon:Document-pdfFile,
@@ -9796,26 +9724,6 @@ otl:graaf-informatiemodel {
         sh:name "heeft creatie datum"@nl ;
         sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:dateTime ] ) ;
         sh:path dct:created .
-
-    otl-patroon:DocumentManifestatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van DocumentManifestatie-concepten"@nl ;
-        sh:name "Document manifestatie"@nl ;
-        sh:property otl-patroon:DocumentManifestatie-afdrukdatum,
-            otl-patroon:DocumentManifestatie-afgeleidVan,
-            otl-patroon:DocumentManifestatie-locatie ;
-        sh:targetClass otl:DocumentManifestatie .
-
-    otl-patroon:DocumentUitdrukking a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van DocumentUitdrukking-concepten"@nl ;
-        sh:name "Document uitdrukking"@nl ;
-        sh:property otl-patroon:DocumentUitdrukking-auteur,
-            otl-patroon:DocumentUitdrukking-datum,
-            otl-patroon:DocumentUitdrukking-heeftBijlage,
-            otl-patroon:DocumentUitdrukking-omschrijvingWijziging,
-            otl-patroon:DocumentUitdrukking-versienummer,
-            otl-patroon:DocumentUitdrukking-volgendeVersie,
-            otl-patroon:DocumentUitdrukking-vorigeVersie ;
-        sh:targetClass otl:DocumentUitdrukking .
 
     otl-patroon:Doel a sh:NodeShape ;
         sh:closed true ;
@@ -9968,85 +9876,6 @@ otl:graaf-informatiemodel {
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Doorlaatkoker>
             }""" ] .
-
-    otl-patroon:Doorvoer a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Doorvoer-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Doorvoer"@nl ;
-        sh:property otl-patroon:aanduidingObject,
-            otl-patroon:aantal,
-            otl-patroon:barcode,
-            otl-patroon:beginpunt,
-            otl-patroon:beheerder,
-            otl-patroon:bestekNummer,
-            otl-patroon:bevestiging,
-            otl-patroon:bknCode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:calamiteitenvoorzieningAanwezigLokaal,
-            otl-patroon:capaciteit,
-            otl-patroon:categorie,
-            otl-patroon:code,
-            otl-patroon:communicatie,
-            otl-patroon:coordinatenstelsel,
-            otl-patroon:datumAanleg,
-            otl-patroon:datumEindeOvereenkomst,
-            otl-patroon:datumEindeVergunning,
-            otl-patroon:datumOplevering,
-            otl-patroon:datumStartOvereenkomst,
-            otl-patroon:datumStartVergunning,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:deursluiting,
-            otl-patroon:discipline,
-            otl-patroon:doel,
-            otl-patroon:eigenaar,
-            otl-patroon:eindpunt,
-            otl-patroon:fabrikaat,
-            otl-patroon:fabrikant,
-            otl-patroon:faseAansluiting,
-            otl-patroon:functioneleOmschrijving,
-            otl-patroon:garantieTot,
-            otl-patroon:garantietermijn,
-            otl-patroon:gebruik,
-            otl-patroon:hoofdzekering,
-            otl-patroon:horizontaleAfmetingen,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:leverancier,
-            otl-patroon:locatie,
-            otl-patroon:locatieCoordinaten,
-            otl-patroon:maaiveldBeschermingJaNee,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:nummer,
-            otl-patroon:omschrijving,
-            otl-patroon:onderhouder,
-            otl-patroon:overeenkomsthouder,
-            otl-patroon:paspoortgegevens,
-            otl-patroon:productNummer,
-            otl-patroon:qrCode,
-            otl-patroon:serviceLevensduur,
-            otl-patroon:software,
-            otl-patroon:soort,
-            otl-patroon:tijd,
-            otl-patroon:type,
-            otl-patroon:verticaleAfmetingen,
-            otl-patroon:verwachteLevensduur,
-            otl-patroon:zijde ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Doorvoer>
-            }""" ] .
-
-    otl-patroon:Dossier a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van Dossier-concepten"@nl ;
-        sh:name "Dossier"@nl ;
-        sh:property otl-patroon:Dossier-bevatVersie,
-            otl-patroon:Dossier-volgendeVersie,
-            otl-patroon:Dossier-vorigeVersie ;
-        sh:targetClass otl:Dossier .
 
     otl-patroon:Douche a sh:NodeShape ;
         sh:closed true ;
@@ -11260,7 +11089,6 @@ otl:graaf-informatiemodel {
             otl-patroon:bknCode,
             otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
-            otl-patroon:categorie,
             otl-patroon:datumEindeOvereenkomst,
             otl-patroon:datumStartOvereenkomst,
             otl-patroon:discipline,
@@ -11523,6 +11351,75 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/EenEnTweejarigePerkplant>
             }""" ] .
 
+    otl-patroon:ElektrischeAandrijving a sh:NodeShape ;
+        sh:closed true ;
+        sh:description "Basispatroon voor het vastleggen van Elektrische aandrijving-concepten"@nl ;
+        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
+        sh:name "Elektrische aandrijving"@nl ;
+        sh:property otl-patroon:aanduidingObject,
+            otl-patroon:aansluitwijzeCommunicatieKoperGlas,
+            otl-patroon:aansturing,
+            otl-patroon:aantal,
+            otl-patroon:beheerObjectcode,
+            otl-patroon:beheerder,
+            otl-patroon:belastingBovengrond,
+            otl-patroon:bereikbaarViaTelefoonNummer,
+            otl-patroon:bestekNummer,
+            otl-patroon:bouwdatum,
+            otl-patroon:bouwjaar,
+            otl-patroon:calamiteitenvoorzieningAanwezigLokaal,
+            otl-patroon:capaciteit,
+            otl-patroon:categorie,
+            otl-patroon:code,
+            otl-patroon:communicatie,
+            otl-patroon:coordinatenstelsel,
+            otl-patroon:datumAanleg,
+            otl-patroon:datumEindeOvereenkomst,
+            otl-patroon:datumEindeVergunning,
+            otl-patroon:datumOplevering,
+            otl-patroon:datumStartOvereenkomst,
+            otl-patroon:datumStartVergunning,
+            otl-patroon:deursluiting,
+            otl-patroon:discipline,
+            otl-patroon:doel,
+            otl-patroon:eigenaar,
+            otl-patroon:fabrikaat,
+            otl-patroon:fabrikant,
+            otl-patroon:faseAansluiting,
+            otl-patroon:functioneleOmschrijving,
+            otl-patroon:garantieTot,
+            otl-patroon:gebruik,
+            otl-patroon:hoofdzekering,
+            otl-patroon:horizontaleAfmetingen,
+            otl-patroon:id,
+            otl-patroon:koppelNaar,
+            otl-patroon:koppelVan,
+            otl-patroon:leverancier,
+            otl-patroon:locatie,
+            otl-patroon:locatieCoordinaten,
+            otl-patroon:naam,
+            otl-patroon:nummer,
+            otl-patroon:omschrijving,
+            otl-patroon:onderhouder,
+            otl-patroon:overeenkomsthouder,
+            otl-patroon:overeenkomstnummer,
+            otl-patroon:paspoortgegevens,
+            otl-patroon:productNummer,
+            otl-patroon:serviceLevensduur,
+            otl-patroon:sleuteltype,
+            otl-patroon:software,
+            otl-patroon:softwareVersienummer,
+            otl-patroon:soort,
+            otl-patroon:type,
+            otl-patroon:vergunninghouder,
+            otl-patroon:vergunningsnummer,
+            otl-patroon:verlichtingsGroepZone,
+            otl-patroon:verwachteLevensduur ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/ElektrischeAandrijving>
+            }""" ] .
+
     otl-patroon:Elektromotor a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Elektromotor-concepten"@nl ;
@@ -11697,31 +11594,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Elementenverharding>
-            }""" ] .
-
-    otl-patroon:EmbryonaalDuin a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Embryonaal-duin-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Embryonaal-duin"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/EmbryonaalDuin>
             }""" ] .
 
     otl-patroon:Energiekabel a sh:NodeShape ;
@@ -14939,31 +14811,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Grafsteen>
             }""" ] .
 
-    otl-patroon:GrasKruid a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Gras/kruid-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Gras/kruid"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/GrasKruid>
-            }""" ] .
-
     otl-patroon:Grasvegetatie a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Grasvegetatie-concepten"@nl ;
@@ -15133,23 +14980,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Grendelinrichting>
-            }""" ] .
-
-    otl-patroon:Grensprofiel a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Grensprofiel-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Grensprofiel"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Grensprofiel>
             }""" ] .
 
     otl-patroon:Greppel a sh:NodeShape ;
@@ -15553,7 +15383,6 @@ otl:graaf-informatiemodel {
         sh:property otl-patroon:aanduidingObject,
             otl-patroon:aansluitwijzeCommunicatieKoperGlas,
             otl-patroon:aantal,
-            otl-patroon:barcode,
             otl-patroon:beheerObjectcode,
             otl-patroon:beheerder,
             otl-patroon:belastingBovengrond,
@@ -15569,8 +15398,6 @@ otl:graaf-informatiemodel {
             otl-patroon:datumOplevering,
             otl-patroon:datumStartOvereenkomst,
             otl-patroon:datumStartVergunning,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
             otl-patroon:deursluiting,
             otl-patroon:discipline,
             otl-patroon:doel,
@@ -15580,18 +15407,15 @@ otl:graaf-informatiemodel {
             otl-patroon:faseAansluiting,
             otl-patroon:functioneleOmschrijving,
             otl-patroon:garantieTot,
-            otl-patroon:garantietermijn,
             otl-patroon:gebruik,
             otl-patroon:hoofdzekering,
             otl-patroon:horizontaleAfmetingen,
-            otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:koppelNaar,
             otl-patroon:koppelVan,
             otl-patroon:leverancier,
             otl-patroon:locatie,
             otl-patroon:locatieCoordinaten,
-            otl-patroon:materiaal,
             otl-patroon:naam,
             otl-patroon:nummer,
             otl-patroon:omschrijving,
@@ -15599,11 +15423,9 @@ otl:graaf-informatiemodel {
             otl-patroon:overeenkomsthouder,
             otl-patroon:overeenkomstnummer,
             otl-patroon:productNummer,
-            otl-patroon:qrCode,
             otl-patroon:serviceLevensduur,
             otl-patroon:software,
             otl-patroon:softwareVersienummer,
-            otl-patroon:soort,
             otl-patroon:vergunninghouder,
             otl-patroon:vergunningsnummer,
             otl-patroon:verlichtingsGroepZone,
@@ -17529,23 +17351,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/HoogtedetectieInstallatie>
             }""" ] .
 
-    otl-patroon:Hoogwatervluchtplaats a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Hoogwatervluchtplaats-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Hoogwatervluchtplaats"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Hoogwatervluchtplaats>
-            }""" ] .
-
     otl-patroon:Hulppostkast a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Hulppostkast-concepten"@nl ;
@@ -19284,6 +19089,77 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/KabelEnLeidingtunnel>
             }""" ] .
 
+    otl-patroon:Kabeldoorvoer a sh:NodeShape ;
+        sh:closed true ;
+        sh:description "Basispatroon voor het vastleggen van Kabeldoorvoer-concepten"@nl ;
+        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
+        sh:name "Kabeldoorvoer"@nl ;
+        sh:property otl-patroon:aanduidingObject,
+            otl-patroon:aantal,
+            otl-patroon:barcode,
+            otl-patroon:beginpunt,
+            otl-patroon:beheerder,
+            otl-patroon:bestekNummer,
+            otl-patroon:bevestiging,
+            otl-patroon:bknCode,
+            otl-patroon:bouwdatum,
+            otl-patroon:bouwjaar,
+            otl-patroon:calamiteitenvoorzieningAanwezigLokaal,
+            otl-patroon:capaciteit,
+            otl-patroon:categorie,
+            otl-patroon:code,
+            otl-patroon:communicatie,
+            otl-patroon:coordinatenstelsel,
+            otl-patroon:datumAanleg,
+            otl-patroon:datumEindeOvereenkomst,
+            otl-patroon:datumEindeVergunning,
+            otl-patroon:datumOplevering,
+            otl-patroon:datumStartOvereenkomst,
+            otl-patroon:datumStartVergunning,
+            otl-patroon:datuminbedrijfname,
+            otl-patroon:datumuitbedrijf,
+            otl-patroon:deursluiting,
+            otl-patroon:discipline,
+            otl-patroon:doel,
+            otl-patroon:eigenaar,
+            otl-patroon:eindpunt,
+            otl-patroon:fabrikaat,
+            otl-patroon:fabrikant,
+            otl-patroon:faseAansluiting,
+            otl-patroon:functioneleOmschrijving,
+            otl-patroon:garantieTot,
+            otl-patroon:garantietermijn,
+            otl-patroon:gebruik,
+            otl-patroon:hoofdzekering,
+            otl-patroon:horizontaleAfmetingen,
+            otl-patroon:huidigeleeftijd,
+            otl-patroon:id,
+            otl-patroon:leverancier,
+            otl-patroon:locatie,
+            otl-patroon:locatieCoordinaten,
+            otl-patroon:maaiveldBeschermingJaNee,
+            otl-patroon:materiaal,
+            otl-patroon:naam,
+            otl-patroon:nummer,
+            otl-patroon:omschrijving,
+            otl-patroon:onderhouder,
+            otl-patroon:overeenkomsthouder,
+            otl-patroon:paspoortgegevens,
+            otl-patroon:productNummer,
+            otl-patroon:qrCode,
+            otl-patroon:serviceLevensduur,
+            otl-patroon:software,
+            otl-patroon:soort,
+            otl-patroon:tijd,
+            otl-patroon:type,
+            otl-patroon:verticaleAfmetingen,
+            otl-patroon:verwachteLevensduur,
+            otl-patroon:zijde ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Kabeldoorvoer>
+            }""" ] .
+
     otl-patroon:Kabeldraagconstructie a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Kabeldraagconstructie-concepten"@nl ;
@@ -20179,31 +20055,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/KerendeConstructie>
-            }""" ] .
-
-    otl-patroon:Kerf a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Kerf-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Kerf"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Kerf>
             }""" ] .
 
     otl-patroon:Keringschuif a sh:NodeShape ;
@@ -22146,48 +21997,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Kwelder>
-            }""" ] .
-
-    otl-patroon:Kwelkade a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Kwelkade-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Kwelkade"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Kwelkade>
-            }""" ] .
-
-    otl-patroon:Kwelscherm a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Kwelscherm-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Kwelscherm"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Kwelscherm>
             }""" ] .
 
     otl-patroon:KwhMetering a sh:NodeShape ;
@@ -26475,31 +26284,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Oeverbescherming>
             }""" ] .
 
-    otl-patroon:OevervegetatieLangsSloten a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Oevervegetatie (langs sloten)-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Oevervegetatie (langs sloten)"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/OevervegetatieLangsSloten>
-            }""" ] .
-
     otl-patroon:Oeverzwaluwenwand a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Oeverzwaluwenwand-concepten"@nl ;
@@ -26738,67 +26522,26 @@ otl:graaf-informatiemodel {
 
     otl-patroon:OnbegroeidTerreindeel a sh:NodeShape ;
         sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Onbegroeid Terreindeel-concepten"@nl,
-            "Basispatroon voor het vastleggen van Onbegroeid terreindeel-concepten"@nl ;
+        sh:description "Basispatroon voor het vastleggen van Onbegroeid Terreindeel-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Onbegroeid Terreindeel"@nl,
-            "Onbegroeid terreindeel"@nl ;
-        sh:property otl-patroon:aantal,
-            otl-patroon:beginpunt,
-            otl-patroon:beheerder,
-            otl-patroon:bestekNummer,
-            otl-patroon:bgtFysiekvoorkomenOnbegroeidterreindeel,
+        sh:name "Onbegroeid Terreindeel"@nl ;
+        sh:property otl-patroon:bgtFysiekvoorkomenOnbegroeidterreindeel,
             otl-patroon:bgtStatus,
-            otl-patroon:bknCode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
             otl-patroon:bronhouder,
-            otl-patroon:categorie,
-            otl-patroon:coordinatenstelsel,
-            otl-patroon:datumAanleg,
-            otl-patroon:datumEindeOvereenkomst,
-            otl-patroon:datumEindeVergunning,
-            otl-patroon:datumOplevering,
-            otl-patroon:datumStartOvereenkomst,
-            otl-patroon:datumStartVergunning,
             otl-patroon:datumtijdeindregistratie,
             otl-patroon:datumtijdregistratie,
-            otl-patroon:discipline,
-            otl-patroon:doel,
-            otl-patroon:eigenaar,
-            otl-patroon:eindpunt,
-            otl-patroon:functioneleOmschrijving,
             otl-patroon:geometrie,
-            otl-patroon:horizontaleAfmetingen,
-            otl-patroon:id,
             otl-patroon:identificatie,
             otl-patroon:inonderzoekindicator,
             otl-patroon:inwinnendeinstantie,
             otl-patroon:kruinlijngeometrie,
-            otl-patroon:locatieCoordinaten,
             otl-patroon:lvpublicatiedatum,
-            otl-patroon:naam,
             otl-patroon:objectbegintijd,
             otl-patroon:objecteindtijd,
-            otl-patroon:omschrijving,
-            otl-patroon:onderhouder,
             otl-patroon:optaludindicator,
-            otl-patroon:overeenkomsthouder,
-            otl-patroon:overeenkomstnummer,
-            otl-patroon:paspoortgegevens,
             otl-patroon:plusFysiekvoorkomenOnbegroeidterreindeel,
             otl-patroon:plusStatus,
-            otl-patroon:relatievehoogteligging,
-            otl-patroon:signaalNaarDerden,
-            otl-patroon:signaalVanDerden,
-            otl-patroon:software,
-            otl-patroon:soort,
-            otl-patroon:tijd,
-            otl-patroon:vergunninghouder,
-            otl-patroon:vergunningsnummer,
-            otl-patroon:verticaleAfmetingen,
-            otl-patroon:verwachteLevensduur,
-            otl-patroon:zijde ;
+            otl-patroon:relatievehoogteligging ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/OnbegroeidTerreindeel>
@@ -28859,31 +28602,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Overspanningbeveiliging>
             }""" ] .
 
-    otl-patroon:Oversteek a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Oversteek-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Oversteek"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Oversteek>
-            }""" ] .
-
     otl-patroon:Paaiplaats a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Paaiplaats-concepten"@nl ;
@@ -29046,31 +28764,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Paalbeugel>
-            }""" ] .
-
-    otl-patroon:Palenrij a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Palenrij-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Palenrij"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Palenrij>
             }""" ] .
 
     otl-patroon:Panamawiel a sh:NodeShape ;
@@ -29369,31 +29062,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Parkeerbeugel>
-            }""" ] .
-
-    otl-patroon:Peilbuis a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Peilbuis-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Peilbuis"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Peilbuis>
             }""" ] .
 
     otl-patroon:Peilbuizen a sh:NodeShape ;
@@ -30158,31 +29826,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Plafondconstructie>
             }""" ] .
 
-    otl-patroon:Plant a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Plant-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Plant"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Plant>
-            }""" ] .
-
     otl-patroon:Plasberm a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Plasberm-concepten"@nl ;
@@ -30637,31 +30280,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Portaal>
-            }""" ] .
-
-    otl-patroon:Portofoon a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Portofoon-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Portofoon"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Portofoon>
             }""" ] .
 
     otl-patroon:Praatpaal a sh:NodeShape ;
@@ -32017,75 +31635,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Regelballast>
             }""" ] .
 
-    otl-patroon:RegelbareAandrijving a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Regelbare aandrijving-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Regelbare aandrijving"@nl ;
-        sh:property otl-patroon:aanduidingObject,
-            otl-patroon:aansluitwijzeCommunicatieKoperGlas,
-            otl-patroon:aansturing,
-            otl-patroon:aantal,
-            otl-patroon:beheerObjectcode,
-            otl-patroon:beheerder,
-            otl-patroon:belastingBovengrond,
-            otl-patroon:bereikbaarViaTelefoonNummer,
-            otl-patroon:bestekNummer,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:calamiteitenvoorzieningAanwezigLokaal,
-            otl-patroon:capaciteit,
-            otl-patroon:categorie,
-            otl-patroon:code,
-            otl-patroon:communicatie,
-            otl-patroon:coordinatenstelsel,
-            otl-patroon:datumAanleg,
-            otl-patroon:datumEindeOvereenkomst,
-            otl-patroon:datumEindeVergunning,
-            otl-patroon:datumOplevering,
-            otl-patroon:datumStartOvereenkomst,
-            otl-patroon:datumStartVergunning,
-            otl-patroon:deursluiting,
-            otl-patroon:discipline,
-            otl-patroon:doel,
-            otl-patroon:eigenaar,
-            otl-patroon:fabrikaat,
-            otl-patroon:fabrikant,
-            otl-patroon:faseAansluiting,
-            otl-patroon:functioneleOmschrijving,
-            otl-patroon:garantieTot,
-            otl-patroon:gebruik,
-            otl-patroon:hoofdzekering,
-            otl-patroon:horizontaleAfmetingen,
-            otl-patroon:id,
-            otl-patroon:koppelNaar,
-            otl-patroon:koppelVan,
-            otl-patroon:leverancier,
-            otl-patroon:locatie,
-            otl-patroon:locatieCoordinaten,
-            otl-patroon:naam,
-            otl-patroon:nummer,
-            otl-patroon:omschrijving,
-            otl-patroon:onderhouder,
-            otl-patroon:overeenkomsthouder,
-            otl-patroon:overeenkomstnummer,
-            otl-patroon:paspoortgegevens,
-            otl-patroon:productNummer,
-            otl-patroon:serviceLevensduur,
-            otl-patroon:sleuteltype,
-            otl-patroon:software,
-            otl-patroon:softwareVersienummer,
-            otl-patroon:soort,
-            otl-patroon:type,
-            otl-patroon:vergunninghouder,
-            otl-patroon:vergunningsnummer,
-            otl-patroon:verlichtingsGroepZone,
-            otl-patroon:verwachteLevensduur ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/RegelbareAandrijving>
-            }""" ] .
-
     otl-patroon:RegistratiefGebied a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Registratief gebied-concepten"@nl ;
@@ -32617,31 +32166,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Rivier>
-            }""" ] .
-
-    otl-patroon:Rivierhout a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Rivierhout-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Rivierhout"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Rivierhout>
             }""" ] .
 
     otl-patroon:Roerwerk a sh:NodeShape ;
@@ -34425,31 +33949,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Schietbord>
             }""" ] .
 
-    otl-patroon:Schijnduiker a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Schijnduiker-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Schijnduiker"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Schijnduiker>
-            }""" ] .
-
     otl-patroon:Schokdemper a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Schokdemper-concepten"@nl ;
@@ -36005,31 +35504,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Sloot>
-            }""" ] .
-
-    otl-patroon:Slufter a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Slufter-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Slufter"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Slufter>
             }""" ] .
 
     otl-patroon:SluisdeurHefPuntRol a sh:NodeShape ;
@@ -38071,11 +37545,11 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Stroomprofiel>
             }""" ] .
 
-    otl-patroon:Struikroos a sh:NodeShape ;
+    otl-patroon:Struikrozen a sh:NodeShape ;
         sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Struikroos-concepten"@nl ;
+        sh:description "Basispatroon voor het vastleggen van Struikrozen-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Struikroos"@nl ;
+        sh:name "Struikrozen"@nl ;
         sh:property otl-patroon:aanduidingObject,
             otl-patroon:aantal,
             otl-patroon:barcode,
@@ -38103,57 +37577,7 @@ otl:graaf-informatiemodel {
             otl-patroon:verwachteLevensduur ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Struikroos>
-            }""" ] .
-
-    otl-patroon:Stuifkuil a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Stuifkuil-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Stuifkuil"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Stuifkuil>
-            }""" ] .
-
-    otl-patroon:Stuifscherm a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Stuifscherm-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Stuifscherm"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Stuifscherm>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Struikrozen>
             }""" ] .
 
     otl-patroon:Stuifzand a sh:NodeShape ;
@@ -41145,31 +40569,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Uitlaatvoorziening>
             }""" ] .
 
-    otl-patroon:Uitmonding a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Uitmonding-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Uitmonding"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Uitmonding>
-            }""" ] .
-
     otl-patroon:Uitstroombak a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Uitstroombak-concepten"@nl ;
@@ -41411,23 +40810,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Vaarwegmarkering>
             }""" ] .
 
-    otl-patroon:Valbeveiliging a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Valbeveiliging-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Valbeveiliging"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Valbeveiliging>
-            }""" ] .
-
     otl-patroon:Valreep a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Valreep-concepten"@nl ;
@@ -41651,31 +41033,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Veldafscheiding>
-            }""" ] .
-
-    otl-patroon:Veldbus a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Veldbus-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Veldbus"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Veldbus>
             }""" ] .
 
     otl-patroon:Ven a sh:NodeShape ;
@@ -45843,23 +45200,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Waterinrichtingselement>
             }""" ] .
 
-    otl-patroon:WaterlichaamOppervlaktewater a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Waterlichaam (oppervlaktewater)-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Waterlichaam (oppervlaktewater)"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WaterlichaamOppervlaktewater>
-            }""" ] .
-
     otl-patroon:Watermistinstallatie a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Watermistinstallatie (WMS)-concepten"@nl ;
@@ -45920,11 +45260,11 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Watermistinstallatie>
             }""" ] .
 
-    otl-patroon:Waterplant a sh:NodeShape ;
+    otl-patroon:WaterplantDrijvend a sh:NodeShape ;
         sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Waterplant-concepten"@nl ;
+        sh:description "Basispatroon voor het vastleggen van Waterplant (drijvend)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Waterplant"@nl ;
+        sh:name "Waterplant (drijvend)"@nl ;
         sh:property otl-patroon:aanduidingObject,
             otl-patroon:aantal,
             otl-patroon:barcode,
@@ -45969,7 +45309,7 @@ otl:graaf-informatiemodel {
             otl-patroon:verwachteLevensduur ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Waterplant>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WaterplantDrijvend>
             }""" ] .
 
     otl-patroon:WaterplantOndergedoken a sh:NodeShape ;
@@ -46662,31 +46002,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Wervelventiel>
-            }""" ] .
-
-    otl-patroon:WideAreaNetwork a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Wide Area Network (WAN)-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Wide Area Network (WAN)"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WideAreaNetwork>
             }""" ] .
 
     otl-patroon:Wiel a sh:NodeShape ;
@@ -47545,23 +46860,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Zee>
             }""" ] .
 
-    otl-patroon:Zeestrand a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Zeestrand-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Zeestrand"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:categorie,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Zeestrand>
-            }""" ] .
-
     otl-patroon:ZeeuwseHaag a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Zeeuwse haag-concepten"@nl ;
@@ -48204,12 +47502,12 @@ otl:graaf-informatiemodel {
         sh:path otl:gnsURI ;
         sh:pattern "^https:\\/\\/data\\.rws\\.nl\\/id\\/a\\/\\w+-\\S+$" .
 
-    otl:graaf-informatiemodel a owl:Ontology ;
-        dct:created "2022-03-03"^^xsd:date ;
+    otl:graaf-informatiemodel-3.1.3 a owl:Ontology ;
+        dct:created "2022-01-04"^^xsd:date ;
         dct:description "Het OTL informatiemodel bevat informatie over de mogelijke eigenschappen van objecttypen."@nl ;
         dct:title "OTL informatiemodel"@nl ;
-        pav:currentVersion otl:graaf-informatiemodel-3.1.6 ;
-        pav:derivedFrom "IB RWS Release 20220127" ;
+        pav:derivedFrom "IB RWS Release 20211224" ;
+        pav:version "3.1.3" ;
         owl:imports qudt:,
             sh:,
             otl:graaf-kennismodel .
@@ -48259,25 +47557,12 @@ otl:graaf-informatiemodel {
         sh:path dct:description ;
         sh:uniqueLang true .
 
-    otl-patroon:Document-documentSoort a sh:PropertyShape ;
-        sh:description "Document soort-patroon vastgezet op Document"@nl ;
-        sh:maxCount 1 ;
-        sh:minCount 1 ;
-        sh:name "Document soort"@nl ;
-        sh:path otl:documentSoort .
-
     otl-patroon:Document-format a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "Ieder document kan een informatiedrager bevatten. Deze verwijst naar de manier waarop de data is opgeslagen."@nl ;
         sh:maxCount 1 ;
         sh:name "heeft format"@nl ;
         sh:path dct:format .
-
-    otl-patroon:Document-heeftVersie a sh:PropertyShape ;
-        sh:class otl:DocumentUitdrukking ;
-        sh:description "Heeft versie-patroon vastgezet op Document"@nl ;
-        sh:name "Heeft versie"@nl ;
-        sh:path otl:heeftVersie .
 
     otl-patroon:Document-identifier a sh:PropertyShape ;
         sh:datatype xsd:string ;
@@ -48309,90 +47594,6 @@ otl:graaf-informatiemodel {
         sh:minCount 1 ;
         sh:name "heeft vault"@nl ;
         sh:path otl:vault .
-
-    otl-patroon:DocumentManifestatie-afdrukdatum a sh:PropertyShape ;
-        sh:datatype xsd:date ;
-        sh:description "Afdrukdatum-patroon vastgezet op DocumentManifestatie"@nl ;
-        sh:minCount 1 ;
-        sh:name "Afdrukdatum"@nl ;
-        sh:path otl:afdrukdatum .
-
-    otl-patroon:DocumentManifestatie-afgeleidVan a sh:PropertyShape ;
-        sh:class otl:DocumentManifestatie ;
-        sh:description "Afgeleid van-patroon vastgezet op DocumentManifestatie"@nl ;
-        sh:name "Afgeleid van"@nl ;
-        sh:path otl:afgeleidVan .
-
-    otl-patroon:DocumentManifestatie-locatie a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "Locatie-patroon vastgezet op DocumentManifestatie"@nl ;
-        sh:minCount 1 ;
-        sh:name "Locatie"@nl ;
-        sh:path otl:locatie .
-
-    otl-patroon:DocumentUitdrukking-auteur a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "Auteur-patroon vastgezet op DocumentUitdrukking"@nl ;
-        sh:minCount 1 ;
-        sh:name "Auteur"@nl ;
-        sh:path otl:auteur .
-
-    otl-patroon:DocumentUitdrukking-datum a sh:PropertyShape ;
-        sh:datatype xsd:date ;
-        sh:description "Datum-patroon vastgezet op DocumentUitdrukking"@nl ;
-        sh:maxCount 1 ;
-        sh:minCount 1 ;
-        sh:name "datum"@nl ;
-        sh:path otl:datum .
-
-    otl-patroon:DocumentUitdrukking-heeftBijlage a sh:PropertyShape ;
-        sh:class otl:DocumentUitdrukking ;
-        sh:description "Heeft bijlage-patroon vastgezet op DocumentUitdrukking"@nl ;
-        sh:name "Heeft bijlage"@nl ;
-        sh:path otl:heeftBijlage .
-
-    otl-patroon:DocumentUitdrukking-omschrijvingWijziging a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "Omschrijving wijziging-patroon vastgezet op DocumentUitdrukking"@nl ;
-        sh:name "Omschrijving wijziging"@nl ;
-        sh:path otl:omschrijvingWijziging .
-
-    otl-patroon:DocumentUitdrukking-versienummer a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "Versienummer-patroon vastgezet op DocumentUitdrukking"@nl ;
-        sh:minCount 1 ;
-        sh:name "versienummer"@nl ;
-        sh:path otl:versienummer .
-
-    otl-patroon:DocumentUitdrukking-volgendeVersie a sh:PropertyShape ;
-        sh:class otl:DocumentUitdrukking ;
-        sh:description "Volgende versie-patroon vastgezet op DocumentUitdrukking"@nl ;
-        sh:name "Volgende versie"@nl ;
-        sh:path otl:volgendeVersie .
-
-    otl-patroon:DocumentUitdrukking-vorigeVersie a sh:PropertyShape ;
-        sh:class otl:DocumentUitdrukking ;
-        sh:description "Vorige versie-patroon vastgezet op DocumentUitdrukking"@nl ;
-        sh:name "Vorige versie"@nl ;
-        sh:path otl:vorigeVersie .
-
-    otl-patroon:Dossier-bevatVersie a sh:PropertyShape ;
-        sh:class otl:DocumentUitdrukking ;
-        sh:description "Bevat versie-patroon vastgezet op Dossier"@nl ;
-        sh:name "Bevat versie"@nl ;
-        sh:path otl:bevatVersie .
-
-    otl-patroon:Dossier-volgendeVersie a sh:PropertyShape ;
-        sh:class otl:Dossier ;
-        sh:description "Volgende versie-patroon vastgezet op Dossier"@nl ;
-        sh:name "Volgende versie"@nl ;
-        sh:path otl:volgendeVersie .
-
-    otl-patroon:Dossier-vorigeVersie a sh:PropertyShape ;
-        sh:class otl:Dossier ;
-        sh:description "Vorige versie-patroon vastgezet op Dossier"@nl ;
-        sh:name "Vorige versie"@nl ;
-        sh:path otl:vorigeVersie .
 
     otl-patroon:Geometry-asWKT-RD a sh:PropertyShape ;
         sh:datatype geo:wktLiteral ;
@@ -49505,17 +48706,17 @@ otl:graaf-informatiemodel {
         sh:name "Vergunningsnummer"@nl ;
         sh:path otl:vergunningsnummer .
 
-    otl-patroon:locatie a sh:PropertyShape ;
-        sh:description "Locatie (BPS)-patroon"@nl ;
-        sh:name "Locatie (BPS)"@nl ;
-        sh:path otl:locatie .
-
     otl-patroon:materiaal a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "Materiaal-patroon"@nl ;
         sh:name "Materiaal"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:materiaal .
+
+    otl-patroon:locatie a sh:PropertyShape ;
+        sh:description "Locatie (BPS)-patroon"@nl ;
+        sh:name "Locatie (BPS)"@nl ;
+        sh:path otl:locatie .
 
     otl-patroon:datumEindeVergunning a sh:PropertyShape ;
         sh:description "Datum einde vergunning-patroon"@nl ;
@@ -49537,15 +48738,15 @@ otl:graaf-informatiemodel {
         sh:name "Leverancier"@nl ;
         sh:path otl:leverancier .
 
-    otl-patroon:belastingBovengrond a sh:PropertyShape ;
-        sh:description "Belasting bovengrond (cq Belastingklasse)-patroon"@nl ;
-        sh:name "Belasting bovengrond (cq Belastingklasse)"@nl ;
-        sh:path otl:belastingBovengrond .
-
     otl-patroon:soort a sh:PropertyShape ;
         sh:description "Soort-patroon"@nl ;
         sh:name "Soort"@nl ;
         sh:path otl:soort .
+
+    otl-patroon:belastingBovengrond a sh:PropertyShape ;
+        sh:description "Belasting bovengrond (cq Belastingklasse)-patroon"@nl ;
+        sh:name "Belasting bovengrond (cq Belastingklasse)"@nl ;
+        sh:path otl:belastingBovengrond .
 
     otl-patroon:fabrikaat a sh:PropertyShape ;
         sh:description "Fabrikaat-patroon"@nl ;
@@ -49627,17 +48828,17 @@ otl:graaf-informatiemodel {
         sh:name "Doel"@nl ;
         sh:path otl:doel .
 
-    otl-patroon:aantal a sh:PropertyShape ;
-        sh:description "Aantal-patroon"@nl ;
-        sh:name "Aantal"@nl ;
-        sh:path otl:aantal .
-
     otl-patroon:categorie a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "Categorie-patroon"@nl ;
         sh:name "Categorie"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:categorie .
+
+    otl-patroon:aantal a sh:PropertyShape ;
+        sh:description "Aantal-patroon"@nl ;
+        sh:name "Aantal"@nl ;
+        sh:path otl:aantal .
 
     otl-patroon:aanduidingObject a sh:PropertyShape ;
         sh:description "Aanduiding object-patroon"@nl ;
@@ -49649,6 +48850,13 @@ otl:graaf-informatiemodel {
         sh:name "(Horizontale) Afmetingen"@nl ;
         sh:path otl:horizontaleAfmetingen .
 
+    otl-patroon:bouwdatum a sh:PropertyShape ;
+        sh:datatype xsd:date ;
+        sh:description "Bouwdatum-patroon"@nl ;
+        sh:name "Bouwdatum"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:bouwdatum .
+
     otl-patroon:coordinatenstelsel a sh:PropertyShape ;
         sh:description "Coördinatenstelsel-patroon"@nl ;
         sh:name "Coördinatenstelsel"@nl ;
@@ -49658,13 +48866,6 @@ otl:graaf-informatiemodel {
         sh:description "Locatie (coördinaten)-patroon"@nl ;
         sh:name "Locatie (coördinaten)"@nl ;
         sh:path otl:locatieCoordinaten .
-
-    otl-patroon:bouwdatum a sh:PropertyShape ;
-        sh:datatype xsd:date ;
-        sh:description "Bouwdatum-patroon"@nl ;
-        sh:name "Bouwdatum"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:bouwdatum .
 
     otl-patroon:discipline a sh:PropertyShape ;
         sh:datatype xsd:string ;

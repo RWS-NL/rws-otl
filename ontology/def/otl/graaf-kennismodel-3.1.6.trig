@@ -9,7 +9,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-otl:graaf-kennismodel {
+otl:graaf-kennismodel-3.1.6 {
     otl:3DModel a skos:Concept ;
         skos:broaderTransitive otl:Model ;
         skos:prefLabel "3D-Model"@nl .
@@ -6758,12 +6758,12 @@ Nautische functies (bv. Vogelverlichting, verkeerssein, stuurlicht, stormseinmas
         skos:definition "Legt de koppeling vast tussen het BMS-object en het GNS-id."@nl ;
         skos:prefLabel "voorkeursurl (GNS)"@nl .
 
-    otl:graaf-kennismodel a owl:Ontology ;
+    otl:graaf-kennismodel-3.1.6 a owl:Ontology ;
         dct:created "2022-03-03"^^xsd:date ;
         dct:description "Het OTL kennismodel bevat concepten en eigenschappen met hun definities."@nl ;
         dct:title "OTL kennismodel"@nl ;
-        pav:currentVersion otl:graaf-kennismodel-3.1.6 ;
         pav:derivedFrom "IB RWS Release 20220127" ;
+        pav:version "3.1.6" ;
         owl:imports dct:,
             geo:,
             skos:,

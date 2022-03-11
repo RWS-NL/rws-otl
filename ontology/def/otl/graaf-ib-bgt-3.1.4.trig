@@ -1,0 +1,621 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix otl: <https://data.rws.nl/def/otl/> .
+@prefix otl-patroon: <https://data.rws.nl/def/otl-patroon/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+otl:graaf-ib-bgt-3.1.4 {
+    otl-patroon:Bak a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bak binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Bak"@nl .
+
+    otl-patroon:BegroeidTerreindeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Begroeid Terreindeel binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Begroeid Terreindeel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bgtFysiekvoorkomenBegroeidterreindeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:bgtStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:bronhouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdeindregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:geometrie ],
+            [ sh:minCount 1 ;
+                sh:path otl:identificatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:inonderzoekindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:inwinnendeinstantie ],
+            [ sh:minCount 1 ;
+                sh:path otl:kruinlijngeometrie ],
+            [ sh:minCount 1 ;
+                sh:path otl:lvpublicatiedatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:objectbegintijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:objecteindtijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:optaludindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusFysiekvoorkomenBegroeidterreindeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:relatievehoogteligging ] .
+
+    otl-patroon:Bord a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bord binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Bord"@nl .
+
+    otl-patroon:Buurt a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Buurt binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Buurt"@nl .
+
+    otl-patroon:FunctioneelGebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Functioneel gebied binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Functioneel gebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bgtStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:bgtTypeFunctioneelgebied ],
+            [ sh:minCount 1 ;
+                sh:path otl:bronhouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdeindregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:geometrie ],
+            [ sh:minCount 1 ;
+                sh:path otl:identificatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:inonderzoekindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:inwinnendeinstantie ],
+            [ sh:minCount 1 ;
+                sh:path otl:lvpublicatiedatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:objectbegintijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:objecteindtijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusTypeFunctioneelgebied ],
+            [ sh:minCount 1 ;
+                sh:path otl:relatievehoogteligging ] .
+
+    otl-patroon:GebouwInstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebouw installatie binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Gebouw installatie"@nl .
+
+    otl-patroon:Inrichtingselement a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Inrichtingselement binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Inrichtingselement"@nl .
+
+    otl-patroon:Installatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatie binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Installatie"@nl .
+
+    otl-patroon:Kast a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kast binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Kast"@nl .
+
+    otl-patroon:Kunstwerkdeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kunstwerkdeel binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Kunstwerkdeel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bgtStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:bgtTypeKunstwerkdeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:bronhouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdeindregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:geometrie ],
+            [ sh:minCount 1 ;
+                sh:path otl:identificatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:inonderzoekindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:inwinnendeinstantie ],
+            [ sh:minCount 1 ;
+                sh:path otl:lvpublicatiedatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:objectbegintijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:objecteindtijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusTypeKunstwerkdeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:relatievehoogteligging ] .
+
+    otl-patroon:Mast a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Mast binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Mast"@nl .
+
+    otl-patroon:OnbegroeidTerreindeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onbegroeid Terreindeel binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Onbegroeid Terreindeel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bgtFysiekvoorkomenOnbegroeidterreindeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:bgtStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:bronhouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdeindregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:geometrie ],
+            [ sh:minCount 1 ;
+                sh:path otl:identificatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:inonderzoekindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:inwinnendeinstantie ],
+            [ sh:minCount 1 ;
+                sh:path otl:kruinlijngeometrie ],
+            [ sh:minCount 1 ;
+                sh:path otl:lvpublicatiedatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:objectbegintijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:objecteindtijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:optaludindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusFysiekvoorkomenOnbegroeidterreindeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:relatievehoogteligging ] .
+
+    otl-patroon:OndersteunendWaterdeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ondersteunend Waterdeel binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Ondersteunend Waterdeel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bgtStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:bgtTypeOndersteunendwaterdeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:bronhouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdeindregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:geometrie ],
+            [ sh:minCount 1 ;
+                sh:path otl:identificatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:inonderzoekindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:inwinnendeinstantie ],
+            [ sh:minCount 1 ;
+                sh:path otl:lvpublicatiedatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:objectbegintijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:objecteindtijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:relatievehoogteligging ] .
+
+    otl-patroon:OndersteunendWegdeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ondersteunend wegdeel binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Ondersteunend wegdeel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bgtFunctieOndersteunendwegdeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:bgtFysiekvoorkomenOndersteunendwegdeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:bgtStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:bronhouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdeindregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:geometrie ],
+            [ sh:minCount 1 ;
+                sh:path otl:identificatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:inonderzoekindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:inwinnendeinstantie ],
+            [ sh:minCount 1 ;
+                sh:path otl:kruinlijngeometrie ],
+            [ sh:minCount 1 ;
+                sh:path otl:lvpublicatiedatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:objectbegintijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:objecteindtijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:optaludindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusFysiekvoorkomenOndersteunendwegdeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:relatievehoogteligging ] .
+
+    otl-patroon:OpenbareRuimte a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Openbare ruimte binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Openbare ruimte"@nl .
+
+    otl-patroon:Overbruggingsdeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Overbruggingsdeel binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Overbruggingsdeel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:beweegbareoverbruggingindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:bgtStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:bronhouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdeindregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:geometrie ],
+            [ sh:minCount 1 ;
+                sh:path otl:identificatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:inonderzoekindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:inwinnendeinstantie ],
+            [ sh:minCount 1 ;
+                sh:path otl:lvpublicatiedatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:objectbegintijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:objecteindtijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusHoortbijtypeoverbrugging ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusTypeOverbruggingsdeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:relatievehoogteligging ] .
+
+    otl-patroon:OverigBouwwerk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Overig Bouwwerk binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Overig Bouwwerk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bgtStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:bgtTypeOverigbouwwerk ],
+            [ sh:minCount 1 ;
+                sh:path otl:bronhouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdeindregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:geometrie ],
+            [ sh:minCount 1 ;
+                sh:path otl:identificatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:inonderzoekindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:inwinnendeinstantie ],
+            [ sh:minCount 1 ;
+                sh:path otl:lvpublicatiedatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:objectbegintijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:objecteindtijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusTypeOverigbouwwerk ],
+            [ sh:minCount 1 ;
+                sh:path otl:relatievehoogteligging ] .
+
+    otl-patroon:OverigeConstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Overige Constructie binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Overige Constructie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bgtStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:bronhouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdeindregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:geometrie ],
+            [ sh:minCount 1 ;
+                sh:path otl:identificatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:inonderzoekindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:inwinnendeinstantie ],
+            [ sh:minCount 1 ;
+                sh:path otl:lvpublicatiedatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:objectbegintijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:objecteindtijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:relatievehoogteligging ] .
+
+    otl-patroon:Paal a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Paal binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Paal"@nl .
+
+    otl-patroon:Pand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pand binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Pand"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bgtStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:bronhouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdeindregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:geometrie ],
+            [ sh:minCount 1 ;
+                sh:path otl:identificatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:inonderzoekindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:inwinnendeinstantie ],
+            [ sh:minCount 1 ;
+                sh:path otl:lvpublicatiedatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:objectbegintijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:objecteindtijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:relatievehoogteligging ] .
+
+    otl-patroon:Put a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Put binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Put"@nl .
+
+    otl-patroon:RegistratiefGebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Registratief gebied binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Registratief gebied"@nl .
+
+    otl-patroon:Scheiding a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Scheiding binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Scheiding"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bgtStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:bgtTypeScheiding ],
+            [ sh:minCount 1 ;
+                sh:path otl:bronhouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdeindregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:geometrie ],
+            [ sh:minCount 1 ;
+                sh:path otl:identificatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:inonderzoekindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:inwinnendeinstantie ],
+            [ sh:minCount 1 ;
+                sh:path otl:lvpublicatiedatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:objectbegintijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:objecteindtijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusTypeScheiding ],
+            [ sh:minCount 1 ;
+                sh:path otl:relatievehoogteligging ] .
+
+    otl-patroon:Sensor a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sensor binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Sensor"@nl .
+
+    otl-patroon:Spoor a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Spoor binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Spoor"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bgtFunctieSpoor ],
+            [ sh:minCount 1 ;
+                sh:path otl:bgtStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:bronhouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdeindregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:geometrie ],
+            [ sh:minCount 1 ;
+                sh:path otl:identificatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:inonderzoekindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:inwinnendeinstantie ],
+            [ sh:minCount 1 ;
+                sh:path otl:lvpublicatiedatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:objectbegintijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:objecteindtijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusFunctieSpoor ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:relatievehoogteligging ] .
+
+    otl-patroon:Stadsdeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stadsdeel binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Stadsdeel"@nl .
+
+    otl-patroon:Straatmeubilair a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Straatmeubilair binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Straatmeubilair"@nl .
+
+    otl-patroon:Tunneldeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tunneldeel binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Tunneldeel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bgtStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:bronhouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdeindregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:geometrie ],
+            [ sh:minCount 1 ;
+                sh:path otl:identificatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:inonderzoekindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:inwinnendeinstantie ],
+            [ sh:minCount 1 ;
+                sh:path otl:lvpublicatiedatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:objectbegintijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:objecteindtijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:relatievehoogteligging ] .
+
+    otl-patroon:Vegetatieobject a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vegetatieobject binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Vegetatieobject"@nl .
+
+    otl-patroon:Waterdeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterdeel binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Waterdeel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bgtStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:bgtTypeWaterdeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:bronhouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdeindregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:geometrie ],
+            [ sh:minCount 1 ;
+                sh:path otl:identificatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:inonderzoekindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:inwinnendeinstantie ],
+            [ sh:minCount 1 ;
+                sh:path otl:lvpublicatiedatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:objectbegintijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:objecteindtijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusTypeWaterdeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:relatievehoogteligging ] .
+
+    otl-patroon:Waterinrichtingselement a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterinrichtingselement binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Waterinrichtingselement"@nl .
+
+    otl-patroon:Waterschap a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterschap binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Waterschap"@nl .
+
+    otl-patroon:Wegdeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wegdeel binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Wegdeel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bgtFunctieWegdeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:bgtFysiekvoorkomenWegdeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:bgtStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:bronhouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdeindregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdregistratie ],
+            [ sh:minCount 1 ;
+                sh:path otl:geometrie ],
+            [ sh:minCount 1 ;
+                sh:path otl:identificatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:inonderzoekindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:inwinnendeinstantie ],
+            [ sh:minCount 1 ;
+                sh:path otl:kruinlijngeometrie ],
+            [ sh:minCount 1 ;
+                sh:path otl:lvpublicatiedatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:objectbegintijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:objecteindtijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:optaludindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusFunctieWegdeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusFysiekvoorkomenWegdeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:plusStatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:relatievehoogteligging ] .
+
+    otl-patroon:Weginrichtingselement a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Weginrichtingselement binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Weginrichtingselement"@nl .
+
+    otl-patroon:Wijk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wijk binnen de context van informatieproduct BGT"@nl ;
+        sh:name "Wijk"@nl .
+
+    otl:graaf-ib-bgt-3.1.4 a owl:Ontology ;
+        dct:created "2022-01-19"^^xsd:date ;
+        dct:description "Het informatiemodel voor informatieproduct 'BGT' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
+        dct:title "IB voor informatieproduct 'BGT'"@nl ;
+        pav:derivedFrom "IB RWS Release 20211224" ;
+        pav:version "3.1.4" ;
+        owl:imports pav:,
+            unit:,
+            otl:graaf-informatiemodel .
+}
+

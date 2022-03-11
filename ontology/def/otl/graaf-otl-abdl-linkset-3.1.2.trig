@@ -6,9 +6,7 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-otl:graaf-otl-abdl-linkset {
-    otl:Aalgoot dct:conformsTo abdl:DEF-7931 .
-
+otl:graaf-otl-abdl-linkset-3.1.2 {
     otl:Aandrijving dct:conformsTo abdl:DEF-0007 .
 
     otl:AandrijvingEnBewegingswerkElektrohydraulisch dct:conformsTo abdl:DEF-0008 .
@@ -63,8 +61,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Afscheiding dct:conformsTo abdl:DEF-0119 .
 
-    otl:Afslagzone dct:conformsTo abdl:DEF-5311 .
-
     otl:Afsluitboom dct:conformsTo abdl:DEF-0126 .
 
     otl:Afsluitboominstallatie dct:conformsTo abdl:DEF-0127 .
@@ -101,7 +97,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Asbestemming dct:conformsTo abdl:DEF-0211 .
 
-    otl:Asfaltverharding dct:conformsTo abdl:DEF-0215 .
+    otl:Asfaltconstructie dct:conformsTo abdl:DEF-0215 .
 
     otl:Asfaltwapening dct:conformsTo abdl:DEF-0219 .
 
@@ -159,9 +155,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Begraafplaats dct:conformsTo abdl:DEF-0366 .
 
-    otl:BegroeidTerreindeel dct:conformsTo abdl:DEF-0369 .
-
     otl:Begroeiing dct:conformsTo abdl:DEF-0370 .
+
+    otl:BegroeiingsvrijGebied dct:conformsTo abdl:DEF-0371 .
 
     otl:BeheerobjectOverstijgendeVoorziening dct:conformsTo abdl:DEF-0380 .
 
@@ -203,10 +199,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Biezenvegetatie dct:conformsTo abdl:DEF-0515 .
 
-    otl:Binnenberm dct:conformsTo abdl:DEF-0524 .
-
-    otl:Binnenduin dct:conformsTo abdl:DEF-5352 .
-
     otl:Binnentalud dct:conformsTo abdl:DEF-0527 .
 
     otl:Binnenverlichting dct:conformsTo abdl:DEF-0529 .
@@ -222,8 +214,6 @@ otl:graaf-otl-abdl-linkset {
     otl:BodemWaterbodem dct:conformsTo abdl:DEF-0550 .
 
     otl:BodembedekkendeHeester dct:conformsTo abdl:DEF-0561 .
-
-    otl:Bodembedekker dct:conformsTo abdl:DEF-0562 .
 
     otl:Bodembescherming dct:conformsTo abdl:DEF-0563 .
 
@@ -306,8 +296,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Buisbeluchter dct:conformsTo abdl:DEF-0675 .
 
     otl:Buisleiding dct:conformsTo abdl:DEF-0676 .
-
-    otl:Buitenberm dct:conformsTo abdl:DEF-0677 .
 
     otl:Buitentalud dct:conformsTo abdl:DEF-0682 .
 
@@ -415,8 +403,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Doorlaatkoker dct:conformsTo abdl:DEF-0997 .
 
-    otl:Doorvoer dct:conformsTo abdl:DEF-1869 .
-
     otl:Douche dct:conformsTo abdl:DEF-1006 .
 
     otl:DraadGladPunt dct:conformsTo abdl:DEF-1007 .
@@ -486,6 +472,8 @@ otl:graaf-otl-abdl-linkset {
     otl:Ecoduct dct:conformsTo abdl:DEF-1094 .
 
     otl:EenEnTweejarigePerkplant dct:conformsTo abdl:DEF-2799 .
+
+    otl:ElektrischeAandrijving dct:conformsTo abdl:DEF-1135 .
 
     otl:Elektromotor dct:conformsTo abdl:DEF-1138 .
 
@@ -631,15 +619,11 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Grafsteen dct:conformsTo abdl:DEF-1496 .
 
-    otl:GrasKruid dct:conformsTo abdl:DEF-1498 .
-
     otl:Grasvegetatie dct:conformsTo abdl:DEF-1501 .
 
     otl:Grendel dct:conformsTo abdl:DEF-1502 .
 
     otl:Grendelinrichting dct:conformsTo abdl:DEF-1503 .
-
-    otl:Grensprofiel dct:conformsTo abdl:DEF-5464 .
 
     otl:Greppel dct:conformsTo abdl:DEF-1509 .
 
@@ -751,8 +735,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:HoogtedetectieInstallatie dct:conformsTo abdl:DEF-1665 .
 
-    otl:Hoogwatervluchtplaats dct:conformsTo abdl:DEF-7930 .
-
     otl:Hulppostkast dct:conformsTo abdl:DEF-1683 .
 
     otl:Hydrant dct:conformsTo abdl:DEF-1688 .
@@ -824,6 +806,8 @@ otl:graaf-otl-abdl-linkset {
     otl:KabelEnLeiding dct:conformsTo abdl:DEF-2122 .
 
     otl:KabelEnLeidingtunnel dct:conformsTo abdl:DEF-1867 .
+
+    otl:Kabeldoorvoer dct:conformsTo abdl:DEF-1869 .
 
     otl:Kabeldraagconstructie dct:conformsTo abdl:DEF-1870 .
 
@@ -950,10 +934,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Kunststofsportveld dct:conformsTo abdl:DEF-2028 .
 
     otl:Kwelder dct:conformsTo abdl:DEF-2076 .
-
-    otl:Kwelkade dct:conformsTo abdl:DEF-5525 .
-
-    otl:Kwelscherm dct:conformsTo abdl:DEF-2077 .
 
     otl:KwhMetering dct:conformsTo abdl:DEF-2078 .
 
@@ -1131,8 +1111,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Oeverbescherming dct:conformsTo abdl:DEF-2508 .
 
-    otl:OevervegetatieLangsSloten dct:conformsTo abdl:DEF-2511 .
-
     otl:Oeverzwaluwenwand dct:conformsTo abdl:DEF-2513 .
 
     otl:OlieEnBenzineafscheider dct:conformsTo abdl:DEF-2515 .
@@ -1146,8 +1124,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Omloopriool dct:conformsTo abdl:DEF-2524 .
 
     otl:Omroepinstallatie dct:conformsTo abdl:DEF-2525 .
-
-    otl:OnbegroeidTerreindeel dct:conformsTo abdl:DEF-0371 .
 
     otl:Onderbak dct:conformsTo abdl:DEF-2527 .
 
@@ -1235,15 +1211,11 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Overspanningbeveiliging dct:conformsTo abdl:DEF-2748 .
 
-    otl:Oversteek dct:conformsTo abdl:DEF-2749 .
-
     otl:Paaiplaats dct:conformsTo abdl:DEF-2758 .
 
     otl:Paal dct:conformsTo abdl:DEF-2759 .
 
     otl:Paalbeugel dct:conformsTo abdl:DEF-2760 .
-
-    otl:Palenrij dct:conformsTo abdl:DEF-5878 .
 
     otl:Panamawiel dct:conformsTo abdl:DEF-2765 .
 
@@ -1256,8 +1228,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Park dct:conformsTo abdl:DEF-2774 .
 
     otl:Parkeerbeugel dct:conformsTo abdl:DEF-2775 .
-
-    otl:Peilbuis dct:conformsTo abdl:DEF-5603 .
 
     otl:Peilbuizen dct:conformsTo abdl:DEF-5603 .
 
@@ -1293,8 +1263,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Plafondconstructie dct:conformsTo abdl:DEF-2831 .
 
-    otl:Plant dct:conformsTo abdl:DEF-2844 .
-
     otl:Plasberm dct:conformsTo abdl:DEF-2848 .
 
     otl:Poer dct:conformsTo abdl:DEF-2858 .
@@ -1310,8 +1278,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Ponton dct:conformsTo abdl:DEF-2867 .
 
     otl:Portaal dct:conformsTo abdl:DEF-2871 .
-
-    otl:Portofoon dct:conformsTo abdl:DEF-7928 .
 
     otl:Praatpaal dct:conformsTo abdl:DEF-2879 .
 
@@ -1373,8 +1339,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Regelballast dct:conformsTo abdl:DEF-3099 .
 
-    otl:RegelbareAandrijving dct:conformsTo abdl:DEF-1135 .
-
     otl:Reling dct:conformsTo abdl:DEF-3121 .
 
     otl:Rem dct:conformsTo abdl:DEF-3122 .
@@ -1398,8 +1362,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Riolering dct:conformsTo abdl:DEF-3171 .
 
     otl:Rivier dct:conformsTo abdl:DEF-3205 .
-
-    otl:Rivierhout dct:conformsTo abdl:DEF-7927 .
 
     otl:Roerwerk dct:conformsTo abdl:DEF-3211 .
 
@@ -1631,7 +1593,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Stroomprofiel dct:conformsTo abdl:DEF-3560 .
 
-    otl:Struikroos dct:conformsTo abdl:DEF-3567 .
+    otl:Struikrozen dct:conformsTo abdl:DEF-3567 .
 
     otl:Stuifzand dct:conformsTo abdl:DEF-3569 .
 
@@ -1761,8 +1723,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Uitlaatvoorziening dct:conformsTo abdl:DEF-3851 .
 
-    otl:Uitmonding dct:conformsTo abdl:DEF-7926 .
-
     otl:Uitstroombak dct:conformsTo abdl:DEF-3858 .
 
     otl:Uitstroomopening dct:conformsTo abdl:DEF-3860 .
@@ -1775,8 +1735,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Vaarwegmarkering dct:conformsTo abdl:DEF-3897 .
 
-    otl:Valbeveiliging dct:conformsTo abdl:DEF-7929 .
-
     otl:Valreep dct:conformsTo abdl:DEF-3906 .
 
     otl:Vangconstructie dct:conformsTo abdl:DEF-3908 .
@@ -1786,8 +1744,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Veiligheidsventiel dct:conformsTo abdl:DEF-3954 .
 
     otl:Veldafscheiding dct:conformsTo abdl:DEF-3959 .
-
-    otl:Veldbus dct:conformsTo abdl:DEF-7925 .
 
     otl:Ven dct:conformsTo abdl:DEF-3960 .
 
@@ -1951,11 +1907,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Waterbuffer dct:conformsTo abdl:DEF-4292 .
 
-    otl:WaterlichaamOppervlaktewater dct:conformsTo abdl:DEF-4307 .
-
     otl:Watermistinstallatie dct:conformsTo abdl:DEF-4310 .
 
-    otl:Waterplant dct:conformsTo abdl:DEF-4314 .
+    otl:WaterplantDrijvend dct:conformsTo abdl:DEF-4314 .
 
     otl:WaterplantOndergedoken dct:conformsTo abdl:DEF-4315 .
 
@@ -1984,8 +1938,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Werpaccommodatie dct:conformsTo abdl:DEF-4405 .
 
     otl:Wervelventiel dct:conformsTo abdl:DEF-4406 .
-
-    otl:WideAreaNetwork dct:conformsTo abdl:DEF-6771 .
 
     otl:Wiel dct:conformsTo abdl:DEF-4412 .
 
@@ -2051,15 +2003,16 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Zonweringsinstallatie dct:conformsTo abdl:DEF-4523 .
 
-    otl:graaf-otl-abdl-linkset a void:Linkset ;
-        dct:created "2022-03-03"^^xsd:date ;
+    otl:graaf-otl-abdl-linkset-3.1.2 a void:Linkset ;
+        dct:created "2021-12-16"^^xsd:date ;
         dct:description "De OTL-ABDL linkset legt een koppeling tussen OTL-concepten en ABDL-concepten."@nl ;
         dct:title "OTL-ABDL linkset"@nl ;
-        pav:currentVersion otl:graaf-otl-abdl-linkset-3.1.6 ;
-        pav:derivedFrom "IB RWS Release 20220127" ;
+        pav:derivedFrom "IB RWS Release 20211207" ;
+        pav:version "3.1.2" ;
         void:objectsTarget abdl: ;
         void:subjectsTarget otl:graaf-kennismodel ;
         owl:imports abdl:,
-            otl:graaf-kennismodel .
+            otl:graaf-kennismodel ;
+        owl:versionInfo "None"@nl .
 }
 

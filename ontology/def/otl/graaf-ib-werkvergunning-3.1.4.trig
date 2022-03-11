@@ -7,13 +7,7 @@
 @prefix unit: <http://qudt.org/vocab/unit/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-otl:graaf-ib-werkvergunning {
-    otl-patroon:Aalgoot a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aalgoot binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Aalgoot"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
+otl:graaf-ib-werkvergunning-3.1.4 {
     otl-patroon:Aandrijving a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aandrijving binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Aandrijving"@nl ;
@@ -84,6 +78,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aarding- en bliksembeveiligingsinstallatie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Aarding- en bliksembeveiligingsinstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Aardrail a sh:NodeShape ;
@@ -150,8 +146,6 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afmeervoorziening binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Afmeervoorziening"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:AfscheiderinstallatieDynamisch a sh:NodeShape ;
@@ -172,12 +166,6 @@ otl:graaf-ib-werkvergunning {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Afslagzone a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afslagzone binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Afslagzone"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Afsluitboom a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afsluitboom binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Afsluitboom"@nl ;
@@ -188,6 +176,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afsluitboominstallatie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Afsluitboominstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Afsluitboomverlichting a sh:NodeShape ;
@@ -280,9 +270,9 @@ otl:graaf-ib-werkvergunning {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Asfaltverharding a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Asfaltverharding binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Asfaltverharding"@nl ;
+    otl-patroon:Asfaltconstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Asfaltconstructie binnen de context van informatieproduct Werkvergunning"@nl ;
+        sh:name "Asfaltconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -422,6 +412,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bebording en bewegwijzering (statisch) binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Bebording en bewegwijzering (statisch)"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:BedieningEnBewakingVoorDerden a sh:NodeShape ;
@@ -460,15 +452,15 @@ otl:graaf-ib-werkvergunning {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:BegroeidTerreindeel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Begroeid terreindeel binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Begroeid terreindeel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Begroeiing a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Begroeiing binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Begroeiing"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:BegroeiingsvrijGebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Begroeiingsvrij gebied binnen de context van informatieproduct Werkvergunning"@nl ;
+        sh:name "Begroeiingsvrij gebied"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -598,18 +590,6 @@ otl:graaf-ib-werkvergunning {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Binnenberm a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Binnenberm binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Binnenberm"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Binnenduin a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Binnenduin binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Binnenduin"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Binnentalud a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Binnentalud binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Binnentalud"@nl ;
@@ -655,12 +635,6 @@ otl:graaf-ib-werkvergunning {
     otl-patroon:BodembedekkendeHeester a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bodembedekkende heester binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Bodembedekkende heester"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Bodembedekker a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bodembedekker binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Bodembedekker"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -934,12 +908,6 @@ otl:graaf-ib-werkvergunning {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Buitenberm a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Buitenberm binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Buitenberm"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Buitentalud a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Buitentalud binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Buitentalud"@nl ;
@@ -956,6 +924,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Calamiteiten Doorsteek installatie (CADO) binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Calamiteiten Doorsteek installatie (CADO)"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:CameraBeweegbaar a sh:NodeShape ;
@@ -1010,6 +980,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Closed Circuit TeleVision installatie (CCTV) binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Closed Circuit TeleVision installatie (CCTV)"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:CoaxstralersTunnelbekabeling a sh:NodeShape ;
@@ -1094,6 +1066,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dakconstructie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Dakconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Damwand a sh:NodeShape ;
@@ -1270,12 +1244,6 @@ otl:graaf-ib-werkvergunning {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Doorvoer a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doorvoer binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Doorvoer"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Douche a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Douche binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Douche"@nl ;
@@ -1316,6 +1284,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drainage binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Drainage"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Drainagebuis a sh:NodeShape ;
@@ -1436,14 +1406,14 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duinvoetverdediging binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Duinvoetverdediging"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:DuurzameEnergiebron a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duurzame energiebron binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Duurzame energiebron"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Dwarsdrager a sh:NodeShape ;
@@ -1456,11 +1426,19 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dynamische bewegwijzering en informatie systemen binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Dynamische bewegwijzering en informatie systemen"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:EenEnTweejarigePerkplant a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Eén- en tweejarige perkplant binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Eén- en tweejarige perkplant"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:ElektrischeAandrijving a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Elektrische aandrijving binnen de context van informatieproduct Werkvergunning"@nl ;
+        sh:name "Elektrische aandrijving"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1479,12 +1457,6 @@ otl:graaf-ib-werkvergunning {
     otl-patroon:Elementenverharding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Elementenverharding binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Elementenverharding"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:EmbryonaalDuin a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Embryonaal-duin binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Embryonaal-duin"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1624,6 +1596,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Folieconstructie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Folieconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Fontein a sh:NodeShape ;
@@ -1648,6 +1622,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fundering binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Fundering"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:FunderingslaagGebonden a sh:NodeShape ;
@@ -1720,6 +1696,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geleideconstructie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Geleideconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:GeleidendeBalk a sh:NodeShape ;
@@ -1768,6 +1746,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidbeperkende constructie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Geluidbeperkende constructie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Geluidsbakens a sh:NodeShape ;
@@ -1876,8 +1856,6 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Graf binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Graf"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Grafbeplanting a sh:NodeShape ;
@@ -1889,12 +1867,6 @@ otl:graaf-ib-werkvergunning {
     otl-patroon:Grafsteen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grafsteen binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Grafsteen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:GrasKruid a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gras/kruid binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Gras/kruid"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1913,12 +1885,6 @@ otl:graaf-ib-werkvergunning {
     otl-patroon:Grendelinrichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grendelinrichting binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Grendelinrichting"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Grensprofiel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grensprofiel binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Grensprofiel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1980,8 +1946,6 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Haag binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Haag"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Haagwindscherm a sh:NodeShape ;
@@ -2168,6 +2132,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hemelwaterafvoer (HWA) binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Hemelwaterafvoer (HWA)"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Heugelstang a sh:NodeShape ;
@@ -2180,6 +2146,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hijs- en hefinstallatie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Hijs- en hefinstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Hindernisbaan a sh:NodeShape ;
@@ -2210,6 +2178,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofddraagconstructie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Hoofddraagconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Hoofddraaipunt a sh:NodeShape ;
@@ -2234,12 +2204,16 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoog Frequent installatie (HF) binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Hoog Frequent installatie (HF)"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Hoogspanningsinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoogspanningsinstallatie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Hoogspanningsinstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Hoogspanningsverdeler a sh:NodeShape ;
@@ -2258,12 +2232,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoogtedetectie-installatie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Hoogtedetectie-installatie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Hoogwatervluchtplaats a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoogwatervluchtplaats binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Hoogwatervluchtplaats"@nl ;
-        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Hulppostkast a sh:NodeShape ;
@@ -2426,6 +2396,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Intercominstallatie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Intercominstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Intercompost a sh:NodeShape ;
@@ -2479,6 +2451,14 @@ otl:graaf-ib-werkvergunning {
     otl-patroon:KabelEnLeidingtunnel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kabel- en leidingtunnel binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Kabel- en leidingtunnel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Kabeldoorvoer a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kabeldoorvoer binnen de context van informatieproduct Werkvergunning"@nl ;
+        sh:name "Kabeldoorvoer"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -2582,12 +2562,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kerende constructie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Kerende constructie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Kerf a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kerf binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Kerf"@nl ;
-        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Keringschuif a sh:NodeShape ;
@@ -2696,6 +2672,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Klimaatinstallatie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Klimaatinstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Klimplant a sh:NodeShape ;
@@ -2854,18 +2832,6 @@ otl:graaf-ib-werkvergunning {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Kwelkade a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kwelkade binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Kwelkade"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Kwelscherm a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kwelscherm binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Kwelscherm"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:KwhMetering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type KWh-metering binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "KWh-metering"@nl ;
@@ -3002,6 +2968,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Leuningconstructie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Leuningconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:LichtEnKrachtInstallaties a sh:NodeShape ;
@@ -3438,12 +3406,6 @@ otl:graaf-ib-werkvergunning {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:OevervegetatieLangsSloten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oevervegetatie (langs sloten) binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Oevervegetatie (langs sloten)"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Oeverzwaluwenwand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oeverzwaluwenwand binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Oeverzwaluwenwand"@nl ;
@@ -3483,12 +3445,6 @@ otl:graaf-ib-werkvergunning {
     otl-patroon:Omroepinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Omroepinstallatie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Omroepinstallatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:OnbegroeidTerreindeel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onbegroeid terreindeel binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Onbegroeid terreindeel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
@@ -3594,6 +3550,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Openbare verlichting (OV) binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Openbare verlichting (OV)"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Openfilterconstructie a sh:NodeShape ;
@@ -3734,12 +3692,6 @@ otl:graaf-ib-werkvergunning {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Oversteek a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oversteek binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Oversteek"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Paaiplaats a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Paaiplaats binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Paaiplaats"@nl ;
@@ -3755,12 +3707,6 @@ otl:graaf-ib-werkvergunning {
     otl-patroon:Paalbeugel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Paalbeugel binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Paalbeugel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Palenrij a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Palenrij binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Palenrij"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3791,12 +3737,6 @@ otl:graaf-ib-werkvergunning {
     otl-patroon:Parkeerbeugel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Parkeerbeugel binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Parkeerbeugel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Peilbuis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Peilbuis binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Peilbuis"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3896,12 +3836,6 @@ otl:graaf-ib-werkvergunning {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Plant a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Plant binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Plant"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Plasberm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Plasberm binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Plasberm"@nl ;
@@ -3956,12 +3890,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Portaal binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Portaal"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Portofoon a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Portofoon binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Portofoon"@nl ;
-        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Praatpaal a sh:NodeShape ;
@@ -4138,12 +4068,6 @@ otl:graaf-ib-werkvergunning {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:RegelbareAandrijving a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Regelbare aandrijving binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Regelbare aandrijving"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Reling a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reling binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Reling"@nl ;
@@ -4207,12 +4131,6 @@ otl:graaf-ib-werkvergunning {
     otl-patroon:Riolering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Riolering binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Riolering"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Rivierhout a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rivierhout binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Rivierhout"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4358,6 +4276,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sanitaire installatie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Sanitaire installatie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Schacht a sh:NodeShape ;
@@ -4441,12 +4361,6 @@ otl:graaf-ib-werkvergunning {
     otl-patroon:Schietbord a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schietbord binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Schietbord"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Schijnduiker a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schijnduiker binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Schijnduiker"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4645,12 +4559,6 @@ otl:graaf-ib-werkvergunning {
     otl-patroon:Sloot a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sloot binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Sloot"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Slufter a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Slufter binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Slufter"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4918,21 +4826,9 @@ otl:graaf-ib-werkvergunning {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Struikroos a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Struikroos binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Struikroos"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Stuifkuil a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stuifkuil binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Stuifkuil"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Stuifscherm a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stuifscherm binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Stuifscherm"@nl ;
+    otl-patroon:Struikrozen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Struikrozen binnen de context van informatieproduct Werkvergunning"@nl ;
+        sh:name "Struikrozen"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5006,6 +4902,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Talud binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Talud"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Tandbaan a sh:NodeShape ;
@@ -5054,6 +4952,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Telefooninstallatie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Telefooninstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Telefoontoestel a sh:NodeShape ;
@@ -5192,6 +5092,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Transmissie-installatie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Transmissie-installatie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Transportinstallatie a sh:NodeShape ;
@@ -5216,6 +5118,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Trapconstructie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Trapconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Trapveld a sh:NodeShape ;
@@ -5340,12 +5244,6 @@ otl:graaf-ib-werkvergunning {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Uitmonding a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uitmonding binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Uitmonding"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Uitstroombak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uitstroombak binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Uitstroombak"@nl ;
@@ -5388,12 +5286,6 @@ otl:graaf-ib-werkvergunning {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Valbeveiliging a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Valbeveiliging binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Valbeveiliging"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Valreep a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Valreep binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Valreep"@nl ;
@@ -5427,12 +5319,6 @@ otl:graaf-ib-werkvergunning {
     otl-patroon:Veldafscheiding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veldafscheiding binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Veldafscheiding"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Veldbus a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veldbus binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Veldbus"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5542,6 +5428,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersdetectie-installatie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Verkeersdetectie-installatie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Verkeerseiland a sh:NodeShape ;
@@ -5572,6 +5460,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersregelinstallatie (VRI) binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Verkeersregelinstallatie (VRI)"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:VerlichtingMiddentunnelkanaal a sh:NodeShape ;
@@ -5596,6 +5486,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verplaatsbare Vangrail installatie (VEVA) binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Verplaatsbare Vangrail installatie (VEVA)"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Versnijder a sh:NodeShape ;
@@ -5722,6 +5614,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vloerconstructie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Vloerconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Vlonder a sh:NodeShape ;
@@ -5764,6 +5658,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtweginstallatie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Vluchtweginstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:VluchtweginstallatieVerlichtingEnVasteBorden a sh:NodeShape ;
@@ -5806,6 +5702,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voegovergang binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Voegovergang"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Voetbalkooi a sh:NodeShape ;
@@ -5890,6 +5788,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waarschuwings- en alarmeringssysteem (WAS) binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Waarschuwings- en alarmeringssysteem (WAS)"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Waarschuwingslicht a sh:NodeShape ;
@@ -5952,21 +5852,17 @@ otl:graaf-ib-werkvergunning {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:WaterlichaamOppervlaktewater a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterlichaam (oppervlaktewater) binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Waterlichaam (oppervlaktewater)"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Watermistinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Watermistinstallatie (WMS) binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Watermistinstallatie (WMS)"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Waterplant a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Waterplant"@nl ;
+    otl-patroon:WaterplantDrijvend a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant (drijvend) binnen de context van informatieproduct Werkvergunning"@nl ;
+        sh:name "Waterplant (drijvend)"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5980,6 +5876,8 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Watertapinstallatie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Watertapinstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Watervegetatie a sh:NodeShape ;
@@ -6039,12 +5937,6 @@ otl:graaf-ib-werkvergunning {
     otl-patroon:Wervelventiel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wervelventiel binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Wervelventiel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:WideAreaNetwork a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wide Area Network (WAN) binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Wide Area Network (WAN)"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -6150,12 +6042,6 @@ otl:graaf-ib-werkvergunning {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Zeestrand a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zeestrand binnen de context van informatieproduct Werkvergunning"@nl ;
-        sh:name "Zeestrand"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:ZeeuwseHaag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zeeuwse haag binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Zeeuwse haag"@nl ;
@@ -6226,14 +6112,16 @@ otl:graaf-ib-werkvergunning {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zonweringsinstallatie binnen de context van informatieproduct Werkvergunning"@nl ;
         sh:name "Zonweringsinstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl:graaf-ib-werkvergunning a owl:Ontology ;
-        dct:created "2022-03-03"^^xsd:date ;
+    otl:graaf-ib-werkvergunning-3.1.4 a owl:Ontology ;
+        dct:created "2022-01-19"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Werkvergunning' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Werkvergunning'"@nl ;
-        pav:currentVersion otl:graaf-ib-werkvergunning-3.1.6 ;
-        pav:derivedFrom "IB RWS Release 20220127" ;
+        pav:derivedFrom "IB RWS Release 20211224" ;
+        pav:version "3.1.4" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

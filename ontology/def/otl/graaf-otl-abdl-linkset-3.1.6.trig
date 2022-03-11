@@ -6,7 +6,7 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-otl:graaf-otl-abdl-linkset {
+otl:graaf-otl-abdl-linkset-3.1.6 {
     otl:Aalgoot dct:conformsTo abdl:DEF-7931 .
 
     otl:Aandrijving dct:conformsTo abdl:DEF-0007 .
@@ -2051,12 +2051,12 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Zonweringsinstallatie dct:conformsTo abdl:DEF-4523 .
 
-    otl:graaf-otl-abdl-linkset a void:Linkset ;
+    otl:graaf-otl-abdl-linkset-3.1.6 a void:Linkset ;
         dct:created "2022-03-03"^^xsd:date ;
         dct:description "De OTL-ABDL linkset legt een koppeling tussen OTL-concepten en ABDL-concepten."@nl ;
         dct:title "OTL-ABDL linkset"@nl ;
-        pav:currentVersion otl:graaf-otl-abdl-linkset-3.1.6 ;
         pav:derivedFrom "IB RWS Release 20220127" ;
+        pav:version "3.1.6" ;
         void:objectsTarget abdl: ;
         void:subjectsTarget otl:graaf-kennismodel ;
         owl:imports abdl:,

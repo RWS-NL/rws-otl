@@ -6,7 +6,7 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-otl:graaf-otl-sato-linkset {
+otl:graaf-otl-sato-linkset-3.1.5 {
     otl:AardingEnBliksembeveiligingsinstallatie dct:conformsTo sato:12 .
 
     otl:Afsluitboominstallatie dct:conformsTo sato:44 .
@@ -259,12 +259,12 @@ otl:graaf-otl-sato-linkset {
 
     otl:Zonweringsinstallatie dct:conformsTo sato:309 .
 
-    otl:graaf-otl-sato-linkset a void:Linkset ;
-        dct:created "2022-03-03"^^xsd:date ;
+    otl:graaf-otl-sato-linkset-3.1.5 a void:Linkset ;
+        dct:created "2022-01-28"^^xsd:date ;
         dct:description "De OTL-SATO linkset legt een koppeling tussen OTL-concepten en SATO-concepten."@nl ;
         dct:title "OTL-SATO linkset"@nl ;
-        pav:currentVersion otl:graaf-otl-sato-linkset-3.1.6 ;
-        pav:derivedFrom "IB RWS Release 20220127" ;
+        pav:derivedFrom "IB RWS Release 20211224" ;
+        pav:version "3.1.5" ;
         void:objectsTarget sato: ;
         void:subjectsTarget otl:graaf-kennismodel ;
         owl:imports otl:graaf-kennismodel,

@@ -7,7 +7,7 @@
 @prefix unit: <http://qudt.org/vocab/unit/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-otl:graaf-ib-ib3punt0 {
+otl:graaf-ib-ib3punt0-3.1.3 {
     otl-patroon:Aandrijving a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aandrijving binnen de context van informatieproduct IB3.0"@nl ;
         sh:name "Aandrijving"@nl ;
@@ -3338,9 +3338,9 @@ otl:graaf-ib-ib3punt0 {
             [ sh:minCount 1 ;
                 sh:path otl:zijde ] .
 
-    otl-patroon:Asfaltverharding a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Asfaltverharding binnen de context van informatieproduct IB3.0"@nl ;
-        sh:name "Asfaltverharding"@nl ;
+    otl-patroon:Asfaltconstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Asfaltconstructie binnen de context van informatieproduct IB3.0"@nl ;
+        sh:name "Asfaltconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:aanduidingObject ],
             [ sh:minCount 1 ;
@@ -5107,6 +5107,80 @@ otl:graaf-ib-ib3punt0 {
                 sh:path otl:vergunninghouder ],
             [ sh:minCount 1 ;
                 sh:path otl:vergunningsnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteLevensduur ],
+            [ sh:minCount 1 ;
+                sh:path otl:zijde ] .
+
+    otl-patroon:BegroeiingsvrijGebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Begroeiingsvrij gebied binnen de context van informatieproduct IB3.0"@nl ;
+        sh:name "Begroeiingsvrij gebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:aantal ],
+            [ sh:minCount 1 ;
+                sh:path otl:beginpunt ],
+            [ sh:minCount 1 ;
+                sh:path otl:beheerder ],
+            [ sh:minCount 1 ;
+                sh:path otl:bestekNummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:bknCode ],
+            [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:categorie ],
+            [ sh:minCount 1 ;
+                sh:path otl:coordinatenstelsel ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumAanleg ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumEindeOvereenkomst ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumEindeVergunning ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumOplevering ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumStartOvereenkomst ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumStartVergunning ],
+            [ sh:minCount 1 ;
+                sh:path otl:doel ],
+            [ sh:minCount 1 ;
+                sh:path otl:eigenaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:eindpunt ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleOmschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:horizontaleAfmetingen ],
+            [ sh:minCount 1 ;
+                sh:path otl:locatieCoordinaten ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderhouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:overeenkomsthouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:overeenkomstnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:paspoortgegevens ],
+            [ sh:minCount 1 ;
+                sh:path otl:signaalNaarDerden ],
+            [ sh:minCount 1 ;
+                sh:path otl:signaalVanDerden ],
+            [ sh:minCount 1 ;
+                sh:path otl:software ],
+            [ sh:minCount 1 ;
+                sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:tijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:vergunninghouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:vergunningsnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:verticaleAfmetingen ],
             [ sh:minCount 1 ;
                 sh:path otl:verwachteLevensduur ],
             [ sh:minCount 1 ;
@@ -12930,112 +13004,6 @@ otl:graaf-ib-ib3punt0 {
             [ sh:minCount 1 ;
                 sh:path otl:verwachteLevensduur ] .
 
-    otl-patroon:Doorvoer a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doorvoer binnen de context van informatieproduct IB3.0"@nl ;
-        sh:name "Doorvoer"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:aanduidingObject ],
-            [ sh:minCount 1 ;
-                sh:path otl:aantal ],
-            [ sh:minCount 1 ;
-                sh:path otl:beginpunt ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerder ],
-            [ sh:minCount 1 ;
-                sh:path otl:bestekNummer ],
-            [ sh:minCount 1 ;
-                sh:path otl:bevestiging ],
-            [ sh:minCount 1 ;
-                sh:path otl:bknCode ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:calamiteitenvoorzieningAanwezigLokaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:capaciteit ],
-            [ sh:minCount 1 ;
-                sh:path otl:categorie ],
-            [ sh:minCount 1 ;
-                sh:path otl:code ],
-            [ sh:minCount 1 ;
-                sh:path otl:communicatie ],
-            [ sh:minCount 1 ;
-                sh:path otl:coordinatenstelsel ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumAanleg ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumEindeOvereenkomst ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumEindeVergunning ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumOplevering ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumStartOvereenkomst ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumStartVergunning ],
-            [ sh:minCount 1 ;
-                sh:path otl:deursluiting ],
-            [ sh:minCount 1 ;
-                sh:path otl:doel ],
-            [ sh:minCount 1 ;
-                sh:path otl:eigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:eindpunt ],
-            [ sh:minCount 1 ;
-                sh:path otl:fabrikaat ],
-            [ sh:minCount 1 ;
-                sh:path otl:fabrikant ],
-            [ sh:minCount 1 ;
-                sh:path otl:faseAansluiting ],
-            [ sh:minCount 1 ;
-                sh:path otl:functioneleOmschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:garantieTot ],
-            [ sh:minCount 1 ;
-                sh:path otl:gebruik ],
-            [ sh:minCount 1 ;
-                sh:path otl:hoofdzekering ],
-            [ sh:minCount 1 ;
-                sh:path otl:horizontaleAfmetingen ],
-            [ sh:minCount 1 ;
-                sh:path otl:leverancier ],
-            [ sh:minCount 1 ;
-                sh:path otl:locatie ],
-            [ sh:minCount 1 ;
-                sh:path otl:locatieCoordinaten ],
-            [ sh:minCount 1 ;
-                sh:path otl:maaiveldBeschermingJaNee ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:nummer ],
-            [ sh:minCount 1 ;
-                sh:path otl:onderhouder ],
-            [ sh:minCount 1 ;
-                sh:path otl:overeenkomsthouder ],
-            [ sh:minCount 1 ;
-                sh:path otl:paspoortgegevens ],
-            [ sh:minCount 1 ;
-                sh:path otl:productNummer ],
-            [ sh:minCount 1 ;
-                sh:path otl:serviceLevensduur ],
-            [ sh:minCount 1 ;
-                sh:path otl:software ],
-            [ sh:minCount 1 ;
-                sh:path otl:soort ],
-            [ sh:minCount 1 ;
-                sh:path otl:tijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:type ],
-            [ sh:minCount 1 ;
-                sh:path otl:verticaleAfmetingen ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachteLevensduur ],
-            [ sh:minCount 1 ;
-                sh:path otl:zijde ] .
-
     otl-patroon:Douche a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Douche binnen de context van informatieproduct IB3.0"@nl ;
         sh:name "Douche"@nl ;
@@ -15001,6 +14969,118 @@ otl:graaf-ib-ib3punt0 {
                 sh:path otl:tijd ],
             [ sh:minCount 1 ;
                 sh:path otl:verticaleAfmetingen ] .
+
+    otl-patroon:ElektrischeAandrijving a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Elektrische aandrijving binnen de context van informatieproduct IB3.0"@nl ;
+        sh:name "Elektrische aandrijving"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:aanduidingObject ],
+            [ sh:minCount 1 ;
+                sh:path otl:aansluitwijzeCommunicatieKoperGlas ],
+            [ sh:minCount 1 ;
+                sh:path otl:aansturing ],
+            [ sh:minCount 1 ;
+                sh:path otl:aantal ],
+            [ sh:minCount 1 ;
+                sh:path otl:beheerObjectcode ],
+            [ sh:minCount 1 ;
+                sh:path otl:beheerder ],
+            [ sh:minCount 1 ;
+                sh:path otl:belastingBovengrond ],
+            [ sh:minCount 1 ;
+                sh:path otl:bereikbaarViaTelefoonNummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:bestekNummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:calamiteitenvoorzieningAanwezigLokaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:capaciteit ],
+            [ sh:minCount 1 ;
+                sh:path otl:categorie ],
+            [ sh:minCount 1 ;
+                sh:path otl:code ],
+            [ sh:minCount 1 ;
+                sh:path otl:communicatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:coordinatenstelsel ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumAanleg ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumEindeOvereenkomst ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumEindeVergunning ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumOplevering ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumStartOvereenkomst ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumStartVergunning ],
+            [ sh:minCount 1 ;
+                sh:path otl:deursluiting ],
+            [ sh:minCount 1 ;
+                sh:path otl:doel ],
+            [ sh:minCount 1 ;
+                sh:path otl:eigenaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:fabrikaat ],
+            [ sh:minCount 1 ;
+                sh:path otl:fabrikant ],
+            [ sh:minCount 1 ;
+                sh:path otl:faseAansluiting ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleOmschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:garantieTot ],
+            [ sh:minCount 1 ;
+                sh:path otl:gebruik ],
+            [ sh:minCount 1 ;
+                sh:path otl:hoofdzekering ],
+            [ sh:minCount 1 ;
+                sh:path otl:horizontaleAfmetingen ],
+            [ sh:minCount 1 ;
+                sh:path otl:koppelNaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:koppelVan ],
+            [ sh:minCount 1 ;
+                sh:path otl:leverancier ],
+            [ sh:minCount 1 ;
+                sh:path otl:locatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:locatieCoordinaten ],
+            [ sh:minCount 1 ;
+                sh:path otl:nummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderhouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:overeenkomsthouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:overeenkomstnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:paspoortgegevens ],
+            [ sh:minCount 1 ;
+                sh:path otl:productNummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:serviceLevensduur ],
+            [ sh:minCount 1 ;
+                sh:path otl:sleuteltype ],
+            [ sh:minCount 1 ;
+                sh:path otl:software ],
+            [ sh:minCount 1 ;
+                sh:path otl:softwareVersienummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
+            [ sh:minCount 1 ;
+                sh:path otl:vergunninghouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:vergunningsnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:verlichtingsGroepZone ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteLevensduur ] .
 
     otl-patroon:Elektromotor a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Elektromotor binnen de context van informatieproduct IB3.0"@nl ;
@@ -25084,6 +25164,112 @@ otl:graaf-ib-ib3punt0 {
             [ sh:minCount 1 ;
                 sh:path otl:verwachteLevensduur ] .
 
+    otl-patroon:Kabeldoorvoer a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kabeldoorvoer binnen de context van informatieproduct IB3.0"@nl ;
+        sh:name "Kabeldoorvoer"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:aanduidingObject ],
+            [ sh:minCount 1 ;
+                sh:path otl:aantal ],
+            [ sh:minCount 1 ;
+                sh:path otl:beginpunt ],
+            [ sh:minCount 1 ;
+                sh:path otl:beheerder ],
+            [ sh:minCount 1 ;
+                sh:path otl:bestekNummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:bevestiging ],
+            [ sh:minCount 1 ;
+                sh:path otl:bknCode ],
+            [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:calamiteitenvoorzieningAanwezigLokaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:capaciteit ],
+            [ sh:minCount 1 ;
+                sh:path otl:categorie ],
+            [ sh:minCount 1 ;
+                sh:path otl:code ],
+            [ sh:minCount 1 ;
+                sh:path otl:communicatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:coordinatenstelsel ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumAanleg ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumEindeOvereenkomst ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumEindeVergunning ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumOplevering ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumStartOvereenkomst ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumStartVergunning ],
+            [ sh:minCount 1 ;
+                sh:path otl:deursluiting ],
+            [ sh:minCount 1 ;
+                sh:path otl:doel ],
+            [ sh:minCount 1 ;
+                sh:path otl:eigenaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:eindpunt ],
+            [ sh:minCount 1 ;
+                sh:path otl:fabrikaat ],
+            [ sh:minCount 1 ;
+                sh:path otl:fabrikant ],
+            [ sh:minCount 1 ;
+                sh:path otl:faseAansluiting ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleOmschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:garantieTot ],
+            [ sh:minCount 1 ;
+                sh:path otl:gebruik ],
+            [ sh:minCount 1 ;
+                sh:path otl:hoofdzekering ],
+            [ sh:minCount 1 ;
+                sh:path otl:horizontaleAfmetingen ],
+            [ sh:minCount 1 ;
+                sh:path otl:leverancier ],
+            [ sh:minCount 1 ;
+                sh:path otl:locatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:locatieCoordinaten ],
+            [ sh:minCount 1 ;
+                sh:path otl:maaiveldBeschermingJaNee ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:nummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderhouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:overeenkomsthouder ],
+            [ sh:minCount 1 ;
+                sh:path otl:paspoortgegevens ],
+            [ sh:minCount 1 ;
+                sh:path otl:productNummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:serviceLevensduur ],
+            [ sh:minCount 1 ;
+                sh:path otl:software ],
+            [ sh:minCount 1 ;
+                sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:tijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
+            [ sh:minCount 1 ;
+                sh:path otl:verticaleAfmetingen ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteLevensduur ],
+            [ sh:minCount 1 ;
+                sh:path otl:zijde ] .
+
     otl-patroon:Kabeldraagconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kabeldraagconstructie binnen de context van informatieproduct IB3.0"@nl ;
         sh:name "Kabeldraagconstructie"@nl ;
@@ -34680,80 +34866,6 @@ otl:graaf-ib-ib3punt0 {
             [ sh:minCount 1 ;
                 sh:path otl:verwachteLevensduur ] .
 
-    otl-patroon:OnbegroeidTerreindeel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onbegroeid terreindeel binnen de context van informatieproduct IB3.0"@nl ;
-        sh:name "Onbegroeid terreindeel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:aantal ],
-            [ sh:minCount 1 ;
-                sh:path otl:beginpunt ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerder ],
-            [ sh:minCount 1 ;
-                sh:path otl:bestekNummer ],
-            [ sh:minCount 1 ;
-                sh:path otl:bknCode ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:categorie ],
-            [ sh:minCount 1 ;
-                sh:path otl:coordinatenstelsel ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumAanleg ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumEindeOvereenkomst ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumEindeVergunning ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumOplevering ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumStartOvereenkomst ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumStartVergunning ],
-            [ sh:minCount 1 ;
-                sh:path otl:doel ],
-            [ sh:minCount 1 ;
-                sh:path otl:eigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:eindpunt ],
-            [ sh:minCount 1 ;
-                sh:path otl:functioneleOmschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:horizontaleAfmetingen ],
-            [ sh:minCount 1 ;
-                sh:path otl:locatieCoordinaten ],
-            [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:onderhouder ],
-            [ sh:minCount 1 ;
-                sh:path otl:overeenkomsthouder ],
-            [ sh:minCount 1 ;
-                sh:path otl:overeenkomstnummer ],
-            [ sh:minCount 1 ;
-                sh:path otl:paspoortgegevens ],
-            [ sh:minCount 1 ;
-                sh:path otl:signaalNaarDerden ],
-            [ sh:minCount 1 ;
-                sh:path otl:signaalVanDerden ],
-            [ sh:minCount 1 ;
-                sh:path otl:software ],
-            [ sh:minCount 1 ;
-                sh:path otl:soort ],
-            [ sh:minCount 1 ;
-                sh:path otl:tijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:vergunninghouder ],
-            [ sh:minCount 1 ;
-                sh:path otl:vergunningsnummer ],
-            [ sh:minCount 1 ;
-                sh:path otl:verticaleAfmetingen ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachteLevensduur ],
-            [ sh:minCount 1 ;
-                sh:path otl:zijde ] .
-
     otl-patroon:Onderbak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderbak binnen de context van informatieproduct IB3.0"@nl ;
         sh:name "Onderbak"@nl ;
@@ -41263,118 +41375,6 @@ otl:graaf-ib-ib3punt0 {
                 sh:path otl:productNummer ],
             [ sh:minCount 1 ;
                 sh:path otl:serviceLevensduur ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachteLevensduur ] .
-
-    otl-patroon:RegelbareAandrijving a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Regelbare aandrijving binnen de context van informatieproduct IB3.0"@nl ;
-        sh:name "Regelbare aandrijving"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:aanduidingObject ],
-            [ sh:minCount 1 ;
-                sh:path otl:aansluitwijzeCommunicatieKoperGlas ],
-            [ sh:minCount 1 ;
-                sh:path otl:aansturing ],
-            [ sh:minCount 1 ;
-                sh:path otl:aantal ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerObjectcode ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerder ],
-            [ sh:minCount 1 ;
-                sh:path otl:belastingBovengrond ],
-            [ sh:minCount 1 ;
-                sh:path otl:bereikbaarViaTelefoonNummer ],
-            [ sh:minCount 1 ;
-                sh:path otl:bestekNummer ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:calamiteitenvoorzieningAanwezigLokaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:capaciteit ],
-            [ sh:minCount 1 ;
-                sh:path otl:categorie ],
-            [ sh:minCount 1 ;
-                sh:path otl:code ],
-            [ sh:minCount 1 ;
-                sh:path otl:communicatie ],
-            [ sh:minCount 1 ;
-                sh:path otl:coordinatenstelsel ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumAanleg ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumEindeOvereenkomst ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumEindeVergunning ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumOplevering ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumStartOvereenkomst ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumStartVergunning ],
-            [ sh:minCount 1 ;
-                sh:path otl:deursluiting ],
-            [ sh:minCount 1 ;
-                sh:path otl:doel ],
-            [ sh:minCount 1 ;
-                sh:path otl:eigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:fabrikaat ],
-            [ sh:minCount 1 ;
-                sh:path otl:fabrikant ],
-            [ sh:minCount 1 ;
-                sh:path otl:faseAansluiting ],
-            [ sh:minCount 1 ;
-                sh:path otl:functioneleOmschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:garantieTot ],
-            [ sh:minCount 1 ;
-                sh:path otl:gebruik ],
-            [ sh:minCount 1 ;
-                sh:path otl:hoofdzekering ],
-            [ sh:minCount 1 ;
-                sh:path otl:horizontaleAfmetingen ],
-            [ sh:minCount 1 ;
-                sh:path otl:koppelNaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:koppelVan ],
-            [ sh:minCount 1 ;
-                sh:path otl:leverancier ],
-            [ sh:minCount 1 ;
-                sh:path otl:locatie ],
-            [ sh:minCount 1 ;
-                sh:path otl:locatieCoordinaten ],
-            [ sh:minCount 1 ;
-                sh:path otl:nummer ],
-            [ sh:minCount 1 ;
-                sh:path otl:onderhouder ],
-            [ sh:minCount 1 ;
-                sh:path otl:overeenkomsthouder ],
-            [ sh:minCount 1 ;
-                sh:path otl:overeenkomstnummer ],
-            [ sh:minCount 1 ;
-                sh:path otl:paspoortgegevens ],
-            [ sh:minCount 1 ;
-                sh:path otl:productNummer ],
-            [ sh:minCount 1 ;
-                sh:path otl:serviceLevensduur ],
-            [ sh:minCount 1 ;
-                sh:path otl:sleuteltype ],
-            [ sh:minCount 1 ;
-                sh:path otl:software ],
-            [ sh:minCount 1 ;
-                sh:path otl:softwareVersienummer ],
-            [ sh:minCount 1 ;
-                sh:path otl:soort ],
-            [ sh:minCount 1 ;
-                sh:path otl:type ],
-            [ sh:minCount 1 ;
-                sh:path otl:vergunninghouder ],
-            [ sh:minCount 1 ;
-                sh:path otl:vergunningsnummer ],
-            [ sh:minCount 1 ;
-                sh:path otl:verlichtingsGroepZone ],
             [ sh:minCount 1 ;
                 sh:path otl:verwachteLevensduur ] .
 
@@ -48972,9 +48972,9 @@ otl:graaf-ib-ib3punt0 {
             [ sh:minCount 1 ;
                 sh:path otl:zijde ] .
 
-    otl-patroon:Struikroos a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Struikroos binnen de context van informatieproduct IB3.0"@nl ;
-        sh:name "Struikroos"@nl ;
+    otl-patroon:Struikrozen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Struikrozen binnen de context van informatieproduct IB3.0"@nl ;
+        sh:name "Struikrozen"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:aanduidingObject ],
             [ sh:minCount 1 ;
@@ -53256,8 +53256,6 @@ otl:graaf-ib-ib3punt0 {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vangconstructie binnen de context van informatieproduct IB3.0"@nl ;
         sh:name "Vangconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:software ],
-            [ sh:minCount 1 ;
                 sh:path otl:software ] .
 
     otl-patroon:VastePlant a sh:NodeShape ;
@@ -59068,9 +59066,9 @@ otl:graaf-ib-ib3punt0 {
             [ sh:minCount 1 ;
                 sh:path otl:verwachteLevensduur ] .
 
-    otl-patroon:Waterplant a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant binnen de context van informatieproduct IB3.0"@nl ;
-        sh:name "Waterplant"@nl ;
+    otl-patroon:WaterplantDrijvend a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant (drijvend) binnen de context van informatieproduct IB3.0"@nl ;
+        sh:name "Waterplant (drijvend)"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:aanduidingObject ],
             [ sh:minCount 1 ;
@@ -61846,12 +61844,12 @@ otl:graaf-ib-ib3punt0 {
             [ sh:minCount 1 ;
                 sh:path otl:verwachteLevensduur ] .
 
-    otl:graaf-ib-ib3punt0 a owl:Ontology ;
-        dct:created "2022-03-03"^^xsd:date ;
+    otl:graaf-ib-ib3punt0-3.1.3 a owl:Ontology ;
+        dct:created "2022-01-04"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'IB3.0' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'IB3.0'"@nl ;
-        pav:currentVersion otl:graaf-ib-ib3punt0-3.1.6 ;
-        pav:derivedFrom "IB RWS Release 20220127" ;
+        pav:derivedFrom "IB RWS Release 20211224" ;
+        pav:version "3.1.3" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

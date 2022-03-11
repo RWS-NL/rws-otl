@@ -7,7 +7,7 @@
 @prefix unit: <http://qudt.org/vocab/unit/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-otl:graaf-ib-svkstoringsafhankelijkonderhoud {
+otl:graaf-ib-svkstoringsafhankelijkonderhoud-3.1.6 {
     otl-patroon:Aalgoot a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aalgoot binnen de context van informatieproduct SVK Storingsafhankelijkonderhoud"@nl ;
         sh:name "Aalgoot"@nl ;
@@ -9438,12 +9438,12 @@ otl:graaf-ib-svkstoringsafhankelijkonderhoud {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl:graaf-ib-svkstoringsafhankelijkonderhoud a owl:Ontology ;
+    otl:graaf-ib-svkstoringsafhankelijkonderhoud-3.1.6 a owl:Ontology ;
         dct:created "2022-03-03"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'SVK Storingsafhankelijkonderhoud' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'SVK Storingsafhankelijkonderhoud'"@nl ;
-        pav:currentVersion otl:graaf-ib-svkstoringsafhankelijkonderhoud-3.1.6 ;
         pav:derivedFrom "IB RWS Release 20220127" ;
+        pav:version "3.1.6" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .
