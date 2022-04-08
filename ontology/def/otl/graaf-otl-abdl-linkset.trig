@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 otl:graaf-otl-abdl-linkset {
-    otl:Aalgoot dct:conformsTo abdl:DEF-7931 .
+    otl:Aalgoot dct:conformsTo abdl:DEF-7930 .
 
     otl:Aandrijving dct:conformsTo abdl:DEF-0007 .
 
@@ -63,7 +63,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Afscheiding dct:conformsTo abdl:DEF-0119 .
 
-    otl:Afslagzone dct:conformsTo abdl:DEF-5311 .
+    otl:Afslagzone dct:conformsTo abdl:DEF-5525 .
 
     otl:Afsluitboom dct:conformsTo abdl:DEF-0126 .
 
@@ -159,7 +159,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Begraafplaats dct:conformsTo abdl:DEF-0366 .
 
-    otl:BegroeidTerreindeel dct:conformsTo abdl:DEF-0369 .
+    otl:BegroeidTerreindeel dct:conformsTo abdl:DEF-7929 .
 
     otl:Begroeiing dct:conformsTo abdl:DEF-0370 .
 
@@ -203,9 +203,10 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Biezenvegetatie dct:conformsTo abdl:DEF-0515 .
 
-    otl:Binnenberm dct:conformsTo abdl:DEF-0524 .
+    otl:Binnenberm dct:conformsTo abdl:DEF-7931 .
 
-    otl:Binnenduin dct:conformsTo abdl:DEF-5352 .
+    otl:Binnenduin dct:conformsTo abdl:DEF-5311,
+            abdl:DEF-5352 .
 
     otl:Binnentalud dct:conformsTo abdl:DEF-0527 .
 
@@ -307,7 +308,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Buisleiding dct:conformsTo abdl:DEF-0676 .
 
-    otl:Buitenberm dct:conformsTo abdl:DEF-0677 .
+    otl:Buitenberm dct:conformsTo abdl:DEF-0524 .
 
     otl:Buitentalud dct:conformsTo abdl:DEF-0682 .
 
@@ -493,6 +494,8 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Elementenverharding dct:conformsTo abdl:DEF-1145 .
 
+    otl:EmbryonaalDuin dct:conformsTo abdl:DEF-8443 .
+
     otl:Energiekabel dct:conformsTo abdl:DEF-1153 .
 
     otl:Energievoorziening dct:conformsTo abdl:DEF-5058 .
@@ -639,7 +642,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Grendelinrichting dct:conformsTo abdl:DEF-1503 .
 
-    otl:Grensprofiel dct:conformsTo abdl:DEF-5464 .
+    otl:Grensprofiel dct:conformsTo abdl:DEF-1060 .
 
     otl:Greppel dct:conformsTo abdl:DEF-1509 .
 
@@ -659,7 +662,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:HPalen dct:conformsTo abdl:DEF-1677 .
 
-    otl:Haag dct:conformsTo abdl:DEF-1544 .
+    otl:Haag dct:conformsTo <http://www.rws.nl/abdl##N/A> .
 
     otl:Haagwindscherm dct:conformsTo abdl:DEF-1545 .
 
@@ -751,7 +754,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:HoogtedetectieInstallatie dct:conformsTo abdl:DEF-1665 .
 
-    otl:Hoogwatervluchtplaats dct:conformsTo abdl:DEF-7930 .
+    otl:Hoogwatervluchtplaats dct:conformsTo abdl:DEF-2673 .
 
     otl:Hulppostkast dct:conformsTo abdl:DEF-1683 .
 
@@ -863,6 +866,8 @@ otl:graaf-otl-abdl-linkset {
 
     otl:KerendeConstructie dct:conformsTo abdl:DEF-1913 .
 
+    otl:Kerf dct:conformsTo abdl:DEF-8444 .
+
     otl:Keringschuif dct:conformsTo abdl:DEF-1916 .
 
     otl:Kesp dct:conformsTo abdl:DEF-1921 .
@@ -951,9 +956,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Kwelder dct:conformsTo abdl:DEF-2076 .
 
-    otl:Kwelkade dct:conformsTo abdl:DEF-5525 .
+    otl:Kwelkade dct:conformsTo abdl:DEF-0677 .
 
-    otl:Kwelscherm dct:conformsTo abdl:DEF-2077 .
+    otl:Kwelscherm dct:conformsTo abdl:DEF-8442 .
 
     otl:KwhMetering dct:conformsTo abdl:DEF-2078 .
 
@@ -1131,7 +1136,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Oeverbescherming dct:conformsTo abdl:DEF-2508 .
 
-    otl:OevervegetatieLangsSloten dct:conformsTo abdl:DEF-2511 .
+    otl:Oevervegetatie dct:conformsTo abdl:DEF-2077 .
 
     otl:Oeverzwaluwenwand dct:conformsTo abdl:DEF-2513 .
 
@@ -1235,7 +1240,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Overspanningbeveiliging dct:conformsTo abdl:DEF-2748 .
 
-    otl:Oversteek dct:conformsTo abdl:DEF-2749 .
+    otl:Oversteek dct:conformsTo abdl:DEF-7927 .
 
     otl:Paaiplaats dct:conformsTo abdl:DEF-2758 .
 
@@ -1243,7 +1248,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Paalbeugel dct:conformsTo abdl:DEF-2760 .
 
-    otl:Palenrij dct:conformsTo abdl:DEF-5878 .
+    otl:Palenrij dct:conformsTo abdl:DEF-8445 .
 
     otl:Panamawiel dct:conformsTo abdl:DEF-2765 .
 
@@ -1256,8 +1261,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Park dct:conformsTo abdl:DEF-2774 .
 
     otl:Parkeerbeugel dct:conformsTo abdl:DEF-2775 .
-
-    otl:Peilbuis dct:conformsTo abdl:DEF-5603 .
 
     otl:Peilbuizen dct:conformsTo abdl:DEF-5603 .
 
@@ -1293,7 +1296,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Plafondconstructie dct:conformsTo abdl:DEF-2831 .
 
-    otl:Plant dct:conformsTo abdl:DEF-2844 .
+    otl:Plant dct:conformsTo abdl:DEF-1544 .
 
     otl:Plasberm dct:conformsTo abdl:DEF-2848 .
 
@@ -1311,7 +1314,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Portaal dct:conformsTo abdl:DEF-2871 .
 
-    otl:Portofoon dct:conformsTo abdl:DEF-7928 .
+    otl:Portofoon dct:conformsTo abdl:DEF-6771 .
 
     otl:Praatpaal dct:conformsTo abdl:DEF-2879 .
 
@@ -1399,7 +1402,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Rivier dct:conformsTo abdl:DEF-3205 .
 
-    otl:Rivierhout dct:conformsTo abdl:DEF-7927 .
+    otl:Rivierhout dct:conformsTo abdl:DEF-2844 .
 
     otl:Roerwerk dct:conformsTo abdl:DEF-3211 .
 
@@ -1471,6 +1474,8 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Schietbord dct:conformsTo abdl:DEF-3298 .
 
+    otl:Schijnduiker dct:conformsTo abdl:DEF-7928 .
+
     otl:Schokdemper dct:conformsTo abdl:DEF-3300 .
 
     otl:Schommel dct:conformsTo abdl:DEF-3301 .
@@ -1538,6 +1543,8 @@ otl:graaf-otl-abdl-linkset {
     otl:Sloof dct:conformsTo abdl:DEF-3398 .
 
     otl:Sloot dct:conformsTo abdl:DEF-3401 .
+
+    otl:Slufter dct:conformsTo abdl:DEF-5878 .
 
     otl:SluisdeurHefPuntRol dct:conformsTo abdl:DEF-3405 .
 
@@ -1632,6 +1639,10 @@ otl:graaf-otl-abdl-linkset {
     otl:Stroomprofiel dct:conformsTo abdl:DEF-3560 .
 
     otl:Struikroos dct:conformsTo abdl:DEF-3567 .
+
+    otl:Stuifkuil dct:conformsTo abdl:DEF-8446 .
+
+    otl:Stuifscherm dct:conformsTo abdl:DEF-8447 .
 
     otl:Stuifzand dct:conformsTo abdl:DEF-3569 .
 
@@ -1761,7 +1772,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Uitlaatvoorziening dct:conformsTo abdl:DEF-3851 .
 
-    otl:Uitmonding dct:conformsTo abdl:DEF-7926 .
+    otl:Uitmonding dct:conformsTo abdl:DEF-2749 .
 
     otl:Uitstroombak dct:conformsTo abdl:DEF-3858 .
 
@@ -1775,7 +1786,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Vaarwegmarkering dct:conformsTo abdl:DEF-3897 .
 
-    otl:Valbeveiliging dct:conformsTo abdl:DEF-7929 .
+    otl:Valbeveiliging dct:conformsTo abdl:DEF-8448 .
 
     otl:Valreep dct:conformsTo abdl:DEF-3906 .
 
@@ -1787,7 +1798,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Veldafscheiding dct:conformsTo abdl:DEF-3959 .
 
-    otl:Veldbus dct:conformsTo abdl:DEF-7925 .
+    otl:Veldbus dct:conformsTo abdl:DEF-7926 .
 
     otl:Ven dct:conformsTo abdl:DEF-3960 .
 
@@ -1951,7 +1962,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Waterbuffer dct:conformsTo abdl:DEF-4292 .
 
-    otl:WaterlichaamOppervlaktewater dct:conformsTo abdl:DEF-4307 .
+    otl:WaterlichaamOppervlaktewater dct:conformsTo abdl:DEF-0369 .
 
     otl:Watermistinstallatie dct:conformsTo abdl:DEF-4310 .
 
@@ -1985,7 +1996,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Wervelventiel dct:conformsTo abdl:DEF-4406 .
 
-    otl:WideAreaNetwork dct:conformsTo abdl:DEF-6771 .
+    otl:WideAreaNetwork dct:conformsTo abdl:DEF-7925 .
 
     otl:Wiel dct:conformsTo abdl:DEF-4412 .
 
@@ -2027,6 +2038,8 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Zee dct:conformsTo abdl:DEF-4483 .
 
+    otl:Zeestrand dct:conformsTo abdl:DEF-5464 .
+
     otl:ZeeuwseHaag dct:conformsTo abdl:DEF-4490 .
 
     otl:Zender dct:conformsTo abdl:DEF-4500 .
@@ -2052,11 +2065,11 @@ otl:graaf-otl-abdl-linkset {
     otl:Zonweringsinstallatie dct:conformsTo abdl:DEF-4523 .
 
     otl:graaf-otl-abdl-linkset a void:Linkset ;
-        dct:created "2022-03-03"^^xsd:date ;
+        dct:created "2022-03-23"^^xsd:date ;
         dct:description "De OTL-ABDL linkset legt een koppeling tussen OTL-concepten en ABDL-concepten."@nl ;
         dct:title "OTL-ABDL linkset"@nl ;
-        pav:currentVersion otl:graaf-otl-abdl-linkset-3.1.6 ;
-        pav:derivedFrom "IB RWS Release 20220127" ;
+        pav:currentVersion otl:graaf-otl-abdl-linkset-3.1.7 ;
+        pav:derivedFrom "IB RWS Release 20220321" ;
         void:objectsTarget abdl: ;
         void:subjectsTarget otl:graaf-kennismodel ;
         owl:imports abdl:,

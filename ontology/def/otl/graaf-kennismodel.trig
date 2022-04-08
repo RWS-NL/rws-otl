@@ -16,7 +16,7 @@ otl:graaf-kennismodel {
 
     otl:Aalgoot a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Goot waarin een klimsubstraat is aangebracht zoals bijvoorbeeld kokosmatten waarover een klein waterstroompje loopt."@nl ;
+        skos:definition "verhoging van het maaiveld in een overstromingsgebied of uiterwaard van een rivier, kanaal of watergang welke bij hoge waterstanden een vluchtplaats biedt voor dieren"@nl ;
         skos:prefLabel "Aalgoot"@nl .
 
     otl:Aandrijving a skos:Concept ;
@@ -188,7 +188,7 @@ otl:graaf-kennismodel {
 
     otl:Afslagzone a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Deel van een duingebied waar tijdens storm afslag optreedt."@nl ;
+        skos:definition "In het direct aan de dijk grenzende achterland aangebrachte kade om afstromen van kwelwater te verminderen waarmee wordt getracht het optreden van pipingverschijnselen te voorkomen alsmede wateroverlast binnendijks tijdens hoge rivierafvoeren te beperken."@nl ;
         skos:prefLabel "Afslagzone"@nl .
 
     otl:Afsluitboom a skos:Concept ;
@@ -481,7 +481,7 @@ otl:graaf-kennismodel {
 
     otl:BegroeidTerreindeel a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Kleinste functioneel onafhankelijk stukje van een terrein dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden met aaneengesloten vegetatie."@nl,
+        skos:definition "Definitie niet opgenomen in dit document"@nl,
             "Kleinste functioneel onafhankelijk stukje van een terrein dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, met aaneengesloten vegetatie."@nl ;
         skos:prefLabel "Begroeid Terreindeel"@nl,
             "Begroeid terreindeel"@nl .
@@ -690,12 +690,13 @@ otl:graaf-kennismodel {
 
     otl:Binnenberm a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Een extra verbreding aan de binnendijkse zijde van de dijk om het dijklichaam extra steun te bieden en/of om zandmeevoerende wellen te voorkomen."@nl ;
+        skos:definition "goot waarin een klimsubstraat is aangebracht zoals bijvoorbeeld kokosmatten waarover een klein waterstroompje loopt."@nl ;
         skos:prefLabel "Binnenberm"@nl .
 
     otl:Binnenduin a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Duin dat niet direct aan het strand grenst."@nl ;
+        skos:definition "Deel van het duin waar afslag mag optreden."@nl,
+            "Duin dat niet direct aan het strand grenst."@nl ;
         skos:prefLabel "Binnenduin"@nl .
 
     otl:Binnentalud a skos:Concept ;
@@ -744,7 +745,7 @@ otl:graaf-kennismodel {
 
     otl:Bodembedekker a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Beheerde beplanting van groenvak in de openbare ruimte zijnde bodembedekkers."@nl ;
+        skos:definition "Heester met een maximale hoogte van 0,60 meter die door hun natuurlijke groeiwijze (horizontaal) de bodem volledig bedekt."@nl ;
         skos:prefLabel "Bodembedekker"@nl .
 
     otl:Bodembescherming a skos:Concept ;
@@ -995,7 +996,7 @@ otl:graaf-kennismodel {
 
     otl:Buitenberm a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Extra verbreding aan de buitendijkse zijde van de dijk om het dijklichaam extra steun te bieden, om zandmeevoerende wellen te voorkomen en/of om de golfoploop te reduceren."@nl ;
+        skos:definition "Extra verbreding aan de binnendijkse zijde van de dijk om het dijklichaam extra steun te bieden en/of om zandmeevoerende wellen te voorkomen."@nl ;
         skos:prefLabel "Buitenberm"@nl .
 
     otl:Buitentalud a skos:Concept ;
@@ -1565,6 +1566,7 @@ otl:graaf-kennismodel {
 
     otl:EmbryonaalDuin a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "Vegetatie in een uit zichzelf aangenomen rangschikking voorkomend in moerasgebieden-, oevers of terreinen met een natte en/of zachte bodem."@nl ;
         skos:prefLabel "Embryonaal-duin"@nl .
 
     otl:Energiekabel a skos:Concept ;
@@ -1991,7 +1993,7 @@ otl:graaf-kennismodel {
 
     otl:Grensprofiel a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Deel van de duinwaterkering landwaarts van de afslagzone dat bedoeld is om golfoverslag te voorkomen."@nl ;
+        skos:definition "Constructie die duinen tijdens een stormvloed beschermt."@nl ;
         skos:prefLabel "Grensprofiel"@nl .
 
     otl:Greppel a skos:Concept ;
@@ -2053,8 +2055,7 @@ otl:graaf-kennismodel {
 
     otl:Haag a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Gesloten lijnvormige beplanting van houtachtige gewassen bestaande uit aangeplante struiken met een scheidende functie"@nl,
-            "Gesloten lijnvormige beplanting van houtachtige gewassen bestaande uit aangeplante struiken met een scheidende functie."@nl ;
+        skos:definition "#N/A"@nl ;
         skos:prefLabel "Haag"@nl .
 
     otl:Haagwindscherm a skos:Concept ;
@@ -2308,7 +2309,7 @@ otl:graaf-kennismodel {
 
     otl:Hoogwatervluchtplaats a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Verhoging van het maaiveld in een overstromingsgebied of uiterwaard van een rivier, kanaal of watergang welke bij hoge waterstanden een vluchtplaats biedt voor dieren."@nl ;
+        skos:definition "Samenhangend geheel van vrij aan het aardoppervlak voorkomend water, met de daarin aanwezige stoffen, alsmede de bijbehorende bodem en oevers (Waterwet: en, voor zover uitdrukkelijk aangewezen krachtens deze wet, drogere oevergebieden) alsmede flora en fauna;"@nl ;
         skos:prefLabel "Hoogwatervluchtplaats"@nl .
 
     otl:Hulppostkast a skos:Concept ;
@@ -2688,7 +2689,7 @@ otl:graaf-kennismodel {
 
     otl:Kerf a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "In natuurlijke omstandigheden door windwerking ontstane inkeping in de zeereep waar de zee periodiek doorheen stroomt naar een primaire duinvallei."@nl ;
+        skos:definition "Duinen in ontwikkeling met pioniers vegetatie."@nl ;
         skos:prefLabel "Kerf"@nl .
 
     otl:Keringschuif a skos:Concept ;
@@ -2930,12 +2931,12 @@ otl:graaf-kennismodel {
 
     otl:Kwelkade a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "In het direct aan de dijk grenzende achterland aangebrachte kade om afstromen van kwelwater te verminderen waarmee wordt getracht het optreden van pipingverschijnselen te voorkomen alsmede wateroverlast binnendijks tijdens hoge rivierafvoeren te beperken."@nl ;
+        skos:definition "Extra verbreding aan de buitendijkse zijde van de dijk om het dijklichaam extra steun te bieden en de golfslag en /of golfoverslag te reduceren."@nl ;
         skos:prefLabel "Kwelkade"@nl .
 
     otl:Kwelscherm a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Een ondoorlatende, in de regel verticale, constructie voor verlenging van de kwelweg."@nl ;
+        skos:definition "Algemene term voor een in de grond geplaatste buis of soortgelijke constructie met een kleine diameter voorzien van een filter, waarin de grondwaterstand c.q. stijghoogte kan worden gemeten."@nl ;
         skos:prefLabel "Kwelscherm"@nl .
 
     otl:KwhMetering a skos:Concept ;
@@ -3524,10 +3525,10 @@ otl:graaf-kennismodel {
         skos:definition "Grondkerende constructie om de afkalving van de oever te voorkomen."@nl ;
         skos:prefLabel "Oeverbescherming"@nl .
 
-    otl:OevervegetatieLangsSloten a skos:Concept ;
+    otl:Oevervegetatie a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Vegetatie op de overgang van land naar water (met name slootoevers). In deze zone groeien moerasplanten."@nl ;
-        skos:prefLabel "Oevervegetatie (langs sloten)"@nl .
+        skos:definition "Een ondoorlatende, in de regel verticale, constructie voor verlenging van de kwelweg."@nl ;
+        skos:prefLabel "Oevervegetatie"@nl .
 
     otl:Oeverzwaluwenwand a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -3878,7 +3879,7 @@ otl:graaf-kennismodel {
 
     otl:Oversteek a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Gelijkvloerse kruising waarvan beide wegen zijn opengesteld voor het openbaar vervoer en waarvan een van de wegen een ondergeschikt karakter heeft."@nl ;
+        skos:definition "Verbinding van een beek, sloot of watergang met een rivier of kanaal voorzien van specifieke materialen en vormgeving waardoor erosie van de oever en/of bodem wordt voorkomen."@nl ;
         skos:prefLabel "Oversteek"@nl .
 
     otl:Overzichtstekening a skos:Concept ;
@@ -3903,7 +3904,7 @@ otl:graaf-kennismodel {
 
     otl:Palenrij a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Rij palen op strand, strandhoofd of ander verdedigingswerk in getijdegebied ter vermindering van stroom- en golfaanval op de kust of oever."@nl ;
+        skos:definition "Inkeping in een duin."@nl ;
         skos:prefLabel "Palenrij"@nl .
 
     otl:Panamawiel a skos:Concept ;
@@ -3940,11 +3941,6 @@ otl:graaf-kennismodel {
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Omklapbare beugel voor het afschermen van een parkeerplaats"@nl ;
         skos:prefLabel "Parkeerbeugel"@nl .
-
-    otl:Peilbuis a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Algemene term voor een in de grond geplaatste buis of soortgelijke constructie met een kleine diameter voorzien van een filter, waarin de grondwaterstand c.q. stijghoogte kan worden gemeten."@nl ;
-        skos:prefLabel "Peilbuis"@nl .
 
     otl:Peilbuizen a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -4041,7 +4037,7 @@ otl:graaf-kennismodel {
 
     otl:Plant a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Meercellig organisme dat door fotosynthese in staat is uit anorganische stoffen organische op te bouwen. De cellen van een plant zijn voorzien van een celwand en celkern. Sommige cellen bezitten bladgroenkorrels. Planten hebben geen gespecialiseerde zintuigen, noch kunnen ze zich bewegen."@nl ;
+        skos:definition "Gesloten lijnvormige beplanting van houtachtige gewassen bestaande uit aangeplante struiken met een scheidende functie"@nl ;
         skos:prefLabel "Plant"@nl .
 
     otl:Plasberm a skos:Concept ;
@@ -4099,7 +4095,7 @@ otl:graaf-kennismodel {
 
     otl:Portofoon a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Draagbaar zend-ontvangtoestel voor communicatie tussen meerdere personen."@nl ;
+        skos:definition "Een netwerk dat is samengesteld uit Local Area Networks (LAN) en/of Hosts welke over een redelijk groot oppervlak zoals een land of een continent verdeeld. Het omvat een verzameling machines om gebruikersprogramma's op te laten draaien. Deze machines word"@nl ;
         skos:prefLabel "Portofoon"@nl .
 
     otl:Praatpaal a skos:Concept ;
@@ -4370,7 +4366,7 @@ otl:graaf-kennismodel {
 
     otl:Rivierhout a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Verbinding van een beek, sloot of watergang met een rivier of kanaal voorzien van specifieke materialen en vormgeving waardoor erosie van de oever en/of bodem wordt voorkomen."@nl ;
+        skos:definition "Algemene aanduiding voor een- en tweejarige planten, en vaste planten."@nl ;
         skos:prefLabel "Rivierhout"@nl .
 
     otl:Roerwerk a skos:Concept ;
@@ -4579,7 +4575,8 @@ otl:graaf-kennismodel {
 
     otl:Schijnduiker a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Verdrinkingsval geplaatst in een oever."@nl ;
+        skos:definition "Draagbaar zend-ontvangtoestel voor communicatie tussen meerdere personen."@nl,
+            "Verdrinkingsval geplaatst in een oever."@nl ;
         skos:prefLabel "Schijnduiker"@nl .
 
     otl:Schokdemper a skos:Concept ;
@@ -4775,7 +4772,7 @@ otl:graaf-kennismodel {
 
     otl:Slufter a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Gebied tussen de duinen waartoe de zee geregeld doordringt."@nl ;
+        skos:definition "Loodrecht op de kustlijn geplaatste palen in een rechte lijn bedoelt om golven te breken"@nl ;
         skos:prefLabel "Slufter"@nl .
 
     otl:SluisdeurHefPuntRol a skos:Concept ;
@@ -5070,11 +5067,12 @@ otl:graaf-kennismodel {
 
     otl:Stuifkuil a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "Gebied in de afslagzone onder invloed van getijdenbeweging."@nl ;
         skos:prefLabel "Stuifkuil"@nl .
 
     otl:Stuifscherm a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Verticaal doorlatend scherm, vervaardigd van riet of rijshout, dat wordt toegepast voor het vangen van zand."@nl ;
+        skos:definition "Plaatselijke verstuiving."@nl ;
         skos:prefLabel "Stuifscherm"@nl .
 
     otl:Stuifzand a skos:Concept ;
@@ -5476,7 +5474,7 @@ otl:graaf-kennismodel {
 
     otl:Uitmonding a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Verbinding van een beek, sloot of watergang met een rivier of kanaal voorzien van specifieke materialen en vormgeving waardoor erosie van de oever en/of bodem wordt voorkomen."@nl ;
+        skos:definition "Constructie voor het te voet overbruggen van een obstakel zoals een geleiderail, sloot, afscheiding, hek, etc."@nl ;
         skos:prefLabel "Uitmonding"@nl .
 
     otl:Uitstroombak a skos:Concept ;
@@ -5523,7 +5521,7 @@ otl:graaf-kennismodel {
 
     otl:Valbeveiliging a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Definitie niet opgenomen in dit document."@nl ;
+        skos:definition "Verticaal doorlatend scherm, dat wordt toegepast voor het vangen van zand."@nl ;
         skos:prefLabel "Valbeveiliging"@nl .
 
     otl:Valreep a skos:Concept ;
@@ -5566,7 +5564,7 @@ otl:graaf-kennismodel {
 
     otl:Veldbus a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Een industriele, digitale bus voor realtime en gedistribueerde besturing van machineparken en processen. Een typisch proces moet gegevens uitwisselen tussen sensoren, Programmable Logic Controllers (PLC), stuurcomputers, actuatoren, interface naar de operator, enzovoort."@nl ;
+        skos:definition "Verbinding van een beek, sloot of watergang met een rivier of kanaal voorzien van specifieke materialen en vormgeving waardoor erosie van de oever en/of bodem wordt voorkomen."@nl ;
         skos:prefLabel "Veldbus"@nl .
 
     otl:Ven a skos:Concept ;
@@ -5658,7 +5656,7 @@ otl:graaf-kennismodel {
 
     otl:Verkeersbord a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Bord waarop een (vaar)wegverkeersteken is aangebracht en waarvan de uitvoering van dit (vaar)wegverkeersteken wettelijk is voorgeschreven"@nl ;
+        skos:definition "Bord waarop een wegverkeersteken is aangebracht en waarvan de uitvoering van dit wegverkeersteken wettelijk is voorgeschreven."@nl ;
         skos:prefLabel "Verkeersbord"@nl .
 
     otl:Verkeerscentrale a skos:Concept ;
@@ -6078,7 +6076,7 @@ otl:graaf-kennismodel {
 
     otl:WaterlichaamOppervlaktewater a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Een oppervlaktewaterlichaam en/of grondwaterlichaam."@nl ;
+        skos:definition "Terreindeel zonder verharding met aaneengesloten vegetatie."@nl ;
         skos:prefLabel "Waterlichaam (oppervlaktewater)"@nl .
 
     otl:Watermistinstallatie a skos:Concept ;
@@ -6190,7 +6188,7 @@ otl:graaf-kennismodel {
 
     otl:WideAreaNetwork a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Een netwerk dat is samengesteld uit Local Area Networks (LAN) en/of Hosts welke over een redelijk groot oppervlak zoals een land of een continent verdeeld. Het omvat een verzameling machines om gebruikersprogramma's op te laten draaien. Deze machines worden hosts genoemd."@nl ;
+        skos:definition "Een industriele, digitale bus voor realtime en gedistribueerde besturing van machineparken en processen. Een typisch proces moet gegevens uitwisselen tussen sensoren, Programmable Logic Controllers (PLC), stuurcomputers, actuatoren, interface naar de oper"@nl ;
         skos:prefLabel "Wide Area Network (WAN)"@nl .
 
     otl:Wiel a skos:Concept ;
@@ -6300,6 +6298,7 @@ otl:graaf-kennismodel {
 
     otl:Zeestrand a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "Deel van het duin dat als waterkering aanwezig moet zijn."@nl ;
         skos:prefLabel "Zeestrand"@nl .
 
     otl:ZeeuwseHaag a skos:Concept ;
@@ -6366,49 +6365,15 @@ otl:graaf-kennismodel {
         skos:definition "Installatie voor het reguleren van de de inval van zonlicht door een raam"@nl ;
         skos:prefLabel "Zonweringsinstallatie"@nl .
 
-    otl:aanduidingObject a rdf:Property ;
-        skos:definition "Aanduiding van een DTB object, bijv. vuilnisbak, bank, picknick tafel"@nl ;
-        skos:prefLabel "Aanduiding object"@nl .
-
-    otl:aansluitwijzeCommunicatieKoperGlas a rdf:Property ;
-        skos:definition "* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *"@nl ;
-        skos:prefLabel "Aansluitwijze communicatie (koper, glas)"@nl .
-
-    otl:aansluitwijzeMast a rdf:Property ;
-        skos:definition "* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *"@nl ;
-        skos:prefLabel "Aansluitwijze mast (in, in-uit, VCS)"@nl .
-
-    otl:aansturing a rdf:Property ;
-        skos:definition """Aansturing van bijv. 
-Schakel regime (Welke tijden in/uit, lux instelling)"""@nl ;
-        skos:prefLabel "Aansturing"@nl .
-
-    otl:aantal a rdf:Property ;
-        skos:definition """Bijv. deuren, armaturen, lampen, uithouders enz. (st)
-te baggeren hoeveelheid (tds/m3 bu)"""@nl ;
-        skos:prefLabel "Aantal"@nl .
-
     otl:afdrukdatum a rdf:Property ;
         skos:prefLabel "Afdrukdatum"@nl .
 
     otl:afgeleidVan a rdf:Property ;
         skos:prefLabel "Afgeleid van"@nl .
 
-    otl:afstandParameteriseerbaar a rdf:Property ;
-        skos:definition "Soort / Type"@nl ;
-        skos:prefLabel "Afstand parameteriseerbaar"@nl .
-
     otl:afstandhoofdliggers a rdf:Property ;
         skos:definition "Afstand tussen de liggers (hart op hart)."@nl ;
         skos:prefLabel "AfstandHoofdLiggers"@nl .
-
-    otl:alarmeringssysteem a rdf:Property ;
-        skos:definition "Omschrijving van het soort"@nl ;
-        skos:prefLabel "Alarmeringssysteem"@nl .
-
-    otl:alias a rdf:Property ;
-        skos:definition "Lokale benaming object / Alias kunstwerk"@nl ;
-        skos:prefLabel "Alias"@nl .
 
     otl:asWKT-RD a rdf:Property ;
         rdfs:subPropertyOf geo:asWKT ;
@@ -6426,48 +6391,11 @@ te baggeren hoeveelheid (tds/m3 bu)"""@nl ;
         skos:definition "De bedieningstijden van een asset."@nl ;
         skos:prefLabel "Bedieningstijd"@nl .
 
-    otl:beginpunt a rdf:Property ;
-        skos:definition "Beginpunt traject / Kilometer (RAAI) / Start"@nl ;
-        skos:prefLabel "Beginpunt"@nl .
-
-    otl:beheerCode a rdf:Property ;
-        skos:definition "Geeft bijv. een unieke code voor de aanwezige vegetatie- en watertypes aan voor Groenbeheerplan"@nl ;
-        skos:prefLabel "Beheer code"@nl .
-
-    otl:beheerObjectcode a rdf:Property ;
-        skos:definition "Complexcode + Objectnummer conform DISK"@nl ;
-        skos:prefLabel "Beheer objectcode"@nl .
-
-    otl:beheerder a rdf:Property ;
-        skos:definition "Bijv. Districtnaam / Nautische beheerder. Er zijn meerdere instanties mogelijk"@nl ;
-        skos:prefLabel "Beheerder"@nl .
-
-    otl:belastingBovengrond a rdf:Property ;
-        skos:definition "* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *"@nl ;
-        skos:prefLabel "Belasting bovengrond (cq Belastingklasse)"@nl .
-
-    otl:bereikbaarViaTelefoonNummer a rdf:Property ;
-        skos:definition "Bijv. storingsnummer, contactpersoon, objecten"@nl ;
-        skos:prefLabel "Bereikbaar via telefoon nummer"@nl .
-
     otl:bestandslocatie a rdf:Property ;
         skos:prefLabel "Locatie"@nl .
 
-    otl:bestekNummer a rdf:Property ;
-        skos:definition """Besteknr van bijv. Aanleg-, Vast Onderhoud-, 
-Variabel onderhoud contract"""@nl ;
-        skos:prefLabel "Bestek nummer"@nl .
-
     otl:bevatVersie a rdf:Property ;
         skos:prefLabel "Bevat versie"@nl .
-
-    otl:bevestigdAan a rdf:Property ;
-        skos:definition "Bijv. een draagconstructie aan een viaduct, tunnel t.b.v. koppeling aan DISK"@nl ;
-        skos:prefLabel "Bevestigd aan"@nl .
-
-    otl:bevestiging a rdf:Property ;
-        skos:definition "Soort draagconstructie / op vangrail of op paaltje"@nl ;
-        skos:prefLabel "Bevestiging"@nl .
 
     otl:beweegbareoverbruggingindicator a rdf:Property ;
         skos:definition "Aanduiding of de brug waar het overbruggingsdeel bij hoort al dan niet beweegbaar is."@nl ;
@@ -6529,22 +6457,6 @@ Variabel onderhoud contract"""@nl ;
         skos:definition "Specificatie van het soort Water."@nl ;
         skos:prefLabel "BGT-type_Waterdeel"@nl .
 
-    otl:bknCode a rdf:Property ;
-        skos:definition "Code beheer kaart nat"@nl ;
-        skos:prefLabel "BKN-Code"@nl .
-
-    otl:bobIn a rdf:Property ;
-        skos:definition "* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *"@nl ;
-        skos:prefLabel "BOB in"@nl .
-
-    otl:bobUit a rdf:Property ;
-        skos:definition "* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *"@nl ;
-        skos:prefLabel "BOB uit"@nl .
-
-    otl:boordatum a rdf:Property ;
-        skos:definition "Soort / Type en Datum boorkern"@nl ;
-        skos:prefLabel "Boordatum"@nl .
-
     otl:bouwdatum a rdf:Property ;
         skos:definition "Datum waarop de asset gebouwd, geconstrueerd of gefabriceerd is."@nl ;
         skos:prefLabel "Bouwdatum"@nl .
@@ -6561,10 +6473,6 @@ Variabel onderhoud contract"""@nl ;
         skos:definition "De bronhoudercode van het object."@nl ;
         skos:prefLabel "Bronhouder"@nl .
 
-    otl:calamiteitenvoorzieningAanwezigLokaal a rdf:Property ;
-        skos:definition "Soort / Type"@nl ;
-        skos:prefLabel "Calamiteitenvoorziening aanwezig (lokaal)"@nl .
-
     otl:capaciteit a rdf:Property ;
         skos:definition "Het vermogen tot opslaan of vermogen tot het verwerken van iets door een asset."@nl ;
         skos:prefLabel "Capaciteit"@nl .
@@ -6577,17 +6485,9 @@ Variabel onderhoud contract"""@nl ;
         skos:definition "De minimale  capaciteit van een asset."@nl ;
         skos:prefLabel "CapaciteitMinimaal"@nl .
 
-    otl:categorie a rdf:Property ;
-        skos:definition "Aanduiding van een verzameling entiteiten met bepaalde gemeenschappelijke kenmerken, zoals vastgelegd in een classificatieschema."@nl ;
-        skos:prefLabel "Categorie"@nl .
-
     otl:cemtKlasse a rdf:Property ;
         skos:definition "Klasse-indeling voor maximale afmetingen van het schip."@nl ;
         skos:prefLabel "CEMT-klasse"@nl .
-
-    otl:code a rdf:Property ;
-        skos:definition "Code bijv. volgens CROW/RVV / OV-Beheer"@nl ;
-        skos:prefLabel "Code"@nl .
 
     otl:codebuurt a rdf:Property ;
         skos:definition "De code behorende bij de naam van de buurt."@nl ;
@@ -6597,14 +6497,6 @@ Variabel onderhoud contract"""@nl ;
         skos:definition "De code behorende bij de naam van de wijk."@nl ;
         skos:prefLabel "CodeWijk"@nl .
 
-    otl:communicatie a rdf:Property ;
-        skos:definition "Communicatie bijv. SAT-line"@nl ;
-        skos:prefLabel "Communicatie"@nl .
-
-    otl:complexcode a rdf:Property ;
-        skos:definition "Complexcode conform DISK"@nl ;
-        skos:prefLabel "Complexcode"@nl .
-
     otl:constructiebreedte a rdf:Property ;
         skos:definition "Maximale constructiebreedte."@nl ;
         skos:prefLabel "Constructiebreedte"@nl .
@@ -6613,40 +6505,8 @@ Variabel onderhoud contract"""@nl ;
         skos:definition "Hoogte van de constructie."@nl ;
         skos:prefLabel "Constructiehoogte"@nl .
 
-    otl:coordinatenstelsel a rdf:Property ;
-        skos:definition "Aanduiding van het coördinatenstelsel waar geregistreerde coördinaten in staan"@nl ;
-        skos:prefLabel "Coördinatenstelsel"@nl .
-
     otl:datum a rdf:Property ;
         skos:prefLabel "Datum"@nl .
-
-    otl:datumAanleg a rdf:Property ;
-        skos:definition "Aanleg, plaatsingsdatum"@nl ;
-        skos:prefLabel "Datum aanleg"@nl .
-
-    otl:datumEindeOvereenkomst a rdf:Property ;
-        skos:definition "* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *"@nl ;
-        skos:prefLabel "Datum einde overeenkomst"@nl .
-
-    otl:datumEindeVergunning a rdf:Property ;
-        skos:definition "None"@nl ;
-        skos:prefLabel "Datum einde vergunning"@nl .
-
-    otl:datumOplevering a rdf:Property ;
-        skos:definition "Bijv. datum inbedrijfstelling"@nl ;
-        skos:prefLabel "Datum oplevering"@nl .
-
-    otl:datumOppervlaktebehandeling a rdf:Property ;
-        skos:definition "Bijv. schilderdatum, conserveren of aanbrengen slijtlaag"@nl ;
-        skos:prefLabel "Datum oppervlaktebehandeling"@nl .
-
-    otl:datumStartOvereenkomst a rdf:Property ;
-        skos:definition "* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *"@nl ;
-        skos:prefLabel "Datum start overeenkomst"@nl .
-
-    otl:datumStartVergunning a rdf:Property ;
-        skos:definition "None"@nl ;
-        skos:prefLabel "Datum start vergunning"@nl .
 
     otl:datuminbedrijfname a rdf:Property ;
         skos:definition "Datum waarop een asset in gebruik is genomen"@nl ;
@@ -6664,17 +6524,9 @@ Variabel onderhoud contract"""@nl ;
         skos:definition "Datum waarop asset buiten bedrijf is"@nl ;
         skos:prefLabel "DatumUitBedrijf"@nl .
 
-    otl:deursluiting a rdf:Property ;
-        skos:definition "Bijv. driekant, vierkant"@nl ;
-        skos:prefLabel "Deursluiting"@nl .
-
     otl:dikte a rdf:Property ;
         skos:definition "Dikte van de slijtlaag op het wegdek."@nl ;
         skos:prefLabel "Dikte"@nl .
-
-    otl:dimbaarheid a rdf:Property ;
-        skos:definition "Dimbaarheid bijv. dag/nachtlicht geschakeld (in- en uitrij zijde tunnel)"@nl ;
-        skos:prefLabel "Dimbaarheid"@nl .
 
     otl:discipline a rdf:Property ;
         skos:definition "Expertisegebied waarbinnen de asset valt."@nl ;
@@ -6682,12 +6534,6 @@ Variabel onderhoud contract"""@nl ;
 
     otl:documentSoort a rdf:Property ;
         skos:prefLabel "Document soort"@nl .
-
-    otl:doel a rdf:Property ;
-        skos:definition """Doel systeem (Vrachtwagenweegsysteem, toegang havens voor diepstekende scheepvaart …)
-Doelsoorten (voor welke soorten dieren is faunavoorziening bedoeld)
-Functie / doel (Werkplaats, magazijn, zoutloods, bedieningsgebouw, dienstgebouw / zweepmast, verkeers"""@nl ;
-        skos:prefLabel "Doel"@nl .
 
     otl:doorvaartbreedte a rdf:Property ;
         skos:definition "Breedte zoals aangegeven bij brug (Bord C 3, BPR)."@nl ;
@@ -6705,46 +6551,13 @@ Functie / doel (Werkplaats, magazijn, zoutloods, bedieningsgebouw, dienstgebouw 
         skos:definition "Tijd benodigd voor sluiten van de brug."@nl ;
         skos:prefLabel "DuurSluiten"@nl .
 
-    otl:dynamischUitgevoerd a rdf:Property ;
-        skos:definition "Soort / Type"@nl ;
-        skos:prefLabel "Dynamisch uitgevoerd"@nl .
-
-    otl:eigenaar a rdf:Property ;
-        skos:definition "Bijv. Districtnaam. Er zijn meerdere instanties mogelijk"@nl ;
-        skos:prefLabel "Eigenaar"@nl .
-
-    otl:eindpunt a rdf:Property ;
-        skos:definition "Eindpunt traject / Kilometer (RAAI) / Eind"@nl ;
-        skos:prefLabel "Eindpunt"@nl .
-
-    otl:fabrikaat a rdf:Property ;
-        skos:definition "Bijv. productnaam, artikel"@nl ;
-        skos:prefLabel "Fabrikaat"@nl .
-
-    otl:fabrikant a rdf:Property ;
-        skos:definition "Naam fabrikant bijv. Philips"@nl ;
-        skos:prefLabel "Fabrikant"@nl .
-
-    otl:faseAansluiting a rdf:Property ;
-        skos:definition "Lamp(en) aangesloten op fase L1, L2 of L3"@nl ;
-        skos:prefLabel "Fase aansluiting"@nl .
-
-    otl:functioneleOmschrijving a rdf:Property ;
-        skos:definition """Bijv. Functie (Primair/secundair/etc.)
-Nautische functies (bv. Vogelverlichting, verkeerssein, stuurlicht, stormseinmast, sperlicht, oeverlicht, noodverlichting, mistlichten, heliverlichting, lichttoren, lichtopstand, , bordverlichting)"""@nl ;
-        skos:prefLabel "Functionele omschrijving"@nl .
-
-    otl:garantieTot a rdf:Property ;
-        skos:definition "Komt vaak uit bestek"@nl ;
-        skos:prefLabel "Garantie tot"@nl .
+    otl:functioneleindeling a rdf:Property ;
+        skos:definition "Beschrijving  van de functionele  indeling van de asset."@nl ;
+        skos:prefLabel "FunctioneleIndeling"@nl .
 
     otl:garantietermijn a rdf:Property ;
         skos:definition "Het garantietermijn van een asset"@nl ;
         skos:prefLabel "Garantietermijn"@nl .
-
-    otl:gebruik a rdf:Property ;
-        skos:definition "Bijv. of een kabel wel of niet in gebruik is"@nl ;
-        skos:prefLabel "Gebruik"@nl .
 
     otl:geometrie a rdf:Property ;
         skos:definition "Maatvoering ten aanzien van dwarsprofiel, horizontaal en verticaal alignment. Bij elkaar levert dit een drie dimensionaal wegontwerp."@nl ;
@@ -6759,11 +6572,11 @@ Nautische functies (bv. Vogelverlichting, verkeerssein, stuurlicht, stormseinmas
         skos:prefLabel "voorkeursurl (GNS)"@nl .
 
     otl:graaf-kennismodel a owl:Ontology ;
-        dct:created "2022-03-03"^^xsd:date ;
+        dct:created "2022-03-23"^^xsd:date ;
         dct:description "Het OTL kennismodel bevat concepten en eigenschappen met hun definities."@nl ;
         dct:title "OTL kennismodel"@nl ;
-        pav:currentVersion otl:graaf-kennismodel-3.1.6 ;
-        pav:derivedFrom "IB RWS Release 20220127" ;
+        pav:currentVersion otl:graaf-kennismodel-3.1.7 ;
+        pav:derivedFrom "IB RWS Release 20220321" ;
         owl:imports dct:,
             geo:,
             skos:,
@@ -6778,37 +6591,21 @@ Nautische functies (bv. Vogelverlichting, verkeerssein, stuurlicht, stormseinmas
     otl:heeftVersie a rdf:Property ;
         skos:prefLabel "Heeft versie"@nl .
 
-    otl:hoofdzekering a rdf:Property ;
-        skos:definition "Soort / Type"@nl ;
-        skos:prefLabel "Hoofdzekering"@nl .
-
-    otl:horizontaleAfmetingen a rdf:Property ;
-        skos:definition """Horizontale afmeting bijv.
-Lengte, Breedte
-Dikte
-Lengte nominaal
-Lengte traject"""@nl ;
-        skos:prefLabel "(Horizontale) Afmetingen"@nl .
-
     otl:huidigeleeftijd a rdf:Property ;
         skos:definition "Aantal jaar dat een asset oud is."@nl ;
         skos:prefLabel "HuidigeLeeftijd"@nl .
 
     otl:id a rdf:Property ;
-        skos:definition "Code waarmee een specifiek voorkomen van een ding of concept geïdentificeerd kan worden."@nl ;
+        skos:definition "Code waarmee een specifiek voorkomen van een asset ge&#239;dentificeerd kan worden."@nl ;
         skos:prefLabel "ID"@nl .
 
     otl:identificatie a rdf:Property ;
         skos:definition "Uniek identificatienummer voor het object dat onveranderlijk is zolang het object bestaat."@nl ;
         skos:prefLabel "Identificatie"@nl .
 
-    otl:indeling a rdf:Property ;
-        skos:definition "Beschrijving  van de indeling van de asset."@nl ;
-        skos:prefLabel "Indeling"@nl .
-
-    otl:indicatorhoofdtransportas a rdf:Property ;
+    otl:indicatorhoodtransportas a rdf:Property ;
         skos:definition "Een sluis bevindt zich in hoogdtransportas (HTS) of overige vaarwegen. Indicator of een sluis zich in een hoofdtransportas bevindt."@nl ;
-        skos:prefLabel "IndicatorHoofdtransportas"@nl .
+        skos:prefLabel "IndicatorHoodtransportas"@nl .
 
     otl:indicatorzoetnaarzoet a rdf:Property ;
         skos:definition "Indicator of de pomp van het gemaal zoetwater naar zoetwater pompt. Dit heeft te maken met de waterkracht."@nl ;
@@ -6834,33 +6631,9 @@ Lengte traject"""@nl ;
         skos:definition "Een aanduiding waarmee wordt aangegeven dat een onderzoek wordt uitgevoerd naar de juistheid van een of meer gegevens van het betreffende object."@nl ;
         skos:prefLabel "InOnderzoekIndicator"@nl .
 
-    otl:insteek a rdf:Property ;
-        skos:definition "Hoogte insteek bijv. ten opzichte van NAP"@nl ;
-        skos:prefLabel "Insteek"@nl .
-
     otl:inwinnendeinstantie a rdf:Property ;
         skos:definition "De organisatie die namens de bronhouder het object inwint."@nl ;
         skos:prefLabel "InwinnendeInstantie"@nl .
-
-    otl:ipAdres a rdf:Property ;
-        skos:definition "Internet protocol van bijv. dynamische verlichting (DOV: IP-adres kast)"@nl ;
-        skos:prefLabel "IP adres"@nl .
-
-    otl:kleur a rdf:Property ;
-        skos:definition "Bijv. Zichtbare kleur van de kabel / Objectkleur / Objectkleurpatroon"@nl ;
-        skos:prefLabel "Kleur"@nl .
-
-    otl:kompasFunctie a rdf:Property ;
-        skos:definition "Soort / Type bijv. bepaling in welke richting camera kijkt"@nl ;
-        skos:prefLabel "Kompas functie"@nl .
-
-    otl:koppelNaar a rdf:Property ;
-        skos:definition "Nummer van object, waar object naar toe gaat (kast, put, etc.)"@nl ;
-        skos:prefLabel "Koppel Naar"@nl .
-
-    otl:koppelVan a rdf:Property ;
-        skos:definition "Nummer van object, waar object  vandaan komt (kast, put, etc.)"@nl ;
-        skos:prefLabel "Koppel Van"@nl .
 
     otl:kruinlijngeometrie a rdf:Property ;
         skos:definition "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."@nl ;
@@ -6870,57 +6643,25 @@ Lengte traject"""@nl ;
         skos:definition "De lengte van de asset."@nl ;
         skos:prefLabel "Lengte"@nl .
 
-    otl:leverancier a rdf:Property ;
-        skos:definition "Naam van leverancier bijv. Energieleverancier"@nl ;
-        skos:prefLabel "Leverancier"@nl .
-
-    otl:locatie a rdf:Property ;
-        skos:definition "Beschrijvende Plaatsaanduiding Systematiek (BPS)"@nl ;
-        skos:prefLabel "Locatie (BPS)"@nl .
-
-    otl:locatieCoordinaten a rdf:Property ;
-        skos:definition "Coördinaten (Bijvoorbeeld: GPS, XYZ, etc)"@nl ;
-        skos:prefLabel "Locatie (coördinaten)"@nl .
-
-    otl:locatieInkoppelingWeer a rdf:Property ;
-        skos:definition "Bijv. locatie (lokaal, centraal)"@nl ;
-        skos:prefLabel "Locatie inkoppeling \"weer\""@nl .
-
     otl:lvpublicatiedatum a rdf:Property ;
         skos:definition "Tijdstip waarop deze instantie van het object is opgenomen in de Landelijke Voorziening."@nl ;
         skos:prefLabel "LVpublicatiedatum"@nl .
-
-    otl:maaiveldBeschermingJaNee a rdf:Property ;
-        skos:definition "Soort / Type"@nl ;
-        skos:prefLabel "Maaiveld bescherming (ja/nee)"@nl .
 
     otl:materiaal a rdf:Property ;
         skos:definition "Stof of materie met een specifieke functie."@nl ;
         skos:prefLabel "Materiaal"@nl .
 
-    otl:monumentaleStatus a rdf:Property ;
-        skos:definition "Aanduiding of object een monumentale status heeft bijv. Rijksmonument of UNESCO"@nl ;
-        skos:prefLabel "Monumentale status"@nl .
-
     otl:naam a rdf:Property ;
-        skos:definition "De naam waarmee een ding, concept, situatie, toestand etc. wordt aangeduid."@nl ;
+        skos:definition "De naam waarmee een kunstwerk wordt aangeduid."@nl ;
         skos:prefLabel "Naam"@nl .
-
-    otl:niveau a rdf:Property ;
-        skos:definition "Aanduiding van het niveau (Bijvoorbeeld 0=maaiveld, +1=viaduct of -1=tunnel of 3,5 meter +NAP)"@nl ;
-        skos:prefLabel "Niveau"@nl .
 
     otl:niveaudekzerk a rdf:Property ;
         skos:definition "Niveau van de dekzerken wordt gerekend als de bovenkant van de sluiskolk."@nl ;
         skos:prefLabel "NiveauDekzerk"@nl .
 
-    otl:niveleermethode a rdf:Property ;
+    otl:nivelleermethode a rdf:Property ;
         skos:definition "De nivelleermethode van een schutsluis."@nl ;
-        skos:prefLabel "Niveleermethode"@nl .
-
-    otl:nummer a rdf:Property ;
-        skos:definition "Nummer van bijv. Mast / Krib / Derden / Kast / RWS Bord / ID nummer"@nl ;
-        skos:prefLabel "Nummer"@nl .
+        skos:prefLabel "Nivelleermethode"@nl .
 
     otl:objectbegintijd a rdf:Property ;
         skos:definition "Datum waarop het object bij de bronhouder is ontstaan."@nl ;
@@ -6931,19 +6672,11 @@ Lengte traject"""@nl ;
         skos:prefLabel "ObjectEindTijd"@nl .
 
     otl:omschrijving a rdf:Property ;
-        skos:definition "Globale aanduiding van een ding, concept, situatie, toestand etc."@nl ;
+        skos:definition "De omschrijving van een asset"@nl ;
         skos:prefLabel "Omschrijving"@nl .
-
-    otl:omschrijvingObject a rdf:Property ;
-        skos:definition "Aanvullende of specifieke omschrijving object bijv. Fly-Over of Aanbrug"@nl ;
-        skos:prefLabel "Omschrijving object"@nl .
 
     otl:omschrijvingWijziging a rdf:Property ;
         skos:prefLabel "Omschrijving wijziging"@nl .
-
-    otl:onderhouder a rdf:Property ;
-        skos:definition "Bijv. Opdrachtgever / Opdrachtnemer onderhoud. Er zijn meerdere instanties mogelijk"@nl ;
-        skos:prefLabel "Onderhouder"@nl .
 
     otl:openbareruimtelabel a rdf:Property ;
         skos:definition "None"@nl ;
@@ -6953,38 +6686,13 @@ Lengte traject"""@nl ;
         skos:definition "Maximale openingshoek van de val (klep)."@nl ;
         skos:prefLabel "Openingshoek"@nl .
 
-    otl:oppervlaktebehandeling a rdf:Property ;
-        skos:definition "Soort / Type"@nl ;
-        skos:prefLabel "Oppervlaktebehandeling"@nl .
-
     otl:optaludindicator a rdf:Property ;
         skos:definition "Indicatie of het object wel of niet op een hellend vlak ligt."@nl ;
         skos:prefLabel "OpTaludIndicator"@nl .
 
-    otl:overeenkomsthouder a rdf:Property ;
-        skos:definition "* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *"@nl ;
-        skos:prefLabel "Overeenkomsthouder"@nl .
-
-    otl:overeenkomstnummer a rdf:Property ;
-        skos:definition "* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *"@nl ;
-        skos:prefLabel "Overeenkomstnummer"@nl .
-
-    otl:paspoortgegevens a rdf:Property ;
-        skos:definition "Paspoortnummer is gelijk aan bijv. beheerobjectcode of constructienummer"@nl ;
-        skos:prefLabel "Paspoortgegevens"@nl .
-
     otl:pdfFile a rdf:Property ;
         skos:definition "Locatie van de Padverwijzing rendition file. Middels slashes is het subpath aangegeven."@nl ;
         skos:prefLabel "heeft pdfFile"@nl .
-
-    otl:plaatsing a rdf:Property ;
-        skos:definition """Plaats OLC (armatuur, lichtmast)
-Plaatsing (ondergronds deel / voetplaat)
-Plaatsing in gestabiliseerde grond/beton
-Plaatsing op mast (L/R)
-Montagewijze armatuur (opzet / schuif)
-Montage op mastnummer"""@nl ;
-        skos:prefLabel "Plaatsing"@nl .
 
     otl:plusFunctieSpoor a rdf:Property ;
         skos:definition "Specificatie van het soort gebruik van het spoor, indien dit een IMGeo uitbreiding van de populatie betreft."@nl ;
@@ -7094,10 +6802,6 @@ Montage op mastnummer"""@nl ;
         skos:definition "Het soort weginrichtingselement (IMGeo plus-populatie)."@nl ;
         skos:prefLabel "Plus-type_Weginrichtingselement"@nl .
 
-    otl:productNummer a rdf:Property ;
-        skos:definition "* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *"@nl ;
-        skos:prefLabel "Product nummer (CE-nr.)"@nl .
-
     otl:qrCode a rdf:Property ;
         skos:definition "De QR code van een asset"@nl ;
         skos:prefLabel "QR code"@nl .
@@ -7105,10 +6809,6 @@ Montage op mastnummer"""@nl ;
     otl:relatievehoogteligging a rdf:Property ;
         skos:definition "Aanduiding voor de relatieve hoogte van het object."@nl ;
         skos:prefLabel "RelatieveHoogteligging"@nl .
-
-    otl:sato a rdf:Property ;
-        skos:definition "SATO (Specifieke Aspecten Tunnel Ontwerp) coderingen ten behoeve van tunnels"@nl ;
-        skos:prefLabel "SATO"@nl .
 
     otl:schutspeilmaximaal a rdf:Property ;
         skos:definition "Het maximale schutspeil van een schutsluis."@nl ;
@@ -7118,69 +6818,20 @@ Montage op mastnummer"""@nl ;
         skos:definition "Het minimale schutspeil van een schutsluis."@nl ;
         skos:prefLabel "SchutspeilMinimaal"@nl .
 
-    otl:serviceLevensduur a rdf:Property ;
-        skos:definition "* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *"@nl ;
-        skos:prefLabel "Service levensduur"@nl .
-
-    otl:signaalNaarDerden a rdf:Property ;
-        skos:definition "Bijv. Ondiepte melding"@nl ;
-        skos:prefLabel "Signaal naar derden"@nl .
-
-    otl:signaalVanDerden a rdf:Property ;
-        skos:definition "Bijv. Stremming tgv calamiteit"@nl ;
-        skos:prefLabel "Signaal van derden"@nl .
-
-    otl:sleutelnummer a rdf:Property ;
-        skos:definition "Nummer van bijv. het sluitplannummer / cilindercode"@nl ;
-        skos:prefLabel "Sleutelnummer"@nl .
-
-    otl:sleuteltype a rdf:Property ;
-        skos:definition "Soort / Type conform sluitplan"@nl ;
-        skos:prefLabel "Sleuteltype"@nl .
-
-    otl:software a rdf:Property ;
-        skos:definition """alle bij het object 
-behorende software 
-t.b.v. aansturing object"""@nl ;
-        skos:prefLabel "Software"@nl .
-
-    otl:softwareVersienummer a rdf:Property ;
-        skos:definition "* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *"@nl ;
-        skos:prefLabel "Software versienummer"@nl .
-
     otl:soort a rdf:Property ;
-        skos:definition "Het soort asset"@nl ;
+        skos:definition "Aanduiding van een verzameling assets met bepaalde gemeenschappelijke kenmerken"@nl ;
         skos:prefLabel "Soort"@nl .
-
-    otl:teerAanwezigInFundering a rdf:Property ;
-        skos:definition "Soort / Type en boorlocatie"@nl ;
-        skos:prefLabel "Teer aanwezig in fundering"@nl .
-
-    otl:tekst a rdf:Property ;
-        skos:definition "Bijv. Tekst op Bewegwijzering"@nl ;
-        skos:prefLabel "Tekst"@nl .
-
-    otl:telefoonnummer a rdf:Property ;
-        skos:definition "Telefoonnummer van bijv. een brug, een tunnel of een DRIP (GSM)"@nl ;
-        skos:prefLabel "Telefoonnummer"@nl .
-
-    otl:tijd a rdf:Property ;
-        skos:definition """Bijv. maximal ligtijd, gemiddelde schuttijd, draaiuren.
-Responstijd
-
-Jaren/Dagen/Uren/Minuten/Seconden"""@nl ;
-        skos:prefLabel "Tijd"@nl .
 
     otl:topcode a rdf:Property ;
         skos:definition "Code volgens formaat Disk"@nl ;
         skos:prefLabel "Topcode"@nl .
 
     otl:topcoordinaatRdx a rdf:Property ;
-        skos:definition "x-coördinaat volgens stelsel rijksdriekhoekscoördinaten."@nl ;
+        skos:definition "x-co&#246;rdinaat volgens stelsel rijksdriekhoeksco&#246;rdinaten."@nl ;
         skos:prefLabel "TopCoördinaat_RDX"@nl .
 
     otl:topcoordinaatRdy a rdf:Property ;
-        skos:definition "y-coördinaat volgens stelsel rijksdriekhoekscoördinaten."@nl ;
+        skos:definition "y-co&#246;rdinaat volgens stelsel rijksdriekhoeksco&#246;rdinaten."@nl ;
         skos:prefLabel "TopCoördinaat_RDY"@nl .
 
     otl:type a rdf:Property ;
@@ -7195,40 +6846,12 @@ Jaren/Dagen/Uren/Minuten/Seconden"""@nl ;
         skos:definition "Naam van de meridian beheeromgeving"@nl ;
         skos:prefLabel "heeft vault"@nl .
 
-    otl:veiligheidsConnectorToegepastPlopstekker a rdf:Property ;
-        skos:definition "* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *"@nl ;
-        skos:prefLabel "Veiligheids connector toegepast (plopstekker)"@nl .
-
-    otl:vergunninghouder a rdf:Property ;
-        skos:definition "* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *"@nl ;
-        skos:prefLabel "Vergunninghouder"@nl .
-
-    otl:vergunningsnummer a rdf:Property ;
-        skos:definition "Vergunningen"@nl ;
-        skos:prefLabel "Vergunningsnummer"@nl .
-
     otl:verkeersklasse a rdf:Property ;
         skos:definition "Klasse m.b.t. de maximumbelasting van het wegdek.  Hiervoor zijn verschillende normen, afhankelijk van de bouwperiode: VOSB 1938: A,B,C,D of E; VOSB 1963/95: 30, 45 of 60."@nl ;
         skos:prefLabel "Verkeersklasse"@nl .
 
-    otl:verlichtingsGroepZone a rdf:Property ;
-        skos:definition "zie Handboek dynamische verlichting autosnelwegen"@nl ;
-        skos:prefLabel "Verlichtings groep/zone"@nl .
-
     otl:versienummer a rdf:Property ;
         skos:prefLabel "Versienummer"@nl .
-
-    otl:verticaleAfmetingen a rdf:Property ;
-        skos:definition """Verticale afmetingen bijv.
-Hoogte, Diepte
-(laag)Dikte
-Doorvaart/rijbreedte
-Doorvaart/rijhoogte"""@nl ;
-        skos:prefLabel "(Verticale) Afmetingen"@nl .
-
-    otl:verwachteLevensduur a rdf:Property ;
-        skos:definition "* Geen beschrijving in GOOW en Lijst van Aanleg naar Beheer. Input gewenst *"@nl ;
-        skos:prefLabel "Verwachte levensduur"@nl .
 
     otl:volgendeVersie a rdf:Property ;
         skos:prefLabel "Volgende versie"@nl .
@@ -7236,13 +6859,9 @@ Doorvaart/rijhoogte"""@nl ;
     otl:vorigeVersie a rdf:Property ;
         skos:prefLabel "Vorige versie"@nl .
 
-    otl:waterpeil a rdf:Property ;
-        skos:definition "Waterpeil bijv. ten opzichte van NAP"@nl ;
-        skos:prefLabel "Waterpeil"@nl .
-
-    otl:zijde a rdf:Property ;
-        skos:definition "Ligging van object t.o.v. bijv. rivieras, baan orientatie lijn (BOL)"@nl ;
-        skos:prefLabel "Zijde"@nl .
+    otl:wisseldeelindicator a rdf:Property ;
+        skos:definition "Indicator of de asset een wisseldeel is. Een wisseldeel heeft als eigenschap dat het in voorrraad is, maar wel onderhouden wordt. Na actief gebruik wordt een wisseldeel gerepareerd en weer in voorraad genomen."@nl ;
+        skos:prefLabel "WisseldeelIndicator"@nl .
 
     otl:Contract a skos:Concept ;
         skos:broaderTransitive otl:Overeenkomst ;
