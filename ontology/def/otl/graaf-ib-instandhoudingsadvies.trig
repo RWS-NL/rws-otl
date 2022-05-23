@@ -37,9 +37,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -153,9 +157,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -172,9 +180,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -191,9 +203,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -210,9 +226,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -229,9 +249,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -264,9 +288,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -298,9 +326,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -317,9 +349,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -336,9 +372,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -437,9 +477,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -452,6 +496,8 @@ otl:graaf-ib-instandhoudingsadvies {
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:id ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
@@ -472,9 +518,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -491,9 +541,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -510,9 +564,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -529,9 +587,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -563,9 +625,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -599,9 +665,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -618,9 +688,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -651,9 +725,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -685,9 +763,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -720,9 +802,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -739,9 +825,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -758,9 +848,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -843,9 +937,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -862,9 +960,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -924,9 +1026,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -957,9 +1063,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -976,9 +1086,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -995,9 +1109,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1045,9 +1163,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1098,9 +1220,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1117,9 +1243,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1184,9 +1314,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1219,9 +1353,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1238,9 +1376,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1273,12 +1415,6 @@ otl:graaf-ib-instandhoudingsadvies {
                 sh:path otl:soort ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
-
-    otl-patroon:Binnenberm a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Binnenberm binnen de context van informatieproduct Instandhoudingsadvies"@nl ;
-        sh:name "Binnenberm"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ] .
 
     otl-patroon:Binnenduin a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Binnenduin binnen de context van informatieproduct Instandhoudingsadvies"@nl ;
@@ -1341,9 +1477,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1360,9 +1500,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1396,9 +1540,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1414,9 +1562,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1450,9 +1602,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1469,9 +1625,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1488,9 +1648,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1507,9 +1671,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1655,9 +1823,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1784,9 +1956,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1803,9 +1979,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1822,9 +2002,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1894,9 +2078,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1913,9 +2101,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1932,9 +2124,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -1984,9 +2180,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2035,9 +2235,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2071,9 +2275,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2090,9 +2298,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2123,9 +2335,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2140,6 +2356,8 @@ otl:graaf-ib-instandhoudingsadvies {
                 sh:path otl:id ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:soort ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
             [ sh:minCount 1 ;
@@ -2172,9 +2390,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2208,9 +2430,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2227,9 +2453,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2246,9 +2476,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2265,9 +2499,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2284,9 +2522,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2303,9 +2545,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2322,9 +2568,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2403,9 +2653,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2422,9 +2676,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2474,9 +2732,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2493,9 +2755,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2512,9 +2778,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2547,9 +2817,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2566,9 +2840,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2585,9 +2863,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2604,9 +2886,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2697,9 +2983,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2749,9 +3039,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2762,6 +3056,8 @@ otl:graaf-ib-instandhoudingsadvies {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:id ],
             [ sh:minCount 1 ;
                 sh:path otl:id ],
             [ sh:minCount 1 ;
@@ -2798,9 +3094,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2817,9 +3117,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2835,9 +3139,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2854,9 +3162,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -2904,9 +3216,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3005,9 +3321,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3024,9 +3344,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3043,9 +3367,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3056,6 +3384,8 @@ otl:graaf-ib-instandhoudingsadvies {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:id ],
             [ sh:minCount 1 ;
                 sh:path otl:id ],
             [ sh:minCount 1 ;
@@ -3078,9 +3408,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3097,9 +3431,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3132,9 +3470,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3201,9 +3543,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3236,9 +3582,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3255,9 +3605,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3291,9 +3645,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3310,9 +3668,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3376,9 +3738,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3395,9 +3761,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3492,9 +3862,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3511,9 +3885,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3544,9 +3922,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3613,9 +3995,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3662,28 +4048,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:soort ],
-            [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
-
-    otl-patroon:Haag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Haag binnen de context van informatieproduct Instandhoudingsadvies"@nl ;
-        sh:name "Haag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ;
-                sh:pattern "^\\d{4}$" ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:id ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:merk ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3700,9 +4071,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3719,9 +4094,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3738,9 +4117,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3788,9 +4171,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3807,9 +4194,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3826,9 +4217,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3862,9 +4257,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -3956,6 +4355,8 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:id ],
             [ sh:minCount 1 ;
+                sh:path otl:id ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
@@ -4008,9 +4409,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4021,6 +4426,8 @@ otl:graaf-ib-instandhoudingsadvies {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:id ],
             [ sh:minCount 1 ;
                 sh:path otl:id ],
             [ sh:minCount 1 ;
@@ -4053,6 +4460,8 @@ otl:graaf-ib-instandhoudingsadvies {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:id ],
             [ sh:minCount 1 ;
                 sh:path otl:id ],
             [ sh:minCount 1 ;
@@ -4089,9 +4498,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4141,9 +4554,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4208,9 +4625,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4241,9 +4662,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4294,9 +4719,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4329,9 +4758,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4348,9 +4781,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4361,6 +4798,8 @@ otl:graaf-ib-instandhoudingsadvies {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:id ],
             [ sh:minCount 1 ;
                 sh:path otl:id ],
             [ sh:minCount 1 ;
@@ -4399,9 +4838,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4444,6 +4887,8 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
                 sh:path otl:id ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
@@ -4482,9 +4927,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4545,9 +4994,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4564,9 +5017,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4600,9 +5057,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4659,6 +5120,8 @@ otl:graaf-ib-instandhoudingsadvies {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:id ],
@@ -4681,9 +5144,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4717,9 +5184,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4736,9 +5207,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4772,9 +5247,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4791,9 +5270,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4827,9 +5310,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4842,6 +5329,8 @@ otl:graaf-ib-instandhoudingsadvies {
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:id ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
@@ -4862,9 +5351,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4881,9 +5374,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4900,9 +5397,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4919,9 +5420,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -4970,9 +5475,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5019,9 +5528,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5066,9 +5579,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5134,9 +5651,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5182,9 +5703,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5201,9 +5726,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5220,9 +5749,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5304,9 +5837,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5323,9 +5860,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5374,9 +5915,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5393,9 +5938,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5461,9 +6010,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5513,9 +6066,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5532,9 +6089,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5551,9 +6112,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5586,9 +6151,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5605,9 +6174,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5624,9 +6197,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5643,9 +6220,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5728,9 +6309,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5761,9 +6346,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5780,9 +6369,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5816,9 +6409,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5852,9 +6449,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5887,9 +6488,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -5952,9 +6557,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6020,9 +6629,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6039,9 +6652,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6125,9 +6742,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6158,9 +6779,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6288,9 +6913,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6307,9 +6936,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6326,9 +6959,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6359,9 +6996,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6401,6 +7042,8 @@ otl:graaf-ib-instandhoudingsadvies {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:id ],
@@ -6424,9 +7067,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6443,9 +7090,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6479,9 +7130,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6498,9 +7153,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6531,9 +7190,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6633,9 +7296,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6666,9 +7333,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6684,9 +7355,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6703,9 +7378,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6722,9 +7401,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6740,9 +7423,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6759,9 +7446,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6789,9 +7480,15 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:id ],
             [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6808,9 +7505,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6890,9 +7591,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6926,9 +7631,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6961,9 +7670,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6980,9 +7693,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -6999,9 +7716,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7035,9 +7756,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7120,6 +7845,8 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
                 sh:path otl:soort ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
@@ -7136,9 +7863,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7169,9 +7900,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7188,9 +7923,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7224,9 +7963,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7243,9 +7986,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7279,9 +8026,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7298,9 +8049,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7317,9 +8072,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7366,9 +8125,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7402,9 +8165,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7421,9 +8188,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7440,9 +8211,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7459,9 +8234,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7478,9 +8257,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7514,9 +8297,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7533,9 +8320,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7568,9 +8359,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7579,6 +8374,8 @@ otl:graaf-ib-instandhoudingsadvies {
         sh:name "Riolering"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:id ],
             [ sh:minCount 1 ;
@@ -7614,9 +8411,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7633,9 +8434,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7701,9 +8506,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7787,9 +8596,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7800,6 +8613,8 @@ otl:graaf-ib-instandhoudingsadvies {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:id ],
             [ sh:minCount 1 ;
                 sh:path otl:id ],
             [ sh:minCount 1 ;
@@ -7822,9 +8637,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7841,9 +8660,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7877,9 +8700,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7896,9 +8723,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7932,9 +8763,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -7968,9 +8803,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8001,9 +8840,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8020,9 +8863,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8056,9 +8903,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8075,9 +8926,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8094,9 +8949,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8113,9 +8972,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8149,9 +9012,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8183,9 +9050,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8202,9 +9073,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8235,9 +9110,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8270,9 +9149,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8306,9 +9189,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8339,9 +9226,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8442,9 +9333,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8557,9 +9452,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8591,9 +9490,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8642,9 +9545,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8678,9 +9585,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8697,9 +9608,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8716,9 +9631,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8780,9 +9699,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8829,9 +9752,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8847,9 +9774,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8865,9 +9796,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8933,9 +9868,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8952,9 +9891,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8971,9 +9914,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -8990,9 +9937,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -9009,9 +9960,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -9044,9 +9999,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -9063,9 +10022,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -9293,9 +10256,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -9328,9 +10295,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -9347,9 +10318,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -9366,9 +10341,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -9543,9 +10522,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -9626,9 +10609,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -9678,9 +10665,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -9696,9 +10687,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -9764,9 +10759,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -9783,9 +10782,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -9802,9 +10805,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -9879,9 +10886,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -9906,6 +10917,8 @@ otl:graaf-ib-instandhoudingsadvies {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:id ],
             [ sh:minCount 1 ;
                 sh:path otl:id ],
             [ sh:minCount 1 ;
@@ -10038,6 +11051,8 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:id ],
             [ sh:minCount 1 ;
+                sh:path otl:id ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
@@ -10057,9 +11072,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -10076,9 +11095,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -10095,9 +11118,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -10114,9 +11141,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -10161,9 +11192,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -10263,9 +11298,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -10282,9 +11321,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -10317,9 +11360,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -10377,6 +11424,8 @@ otl:graaf-ib-instandhoudingsadvies {
         sh:name "Vluchtweginstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
@@ -10449,9 +11498,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -10468,9 +11521,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -10503,9 +11560,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -10584,9 +11645,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -10601,6 +11666,8 @@ otl:graaf-ib-instandhoudingsadvies {
                 sh:path otl:id ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:soort ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
             [ sh:minCount 1 ;
@@ -10619,9 +11686,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -10744,9 +11815,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -10874,9 +11949,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -10907,9 +11986,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -10941,9 +12024,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -10960,9 +12047,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -10979,9 +12070,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -11012,9 +12107,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -11059,9 +12158,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -11095,9 +12198,13 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
+                sh:path otl:merk ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
@@ -11111,6 +12218,8 @@ otl:graaf-ib-instandhoudingsadvies {
             [ sh:minCount 1 ;
                 sh:path otl:id ],
             [ sh:minCount 1 ;
+                sh:path otl:id ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
@@ -11118,11 +12227,11 @@ otl:graaf-ib-instandhoudingsadvies {
                 sh:path otl:wisseldeelindicator ] .
 
     otl:graaf-ib-instandhoudingsadvies a owl:Ontology ;
-        dct:created "2022-03-23"^^xsd:date ;
+        dct:created "2022-05-20"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Instandhoudingsadvies' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Instandhoudingsadvies'"@nl ;
-        pav:currentVersion otl:graaf-ib-instandhoudingsadvies-3.1.7 ;
-        pav:derivedFrom "IB RWS Release 20220321" ;
+        pav:currentVersion otl:graaf-ib-instandhoudingsadvies-3.1.8 ;
+        pav:derivedFrom "IB RWS Release 20220520" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

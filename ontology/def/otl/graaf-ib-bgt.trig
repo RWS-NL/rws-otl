@@ -609,11 +609,11 @@ otl:graaf-ib-bgt {
         sh:name "Wijk"@nl .
 
     otl:graaf-ib-bgt a owl:Ontology ;
-        dct:created "2022-03-23"^^xsd:date ;
+        dct:created "2022-05-20"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'BGT' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'BGT'"@nl ;
-        pav:currentVersion otl:graaf-ib-bgt-3.1.7 ;
-        pav:derivedFrom "IB RWS Release 20220321" ;
+        pav:currentVersion otl:graaf-ib-bgt-3.1.8 ;
+        pav:derivedFrom "IB RWS Release 20220520" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

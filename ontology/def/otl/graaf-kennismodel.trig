@@ -333,6 +333,7 @@ otl:graaf-kennismodel {
 
     otl:BackUpRemoteControleSysteem a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Back-up remote controle systeem (TOT)"@nl .
 
     otl:BackstopHonkEnSoftbal a skos:Concept ;
@@ -431,6 +432,7 @@ otl:graaf-kennismodel {
 
     otl:BedieningEnBewakingVoorDerden a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Bediening en bewaking voor derden"@nl .
 
     otl:BedieningsEnBesturingsinstallatie a skos:Concept ;
@@ -627,10 +629,12 @@ otl:graaf-kennismodel {
 
     otl:Besturingsinstallatie a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Besturingsinstallatie"@nl .
 
     otl:Besturingssysteem a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Besturingssysteem (PLC)"@nl .
 
     otl:Betaalafspraak a skos:Concept ;
@@ -648,6 +652,7 @@ otl:graaf-kennismodel {
 
     otl:BeveiligingToegangBewakingEnObjectbeveiliging a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Beveiliging, Toegang bewaking en objectbeveiliging"@nl .
 
     otl:Bevestiging a skos:Concept ;
@@ -679,19 +684,10 @@ otl:graaf-kennismodel {
         skos:broaderTransitive otl:Verzoek ;
         skos:prefLabel "Bezwaarschrift"@nl .
 
-    otl:Biezenvegetatie a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Begroeiing voornamelijk bestaande uit biezen (oevergewas). Het ruimtelijk voorkomen in samenhang met de groeiplaats en de rangschikking (spontaan, natuurlijk of aangeplant) is hierin bepalend."@nl ;
-        skos:prefLabel "Biezenvegetatie"@nl .
-
     otl:BinnenBuitendeurenEnRolluiken a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Binnen-, buitendeuren en rolluiken"@nl .
-
-    otl:Binnenberm a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "goot waarin een klimsubstraat is aangebracht zoals bijvoorbeeld kokosmatten waarover een klein waterstroompje loopt."@nl ;
-        skos:prefLabel "Binnenberm"@nl .
 
     otl:Binnenduin a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -738,11 +734,6 @@ otl:graaf-kennismodel {
         skos:definition "Onder de waterspiegel gelegen grondvlak van een rivier, kanaal, meer, haven, etc., exclusief de overgangtaluds naar de oevers."@nl ;
         skos:prefLabel "Bodem (waterbodem)"@nl .
 
-    otl:BodembedekkendeHeester a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Houtachtige plant met een maximale hoogte van 0,60 m die door haar natuurlijke groeiwijze of plantafstand de bodem volledig bedekt."@nl ;
-        skos:prefLabel "Bodembedekkende heester"@nl .
-
     otl:Bodembedekker a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Heester met een maximale hoogte van 0,60 meter die door hun natuurlijke groeiwijze (horizontaal) de bodem volledig bedekt."@nl ;
@@ -773,35 +764,10 @@ otl:graaf-kennismodel {
         skos:definition "Toestel dat doormiddel van elektriciteit of verbranding van aardgas of stookolie heet water produceert en dit opslaat in een voorraad- of buffervat tot het moment van consumptie"@nl ;
         skos:prefLabel "Boiler"@nl .
 
-    otl:BolEnKnolgewas a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Groep planten die voortbestaan door hun voedsel op te slaan in een ondergrondse bol, of een bolvormige ophoping van vlezige bladeren, of een gezwollen stengel of wortel of een knol"@nl ;
-        skos:prefLabel "Bol- en knolgewas"@nl .
-
     otl:Bolder a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Een vaak cilindrisch constructiedeel van een waterbouwkundige constructie voor het bevestigen van scheepstrossen."@nl ;
         skos:prefLabel "Bolder"@nl .
-
-    otl:Bollen a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Plant die overwintert door in een al of niet ondergrondse bol, een bolvormige ophoping van vlezige bladeren, voedsel op te slaan, die voor voedsel of sierdoeleinden (bloembollen) worden geteeld."@nl ;
-        skos:prefLabel "Bollen"@nl .
-
-    otl:BomenHoutopstanden a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Houtachtig gewas dat bestaat uit één of meerdere bomen met een groot wortelgestel en een enkele, stevige, houtige en zich secundair verdikkende, overblijvende stam die zich pas op enige hoogte boven de grond vertakt. De vegetatielaag wordt primair gevormd door de kruinen (takken en bladeren) van bomen, secundair door struiken en door kruidachtigen"@nl ;
-        skos:prefLabel "Bomen/houtopstanden"@nl .
-
-    otl:Bomenlaan a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Met bomen aangeplante, rij-en wandelweg bestaande uit één of meer bomenrijen."@nl ;
-        skos:prefLabel "Bomenlaan"@nl .
-
-    otl:Bomenrij a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Een aaneenschakeling van aangeplante bomen bestaande uit één of meerdere rijen van bomen"@nl ;
-        skos:prefLabel "Bomenrij"@nl .
 
     otl:Boog a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -817,21 +783,6 @@ otl:graaf-kennismodel {
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Een bak in de openbare ruimte waarin bomen worden gezet, verplaatst of tentoongesteld voor decoratieve en/of verkeersbegeleidende doeleinden"@nl ;
         skos:prefLabel "Boombak"@nl .
-
-    otl:Boomgeleiding a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Een raamwerk dat dient ter ondersteuning van een boom om deze zo te leiden, dat de gewenste (gecultiveerde) vorm van de kroon verkregen wordt."@nl ;
-        skos:prefLabel "Boomgeleiding"@nl .
-
-    otl:Boomgroep a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "(Grond met) een groep bomen, in wild verband, waarvan de kronen elkaar (op den duur kunnen) raken en visueel een geheel (kunnen) vormen."@nl ;
-        skos:prefLabel "Boomgroep"@nl .
-
-    otl:Boomweide a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "(Grond met) een groep bomen, in regelmatig plantverband, waarvan de kronen elkaar (op den duur kunnen) raken en visueel een geheel (kunnen) vormen."@nl ;
-        skos:prefLabel "Boomweide"@nl .
 
     otl:Boorstaat a skos:Concept ;
         skos:broaderTransitive otl:Tekening ;
@@ -862,11 +813,6 @@ otl:graaf-kennismodel {
         skos:definition "Begroeid terreindeel met kruiden, struiken en een dusdanig aantal bomen dat deze min of meer een gesloten geheel vormen."@nl ;
         skos:prefLabel "Bosgebied"@nl .
 
-    otl:BotanischeRozen a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Wilde roos die winterhard  is en als bloemheester, sierheester behandeld wordt."@nl ;
-        skos:prefLabel "Botanische rozen"@nl .
-
     otl:Bouwakker a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Begroeid terreindeel ten behoeve van akkerbouw."@nl ;
@@ -888,6 +834,7 @@ otl:graaf-kennismodel {
 
     otl:BovenzijdeTunneldakInclStortsteen a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Bovenzijde tunneldak (incl. stortsteen)"@nl .
 
     otl:Brandblusinstallatie a skos:Concept ;
@@ -897,10 +844,12 @@ otl:graaf-kennismodel {
 
     otl:BrandblusinstallatieDienstgebouw a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Brandblusinstallatie dienstgebouw"@nl .
 
     otl:BrandblusinstallatieInDeTunnel a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Brandblusinstallatie in de tunnel"@nl .
 
     otl:Brandblusinstallaties a skos:Concept ;
@@ -915,10 +864,12 @@ otl:graaf-kennismodel {
 
     otl:BrandcompartimenteringEnRookscheidingen a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Brandcompartimentering en rookscheidingen"@nl .
 
     otl:Branddoorvoeringen a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Branddoorvoeringen"@nl .
 
     otl:Brandgang a skos:Concept ;
@@ -933,10 +884,12 @@ otl:graaf-kennismodel {
 
     otl:BrandmeldinstallatieDienstgebouw a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Brandmeldinstallatie dienstgebouw"@nl .
 
     otl:BrandmeldinstallatieInDeTunnel a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Brandmeldinstallatie in de tunnel"@nl .
 
     otl:Brandslang a skos:Concept ;
@@ -1054,6 +1007,7 @@ otl:graaf-kennismodel {
 
     otl:CentraleBedieningEnBewaking a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Centrale bediening en bewaking"@nl .
 
     otl:CentraleDeurontgrendeling a skos:Concept ;
@@ -1102,6 +1056,7 @@ otl:graaf-kennismodel {
 
     otl:Communicatie a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Communicatie"@nl .
 
     otl:Compensator a skos:Concept ;
@@ -1273,6 +1228,7 @@ otl:graaf-kennismodel {
 
     otl:DienstgebouwCiviel a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Dienstgebouw civiel"@nl .
 
     otl:Dieptefiltratie a skos:Concept ;
@@ -1287,10 +1243,12 @@ otl:graaf-kennismodel {
 
     otl:DigitaleAudioOpslag a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Digitale audio-opslag"@nl .
 
     otl:DigitaleBeeldOpslag a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Digitale beeld-opslag"@nl .
 
     otl:Dijk a skos:Concept ;
@@ -1315,6 +1273,7 @@ otl:graaf-kennismodel {
 
     otl:DiverseInstallaties a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Diverse installaties"@nl .
 
     otl:DocumentManifestatie a owl:Class ;
@@ -1447,11 +1406,6 @@ otl:graaf-kennismodel {
         skos:definition "Constructie die doormiddel van een opening de hoeveelheid water die voor consumptie geschikt is regelt en tot een watersysteem toelaat."@nl ;
         skos:prefLabel "Drinkwaterinlaat"@nl .
 
-    otl:DrogeHeide a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Heide met een open karakter en bestaand uit heidesoorten, grassen, kruidachtigen en mossen in wisselende samenstelling op de droge zandgronden."@nl ;
-        skos:prefLabel "Droge heide"@nl .
-
     otl:Droogzetvoorziening a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Constructie bestaande uit schotten en kleppen voor het droogzetten (van delen) van objecten ter facilitering van inspecties en onderhoudsactiviteiten.&#13;De functie van een droogzetvoorziening is de in- en uitstroomopeningen af te dichten.. &#13;Droogzetvoorzieningen worden vooral gebruikt om een kelder of koker t.b.v. onderhoud of inspectie droog te kunnen zetten&#13;"@nl ;
@@ -1544,11 +1498,6 @@ otl:graaf-kennismodel {
         skos:definition "Vaste verbinding de vorm van een viaduct voor passages van dieren over een weg of spoorweg"@nl ;
         skos:prefLabel "Ecoduct"@nl .
 
-    otl:EenEnTweejarigePerkplant a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Eenjarige, tweejarige of overblijvende plant die wordt gebruikt voor tijdelijke tuinversiering, veelal in perken en bloembakken"@nl ;
-        skos:prefLabel "Eén- en tweejarige perkplant"@nl .
-
     otl:Elektromotor a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Machine die elektromagnetische energie omzet in mechanische energie waarmee een werktuig kan worden aangedreven."@nl ;
@@ -1598,11 +1547,6 @@ otl:graaf-kennismodel {
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Speeltoestel waar de gebruiker alleen op of in kan bewegen door gebruik te maken van hand- en been/voetondersteuning, waarbij ten minste op twee punten contact met het toestel wordt vereist"@nl ;
         skos:prefLabel "Evenwichtstoestel"@nl .
-
-    otl:ExtensiefGazon a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Gazon dat minder frequent gemaaid wordt."@nl ;
-        skos:prefLabel "Extensief gazon"@nl .
 
     otl:Factuur a skos:Concept ;
         skos:broaderTransitive otl:Vastlegging ;
@@ -1776,11 +1720,6 @@ otl:graaf-kennismodel {
         skos:definition "Installatie bestemd voor het distribueren van gas in een (infragebonden) gebouw"@nl ;
         skos:prefLabel "Gasinstallatie"@nl .
 
-    otl:Gazon a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Grasland dat frequent gemaaid wordt."@nl ;
-        skos:prefLabel "Gazon"@nl .
-
     otl:GebouwInstallatie a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Een component aan de buitenzijde van een gebouw, die het aanzicht van het gebouw mede bepaalt."@nl ;
@@ -1788,6 +1727,7 @@ otl:graaf-kennismodel {
 
     otl:Gebouwinstallaties a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Gebouwinstallaties"@nl .
 
     otl:Gedenksteen a skos:Concept ;
@@ -1852,6 +1792,7 @@ otl:graaf-kennismodel {
 
     otl:Geluidsbakens a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Geluidsbakens"@nl .
 
     otl:Geluidsdemper a skos:Concept ;
@@ -1877,16 +1818,6 @@ otl:graaf-kennismodel {
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Doordringbaar textiel dat in contact met grond en/ of andere materialen toegepast wordt in geotechnische en civieltechnische constructies"@nl ;
         skos:prefLabel "Geotextiel"@nl .
-
-    otl:GeschorenHaag a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Haag, waarvan de hoogte en breedte door middel van knippen en scheren in stand gehouden worden"@nl ;
-        skos:prefLabel "Geschoren haag"@nl .
-
-    otl:GeschorenHeestervak a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Grond met siervegetatie in de vorm van heesterebeplanting welke wordt bijgehouden in een bepaalde vorm"@nl ;
-        skos:prefLabel "Geschoren heestervak"@nl .
 
     otl:Gespreksverslag a skos:Concept ;
         skos:broaderTransitive otl:Verslag ;
@@ -2001,11 +1932,6 @@ otl:graaf-kennismodel {
         skos:definition "Gegraven waterloop, veelal droogstaand, voor de afwatering en/of ontwatering van het omringende gebied, die afwatert op een sloot"@nl ;
         skos:prefLabel "Greppel"@nl .
 
-    otl:Grienden a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Vochtige akker met gesloten beplanting van wilgensoorten die voorkomen die regelmatig (eens in de 1-5 jaar) wordt ingekort tot aan de wortelstronk."@nl ;
-        skos:prefLabel "Grienden"@nl .
-
     otl:Grijper a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Grijpend deel van een hijsinstallatie"@nl ;
@@ -2018,6 +1944,7 @@ otl:graaf-kennismodel {
 
     otl:GroenInclWatergangEnKanteldijken a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Groen (incl. watergang en kanteldijken)"@nl .
 
     otl:Groenbeheerplan a skos:Concept ;
@@ -2053,30 +1980,10 @@ otl:graaf-kennismodel {
         skos:definition "Een profiel waarvan de dwarsdoorsnede de vorm van de letter I heeft."@nl ;
         skos:prefLabel "H-palen"@nl .
 
-    otl:Haag a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "#N/A"@nl ;
-        skos:prefLabel "Haag"@nl .
-
-    otl:Haagwindscherm a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Gesloten lijnvormige beplanting die de wind vermindert."@nl ;
-        skos:prefLabel "Haagwindscherm"@nl .
-
     otl:Haalkom a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Constructie in een sluis- of kademuur waaraan schepen kunnen worden vastgelegd."@nl ;
         skos:prefLabel "Haalkom"@nl .
-
-    otl:Hakhout a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "(Grond met) gesloten beplanting waarvan de boom- en/of struikvormende soorten regelmatig worden ingekort tot aan de wortelstronk."@nl ;
-        skos:prefLabel "Hakhout"@nl .
-
-    otl:Halfheester a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Laagblijvende houtachtige struik met een deels houtachtige (onderzijde) en een deels kruidachtige (bovenzijde) plant die elk jaar weer uitloopt vanuit dezelfde plant"@nl ;
-        skos:prefLabel "Halfheester"@nl .
 
     otl:HalfverhardSportveld a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -2162,11 +2069,6 @@ otl:graaf-kennismodel {
         skos:definition "Houtige plant die al vanaf de grond vertakt"@nl ;
         skos:prefLabel "Heester"@nl .
 
-    otl:Heesterrozen a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Doorbloeiende roos die winterhard  is en ieder jaar wordt gesnoeid. In het algemeen niet opgaand, met een brede groeiwijze en met licht overhangende takken"@nl ;
-        skos:prefLabel "Heesterrozen"@nl .
-
     otl:Hefdeur a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Sluisdeur, die wordt geplaatst door middel van een hefmechanisme."@nl ;
@@ -2193,6 +2095,7 @@ otl:graaf-kennismodel {
 
     otl:HekwerkenEnTerreinafscheidingen a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Hekwerken en terreinafscheidingen"@nl .
 
     otl:Helling a skos:Concept ;
@@ -2207,12 +2110,8 @@ otl:graaf-kennismodel {
 
     otl:Hellingkelders a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Hellingkelders"@nl .
-
-    otl:Helmgras a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Rietachtig gras dat in het zand van de duinen groeit en heeft de eigenschap zand vast te houden"@nl ;
-        skos:prefLabel "Helmgras"@nl .
 
     otl:Helofytenfilter a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -2275,6 +2174,7 @@ otl:graaf-kennismodel {
 
     otl:Hoofdpompinstallaties a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Hoofdpompinstallaties"@nl .
 
     otl:Hoofdverdeler a skos:Concept ;
@@ -2352,6 +2252,7 @@ otl:graaf-kennismodel {
 
     otl:InEnUitrittenCiviel a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "in- en uitritten civiel"@nl .
 
     otl:InGrondVervaardigdePalen a skos:Concept ;
@@ -2480,6 +2381,7 @@ otl:graaf-kennismodel {
 
     otl:InstallatiesDerden a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Installaties derden"@nl .
 
     otl:Installatieschema a skos:Concept ;
@@ -2516,6 +2418,7 @@ otl:graaf-kennismodel {
 
     otl:Interieur a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Interieur"@nl .
 
     otl:Isolator a skos:Concept ;
@@ -2583,6 +2486,7 @@ otl:graaf-kennismodel {
 
     otl:KabelgotenEnLadders a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Kabelgoten en -ladders"@nl .
 
     otl:Kabellijst a skos:Concept ;
@@ -2780,20 +2684,10 @@ otl:graaf-kennismodel {
         skos:definition "Ketting voor het overdragen van mechanische energie met specifieke ophangpunten aan de uiteinden"@nl ;
         skos:prefLabel "Klepketting"@nl .
 
-    otl:KlimEnLeiplant a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Plant met buigzame stengels die kan klimmen of in een bepaalde groeirichting wordt gedwongen en die zich op diverse manieren aan muren, bomen of constructies hecht en zodoende omhoog klimt."@nl ;
-        skos:prefLabel "Klim- en leiplant"@nl .
-
     otl:Klimaatinstallatie a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Installatie om het klimaat in een afgesloten constructie te regelen."@nl ;
         skos:prefLabel "Klimaatinstallatie"@nl .
-
-    otl:Klimplant a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Plant met buigzame stengels die zich op diverse manieren aan muren, bomen of constructies hecht en zodoende omhoog klimt."@nl ;
-        skos:prefLabel "Klimplant"@nl .
 
     otl:Klimplantconstructie a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -2890,11 +2784,6 @@ otl:graaf-kennismodel {
         skos:definition "Oever of rivierbodem tussen twee kribben in."@nl ;
         skos:prefLabel "Kribvak"@nl .
 
-    otl:KruidachtigePlant a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Een niet of in zeer geringe mate verhoute plant"@nl ;
-        skos:prefLabel "Kruidachtige plant"@nl .
-
     otl:Kruin a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Hoogste punt in het dwarsprofiel van een dijklichaam, krib of een terp"@nl ;
@@ -2956,6 +2845,7 @@ otl:graaf-kennismodel {
 
     otl:Laagspanningsverdeelinrichting a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Laagspanningsverdeelinrichting"@nl .
 
     otl:Ladder a skos:Concept ;
@@ -3039,11 +2929,6 @@ otl:graaf-kennismodel {
         skos:definition "Grondlichaam (deels de oude dijk) om de waterafvoer bij hoogwater te geleiden en in de richting van de loop van de rivier aangebracht."@nl ;
         skos:prefLabel "Leikade"@nl .
 
-    otl:Leiplant a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Plant met buigzame stengels die kan klimmen of in een bepaalde groeirichting gedwongen kan worden."@nl ;
-        skos:prefLabel "Leiplant"@nl .
-
     otl:Lekdetector a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Detector waarbij met behulp van een infrarood warmtecamera de oorzaak van de lekkage precies kan worden opgespoord"@nl ;
@@ -3055,6 +2940,7 @@ otl:graaf-kennismodel {
 
     otl:Lenspompen a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Lenspompen"@nl .
 
     otl:Leuning a skos:Concept ;
@@ -3083,6 +2969,7 @@ otl:graaf-kennismodel {
 
     otl:LichtEnKrachtInstallaties a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Licht en Kracht Installaties"@nl .
 
     otl:Lichtgroepenkast a skos:Concept ;
@@ -3102,6 +2989,7 @@ otl:graaf-kennismodel {
 
     otl:Lichtrooster a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Lichtrooster"@nl .
 
     otl:Lichtstraat a skos:Concept ;
@@ -3121,6 +3009,7 @@ otl:graaf-kennismodel {
 
     otl:LiftenRoltrappenKlimkooi a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Liften / roltrappen / klimkooi"@nl .
 
     otl:Lijnafwatering a skos:Concept ;
@@ -3143,6 +3032,7 @@ otl:graaf-kennismodel {
 
     otl:LokaleBedieningEnBewaking a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Lokale bediening en bewaking"@nl .
 
     otl:Loopbrug a skos:Concept ;
@@ -3170,13 +3060,9 @@ otl:graaf-kennismodel {
         skos:definition "Smalle geleidestrook bestemd voor fauna om een barrière (een weg, water e.d.) te kunnen passeren."@nl ;
         skos:prefLabel "Loopstrook"@nl .
 
-    otl:LosseHaag a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Gesloten, niet, of slechts incidenteel geschoren lijnvormige beplanting met een scheidende functie van houtachtige gewassen, die in een enkele of meerdere rij(en) geplant staan."@nl ;
-        skos:prefLabel "Losse haag"@nl .
-
     otl:LuchtKwaliteitsmetingZichtmeting a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Lucht kwaliteitsmeting / zichtmeting"@nl .
 
     otl:Luchtdroger a skos:Concept ;
@@ -3340,6 +3226,7 @@ otl:graaf-kennismodel {
 
     otl:Middenpompinstallaties a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Middenpompinstallaties"@nl .
 
     otl:Milieuberekening a skos:Concept ;
@@ -3354,21 +3241,6 @@ otl:graaf-kennismodel {
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Apparaat voor het mengen van vloeistoffen"@nl ;
         skos:prefLabel "Mixer"@nl .
-
-    otl:MoerasEnOevervegetatie a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Vegetatie in een uit zichzelf aangenomen rangschikking voorkomend in moerasgebieden-, oevers of terreinen met een natte en/of zachte bodem."@nl ;
-        skos:prefLabel "Moeras- en oevervegetatie"@nl .
-
-    otl:Moerasvegetatie a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Vegetatie in een uit zichzelf aangenomen rangschikking voorkomend in moerasgebieden of terreinen met een natte en/ of zachte bodem."@nl ;
-        skos:prefLabel "Moerasvegetatie"@nl .
-
-    otl:Moeraszeggevegetatie a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Vegetatie in een uit zichzelf aangenomen rangschikking voorkomend in moerasgebieden of terreinen met een natte en/ of zachte bodem en waar overwegende de soort zegge (een kruidachtige plant uit de familie van de cypergrassen, rietgras) voorkomt"@nl ;
-        skos:prefLabel "Moeraszeggevegetatie"@nl .
 
     otl:Monitor a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -3400,20 +3272,10 @@ otl:graaf-kennismodel {
         skos:broaderTransitive otl:Lijst ;
         skos:prefLabel "MSS Tabel"@nl .
 
-    otl:NatteHeide a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Een heide met een open karakter en bestaand uit heidesoorten, grassen, kruidachtigen en mossen in wisselende samenstelling op natte venige gronden."@nl ;
-        skos:prefLabel "Natte heide"@nl .
-
     otl:Natuurgebied a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Veelal beschermde uitgestrekte terreinen met unieke eigenschappen qua flora, fauna, geologische of landschappelijke gesteldheid (biodiversiteit) en door een extreem lage bevolkingsdichtheid nauwelijks wordt beïnvloed door menselijk gedrag."@nl ;
         skos:prefLabel "Natuurgebied"@nl .
-
-    otl:NatuurlijkeGrasvegetatie a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Vegetatie van verschillende kruiden en grassoorten die een (spontaan) aangenomen rangschikking hebben aangenomen en bestaat uit verschillende grassoorten."@nl ;
-        skos:prefLabel "Natuurlijke grasvegetatie"@nl .
 
     otl:Nautofoon a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -3435,11 +3297,6 @@ otl:graaf-kennismodel {
         skos:definition "Vrijwel parallel aan de hoofdstroom gelegen geul die gemaakt is om het hoogwater af te voeren dat niet veilig door de hoofdstroom kan worden afgevoerd"@nl ;
         skos:prefLabel "Nevengeul"@nl .
 
-    otl:NietVrijUitgroeiendeBoom a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Boom waarbij de omgeving voorwaarden stelt aan de wijze van snoeien en waarbij een takvrije zone of een takvrij stamstuk wordt voorgeschreven ofwel menselijke begeleiding is geweest tijdens de ontwikkeling van de boom."@nl ;
-        skos:prefLabel "Niet vrij uitgroeiende boom"@nl .
-
     otl:Nivelleerschuif a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Schuif om water in en uit een sluis te laten"@nl ;
@@ -3456,6 +3313,7 @@ otl:graaf-kennismodel {
 
     otl:NoodbedieningEnBewaking a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Noodbediening en bewaking"@nl .
 
     otl:NooddoucheInstallatie a skos:Concept ;
@@ -3485,6 +3343,7 @@ otl:graaf-kennismodel {
 
     otl:Noodstroomvoorziening a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Noodstroomvoorziening"@nl .
 
     otl:Noodtelefoon a skos:Concept ;
@@ -3499,11 +3358,6 @@ otl:graaf-kennismodel {
     otl:Notitie a skos:Concept ;
         skos:broaderTransitive otl:Mededeling ;
         skos:prefLabel "Notitie"@nl .
-
-    otl:Objectbegroeiing a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Ruimtelijke voorkomen van planten in samenhang met de plaats waar zij groeien en de rankschikking die zij uit zichzelf hebben aangenomen op of aan een object"@nl ;
-        skos:prefLabel "Objectbegroeiing"@nl .
 
     otl:Objectverlichting a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -3714,6 +3568,7 @@ otl:graaf-kennismodel {
 
     otl:OpenbaarNutsbedrijf a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Openbaar nutsbedrijf"@nl .
 
     otl:OpenbareRuimte a skos:Concept ;
@@ -3826,6 +3681,7 @@ otl:graaf-kennismodel {
 
     otl:OverdrukInstallatiePompkelders a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Overdruk installatie pompkelders"@nl .
 
     otl:OverdrukVeiligeRuimte a skos:Concept ;
@@ -3866,11 +3722,6 @@ otl:graaf-kennismodel {
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Beveiligingsmechanisme dat overbelasting van een hijs- of hefinstallatie voorkomt"@nl ;
         skos:prefLabel "Overlastbelastingsbeveiliging"@nl .
-
-    otl:Overspanning a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Constructiedeel van een hijs- en hefinstallatie dat de horizontale verbinding vormt tussen de grijper/ takel en de verticale staander"@nl ;
-        skos:prefLabel "Overspanning"@nl .
 
     otl:Overspanningbeveiliging a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -3961,11 +3812,6 @@ otl:graaf-kennismodel {
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Overkapping, mogelijk voorzien van klim- en leiplanten, voor het creëren van een (natuurlijke) zonwering"@nl ;
         skos:prefLabel "Pergola"@nl .
-
-    otl:Perkplant a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Perkplant is een eenjarige, tweejarige of overblijvende plant, die wordt gebruikt voor tijdelijke tuinversiering, veelal in perken en bloembakken."@nl ;
-        skos:prefLabel "Perkplant"@nl .
 
     otl:Perron a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -4070,6 +3916,7 @@ otl:graaf-kennismodel {
 
     otl:PompEnVentilatieinstallaties a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Pomp- en ventilatieinstallaties"@nl .
 
     otl:Pompinstallatie a skos:Concept ;
@@ -4221,6 +4068,7 @@ otl:graaf-kennismodel {
 
     otl:Rangeerverdelers a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Rangeerverdelers"@nl .
 
     otl:Reclamezuil a skos:Concept ;
@@ -4320,11 +4168,6 @@ otl:graaf-kennismodel {
         skos:definition "Platte band die loopt over twee of meerdere platte wielen voor verplaatsing van goed en/of zorgt het overbrengen van een draaiende beweging van het ene wiel naar een ander wiel"@nl ;
         skos:prefLabel "Riem"@nl .
 
-    otl:Rietvegetatie a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Ruimtelijke massa van plantenindividuen met door hoog opschietend riet gedomineerde vegetatie langs de oever van een water"@nl ;
-        skos:prefLabel "Rietvegetatie"@nl .
-
     otl:RijIJzer a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Stalen voegovergang geïntegreerd in de vloer of het dek van een betonnen constructie van een kunstwerk."@nl ;
@@ -4391,10 +4234,12 @@ otl:graaf-kennismodel {
 
     otl:RolhekkenEnLooppoorten a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Rolhekken en looppoorten"@nl .
 
     otl:RolhekkenEnToegangsdeurenDienstgebouwen a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Rolhekken en toegangsdeuren dienstgebouwen"@nl .
 
     otl:Rolluik a skos:Concept ;
@@ -4454,22 +4299,13 @@ otl:graaf-kennismodel {
 
     otl:RoostervloerMiddentunnelkanaal a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Roostervloer middentunnelkanaal"@nl .
 
     otl:Rotorbeluchter a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Installatiedeel in de vorm van een mechanisch aangedreven, met bortsels voorziene, trommel of rotor die middels roterende bewegingen het influent (afvalwater) beroert om zuurstof toe te voegen en het influent enigzins voort te stuwen"@nl ;
         skos:prefLabel "Rotorbeluchter"@nl .
-
-    otl:RuigeOevervegetatie a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Ruimtelijke massa van planten-individuen langs de oever in de rangschikking die zij uit zichzelf hebben aangenomen bestaande uit hoog opschietende ongelijke vegetaties met veel overjarige kruiden"@nl ;
-        skos:prefLabel "Ruige oevervegetatie"@nl .
-
-    otl:Ruiggras a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Terreindeel met gemaaid(e) gras (vegetatie). Ruiggras wordt onderhouden door het zes tot tien keer per jaar te maaien, afhankelijk van de grondsoort."@nl ;
-        skos:prefLabel "Ruiggras"@nl .
 
     otl:Ruimerinstallatie a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -4684,11 +4520,6 @@ otl:graaf-kennismodel {
         skos:definition "Installatiedeel voor het omploegen van uitgewaterd slib dat zich verplaatst op een lopende transportband"@nl ;
         skos:prefLabel "Shikanen"@nl .
 
-    otl:Sierheester a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Houtige plant, die zich onmiddellijk boven of al in de grond vertakt in een aantal takken, die meer of minder dik kunnen worden, met een maximale hoogte variërend van 1.0 tot 5.0 m."@nl ;
-        skos:prefLabel "Sierheester"@nl .
-
     otl:Sifon a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Kunstwerk om een rivier, beek of poldertocht onder een andere waterloop (watergang) door te leiden die een ander waterpeil heeft. Omdat sifons tevens een waterkerende functie hebben moeten ze aan beide zijden afsluitbaar zijn."@nl ;
@@ -4706,6 +4537,7 @@ otl:graaf-kennismodel {
 
     otl:SignaleringHpPbKasten a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Signalering HP + PB kasten"@nl .
 
     otl:Situatietekening a skos:Concept ;
@@ -4797,6 +4629,7 @@ otl:graaf-kennismodel {
 
     otl:SluitEnZinkvoegen a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Sluit- en zinkvoegen"@nl .
 
     otl:Smeedwerk a skos:Concept ;
@@ -4987,6 +4820,7 @@ otl:graaf-kennismodel {
 
     otl:StoringsmeldsysteemBoss a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Storingsmeldsysteem/BOSS"@nl .
 
     otl:Stormvloedkering a skos:Concept ;
@@ -5240,6 +5074,7 @@ otl:graaf-kennismodel {
 
     otl:Terreinverlichting a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Terreinverlichting"@nl .
 
     otl:Terugslagklep a skos:Concept ;
@@ -5420,6 +5255,7 @@ otl:graaf-kennismodel {
 
     otl:TunnelbuisCiviel a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Tunnelbuis civiel"@nl .
 
     otl:Tunneldeel a skos:Concept ;
@@ -5429,14 +5265,17 @@ otl:graaf-kennismodel {
 
     otl:Tunnelplafond a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Tunnelplafond"@nl .
 
     otl:Tunnelventilatie a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Tunnelventilatie"@nl .
 
     otl:Tunnelwand a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Tunnelwand"@nl .
 
     otl:Turbine a skos:Concept ;
@@ -5446,6 +5285,7 @@ otl:graaf-kennismodel {
 
     otl:TussenRelaisInterfaceStations a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Tussen relais / interface stations"@nl .
 
     otl:Tussenlaag a skos:Concept ;
@@ -5497,6 +5337,7 @@ otl:graaf-kennismodel {
 
     otl:UnDetectieStofidentificatienummers a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "UN-detectie (stofidentificatienummers)"@nl .
 
     otl:Urinoir a skos:Concept ;
@@ -5534,11 +5375,6 @@ otl:graaf-kennismodel {
         skos:definition "Beweegbare constructie die de kinetische energie van een vaartuig op kan vangen als deze een sluisdeur of stormvloedschuif dreigt aan te varen&#13;Deze constructie heeft als doel om te zorgen dat eventuele aanvaring met een belangrijk deel van het object wordt voorkomen. Vangconstructies zijn vaste of beweegbare buffers en/of staalkabels die hangen voor sluisdeuren e.d."@nl ;
         skos:prefLabel "Vangconstructie"@nl .
 
-    otl:VastePlant a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Niet of in zeer geringe mate verhoute plant dat doorgaans een kruidachtig gewas is wat in de herfst tot op de grond afsterft, maar door opslag van reservevoedsel in de ondergrondse delen in het opvolgende jaar weer tot groei komt."@nl ;
-        skos:prefLabel "Vaste plant"@nl .
-
     otl:Vegetatieobject a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Solitair vegetatieobject of lijn- of vlakvormige groep gelijksoortige vegetatieobjecten met een beperkte omvang."@nl ;
@@ -5546,6 +5382,7 @@ otl:graaf-kennismodel {
 
     otl:VeiligheidsPlc a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Veiligheids PLC"@nl .
 
     otl:Veiligheidsplan a skos:Concept ;
@@ -5613,6 +5450,7 @@ otl:graaf-kennismodel {
 
     otl:Verharding a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Verharding"@nl .
 
     otl:VerhardingWegtype1Hoofdwegennet a skos:Concept ;
@@ -5676,6 +5514,7 @@ otl:graaf-kennismodel {
 
     otl:VerkeersgeleidingEnEvacuatieverlichting a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Verkeersgeleiding- en evacuatieverlichting"@nl .
 
     otl:Verkeersgeleidingsverlichting a skos:Concept ;
@@ -5685,6 +5524,7 @@ otl:graaf-kennismodel {
 
     otl:Verkeersinstallaties a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Verkeersinstallaties"@nl .
 
     otl:Verkeersmodel a skos:Concept ;
@@ -5698,10 +5538,12 @@ otl:graaf-kennismodel {
 
     otl:VerlichtingMiddentunnelkanaal a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Verlichting middentunnelkanaal"@nl .
 
     otl:VerlichtingVerkeerstunnels a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Verlichting verkeerstunnels"@nl .
 
     otl:Verlichtingsinstallaties a skos:Concept ;
@@ -5876,6 +5718,7 @@ otl:graaf-kennismodel {
 
     otl:VluchtwegAanduidingVluchtroute a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Vluchtweg aanduiding / vluchtroute"@nl .
 
     otl:Vluchtweginstallatie a skos:Concept ;
@@ -5885,6 +5728,7 @@ otl:graaf-kennismodel {
 
     otl:VluchtweginstallatieVerlichtingEnVasteBorden a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Vluchtweginstallatie (verlichting en vaste borden)"@nl .
 
     otl:VluchtwegverlichtingDynamisch a skos:Concept ;
@@ -5894,10 +5738,12 @@ otl:graaf-kennismodel {
 
     otl:VoedingenHpPbKasten a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Voedingen HP + PB kasten"@nl .
 
     otl:Voedingsinstallatie50V a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Voedingsinstallatie <50V"@nl .
 
     otl:Voegconstructie a skos:Concept ;
@@ -5960,25 +5806,17 @@ otl:graaf-kennismodel {
 
     otl:VoorzieningenHulpdiensten a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Voorzieningen hulpdiensten"@nl .
-
-    otl:Vormboom a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Boom met een groeiwijze waarbij het snoeien is gericht op instandhouding van de gewenste (gecultiveerde)vorm zoals gekandelaberde bomen, knotbomen en leibomen."@nl ;
-        skos:prefLabel "Vormboom"@nl .
 
     otl:VorstbeveiligingEnVerwarming a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "UNKNOWN"@nl ;
         skos:prefLabel "Vorstbeveiliging en verwarming"@nl .
 
     otl:Vraagspecificatie a skos:Concept ;
         skos:broaderTransitive otl:PakketVanEisen ;
         skos:prefLabel "Vraagspecificatie"@nl .
-
-    otl:VrijUitgroeiendeBoom a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Boom waarbij de omgeving geen voorwaarden stelt aan de wijze van snoeien en waarbij geen takvrije zone of een takvrij stamstuk wordt voorgeschreven ofwel menselijke begeleiding is geweest tijdens de ontwikkeling van de boom"@nl ;
-        skos:prefLabel "Vrij uitgroeiende boom"@nl .
 
     otl:Vuilvangrooster a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -6109,11 +5947,6 @@ otl:graaf-kennismodel {
         skos:definition "Installatie voor het distribueren van drinkwater, bedrijfswater, stoom of condens, vanaf de hoofd- of dienstvoeding tot aan de verbruikspunten"@nl ;
         skos:prefLabel "Watertapinstallatie"@nl .
 
-    otl:Watervegetatie a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Ruimtelijke massa van in het water groeiende plantenindividuen in de rangschikking die zij uit zichzelf hebben aangenomen"@nl ;
-        skos:prefLabel "Watervegetatie"@nl .
-
     otl:Waterwegvergunning a skos:Concept ;
         skos:broaderTransitive otl:Vergunning ;
         skos:prefLabel "Waterwegvergunning"@nl .
@@ -6216,11 +6049,6 @@ otl:graaf-kennismodel {
         skos:definition "Molens die bewegingsenergie van de lucht (wind) omzetten in rotatie-energie van de wieken voor het opwekken van elektrische energie"@nl ;
         skos:prefLabel "Windmolen"@nl .
 
-    otl:Windsingel a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Bomenrij die dient als windscherm"@nl ;
-        skos:prefLabel "Windsingel"@nl .
-
     otl:Windverband a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Stabiliteitverband dat ter verstijving in een vlak van een constructie aangebracht kan worden. Vaak betreft het hier een diagonaal verband in een rechthoekig frame."@nl ;
@@ -6298,13 +6126,9 @@ otl:graaf-kennismodel {
 
     otl:Zeestrand a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Deel van het duin dat als waterkering aanwezig moet zijn."@nl ;
+        skos:definition "Deel van het duin dat als waterkering aanwezig moet zijn."@nl,
+            "UNKNOWN"@nl ;
         skos:prefLabel "Zeestrand"@nl .
-
-    otl:ZeeuwseHaag a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Een haag van gesloten, lijnvormige beplanting met een scheidende functie die bestaat uit houtachtige gewassen zoals meidoorn, sleedoorn en veldesdoorn, die in een enkele of meerdere rij(en) geplant staan"@nl ;
-        skos:prefLabel "Zeeuwse haag"@nl .
 
     otl:Zender a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -6572,11 +6396,11 @@ otl:graaf-kennismodel {
         skos:prefLabel "voorkeursurl (GNS)"@nl .
 
     otl:graaf-kennismodel a owl:Ontology ;
-        dct:created "2022-03-23"^^xsd:date ;
+        dct:created "2022-05-20"^^xsd:date ;
         dct:description "Het OTL kennismodel bevat concepten en eigenschappen met hun definities."@nl ;
         dct:title "OTL kennismodel"@nl ;
-        pav:currentVersion otl:graaf-kennismodel-3.1.7 ;
-        pav:derivedFrom "IB RWS Release 20220321" ;
+        pav:currentVersion otl:graaf-kennismodel-3.1.8 ;
+        pav:derivedFrom "IB RWS Release 20220520" ;
         owl:imports dct:,
             geo:,
             skos:,
@@ -6603,9 +6427,9 @@ otl:graaf-kennismodel {
         skos:definition "Uniek identificatienummer voor het object dat onveranderlijk is zolang het object bestaat."@nl ;
         skos:prefLabel "Identificatie"@nl .
 
-    otl:indicatorhoodtransportas a rdf:Property ;
+    otl:indicatorhoofdtransportas a rdf:Property ;
         skos:definition "Een sluis bevindt zich in hoogdtransportas (HTS) of overige vaarwegen. Indicator of een sluis zich in een hoofdtransportas bevindt."@nl ;
-        skos:prefLabel "IndicatorHoodtransportas"@nl .
+        skos:prefLabel "IndicatorHoofdtransportas"@nl .
 
     otl:indicatorzoetnaarzoet a rdf:Property ;
         skos:definition "Indicator of de pomp van het gemaal zoetwater naar zoetwater pompt. Dit heeft te maken met de waterkracht."@nl ;
@@ -6650,6 +6474,10 @@ otl:graaf-kennismodel {
     otl:materiaal a rdf:Property ;
         skos:definition "Stof of materie met een specifieke functie."@nl ;
         skos:prefLabel "Materiaal"@nl .
+
+    otl:merk a rdf:Property ;
+        skos:definition "Naam van het bedrijf."@nl ;
+        skos:prefLabel "Merk"@nl .
 
     otl:naam a rdf:Property ;
         skos:definition "De naam waarmee een kunstwerk wordt aangeduid."@nl ;
@@ -6835,7 +6663,8 @@ otl:graaf-kennismodel {
         skos:prefLabel "TopCoördinaat_RDY"@nl .
 
     otl:type a rdf:Property ;
-        skos:definition "Specifiekere onderverdeling van een ding of concept."@nl ;
+        skos:definition "Soort onderdeel van een bepaald merk."@nl,
+            "Specifiekere onderverdeling van een ding of concept."@nl ;
         skos:prefLabel "Type"@nl .
 
     otl:typemaalcapaciteit a rdf:Property ;

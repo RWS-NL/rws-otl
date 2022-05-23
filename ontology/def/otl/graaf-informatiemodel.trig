@@ -45,10 +45,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -182,10 +184,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -207,10 +211,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -232,10 +238,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -257,10 +265,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -282,10 +292,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -342,10 +354,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -435,10 +449,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -476,10 +492,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -501,10 +519,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -621,10 +641,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -665,10 +687,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -690,10 +714,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -715,10 +741,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -772,10 +800,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -832,10 +862,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -876,10 +908,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -901,10 +935,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -959,10 +995,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -1003,10 +1041,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -1221,10 +1261,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -1246,10 +1288,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -1319,10 +1363,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -1485,10 +1531,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -1510,10 +1558,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -1625,10 +1675,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -1667,10 +1719,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -1692,10 +1746,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -1717,10 +1773,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -1778,10 +1836,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -1875,10 +1935,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -1900,10 +1962,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -1982,10 +2046,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -2026,10 +2092,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -2067,10 +2135,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -2094,22 +2164,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Bezinkbassin>
             }""" ] .
 
-    otl-patroon:Biezenvegetatie a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Biezenvegetatie-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Biezenvegetatie"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Biezenvegetatie>
-            }""" ] .
-
     otl-patroon:BinnenBuitendeurenEnRolluiken a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Binnen-, buitendeuren en rolluiken-concepten"@nl ;
@@ -2127,24 +2181,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BinnenBuitendeurenEnRolluiken>
-            }""" ] .
-
-    otl-patroon:Binnenberm a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Binnenberm-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Binnenberm"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Binnenberm>
             }""" ] .
 
     otl-patroon:Binnenduin a sh:NodeShape ;
@@ -2220,10 +2256,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -2261,10 +2299,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -2306,30 +2346,16 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BodemWaterbodem>
-            }""" ] .
-
-    otl-patroon:BodembedekkendeHeester a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Bodembedekkende heester-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Bodembedekkende heester"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BodembedekkendeHeester>
             }""" ] .
 
     otl-patroon:Bodembedekker a sh:NodeShape ;
@@ -2347,10 +2373,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -2440,23 +2468,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Boiler>
             }""" ] .
 
-    otl-patroon:BolEnKnolgewas a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Bol- en knolgewas-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Bol- en knolgewas"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BolEnKnolgewas>
-            }""" ] .
-
     otl-patroon:Bolder a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Bolder-concepten"@nl ;
@@ -2472,78 +2483,16 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Bolder>
-            }""" ] .
-
-    otl-patroon:Bollen a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Bollen-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Bollen"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Bollen>
-            }""" ] .
-
-    otl-patroon:BomenHoutopstanden a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Bomen/houtopstanden-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Bomen/houtopstanden"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BomenHoutopstanden>
-            }""" ] .
-
-    otl-patroon:Bomenlaan a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Bomenlaan-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Bomenlaan"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Bomenlaan>
-            }""" ] .
-
-    otl-patroon:Bomenrij a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Bomenrij-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Bomenrij"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Bomenrij>
             }""" ] .
 
     otl-patroon:Boog a sh:NodeShape ;
@@ -2561,10 +2510,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -2586,10 +2537,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -2610,55 +2563,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Boombak>
-            }""" ] .
-
-    otl-patroon:Boomgeleiding a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Boomgeleiding-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Boomgeleiding"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Boomgeleiding>
-            }""" ] .
-
-    otl-patroon:Boomgroep a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Boomgroep-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Boomgroep"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Boomgroep>
-            }""" ] .
-
-    otl-patroon:Boomweide a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Boomweide-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Boomweide"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Boomweide>
             }""" ] .
 
     otl-patroon:Bord a sh:NodeShape ;
@@ -2701,10 +2605,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -2761,22 +2667,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Bosgebied>
-            }""" ] .
-
-    otl-patroon:BotanischeRozen a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Botanische rozen-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Botanische rozen"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BotanischeRozen>
             }""" ] .
 
     otl-patroon:Bouwakker a sh:NodeShape ;
@@ -2942,10 +2832,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -3214,10 +3106,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -3239,10 +3133,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -3280,10 +3176,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -3419,10 +3317,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -3444,10 +3344,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -3469,10 +3371,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -3564,10 +3468,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -3707,10 +3613,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -3767,10 +3675,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -3792,10 +3702,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -3834,10 +3746,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -3912,10 +3826,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -4004,10 +3920,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -4029,10 +3947,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -4054,10 +3974,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -4079,10 +4001,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -4136,10 +4060,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -4161,10 +4087,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -4219,10 +4147,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -4351,10 +4281,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -4392,10 +4324,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -4549,10 +4483,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -4614,10 +4550,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -4655,10 +4593,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -4715,10 +4655,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -4756,10 +4698,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -4797,10 +4741,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -4854,10 +4800,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -4895,22 +4843,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Drinkwaterinlaat>
-            }""" ] .
-
-    otl-patroon:DrogeHeide a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Droge heide-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Droge heide"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/DrogeHeide>
             }""" ] .
 
     otl-patroon:Droogzetvoorziening a sh:NodeShape ;
@@ -5096,10 +5028,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -5161,10 +5095,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -5211,22 +5147,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Ecoduct>
             }""" ] .
 
-    otl-patroon:EenEnTweejarigePerkplant a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Eén- en tweejarige perkplant-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Eén- en tweejarige perkplant"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/EenEnTweejarigePerkplant>
-            }""" ] .
-
     otl-patroon:Elektromotor a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Elektromotor-concepten"@nl ;
@@ -5242,10 +5162,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -5283,10 +5205,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -5308,10 +5232,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -5333,10 +5259,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -5396,10 +5324,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -5436,22 +5366,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Evenwichtstoestel>
-            }""" ] .
-
-    otl-patroon:ExtensiefGazon a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Extensief gazon-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Extensief gazon"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/ExtensiefGazon>
             }""" ] .
 
     otl-patroon:Fantasietoestel a sh:NodeShape ;
@@ -5626,10 +5540,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -5715,10 +5631,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -5740,10 +5658,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -5800,10 +5720,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -5850,10 +5772,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -5927,10 +5851,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -5989,22 +5915,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Gasinstallatie>
-            }""" ] .
-
-    otl-patroon:Gazon a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Gazon-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Gazon"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Gazon>
             }""" ] .
 
     otl-patroon:GebouwInstallatie a sh:NodeShape ;
@@ -6097,10 +6007,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -6141,10 +6053,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -6182,10 +6096,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -6227,10 +6143,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -6268,10 +6186,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -6378,10 +6298,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -6423,46 +6345,16 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Geotextiel>
-            }""" ] .
-
-    otl-patroon:GeschorenHaag a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Geschoren haag-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Geschoren haag"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/GeschorenHaag>
-            }""" ] .
-
-    otl-patroon:GeschorenHeestervak a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Geschoren heestervak-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Geschoren heestervak"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/GeschorenHeestervak>
             }""" ] .
 
     otl-patroon:GestrekteOeverNatuurvriendelijk a sh:NodeShape ;
@@ -6653,10 +6545,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -6678,10 +6572,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -6754,10 +6650,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -6853,22 +6751,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Greppel>
             }""" ] .
 
-    otl-patroon:Grienden a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Grienden-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Grienden"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Grienden>
-            }""" ] .
-
     otl-patroon:Grijper a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Grijper-concepten"@nl ;
@@ -6900,10 +6782,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -6977,10 +6861,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -7019,47 +6905,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/HPalen>
             }""" ] .
 
-    otl-patroon:Haag a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Haag-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Haag"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort,
-            otl-patroon:wisseldeelindicator ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Haag>
-            }""" ] .
-
-    otl-patroon:Haagwindscherm a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Haagwindscherm-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Haagwindscherm"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Haagwindscherm>
-            }""" ] .
-
     otl-patroon:Haalkom a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Haalkom-concepten"@nl ;
@@ -7075,54 +6920,16 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Haalkom>
-            }""" ] .
-
-    otl-patroon:Hakhout a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Hakhout-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Hakhout"@nl ;
-        sh:property otl-patroon:barcode,
-            otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:datuminbedrijfname,
-            otl-patroon:datumuitbedrijf,
-            otl-patroon:discipline,
-            otl-patroon:garantietermijn,
-            otl-patroon:huidigeleeftijd,
-            otl-patroon:id,
-            otl-patroon:materiaal,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:qrCode,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Hakhout>
-            }""" ] .
-
-    otl-patroon:Halfheester a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Halfheester-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Halfheester"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Halfheester>
             }""" ] .
 
     otl-patroon:HalfverhardSportveld a sh:NodeShape ;
@@ -7156,10 +6963,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -7261,10 +7070,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -7387,10 +7198,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -7412,30 +7225,16 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Heester>
-            }""" ] .
-
-    otl-patroon:Heesterrozen a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Heesterrozen-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Heesterrozen"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Heesterrozen>
             }""" ] .
 
     otl-patroon:Hefdeur a sh:NodeShape ;
@@ -7453,10 +7252,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -7514,10 +7315,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -7592,22 +7395,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Hellingkelders>
-            }""" ] .
-
-    otl-patroon:Helmgras a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Helmgras-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Helmgras"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Helmgras>
             }""" ] .
 
     otl-patroon:Helofytenfilter a sh:NodeShape ;
@@ -7836,10 +7623,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -8001,10 +7790,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -8129,10 +7920,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -8273,10 +8066,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -8331,10 +8126,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -8457,10 +8254,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -8501,10 +8300,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -8526,10 +8327,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -8653,10 +8456,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -8768,10 +8573,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -8910,10 +8717,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -8944,6 +8753,7 @@ otl:graaf-informatiemodel {
             otl-patroon:inwinnendeinstantie,
             otl-patroon:lvpublicatiedatum,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:objectbegintijd,
             otl-patroon:objecteindtijd,
@@ -8953,6 +8763,7 @@ otl:graaf-informatiemodel {
             otl-patroon:qrCode,
             otl-patroon:relatievehoogteligging,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -9009,10 +8820,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -9052,7 +8865,7 @@ otl:graaf-informatiemodel {
             otl-patroon:functioneleindeling,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
-            otl-patroon:indicatorhoodtransportas,
+            otl-patroon:indicatorhoofdtransportas,
             otl-patroon:indicatorzoetwater,
             otl-patroon:indicatorzoutwater,
             otl-patroon:lengte,
@@ -9156,10 +8969,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -9201,10 +9016,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -9242,10 +9059,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -9398,10 +9217,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -9423,10 +9244,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -9468,31 +9291,16 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Klepketting>
-            }""" ] .
-
-    otl-patroon:KlimEnLeiplant a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Klim- en leiplant-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Klim- en leiplant"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/KlimEnLeiplant>
             }""" ] .
 
     otl-patroon:Klimaatinstallatie a sh:NodeShape ;
@@ -9512,22 +9320,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Klimaatinstallatie>
-            }""" ] .
-
-    otl-patroon:Klimplant a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Klimplant-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Klimplant"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Klimplant>
             }""" ] .
 
     otl-patroon:Klimplantconstructie a sh:NodeShape ;
@@ -9641,10 +9433,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -9666,10 +9460,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -9691,10 +9487,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -9732,10 +9530,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -9859,10 +9659,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -9886,22 +9688,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Kribvak>
-            }""" ] .
-
-    otl-patroon:KruidachtigePlant a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Kruidachtige plant-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Kruidachtige plant"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/KruidachtigePlant>
             }""" ] .
 
     otl-patroon:Kruin a sh:NodeShape ;
@@ -9954,10 +9740,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -10058,10 +9846,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -10157,10 +9947,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -10267,10 +10059,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -10292,10 +10086,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -10318,10 +10114,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -10402,22 +10200,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Leikade>
             }""" ] .
 
-    otl-patroon:Leiplant a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Leiplant-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Leiplant"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Leiplant>
-            }""" ] .
-
     otl-patroon:Lekdetector a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Lekdetector-concepten"@nl ;
@@ -10468,10 +10250,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -10493,10 +10277,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -10572,10 +10358,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -10613,10 +10401,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -10743,10 +10533,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -10806,10 +10598,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -10831,10 +10625,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -10872,30 +10668,16 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Loopstrook>
-            }""" ] .
-
-    otl-patroon:LosseHaag a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Losse haag-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Losse haag"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/LosseHaag>
             }""" ] .
 
     otl-patroon:LuchtKwaliteitsmetingZichtmeting a sh:NodeShape ;
@@ -10964,10 +10746,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -10989,10 +10773,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -11014,10 +10800,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -11039,10 +10827,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -11165,6 +10955,7 @@ otl:graaf-informatiemodel {
             otl-patroon:inwinnendeinstantie,
             otl-patroon:lvpublicatiedatum,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:objectbegintijd,
             otl-patroon:objecteindtijd,
@@ -11174,6 +10965,7 @@ otl:graaf-informatiemodel {
             otl-patroon:qrCode,
             otl-patroon:relatievehoogteligging,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -11228,10 +11020,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -11253,10 +11047,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -11297,10 +11093,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -11405,10 +11203,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -11466,55 +11266,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Mixer>
             }""" ] .
 
-    otl-patroon:MoerasEnOevervegetatie a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Moeras- en oevervegetatie-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Moeras- en oevervegetatie"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/MoerasEnOevervegetatie>
-            }""" ] .
-
-    otl-patroon:Moerasvegetatie a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Moerasvegetatie-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Moerasvegetatie"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Moerasvegetatie>
-            }""" ] .
-
-    otl-patroon:Moeraszeggevegetatie a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Moeraszeggevegetatie-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Moeraszeggevegetatie"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Moeraszeggevegetatie>
-            }""" ] .
-
     otl-patroon:Monitor a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Monitor-concepten"@nl ;
@@ -11530,10 +11281,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -11556,22 +11309,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Monsternameapparaat>
             }""" ] .
 
-    otl-patroon:NatteHeide a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Natte heide-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Natte heide"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/NatteHeide>
-            }""" ] .
-
     otl-patroon:Natuurgebied a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Natuurgebied-concepten"@nl ;
@@ -11587,22 +11324,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Natuurgebied>
-            }""" ] .
-
-    otl-patroon:NatuurlijkeGrasvegetatie a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Natuurlijke grasvegetatie-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Natuurlijke grasvegetatie"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/NatuurlijkeGrasvegetatie>
             }""" ] .
 
     otl-patroon:Nautofoon a sh:NodeShape ;
@@ -11675,22 +11396,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Nevengeul>
             }""" ] .
 
-    otl-patroon:NietVrijUitgroeiendeBoom a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Niet vrij uitgroeiende boom-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Niet vrij uitgroeiende boom"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/NietVrijUitgroeiendeBoom>
-            }""" ] .
-
     otl-patroon:Nivelleerschuif a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Nivelleerschuif-concepten"@nl ;
@@ -11706,10 +11411,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -11788,10 +11495,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -11813,10 +11522,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -11896,22 +11607,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Noodtelefoon>
             }""" ] .
 
-    otl-patroon:Objectbegroeiing a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Objectbegroeiing-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Objectbegroeiing"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Objectbegroeiing>
-            }""" ] .
-
     otl-patroon:Objectverlichting a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Objectverlichting-concepten"@nl ;
@@ -11946,10 +11641,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -12006,10 +11703,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -12343,10 +12042,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -12420,10 +12121,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -12445,10 +12148,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -12503,10 +12208,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -12687,10 +12394,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -12713,10 +12422,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -12759,10 +12470,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -12784,10 +12497,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -12874,10 +12589,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -13054,10 +12771,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -13145,23 +12864,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Overlastbelastingsbeveiliging>
             }""" ] .
 
-    otl-patroon:Overspanning a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Overspanning-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Overspanning"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:functioneleindeling,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Overspanning>
-            }""" ] .
-
     otl-patroon:Overspanningbeveiliging a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Overspanningbeveiliging-concepten"@nl ;
@@ -13177,10 +12879,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -13202,10 +12906,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -13252,6 +12958,7 @@ otl:graaf-informatiemodel {
             otl-patroon:inwinnendeinstantie,
             otl-patroon:lvpublicatiedatum,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:objectbegintijd,
             otl-patroon:objecteindtijd,
@@ -13261,6 +12968,7 @@ otl:graaf-informatiemodel {
             otl-patroon:qrCode,
             otl-patroon:relatievehoogteligging,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -13282,10 +12990,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -13307,10 +13017,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -13371,10 +13083,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -13451,14 +13165,22 @@ otl:graaf-informatiemodel {
         sh:description "Basispatroon voor het vastleggen van Peilbuizen-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
         sh:name "Peilbuizen"@nl ;
-        sh:property otl-patroon:bouwdatum,
+        sh:property otl-patroon:barcode,
+            otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datuminbedrijfname,
+            otl-patroon:datumuitbedrijf,
             otl-patroon:discipline,
+            otl-patroon:garantietermijn,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
+            otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
+            otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -13480,10 +13202,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -13520,23 +13244,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Pergola>
-            }""" ] .
-
-    otl-patroon:Perkplant a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Perkplant-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Perkplant"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Perkplant>
             }""" ] .
 
     otl-patroon:Perron a sh:NodeShape ;
@@ -13645,10 +13352,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -13707,10 +13416,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -13783,10 +13494,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -13808,10 +13521,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -13833,10 +13548,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -13878,6 +13595,7 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
@@ -14000,10 +13718,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -14058,10 +13778,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -14099,10 +13821,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -14157,10 +13881,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -14182,10 +13908,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -14290,10 +14018,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -14315,10 +14045,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -14388,10 +14120,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -14481,10 +14215,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -14573,10 +14309,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -14598,10 +14336,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -14639,10 +14379,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -14687,10 +14429,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -14712,10 +14456,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -14773,22 +14519,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Riem>
             }""" ] .
 
-    otl-patroon:Rietvegetatie a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Rietvegetatie-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Rietvegetatie"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Rietvegetatie>
-            }""" ] .
-
     otl-patroon:RijIJzer a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Rij-ijzer-concepten"@nl ;
@@ -14804,10 +14534,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -14829,10 +14561,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -14873,10 +14607,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -14934,10 +14670,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -14991,10 +14729,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -15185,10 +14925,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -15284,38 +15026,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Rotorbeluchter>
             }""" ] .
 
-    otl-patroon:RuigeOevervegetatie a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Ruige oevervegetatie-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Ruige oevervegetatie"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/RuigeOevervegetatie>
-            }""" ] .
-
-    otl-patroon:Ruiggras a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Ruiggras-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Ruiggras"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Ruiggras>
-            }""" ] .
-
     otl-patroon:Ruimerinstallatie a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Ruimerinstallatie-concepten"@nl ;
@@ -15350,10 +15060,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -15410,10 +15122,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -15435,10 +15149,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -15495,10 +15211,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -15520,10 +15238,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -15564,10 +15284,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -15633,10 +15355,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -15709,10 +15433,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -15766,10 +15492,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -15811,10 +15539,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -15852,10 +15582,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -15925,10 +15657,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -15950,10 +15684,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -16011,10 +15747,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -16051,7 +15789,7 @@ otl:graaf-informatiemodel {
             otl-patroon:functioneleindeling,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
-            otl-patroon:indicatorhoodtransportas,
+            otl-patroon:indicatorhoofdtransportas,
             otl-patroon:indicatorzoetwater,
             otl-patroon:indicatorzoutwater,
             otl-patroon:lengte,
@@ -16095,6 +15833,7 @@ otl:graaf-informatiemodel {
             otl-patroon:inwinnendeinstantie,
             otl-patroon:lvpublicatiedatum,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:objectbegintijd,
             otl-patroon:objecteindtijd,
@@ -16104,6 +15843,7 @@ otl:graaf-informatiemodel {
             otl-patroon:qrCode,
             otl-patroon:relatievehoogteligging,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -16125,10 +15865,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -16149,22 +15891,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Shikanen>
-            }""" ] .
-
-    otl-patroon:Sierheester a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Sierheester-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Sierheester"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Sierheester>
             }""" ] .
 
     otl-patroon:Sifon a sh:NodeShape ;
@@ -16215,10 +15941,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -16323,10 +16051,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -16401,10 +16131,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -16445,10 +16177,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -16587,10 +16321,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -16859,10 +16595,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -16929,10 +16667,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -17095,10 +16835,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -17157,10 +16899,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -17182,10 +16926,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -17207,10 +16953,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -17347,10 +17095,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -17458,10 +17208,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -17483,10 +17235,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -17508,10 +17262,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -17630,10 +17386,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -17655,10 +17413,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -17696,10 +17456,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -17737,10 +17499,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -17762,10 +17526,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -17839,10 +17605,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -17880,10 +17648,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -18391,10 +18161,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -18467,10 +18239,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -18524,10 +18298,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -18549,10 +18325,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -18874,10 +18652,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -19045,10 +18825,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -19072,23 +18854,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Vangconstructie>
-            }""" ] .
-
-    otl-patroon:VastePlant a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Vaste plant-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Vaste plant"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/VastePlant>
             }""" ] .
 
     otl-patroon:Vegetatieobject a sh:NodeShape ;
@@ -19149,10 +18914,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -19190,10 +18957,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -19289,10 +19058,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -19315,10 +19086,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -19340,10 +19113,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -19551,10 +19326,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -19812,10 +19589,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -19838,10 +19617,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -19863,10 +19644,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -19888,10 +19671,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -19967,10 +19752,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -20151,10 +19938,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -20176,10 +19965,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -20253,10 +20044,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -20443,10 +20236,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -20468,10 +20263,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -20546,10 +20343,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -20645,22 +20444,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/VoorzieningenHulpdiensten>
             }""" ] .
 
-    otl-patroon:Vormboom a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Vormboom-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Vormboom"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Vormboom>
-            }""" ] .
-
     otl-patroon:VorstbeveiligingEnVerwarming a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Vorstbeveiliging en verwarming-concepten"@nl ;
@@ -20680,22 +20463,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/VorstbeveiligingEnVerwarming>
             }""" ] .
 
-    otl-patroon:VrijUitgroeiendeBoom a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Vrij uitgroeiende boom-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Vrij uitgroeiende boom"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/VrijUitgroeiendeBoom>
-            }""" ] .
-
     otl-patroon:Vuilvangrooster a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Vuilvangrooster-concepten"@nl ;
@@ -20711,10 +20478,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -20835,10 +20604,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -21085,10 +20856,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -21168,23 +20941,6 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Watertapinstallatie>
-            }""" ] .
-
-    otl-patroon:Watervegetatie a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Watervegetatie-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Watervegetatie"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving,
-            otl-patroon:soort ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Watervegetatie>
             }""" ] .
 
     otl-patroon:Weerhut a sh:NodeShape ;
@@ -21428,10 +21184,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -21527,22 +21285,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Windmolen>
             }""" ] .
 
-    otl-patroon:Windsingel a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Windsingel-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Windsingel"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Windsingel>
-            }""" ] .
-
     otl-patroon:Windverband a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Windverband-concepten"@nl ;
@@ -21558,10 +21300,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -21634,10 +21378,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -21659,10 +21405,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -21684,10 +21432,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -21806,10 +21556,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -21852,22 +21604,6 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Zeestrand>
             }""" ] .
 
-    otl-patroon:ZeeuwseHaag a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Zeeuwse haag-concepten"@nl ;
-        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Zeeuwse haag"@nl ;
-        sh:property otl-patroon:bouwdatum,
-            otl-patroon:bouwjaar,
-            otl-patroon:discipline,
-            otl-patroon:id,
-            otl-patroon:naam,
-            otl-patroon:omschrijving ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/ZeeuwseHaag>
-            }""" ] .
-
     otl-patroon:Zender a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Zender-concepten"@nl ;
@@ -21883,10 +21619,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -21975,10 +21713,12 @@ otl:graaf-informatiemodel {
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:materiaal,
+            otl-patroon:merk,
             otl-patroon:naam,
             otl-patroon:omschrijving,
             otl-patroon:qrCode,
             otl-patroon:soort,
+            otl-patroon:type,
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
@@ -22175,21 +21915,14 @@ otl:graaf-informatiemodel {
         sh:pattern "^https:\\/\\/data\\.rws\\.nl\\/id\\/a\\/\\w+-\\S+$" .
 
     otl:graaf-informatiemodel a owl:Ontology ;
-        dct:created "2022-03-23"^^xsd:date ;
+        dct:created "2022-05-20"^^xsd:date ;
         dct:description "Het OTL informatiemodel bevat informatie over de mogelijke eigenschappen van objecttypen."@nl ;
         dct:title "OTL informatiemodel"@nl ;
-        pav:currentVersion otl:graaf-informatiemodel-3.1.7 ;
-        pav:derivedFrom "IB RWS Release 20220321" ;
+        pav:currentVersion otl:graaf-informatiemodel-3.1.8 ;
+        pav:derivedFrom "IB RWS Release 20220520" ;
         owl:imports qudt:,
             sh:,
             otl:graaf-kennismodel .
-
-    otl-patroon:ComplexString a sh:NodeShape ;
-        sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van complexe eigenschappen van datatype string"@nl ;
-        sh:name "string"@nl ;
-        sh:property otl-patroon:stringValueShape,
-            otl-patroon:unitShape .
 
     otl-patroon:Document-beheerObjectcode a sh:PropertyShape ;
         sh:datatype xsd:string ;
@@ -22870,15 +22603,6 @@ otl:graaf-informatiemodel {
         sh:nodeKind sh:Literal ;
         sh:path otl:schutspeilminimaal .
 
-    otl-patroon:stringValueShape a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "string-patroon"@nl ;
-        sh:maxCount 1 ;
-        sh:minCount 1 ;
-        sh:name "string"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path rdf:value .
-
     otl-patroon:topcode a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "Topcode-patroon"@nl ;
@@ -22917,10 +22641,10 @@ otl:graaf-informatiemodel {
         sh:nodeKind sh:Literal ;
         sh:path otl:drempeldiepte .
 
-    otl-patroon:indicatorhoodtransportas a sh:PropertyShape ;
-        sh:description "IndicatorHoodtransportas-patroon"@nl ;
-        sh:name "IndicatorHoodtransportas"@nl ;
-        sh:path otl:indicatorhoodtransportas .
+    otl-patroon:indicatorhoofdtransportas a sh:PropertyShape ;
+        sh:description "IndicatorHoofdtransportas-patroon"@nl ;
+        sh:name "IndicatorHoofdtransportas"@nl ;
+        sh:path otl:indicatorhoofdtransportas .
 
     otl-patroon:ComplexPropertyNode a sh:NodeShape ;
         sh:closed true ;
@@ -22959,6 +22683,14 @@ otl:graaf-informatiemodel {
         sh:nodeKind sh:Literal ;
         sh:path otl:niveaudekzerk .
 
+    otl-patroon:unitShape a sh:PropertyShape ;
+        sh:class qudt:Unit ;
+        sh:description "eenheid-patroon"@nl ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:name "eenheid"@nl ;
+        sh:path qudt:unit .
+
     otl-patroon:cemtKlasse a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "CEMT-klasse-patroon"@nl ;
@@ -22975,21 +22707,6 @@ otl:graaf-informatiemodel {
         sh:description "OpTaludIndicator-patroon"@nl ;
         sh:name "OpTaludIndicator"@nl ;
         sh:path otl:optaludindicator .
-
-    otl-patroon:type a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "Type-patroon"@nl ;
-        sh:name "Type"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:type .
-
-    otl-patroon:unitShape a sh:PropertyShape ;
-        sh:class qudt:Unit ;
-        sh:description "eenheid-patroon"@nl ;
-        sh:maxCount 1 ;
-        sh:minCount 1 ;
-        sh:name "eenheid"@nl ;
-        sh:path qudt:unit .
 
     otl-patroon:ComplexPositiveInteger a sh:NodeShape ;
         sh:closed true ;
@@ -23012,6 +22729,13 @@ otl:graaf-informatiemodel {
         sh:nodeKind sh:Literal ;
         sh:path otl:verkeersklasse .
 
+    otl-patroon:functioneleindeling a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "FunctioneleIndeling-patroon"@nl ;
+        sh:name "FunctioneleIndeling"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:functioneleindeling .
+
     otl-patroon:topcoordinaatRdx a sh:PropertyShape ;
         sh:description "TopCoördinaat_RDX-patroon"@nl ;
         sh:name "TopCoördinaat_RDX"@nl ;
@@ -23023,12 +22747,6 @@ otl:graaf-informatiemodel {
         sh:name "TopCoördinaat_RDY"@nl ;
         sh:node otl-patroon:ComplexDecimal ;
         sh:path otl:topcoordinaatRdy .
-
-    otl-patroon:functioneleindeling a sh:PropertyShape ;
-        sh:description "FunctioneleIndeling-patroon"@nl ;
-        sh:name "FunctioneleIndeling"@nl ;
-        sh:node otl-patroon:ComplexString ;
-        sh:path otl:functioneleindeling .
 
     otl-patroon:breedte a sh:PropertyShape ;
         sh:description "Breedte-patroon"@nl ;
@@ -23111,6 +22829,13 @@ otl:graaf-informatiemodel {
         sh:nodeKind sh:Literal ;
         sh:path otl:relatievehoogteligging .
 
+    otl-patroon:merk a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "Merk-patroon"@nl ;
+        sh:name "Merk"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:merk .
+
     otl-patroon:barcode a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "Barcode-patroon"@nl ;
@@ -23142,6 +22867,13 @@ otl:graaf-informatiemodel {
         sh:nodeKind sh:Literal ;
         sh:path otl:qrCode .
 
+    otl-patroon:type a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "Type-patroon"@nl ;
+        sh:name "Type"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:type .
+
     otl-patroon:materiaal a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "Materiaal-patroon"@nl ;
@@ -23149,17 +22881,17 @@ otl:graaf-informatiemodel {
         sh:nodeKind sh:Literal ;
         sh:path otl:materiaal .
 
-    otl-patroon:wisseldeelindicator a sh:PropertyShape ;
-        sh:description "WisseldeelIndicator-patroon"@nl ;
-        sh:name "WisseldeelIndicator"@nl ;
-        sh:path otl:wisseldeelindicator .
-
     otl-patroon:huidigeleeftijd a sh:PropertyShape ;
         sh:datatype xsd:positiveInteger ;
         sh:description "HuidigeLeeftijd-patroon"@nl ;
         sh:name "HuidigeLeeftijd"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:huidigeleeftijd .
+
+    otl-patroon:wisseldeelindicator a sh:PropertyShape ;
+        sh:description "WisseldeelIndicator-patroon"@nl ;
+        sh:name "WisseldeelIndicator"@nl ;
+        sh:path otl:wisseldeelindicator .
 
     otl-patroon:soort a sh:PropertyShape ;
         sh:datatype xsd:string ;
