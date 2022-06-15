@@ -2086,11 +2086,11 @@ otl:graaf-otl-abdl-linkset {
     otl:Zonweringsinstallatie dct:conformsTo abdl:DEF-4523 .
 
     otl:graaf-otl-abdl-linkset a void:Linkset ;
-        dct:created "2022-05-31"^^xsd:date ;
+        dct:created "2022-06-13"^^xsd:date ;
         dct:description "De OTL-ABDL linkset legt een koppeling tussen OTL-concepten en ABDL-concepten."@nl ;
         dct:title "OTL-ABDL linkset"@nl ;
-        pav:currentVersion otl:graaf-otl-abdl-linkset-3.1.9 ;
-        pav:derivedFrom "IB RWS Release 20220531" ;
+        pav:currentVersion otl:graaf-otl-abdl-linkset-3.1.10 ;
+        pav:derivedFrom "IB RWS Release 20220609" ;
         void:objectsTarget abdl: ;
         void:subjectsTarget otl:graaf-kennismodel ;
         owl:imports abdl:,

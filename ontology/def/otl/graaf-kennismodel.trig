@@ -6006,6 +6006,10 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:definition "Afstand tussen de liggers (hart op hart)."@nl ;
         skos:prefLabel "AfstandHoofdLiggers"@nl .
 
+    otl:alias a rdf:Property ;
+        skos:definition "Lokale, informele  benaming van een object."@nl ;
+        skos:prefLabel "Alias"@nl .
+
     otl:asWKT-RD a rdf:Property ;
         rdfs:subPropertyOf geo:asWKT ;
         skos:definition "Een subproperty van geo:asWKT om aan te duiden dat de hierop volgende geometrie Rijkdsdriehoek coordinaten zal bevatten."@nl ;
@@ -6131,9 +6135,17 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
     otl:datum a rdf:Property ;
         skos:prefLabel "Datum"@nl .
 
+    otl:datumaanleg a rdf:Property ;
+        skos:definition "Datum waarop een asset is aangelegd"@nl ;
+        skos:prefLabel "DatumAanleg"@nl .
+
     otl:datuminbedrijfname a rdf:Property ;
         skos:definition "Datum waarop een asset in gebruik is genomen"@nl ;
         skos:prefLabel "DatumInBedrijfName"@nl .
+
+    otl:datumoplevering a rdf:Property ;
+        skos:definition "Datum waarop een assest is opgeleverd."@nl ;
+        skos:prefLabel "DatumOplevering"@nl .
 
     otl:datumtijdeindregistratie a rdf:Property ;
         skos:definition "Eind van de periode waarop deze instantie van het object geldig is bij de bronhouder. Wanneer deze waarde niet is ingevuld is de instantie nog geldig."@nl ;
@@ -6187,11 +6199,11 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:prefLabel "voorkeursurl (GNS)"@nl .
 
     otl:graaf-kennismodel a owl:Ontology ;
-        dct:created "2022-05-31"^^xsd:date ;
+        dct:created "2022-06-13"^^xsd:date ;
         dct:description "Het OTL kennismodel bevat concepten en eigenschappen met hun definities."@nl ;
         dct:title "OTL kennismodel"@nl ;
-        pav:currentVersion otl:graaf-kennismodel-3.1.9 ;
-        pav:derivedFrom "IB RWS Release 20220531" ;
+        pav:currentVersion otl:graaf-kennismodel-3.1.10 ;
+        pav:derivedFrom "IB RWS Release 20220609" ;
         owl:imports dct:,
             geo:,
             skos:,
@@ -6454,7 +6466,8 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:prefLabel "TopCoördinaat_RDY"@nl .
 
     otl:type a rdf:Property ;
-        skos:definition "Soort onderdeel van een bepaald merk."@nl ;
+        skos:definition "Karakterisering van een asset op basis van onderscheidende kenmerken (voor zover dit niet  tot uitdrukking is gebracht in de assettypenaam)."@nl,
+            "Soort onderdeel van een bepaald merk."@nl ;
         skos:prefLabel "Type"@nl .
 
     otl:typemaalcapaciteit a rdf:Property ;

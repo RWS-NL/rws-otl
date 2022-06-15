@@ -61,6 +61,8 @@ otl:graaf-informatiemodel {
         sh:name "Aandrijving en bewegingswerk (elektrohydraulisch)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -78,6 +80,8 @@ otl:graaf-informatiemodel {
         sh:name "Aandrijving en bewegingswerk (elektromechanisch)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -95,6 +99,8 @@ otl:graaf-informatiemodel {
         sh:name "Aandrijving en bewegingswerk (mechanisch)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -291,6 +297,8 @@ otl:graaf-informatiemodel {
         sh:name "Aarding- en bliksembeveiligingsinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -525,6 +533,8 @@ otl:graaf-informatiemodel {
         sh:name "Afscheiderinstallatie (dynamisch)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -542,6 +552,8 @@ otl:graaf-informatiemodel {
         sh:name "Afscheiderinstallatie (statisch)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -619,6 +631,8 @@ otl:graaf-informatiemodel {
         sh:name "Afsluitboominstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -1398,6 +1412,8 @@ otl:graaf-informatiemodel {
         sh:name "Bedienings- en besturingsinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -1670,6 +1686,8 @@ otl:graaf-informatiemodel {
         sh:name "Beluchtingsinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -1849,6 +1867,8 @@ otl:graaf-informatiemodel {
         sh:name "Besturingsinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -2039,6 +2059,8 @@ otl:graaf-informatiemodel {
         sh:name "Binnenverlichting"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -2519,6 +2541,8 @@ otl:graaf-informatiemodel {
         sh:name "Brandblusinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -2536,6 +2560,8 @@ otl:graaf-informatiemodel {
         sh:name "Brandblusinstallaties"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -2629,6 +2655,8 @@ otl:graaf-informatiemodel {
         sh:name "Brandmeld- en ontruimingsinstallatie (BMI)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -2646,6 +2674,8 @@ otl:graaf-informatiemodel {
         sh:name "Brandmeldinstallatie in de tunnel"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -2742,6 +2772,7 @@ otl:graaf-informatiemodel {
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
         sh:name "Brug (beweegbaar)"@nl ;
         sh:property otl-patroon:afstandhoofdliggers,
+            otl-patroon:alias,
             otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
             otl-patroon:breedte,
@@ -2768,7 +2799,8 @@ otl:graaf-informatiemodel {
         sh:description "Basispatroon voor het vastleggen van Brug (vast)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
         sh:name "Brug (vast)"@nl ;
-        sh:property otl-patroon:bouwdatum,
+        sh:property otl-patroon:alias,
+            otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
             otl-patroon:functioneleindeling,
             otl-patroon:geometrie-brugvast,
@@ -2971,6 +3003,8 @@ otl:graaf-informatiemodel {
         sh:name "Calamiteiten Doorsteek installatie (CADO)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -3066,6 +3100,8 @@ otl:graaf-informatiemodel {
         sh:name "Centrale Antenne Installatie (CAI)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -3141,6 +3177,8 @@ otl:graaf-informatiemodel {
         sh:name "Closed Circuit TeleVision installatie (CCTV)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -3222,6 +3260,8 @@ otl:graaf-informatiemodel {
         sh:name "Communicatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -3281,6 +3321,8 @@ otl:graaf-informatiemodel {
         sh:name "Compressorinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -3502,6 +3544,8 @@ otl:graaf-informatiemodel {
         sh:name "Dataloginstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -3832,6 +3876,8 @@ otl:graaf-informatiemodel {
         sh:name "Digitale audio-opslag"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -3849,6 +3895,8 @@ otl:graaf-informatiemodel {
         sh:name "Digitale beeld-opslag"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -3950,6 +3998,8 @@ otl:graaf-informatiemodel {
         sh:name "Diverse installaties"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -4477,6 +4527,8 @@ otl:graaf-informatiemodel {
         sh:name "Drukluchtschuiminstallatie (DLS)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -4650,6 +4702,8 @@ otl:graaf-informatiemodel {
         sh:name "Duurzame energiebron"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -4694,6 +4748,8 @@ otl:graaf-informatiemodel {
         sh:name "Dynamische bewegwijzering en informatie systemen"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -4709,7 +4765,8 @@ otl:graaf-informatiemodel {
         sh:description "Basispatroon voor het vastleggen van Ecoduct-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
         sh:name "Ecoduct"@nl ;
-        sh:property otl-patroon:bouwdatum,
+        sh:property otl-patroon:alias,
+            otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
             otl-patroon:functioneleindeling,
             otl-patroon:huidigeleeftijd,
@@ -4851,6 +4908,8 @@ otl:graaf-informatiemodel {
         sh:name "Energievoorziening"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -5434,6 +5493,8 @@ otl:graaf-informatiemodel {
         sh:name "Gasdetectie-installatie (LEL)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -5451,6 +5512,8 @@ otl:graaf-informatiemodel {
         sh:name "Gasinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -5492,6 +5555,8 @@ otl:graaf-informatiemodel {
         sh:name "Gebouwinstallaties"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -5755,6 +5820,8 @@ otl:graaf-informatiemodel {
         sh:name "Geluidsbakens"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -5786,7 +5853,8 @@ otl:graaf-informatiemodel {
         sh:description "Basispatroon voor het vastleggen van Gemaal-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
         sh:name "Gemaal"@nl ;
-        sh:property otl-patroon:bouwdatum,
+        sh:property otl-patroon:alias,
+            otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
             otl-patroon:capaciteit,
             otl-patroon:capaciteitmaximaal,
@@ -5951,6 +6019,8 @@ otl:graaf-informatiemodel {
         sh:name "Gladheidsmeldsysteem"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -6016,6 +6086,8 @@ otl:graaf-informatiemodel {
         sh:name "Global System for Mobile communications installatie (GSM)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -6208,6 +6280,8 @@ otl:graaf-informatiemodel {
         sh:name "Grendelinrichting"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -6940,6 +7014,8 @@ otl:graaf-informatiemodel {
         sh:name "Hijs- en hefinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -7084,6 +7160,8 @@ otl:graaf-informatiemodel {
         sh:name "Hoog Frequent installatie (HF)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -7150,6 +7228,8 @@ otl:graaf-informatiemodel {
         sh:name "Hoogtedetectie-installatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -7323,6 +7403,8 @@ otl:graaf-informatiemodel {
         sh:name "Inbraakbeveiligingsinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -7463,6 +7545,8 @@ otl:graaf-informatiemodel {
         sh:name "Informatie en Volgsysteem Scheepvaart 1990 (IVS90)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -7687,6 +7771,8 @@ otl:graaf-informatiemodel {
         sh:name "Installaties derden"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -7756,6 +7842,8 @@ otl:graaf-informatiemodel {
         sh:name "Intercominstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -8151,6 +8239,8 @@ otl:graaf-informatiemodel {
         sh:name "Kathodische bescherminstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -8224,7 +8314,8 @@ otl:graaf-informatiemodel {
         sh:description "Basispatroon voor het vastleggen van Keersluis-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
         sh:name "Keersluis"@nl ;
-        sh:property otl-patroon:bedieningstijd,
+        sh:property otl-patroon:alias,
+            otl-patroon:bedieningstijd,
             otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
             otl-patroon:breedte,
@@ -8659,6 +8750,8 @@ otl:graaf-informatiemodel {
         sh:name "Klimaatinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -9204,6 +9297,8 @@ otl:graaf-informatiemodel {
         sh:name "Laadpalen elektrische voertuigen"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -9221,6 +9316,8 @@ otl:graaf-informatiemodel {
         sh:name "Laagspanningsinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -9593,6 +9690,8 @@ otl:graaf-informatiemodel {
         sh:name "Licht en Kracht Installaties"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -9711,6 +9810,8 @@ otl:graaf-informatiemodel {
         sh:name "Lift-installatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -10050,6 +10151,8 @@ otl:graaf-informatiemodel {
         sh:name "Marifooninstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -10223,6 +10326,8 @@ otl:graaf-informatiemodel {
         sh:name "Meetinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -10330,6 +10435,8 @@ otl:graaf-informatiemodel {
         sh:name "Menginstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -10479,6 +10586,8 @@ otl:graaf-informatiemodel {
         sh:name "Nautofooninstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -10554,6 +10663,8 @@ otl:graaf-informatiemodel {
         sh:name "Nooddouche-installatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -10623,6 +10734,8 @@ otl:graaf-informatiemodel {
         sh:name "Noodstroominstallatie (roterend)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -10640,6 +10753,8 @@ otl:graaf-informatiemodel {
         sh:name "Noodstroominstallatie (statisch)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -10673,6 +10788,8 @@ otl:graaf-informatiemodel {
         sh:name "Objectverlichting"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -10870,6 +10987,8 @@ otl:graaf-informatiemodel {
         sh:name "Omroepinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -11331,6 +11450,8 @@ otl:graaf-informatiemodel {
         sh:name "Openbare verlichting (OV)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -11660,6 +11781,8 @@ otl:graaf-informatiemodel {
         sh:name "Over- en onderdrukinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -12216,6 +12339,8 @@ otl:graaf-informatiemodel {
         sh:name "Persinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -12249,6 +12374,8 @@ otl:graaf-informatiemodel {
         sh:name "Personenzoekinstallatie (PZI)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -12497,6 +12624,8 @@ otl:graaf-informatiemodel {
         sh:name "Pollerinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -12540,6 +12669,8 @@ otl:graaf-informatiemodel {
         sh:name "Pomp- en ventilatieinstallaties"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -12557,11 +12688,14 @@ otl:graaf-informatiemodel {
         sh:name "Pompinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
             otl-patroon:omschrijving,
-            otl-patroon:soort ;
+            otl-patroon:soort,
+            otl-patroon:type ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Pompinstallatie>
@@ -12851,6 +12985,8 @@ otl:graaf-informatiemodel {
         sh:name "Radarinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -13610,6 +13746,8 @@ otl:graaf-informatiemodel {
         sh:name "Rolhekken en toegangsdeuren dienstgebouwen"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -13659,6 +13797,8 @@ otl:graaf-informatiemodel {
         sh:name "Roltrapinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -13799,6 +13939,8 @@ otl:graaf-informatiemodel {
         sh:name "Roosterreinigingsinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -13832,6 +13974,8 @@ otl:graaf-informatiemodel {
         sh:name "Ruimerinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -14045,6 +14189,8 @@ otl:graaf-informatiemodel {
         sh:name "Scheepvaartdetectie-installatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -14088,6 +14234,8 @@ otl:graaf-informatiemodel {
         sh:name "Scheepverkeersbeseining"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -14548,7 +14696,8 @@ otl:graaf-informatiemodel {
         sh:description "Basispatroon voor het vastleggen van Schutsluis-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
         sh:name "Schutsluis"@nl ;
-        sh:property otl-patroon:bedieningstijd,
+        sh:property otl-patroon:alias,
+            otl-patroon:bedieningstijd,
             otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
             otl-patroon:breedte,
@@ -14721,6 +14870,8 @@ otl:graaf-informatiemodel {
         sh:name "Signalering HP + PB kasten"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -15283,6 +15434,8 @@ otl:graaf-informatiemodel {
         sh:name "Sproei-installatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -15340,7 +15493,8 @@ otl:graaf-informatiemodel {
         sh:description "Basispatroon voor het vastleggen van Spuisluis-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
         sh:name "Spuisluis"@nl ;
-        sh:property otl-patroon:bedieningstijd,
+        sh:property otl-patroon:alias,
+            otl-patroon:bedieningstijd,
             otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
             otl-patroon:breedte,
@@ -15685,6 +15839,8 @@ otl:graaf-informatiemodel {
         sh:name "Storingsmeldsysteem/BOSS"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -15700,7 +15856,8 @@ otl:graaf-informatiemodel {
         sh:description "Basispatroon voor het vastleggen van Stormvloedkering-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
         sh:name "Stormvloedkering"@nl ;
-        sh:property otl-patroon:bouwdatum,
+        sh:property otl-patroon:alias,
+            otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
             otl-patroon:functioneleindeling,
             otl-patroon:huidigeleeftijd,
@@ -15994,6 +16151,8 @@ otl:graaf-informatiemodel {
         sh:name "Stuurstroomvoedingsinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -16009,7 +16168,8 @@ otl:graaf-informatiemodel {
         sh:description "Basispatroon voor het vastleggen van Stuw-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
         sh:name "Stuw"@nl ;
-        sh:property otl-patroon:bouwdatum,
+        sh:property otl-patroon:alias,
+            otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
             otl-patroon:breedte,
             otl-patroon:cemtKlasse,
@@ -16380,6 +16540,8 @@ otl:graaf-informatiemodel {
         sh:name "Telefooninstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -16413,6 +16575,8 @@ otl:graaf-informatiemodel {
         sh:name "Telemetrie-installatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -16511,6 +16675,8 @@ otl:graaf-informatiemodel {
         sh:name "Toegangscontrole-installatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -16657,6 +16823,8 @@ otl:graaf-informatiemodel {
         sh:name "Tracing"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -16754,6 +16922,8 @@ otl:graaf-informatiemodel {
         sh:name "Transmissie netwerk"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -16771,6 +16941,8 @@ otl:graaf-informatiemodel {
         sh:name "Transportinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -17019,7 +17191,8 @@ otl:graaf-informatiemodel {
         sh:description "Basispatroon voor het vastleggen van Tunnel-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
         sh:name "Tunnel"@nl ;
-        sh:property otl-patroon:bouwdatum,
+        sh:property otl-patroon:alias,
+            otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
             otl-patroon:functioneleindeling,
             otl-patroon:huidigeleeftijd,
@@ -17117,6 +17290,8 @@ otl:graaf-informatiemodel {
         sh:name "Tussen relais / interface stations"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -17258,6 +17433,8 @@ otl:graaf-informatiemodel {
         sh:name "UN-detectie (stofidentificatienummers)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -17424,6 +17601,8 @@ otl:graaf-informatiemodel {
         sh:name "Veiligheids PLC"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -17525,6 +17704,8 @@ otl:graaf-informatiemodel {
         sh:name "Ventilatie-installatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -17818,6 +17999,8 @@ otl:graaf-informatiemodel {
         sh:name "Verkeersdetectie-installatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -17852,6 +18035,8 @@ otl:graaf-informatiemodel {
         sh:name "Verkeersgeleiding- en evacuatieverlichting"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -17885,6 +18070,8 @@ otl:graaf-informatiemodel {
         sh:name "Verkeersinstallaties"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -17902,6 +18089,8 @@ otl:graaf-informatiemodel {
         sh:name "Verkeersregelinstallatie (VRI)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -17919,6 +18108,8 @@ otl:graaf-informatiemodel {
         sh:name "Verlichtingsinstallaties"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -17936,6 +18127,8 @@ otl:graaf-informatiemodel {
         sh:name "Verplaatsbare Vangrail installatie (VEVA)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -18120,7 +18313,8 @@ otl:graaf-informatiemodel {
         sh:description "Basispatroon voor het vastleggen van Viaduct-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
         sh:name "Viaduct"@nl ;
-        sh:property otl-patroon:bouwdatum,
+        sh:property otl-patroon:alias,
+            otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
             otl-patroon:functioneleindeling,
             otl-patroon:huidigeleeftijd,
@@ -18232,6 +18426,8 @@ otl:graaf-informatiemodel {
         sh:name "Vijzelinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -18461,6 +18657,8 @@ otl:graaf-informatiemodel {
         sh:name "Vluchthaven Aanwezigheidsdetectie installatie (VAD)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -18494,6 +18692,8 @@ otl:graaf-informatiemodel {
         sh:name "Vluchtweginstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -18511,6 +18711,8 @@ otl:graaf-informatiemodel {
         sh:name "Vluchtweginstallatie (verlichting en vaste borden)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -18544,6 +18746,8 @@ otl:graaf-informatiemodel {
         sh:name "Voedingen HP + PB kasten"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -18561,6 +18765,8 @@ otl:graaf-informatiemodel {
         sh:name "Voedingsinstallatie <50V"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -18788,6 +18994,8 @@ otl:graaf-informatiemodel {
         sh:name "Vorstbeveiliging en verwarming"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -18847,6 +19055,8 @@ otl:graaf-informatiemodel {
         sh:name "Waarschuwings- en alarmeringssysteem (WAS)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -18988,6 +19198,8 @@ otl:graaf-informatiemodel {
         sh:name "Warmte-kracht koppelingsinstallatie (WKK)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -19150,6 +19362,8 @@ otl:graaf-informatiemodel {
         sh:name "Watermistinstallatie (WMS)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -19248,6 +19462,8 @@ otl:graaf-informatiemodel {
         sh:name "Watertapinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -19350,6 +19566,8 @@ otl:graaf-informatiemodel {
         sh:name "Wegkantsysteem (WKS)"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -19416,6 +19634,8 @@ otl:graaf-informatiemodel {
         sh:name "Weigh In Motion"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -19433,6 +19653,8 @@ otl:graaf-informatiemodel {
         sh:name "Werk-spreekverbinding"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -20083,6 +20305,8 @@ otl:graaf-informatiemodel {
         sh:name "Zonweringsinstallatie"@nl ;
         sh:property otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
+            otl-patroon:datumaanleg,
+            otl-patroon:datumoplevering,
             otl-patroon:discipline,
             otl-patroon:huidigeleeftijd,
             otl-patroon:id,
@@ -20200,11 +20424,11 @@ otl:graaf-informatiemodel {
         sh:pattern "^https:\\/\\/data\\.rws\\.nl\\/id\\/a\\/\\w+-\\S+$" .
 
     otl:graaf-informatiemodel a owl:Ontology ;
-        dct:created "2022-05-31"^^xsd:date ;
+        dct:created "2022-06-13"^^xsd:date ;
         dct:description "Het OTL informatiemodel bevat informatie over de mogelijke eigenschappen van objecttypen."@nl ;
         dct:title "OTL informatiemodel"@nl ;
-        pav:currentVersion otl:graaf-informatiemodel-3.1.9 ;
-        pav:derivedFrom "IB RWS Release 20220531" ;
+        pav:currentVersion otl:graaf-informatiemodel-3.1.10 ;
+        pav:derivedFrom "IB RWS Release 20220609" ;
         owl:imports qudt:,
             sh:,
             otl:graaf-kennismodel .
@@ -20945,6 +21169,13 @@ otl:graaf-informatiemodel {
         sh:nodeKind sh:Literal ;
         sh:path otl:lengte .
 
+    otl-patroon:alias a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "Alias-patroon"@nl ;
+        sh:name "Alias"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:alias .
+
     otl-patroon:functioneleindeling a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "FunctioneleIndeling-patroon"@nl ;
@@ -21049,6 +21280,20 @@ otl:graaf-informatiemodel {
         sh:nodeKind sh:Literal ;
         sh:path otl:relatievehoogteligging .
 
+    otl-patroon:datumaanleg a sh:PropertyShape ;
+        sh:datatype xsd:date ;
+        sh:description "DatumAanleg-patroon"@nl ;
+        sh:name "DatumAanleg"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:datumaanleg .
+
+    otl-patroon:datumoplevering a sh:PropertyShape ;
+        sh:datatype xsd:date ;
+        sh:description "DatumOplevering-patroon"@nl ;
+        sh:name "DatumOplevering"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:datumoplevering .
+
     otl-patroon:barcode a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "Barcode-patroon"@nl ;
@@ -21087,17 +21332,17 @@ otl:graaf-informatiemodel {
         sh:nodeKind sh:Literal ;
         sh:path otl:qrCode .
 
+    otl-patroon:wisseldeelindicator a sh:PropertyShape ;
+        sh:description "WisseldeelIndicator-patroon"@nl ;
+        sh:name "WisseldeelIndicator"@nl ;
+        sh:path otl:wisseldeelindicator .
+
     otl-patroon:type a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "Type-patroon"@nl ;
         sh:name "Type"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:type .
-
-    otl-patroon:wisseldeelindicator a sh:PropertyShape ;
-        sh:description "WisseldeelIndicator-patroon"@nl ;
-        sh:name "WisseldeelIndicator"@nl ;
-        sh:path otl:wisseldeelindicator .
 
     otl-patroon:materiaal a sh:PropertyShape ;
         sh:datatype xsd:string ;

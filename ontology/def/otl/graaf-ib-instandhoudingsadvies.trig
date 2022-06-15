@@ -1098,10 +1098,6 @@ otl:graaf-ib-instandhoudingsadvies {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:id ],
@@ -2670,10 +2666,6 @@ otl:graaf-ib-instandhoudingsadvies {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dakconstructie binnen de context van informatieproduct Instandhoudingsadvies"@nl ;
         sh:name "Dakconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:discipline ],
@@ -9614,14 +9606,6 @@ otl:graaf-ib-instandhoudingsadvies {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:id ],
@@ -14130,12 +14114,6 @@ otl:graaf-ib-instandhoudingsadvies {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:id ],
@@ -15281,11 +15259,11 @@ otl:graaf-ib-instandhoudingsadvies {
                 sh:path otl:soort ] .
 
     otl:graaf-ib-instandhoudingsadvies a owl:Ontology ;
-        dct:created "2022-05-31"^^xsd:date ;
+        dct:created "2022-06-13"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Instandhoudingsadvies' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Instandhoudingsadvies'"@nl ;
-        pav:currentVersion otl:graaf-ib-instandhoudingsadvies-3.1.9 ;
-        pav:derivedFrom "IB RWS Release 20220531" ;
+        pav:currentVersion otl:graaf-ib-instandhoudingsadvies-3.1.10 ;
+        pav:derivedFrom "IB RWS Release 20220609" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .
