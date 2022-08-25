@@ -842,7 +842,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:definition "Smalle gang tussen huizen of open strook in een bos, die het optreden van de brandweer vergemakkelijkt en het overslaan van de brand bemoeilijkt."@nl ;
         skos:prefLabel "Brandgang"@nl .
 
-    otl:BrandmeldEnOntruimingsinstallatie a skos:Concept ;
+    otl:BrandmeldEnOntruimingsinstallatieBmi a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Installatie voor het ontdekken en melden van branden en het veilig ontruimen van de getroffen ruimtes."@nl ;
         skos:prefLabel "Brandmeld- en ontruimingsinstallatie (BMI)"@nl .
@@ -932,7 +932,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:definition "Geprefabriceerde doosvormige constructie zonder bodem die door middel van inwendige ontgraving en door haar eigen gewicht op de juiste diepte wordt gebracht."@nl ;
         skos:prefLabel "Caisson"@nl .
 
-    otl:CalamiteitenDoorsteekInstallatie a skos:Concept ;
+    otl:CalamiteitenDoorsteekInstallatieCado a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "#N/A"@nl ;
         skos:prefLabel "Calamiteiten Doorsteek installatie (CADO)"@nl .
@@ -960,7 +960,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:definition "Installatie die verbindingen realiseert in een communicatiesysteem"@nl ;
         skos:prefLabel "Centrale"@nl .
 
-    otl:CentraleAntenneInstallatie a skos:Concept ;
+    otl:CentraleAntenneInstallatieCai a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Installatie waarmee elektromagnetische/akoestische signalen kunnen worden ontvangen en/of uitgezonden."@nl ;
         skos:prefLabel "Centrale Antenne Installatie (CAI)"@nl .
@@ -984,7 +984,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:definition "Samenstel van werktuigbouwkundige componenten dat een plunjerstang kan laten bewegen"@nl ;
         skos:prefLabel "Cilinder"@nl .
 
-    otl:ClosedCircuitTelevisionInstallatie a skos:Concept ;
+    otl:ClosedCircuitTelevisionInstallatieCctv a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Installatie waarmee een bepaald gebied van een afstand visueel kan worden geobserveerd en opgeslagen."@nl ;
         skos:prefLabel "Closed Circuit TeleVision installatie (CCTV)"@nl .
@@ -1087,15 +1087,18 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
 
     otl:Damwand a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Grond- en/ of waterkerende constructie bestaande uit verticale losse en in de grond aangebrachte elementen die met elkaar zijn verbonden."@nl,
-            "Verticale losse elementen die met elkaar zijn verbonden en waterkerende eigenschappen heeft voor een onderwatertalud"@nl ;
-        skos:prefLabel "Damwand"@nl,
-            "Damwand (Onderwatertalud)"@nl .
+        skos:definition "Grond- en/ of waterkerende constructie bestaande uit verticale losse en in de grond aangebrachte elementen die met elkaar zijn verbonden."@nl ;
+        skos:prefLabel "Damwand"@nl .
 
     otl:DamwandBovenwatertalud a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Verticale losse elementen die met elkaar zijn verbonden en waterkerende eigenschappen heeft voor een bovenwatertalud"@nl ;
         skos:prefLabel "Damwand (bovenwatertalud)"@nl .
+
+    otl:DamwandOnderwatertalud a skos:Concept ;
+        skos:broaderTransitive bs:PhysicalObject ;
+        skos:definition "Verticale losse elementen die met elkaar zijn verbonden en waterkerende eigenschappen heeft voor een onderwatertalud"@nl ;
+        skos:prefLabel "Damwand (Onderwatertalud)"@nl .
 
     otl:Dataloginstallatie a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -1368,7 +1371,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:definition "Korte, ongeveer een meter hoge paal, waar een drukknop op is bevestigd waarmee voetgangers en fietsers hun aanwezigheid melden aan een verkeerregelinstallatie."@nl ;
         skos:prefLabel "Drukknoppaal"@nl .
 
-    otl:Drukluchtschuiminstallatie a skos:Concept ;
+    otl:DrukluchtschuiminstallatieDls a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Brandblusinstallatie om branden te bestrijden of te voorkomen door met luchtdruk schuim te verspreiden."@nl ;
         skos:prefLabel "Drukluchtschuiminstallatie (DLS)"@nl .
@@ -1662,7 +1665,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:broaderTransitive otl:Mededeling ;
         skos:prefLabel "Garantieinformatie"@nl .
 
-    otl:GasdetectieInstallatie a skos:Concept ;
+    otl:GasdetectieInstallatieLel a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Installatie die de aanwezigheid van gas detecteert."@nl ;
         skos:prefLabel "Gasdetectie-installatie (LEL)"@nl .
@@ -1815,7 +1818,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:definition "Speeltoestel met een of meer hellende oppervlakken waarbij de gebruiker over een vastgesteld glijtraject kan glijden"@nl ;
         skos:prefLabel "Glijbaan"@nl .
 
-    otl:GlobalSystemForMobileCommunicationsInstallatie a skos:Concept ;
+    otl:GlobalSystemForMobileCommunicationsInstallatieGsm a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Definitie niet opgenomen in dit document"@nl ;
         skos:prefLabel "Global System for Mobile communications installatie (GSM)"@nl .
@@ -2065,7 +2068,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:definition "Plantenbed dat is begroeid met moerasplanten en met behulp van zonlicht water zuivert"@nl ;
         skos:prefLabel "Helofytenfilter"@nl .
 
-    otl:Hemelwaterafvoer a skos:Concept ;
+    otl:HemelwaterafvoerHwa a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Stelsel dat hemelwater inzamelt, afvoert en transporteert"@nl ;
         skos:prefLabel "Hemelwaterafvoer (HWA)"@nl .
@@ -2124,7 +2127,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:definition "Samenstel van verschillende types schakel-, beveiligings- en besturingsmaterieel bevat en met een of meer uitgaande elektrische stroomketens is verbonden en wordt gevoed door een of meer inkomende elektrische stroomketens samen met de klemmen voor de nul-"@nl ;
         skos:prefLabel "Hoofdverdeler"@nl .
 
-    otl:HoogFrequentInstallatie a skos:Concept ;
+    otl:HoogFrequentInstallatieHf a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Installatie die draadloze communicatie via de HF-band mogelijk maakt"@nl ;
         skos:prefLabel "Hoog Frequent installatie (HF)"@nl .
@@ -2211,12 +2214,12 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:broaderTransitive otl:Tekening ;
         skos:prefLabel "Indelingstekening"@nl .
 
-    otl:IndividueleBehandelingVanAfvalwater a skos:Concept ;
+    otl:IndividueleBehandelingVanAfvalwaterIba a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Reservoir waarbij het vuilwater op biologische wijze wordt gereinigd en het gereinigde water direct wordt geloosd op het oppervlaktewater."@nl ;
         skos:prefLabel "Individuele Behandeling van Afvalwater (IBA)"@nl .
 
-    otl:IndividueleBehandelingVanAfvalwaterSysteem a skos:Concept ;
+    otl:IndividueleBehandelingVanAfvalwaterSysteemIbaSysteem a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Reservoir waarbij het vuilwater op biologische wijze wordt gereinigd en het gereinigde water direct wordt geloosd op het oppervlaktewater."@nl ;
         skos:prefLabel "Individuele Behandeling van Afvalwater systeem (IBA-systeem)"@nl .
@@ -2246,7 +2249,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:definition "Constructie waardoor water kan infiltreren in de bodem."@nl ;
         skos:prefLabel "Infiltratievoorziening"@nl .
 
-    otl:InformatieEnVolgsysteemScheepvaart1990 a skos:Concept ;
+    otl:InformatieEnVolgsysteemScheepvaart1990Ivs90 a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Informatiesysteem dat wordt gebruikt in een verkeerspost waarin scheeps- en ladinggegevens worden geregistreerd en schepen worden gevolgd."@nl ;
         skos:prefLabel "Informatie en Volgsysteem Scheepvaart 1990 (IVS90)"@nl .
@@ -2939,7 +2942,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:definition "Rioolleiding aan de bovenkant voorzien van een opening voor de afvoer van afvalwater."@nl ;
         skos:prefLabel "Lijnafwatering"@nl .
 
-    otl:LocalAreaNetwork a skos:Concept ;
+    otl:LocalAreaNetworkLan a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Netwerk dat is samengesteld uit computers/ werkstations op een relatief klein oppervlak zodat gebruikers toegang hebben tot dezelfde hard- en software"@nl ;
         skos:prefLabel "Local Area Network (LAN)"@nl .
@@ -3457,7 +3460,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:definition "Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen &#233;&#233;n woonplaats is gelegen."@nl ;
         skos:prefLabel "Openbare ruimte"@nl .
 
-    otl:OpenbareVerlichting a skos:Concept ;
+    otl:OpenbareVerlichtingOv a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Installatie die dient om de openbare infrastructuur, met name wegen, te verlichten."@nl ;
         skos:prefLabel "Openbare verlichting (OV)"@nl .
@@ -3699,7 +3702,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:definition "Leiding of stelsel van leidingen inclusief appendages waar onder druk staand afvalwater wordt gedistribueerd"@nl ;
         skos:prefLabel "Persleiding"@nl .
 
-    otl:Personenzoekinstallatie a skos:Concept ;
+    otl:PersonenzoekinstallatiePzi a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Constructie die is aangebracht in de aardebaan en scharnierend is opgelegd op een kunstwerk om zettingsverschillen tussen aardebaan en kunstwerk gelijkmatig te laten verlopen"@nl ;
         skos:prefLabel "Personenzoekinstallatie (PZI)"@nl .
@@ -3841,7 +3844,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:broaderTransitive otl:Verslag ;
         skos:prefLabel "Procesbeschrijving"@nl .
 
-    otl:ProgrammableLogicController a skos:Concept ;
+    otl:ProgrammableLogicControllerPlc a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Verwerkingseenheid, die op basis van de informatie op zijn ingangen, zijn uitgangen aanstuurt,Â bedoeld om machines en installaties aan te sturen."@nl ;
         skos:prefLabel "Programmable Logic Controller (PLC)"@nl .
@@ -3891,7 +3894,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:definition "Ronddraaiend antennedeel van een walradar"@nl ;
         skos:prefLabel "Radarscanner"@nl .
 
-    otl:RadioDirectionFinding a skos:Concept ;
+    otl:RadioDirectionFindingRdf a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Apparaat waarmee de richting van de bron van een radiosignaal kan worden bepaald (gepeild) met een (ronddraaiende) antenne."@nl ;
         skos:prefLabel "Radio Direction Finding (RDF)"@nl .
@@ -4786,7 +4789,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:definition "Constructie van de stuw welke het water opstuwende gedeelte bevat."@nl ;
         skos:prefLabel "Stuwhoofd"@nl .
 
-    otl:SupervisoryControlAndDataAcquisition a skos:Concept ;
+    otl:SupervisoryControlAndDataAcquisitionScadaSysteem a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Verwerkingseenheid, bestaande uit een of meer computers en programmatuur, bedoeld voor het verzamelen, doorsturen, verwerken en visualiseren van meet- en regelsignalen van verschillende machines in grote industriele systemen."@nl ;
         skos:prefLabel "Supervisory Control and Data Acquisition (SCADA-systeem)"@nl .
@@ -5354,7 +5357,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:broaderTransitive otl:Model ;
         skos:prefLabel "Verkeersmodel"@nl .
 
-    otl:Verkeersregelinstallatie a skos:Concept ;
+    otl:VerkeersregelinstallatieVri a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Installatie ten behoeve van de regeling en geleiding van het verkeer met behulp van optische en akoestische signalen."@nl ;
         skos:prefLabel "Verkeersregelinstallatie (VRI)"@nl .
@@ -5372,7 +5375,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:broaderTransitive otl:Besluit ;
         skos:prefLabel "Verordening"@nl .
 
-    otl:VerplaatsbareVangrailInstallatie a skos:Concept ;
+    otl:VerplaatsbareVangrailInstallatieVeva a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Geleidebarrier toegepast ter plaatse van een voorbereide doorsteek die bij normaal gebruik de rijbanen van elkaar scheidt, maar indien nodig de doorgang kan vrijmaken tussen twee rijbanen en op wielen kan worden verplaatst."@nl ;
         skos:prefLabel "Verplaatsbare Vangrail installatie (VEVA)"@nl .
@@ -5519,7 +5522,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:definition "Deur die dient als nooduitgang en doorgaans leidt naar een veilige vluchtweg"@nl ;
         skos:prefLabel "Vluchtdeuren"@nl .
 
-    otl:VluchthavenAanwezigheidsdetectieInstallatie a skos:Concept ;
+    otl:VluchthavenAanwezigheidsdetectieInstallatieVad a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Detectiesysteem dat de aanwezigheid van voertuigen vaststelt in een vluchthaven"@nl ;
         skos:prefLabel "Vluchthaven Aanwezigheidsdetectie installatie (VAD)"@nl .
@@ -5636,7 +5639,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:definition "Sluisdeur toegepast in een waaiersluis en als voornaamste eigenschap heeft dat hij door zijn waaiervorm tegen de waterdruk in geopend en gesloten kan worden."@nl ;
         skos:prefLabel "Waaiervlotdeur"@nl .
 
-    otl:WaarschuwingsEnAlarmeringssysteem a skos:Concept ;
+    otl:WaarschuwingsEnAlarmeringssysteemWas a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Verzameling van sirenes die draadloos en onafhankelijk van elkaar aangezet kunnen worden vanuit de alarmcentrale van de regionale brandweer."@nl ;
         skos:prefLabel "Waarschuwings- en alarmeringssysteem (WAS)"@nl .
@@ -5680,7 +5683,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:broaderTransitive otl:Tekening ;
         skos:prefLabel "Wapeningstekening"@nl .
 
-    otl:WarmteKrachtKoppelingsinstallatie a skos:Concept ;
+    otl:WarmteKrachtKoppelingsinstallatieWkk a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Installatie die zorgt voor het tegelijktijdig opwekken van warmte en kracht (elektriciteit) door de restwarmte die vrijkomt bij de aandrijving van een generator om te zetten in warmte"@nl ;
         skos:prefLabel "Warmte-kracht koppelingsinstallatie (WKK)"@nl .
@@ -5725,7 +5728,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:definition "#N/A"@nl ;
         skos:prefLabel "Waterlichaam (oppervlaktewater)"@nl .
 
-    otl:Watermistinstallatie a skos:Concept ;
+    otl:WatermistinstallatieWms a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Installatie gebruikt in tunnels, voor het blussen van eventuele branden doormiddel van zeer fijn verneveld water en speciale sproeiers die werken met een hoge druk"@nl ;
         skos:prefLabel "Watermistinstallatie (WMS)"@nl .
@@ -5779,7 +5782,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:definition "Een ruimtelijk object dat dient voor de inrichting van de openbare weg."@nl ;
         skos:prefLabel "Weginrichtingselement"@nl .
 
-    otl:Wegkantsysteem a skos:Concept ;
+    otl:WegkantsysteemWks a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Systeem langs de weg dat: gegevens over de passages van voertuigen op van te voren bepaalde rijstrookpunten inwint, bewerkt en beschikbaar stelt aan externe systemen (Monitoring); op basis van opdrachten van externe systemen en de lokale verkeerssituatie"@nl ;
         skos:prefLabel "Wegkantsysteem (WKS)"@nl .
@@ -5827,7 +5830,7 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:broaderTransitive otl:Besluit ;
         skos:prefLabel "Wet"@nl .
 
-    otl:WideAreaNetwork a skos:Concept ;
+    otl:WideAreaNetworkWan a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "#N/A"@nl ;
         skos:prefLabel "Wide Area Network (WAN)"@nl .
@@ -6199,11 +6202,11 @@ Door de speciale functie zijn niet alleen civiele delen aanwezig maar vaak ook w
         skos:prefLabel "voorkeursurl (GNS)"@nl .
 
     otl:graaf-kennismodel a owl:Ontology ;
-        dct:created "2022-06-13"^^xsd:date ;
+        dct:created "2022-07-14"^^xsd:date ;
         dct:description "Het OTL kennismodel bevat concepten en eigenschappen met hun definities."@nl ;
         dct:title "OTL kennismodel"@nl ;
-        pav:currentVersion otl:graaf-kennismodel-3.1.10 ;
-        pav:derivedFrom "IB RWS Release 20220609" ;
+        pav:currentVersion otl:graaf-kennismodel-3.1.12 ;
+        pav:derivedFrom "IB RWS Release 20220708" ;
         owl:imports dct:,
             geo:,
             skos:,

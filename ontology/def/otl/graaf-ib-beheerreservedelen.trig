@@ -1386,7 +1386,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:BrandmeldEnOntruimingsinstallatie a sh:NodeShape ;
+    otl-patroon:BrandmeldEnOntruimingsinstallatieBmi a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeld- en ontruimingsinstallatie (BMI) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Brandmeld- en ontruimingsinstallatie (BMI)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -1552,7 +1552,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:CalamiteitenDoorsteekInstallatie a sh:NodeShape ;
+    otl-patroon:CalamiteitenDoorsteekInstallatieCado a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Calamiteiten Doorsteek installatie (CADO) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Calamiteiten Doorsteek installatie (CADO)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -1598,7 +1598,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
-    otl-patroon:CentraleAntenneInstallatie a sh:NodeShape ;
+    otl-patroon:CentraleAntenneInstallatieCai a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Centrale Antenne Installatie (CAI) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Centrale Antenne Installatie (CAI)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -1640,7 +1640,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
-    otl-patroon:ClosedCircuitTelevisionInstallatie a sh:NodeShape ;
+    otl-patroon:ClosedCircuitTelevisionInstallatieCctv a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Closed Circuit TeleVision installatie (CCTV) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Closed Circuit TeleVision installatie (CCTV)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -1819,20 +1819,12 @@ otl:graaf-ib-beheerreservedelen {
                 sh:path otl:soort ] .
 
     otl-patroon:Damwand a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Damwand (Onderwatertalud) binnen de context van informatieproduct Beheer Reservedelen"@nl,
-            "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Damwand binnen de context van informatieproduct Beheer Reservedelen"@nl ;
-        sh:name "Damwand"@nl,
-            "Damwand (Onderwatertalud)"@nl ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Damwand binnen de context van informatieproduct Beheer Reservedelen"@nl ;
+        sh:name "Damwand"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:id ],
             [ sh:minCount 1 ;
-                sh:path otl:id ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:soort ],
             [ sh:minCount 1 ;
                 sh:path otl:soort ],
             [ sh:minCount 1 ;
@@ -1841,6 +1833,16 @@ otl:graaf-ib-beheerreservedelen {
     otl-patroon:DamwandBovenwatertalud a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Damwand (bovenwatertalud) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Damwand (bovenwatertalud)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:id ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:soort ] .
+
+    otl-patroon:DamwandOnderwatertalud a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Damwand (Onderwatertalud) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
+        sh:name "Damwand (Onderwatertalud)"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:id ],
             [ sh:minCount 1 ;
@@ -2350,7 +2352,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:Drukluchtschuiminstallatie a sh:NodeShape ;
+    otl-patroon:DrukluchtschuiminstallatieDls a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drukluchtschuiminstallatie (DLS) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Drukluchtschuiminstallatie (DLS)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -2866,7 +2868,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:GasdetectieInstallatie a sh:NodeShape ;
+    otl-patroon:GasdetectieInstallatieLel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gasdetectie-installatie (LEL) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Gasdetectie-installatie (LEL)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -3160,7 +3162,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:GlobalSystemForMobileCommunicationsInstallatie a sh:NodeShape ;
+    otl-patroon:GlobalSystemForMobileCommunicationsInstallatieGsm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Global System for Mobile communications installatie (GSM) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Global System for Mobile communications installatie (GSM)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -3646,7 +3648,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:Hemelwaterafvoer a sh:NodeShape ;
+    otl-patroon:HemelwaterafvoerHwa a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hemelwaterafvoer (HWA) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Hemelwaterafvoer (HWA)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -3758,7 +3760,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
-    otl-patroon:HoogFrequentInstallatie a sh:NodeShape ;
+    otl-patroon:HoogFrequentInstallatieHf a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoog Frequent installatie (HF) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Hoog Frequent installatie (HF)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -3914,7 +3916,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:IndividueleBehandelingVanAfvalwater a sh:NodeShape ;
+    otl-patroon:IndividueleBehandelingVanAfvalwaterIba a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Individuele Behandeling van Afvalwater (IBA) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Individuele Behandeling van Afvalwater (IBA)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -3926,7 +3928,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
-    otl-patroon:IndividueleBehandelingVanAfvalwaterSysteem a sh:NodeShape ;
+    otl-patroon:IndividueleBehandelingVanAfvalwaterSysteemIbaSysteem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Individuele Behandeling van Afvalwater systeem (IBA-systeem) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Individuele Behandeling van Afvalwater systeem (IBA-systeem)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -3986,7 +3988,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:InformatieEnVolgsysteemScheepvaart1990 a sh:NodeShape ;
+    otl-patroon:InformatieEnVolgsysteemScheepvaart1990Ivs90 a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Informatie en Volgsysteem Scheepvaart 1990 (IVS90) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Informatie en Volgsysteem Scheepvaart 1990 (IVS90)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -5208,7 +5210,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:LocalAreaNetwork a sh:NodeShape ;
+    otl-patroon:LocalAreaNetworkLan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Local Area Network (LAN) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Local Area Network (LAN)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -6014,7 +6016,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:OpenbareVerlichting a sh:NodeShape ;
+    otl-patroon:OpenbareVerlichtingOv a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Openbare verlichting (OV) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Openbare verlichting (OV)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -6456,7 +6458,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:Personenzoekinstallatie a sh:NodeShape ;
+    otl-patroon:PersonenzoekinstallatiePzi a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Personenzoekinstallatie (PZI) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Personenzoekinstallatie (PZI)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -6690,7 +6692,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:ProgrammableLogicController a sh:NodeShape ;
+    otl-patroon:ProgrammableLogicControllerPlc a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Programmable Logic Controller (PLC) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Programmable Logic Controller (PLC)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -6788,7 +6790,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:RadioDirectionFinding a sh:NodeShape ;
+    otl-patroon:RadioDirectionFindingRdf a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Radio Direction Finding (RDF) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Radio Direction Finding (RDF)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -8450,7 +8452,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:SupervisoryControlAndDataAcquisition a sh:NodeShape ;
+    otl-patroon:SupervisoryControlAndDataAcquisitionScadaSysteem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Supervisory Control and Data Acquisition (SCADA-systeem) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Supervisory Control and Data Acquisition (SCADA-systeem)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -9398,7 +9400,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:Verkeersregelinstallatie a sh:NodeShape ;
+    otl-patroon:VerkeersregelinstallatieVri a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersregelinstallatie (VRI) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Verkeersregelinstallatie (VRI)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -9418,7 +9420,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:VerplaatsbareVangrailInstallatie a sh:NodeShape ;
+    otl-patroon:VerplaatsbareVangrailInstallatieVeva a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verplaatsbare Vangrail installatie (VEVA) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Verplaatsbare Vangrail installatie (VEVA)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -9704,7 +9706,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:VluchthavenAanwezigheidsdetectieInstallatie a sh:NodeShape ;
+    otl-patroon:VluchthavenAanwezigheidsdetectieInstallatieVad a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchthaven Aanwezigheidsdetectie installatie (VAD) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Vluchthaven Aanwezigheidsdetectie installatie (VAD)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -9922,7 +9924,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:WaarschuwingsEnAlarmeringssysteem a sh:NodeShape ;
+    otl-patroon:WaarschuwingsEnAlarmeringssysteemWas a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waarschuwings- en alarmeringssysteem (WAS) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Waarschuwings- en alarmeringssysteem (WAS)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -10004,7 +10006,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:WarmteKrachtKoppelingsinstallatie a sh:NodeShape ;
+    otl-patroon:WarmteKrachtKoppelingsinstallatieWkk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Warmte-kracht koppelingsinstallatie (WKK) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Warmte-kracht koppelingsinstallatie (WKK)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -10074,7 +10076,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:Watermistinstallatie a sh:NodeShape ;
+    otl-patroon:WatermistinstallatieWms a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Watermistinstallatie (WMS) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Watermistinstallatie (WMS)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -10146,7 +10148,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:Wegkantsysteem a sh:NodeShape ;
+    otl-patroon:WegkantsysteemWks a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wegkantsysteem (WKS) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Wegkantsysteem (WKS)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -10228,7 +10230,7 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:soort ] .
 
-    otl-patroon:WideAreaNetwork a sh:NodeShape ;
+    otl-patroon:WideAreaNetworkWan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wide Area Network (WAN) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Wide Area Network (WAN)"@nl ;
         sh:property [ sh:minCount 1 ;
@@ -10565,11 +10567,11 @@ otl:graaf-ib-beheerreservedelen {
                 sh:path otl:soort ] .
 
     otl:graaf-ib-beheerreservedelen a owl:Ontology ;
-        dct:created "2022-06-13"^^xsd:date ;
+        dct:created "2022-07-14"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Beheer Reservedelen' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Beheer Reservedelen'"@nl ;
-        pav:currentVersion otl:graaf-ib-beheerreservedelen-3.1.10 ;
-        pav:derivedFrom "IB RWS Release 20220609" ;
+        pav:currentVersion otl:graaf-ib-beheerreservedelen-3.1.12 ;
+        pav:derivedFrom "IB RWS Release 20220708" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

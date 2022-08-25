@@ -63,8 +63,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Afscheiding dct:conformsTo abdl:DEF-0119 .
 
-    otl:Afslagzone dct:conformsTo abdl:UNKNOWN .
-
     otl:Afsluitboom dct:conformsTo abdl:DEF-0126 .
 
     otl:Afsluitboominstallatie dct:conformsTo abdl:DEF-0127 .
@@ -117,8 +115,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Bad dct:conformsTo abdl:DEF-0276 .
 
-    otl:Bak dct:conformsTo abdl:DEF-0278,
-            abdl:UNKNOWN .
+    otl:Bak dct:conformsTo abdl:DEF-0278 .
 
     otl:Baken dct:conformsTo abdl:DEF-0280 .
 
@@ -160,8 +157,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Begraafplaats dct:conformsTo abdl:DEF-0366 .
 
-    otl:BegroeidTerreindeel dct:conformsTo abdl:UNKNOWN .
-
     otl:Begroeiing dct:conformsTo abdl:DEF-0370 .
 
     otl:BeheerobjectOverstijgendeVoorziening dct:conformsTo abdl:DEF-0380 .
@@ -190,8 +185,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Beschoeiing dct:conformsTo abdl:DEF-0460 .
 
-    otl:Besturingsinstallatie dct:conformsTo abdl:UNKNOWN .
-
     otl:Betonverharding dct:conformsTo abdl:DEF-0724 .
 
     otl:Bevestiging dct:conformsTo abdl:DEF-0499 .
@@ -201,12 +194,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Bewegwijzeringsbord dct:conformsTo abdl:DEF-0507 .
 
     otl:Bezinkbassin dct:conformsTo abdl:DEF-0511 .
-
-    otl:BinnenBuitendeurenEnRolluiken dct:conformsTo abdl:UNKNOWN .
-
-    otl:Binnenberm dct:conformsTo abdl:UNKNOWN .
-
-    otl:Binnenduin dct:conformsTo abdl:UNKNOWN .
 
     otl:Binnentalud dct:conformsTo abdl:DEF-0527 .
 
@@ -221,8 +208,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Bodem dct:conformsTo abdl:DEF-0550 .
 
     otl:BodemWaterbodem dct:conformsTo abdl:DEF-0550 .
-
-    otl:Bodembedekker dct:conformsTo abdl:UNKNOWN .
 
     otl:Bodembescherming dct:conformsTo abdl:DEF-0563 .
 
@@ -241,8 +226,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Boom dct:conformsTo abdl:DEF-0586 .
 
     otl:Boombak dct:conformsTo abdl:DEF-0587 .
-
-    otl:Bord dct:conformsTo abdl:UNKNOWN .
 
     otl:Bordes dct:conformsTo abdl:DEF-0600 .
 
@@ -264,15 +247,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Brandblusser dct:conformsTo abdl:DEF-0636 .
 
-    otl:BrandcompartimenteringEnRookscheidingen dct:conformsTo abdl:UNKNOWN .
-
-    otl:Branddoorvoeringen dct:conformsTo abdl:UNKNOWN .
-
     otl:Brandgang dct:conformsTo abdl:DEF-0638 .
 
-    otl:BrandmeldEnOntruimingsinstallatie dct:conformsTo abdl:DEF-0642 .
-
-    otl:BrandmeldinstallatieInDeTunnel dct:conformsTo abdl:UNKNOWN .
+    otl:BrandmeldEnOntruimingsinstallatieBmi dct:conformsTo abdl:DEF-0642 .
 
     otl:Brandslang dct:conformsTo abdl:DEF-0645 .
 
@@ -296,17 +273,13 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Buisleiding dct:conformsTo abdl:DEF-0676 .
 
-    otl:Buitenberm dct:conformsTo abdl:UNKNOWN .
-
     otl:Buitentalud dct:conformsTo abdl:DEF-0682 .
 
     otl:Bunker dct:conformsTo abdl:DEF-0685 .
 
-    otl:Buurt dct:conformsTo abdl:UNKNOWN .
-
     otl:Caisson dct:conformsTo abdl:DEF-0696 .
 
-    otl:CalamiteitenDoorsteekInstallatie dct:conformsTo abdl:DEF-0705 .
+    otl:CalamiteitenDoorsteekInstallatieCado dct:conformsTo abdl:DEF-0705 .
 
     otl:CameraBeweegbaar dct:conformsTo abdl:DEF-0710 .
 
@@ -314,7 +287,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Centrale dct:conformsTo abdl:DEF-0729 .
 
-    otl:CentraleAntenneInstallatie dct:conformsTo abdl:DEF-0730 .
+    otl:CentraleAntenneInstallatieCai dct:conformsTo abdl:DEF-0730 .
 
     otl:CentraleDeurontgrendeling dct:conformsTo abdl:DEF-0733 .
 
@@ -322,7 +295,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Cilinder dct:conformsTo abdl:DEF-0750 .
 
-    otl:ClosedCircuitTelevisionInstallatie dct:conformsTo abdl:DEF-0755 .
+    otl:ClosedCircuitTelevisionInstallatieCctv dct:conformsTo abdl:DEF-0755 .
 
     otl:CoaxstralersTunnelbekabeling dct:conformsTo abdl:DEF-0756 .
 
@@ -331,8 +304,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Combinatietoestel dct:conformsTo abdl:DEF-0762 .
 
     otl:Combiwand dct:conformsTo abdl:DEF-0763 .
-
-    otl:Communicatie dct:conformsTo abdl:UNKNOWN .
 
     otl:Compensator dct:conformsTo abdl:DEF-0772 .
 
@@ -356,10 +327,11 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Dam dct:conformsTo abdl:DEF-0868 .
 
-    otl:Damwand dct:conformsTo abdl:DEF-0869,
-            abdl:DEF-0871 .
+    otl:Damwand dct:conformsTo abdl:DEF-0869 .
 
     otl:DamwandBovenwatertalud dct:conformsTo abdl:DEF-0870 .
+
+    otl:DamwandOnderwatertalud dct:conformsTo abdl:DEF-0871 .
 
     otl:Dataloginstallatie dct:conformsTo abdl:DEF-0874 .
 
@@ -387,15 +359,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:DiagonaalVakwerkligger dct:conformsTo abdl:DEF-0927 .
 
-    otl:DienstgebouwCiviel dct:conformsTo abdl:UNKNOWN .
-
     otl:Dieptefiltratie dct:conformsTo abdl:DEF-0937 .
 
     otl:Diepwand dct:conformsTo abdl:DEF-0938 .
-
-    otl:DigitaleAudioOpslag dct:conformsTo abdl:UNKNOWN .
-
-    otl:DigitaleBeeldOpslag dct:conformsTo abdl:UNKNOWN .
 
     otl:Dijk dct:conformsTo abdl:DEF-0943 .
 
@@ -404,8 +370,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Dilatatievoegovergang dct:conformsTo abdl:DEF-0958 .
 
     otl:Display dct:conformsTo abdl:DEF-0973 .
-
-    otl:DiverseInstallaties dct:conformsTo abdl:UNKNOWN .
 
     otl:Doel dct:conformsTo abdl:DEF-6854 .
 
@@ -455,7 +419,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Drukknoppaal dct:conformsTo abdl:DEF-1045 .
 
-    otl:Drukluchtschuiminstallatie dct:conformsTo abdl:DEF-1047 .
+    otl:DrukluchtschuiminstallatieDls dct:conformsTo abdl:DEF-1047 .
 
     otl:Drukpalen dct:conformsTo abdl:DEF-1048 .
 
@@ -473,8 +437,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Duinstruweel dct:conformsTo abdl:DEF-1058 .
 
-    otl:Duinvoetverdediging dct:conformsTo abdl:UNKNOWN .
-
     otl:DuurzameEnergiebron dct:conformsTo abdl:DEF-1069 .
 
     otl:Dwarsdrager dct:conformsTo abdl:DEF-1077 .
@@ -488,8 +450,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Elektrovijzel dct:conformsTo abdl:DEF-1141 .
 
     otl:Elementenverharding dct:conformsTo abdl:DEF-1145 .
-
-    otl:EmbryonaalDuin dct:conformsTo abdl:UNKNOWN .
 
     otl:Energiekabel dct:conformsTo abdl:DEF-1153 .
 
@@ -541,8 +501,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Frame dct:conformsTo abdl:DEF-1284 .
 
-    otl:FunctioneelGebied dct:conformsTo abdl:UNKNOWN .
-
     otl:Fundatie dct:conformsTo abdl:DEF-1306 .
 
     otl:Fundering dct:conformsTo abdl:DEF-1308 .
@@ -555,11 +513,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Gaffel dct:conformsTo abdl:DEF-1323 .
 
-    otl:GasdetectieInstallatie dct:conformsTo abdl:DEF-1328 .
+    otl:GasdetectieInstallatieLel dct:conformsTo abdl:DEF-1328 .
 
     otl:Gasinstallatie dct:conformsTo abdl:DEF-1329 .
-
-    otl:GebouwInstallatie dct:conformsTo abdl:UNKNOWN .
 
     otl:Gebouwinstallaties dct:conformsTo abdl:DEF-1343 .
 
@@ -587,8 +543,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:GeluidbeperkendeConstructie dct:conformsTo abdl:DEF-1405 .
 
-    otl:Geluidsbakens dct:conformsTo abdl:UNKNOWN .
-
     otl:Geluidsdemper dct:conformsTo abdl:DEF-1408 .
 
     otl:Gemaal dct:conformsTo abdl:DEF-1414 .
@@ -613,7 +567,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Glijbaan dct:conformsTo abdl:DEF-1472 .
 
-    otl:GlobalSystemForMobileCommunicationsInstallatie dct:conformsTo abdl:DEF-1474 .
+    otl:GlobalSystemForMobileCommunicationsInstallatieGsm dct:conformsTo abdl:DEF-1474 .
 
     otl:Golfpijp dct:conformsTo abdl:DEF-1486 .
 
@@ -627,23 +581,17 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Grafsteen dct:conformsTo abdl:DEF-1496 .
 
-    otl:GrasKruid dct:conformsTo abdl:UNKNOWN .
-
     otl:Grasvegetatie dct:conformsTo abdl:DEF-1501 .
 
     otl:Grendel dct:conformsTo abdl:DEF-1502 .
 
     otl:Grendelinrichting dct:conformsTo abdl:DEF-1503 .
 
-    otl:Grensprofiel dct:conformsTo abdl:UNKNOWN .
-
     otl:Greppel dct:conformsTo abdl:DEF-1509 .
 
     otl:Grijper dct:conformsTo abdl:DEF-1513 .
 
     otl:Grindkoffer dct:conformsTo abdl:DEF-1514 .
-
-    otl:GroenInclWatergangEnKanteldijken dct:conformsTo abdl:UNKNOWN .
 
     otl:Gronddepot dct:conformsTo abdl:DEF-1526 .
 
@@ -705,7 +653,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Helofytenfilter dct:conformsTo abdl:DEF-1601 .
 
-    otl:Hemelwaterafvoer dct:conformsTo abdl:DEF-1602 .
+    otl:HemelwaterafvoerHwa dct:conformsTo abdl:DEF-1602 .
 
     otl:Heugelstang dct:conformsTo abdl:DEF-1615 .
 
@@ -727,7 +675,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Hoofdverdeler dct:conformsTo abdl:DEF-1652 .
 
-    otl:HoogFrequentInstallatie dct:conformsTo abdl:DEF-1657 .
+    otl:HoogFrequentInstallatieHf dct:conformsTo abdl:DEF-1657 .
 
     otl:Hoogspanningsinstallatie dct:conformsTo abdl:DEF-1659 .
 
@@ -736,8 +684,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Hoogspringaccommodatie dct:conformsTo abdl:DEF-1662 .
 
     otl:HoogtedetectieInstallatie dct:conformsTo abdl:DEF-1665 .
-
-    otl:Hoogwatervluchtplaats dct:conformsTo abdl:UNKNOWN .
 
     otl:Hulppostkast dct:conformsTo abdl:DEF-1683 .
 
@@ -751,15 +697,13 @@ otl:graaf-otl-abdl-linkset {
 
     otl:IJsbaan dct:conformsTo abdl:DEF-1701 .
 
-    otl:InEnUitrittenCiviel dct:conformsTo abdl:UNKNOWN .
-
     otl:InGrondVervaardigdePalen dct:conformsTo abdl:DEF-1712 .
 
     otl:Inbraakbeveiligingsinstallatie dct:conformsTo abdl:DEF-1714 .
 
-    otl:IndividueleBehandelingVanAfvalwater dct:conformsTo abdl:DEF-1726 .
+    otl:IndividueleBehandelingVanAfvalwaterIba dct:conformsTo abdl:DEF-1726 .
 
-    otl:IndividueleBehandelingVanAfvalwaterSysteem dct:conformsTo abdl:DEF-1726 .
+    otl:IndividueleBehandelingVanAfvalwaterSysteemIbaSysteem dct:conformsTo abdl:DEF-1726 .
 
     otl:Infiltratiekratten dct:conformsTo abdl:DEF-1731 .
 
@@ -771,7 +715,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Infiltratievoorziening dct:conformsTo abdl:DEF-1735 .
 
-    otl:InformatieEnVolgsysteemScheepvaart1990 dct:conformsTo abdl:DEF-1740 .
+    otl:InformatieEnVolgsysteemScheepvaart1990Ivs90 dct:conformsTo abdl:DEF-1740 .
 
     otl:Informatiebord dct:conformsTo abdl:DEF-1746 .
 
@@ -785,15 +729,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Inlooptrommel dct:conformsTo abdl:DEF-1783 .
 
-    otl:Inrichtingselement dct:conformsTo abdl:UNKNOWN .
-
     otl:Inspectiewagen dct:conformsTo abdl:DEF-1796 .
 
-    otl:Installatie dct:conformsTo abdl:UNKNOWN .
-
     otl:Installatiekabel dct:conformsTo abdl:DEF-1798 .
-
-    otl:InstallatiesDerden dct:conformsTo abdl:UNKNOWN .
 
     otl:Instroomopening dct:conformsTo abdl:DEF-1805 .
 
@@ -802,8 +740,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Intercominstallatie dct:conformsTo abdl:DEF-1825 .
 
     otl:Intercompost dct:conformsTo abdl:DEF-1827 .
-
-    otl:Interieur dct:conformsTo abdl:UNKNOWN .
 
     otl:Isolator dct:conformsTo abdl:DEF-1852 .
 
@@ -839,8 +775,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Kapiteel dct:conformsTo abdl:DEF-1893 .
 
-    otl:Kast dct:conformsTo abdl:DEF-1894,
-            abdl:UNKNOWN .
+    otl:Kast dct:conformsTo abdl:DEF-1894 .
 
     otl:KathodischeBescherminstallatie dct:conformsTo abdl:DEF-1895 .
 
@@ -859,8 +794,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Kelder dct:conformsTo abdl:DEF-1905 .
 
     otl:KerendeConstructie dct:conformsTo abdl:DEF-1913 .
-
-    otl:Kerf dct:conformsTo abdl:UNKNOWN .
 
     otl:Keringschuif dct:conformsTo abdl:DEF-1916 .
 
@@ -942,13 +875,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Kunststofsportveld dct:conformsTo abdl:DEF-2028 .
 
-    otl:Kunstwerkdeel dct:conformsTo abdl:UNKNOWN .
-
     otl:Kwelder dct:conformsTo abdl:DEF-2076 .
-
-    otl:Kwelkade dct:conformsTo abdl:UNKNOWN .
-
-    otl:Kwelscherm dct:conformsTo abdl:UNKNOWN .
 
     otl:KwhMetering dct:conformsTo abdl:DEF-2078 .
 
@@ -992,15 +919,11 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Leuningconstructie dct:conformsTo abdl:DEF-2139 .
 
-    otl:LichtEnKrachtInstallaties dct:conformsTo abdl:UNKNOWN .
-
     otl:Lichtgroepenkast dct:conformsTo abdl:DEF-2152 .
 
     otl:Lichtkoepel dct:conformsTo abdl:DEF-2153 .
 
     otl:Lichtopstand dct:conformsTo abdl:DEF-2155 .
-
-    otl:Lichtrooster dct:conformsTo abdl:UNKNOWN .
 
     otl:Lichtstraat dct:conformsTo abdl:DEF-2159 .
 
@@ -1010,7 +933,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Lijnafwatering dct:conformsTo abdl:DEF-2168 .
 
-    otl:LocalAreaNetwork dct:conformsTo abdl:DEF-2177 .
+    otl:LocalAreaNetworkLan dct:conformsTo abdl:DEF-2177 .
 
     otl:Loopbrug dct:conformsTo abdl:DEF-2195 .
 
@@ -1042,8 +965,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Markeringspaal dct:conformsTo abdl:DEF-2247 .
 
-    otl:Mast dct:conformsTo abdl:DEF-2250,
-            abdl:UNKNOWN .
+    otl:Mast dct:conformsTo abdl:DEF-2250 .
 
     otl:Meer dct:conformsTo abdl:DEF-2269 .
 
@@ -1109,8 +1031,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Oeverbescherming dct:conformsTo abdl:DEF-2508 .
 
-    otl:Oevervegetatie dct:conformsTo abdl:UNKNOWN .
-
     otl:Oeverzwaluwenwand dct:conformsTo abdl:DEF-2513 .
 
     otl:OlieEnBenzineafscheider dct:conformsTo abdl:DEF-2515 .
@@ -1125,8 +1045,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Omroepinstallatie dct:conformsTo abdl:DEF-2525 .
 
-    otl:OnbegroeidTerreindeel dct:conformsTo abdl:DEF-0371,
-            abdl:UNKNOWN .
+    otl:OnbegroeidTerreindeel dct:conformsTo abdl:DEF-0371 .
 
     otl:Onderbak dct:conformsTo abdl:DEF-2527 .
 
@@ -1148,10 +1067,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Onderloopsheidscherm dct:conformsTo abdl:DEF-2557 .
 
-    otl:OndersteunendWaterdeel dct:conformsTo abdl:UNKNOWN .
-
-    otl:OndersteunendWegdeel dct:conformsTo abdl:UNKNOWN .
-
     otl:Onderverdeler dct:conformsTo abdl:DEF-2564 .
 
     otl:Ontvangbed dct:conformsTo abdl:DEF-2584 .
@@ -1168,9 +1083,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:OpenTunnelbak dct:conformsTo abdl:DEF-2633 .
 
-    otl:OpenbareRuimte dct:conformsTo abdl:UNKNOWN .
-
-    otl:OpenbareVerlichting dct:conformsTo abdl:DEF-2639 .
+    otl:OpenbareVerlichtingOv dct:conformsTo abdl:DEF-2639 .
 
     otl:Openfilterconstructie dct:conformsTo abdl:DEF-2641 .
 
@@ -1206,15 +1119,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:OverEnOnderdrukinstallatie dct:conformsTo abdl:DEF-2709 .
 
-    otl:Overbruggingsdeel dct:conformsTo abdl:UNKNOWN .
-
     otl:Overgangsconstructie dct:conformsTo abdl:DEF-2812 .
 
     otl:Overgangsplaat dct:conformsTo abdl:DEF-2722 .
-
-    otl:OverigBouwwerk dct:conformsTo abdl:UNKNOWN .
-
-    otl:OverigeConstructie dct:conformsTo abdl:UNKNOWN .
 
     otl:Overkluizing dct:conformsTo abdl:DEF-2734 .
 
@@ -1222,20 +1129,13 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Overspanningbeveiliging dct:conformsTo abdl:DEF-2748 .
 
-    otl:Oversteek dct:conformsTo abdl:UNKNOWN .
-
     otl:Paaiplaats dct:conformsTo abdl:DEF-2758 .
 
-    otl:Paal dct:conformsTo abdl:DEF-2759,
-            abdl:UNKNOWN .
+    otl:Paal dct:conformsTo abdl:DEF-2759 .
 
     otl:Paalbeugel dct:conformsTo abdl:DEF-2760 .
 
-    otl:Palenrij dct:conformsTo abdl:UNKNOWN .
-
     otl:Panamawiel dct:conformsTo abdl:DEF-2765 .
-
-    otl:Pand dct:conformsTo abdl:UNKNOWN .
 
     otl:Paneel dct:conformsTo abdl:DEF-2767 .
 
@@ -1246,8 +1146,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Park dct:conformsTo abdl:DEF-2774 .
 
     otl:Parkeerbeugel dct:conformsTo abdl:DEF-2775 .
-
-    otl:Peilbuis dct:conformsTo abdl:UNKNOWN .
 
     otl:Peilschaal dct:conformsTo abdl:DEF-2791 .
 
@@ -1261,7 +1159,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Persleiding dct:conformsTo abdl:DEF-2808 .
 
-    otl:Personenzoekinstallatie dct:conformsTo abdl:DEF-2720 .
+    otl:PersonenzoekinstallatiePzi dct:conformsTo abdl:DEF-2720 .
 
     otl:Pictogram dct:conformsTo abdl:DEF-2815 .
 
@@ -1279,8 +1177,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Plafondconstructie dct:conformsTo abdl:DEF-2831 .
 
-    otl:Plant dct:conformsTo abdl:UNKNOWN .
-
     otl:Plasberm dct:conformsTo abdl:DEF-2848 .
 
     otl:Poer dct:conformsTo abdl:DEF-2858 .
@@ -1288,8 +1184,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Pollerinstallatie dct:conformsTo abdl:DEF-2862 .
 
     otl:Pomp dct:conformsTo abdl:DEF-2863 .
-
-    otl:PompEnVentilatieinstallaties dct:conformsTo abdl:UNKNOWN .
 
     otl:Pompinstallatie dct:conformsTo abdl:DEF-2865 .
 
@@ -1299,20 +1193,17 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Portaal dct:conformsTo abdl:DEF-2871 .
 
-    otl:Portofoon dct:conformsTo abdl:UNKNOWN .
-
     otl:Praatpaal dct:conformsTo abdl:DEF-2879 .
 
     otl:Procesbassin dct:conformsTo abdl:DEF-2921 .
 
-    otl:ProgrammableLogicController dct:conformsTo abdl:DEF-2960 .
+    otl:ProgrammableLogicControllerPlc dct:conformsTo abdl:DEF-2960 .
 
     otl:Puntbeluchter dct:conformsTo abdl:DEF-3008 .
 
     otl:Puntdeur dct:conformsTo abdl:DEF-3010 .
 
-    otl:Put dct:conformsTo abdl:DEF-3012,
-            abdl:UNKNOWN .
+    otl:Put dct:conformsTo abdl:DEF-3012 .
 
     otl:Putrand dct:conformsTo abdl:DEF-3013 .
 
@@ -1324,7 +1215,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Radarscanner dct:conformsTo abdl:DEF-3038 .
 
-    otl:RadioDirectionFinding dct:conformsTo abdl:DEF-3040 .
+    otl:RadioDirectionFindingRdf dct:conformsTo abdl:DEF-3040 .
 
     otl:Rail dct:conformsTo abdl:DEF-3042 .
 
@@ -1362,10 +1253,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Regelballast dct:conformsTo abdl:DEF-3099 .
 
-    otl:RegelbareAandrijving dct:conformsTo abdl:UNKNOWN .
-
-    otl:RegistratiefGebied dct:conformsTo abdl:UNKNOWN .
-
     otl:Reling dct:conformsTo abdl:DEF-3121 .
 
     otl:Rem dct:conformsTo abdl:DEF-3122 .
@@ -1386,8 +1273,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Rivier dct:conformsTo abdl:DEF-3205 .
 
-    otl:Rivierhout dct:conformsTo abdl:UNKNOWN .
-
     otl:Roerwerk dct:conformsTo abdl:DEF-3211 .
 
     otl:Rolbaan dct:conformsTo abdl:DEF-3215 .
@@ -1395,8 +1280,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Roldeur dct:conformsTo abdl:DEF-3216 .
 
     otl:Rolgordijn dct:conformsTo abdl:DEF-3217 .
-
-    otl:RolhekkenEnToegangsdeurenDienstgebouwen dct:conformsTo abdl:UNKNOWN .
 
     otl:Rolluik dct:conformsTo abdl:DEF-3219 .
 
@@ -1448,8 +1331,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Scheepverkeersbeseining dct:conformsTo abdl:DEF-3293 .
 
-    otl:Scheiding dct:conformsTo abdl:UNKNOWN .
-
     otl:Scherm dct:conformsTo abdl:DEF-3295 .
 
     otl:Schietbaan dct:conformsTo abdl:DEF-3296 .
@@ -1457,8 +1338,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Schietbaanportaal dct:conformsTo abdl:DEF-3297 .
 
     otl:Schietbord dct:conformsTo abdl:DEF-3298 .
-
-    otl:Schijnduiker dct:conformsTo abdl:UNKNOWN .
 
     otl:Schokdemper dct:conformsTo abdl:DEF-3300 .
 
@@ -1494,8 +1373,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Schutsluis dct:conformsTo abdl:DEF-3324 .
 
-    otl:Sensor dct:conformsTo abdl:DEF-3354,
-            abdl:UNKNOWN .
+    otl:Sensor dct:conformsTo abdl:DEF-3354 .
 
     otl:Server dct:conformsTo abdl:DEF-3356 .
 
@@ -1506,8 +1384,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Signaalgever dct:conformsTo abdl:DEF-3368 .
 
     otl:Signaalkabel dct:conformsTo abdl:DEF-3370 .
-
-    otl:SignaleringHpPbKasten dct:conformsTo abdl:UNKNOWN .
 
     otl:Skatebaan dct:conformsTo abdl:DEF-3379 .
 
@@ -1529,8 +1405,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Sloot dct:conformsTo abdl:DEF-3401 .
 
-    otl:Slufter dct:conformsTo abdl:UNKNOWN .
-
     otl:SluisdeurHefPuntRol dct:conformsTo abdl:DEF-3405 .
 
     otl:Sluishoofd dct:conformsTo abdl:DEF-3406 .
@@ -1538,8 +1412,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Sluiskolk dct:conformsTo abdl:DEF-3407 .
 
     otl:Sluismarkering dct:conformsTo abdl:DEF-3408 .
-
-    otl:SluitEnZinkvoegen dct:conformsTo abdl:UNKNOWN .
 
     otl:Smeedwerk dct:conformsTo abdl:DEF-3410 .
 
@@ -1554,8 +1426,6 @@ otl:graaf-otl-abdl-linkset {
     otl:Speelweide dct:conformsTo abdl:DEF-3447 .
 
     otl:Spieplank dct:conformsTo abdl:DEF-3448 .
-
-    otl:Spoor dct:conformsTo abdl:UNKNOWN .
 
     otl:Spoorweg dct:conformsTo abdl:DEF-3457 .
 
@@ -1585,8 +1455,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Stabiliteitsberm dct:conformsTo abdl:DEF-3479 .
 
-    otl:Stadsdeel dct:conformsTo abdl:UNKNOWN .
-
     otl:Stankscherm dct:conformsTo abdl:DEF-3496 .
 
     otl:Startmotor dct:conformsTo abdl:DEF-3501 .
@@ -1609,15 +1477,11 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Stootkussen dct:conformsTo abdl:DEF-3521 .
 
-    otl:StoringsmeldsysteemBoss dct:conformsTo abdl:UNKNOWN .
-
     otl:Stormvloedkering dct:conformsTo abdl:DEF-3532 .
 
     otl:Stortebed dct:conformsTo abdl:DEF-3533 .
 
     otl:Stortvak dct:conformsTo abdl:DEF-3534 .
-
-    otl:Straatmeubilair dct:conformsTo abdl:UNKNOWN .
 
     otl:Straatnaambord dct:conformsTo abdl:DEF-3537 .
 
@@ -1635,10 +1499,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Struikroos dct:conformsTo abdl:DEF-3567 .
 
-    otl:Stuifkuil dct:conformsTo abdl:UNKNOWN .
-
-    otl:Stuifscherm dct:conformsTo abdl:UNKNOWN .
-
     otl:Stuifzand dct:conformsTo abdl:DEF-3569 .
 
     otl:Stuurstroomvoedingsinstallatie dct:conformsTo abdl:DEF-3571 .
@@ -1649,7 +1509,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Stuwhoofd dct:conformsTo abdl:DEF-3579 .
 
-    otl:SupervisoryControlAndDataAcquisition dct:conformsTo abdl:DEF-3589 .
+    otl:SupervisoryControlAndDataAcquisitionScadaSysteem dct:conformsTo abdl:DEF-3589 .
 
     otl:Switch dct:conformsTo abdl:DEF-3590 .
 
@@ -1757,13 +1617,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Tunnelbuis dct:conformsTo abdl:DEF-3812 .
 
-    otl:TunnelbuisCiviel dct:conformsTo abdl:UNKNOWN .
-
-    otl:Tunneldeel dct:conformsTo abdl:UNKNOWN .
-
     otl:Turbine dct:conformsTo abdl:DEF-3823 .
-
-    otl:TussenRelaisInterfaceStations dct:conformsTo abdl:UNKNOWN .
 
     otl:Tussenlaag dct:conformsTo abdl:DEF-3831 .
 
@@ -1773,13 +1627,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Uitlaatvoorziening dct:conformsTo abdl:DEF-3851 .
 
-    otl:Uitmonding dct:conformsTo abdl:UNKNOWN .
-
     otl:Uitstroombak dct:conformsTo abdl:DEF-3858 .
 
     otl:Uitstroomopening dct:conformsTo abdl:DEF-3860 .
-
-    otl:UnDetectieStofidentificatienummers dct:conformsTo abdl:UNKNOWN .
 
     otl:Urinoir dct:conformsTo abdl:DEF-3885 .
 
@@ -1789,21 +1639,13 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Vaarwegmarkering dct:conformsTo abdl:DEF-3897 .
 
-    otl:Valbeveiliging dct:conformsTo abdl:UNKNOWN .
-
     otl:Valreep dct:conformsTo abdl:DEF-3906 .
 
     otl:Vangconstructie dct:conformsTo abdl:DEF-3908 .
 
-    otl:Vegetatieobject dct:conformsTo abdl:UNKNOWN .
-
-    otl:VeiligheidsPlc dct:conformsTo abdl:UNKNOWN .
-
     otl:Veiligheidsventiel dct:conformsTo abdl:DEF-3954 .
 
     otl:Veldafscheiding dct:conformsTo abdl:DEF-3959 .
-
-    otl:Veldbus dct:conformsTo abdl:UNKNOWN .
 
     otl:Ven dct:conformsTo abdl:DEF-3960 .
 
@@ -1843,17 +1685,13 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Verkeerseiland dct:conformsTo abdl:DEF-4028 .
 
-    otl:VerkeersgeleidingEnEvacuatieverlichting dct:conformsTo abdl:UNKNOWN .
-
     otl:Verkeersgeleidingsverlichting dct:conformsTo abdl:DEF-4029 .
 
-    otl:Verkeersinstallaties dct:conformsTo abdl:UNKNOWN .
-
-    otl:Verkeersregelinstallatie dct:conformsTo abdl:DEF-4041 .
+    otl:VerkeersregelinstallatieVri dct:conformsTo abdl:DEF-4041 .
 
     otl:Verlichtingsinstallaties dct:conformsTo abdl:DEF-6801 .
 
-    otl:VerplaatsbareVangrailInstallatie dct:conformsTo abdl:DEF-4063 .
+    otl:VerplaatsbareVangrailInstallatieVeva dct:conformsTo abdl:DEF-4063 .
 
     otl:Versnijder dct:conformsTo abdl:DEF-4075 .
 
@@ -1907,19 +1745,13 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Vluchtdeuren dct:conformsTo abdl:DEF-4155 .
 
-    otl:VluchthavenAanwezigheidsdetectieInstallatie dct:conformsTo abdl:DEF-4158 .
+    otl:VluchthavenAanwezigheidsdetectieInstallatieVad dct:conformsTo abdl:DEF-4158 .
 
     otl:Vluchtstang dct:conformsTo abdl:DEF-4162 .
 
     otl:Vluchtweginstallatie dct:conformsTo abdl:DEF-4165 .
 
-    otl:VluchtweginstallatieVerlichtingEnVasteBorden dct:conformsTo abdl:UNKNOWN .
-
     otl:VluchtwegverlichtingDynamisch dct:conformsTo abdl:DEF-4166 .
-
-    otl:VoedingenHpPbKasten dct:conformsTo abdl:UNKNOWN .
-
-    otl:Voedingsinstallatie50V dct:conformsTo abdl:UNKNOWN .
 
     otl:Voegconstructie dct:conformsTo abdl:DEF-4171 .
 
@@ -1941,15 +1773,11 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Voortstuwer dct:conformsTo abdl:DEF-4216 .
 
-    otl:VoorzieningenHulpdiensten dct:conformsTo abdl:UNKNOWN .
-
-    otl:VorstbeveiligingEnVerwarming dct:conformsTo abdl:UNKNOWN .
-
     otl:Vuilvangrooster dct:conformsTo abdl:DEF-4243 .
 
     otl:Waaiervlotdeur dct:conformsTo abdl:DEF-4245 .
 
-    otl:WaarschuwingsEnAlarmeringssysteem dct:conformsTo abdl:DEF-4251 .
+    otl:WaarschuwingsEnAlarmeringssysteemWas dct:conformsTo abdl:DEF-4251 .
 
     otl:Waarschuwingslicht dct:conformsTo abdl:DEF-4253 .
 
@@ -1965,7 +1793,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Wandconstructie dct:conformsTo abdl:DEF-4267 .
 
-    otl:WarmteKrachtKoppelingsinstallatie dct:conformsTo abdl:DEF-4272 .
+    otl:WarmteKrachtKoppelingsinstallatieWkk dct:conformsTo abdl:DEF-4272 .
 
     otl:Warmtewisselaar dct:conformsTo abdl:DEF-4274 .
 
@@ -1977,13 +1805,7 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Waterbuffer dct:conformsTo abdl:DEF-4292 .
 
-    otl:Waterdeel dct:conformsTo abdl:UNKNOWN .
-
-    otl:Waterinrichtingselement dct:conformsTo abdl:UNKNOWN .
-
-    otl:WaterlichaamOppervlaktewater dct:conformsTo abdl:UNKNOWN .
-
-    otl:Watermistinstallatie dct:conformsTo abdl:DEF-4310 .
+    otl:WatermistinstallatieWms dct:conformsTo abdl:DEF-4310 .
 
     otl:Waterplant dct:conformsTo abdl:DEF-4314 .
 
@@ -1991,19 +1813,13 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Waterreguleringswerk dct:conformsTo abdl:DEF-4316 .
 
-    otl:Waterschap dct:conformsTo abdl:UNKNOWN .
-
     otl:Watertapinstallatie dct:conformsTo abdl:DEF-4329 .
 
     otl:Weerhut dct:conformsTo abdl:DEF-4348 .
 
     otl:Weg dct:conformsTo abdl:DEF-4661 .
 
-    otl:Wegdeel dct:conformsTo abdl:UNKNOWN .
-
-    otl:Weginrichtingselement dct:conformsTo abdl:UNKNOWN .
-
-    otl:Wegkantsysteem dct:conformsTo abdl:DEF-4369 .
+    otl:WegkantsysteemWks dct:conformsTo abdl:DEF-4369 .
 
     otl:Wegkruipplek dct:conformsTo abdl:DEF-4370 .
 
@@ -2019,13 +1835,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Wervelventiel dct:conformsTo abdl:DEF-4406 .
 
-    otl:WideAreaNetwork dct:conformsTo abdl:UNKNOWN .
-
     otl:Wiel dct:conformsTo abdl:DEF-4412 .
 
     otl:Wielstel dct:conformsTo abdl:DEF-4413 .
-
-    otl:Wijk dct:conformsTo abdl:UNKNOWN .
 
     otl:Windmeter dct:conformsTo abdl:DEF-4433 .
 
@@ -2061,8 +1873,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Zee dct:conformsTo abdl:DEF-4483 .
 
-    otl:Zeestrand dct:conformsTo abdl:UNKNOWN .
-
     otl:Zender dct:conformsTo abdl:DEF-4500 .
 
     otl:ZettingbeperkendeElement dct:conformsTo abdl:DEF-4503 .
@@ -2081,16 +1891,14 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Zonnepaneel dct:conformsTo abdl:DEF-4521 .
 
-    otl:ZonwerendRooster dct:conformsTo abdl:UNKNOWN .
-
     otl:Zonweringsinstallatie dct:conformsTo abdl:DEF-4523 .
 
     otl:graaf-otl-abdl-linkset a void:Linkset ;
-        dct:created "2022-06-13"^^xsd:date ;
+        dct:created "2022-07-14"^^xsd:date ;
         dct:description "De OTL-ABDL linkset legt een koppeling tussen OTL-concepten en ABDL-concepten."@nl ;
         dct:title "OTL-ABDL linkset"@nl ;
-        pav:currentVersion otl:graaf-otl-abdl-linkset-3.1.10 ;
-        pav:derivedFrom "IB RWS Release 20220609" ;
+        pav:currentVersion otl:graaf-otl-abdl-linkset-3.1.12 ;
+        pav:derivedFrom "IB RWS Release 20220708" ;
         void:objectsTarget abdl: ;
         void:subjectsTarget otl:graaf-kennismodel ;
         owl:imports abdl:,

@@ -2648,7 +2648,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Brandgang>
             }""" ] .
 
-    otl-patroon:BrandmeldEnOntruimingsinstallatie a sh:NodeShape ;
+    otl-patroon:BrandmeldEnOntruimingsinstallatieBmi a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Brandmeld- en ontruimingsinstallatie (BMI)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -2664,7 +2664,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BrandmeldEnOntruimingsinstallatie>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BrandmeldEnOntruimingsinstallatieBmi>
             }""" ] .
 
     otl-patroon:BrandmeldinstallatieInDeTunnel a sh:NodeShape ;
@@ -2996,7 +2996,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Caisson>
             }""" ] .
 
-    otl-patroon:CalamiteitenDoorsteekInstallatie a sh:NodeShape ;
+    otl-patroon:CalamiteitenDoorsteekInstallatieCado a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Calamiteiten Doorsteek installatie (CADO)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -3012,7 +3012,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/CalamiteitenDoorsteekInstallatie>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/CalamiteitenDoorsteekInstallatieCado>
             }""" ] .
 
     otl-patroon:CameraBeweegbaar a sh:NodeShape ;
@@ -3093,7 +3093,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Centrale>
             }""" ] .
 
-    otl-patroon:CentraleAntenneInstallatie a sh:NodeShape ;
+    otl-patroon:CentraleAntenneInstallatieCai a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Centrale Antenne Installatie (CAI)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -3109,7 +3109,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/CentraleAntenneInstallatie>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/CentraleAntenneInstallatieCai>
             }""" ] .
 
     otl-patroon:CentraleDeurontgrendeling a sh:NodeShape ;
@@ -3170,7 +3170,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Cilinder>
             }""" ] .
 
-    otl-patroon:ClosedCircuitTelevisionInstallatie a sh:NodeShape ;
+    otl-patroon:ClosedCircuitTelevisionInstallatieCctv a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Closed Circuit TeleVision installatie (CCTV)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -3186,7 +3186,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/ClosedCircuitTelevisionInstallatie>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/ClosedCircuitTelevisionInstallatieCctv>
             }""" ] .
 
     otl-patroon:CoaxstralersTunnelbekabeling a sh:NodeShape ;
@@ -3495,11 +3495,9 @@ otl:graaf-informatiemodel {
 
     otl-patroon:Damwand a sh:NodeShape ;
         sh:closed true ;
-        sh:description "Basispatroon voor het vastleggen van Damwand (Onderwatertalud)-concepten"@nl,
-            "Basispatroon voor het vastleggen van Damwand-concepten"@nl ;
+        sh:description "Basispatroon voor het vastleggen van Damwand-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
-        sh:name "Damwand"@nl,
-            "Damwand (Onderwatertalud)"@nl ;
+        sh:name "Damwand"@nl ;
         sh:property otl-patroon:barcode,
             otl-patroon:bouwdatum,
             otl-patroon:bouwjaar,
@@ -3535,6 +3533,22 @@ otl:graaf-informatiemodel {
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/DamwandBovenwatertalud>
+            }""" ] .
+
+    otl-patroon:DamwandOnderwatertalud a sh:NodeShape ;
+        sh:closed true ;
+        sh:description "Basispatroon voor het vastleggen van Damwand (Onderwatertalud)-concepten"@nl ;
+        sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
+        sh:name "Damwand (Onderwatertalud)"@nl ;
+        sh:property otl-patroon:bouwdatum,
+            otl-patroon:bouwjaar,
+            otl-patroon:huidigeleeftijd,
+            otl-patroon:id,
+            otl-patroon:omschrijving,
+            otl-patroon:soort ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/DamwandOnderwatertalud>
             }""" ] .
 
     otl-patroon:Dataloginstallatie a sh:NodeShape ;
@@ -4520,7 +4534,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Drukknoppaal>
             }""" ] .
 
-    otl-patroon:Drukluchtschuiminstallatie a sh:NodeShape ;
+    otl-patroon:DrukluchtschuiminstallatieDls a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Drukluchtschuiminstallatie (DLS)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -4536,7 +4550,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Drukluchtschuiminstallatie>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/DrukluchtschuiminstallatieDls>
             }""" ] .
 
     otl-patroon:Drukpalen a sh:NodeShape ;
@@ -5486,7 +5500,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Gaffel>
             }""" ] .
 
-    otl-patroon:GasdetectieInstallatie a sh:NodeShape ;
+    otl-patroon:GasdetectieInstallatieLel a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Gasdetectie-installatie (LEL)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -5502,7 +5516,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/GasdetectieInstallatie>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/GasdetectieInstallatieLel>
             }""" ] .
 
     otl-patroon:Gasinstallatie a sh:NodeShape ;
@@ -6079,7 +6093,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Glijbaan>
             }""" ] .
 
-    otl-patroon:GlobalSystemForMobileCommunicationsInstallatie a sh:NodeShape ;
+    otl-patroon:GlobalSystemForMobileCommunicationsInstallatieGsm a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Global System for Mobile communications installatie (GSM)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -6095,7 +6109,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/GlobalSystemForMobileCommunicationsInstallatie>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/GlobalSystemForMobileCommunicationsInstallatieGsm>
             }""" ] .
 
     otl-patroon:Golfpijp a sh:NodeShape ;
@@ -6958,7 +6972,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Helofytenfilter>
             }""" ] .
 
-    otl-patroon:Hemelwaterafvoer a sh:NodeShape ;
+    otl-patroon:HemelwaterafvoerHwa a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Hemelwaterafvoer (HWA)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -6972,7 +6986,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Hemelwaterafvoer>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/HemelwaterafvoerHwa>
             }""" ] .
 
     otl-patroon:Heugelstang a sh:NodeShape ;
@@ -7153,7 +7167,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Hoofdverdeler>
             }""" ] .
 
-    otl-patroon:HoogFrequentInstallatie a sh:NodeShape ;
+    otl-patroon:HoogFrequentInstallatieHf a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Hoog Frequent installatie (HF)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -7169,7 +7183,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/HoogFrequentInstallatie>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/HoogFrequentInstallatieHf>
             }""" ] .
 
     otl-patroon:Hoogspanningsinstallatie a sh:NodeShape ;
@@ -7415,7 +7429,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Inbraakbeveiligingsinstallatie>
             }""" ] .
 
-    otl-patroon:IndividueleBehandelingVanAfvalwater a sh:NodeShape ;
+    otl-patroon:IndividueleBehandelingVanAfvalwaterIba a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Individuele Behandeling van Afvalwater (IBA)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -7438,10 +7452,10 @@ otl:graaf-informatiemodel {
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/IndividueleBehandelingVanAfvalwater>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/IndividueleBehandelingVanAfvalwaterIba>
             }""" ] .
 
-    otl-patroon:IndividueleBehandelingVanAfvalwaterSysteem a sh:NodeShape ;
+    otl-patroon:IndividueleBehandelingVanAfvalwaterSysteemIbaSysteem a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Individuele Behandeling van Afvalwater systeem (IBA-systeem)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -7454,7 +7468,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/IndividueleBehandelingVanAfvalwaterSysteem>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/IndividueleBehandelingVanAfvalwaterSysteemIbaSysteem>
             }""" ] .
 
     otl-patroon:Infiltratiekratten a sh:NodeShape ;
@@ -7538,7 +7552,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Infiltratievoorziening>
             }""" ] .
 
-    otl-patroon:InformatieEnVolgsysteemScheepvaart1990 a sh:NodeShape ;
+    otl-patroon:InformatieEnVolgsysteemScheepvaart1990Ivs90 a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Informatie en Volgsysteem Scheepvaart 1990 (IVS90)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -7554,7 +7568,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/InformatieEnVolgsysteemScheepvaart1990>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/InformatieEnVolgsysteemScheepvaart1990Ivs90>
             }""" ] .
 
     otl-patroon:Informatiebord a sh:NodeShape ;
@@ -9854,7 +9868,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Lijnafwatering>
             }""" ] .
 
-    otl-patroon:LocalAreaNetwork a sh:NodeShape ;
+    otl-patroon:LocalAreaNetworkLan a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Local Area Network (LAN)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -9877,7 +9891,7 @@ otl:graaf-informatiemodel {
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/LocalAreaNetwork>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/LocalAreaNetworkLan>
             }""" ] .
 
     otl-patroon:Loopbrug a sh:NodeShape ;
@@ -11443,7 +11457,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/OpenbareRuimte>
             }""" ] .
 
-    otl-patroon:OpenbareVerlichting a sh:NodeShape ;
+    otl-patroon:OpenbareVerlichtingOv a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Openbare verlichting (OV)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -11459,7 +11473,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/OpenbareVerlichting>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/OpenbareVerlichtingOv>
             }""" ] .
 
     otl-patroon:Openfilterconstructie a sh:NodeShape ;
@@ -12367,7 +12381,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Persleiding>
             }""" ] .
 
-    otl-patroon:Personenzoekinstallatie a sh:NodeShape ;
+    otl-patroon:PersonenzoekinstallatiePzi a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Personenzoekinstallatie (PZI)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -12383,7 +12397,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Personenzoekinstallatie>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/PersonenzoekinstallatiePzi>
             }""" ] .
 
     otl-patroon:Pictogram a sh:NodeShape ;
@@ -12811,7 +12825,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Procesbassin>
             }""" ] .
 
-    otl-patroon:ProgrammableLogicController a sh:NodeShape ;
+    otl-patroon:ProgrammableLogicControllerPlc a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Programmable Logic Controller (PLC)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -12834,7 +12848,7 @@ otl:graaf-informatiemodel {
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/ProgrammableLogicController>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/ProgrammableLogicControllerPlc>
             }""" ] .
 
     otl-patroon:Puntbeluchter a sh:NodeShape ;
@@ -13013,7 +13027,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Radarscanner>
             }""" ] .
 
-    otl-patroon:RadioDirectionFinding a sh:NodeShape ;
+    otl-patroon:RadioDirectionFindingRdf a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Radio Direction Finding (RDF)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -13026,7 +13040,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/RadioDirectionFinding>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/RadioDirectionFindingRdf>
             }""" ] .
 
     otl-patroon:Rail a sh:NodeShape ;
@@ -16220,7 +16234,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Stuwhoofd>
             }""" ] .
 
-    otl-patroon:SupervisoryControlAndDataAcquisition a sh:NodeShape ;
+    otl-patroon:SupervisoryControlAndDataAcquisitionScadaSysteem a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Supervisory Control and Data Acquisition (SCADA-systeem)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -16243,7 +16257,7 @@ otl:graaf-informatiemodel {
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/SupervisoryControlAndDataAcquisition>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/SupervisoryControlAndDataAcquisitionScadaSysteem>
             }""" ] .
 
     otl-patroon:Switch a sh:NodeShape ;
@@ -18082,7 +18096,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Verkeersinstallaties>
             }""" ] .
 
-    otl-patroon:Verkeersregelinstallatie a sh:NodeShape ;
+    otl-patroon:VerkeersregelinstallatieVri a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Verkeersregelinstallatie (VRI)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -18098,7 +18112,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Verkeersregelinstallatie>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/VerkeersregelinstallatieVri>
             }""" ] .
 
     otl-patroon:Verlichtingsinstallaties a sh:NodeShape ;
@@ -18120,7 +18134,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Verlichtingsinstallaties>
             }""" ] .
 
-    otl-patroon:VerplaatsbareVangrailInstallatie a sh:NodeShape ;
+    otl-patroon:VerplaatsbareVangrailInstallatieVeva a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Verplaatsbare Vangrail installatie (VEVA)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -18136,7 +18150,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/VerplaatsbareVangrailInstallatie>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/VerplaatsbareVangrailInstallatieVeva>
             }""" ] .
 
     otl-patroon:Versnijder a sh:NodeShape ;
@@ -18650,7 +18664,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Vluchtdeuren>
             }""" ] .
 
-    otl-patroon:VluchthavenAanwezigheidsdetectieInstallatie a sh:NodeShape ;
+    otl-patroon:VluchthavenAanwezigheidsdetectieInstallatieVad a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Vluchthaven Aanwezigheidsdetectie installatie (VAD)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -18666,7 +18680,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/VluchthavenAanwezigheidsdetectieInstallatie>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/VluchthavenAanwezigheidsdetectieInstallatieVad>
             }""" ] .
 
     otl-patroon:Vluchtstang a sh:NodeShape ;
@@ -19048,7 +19062,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Waaiervlotdeur>
             }""" ] .
 
-    otl-patroon:WaarschuwingsEnAlarmeringssysteem a sh:NodeShape ;
+    otl-patroon:WaarschuwingsEnAlarmeringssysteemWas a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Waarschuwings- en alarmeringssysteem (WAS)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -19064,7 +19078,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WaarschuwingsEnAlarmeringssysteem>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WaarschuwingsEnAlarmeringssysteemWas>
             }""" ] .
 
     otl-patroon:Waarschuwingslicht a sh:NodeShape ;
@@ -19191,7 +19205,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Wandconstructie>
             }""" ] .
 
-    otl-patroon:WarmteKrachtKoppelingsinstallatie a sh:NodeShape ;
+    otl-patroon:WarmteKrachtKoppelingsinstallatieWkk a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Warmte-kracht koppelingsinstallatie (WKK)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -19207,7 +19221,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WarmteKrachtKoppelingsinstallatie>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WarmteKrachtKoppelingsinstallatieWkk>
             }""" ] .
 
     otl-patroon:Warmtewisselaar a sh:NodeShape ;
@@ -19355,7 +19369,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WaterlichaamOppervlaktewater>
             }""" ] .
 
-    otl-patroon:Watermistinstallatie a sh:NodeShape ;
+    otl-patroon:WatermistinstallatieWms a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Watermistinstallatie (WMS)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -19371,7 +19385,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Watermistinstallatie>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WatermistinstallatieWms>
             }""" ] .
 
     otl-patroon:Waterplant a sh:NodeShape ;
@@ -19559,7 +19573,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Weginrichtingselement>
             }""" ] .
 
-    otl-patroon:Wegkantsysteem a sh:NodeShape ;
+    otl-patroon:WegkantsysteemWks a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Wegkantsysteem (WKS)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -19575,7 +19589,7 @@ otl:graaf-informatiemodel {
             otl-patroon:soort ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Wegkantsysteem>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WegkantsysteemWks>
             }""" ] .
 
     otl-patroon:Wegkruipplek a sh:NodeShape ;
@@ -19697,7 +19711,7 @@ otl:graaf-informatiemodel {
                 ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Wervelventiel>
             }""" ] .
 
-    otl-patroon:WideAreaNetwork a sh:NodeShape ;
+    otl-patroon:WideAreaNetworkWan a sh:NodeShape ;
         sh:closed true ;
         sh:description "Basispatroon voor het vastleggen van Wide Area Network (WAN)-concepten"@nl ;
         sh:ignoredProperties ( dct:subject rdf:type bs:hasPart ) ;
@@ -19720,7 +19734,7 @@ otl:graaf-informatiemodel {
             otl-patroon:wisseldeelindicator ;
         sh:target [ a sh:SPARQLTarget ;
                 sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WideAreaNetwork>
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WideAreaNetworkWan>
             }""" ] .
 
     otl-patroon:Wiel a sh:NodeShape ;
@@ -20424,11 +20438,11 @@ otl:graaf-informatiemodel {
         sh:pattern "^https:\\/\\/data\\.rws\\.nl\\/id\\/a\\/\\w+-\\S+$" .
 
     otl:graaf-informatiemodel a owl:Ontology ;
-        dct:created "2022-06-13"^^xsd:date ;
+        dct:created "2022-07-14"^^xsd:date ;
         dct:description "Het OTL informatiemodel bevat informatie over de mogelijke eigenschappen van objecttypen."@nl ;
         dct:title "OTL informatiemodel"@nl ;
-        pav:currentVersion otl:graaf-informatiemodel-3.1.10 ;
-        pav:derivedFrom "IB RWS Release 20220609" ;
+        pav:currentVersion otl:graaf-informatiemodel-3.1.12 ;
+        pav:derivedFrom "IB RWS Release 20220708" ;
         owl:imports qudt:,
             sh:,
             otl:graaf-kennismodel .
