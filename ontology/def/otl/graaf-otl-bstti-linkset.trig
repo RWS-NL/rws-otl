@@ -22,23 +22,13 @@ otl:graaf-otl-bstti-linkset {
 
     otl:Armatuur skos:relatedMatch bstti:tunnel-deelinstallatie-Armatuur .
 
-    otl:BebordingEnBewegwijzeringStatisch skos:relatedMatch bstti:tunnel-deelinstallatie-verkeersbord- .
-
     otl:Bedieningspaneel skos:relatedMatch bstti:tunnel-deelinstallatie-Bedieningspaneel .
-
-    otl:Besturingssysteem skos:relatedMatch bstti:Besturingssysteem--Algemeen .
 
     otl:Binnenverlichting skos:relatedMatch bstti:tunnel-6.6 .
 
     otl:Bliksemafleider skos:relatedMatch bstti:tunnel-deelinstallatie-bliksembeveiliging .
 
-    otl:BrandblusinstallatieDienstgebouw skos:relatedMatch bstti:Tunnel-6.3 .
-
-    otl:BrandblusinstallatieInDeTunnel skos:relatedMatch bstti:tunnel-8.7 .
-
     otl:Brandblusser skos:broadMatch bstti:tunnel-deelinstallatie-Draagbaar-brandblusapparaat .
-
-    otl:BrandmeldinstallatieDienstgebouw skos:relatedMatch bstti:tunnel-8.6 .
 
     otl:Buffer skos:narrowMatch bstti:tunnel-deelinstallatie-full-scale-botsabsorber-aanrijdbuffer .
 
@@ -47,8 +37,6 @@ otl:graaf-otl-bstti-linkset {
     otl:CameraBeweegbaar skos:broadMatch bstti:tunnel-comp-Camera .
 
     otl:CameraVast skos:broadMatch bstti:tunnel-comp-Camera .
-
-    otl:CentraleBedieningEnBewaking skos:relatedMatch bstti:tunnel-deelinstallatie-Centrale-Bediening .
 
     otl:CentraleDeurontgrendeling skos:relatedMatch bstti:Centrale-deurontgrendelingsinstallatie--Algemeen .
 
@@ -93,13 +81,9 @@ otl:graaf-otl-bstti-linkset {
 
     otl:Kabel skos:relatedMatch bstti:tunnel-deelinstallatie-kabels .
 
-    otl:Kabeldoorvoer skos:relatedMatch bstti:tunnel-deelinstallatie-Kabeldoorvoer .
-
     otl:Kabeldraagconstructie skos:relatedMatch bstti:tunnel-deelinstallatie-kabeldraagsysteem .
 
     otl:Kabelgoot skos:relatedMatch bstti:tunnel-deelinstallatie-Kabelgoot .
-
-    otl:KabelgotenEnLadders skos:relatedMatch bstti:Kabeltracees--kabelgoten-en-ladders--Algemeen .
 
     otl:Kast skos:relatedMatch bstti:tunnel-deelinstallatie-kast--afsluitbaar .
 
@@ -114,8 +98,6 @@ otl:graaf-otl-bstti-linkset {
     otl:KwhMetering skos:relatedMatch bstti:tunnel-deelinstallatie-kWh-meter .
 
     otl:Laagspanningsinstallatie skos:relatedMatch bstti:tunnel-deelinstallatie-laagspanningsinstallatie .
-
-    otl:Laagspanningsverdeelinrichting skos:relatedMatch bstti:Laagspanningsverdeelinrichting--Algemeen .
 
     otl:Ladderbaan skos:relatedMatch bstti:tunnel-deelinstallatie-Ladderbaan .
 
@@ -138,8 +120,6 @@ otl:graaf-otl-bstti-linkset {
     otl:Noodhandbediening skos:relatedMatch bstti:tunnel-8.3 .
 
     otl:Noodtelefoon skos:relatedMatch bstti:tunnel-5.15 .
-
-    otl:OpenbaarNutsbedrijf skos:relatedMatch bstti:Openbaar-nutsbedrijf--Algemeen .
 
     otl:Ophangconstructie skos:relatedMatch bstti:tunnel-deelinstallatie-ophangconstructie .
 
@@ -165,8 +145,6 @@ otl:graaf-otl-bstti-linkset {
 
     otl:Telefoontoestel skos:relatedMatch bstti:tunnel-deelinstallatie-telefoontoestel .
 
-    otl:Terreinverlichting skos:relatedMatch bstti:tunnel-8.1 .
-
     otl:Transformator skos:relatedMatch bstti:tunnel-comp-Transformator .
 
     otl:Tunnel skos:relatedMatch bstti:NCS0025166 .
@@ -180,8 +158,6 @@ otl:graaf-otl-bstti-linkset {
     otl:Versterker skos:relatedMatch bstti:tunnel-deelinstallatie-Versterker .
 
     otl:Vluchtdeur skos:relatedMatch bstti:tunnel-deelinstallatie-vluchtdeur .
-
-    otl:Vluchtdeuren skos:relatedMatch bstti:tunnel-deelinstallatie-vluchtdeur .
 
     otl:Wand skos:relatedMatch bstti:tunnel-deelinstallatie-Wand .
 
