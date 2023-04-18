@@ -30,10 +30,6 @@ otl:graaf-otl-voc-linkset {
 
     otl:Hulppostkast skos:closeMatch voc:Hulppostkast .
 
-    otl:LokaleBedieningEnBewaking skos:relatedMatch voc:Lokale_bediening .
-
-    otl:NoodbedieningEnBewaking skos:broadMatch voc:Noodbediening .
-
     otl:Noodhandbediening skos:broadMatch voc:Handbediening .
 
     otl:SupervisoryControlAndDataAcquisition skos:closeMatch voc:Supervisory_Control_And_Data_Acquisition .
@@ -49,8 +45,6 @@ otl:graaf-otl-voc-linkset {
     otl:Videowall skos:closeMatch voc:Videowand .
 
     otl:Vluchtdeur skos:closeMatch voc:Vluchtdeur .
-
-    otl:Vluchtdeuren skos:closeMatch voc:Vluchtdeur .
 
     otl:graaf-otl-voc-linkset a void:Linkset ;
         dct:description "De OTL-VOC linkset legt een koppeling tussen OTL-concepten en LTS-VOC-concepten."@nl ;
