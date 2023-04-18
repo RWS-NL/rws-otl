@@ -424,6 +424,8 @@ otl:graaf-ib-programmeringsbasis {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Asset Risico binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Asset Risico"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:risiconiveau ],
+            [ sh:minCount 1 ;
                 sh:path otl:toelichting ] .
 
     otl-patroon:Atletiekbaan a sh:NodeShape ;
@@ -700,21 +702,105 @@ otl:graaf-ib-programmeringsbasis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:BerekendePrestatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende Prestatie binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Berekende Prestatie"@nl ;
+    otl-patroon:BerekendeFaalfrequentie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende Faalfrequentie binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Berekende Faalfrequentie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:aantalkeervgmeffect ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitgevoerd ],
             [ sh:minCount 1 ;
-                sh:path otl:frequentie ],
+                sh:path otl:naam ],
             [ sh:minCount 1 ;
-                sh:path otl:instandhoudingskosten ],
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeKosten a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende Kosten binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Berekende Kosten"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitgevoerd ],
             [ sh:minCount 1 ;
-                sh:path otl:onvoorzienenietbeschikbaarheid ],
+                sh:path otl:naam ],
             [ sh:minCount 1 ;
-                sh:path otl:voorzienenietbeschikbaarheid ] .
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeOnvoorzienenietbeschikbaarheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende OnvoorzieneNietBeschikbaarheid binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Berekende OnvoorzieneNietBeschikbaarheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVgmEffect1 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VGM Effect 1 binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Berekende VGM Effect 1"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVgmEffect2 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VGM Effect 2 binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Berekende VGM Effect 2"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVgmEffect3 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VGM Effect 3 binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Berekende VGM Effect 3"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVgmEffect4 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VGM Effect 4 binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Berekende VGM Effect 4"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVgmEffect5 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VGM Effect 5 binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Berekende VGM Effect 5"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVgmEffect6 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VGM Effect 6 binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Berekende VGM Effect 6"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVoorzienenietbeschikbaarheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VoorzieneNietBeschikbaarheid binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Berekende VoorzieneNietBeschikbaarheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
 
     otl-patroon:Bergbezinkbassin a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bergbezinkbassin binnen de context van informatieproduct Programmeringsbasis"@nl ;
@@ -767,6 +853,14 @@ otl:graaf-ib-programmeringsbasis {
     otl-patroon:Besturingsinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Besturingsinstallatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:BesturingsinstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie derden binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Besturingsinstallatie derden"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -1065,14 +1159,6 @@ otl:graaf-ib-programmeringsbasis {
     otl-patroon:BrandmeldEnOntruimingsinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeld- en ontruimingsinstallatie binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Brandmeld- en ontruimingsinstallatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:BrandmeldinstallatieInDeTunnel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeldinstallatie in de tunnel binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Brandmeldinstallatie in de tunnel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -1560,22 +1646,6 @@ otl:graaf-ib-programmeringsbasis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:DigitaleAudioOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale audio-opslag binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Digitale audio-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:DigitaleBeeldOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale beeld-opslag binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Digitale beeld-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Dijk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dijk binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Dijk"@nl ;
@@ -1619,14 +1689,6 @@ otl:graaf-ib-programmeringsbasis {
     otl-patroon:DiverseInstallaties a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Diverse installaties binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Diverse installaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Doel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doel binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Doel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -2014,29 +2076,39 @@ otl:graaf-ib-programmeringsbasis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:FaalfrequentieEis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faalfrequentie Eis binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Faalfrequentie Eis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
+
     otl-patroon:Faalgevolg a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faalgevolg binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Faalgevolg"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beschikbaarheid ],
+                sh:path otl:beschikbaarheidsscore ],
             [ sh:minCount 1 ;
-                sh:path otl:gezondheid ],
+                sh:path otl:gezondheidsscore ],
             [ sh:minCount 1 ;
-                sh:path otl:imago ],
+                sh:path otl:imagoscore ],
             [ sh:minCount 1 ;
-                sh:path otl:kosten ],
+                sh:path otl:kostenscore ],
             [ sh:minCount 1 ;
-                sh:path otl:omgevingmilieu ],
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omgevingmilieuscore ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:onderhoudbaarheid ],
+                sh:path otl:onderhoudbaarheidsscore ],
             [ sh:minCount 1 ;
-                sh:path otl:security ],
+                sh:path otl:securityscore ],
             [ sh:minCount 1 ;
-                sh:path otl:tunnelfaaldefinitie ],
-            [ sh:minCount 1 ;
-                sh:path otl:veiligheid ] .
+                sh:path otl:veiligheidsscore ] .
 
     otl-patroon:Fantasietoestel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fantasietoestel binnen de context van informatieproduct Programmeringsbasis"@nl ;
@@ -2198,9 +2270,7 @@ otl:graaf-ib-programmeringsbasis {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:testinterval ],
-            [ sh:minCount 1 ;
-                sh:path otl:wettelijkverplichtindicator ] .
+                sh:path otl:testinterval ] .
 
     otl-patroon:Fundatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fundatie binnen de context van informatieproduct Programmeringsbasis"@nl ;
@@ -2280,9 +2350,7 @@ otl:graaf-ib-programmeringsbasis {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:vervangingsinsterval ],
-            [ sh:minCount 1 ;
-                sh:path otl:wettelijkverplichtindicator ] .
+                sh:path otl:vervangingsinsterval ] .
 
     otl-patroon:Gedenksteen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gedenksteen binnen de context van informatieproduct Programmeringsbasis"@nl ;
@@ -2375,14 +2443,6 @@ otl:graaf-ib-programmeringsbasis {
     otl-patroon:GeluidbeperkendeConstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidbeperkende constructie binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Geluidbeperkende constructie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Geluidsbakens a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsbakens binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Geluidsbakens"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -2601,14 +2661,6 @@ otl:graaf-ib-programmeringsbasis {
     otl-patroon:Grindkoffer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grindkoffer binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Grindkoffer"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Groen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Groen binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Groen"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -3204,17 +3256,17 @@ otl:graaf-ib-programmeringsbasis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Installatiekabel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatiekabel binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Installatiekabel"@nl ;
+    otl-patroon:InstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatie derden binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Installatie derden"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:InstallatiesDerden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installaties derden binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Installaties derden"@nl ;
+    otl-patroon:Installatiekabel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatiekabel binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Installatiekabel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -3247,14 +3299,6 @@ otl:graaf-ib-programmeringsbasis {
     otl-patroon:Intercompost a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Intercompost binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Intercompost"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Interieur a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Interieur binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Interieur"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -3842,9 +3886,9 @@ otl:graaf-ib-programmeringsbasis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LaadpalenElektrischeVoertuigen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpalen elektrische voertuigen binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Laadpalen elektrische voertuigen"@nl ;
+    otl-patroon:LaadpaalElektrischeVoertuigen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpaal elektrische voertuigen binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Laadpaal elektrische voertuigen"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -4002,14 +4046,6 @@ otl:graaf-ib-programmeringsbasis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LichtEnKrachtInstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Licht en Kracht Installaties binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Licht en Kracht Installaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Lichtgroepenkast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtgroepenkast binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Lichtgroepenkast"@nl ;
@@ -4029,14 +4065,6 @@ otl:graaf-ib-programmeringsbasis {
     otl-patroon:Lichtopstand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtopstand binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Lichtopstand"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Lichtrooster a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtrooster binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Lichtrooster"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -4374,6 +4402,14 @@ otl:graaf-ib-programmeringsbasis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Netaansluiting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Netaansluiting binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Netaansluiting"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Nevengeul a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nevengeul binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Nevengeul"@nl ;
@@ -4703,6 +4739,16 @@ otl:graaf-ib-programmeringsbasis {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
+
+    otl-patroon:OnvoorzienenietbeschikbaarheidEis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type OnvoorzieneNietBeschikbaarheid Eis binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "OnvoorzieneNietBeschikbaarheid Eis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
 
     otl-patroon:OpEnAfrit a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Op- en afrit binnen de context van informatieproduct Programmeringsbasis"@nl ;
@@ -5172,17 +5218,17 @@ otl:graaf-ib-programmeringsbasis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:PompEnVentilatieinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pomp- en ventilatieinstallaties binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Pomp- en ventilatieinstallaties"@nl ;
+    otl-patroon:Pompinstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Pompinstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Pompinstallatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Pompinstallatie"@nl ;
+    otl-patroon:Pompinstallaties a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallaties binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Pompinstallaties"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -5227,20 +5273,6 @@ otl:graaf-ib-programmeringsbasis {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:PrestatieEis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Prestatie Eis binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Prestatie Eis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:frequentie ],
-            [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:onvoorzienenietbeschikbaarheid ],
-            [ sh:minCount 1 ;
-                sh:path otl:voorzienenietbeschikbaarheid ] .
 
     otl-patroon:PreventiefOnderhoud a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Preventief Onderhoud binnen de context van informatieproduct Programmeringsbasis"@nl ;
@@ -5657,14 +5689,6 @@ otl:graaf-ib-programmeringsbasis {
     otl-patroon:Rolgordijn a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolgordijn binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Rolgordijn"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:RolhekkenEnToegangsdeurenDienstgebouwen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolhekken en toegangsdeuren dienstgebouwen binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Rolhekken en toegangsdeuren dienstgebouwen"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -6098,14 +6122,6 @@ otl:graaf-ib-programmeringsbasis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:SignaleringHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signalering HP en PB kasten binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Signalering HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Skatebaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Skatebaan binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Skatebaan"@nl ;
@@ -6226,14 +6242,6 @@ otl:graaf-ib-programmeringsbasis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:SluitEnZinkvoegen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sluit- en zinkvoegen binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Sluit- en zinkvoegen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Smeedwerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Smeedwerk binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Smeedwerk"@nl ;
@@ -6309,6 +6317,14 @@ otl:graaf-ib-programmeringsbasis {
     otl-patroon:Sportattribuut a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportattribuut binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Sportattribuut"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Sportdoel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportdoel binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Sportdoel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -6524,14 +6540,6 @@ otl:graaf-ib-programmeringsbasis {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storings Afhankelijk Onderhoud binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Storings Afhankelijk Onderhoud"@nl ;
         sh:property [ sh:minCount 0 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Storingsmeldsysteem a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storingsmeldsysteem binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Storingsmeldsysteem"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Stormvloedkering a sh:NodeShape ;
@@ -6780,9 +6788,13 @@ otl:graaf-ib-programmeringsbasis {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:TandwieloverbrengingOpen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging open binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Tandwieloverbrenging open"@nl ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -6904,9 +6916,7 @@ otl:graaf-ib-programmeringsbasis {
         sh:property [ sh:minCount 0 ;
                 sh:path otl:inspectieinterval ],
             [ sh:minCount 0 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 0 ;
-                sh:path otl:wettelijkverplichtindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Toilet a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toilet binnen de context van informatieproduct Programmeringsbasis"@nl ;
@@ -7142,14 +7152,6 @@ otl:graaf-ib-programmeringsbasis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:TussenRelaisInterfaceStations a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussen relais - interface stations binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Tussen relais - interface stations"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Tussenlaag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussenlaag binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Tussenlaag"@nl ;
@@ -7208,14 +7210,6 @@ otl:graaf-ib-programmeringsbasis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:UnDetectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type UN-detectie binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "UN-detectie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Urinoir a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Urinoir binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Urinoir"@nl ;
@@ -7267,14 +7261,6 @@ otl:graaf-ib-programmeringsbasis {
     otl-patroon:Vangconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vangconstructie binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Vangconstructie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VeiligheidsPlc a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheids PLC binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Veiligheids PLC"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -7456,14 +7442,6 @@ otl:graaf-ib-programmeringsbasis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VerkeersgeleidingEnEvacuatieverlichting a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleiding- en evacuatieverlichting binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Verkeersgeleiding- en evacuatieverlichting"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Verkeersgeleidingsverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleidingsverlichting binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Verkeersgeleidingsverlichting"@nl ;
@@ -7488,9 +7466,9 @@ otl:graaf-ib-programmeringsbasis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Verlichtingsinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichtingsinstallaties binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Verlichtingsinstallaties"@nl ;
+    otl-patroon:Verlichting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichting binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Verlichting"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -7732,33 +7710,9 @@ otl:graaf-ib-programmeringsbasis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VluchtweginstallatieVerlichtingEnVasteBorden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtweginstallatie- verlichting en vaste borden binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Vluchtweginstallatie- verlichting en vaste borden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Vluchtwegverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtwegverlichting binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Vluchtwegverlichting"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingenHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingen HP en PB kasten binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Voedingen HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingsinstallatieOnder50V a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingsinstallatie onder 50V binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Voedingsinstallatie onder 50V"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -7844,17 +7798,19 @@ otl:graaf-ib-programmeringsbasis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:VoorzienenietbeschikbaarheidEis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VoorzieneNietBeschikbaarheid Eis binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "VoorzieneNietBeschikbaarheid Eis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
+
     otl-patroon:VoorzieningenHulpdiensten a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voorzieningen hulpdiensten binnen de context van informatieproduct Programmeringsbasis"@nl ;
         sh:name "Voorzieningen hulpdiensten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VorstbeveiligingEnVerwarming a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vorstbeveiliging en verwarming binnen de context van informatieproduct Programmeringsbasis"@nl ;
-        sh:name "Vorstbeveiliging en verwarming"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -8022,9 +7978,13 @@ otl:graaf-ib-programmeringsbasis {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:WaterplantOndergedoken a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant ondergedoken binnen de context van informatieproduct Programmeringsbasis"@nl ;
+        sh:name "Waterplant ondergedoken"@nl ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -8387,11 +8347,11 @@ otl:graaf-ib-programmeringsbasis {
                 sh:path otl:omschrijving ] .
 
     otl:graaf-ib-programmeringsbasis a owl:Ontology ;
-        dct:created "2023-02-01"^^xsd:date ;
+        dct:created "2023-04-04"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Programmeringsbasis' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Programmeringsbasis'"@nl ;
-        pav:currentVersion otl:graaf-ib-programmeringsbasis-3.1.20 ;
-        pav:derivedFrom "IBRWS Release 20" ;
+        pav:currentVersion otl:graaf-ib-programmeringsbasis-3.1.21 ;
+        pav:derivedFrom "IB RWS release 21" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

@@ -16,6 +16,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Aandrijving a sh:NodeShape ;
@@ -38,6 +40,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:AandrijvingEnBewegingswerkElektromechanisch a sh:NodeShape ;
@@ -48,6 +52,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:AandrijvingEnBewegingswerkMechanisch a sh:NodeShape ;
@@ -57,6 +63,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -78,6 +86,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Aanrijbalk a sh:NodeShape ;
@@ -87,6 +97,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -158,6 +170,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Aardrail a sh:NodeShape ;
@@ -209,6 +223,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -286,6 +302,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:AfscheiderinstallatieStatisch a sh:NodeShape ;
@@ -295,6 +313,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -306,6 +326,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Afslagzone a sh:NodeShape ;
@@ -315,6 +337,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -337,6 +361,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -430,6 +456,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Anode a sh:NodeShape ;
@@ -461,6 +489,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -726,6 +756,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Basketbalpaal a sh:NodeShape ;
@@ -766,6 +798,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:BedieningsEnBesturingsinstallatie a sh:NodeShape ;
@@ -775,6 +809,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -839,6 +875,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -908,6 +946,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Beluchtingstank a sh:NodeShape ;
@@ -932,15 +972,91 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:BerekendePrestatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende Prestatie binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Berekende Prestatie"@nl ;
+    otl-patroon:BerekendeFaalfrequentie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende Faalfrequentie binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Berekende Faalfrequentie"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumuitgevoerd ] .
+
+    otl-patroon:BerekendeFaalkanssluitenkering a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende FaalkansSluitenKering binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Berekende FaalkansSluitenKering"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitgevoerd ],
             [ sh:minCount 1 ;
-                sh:path otl:faalkanssluitenkering ],
+                sh:path otl:naam ],
             [ sh:minCount 1 ;
-                sh:path otl:instandhoudingskosten ] .
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeKosten a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende Kosten binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Berekende Kosten"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVgmEffect1 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VGM Effect 1 binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Berekende VGM Effect 1"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVgmEffect2 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VGM Effect 2 binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Berekende VGM Effect 2"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVgmEffect3 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VGM Effect 3 binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Berekende VGM Effect 3"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVgmEffect4 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VGM Effect 4 binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Berekende VGM Effect 4"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVgmEffect5 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VGM Effect 5 binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Berekende VGM Effect 5"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVgmEffect6 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VGM Effect 6 binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Berekende VGM Effect 6"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:waarde ] .
 
     otl-patroon:Bergbezinkbassin a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bergbezinkbassin binnen de context van informatieproduct IHP op basis van Probo"@nl ;
@@ -949,6 +1065,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -959,6 +1077,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1013,6 +1133,20 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:BesturingsinstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie derden binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Besturingsinstallatie derden"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:bouwdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1080,6 +1214,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Binnenduin a sh:NodeShape ;
@@ -1089,6 +1225,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1100,6 +1238,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Binnenverlichting a sh:NodeShape ;
@@ -1109,6 +1249,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1154,6 +1296,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Bodembedekker a sh:NodeShape ;
@@ -1175,6 +1319,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1294,6 +1440,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Bosgebied a sh:NodeShape ;
@@ -1324,6 +1472,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Bovenleiding a sh:NodeShape ;
@@ -1344,6 +1494,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Brandblusinstallaties a sh:NodeShape ;
@@ -1353,6 +1505,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1376,6 +1530,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Branddoorvoeringen a sh:NodeShape ;
@@ -1385,6 +1541,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1406,15 +1564,7 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:BrandmeldinstallatieInDeTunnel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeldinstallatie in de tunnel binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Brandmeldinstallatie in de tunnel"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1542,6 +1692,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Buitentalud a sh:NodeShape ;
@@ -1551,6 +1703,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1581,6 +1735,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1628,6 +1784,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:CentraleDeurontgrendeling a sh:NodeShape ;
@@ -1669,6 +1827,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1720,6 +1880,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Compensator a sh:NodeShape ;
@@ -1751,6 +1913,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1792,17 +1956,19 @@ otl:graaf-ib-ihpop-basis-van-probo {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Correctief Onderhoud binnen de context van informatieproduct IHP op basis van Probo"@nl ;
         sh:name "Correctief Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:conditienaonderhoud ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumtijdafgerond ],
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
-            [ sh:minCount 1 ;
-                sh:path otl:modificatieindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:vervangingsmomentindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ] .
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Coupure a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Coupure binnen de context van informatieproduct IHP op basis van Probo"@nl ;
@@ -1843,6 +2009,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1899,6 +2067,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -2048,6 +2218,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Dieptefiltratie a sh:NodeShape ;
@@ -2063,26 +2235,6 @@ otl:graaf-ib-ihpop-basis-van-probo {
     otl-patroon:Diepwand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Diepwand binnen de context van informatieproduct IHP op basis van Probo"@nl ;
         sh:name "Diepwand"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:DigitaleAudioOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale audio-opslag binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Digitale audio-opslag"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:DigitaleBeeldOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale beeld-opslag binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Digitale beeld-opslag"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
@@ -2142,15 +2294,7 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Doel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doel binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Doel"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -2181,6 +2325,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -2267,6 +2413,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -2408,6 +2556,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Drukpalen a sh:NodeShape ;
@@ -2457,6 +2607,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -2514,6 +2666,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Dwarsdrager a sh:NodeShape ;
@@ -2535,6 +2689,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -2614,6 +2770,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Erf a sh:NodeShape ;
@@ -2676,9 +2834,19 @@ otl:graaf-ib-ihpop-basis-van-probo {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faalgevolg binnen de context van informatieproduct IHP op basis van Probo"@nl ;
         sh:name "Faalgevolg"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:nietbeschikbaarheid ],
+                sh:path otl:naam ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
+
+    otl-patroon:FaalkanssluitenkeringEis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type FaalkansSluitenKering Eis binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "FaalkansSluitenKering Eis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
 
     otl-patroon:Faaloorzaak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faaloorzaak binnen de context van informatieproduct IHP op basis van Probo"@nl ;
@@ -2720,6 +2888,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:FaunaUittreedplaats a sh:NodeShape ;
@@ -2729,6 +2899,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -2740,6 +2912,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Faunageleiding a sh:NodeShape ;
@@ -2749,6 +2923,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -2882,6 +3058,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Fontein a sh:NodeShape ;
@@ -2910,19 +3088,11 @@ otl:graaf-ib-ihpop-basis-van-probo {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Functioneel Testen binnen de context van informatieproduct IHP op basis van Probo"@nl ;
         sh:name "Functioneel Testen"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:conditienaonderhoud ],
-            [ sh:minCount 1 ;
                 sh:path otl:minimumleeftijd ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:testinterval ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtetaakduur ],
-            [ sh:minCount 1 ;
-                sh:path otl:wettelijkverplichtindicator ] .
+                sh:path otl:testinterval ] .
 
     otl-patroon:FunctioneleInspectieEnTesten a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Functionele Inspectie en Testen binnen de context van informatieproduct IHP op basis van Probo"@nl ;
@@ -2934,11 +3104,17 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:uiterstjaarvanuitvoering ],
             [ sh:minCount 1 ;
                 sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ],
             [ sh:minCount 1 ;
                 sh:path otl:wettelijkverplichtindicator ] .
 
@@ -2952,6 +3128,10 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:resultaat ],
@@ -2959,6 +3139,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:uiterstjaarvanuitvoering ],
             [ sh:minCount 1 ;
                 sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ],
             [ sh:minCount 1 ;
                 sh:path otl:wettelijkverplichtindicator ] .
 
@@ -2981,6 +3163,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3048,6 +3232,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Gasinstallatie a sh:NodeShape ;
@@ -3058,12 +3244,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Gebeurtenis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebeurtenis binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Gebeurtenis"@nl ;
-        sh:property [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Gebouwinstallaties a sh:NodeShape ;
@@ -3074,29 +3256,21 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:GebruiksAfhankelijkOnderhoud a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebruiks Afhankelijk Onderhoud binnen de context van informatieproduct IHP op basis van Probo"@nl ;
         sh:name "Gebruiks Afhankelijk Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:conditienaonderhoud ],
-            [ sh:minCount 1 ;
                 sh:path otl:minimumleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:typemeting ],
             [ sh:minCount 1 ;
-                sh:path otl:vervangingsinsterval ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtetaakduur ],
-            [ sh:minCount 1 ;
-                sh:path otl:wettelijkverplichtindicator ] .
+                sh:path otl:vervangingsinsterval ] .
 
     otl-patroon:Gedenksteen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gedenksteen binnen de context van informatieproduct IHP op basis van Probo"@nl ;
@@ -3137,6 +3311,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3182,6 +3358,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Geleidewerk a sh:NodeShape ;
@@ -3226,15 +3404,7 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Geluidsbakens a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsbakens binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Geluidsbakens"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3290,6 +3460,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:GestrekteOeverTalud a sh:NodeShape ;
@@ -3299,6 +3471,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3329,6 +3503,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3369,6 +3545,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3456,6 +3634,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Grendel a sh:NodeShape ;
@@ -3476,6 +3656,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Grensprofiel a sh:NodeShape ;
@@ -3485,6 +3667,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3517,16 +3701,6 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:faalkanskritischindicator ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Groen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Groen binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Groen"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3748,6 +3922,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Hectometerbord a sh:NodeShape ;
@@ -3804,6 +3980,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Hek a sh:NodeShape ;
@@ -3856,6 +4034,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Heugelstang a sh:NodeShape ;
@@ -3885,6 +4065,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3936,6 +4118,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Hoofddraaipunt a sh:NodeShape ;
@@ -3945,6 +4129,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3976,6 +4162,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Hoogspanningsinstallatie a sh:NodeShape ;
@@ -3985,6 +4173,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4015,6 +4205,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4098,6 +4290,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:InGrondVervaardigdePalen a sh:NodeShape ;
@@ -4117,6 +4311,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4190,6 +4386,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:InformatieEnVolgsysteemScheepvaart1990 a sh:NodeShape ;
@@ -4199,6 +4397,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4254,6 +4454,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Inlooptrommel a sh:NodeShape ;
@@ -4274,6 +4476,20 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:InstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatie derden binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Installatie derden"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:bouwdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Installatiekabel a sh:NodeShape ;
@@ -4288,28 +4504,6 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:InstallatiesDerden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installaties derden binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Installaties derden"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:InstandhoudingBeheersmaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instandhouding Beheersmaatregel binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Instandhouding Beheersmaatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijdafgerond ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdstart ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ] .
-
     otl-patroon:Instandhoudingsinspectie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instandhoudingsinspectie binnen de context van informatieproduct IHP op basis van Probo"@nl ;
         sh:name "Instandhoudingsinspectie"@nl ;
@@ -4320,11 +4514,17 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:uiterstjaarvanuitvoering ],
             [ sh:minCount 1 ;
                 sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ],
             [ sh:minCount 1 ;
                 sh:path otl:wettelijkverplichtindicator ] .
 
@@ -4360,6 +4560,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Intercompost a sh:NodeShape ;
@@ -4371,24 +4573,6 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Interieur a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Interieur binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Interieur"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Inzet a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Inzet binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Inzet"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:aantal ],
-            [ sh:minCount 1 ;
-                sh:path otl:tijdactief ] .
 
     otl-patroon:Isolator a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Isolator binnen de context van informatieproduct IHP op basis van Probo"@nl ;
@@ -4450,6 +4634,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:KabelEnLeiding a sh:NodeShape ;
@@ -4469,6 +4655,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4491,6 +4679,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4586,6 +4776,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Keerelement a sh:NodeShape ;
@@ -4617,6 +4809,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4658,6 +4852,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:KerendeConstructie a sh:NodeShape ;
@@ -4667,6 +4863,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4689,6 +4887,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4784,6 +4984,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Keukeninstallatie a sh:NodeShape ;
@@ -4838,6 +5040,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Klepketting a sh:NodeShape ;
@@ -4859,6 +5063,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4998,6 +5204,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Kraan a sh:NodeShape ;
@@ -5038,6 +5246,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Kribbaken a sh:NodeShape ;
@@ -5060,6 +5270,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Kruin a sh:NodeShape ;
@@ -5069,6 +5281,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5112,6 +5326,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Kwelkade a sh:NodeShape ;
@@ -5146,13 +5362,15 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LaadpalenElektrischeVoertuigen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpalen elektrische voertuigen binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Laadpalen elektrische voertuigen"@nl ;
+    otl-patroon:LaadpaalElektrischeVoertuigen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpaal elektrische voertuigen binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Laadpaal elektrische voertuigen"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5163,6 +5381,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5272,6 +5492,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Leiding a sh:NodeShape ;
@@ -5281,6 +5503,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5301,6 +5525,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5356,15 +5582,7 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:LichtEnKrachtInstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Licht en Kracht Installaties binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Licht en Kracht Installaties"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5402,16 +5620,6 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Lichtrooster a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtrooster binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Lichtrooster"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Lichtstraat a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtstraat binnen de context van informatieproduct IHP op basis van Probo"@nl ;
         sh:name "Lichtstraat"@nl ;
@@ -5429,6 +5637,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5471,6 +5681,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5596,6 +5808,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Marifooninstallatie a sh:NodeShape ;
@@ -5605,6 +5819,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5692,6 +5908,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Meetpunt a sh:NodeShape ;
@@ -5754,6 +5972,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:MenselijkeHandeling a sh:NodeShape ;
@@ -5788,7 +6008,7 @@ otl:graaf-ib-ihpop-basis-van-probo {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Middel binnen de context van informatieproduct IHP op basis van Probo"@nl ;
         sh:name "Middel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:kosten ],
+                sh:path otl:aantal ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5801,6 +6021,20 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
+
+    otl-patroon:Modificatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Modificatie binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Modificatie"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumtijdafgerond ],
+            [ sh:minCount 0 ;
+                sh:path otl:datumtijdstart ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 0 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 0 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Monitor a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Monitor binnen de context van informatieproduct IHP op basis van Probo"@nl ;
@@ -5852,6 +6086,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Net a sh:NodeShape ;
@@ -5861,6 +6097,18 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Netaansluiting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Netaansluiting binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Netaansluiting"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:bouwdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5886,20 +6134,6 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:NonConformiteit a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Non Conformiteit binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Non Conformiteit"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijddefinitiefherstel ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdfunctioneelherstel ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdgemeld ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdopgetreden ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:NooddoucheInstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nooddouche-installatie binnen de context van informatieproduct IHP op basis van Probo"@nl ;
         sh:name "Nooddouche-installatie"@nl ;
@@ -5907,6 +6141,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5942,6 +6178,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:NoodstroominstallatieStatisch a sh:NodeShape ;
@@ -5951,6 +6189,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5981,6 +6221,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -6013,6 +6255,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -6096,6 +6340,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:OnbegroeidTerreindeel a sh:NodeShape ;
@@ -6105,6 +6351,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -6126,6 +6374,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Onderbouwconstructie a sh:NodeShape ;
@@ -6135,6 +6385,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -6186,6 +6438,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Onderlaag a sh:NodeShape ;
@@ -6222,6 +6476,12 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:OngewensteGebeurtenis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ongewenste Gebeurtenis binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Ongewenste Gebeurtenis"@nl ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Ontvangbed a sh:NodeShape ;
@@ -6308,6 +6568,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Openfilterconstructie a sh:NodeShape ;
@@ -6371,6 +6633,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -6460,6 +6724,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Opvulling a sh:NodeShape ;
@@ -6490,6 +6756,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Overgangsconstructie a sh:NodeShape ;
@@ -6499,6 +6767,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -6728,6 +6998,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Persleiding a sh:NodeShape ;
@@ -6740,6 +7012,24 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Personeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Personeel binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Personeel"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:aanrijtijdcorrectief ],
+            [ sh:minCount 0 ;
+                sh:path otl:aantal ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 0 ;
+                sh:path otl:tarief ],
+            [ sh:minCount 0 ;
+                sh:path otl:tijdactief ],
+            [ sh:minCount 0 ;
+                sh:path otl:voorrijkostencorrectief ],
+            [ sh:minCount 0 ;
+                sh:path otl:voorrijkostenpreventief ] .
+
     otl-patroon:Personenzoekinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Personenzoekinstallatie binnen de context van informatieproduct IHP op basis van Probo"@nl ;
         sh:name "Personenzoekinstallatie"@nl ;
@@ -6747,6 +7037,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -6779,6 +7071,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -6832,6 +7126,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Plant a sh:NodeShape ;
@@ -6878,6 +7174,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Pomp a sh:NodeShape ;
@@ -6892,16 +7190,6 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:PompEnVentilatieinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pomp- en ventilatieinstallaties binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Pomp- en ventilatieinstallaties"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Pompinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct IHP op basis van Probo"@nl ;
         sh:name "Pompinstallatie"@nl ;
@@ -6909,6 +7197,20 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Pompinstallaties a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallaties binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Pompinstallaties"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:bouwdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -6920,6 +7222,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Ponton a sh:NodeShape ;
@@ -6930,6 +7234,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Portaal a sh:NodeShape ;
@@ -6939,6 +7245,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -6964,16 +7272,6 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:PrestatieEis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Prestatie Eis binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Prestatie Eis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:faalkanssluitenkering ],
-            [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:PreventiefOnderhoud a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Preventief Onderhoud binnen de context van informatieproduct IHP op basis van Probo"@nl ;
         sh:name "Preventief Onderhoud"@nl ;
@@ -6982,13 +7280,17 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:afwijkinggeplanduitgevoerdindicator ],
             [ sh:minCount 1 ;
+                sh:path otl:conditienaonderhoud ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumtijdafgerond ],
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
                 sh:path otl:eenopeenvervangingindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:modificatieindicator ],
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
@@ -6997,6 +7299,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:vervangingsmomentindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ],
             [ sh:minCount 1 ;
                 sh:path otl:wettelijkverplichtindicator ] .
 
@@ -7052,6 +7356,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Putrand a sh:NodeShape ;
@@ -7095,6 +7401,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -7264,6 +7572,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Reddingsvest a sh:NodeShape ;
@@ -7354,6 +7664,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Remschot a sh:NodeShape ;
@@ -7419,6 +7731,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -7486,16 +7800,6 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:RolhekkenEnToegangsdeurenDienstgebouwen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolhekken en toegangsdeuren dienstgebouwen binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Rolhekken en toegangsdeuren dienstgebouwen"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Rolluik a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolluik binnen de context van informatieproduct IHP op basis van Probo"@nl ;
         sh:name "Rolluik"@nl ;
@@ -7523,6 +7827,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -7586,6 +7892,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Roosterput a sh:NodeShape ;
@@ -7606,6 +7914,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Rotorbeluchter a sh:NodeShape ;
@@ -7625,6 +7935,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -7647,6 +7959,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -7702,6 +8016,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Schampstrook a sh:NodeShape ;
@@ -7736,6 +8052,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Scheepvaartsein a sh:NodeShape ;
@@ -7757,6 +8075,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -7854,6 +8174,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Schort a sh:NodeShape ;
@@ -7910,11 +8232,17 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:uiterstjaarvanuitvoering ],
             [ sh:minCount 1 ;
                 sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ],
             [ sh:minCount 1 ;
                 sh:path otl:wettelijkverplichtindicator ] .
 
@@ -7969,6 +8297,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -8082,16 +8412,6 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:SignaleringHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signalering HP en PB kasten binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Signalering HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Skatebaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Skatebaan binnen de context van informatieproduct IHP op basis van Probo"@nl ;
         sh:name "Skatebaan"@nl ;
@@ -8162,6 +8482,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Slokop a sh:NodeShape ;
@@ -8194,6 +8516,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Slufter a sh:NodeShape ;
@@ -8216,6 +8540,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Sluishoofd a sh:NodeShape ;
@@ -8225,6 +8551,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -8236,6 +8564,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Sluismarkering a sh:NodeShape ;
@@ -8246,15 +8576,7 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:SluitEnZinkvoegen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sluit- en zinkvoegen binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Sluit- en zinkvoegen"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -8308,6 +8630,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Speelweide a sh:NodeShape ;
@@ -8358,6 +8682,18 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Sportdoel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportdoel binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Sportdoel"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:bouwdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Sportgrasveld a sh:NodeShape ;
@@ -8378,6 +8714,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Springbak a sh:NodeShape ;
@@ -8397,6 +8735,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -8472,6 +8812,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:StandaardVerzorgendOnderhoud a sh:NodeShape ;
@@ -8480,13 +8822,17 @@ otl:graaf-ib-ihpop-basis-van-probo {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:adviesjaarvanuitvoering ],
             [ sh:minCount 1 ;
+                sh:path otl:conditienaonderhoud ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumtijdafgerond ],
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
                 sh:path otl:eenopeenvervangingindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:modificatieindicator ],
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
@@ -8495,6 +8841,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:vervangingsmomentindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ],
             [ sh:minCount 1 ;
                 sh:path otl:wettelijkverplichtindicator ] .
 
@@ -8546,6 +8894,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Steilwand a sh:NodeShape ;
@@ -8577,6 +8927,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -8634,22 +8986,6 @@ otl:graaf-ib-ihpop-basis-van-probo {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storings Afhankelijk Onderhoud binnen de context van informatieproduct IHP op basis van Probo"@nl ;
         sh:name "Storings Afhankelijk Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:conditienaonderhoud ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtetaakduur ] .
-
-    otl-patroon:Storingsmeldsysteem a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storingsmeldsysteem binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Storingsmeldsysteem"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Storingsvoorspellendegrootheid a sh:NodeShape ;
@@ -8657,6 +8993,10 @@ otl:graaf-ib-ihpop-basis-van-probo {
         sh:name "StoringsVoorspellendeGrootheid"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:pfCurve ],
+            [ sh:minCount 1 ;
+                sh:path otl:pfInterval ],
             [ sh:minCount 1 ;
                 sh:path otl:trigger ] .
 
@@ -8690,6 +9030,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Straatnaambord a sh:NodeShape ;
@@ -8722,6 +9064,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Strekdam a sh:NodeShape ;
@@ -8731,6 +9075,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -8818,6 +9164,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Stuw a sh:NodeShape ;
@@ -8847,6 +9195,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -8938,6 +9288,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Tandbaan a sh:NodeShape ;
@@ -8965,16 +9317,20 @@ otl:graaf-ib-ihpop-basis-van-probo {
         sh:name "Tandwieloverbrenging"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
-            [ sh:minCount 0 ;
+            [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:TandwieloverbrengingOpen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging open binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Tandwieloverbrenging open"@nl ;
+        sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
                 sh:path otl:faalkanskritischindicator ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -8998,6 +9354,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Technischefunctie a sh:NodeShape ;
@@ -9016,6 +9374,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Telefooninstallatie a sh:NodeShape ;
@@ -9025,6 +9385,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -9045,6 +9407,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -9086,6 +9450,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Terugslagklep a sh:NodeShape ;
@@ -9106,6 +9472,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Toegangshek a sh:NodeShape ;
@@ -9115,6 +9483,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -9132,27 +9502,13 @@ otl:graaf-ib-ihpop-basis-van-probo {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toestands Afhankelijk Onderhoud binnen de context van informatieproduct IHP op basis van Probo"@nl ;
         sh:name "Toestands Afhankelijk Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:conditienaonderhoud ],
-            [ sh:minCount 1 ;
                 sh:path otl:detectiewaarschijnlijkheid ],
             [ sh:minCount 1 ;
                 sh:path otl:inspectieinterval ],
             [ sh:minCount 1 ;
                 sh:path otl:minimumleeftijd ],
             [ sh:minCount 1 ;
-                sh:path otl:offset ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:pfCurve ],
-            [ sh:minCount 1 ;
-                sh:path otl:pfInterval ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtetaakduur ],
-            [ sh:minCount 1 ;
-                sh:path otl:wettelijkverplichtindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Toestandsinspectie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toestandsinspectie binnen de context van informatieproduct IHP op basis van Probo"@nl ;
@@ -9164,11 +9520,17 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:uiterstjaarvanuitvoering ],
             [ sh:minCount 1 ;
                 sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ],
             [ sh:minCount 1 ;
                 sh:path otl:wettelijkverplichtindicator ] .
 
@@ -9242,6 +9604,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Trafohuis a sh:NodeShape ;
@@ -9302,6 +9666,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Transportinstallatie a sh:NodeShape ;
@@ -9311,6 +9677,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -9345,6 +9713,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -9462,21 +9832,13 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Turbine a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Turbine binnen de context van informatieproduct IHP op basis van Probo"@nl ;
         sh:name "Turbine"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:TussenRelaisInterfaceStations a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussen relais - interface stations binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Tussen relais - interface stations"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
@@ -9514,6 +9876,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Uitlaatvoorziening a sh:NodeShape ;
@@ -9523,6 +9887,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -9558,16 +9924,6 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:UnDetectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type UN-detectie binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "UN-detectie"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Urinoir a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Urinoir binnen de context van informatieproduct IHP op basis van Probo"@nl ;
         sh:name "Urinoir"@nl ;
@@ -9596,6 +9952,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Vaarwegmarkering a sh:NodeShape ;
@@ -9606,6 +9964,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Valbeveiliging a sh:NodeShape ;
@@ -9615,6 +9975,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -9638,17 +10000,21 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VeiligheidsPlc a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheids PLC binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Veiligheids PLC"@nl ;
+    otl-patroon:VeiligheidRisico a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheid Risico binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Veiligheid Risico"@nl ;
         sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:blootstelling ],
+            [ sh:minCount 0 ;
+                sh:path otl:effect ],
+            [ sh:minCount 0 ;
+                sh:path otl:gevaarafwending ],
+            [ sh:minCount 0 ;
+                sh:path otl:waarschijnlijkheid ] .
 
     otl-patroon:Veiligheidsventiel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheidsventiel binnen de context van informatieproduct IHP op basis van Probo"@nl ;
@@ -9702,6 +10068,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Ventilator a sh:NodeShape ;
@@ -9721,6 +10089,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -9778,6 +10148,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:VerhardingWegtype2ZwaarbelasteWeg a sh:NodeShape ;
@@ -9787,6 +10159,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -9798,6 +10172,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:VerhardingWegtype4LichtBelast a sh:NodeShape ;
@@ -9807,6 +10183,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -9818,6 +10196,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:VerhardingWegtype6WegInVerblijfsgebied a sh:NodeShape ;
@@ -9828,6 +10208,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:VerhardingWegtype7Fietspaden a sh:NodeShape ;
@@ -9837,6 +10219,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -9870,6 +10254,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Verkeerseiland a sh:NodeShape ;
@@ -9880,15 +10266,7 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VerkeersgeleidingEnEvacuatieverlichting a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleiding- en evacuatieverlichting binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Verkeersgeleiding- en evacuatieverlichting"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -9910,6 +10288,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Verkeersregelinstallatie a sh:NodeShape ;
@@ -9920,15 +10300,19 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Verlichtingsinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichtingsinstallaties binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Verlichtingsinstallaties"@nl ;
+    otl-patroon:Verlichting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichting binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Verlichting"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -9939,6 +10323,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -10100,6 +10486,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Vispassage a sh:NodeShape ;
@@ -10110,6 +10498,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Vissluis a sh:NodeShape ;
@@ -10119,6 +10509,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -10139,6 +10531,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -10184,6 +10578,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Vlonder a sh:NodeShape ;
@@ -10216,6 +10612,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Vluchtstang a sh:NodeShape ;
@@ -10236,41 +10634,13 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VluchtweginstallatieVerlichtingEnVasteBorden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtweginstallatie- verlichting en vaste borden binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Vluchtweginstallatie- verlichting en vaste borden"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Vluchtwegverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtwegverlichting binnen de context van informatieproduct IHP op basis van Probo"@nl ;
         sh:name "Vluchtwegverlichting"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingenHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingen HP en PB kasten binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Voedingen HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingsinstallatieOnder50V a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingsinstallatie onder 50V binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Voedingsinstallatie onder 50V"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
@@ -10309,6 +10679,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -10362,6 +10734,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Vooroever a sh:NodeShape ;
@@ -10371,6 +10745,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -10392,15 +10768,7 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VorstbeveiligingEnVerwarming a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vorstbeveiliging en verwarming binnen de context van informatieproduct IHP op basis van Probo"@nl ;
-        sh:name "Vorstbeveiliging en verwarming"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -10432,7 +10800,7 @@ otl:graaf-ib-ihpop-basis-van-probo {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:advies ],
             [ sh:minCount 1 ;
-                sh:path otl:datumtijd ],
+                sh:path otl:datumtijdgeconstateerd ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -10443,6 +10811,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -10516,6 +10886,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:WarmteKrachtKoppelingsinstallatie a sh:NodeShape ;
@@ -10525,6 +10897,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -10608,6 +10982,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Waterplant a sh:NodeShape ;
@@ -10615,16 +10991,20 @@ otl:graaf-ib-ihpop-basis-van-probo {
         sh:name "Waterplant"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
-            [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:WaterplantOndergedoken a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant ondergedoken binnen de context van informatieproduct IHP op basis van Probo"@nl ;
+        sh:name "Waterplant ondergedoken"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:bouwdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -10645,6 +11025,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -10676,6 +11058,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Wegkruipplek a sh:NodeShape ;
@@ -10695,6 +11079,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -10716,6 +11102,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:WerkSpreekverbinding a sh:NodeShape ;
@@ -10725,6 +11113,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -10819,6 +11209,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -10968,6 +11360,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Zender a sh:NodeShape ;
@@ -11009,6 +11403,8 @@ otl:graaf-ib-ihpop-basis-van-probo {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -11082,14 +11478,16 @@ otl:graaf-ib-ihpop-basis-van-probo {
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:faalkanskritischindicator ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl:graaf-ib-ihpop-basis-van-probo a owl:Ontology ;
-        dct:created "2023-02-01"^^xsd:date ;
+        dct:created "2023-04-04"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'IHP op basis van Probo' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'IHP op basis van Probo'"@nl ;
-        pav:currentVersion otl:graaf-ib-ihpop-basis-van-probo-3.1.20 ;
-        pav:derivedFrom "IBRWS Release 20" ;
+        pav:currentVersion otl:graaf-ib-ihpop-basis-van-probo-3.1.21 ;
+        pav:derivedFrom "IB RWS release 21" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

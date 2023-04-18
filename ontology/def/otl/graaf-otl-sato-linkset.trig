@@ -15,13 +15,17 @@ otl:graaf-otl-sato-linkset {
 
     otl:BebordingEnBewegwijzering dct:conformsTo sato:97 .
 
-    otl:BedieningsEnBesturingsinstallatie dct:conformsTo sato:83 .
+    otl:BedieningsEnBesturingsinstallatie dct:conformsTo sato:88 .
+
+    otl:Berm dct:conformsTo sato:216 .
 
     otl:Besturingsinstallatie dct:conformsTo sato:80 .
 
+    otl:BesturingsinstallatieDerden dct:conformsTo sato:89 .
+
     otl:Binnenverlichting dct:conformsTo sato:22 .
 
-    otl:Brandblusinstallatie dct:conformsTo sato:51 .
+    otl:Brandblusinstallatie dct:conformsTo sato:53 .
 
     otl:Brandblusinstallaties dct:conformsTo sato:50 .
 
@@ -30,8 +34,6 @@ otl:graaf-otl-sato-linkset {
     otl:Branddoorvoeringen dct:conformsTo sato:308 .
 
     otl:BrandmeldEnOntruimingsinstallatie dct:conformsTo sato:74 .
-
-    otl:BrandmeldinstallatieInDeTunnel dct:conformsTo sato:52 .
 
     otl:CalamiteitenDoorsteekInstallatie dct:conformsTo sato:49 .
 
@@ -43,13 +45,9 @@ otl:graaf-otl-sato-linkset {
 
     otl:DienstgebouwCiviel dct:conformsTo sato:300 .
 
-    otl:DigitaleAudioOpslag dct:conformsTo sato:66 .
-
-    otl:DigitaleBeeldOpslag dct:conformsTo sato:67 .
-
     otl:DiverseInstallaties dct:conformsTo sato:90 .
 
-    otl:Drainage dct:conformsTo sato:202 .
+    otl:Drainage dct:conformsTo sato:215 .
 
     otl:DuurzameEnergiebron dct:conformsTo sato:17 .
 
@@ -57,29 +55,25 @@ otl:graaf-otl-sato-linkset {
 
     otl:Energievoorziening dct:conformsTo sato:10 .
 
-    otl:Folieconstructie dct:conformsTo sato:201 .
+    otl:Folieconstructie dct:conformsTo sato:204 .
 
-    otl:Fundering dct:conformsTo sato:101 .
+    otl:Fundering dct:conformsTo sato:201 .
 
     otl:Gebouwinstallaties dct:conformsTo sato:70 .
 
-    otl:Geleideconstructie dct:conformsTo sato:113 .
+    otl:Geleideconstructie dct:conformsTo sato:210 .
 
-    otl:GeluidbeperkendeConstructie dct:conformsTo sato:209 .
+    otl:GeluidbeperkendeConstructie dct:conformsTo sato:208 .
 
-    otl:Geluidsbakens dct:conformsTo sato:68 .
-
-    otl:Groen dct:conformsTo sato:207 .
-
-    otl:Hemelwaterafvoer dct:conformsTo sato:109 .
+    otl:Hemelwaterafvoer dct:conformsTo sato:214 .
 
     otl:HijsEnHefinstallatie dct:conformsTo sato:305 .
 
-    otl:Hoofddraagconstructie dct:conformsTo sato:102 .
+    otl:Hoofddraagconstructie dct:conformsTo sato:104 .
 
     otl:HoogFrequentInstallatie dct:conformsTo sato:62 .
 
-    otl:Hoogspanningsinstallatie dct:conformsTo sato:11 .
+    otl:Hoogspanningsinstallatie dct:conformsTo sato:16 .
 
     otl:HoogtedetectieInstallatie dct:conformsTo sato:43 .
 
@@ -87,11 +81,13 @@ otl:graaf-otl-sato-linkset {
 
     otl:Inbraakbeveiligingsinstallatie dct:conformsTo sato:72 .
 
-    otl:InstallatiesDerden dct:conformsTo sato:98 .
+    otl:Inlaatvoorziening dct:conformsTo sato:404 .
+
+    otl:InstallatieDerden dct:conformsTo sato:98 .
 
     otl:Intercominstallatie dct:conformsTo sato:64 .
 
-    otl:Interieur dct:conformsTo sato:310 .
+    otl:Kabel dct:conformsTo sato:95 .
 
     otl:Kabeldraagconstructie dct:conformsTo sato:92 .
 
@@ -99,19 +95,15 @@ otl:graaf-otl-sato-linkset {
 
     otl:Klimaatinstallatie dct:conformsTo sato:71 .
 
-    otl:Kozijnwerk dct:conformsTo sato:306 .
-
-    otl:LaadpalenElektrischeVoertuigen dct:conformsTo sato:407 .
+    otl:LaadpaalElektrischeVoertuigen dct:conformsTo sato:407 .
 
     otl:Laagspanningsinstallatie dct:conformsTo sato:13 .
 
-    otl:Leuningconstructie dct:conformsTo sato:205 .
+    otl:Leuningconstructie dct:conformsTo sato:213 .
 
-    otl:LichtEnKrachtInstallaties dct:conformsTo sato:73 .
+    otl:Meetinstallatie dct:conformsTo sato:409 .
 
-    otl:Lichtrooster dct:conformsTo sato:112 .
-
-    otl:Meetinstallatie dct:conformsTo sato:37 .
+    otl:Netaansluiting dct:conformsTo sato:11 .
 
     otl:NoodstroominstallatieRoterend dct:conformsTo sato:14 .
 
@@ -123,37 +115,27 @@ otl:graaf-otl-sato-linkset {
 
     otl:OpenbareVerlichting dct:conformsTo sato:21 .
 
+    otl:Opstal dct:conformsTo sato:310 .
+
     otl:OverEnOnderdrukinstallatie dct:conformsTo sato:39 .
-
-    otl:Peilbuis dct:conformsTo sato:409 .
-
-    otl:Plafondconstructie dct:conformsTo sato:107 .
-
-    otl:PompEnVentilatieinstallaties dct:conformsTo sato:30 .
 
     otl:Pompinstallatie dct:conformsTo sato:32 .
 
+    otl:Pompinstallaties dct:conformsTo sato:30 .
+
     otl:Pompkelder dct:conformsTo sato:108 .
 
-    otl:Portaal dct:conformsTo sato:206 .
-
-    otl:Riolering dct:conformsTo sato:404 .
-
-    otl:RolhekkenEnToegangsdeurenDienstgebouwen dct:conformsTo sato:78 .
+    otl:Portaal dct:conformsTo sato:209 .
 
     otl:SanitaireInstallatie dct:conformsTo sato:302 .
 
-    otl:SignaleringHpEnPbKasten dct:conformsTo sato:53 .
-
-    otl:SluitEnZinkvoegen dct:conformsTo sato:103 .
-
-    otl:Storingsmeldsysteem dct:conformsTo sato:88 .
-
-    otl:Talud dct:conformsTo sato:204 .
+    otl:Talud dct:conformsTo sato:212 .
 
     otl:Telefooninstallatie dct:conformsTo sato:65 .
 
     otl:Terrein dct:conformsTo sato:400 .
+
+    otl:ToegangscontroleInstallatie dct:conformsTo sato:79 .
 
     otl:Toegangshek dct:conformsTo sato:406 .
 
@@ -161,57 +143,37 @@ otl:graaf-otl-sato-linkset {
 
     otl:Trapconstructie dct:conformsTo sato:311 .
 
-    otl:Tunnel dct:conformsTo sato:1 .
+    otl:Tunnel dct:conformsTo sato:SATO_root .
 
-    otl:Tunnelbuis dct:conformsTo sato:100 .
-
-    otl:TussenRelaisInterfaceStations dct:conformsTo sato:47 .
-
-    otl:UnDetectie dct:conformsTo sato:69 .
-
-    otl:VeiligheidsPlc dct:conformsTo sato:89 .
+    otl:Tunnelbuis dct:conformsTo sato:207 .
 
     otl:VentilatieInstallatie dct:conformsTo sato:36 .
 
-    otl:VerhardingWegtype1Hoofdwegennet dct:conformsTo sato:110 .
+    otl:VerhardingWegtype1Hoofdwegennet dct:conformsTo sato:206 .
 
     otl:VerhardingWegtype4LichtBelast dct:conformsTo sato:402 .
 
     otl:VerkeersdetectieInstallatie dct:conformsTo sato:42 .
 
-    otl:VerkeersgeleidingEnEvacuatieverlichting dct:conformsTo sato:24 .
-
     otl:Verkeersinstallaties dct:conformsTo sato:40 .
 
     otl:Verkeersregelinstallatie dct:conformsTo sato:45 .
 
-    otl:Verlichtingsinstallaties dct:conformsTo sato:20 .
+    otl:Verlichting dct:conformsTo sato:20 .
 
     otl:VerplaatsbareVangrailInstallatie dct:conformsTo sato:46 .
 
-    otl:Vloerconstructie dct:conformsTo sato:304 .
-
-    otl:Vluchtdeur dct:conformsTo sato:91 .
+    otl:Vloerconstructie dct:conformsTo sato:107 .
 
     otl:Vluchtweginstallatie dct:conformsTo sato:301 .
 
-    otl:VluchtweginstallatieVerlichtingEnVasteBorden dct:conformsTo sato:25 .
-
-    otl:VoedingenHpEnPbKasten dct:conformsTo sato:54 .
-
-    otl:VoedingsinstallatieOnder50V dct:conformsTo sato:18 .
-
-    otl:Voegovergang dct:conformsTo sato:104 .
+    otl:Voegovergang dct:conformsTo sato:205 .
 
     otl:VoorzieningenHulpdiensten dct:conformsTo sato:408 .
 
-    otl:VorstbeveiligingEnVerwarming dct:conformsTo sato:55 .
-
     otl:WaarschuwingsEnAlarmeringssysteem dct:conformsTo sato:76 .
 
-    otl:Wandconstructie dct:conformsTo sato:105 .
-
-    otl:Watermistinstallatie dct:conformsTo sato:56 .
+    otl:Wandconstructie dct:conformsTo sato:314 .
 
     otl:Watertapinstallatie dct:conformsTo sato:312 .
 
@@ -222,11 +184,11 @@ otl:graaf-otl-sato-linkset {
     otl:Zonweringsinstallatie dct:conformsTo sato:309 .
 
     otl:graaf-otl-sato-linkset a void:Linkset ;
-        dct:created "2023-02-01"^^xsd:date ;
+        dct:created "2023-04-04"^^xsd:date ;
         dct:description "De OTL-SATO linkset legt een koppeling tussen OTL-concepten en SATO-concepten."@nl ;
         dct:title "OTL-SATO linkset"@nl ;
-        pav:currentVersion otl:graaf-otl-sato-linkset-3.1.20 ;
-        pav:derivedFrom "IBRWS Release 20" ;
+        pav:currentVersion otl:graaf-otl-sato-linkset-3.1.21 ;
+        pav:derivedFrom "IB RWS release 21" ;
         void:objectsTarget sato: ;
         void:subjectsTarget otl:graaf-kennismodel ;
         owl:imports otl:graaf-kennismodel,

@@ -343,11 +343,11 @@ otl:graaf-ib-areaaltabelnfi-hvwn-hws {
                 sh:path otl:vaarwegtype ] .
 
     otl:graaf-ib-areaaltabelnfi-hvwn-hws a owl:Ontology ;
-        dct:created "2023-02-01"^^xsd:date ;
+        dct:created "2023-04-04"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Areaaltabel NFI HVWN HWS' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Areaaltabel NFI HVWN HWS'"@nl ;
-        pav:currentVersion otl:graaf-ib-areaaltabelnfi-hvwn-hws-3.1.20 ;
-        pav:derivedFrom "IBRWS Release 20" ;
+        pav:currentVersion otl:graaf-ib-areaaltabelnfi-hvwn-hws-3.1.21 ;
+        pav:derivedFrom "IB RWS release 21" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

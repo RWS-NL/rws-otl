@@ -70,12 +70,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aanleginrichting binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Aanleginrichting"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -261,6 +255,12 @@ otl:graaf-ib-crisismanagement {
     otl-patroon:Afdeling a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afdeling binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Afdeling"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Afdelingshoofd a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afdelingshoofd binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Afdelingshoofd"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:naam ] .
 
@@ -504,16 +504,16 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Applicatiebeheerder a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Applicatiebeheerder binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Applicatiebeheerder"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
     otl-patroon:Aquaduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aquaduct binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Aquaduct"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -581,6 +581,18 @@ otl:graaf-ib-crisismanagement {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
+
+    otl-patroon:Asseteigenaar a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Asseteigenaar binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Asseteigenaar"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Assetmanager a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Assetmanager binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Assetmanager"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:Atletiekbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Atletiekbaan binnen de context van informatieproduct Crisis Management"@nl ;
@@ -846,15 +858,15 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beheerobject Overstijgende Voorziening binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Beheerobject Overstijgende Voorziening"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
+
+    otl-patroon:Beheerorganisatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beheerorganisatie binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Beheerorganisatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:Bekabeling a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bekabeling binnen de context van informatieproduct Crisis Management"@nl ;
@@ -1001,6 +1013,18 @@ otl:graaf-ib-crisismanagement {
     otl-patroon:Besturingsinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Besturingsinstallatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:internetfacingindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:BesturingsinstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie derden binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Besturingsinstallatie derden"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -1384,18 +1408,6 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:BrandmeldinstallatieInDeTunnel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeldinstallatie in de tunnel binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Brandmeldinstallatie in de tunnel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:internetfacingindicator ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Brandslang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandslang binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Brandslang"@nl ;
@@ -1440,12 +1452,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brug beweegbaar binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Brug beweegbaar"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -1454,12 +1460,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brug vast binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Brug vast"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -1532,12 +1532,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bunker binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Bunker"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -1554,7 +1548,9 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Calamiteit binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Calamiteit"@nl ;
         sh:property [ sh:minCount 0 ;
-                sh:path otl:datumtijd ],
+                sh:path otl:datumtijdeind ],
+            [ sh:minCount 0 ;
+                sh:path otl:datumtijdstart ],
             [ sh:minCount 0 ;
                 sh:path otl:faseniveau ],
             [ sh:minCount 0 ;
@@ -1788,18 +1784,16 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:urgentie ] .
+                sh:path otl:urgentie ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Coupure a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Coupure binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Coupure"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -1808,7 +1802,9 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Crisis binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Crisis"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijd ],
+                sh:path otl:datumtijdeind ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
                 sh:path otl:faseniveau ],
             [ sh:minCount 1 ;
@@ -2078,30 +2074,6 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:DigitaleAudioOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale audio-opslag binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Digitale audio-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:internetfacingindicator ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:DigitaleBeeldOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale beeld-opslag binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Digitale beeld-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:internetfacingindicator ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Dijk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dijk binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Dijk"@nl ;
@@ -2148,6 +2120,12 @@ otl:graaf-ib-crisismanagement {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:naam ] .
 
+    otl-patroon:Districthoofd a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Districthoofd binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Districthoofd"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
     otl-patroon:DiverseInstallaties a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Diverse installaties binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Diverse installaties"@nl ;
@@ -2157,14 +2135,6 @@ otl:graaf-ib-crisismanagement {
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:internetfacingindicator ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Doel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doel binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Doel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -2428,12 +2398,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duiker binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Duiker"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -2532,12 +2496,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ecoduct binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Ecoduct"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -2648,7 +2606,9 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 0 ;
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 0 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Evenwichtstoestel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Evenwichtstoestel binnen de context van informatieproduct Crisis Management"@nl ;
@@ -2658,35 +2618,37 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:FaalfrequentieEis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faalfrequentie Eis binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Faalfrequentie Eis"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Faalgevolg a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faalgevolg binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Faalgevolg"@nl ;
         sh:property [ sh:minCount 0 ;
-                sh:path otl:beschikbaarheid ],
+                sh:path otl:beschikbaarheidsscore ],
             [ sh:minCount 0 ;
-                sh:path otl:gezondheid ],
+                sh:path otl:gezondheidsscore ],
             [ sh:minCount 0 ;
-                sh:path otl:imago ],
+                sh:path otl:imagoscore ],
             [ sh:minCount 0 ;
-                sh:path otl:kosten ],
+                sh:path otl:kostenscore ],
             [ sh:minCount 0 ;
-                sh:path otl:nietbeschikbaarheid ],
+                sh:path otl:naam ],
             [ sh:minCount 0 ;
-                sh:path otl:omgevingmilieu ],
+                sh:path otl:omgevingmilieuscore ],
             [ sh:minCount 0 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 0 ;
-                sh:path otl:onderhoudbaarheid ],
+                sh:path otl:onderhoudbaarheidsscore ],
             [ sh:minCount 0 ;
-                sh:path otl:percentagefunctieverlies ],
+                sh:path otl:securityscore ],
             [ sh:minCount 0 ;
-                sh:path otl:security ],
-            [ sh:minCount 0 ;
-                sh:path otl:tunnelfaaldefinitie ],
-            [ sh:minCount 0 ;
-                sh:path otl:veiligheid ],
-            [ sh:minCount 0 ;
-                sh:path otl:vgmEffect ] .
+                sh:path otl:veiligheidsscore ] .
 
     otl-patroon:Fantasietoestel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fantasietoestel binnen de context van informatieproduct Crisis Management"@nl ;
@@ -2764,12 +2726,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunatunnel binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Faunatunnel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -2884,14 +2840,6 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:FunctioneelTesten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Functioneel Testen binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Functioneel Testen"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 0 ;
-                sh:path otl:verwachtetaakduur ] .
-
     otl-patroon:Fundatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fundatie binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Fundatie"@nl ;
@@ -2982,26 +2930,6 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Gebeurtenis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebeurtenis binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Gebeurtenis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:faseniveau ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:periode ] .
-
-    otl-patroon:Gebied a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebied binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Gebied"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Gebouwinstallaties a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebouwinstallaties binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Gebouwinstallaties"@nl ;
@@ -3014,13 +2942,13 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:GebruiksAfhankelijkOnderhoud a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebruiks Afhankelijk Onderhoud binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Gebruiks Afhankelijk Onderhoud"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 0 ;
-                sh:path otl:verwachtetaakduur ] .
+    otl-patroon:Gebruiksgebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebruiksgebied binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Gebruiksgebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Gedenksteen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gedenksteen binnen de context van informatieproduct Crisis Management"@nl ;
@@ -3144,18 +3072,6 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Geluidsbakens a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsbakens binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Geluidsbakens"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:internetfacingindicator ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Geluidsdemper a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsdemper binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Geluidsdemper"@nl ;
@@ -3168,12 +3084,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gemaal binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Gemaal"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -3430,16 +3340,6 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Groen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Groen binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Groen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Gronddepot a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gronddepot binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Gronddepot"@nl ;
@@ -3452,12 +3352,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grondkering binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Grondkering"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -3622,12 +3516,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Haven binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Haven"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -3754,12 +3642,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hevel binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Hevel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -3840,7 +3722,9 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofdsysteem binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Hoofdsysteem"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Hoofdverdeler a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofdverdeler binnen de context van informatieproduct Crisis Management"@nl ;
@@ -4002,7 +3886,9 @@ otl:graaf-ib-crisismanagement {
         sh:property [ sh:minCount 0 ;
                 sh:path otl:aantalslachtoffers ],
             [ sh:minCount 0 ;
-                sh:path otl:datumtijd ],
+                sh:path otl:datumtijdeind ],
+            [ sh:minCount 0 ;
+                sh:path otl:datumtijdstart ],
             [ sh:minCount 0 ;
                 sh:path otl:faseniveau ],
             [ sh:minCount 0 ;
@@ -4026,12 +3912,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Individuele Behandeling van Afvalwater systeem binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Individuele Behandeling van Afvalwater systeem"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -4170,6 +4050,18 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:InstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatie derden binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Installatie derden"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:internetfacingindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Installatiekabel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatiekabel binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Installatiekabel"@nl ;
@@ -4179,18 +4071,6 @@ otl:graaf-ib-crisismanagement {
                 sh:path otl:discipline ],
             [ sh:minCount 0 ;
                 sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:InstallatiesDerden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installaties derden binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Installaties derden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:internetfacingindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4204,7 +4084,11 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:naam ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Instroomopening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instroomopening binnen de context van informatieproduct Crisis Management"@nl ;
@@ -4247,16 +4131,6 @@ otl:graaf-ib-crisismanagement {
         sh:name "Intercompost"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Interieur a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Interieur binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Interieur"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4382,12 +4256,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kade binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Kade"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -4478,12 +4346,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Keersluis binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Keersluis"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -4956,9 +4818,9 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LaadpalenElektrischeVoertuigen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpalen elektrische voertuigen binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Laadpalen elektrische voertuigen"@nl ;
+    otl-patroon:LaadpaalElektrischeVoertuigen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpaal elektrische voertuigen binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Laadpaal elektrische voertuigen"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -5162,6 +5024,12 @@ otl:graaf-ib-crisismanagement {
         sh:property [ sh:minCount 0 ;
                 sh:path otl:naam ] .
 
+    otl-patroon:LeverancierArtikel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Leverancier Artikel binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Leverancier Artikel"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:levertijd ] .
+
     otl-patroon:LiaisonBt a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Liaison BT binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Liaison BT"@nl ;
@@ -5173,18 +5041,6 @@ otl:graaf-ib-crisismanagement {
         sh:name "Liaison ROT"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:naam ] .
-
-    otl-patroon:LichtEnKrachtInstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Licht en Kracht Installaties binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Licht en Kracht Installaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:internetfacingindicator ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
 
     otl-patroon:Lichtgroepenkast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtgroepenkast binnen de context van informatieproduct Crisis Management"@nl ;
@@ -5215,16 +5071,6 @@ otl:graaf-ib-crisismanagement {
                 sh:path otl:discipline ],
             [ sh:minCount 0 ;
                 sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Lichtrooster a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtrooster binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Lichtrooster"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5642,6 +5488,18 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Netaansluiting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Netaansluiting binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Netaansluiting"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:internetfacingindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Nevengeul a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nevengeul binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Nevengeul"@nl ;
@@ -5659,18 +5517,6 @@ otl:graaf-ib-crisismanagement {
                 sh:path otl:discipline ],
             [ sh:minCount 0 ;
                 sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:NonConformiteit a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Non Conformiteit binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Non Conformiteit"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijddefinitiefherstel ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdfunctioneelherstel ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdopgetreden ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5904,12 +5750,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderdoorgang binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Onderdoorgang"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -5984,6 +5824,20 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:OngewensteGebeurtenis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ongewenste Gebeurtenis binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Ongewenste Gebeurtenis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumtijdeind ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdstart ],
+            [ sh:minCount 1 ;
+                sh:path otl:faseniveau ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:periode ] .
+
     otl-patroon:Ontvangbed a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ontvangbed binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Ontvangbed"@nl ;
@@ -6024,6 +5878,14 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:OnvoorzienenietbeschikbaarheidEis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type OnvoorzieneNietBeschikbaarheid Eis binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "OnvoorzieneNietBeschikbaarheid Eis"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:OpEnAfrit a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Op- en afrit binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Op- en afrit"@nl ;
@@ -6054,12 +5916,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Open tunnelbak binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Open tunnelbak"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -6232,12 +6088,6 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Organisatieonderdeel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Organisatieonderdeel binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Organisatieonderdeel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
     otl-patroon:OverEnOnderdrukinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Over- en onderdrukinstallatie binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Over- en onderdrukinstallatie"@nl ;
@@ -6276,12 +6126,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Overkluizing binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Overkluizing"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -6636,9 +6480,9 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:PompEnVentilatieinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pomp- en ventilatieinstallaties binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Pomp- en ventilatieinstallaties"@nl ;
+    otl-patroon:Pompinstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Pompinstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -6648,9 +6492,9 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Pompinstallatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Pompinstallatie"@nl ;
+    otl-patroon:Pompinstallaties a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallaties binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Pompinstallaties"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -6710,20 +6554,6 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:PrestatieEis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Prestatie Eis binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Prestatie Eis"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:frequentie ],
-            [ sh:minCount 0 ;
-                sh:path otl:naam ],
-            [ sh:minCount 0 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 0 ;
-                sh:path otl:onvoorzienenietbeschikbaarheid ],
-            [ sh:minCount 0 ;
-                sh:path otl:voorzienenietbeschikbaarheid ] .
-
     otl-patroon:PreventiefOnderhoud a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Preventief Onderhoud binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Preventief Onderhoud"@nl ;
@@ -6740,7 +6570,11 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:programmeringsstatus ] .
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Procesbassin a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Procesbassin binnen de context van informatieproduct Crisis Management"@nl ;
@@ -7176,12 +7010,6 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Rol a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rol binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Rol"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
     otl-patroon:Rolbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolbaan binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Rolbaan"@nl ;
@@ -7207,18 +7035,6 @@ otl:graaf-ib-crisismanagement {
         sh:name "Rolgordijn"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:RolhekkenEnToegangsdeurenDienstgebouwen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolhekken en toegangsdeuren dienstgebouwen binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Rolhekken en toegangsdeuren dienstgebouwen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:internetfacingindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -7684,12 +7500,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schutsluis binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Schutsluis"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -7736,12 +7546,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sifon binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Sifon"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -7767,18 +7571,6 @@ otl:graaf-ib-crisismanagement {
                 sh:path otl:discipline ],
             [ sh:minCount 0 ;
                 sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:SignaleringHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signalering HP en PB kasten binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Signalering HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:internetfacingindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -7926,16 +7718,6 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:SluitEnZinkvoegen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sluit- en zinkvoegen binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Sluit- en zinkvoegen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Smeedwerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Smeedwerk binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Smeedwerk"@nl ;
@@ -8024,6 +7806,14 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Sportdoel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportdoel binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Sportdoel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Sportgrasveld a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportgrasveld binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Sportgrasveld"@nl ;
@@ -8086,12 +7876,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Spuisluis binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Spuisluis"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -8254,36 +8038,10 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:StoringsAfhankelijkOnderhoud a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storings Afhankelijk Onderhoud binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Storings Afhankelijk Onderhoud"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 0 ;
-                sh:path otl:verwachtetaakduur ] .
-
-    otl-patroon:Storingsmeldsysteem a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storingsmeldsysteem binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Storingsmeldsysteem"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:internetfacingindicator ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Stormvloedkering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stormvloedkering binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Stormvloedkering"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -8446,12 +8204,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stuw binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Stuw"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -8502,13 +8254,17 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Systeem binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Systeem"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Systeemdeel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Systeemdeel binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Systeemdeel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Taats a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Taats binnen de context van informatieproduct Crisis Management"@nl ;
@@ -8594,13 +8350,17 @@ otl:graaf-ib-crisismanagement {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:TandwieloverbrengingOpen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging open binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Tandwieloverbrenging open"@nl ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 0 ;
                 sh:path otl:discipline ],
             [ sh:minCount 0 ;
                 sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -8745,14 +8505,6 @@ otl:graaf-ib-crisismanagement {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:ToestandsAfhankelijkOnderhoud a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toestands Afhankelijk Onderhoud binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Toestands Afhankelijk Onderhoud"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 0 ;
-                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Toilet a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toilet binnen de context van informatieproduct Crisis Management"@nl ;
@@ -9004,12 +8756,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tunnel binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Tunnel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -9029,18 +8775,6 @@ otl:graaf-ib-crisismanagement {
         sh:name "Turbine"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:TussenRelaisInterfaceStations a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussen relais - interface stations binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Tussen relais - interface stations"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:internetfacingindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -9109,18 +8843,6 @@ otl:graaf-ib-crisismanagement {
         sh:name "Uitstroomopening"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:UnDetectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type UN-detectie binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "UN-detectie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:internetfacingindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -9198,18 +8920,6 @@ otl:graaf-ib-crisismanagement {
         sh:property [ sh:minCount 0 ;
                 sh:path otl:naam ],
             [ sh:minCount 0 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VeiligheidsPlc a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheids PLC binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Veiligheids PLC"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:internetfacingindicator ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Veiligheidsregio a sh:NodeShape ;
@@ -9446,18 +9156,6 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VerkeersgeleidingEnEvacuatieverlichting a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleiding- en evacuatieverlichting binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Verkeersgeleiding- en evacuatieverlichting"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:internetfacingindicator ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Verkeersgeleidingsverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleidingsverlichting binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Verkeersgeleidingsverlichting"@nl ;
@@ -9490,9 +9188,9 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Verlichtingsinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichtingsinstallaties binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Verlichtingsinstallaties"@nl ;
+    otl-patroon:Verlichting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichting binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Verlichting"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -9598,12 +9296,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Viaduct binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Viaduct"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -9796,47 +9488,11 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VluchtweginstallatieVerlichtingEnVasteBorden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtweginstallatie- verlichting en vaste borden binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Vluchtweginstallatie- verlichting en vaste borden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:internetfacingindicator ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Vluchtwegverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtwegverlichting binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Vluchtwegverlichting"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingenHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingen HP en PB kasten binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Voedingen HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:internetfacingindicator ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingsinstallatieOnder50V a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingsinstallatie onder 50V binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Voedingsinstallatie onder 50V"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:internetfacingindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -9938,6 +9594,14 @@ otl:graaf-ib-crisismanagement {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:VoorzienenietbeschikbaarheidEis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VoorzieneNietBeschikbaarheid Eis binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "VoorzieneNietBeschikbaarheid Eis"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:VoorzieningenHulpdiensten a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voorzieningen hulpdiensten binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Voorzieningen hulpdiensten"@nl ;
@@ -9945,18 +9609,6 @@ otl:graaf-ib-crisismanagement {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VorstbeveiligingEnVerwarming a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vorstbeveiliging en verwarming binnen de context van informatieproduct Crisis Management"@nl ;
-        sh:name "Vorstbeveiliging en verwarming"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:internetfacingindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -10143,14 +9795,18 @@ otl:graaf-ib-crisismanagement {
         sh:name "Waterplant"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
             [ sh:minCount 0 ;
                 sh:path otl:discipline ],
             [ sh:minCount 0 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:WaterplantOndergedoken a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant ondergedoken binnen de context van informatieproduct Crisis Management"@nl ;
+        sh:name "Waterplant ondergedoken"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -10158,12 +9814,6 @@ otl:graaf-ib-crisismanagement {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterreguleringswerk binnen de context van informatieproduct Crisis Management"@nl ;
         sh:name "Waterreguleringswerk"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:assetmanager ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -10573,11 +10223,11 @@ otl:graaf-ib-crisismanagement {
                 sh:path otl:omschrijving ] .
 
     otl:graaf-ib-crisismanagement a owl:Ontology ;
-        dct:created "2023-02-01"^^xsd:date ;
+        dct:created "2023-04-04"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Crisis Management' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Crisis Management'"@nl ;
-        pav:currentVersion otl:graaf-ib-crisismanagement-3.1.20 ;
-        pav:derivedFrom "IBRWS Release 20" ;
+        pav:currentVersion otl:graaf-ib-crisismanagement-3.1.21 ;
+        pav:derivedFrom "IB RWS release 21" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

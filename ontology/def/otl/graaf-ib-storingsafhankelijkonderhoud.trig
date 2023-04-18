@@ -449,15 +449,15 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
     otl-patroon:Afwijking a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afwijking binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Afwijking"@nl ;
-        sh:property [ sh:minCount 0 ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:datumtijddefinitiefherstel ],
-            [ sh:minCount 0 ;
+            [ sh:minCount 1 ;
                 sh:path otl:datumtijdfunctioneelherstel ],
-            [ sh:minCount 0 ;
+            [ sh:minCount 1 ;
                 sh:path otl:datumtijdgemeld ],
-            [ sh:minCount 0 ;
+            [ sh:minCount 1 ;
                 sh:path otl:datumtijdgeregistreerd ],
-            [ sh:minCount 0 ;
+            [ sh:minCount 1 ;
                 sh:path otl:datumtijdopgetreden ] .
 
     otl-patroon:Anker a sh:NodeShape ;
@@ -1068,6 +1068,14 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:BesturingsinstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie derden binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
+        sh:name "Besturingsinstallatie derden"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Betonverharding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Betonverharding binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Betonverharding"@nl ;
@@ -1465,14 +1473,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
     otl-patroon:BrandmeldEnOntruimingsinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeld- en ontruimingsinstallatie binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Brandmeld- en ontruimingsinstallatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:BrandmeldinstallatieInDeTunnel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeldinstallatie in de tunnel binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Brandmeldinstallatie in de tunnel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
@@ -2186,22 +2186,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:DigitaleAudioOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale audio-opslag binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Digitale audio-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:DigitaleBeeldOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale beeld-opslag binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Digitale beeld-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Dijk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dijk binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Dijk"@nl ;
@@ -2260,12 +2244,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Doel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doel binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Doel"@nl ;
-        sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Doelvoorstellingsapparatuur a sh:NodeShape ;
@@ -3038,18 +3016,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
             [ sh:minCount 0 ;
                 sh:path otl:qrcode ] .
 
-    otl-patroon:FunctioneleTest a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Functionele Test binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Functionele Test"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:datumtijdafgerond ],
-            [ sh:minCount 0 ;
-                sh:path otl:datumtijdstart ],
-            [ sh:minCount 0 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 0 ;
-                sh:path otl:resultaat ] .
-
     otl-patroon:Fundatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fundatie binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Fundatie"@nl ;
@@ -3316,14 +3282,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Geluidsbakens a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsbakens binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Geluidsbakens"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Geluidsdemper a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsdemper binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Geluidsdemper"@nl ;
@@ -3583,14 +3541,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
                 sh:path otl:omschrijving ],
             [ sh:minCount 0 ;
                 sh:path otl:qrcode ] .
-
-    otl-patroon:Groen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Groen binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Groen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
 
     otl-patroon:Gronddepot a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gronddepot binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
@@ -3970,14 +3920,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Hoofdfunctie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofdfunctie binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Hoofdfunctie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Hoofdverdeler a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofdverdeler binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Hoofdverdeler"@nl ;
@@ -4252,6 +4194,14 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:InstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatie derden binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
+        sh:name "Installatie derden"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Installatiekabel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatiekabel binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Installatiekabel"@nl ;
@@ -4272,11 +4222,13 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
             [ sh:minCount 0 ;
                 sh:path otl:qrcode ] .
 
-    otl-patroon:InstallatiesDerden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installaties derden binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Installaties derden"@nl ;
+    otl-patroon:InstandhoudingBeheersmaatregel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instandhouding Beheersmaatregel binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
+        sh:name "Instandhouding Beheersmaatregel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
+                sh:path otl:datumtijdafgerond ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4333,22 +4285,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
         sh:name "Intercompost"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Interieur a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Interieur binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Interieur"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Inzet a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Inzet binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Inzet"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:aantal ],
-            [ sh:minCount 1 ;
-                sh:path otl:tijdactief ] .
 
     otl-patroon:Isolator a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Isolator binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
@@ -5066,9 +5002,9 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LaadpalenElektrischeVoertuigen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpalen elektrische voertuigen binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Laadpalen elektrische voertuigen"@nl ;
+    otl-patroon:LaadpaalElektrischeVoertuigen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpaal elektrische voertuigen binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
+        sh:name "Laadpaal elektrische voertuigen"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
@@ -5282,14 +5218,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LichtEnKrachtInstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Licht en Kracht Installaties binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Licht en Kracht Installaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Lichtgroepenkast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtgroepenkast binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Lichtgroepenkast"@nl ;
@@ -5335,14 +5263,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
                 sh:path otl:omschrijving ],
             [ sh:minCount 0 ;
                 sh:path otl:qrcode ] .
-
-    otl-patroon:Lichtrooster a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtrooster binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Lichtrooster"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
 
     otl-patroon:Lichtstraat a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtstraat binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
@@ -5604,6 +5524,18 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
             [ sh:minCount 0 ;
                 sh:path otl:qrcode ] .
 
+    otl-patroon:Materieel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Materieel binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
+        sh:name "Materieel"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:aantal ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 0 ;
+                sh:path otl:tarief ],
+            [ sh:minCount 0 ;
+                sh:path otl:tijdactief ] .
+
     otl-patroon:Meer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Meer binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Meer"@nl ;
@@ -5746,7 +5678,7 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Middel binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Middel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:kosten ],
+                sh:path otl:aantal ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5808,6 +5740,14 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Netaansluiting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Netaansluiting binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
+        sh:name "Netaansluiting"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Nevengeul a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nevengeul binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Nevengeul"@nl ;
@@ -5833,20 +5773,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
                 sh:path otl:omschrijving ],
             [ sh:minCount 0 ;
                 sh:path otl:qrcode ] .
-
-    otl-patroon:NonConformiteit a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Non Conformiteit binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Non Conformiteit"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijddefinitiefherstel ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdfunctioneelherstel ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdgemeld ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdgeregistreerd ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdopgetreden ] .
 
     otl-patroon:NooddoucheInstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nooddouche-installatie binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
@@ -6075,11 +6001,11 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
     otl-patroon:Onderhoudsgroep a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderhoudsgroep binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Onderhoudsgroep"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:minCount 0 ;
                 sh:path otl:faalkanskritischindicator ],
-            [ sh:minCount 1 ;
+            [ sh:minCount 0 ;
                 sh:path otl:functiehersteltijd ],
-            [ sh:minCount 1 ;
+            [ sh:minCount 0 ;
                 sh:path otl:technischgereedtijd ] .
 
     otl-patroon:Onderhoudsstrook a sh:NodeShape ;
@@ -6708,6 +6634,18 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Personeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Personeel binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
+        sh:name "Personeel"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:aantal ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 0 ;
+                sh:path otl:tarief ],
+            [ sh:minCount 0 ;
+                sh:path otl:tijdactief ] .
+
     otl-patroon:Personenzoekinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Personenzoekinstallatie binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Personenzoekinstallatie"@nl ;
@@ -6884,17 +6822,17 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
             [ sh:minCount 0 ;
                 sh:path otl:qrcode ] .
 
-    otl-patroon:PompEnVentilatieinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pomp- en ventilatieinstallaties binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Pomp- en ventilatieinstallaties"@nl ;
+    otl-patroon:Pompinstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
+        sh:name "Pompinstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Pompinstallatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Pompinstallatie"@nl ;
+    otl-patroon:Pompinstallaties a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallaties binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
+        sh:name "Pompinstallaties"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
@@ -7344,6 +7282,16 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Reservedeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reservedeel binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
+        sh:name "Reservedeel"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:aantal ],
+            [ sh:minCount 0 ;
+                sh:path otl:kosten ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Riem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Riem binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Riem"@nl ;
@@ -7480,14 +7428,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolgordijn binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Rolgordijn"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:RolhekkenEnToegangsdeurenDienstgebouwen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolhekken en toegangsdeuren dienstgebouwen binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Rolhekken en toegangsdeuren dienstgebouwen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Rolluik a sh:NodeShape ;
@@ -8094,14 +8034,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
             [ sh:minCount 0 ;
                 sh:path otl:qrcode ] .
 
-    otl-patroon:SignaleringHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signalering HP en PB kasten binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Signalering HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Skatebaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Skatebaan binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Skatebaan"@nl ;
@@ -8246,14 +8178,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:SluitEnZinkvoegen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sluit- en zinkvoegen binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Sluit- en zinkvoegen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Smeedwerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Smeedwerk binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Smeedwerk"@nl ;
@@ -8330,6 +8254,12 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Sportdoel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportdoel binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
+        sh:name "Sportdoel"@nl ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Sportgrasveld a sh:NodeShape ;
@@ -8571,14 +8501,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
                 sh:path otl:datumtijdgeregistreerd ],
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdopgetreden ] .
-
-    otl-patroon:Storingsmeldsysteem a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storingsmeldsysteem binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Storingsmeldsysteem"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
 
     otl-patroon:Stormvloedkering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stormvloedkering binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
@@ -8903,6 +8825,12 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
     otl-patroon:Tandwieloverbrenging a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Tandwieloverbrenging"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:TandwieloverbrengingOpen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging open binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
+        sh:name "Tandwieloverbrenging open"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:barcode ],
             [ sh:minCount 1 ;
@@ -8915,8 +8843,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
                 sh:path otl:garantietermijn ],
             [ sh:minCount 0 ;
                 sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 0 ;
@@ -8947,14 +8873,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
         sh:name "Tankconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Technischefunctie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type TechnischeFunctie binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "TechnischeFunctie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -9310,14 +9228,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:TussenRelaisInterfaceStations a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussen relais - interface stations binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Tussen relais - interface stations"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Tussenlaag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussenlaag binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Tussenlaag"@nl ;
@@ -9392,14 +9302,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:UnDetectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type UN-detectie binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "UN-detectie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Urinoir a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Urinoir binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Urinoir"@nl ;
@@ -9468,14 +9370,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheid Beheersmaatregel binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Veiligheid Beheersmaatregel"@nl ;
         sh:property [ sh:minCount 0 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VeiligheidsPlc a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheids PLC binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Veiligheids PLC"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Veiligheidsventiel a sh:NodeShape ;
@@ -9716,14 +9610,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VerkeersgeleidingEnEvacuatieverlichting a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleiding- en evacuatieverlichting binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Verkeersgeleiding- en evacuatieverlichting"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Verkeersgeleidingsverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleidingsverlichting binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Verkeersgeleidingsverlichting"@nl ;
@@ -9746,9 +9632,9 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Verlichtingsinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichtingsinstallaties binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Verlichtingsinstallaties"@nl ;
+    otl-patroon:Verlichting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichting binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
+        sh:name "Verlichting"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
@@ -10056,34 +9942,10 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VluchtweginstallatieVerlichtingEnVasteBorden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtweginstallatie- verlichting en vaste borden binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Vluchtweginstallatie- verlichting en vaste borden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Vluchtwegverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtwegverlichting binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Vluchtwegverlichting"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingenHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingen HP en PB kasten binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Voedingen HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingsinstallatieOnder50V a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingsinstallatie onder 50V binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Voedingsinstallatie onder 50V"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Voegconstructie a sh:NodeShape ;
@@ -10202,14 +10064,6 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VorstbeveiligingEnVerwarming a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vorstbeveiliging en verwarming binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
-        sh:name "Vorstbeveiliging en verwarming"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Vuilvangrooster a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vuilvangrooster binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
         sh:name "Vuilvangrooster"@nl ;
@@ -10242,7 +10096,7 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bron ],
             [ sh:minCount 1 ;
-                sh:path otl:datumtijd ],
+                sh:path otl:datumtijdgeconstateerd ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -10401,10 +10255,14 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
             [ sh:minCount 0 ;
                 sh:path otl:qrcode ] .
+
+    otl-patroon:WaterplantOndergedoken a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant ondergedoken binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
+        sh:name "Waterplant ondergedoken"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Waterreguleringswerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterreguleringswerk binnen de context van informatieproduct Storingsafhankelijk Onderhoud"@nl ;
@@ -10819,11 +10677,11 @@ otl:graaf-ib-storingsafhankelijkonderhoud {
                 sh:path otl:omschrijving ] .
 
     otl:graaf-ib-storingsafhankelijkonderhoud a owl:Ontology ;
-        dct:created "2023-02-01"^^xsd:date ;
+        dct:created "2023-04-04"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Storingsafhankelijk Onderhoud' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Storingsafhankelijk Onderhoud'"@nl ;
-        pav:currentVersion otl:graaf-ib-storingsafhankelijkonderhoud-3.1.20 ;
-        pav:derivedFrom "IBRWS Release 20" ;
+        pav:currentVersion otl:graaf-ib-storingsafhankelijkonderhoud-3.1.21 ;
+        pav:derivedFrom "IB RWS release 21" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

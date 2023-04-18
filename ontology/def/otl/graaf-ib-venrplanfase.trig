@@ -850,6 +850,8 @@ otl:graaf-ib-venrplanfase {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Asset Risico binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Asset Risico"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:risiconiveau ],
+            [ sh:minCount 1 ;
                 sh:path otl:toelichting ] .
 
     otl-patroon:Assettype a sh:NodeShape ;
@@ -1204,14 +1206,6 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:technischeindelevensduur ] .
 
-    otl-patroon:Beheersmaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beheersmaatregel binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Beheersmaatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Bekabeling a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bekabeling binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Bekabeling"@nl ;
@@ -1455,6 +1449,18 @@ otl:graaf-ib-venrplanfase {
     otl-patroon:Besturingsinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Besturingsinstallatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:theoretischelevensduur ] .
+
+    otl-patroon:BesturingsinstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie derden binnen de context van informatieproduct VenR Planfase"@nl ;
+        sh:name "Besturingsinstallatie derden"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -1988,18 +1994,6 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
 
-    otl-patroon:BrandmeldinstallatieInDeTunnel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeldinstallatie in de tunnel binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Brandmeldinstallatie in de tunnel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Brandslang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandslang binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Brandslang"@nl ;
@@ -2514,11 +2508,11 @@ otl:graaf-ib-venrplanfase {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Correctief Onderhoud binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Correctief Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:conditienaonderhoud ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumtijdafgerond ],
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
-            [ sh:minCount 1 ;
-                sh:path otl:modificatieindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:naam ],
             [ sh:minCount 1 ;
@@ -2526,7 +2520,11 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:urgentie ],
             [ sh:minCount 1 ;
-                sh:path otl:vervangingsmomentindicator ] .
+                sh:path otl:vervangingsmomentindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Coupure a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Coupure binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -2958,30 +2956,6 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:DigitaleAudioOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale audio-opslag binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Digitale audio-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
-    otl-patroon:DigitaleBeeldOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale beeld-opslag binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Digitale beeld-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Dijk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dijk binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Dijk"@nl ;
@@ -3063,14 +3037,6 @@ otl:graaf-ib-venrplanfase {
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
-
-    otl-patroon:Doel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doel binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Doel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
 
     otl-patroon:Doelvoorstellingsapparatuur a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doelvoorstellingsapparatuur binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -3788,27 +3754,39 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:waarde ] .
 
+    otl-patroon:FaalfrequentieEis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faalfrequentie Eis binnen de context van informatieproduct VenR Planfase"@nl ;
+        sh:name "Faalfrequentie Eis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
+
     otl-patroon:Faalgevolg a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faalgevolg binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Faalgevolg"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beschikbaarheid ],
+                sh:path otl:beschikbaarheidsscore ],
             [ sh:minCount 1 ;
-                sh:path otl:gezondheid ],
+                sh:path otl:gezondheidsscore ],
             [ sh:minCount 1 ;
-                sh:path otl:imago ],
+                sh:path otl:imagoscore ],
             [ sh:minCount 1 ;
-                sh:path otl:kosten ],
+                sh:path otl:kostenscore ],
             [ sh:minCount 1 ;
-                sh:path otl:omgevingmilieu ],
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omgevingmilieuscore ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:onderhoudbaarheid ],
+                sh:path otl:onderhoudbaarheidsscore ],
             [ sh:minCount 1 ;
-                sh:path otl:security ],
+                sh:path otl:securityscore ],
             [ sh:minCount 1 ;
-                sh:path otl:veiligheid ] .
+                sh:path otl:veiligheidsscore ] .
 
     otl-patroon:Faaloorzaak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faaloorzaak binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -4136,6 +4114,16 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
+    otl-patroon:FunctioneelTesten a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Functioneel Testen binnen de context van informatieproduct VenR Planfase"@nl ;
+        sh:name "Functioneel Testen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:testinterval ] .
+
     otl-patroon:FunctioneleEis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Functionele Eis binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Functionele Eis"@nl ;
@@ -4156,11 +4144,19 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:geplandeeinddatum ],
             [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
                 sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:programmeringsstatus ] .
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:FunctioneleTest a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Functionele Test binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -4174,13 +4170,21 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:geplandeeinddatum ],
             [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
                 sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:programmeringsstatus ],
             [ sh:minCount 1 ;
-                sh:path otl:resultaat ] .
+                sh:path otl:resultaat ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:FunctioneleToestand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Functionele Toestand binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -4346,14 +4350,6 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
 
-    otl-patroon:Gebied a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebied binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Gebied"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Gebouwinstallaties a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebouwinstallaties binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Gebouwinstallaties"@nl ;
@@ -4370,23 +4366,21 @@ otl:graaf-ib-venrplanfase {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebruiks Afhankelijk Onderhoud binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Gebruiks Afhankelijk Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:conditienaonderhoud ],
-            [ sh:minCount 1 ;
                 sh:path otl:minimumleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:typemeting ],
             [ sh:minCount 1 ;
-                sh:path otl:vervangingsinsterval ],
+                sh:path otl:vervangingsinsterval ] .
+
+    otl-patroon:Gebruiksgebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebruiksgebied binnen de context van informatieproduct VenR Planfase"@nl ;
+        sh:name "Gebruiksgebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
             [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtetaakduur ],
-            [ sh:minCount 1 ;
-                sh:path otl:wettelijkverplichtindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Gedenksteen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gedenksteen binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -4567,18 +4561,6 @@ otl:graaf-ib-venrplanfase {
     otl-patroon:GeluidbeperkendeConstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidbeperkende constructie binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Geluidbeperkende constructie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
-    otl-patroon:Geluidsbakens a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsbakens binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Geluidsbakens"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -4945,18 +4927,6 @@ otl:graaf-ib-venrplanfase {
                 sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
-
-    otl-patroon:Groen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Groen binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Groen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
 
     otl-patroon:Gronddepot a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gronddepot binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -5488,7 +5458,9 @@ otl:graaf-ib-venrplanfase {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofdsysteem binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Hoofdsysteem"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Hoofdverdeler a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofdverdeler binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -5852,27 +5824,21 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Inspectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Inspectie binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Inspectie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijdafgerond ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdstart ],
-            [ sh:minCount 1 ;
-                sh:path otl:geplandebegindatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:geplandeeinddatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:programmeringsstatus ] .
-
     otl-patroon:Inspectiewagen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Inspectiewagen binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Inspectiewagen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:theoretischelevensduur ] .
+
+    otl-patroon:InstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatie derden binnen de context van informatieproduct VenR Planfase"@nl ;
+        sh:name "Installatie derden"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -5906,30 +5872,6 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
-    otl-patroon:InstallatiesDerden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installaties derden binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Installaties derden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
-    otl-patroon:InstandhoudingBeheersmaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instandhouding Beheersmaatregel binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Instandhouding Beheersmaatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijdafgerond ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdstart ],
-            [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Instandhoudingsinspectie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instandhoudingsinspectie binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Instandhoudingsinspectie"@nl ;
@@ -5942,11 +5884,19 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:geplandeeinddatum ],
             [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
                 sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:programmeringsstatus ] .
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Instroomopening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instroomopening binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -6016,31 +5966,11 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Interieur a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Interieur binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Interieur"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Invloed a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Invloed binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Invloed"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:score ] .
-
-    otl-patroon:Inzet a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Inzet binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Inzet"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:aantal ],
-            [ sh:minCount 1 ;
-                sh:path otl:tijdactief ] .
 
     otl-patroon:Isolator a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Isolator binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -6548,14 +6478,6 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:resultaat ] .
 
-    otl-patroon:Keuringsmethode a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Keuringsmethode binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Keuringsmethode"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Kinderspeelplaats a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kinderspeelplaats binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Kinderspeelplaats"@nl ;
@@ -6588,9 +6510,9 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
-    otl-patroon:Klanteisenspecificatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Klanteisenspecificatie binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Klanteisenspecificatie"@nl ;
+    otl-patroon:Klanteis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Klanteis binnen de context van informatieproduct VenR Planfase"@nl ;
+        sh:name "Klanteis"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:hardheid ],
             [ sh:minCount 1 ;
@@ -7032,9 +6954,9 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LaadpalenElektrischeVoertuigen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpalen elektrische voertuigen binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Laadpalen elektrische voertuigen"@nl ;
+    otl-patroon:LaadpaalElektrischeVoertuigen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpaal elektrische voertuigen binnen de context van informatieproduct VenR Planfase"@nl ;
+        sh:name "Laadpaal elektrische voertuigen"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -7332,18 +7254,6 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:toelichting ] .
 
-    otl-patroon:LichtEnKrachtInstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Licht en Kracht Installaties binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Licht en Kracht Installaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Lichtgroepenkast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtgroepenkast binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Lichtgroepenkast"@nl ;
@@ -7399,18 +7309,6 @@ otl:graaf-ib-venrplanfase {
                 sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
-
-    otl-patroon:Lichtrooster a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtrooster binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Lichtrooster"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
 
     otl-patroon:Lichtstraat a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtstraat binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -7744,7 +7642,11 @@ otl:graaf-ib-venrplanfase {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Materieel binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Materieel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:aantal ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:tijdactief ] .
 
     otl-patroon:Medewerker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Medewerker binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -7930,12 +7832,6 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Middel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Middel binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Middel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Mixer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Mixer binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Mixer"@nl ;
@@ -7954,7 +7850,11 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:naam ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Monitor a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Monitor binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -8016,22 +7916,6 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
 
-    otl-patroon:Nen1010 a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type NEN1010 binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "NEN1010"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Nen3140 a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type NEN3140 binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "NEN3140"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Net a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Net binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Net"@nl ;
@@ -8039,6 +7923,18 @@ otl:graaf-ib-venrplanfase {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
+
+    otl-patroon:Netaansluiting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Netaansluiting binnen de context van informatieproduct VenR Planfase"@nl ;
+        sh:name "Netaansluiting"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:theoretischelevensduur ] .
 
     otl-patroon:Nevengeul a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nevengeul binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -8071,22 +7967,6 @@ otl:graaf-ib-venrplanfase {
                 sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
-
-    otl-patroon:NonConformiteit a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Non Conformiteit binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Non Conformiteit"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijddefinitiefherstel ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdfunctioneelherstel ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdgemeld ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdgeregistreerd ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdopgetreden ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
 
     otl-patroon:NooddoucheInstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nooddouche-installatie binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -8180,6 +8060,32 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Nulinspectie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nulinspectie binnen de context van informatieproduct VenR Planfase"@nl ;
+        sh:name "Nulinspectie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumtijdafgerond ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdstart ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandebegindatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeeinddatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
+
     otl-patroon:ObjectBeheerRegime a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Object Beheer Regime binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Object Beheer Regime"@nl ;
@@ -8197,24 +8103,6 @@ otl:graaf-ib-venrplanfase {
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
-
-    otl-patroon:Observatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Observatie binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Observatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijdafgerond ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdstart ],
-            [ sh:minCount 1 ;
-                sh:path otl:geplandebegindatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:geplandeeinddatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:programmeringsstatus ] .
 
     otl-patroon:Obstakelbeveiliger a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Obstakelbeveiliger binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -8422,22 +8310,6 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Onderhoud a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderhoud binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Onderhoud"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijdafgerond ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdstart ],
-            [ sh:minCount 1 ;
-                sh:path otl:modificatieindicator ],
-            [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:vervangingsmomentindicator ] .
-
     otl-patroon:Onderhoudsstrook a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderhoudsstrook binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Onderhoudsstrook"@nl ;
@@ -8593,6 +8465,16 @@ otl:graaf-ib-venrplanfase {
                 sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
+
+    otl-patroon:OnvoorzienenietbeschikbaarheidEis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type OnvoorzieneNietBeschikbaarheid Eis binnen de context van informatieproduct VenR Planfase"@nl ;
+        sh:name "OnvoorzieneNietBeschikbaarheid Eis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
 
     otl-patroon:OpEnAfrit a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Op- en afrit binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -8907,12 +8789,6 @@ otl:graaf-ib-venrplanfase {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Organisatieonderdeel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Organisatieonderdeel binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Organisatieonderdeel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
 
     otl-patroon:OverEnOnderdrukinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Over- en onderdrukinstallatie binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -9276,7 +9152,11 @@ otl:graaf-ib-venrplanfase {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Personeel binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Personeel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:aantal ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:tijdactief ] .
 
     otl-patroon:Personeelscapaciteit a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Personeelscapaciteit binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -9562,9 +9442,9 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
-    otl-patroon:PompEnVentilatieinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pomp- en ventilatieinstallaties binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Pomp- en ventilatieinstallaties"@nl ;
+    otl-patroon:Pompinstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct VenR Planfase"@nl ;
+        sh:name "Pompinstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -9574,9 +9454,9 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
 
-    otl-patroon:Pompinstallatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Pompinstallatie"@nl ;
+    otl-patroon:Pompinstallaties a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallaties binnen de context van informatieproduct VenR Planfase"@nl ;
+        sh:name "Pompinstallaties"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -9654,20 +9534,6 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:PrestatieEis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Prestatie Eis binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Prestatie Eis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:frequentie ],
-            [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:onvoorzienenietbeschikbaarheid ],
-            [ sh:minCount 1 ;
-                sh:path otl:voorzienenietbeschikbaarheid ] .
-
     otl-patroon:PreventiefOnderhoud a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Preventief Onderhoud binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Preventief Onderhoud"@nl ;
@@ -9675,6 +9541,8 @@ otl:graaf-ib-venrplanfase {
                 sh:path otl:afwijkinggeplanduitgevoerdindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:berekendjaarvanuitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:conditienaonderhoud ],
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdafgerond ],
             [ sh:minCount 1 ;
@@ -9686,15 +9554,21 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:geplandeeinddatum ],
             [ sh:minCount 1 ;
-                sh:path otl:modificatieindicator ],
+                sh:path otl:minimumleeftijd ],
             [ sh:minCount 1 ;
                 sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:programmeringsstatus ],
             [ sh:minCount 1 ;
-                sh:path otl:vervangingsmomentindicator ] .
+                sh:path otl:vervangingsmomentindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Procesbassin a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Procesbassin binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -9748,19 +9622,21 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:ProjectDiscipline a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Project Discipline binnen de context van informatieproduct VenR Planfase"@nl ;
+        sh:name "Project Discipline"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
     otl-patroon:ProjectRisico a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Project Risico binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Project Risico"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
+                sh:path otl:risiconiveau ],
+            [ sh:minCount 1 ;
                 sh:path otl:toelichting ] .
-
-    otl-patroon:Projectdiscipline a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type ProjectDiscipline binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "ProjectDiscipline"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
 
     otl-patroon:Projectfase a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Projectfase binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -10300,6 +10176,8 @@ otl:graaf-ib-venrplanfase {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reservedeel binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Reservedeel"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:aantal ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Riem a sh:NodeShape ;
@@ -10434,12 +10312,6 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Rol a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rol binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Rol"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
     otl-patroon:Rolbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolbaan binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Rolbaan"@nl ;
@@ -10479,18 +10351,6 @@ otl:graaf-ib-venrplanfase {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:RolhekkenEnToegangsdeurenDienstgebouwen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolhekken en toegangsdeuren dienstgebouwen binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Rolhekken en toegangsdeuren dienstgebouwen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
 
     otl-patroon:Rolluik a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolluik binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -11036,11 +10896,19 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:geplandeeinddatum ],
             [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
                 sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:programmeringsstatus ] .
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Schraalgrasland a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schraalgrasland binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -11308,18 +11176,6 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
-    otl-patroon:SignaleringHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signalering HP en PB kasten binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Signalering HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Skatebaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Skatebaan binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Skatebaan"@nl ;
@@ -11512,18 +11368,6 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
 
-    otl-patroon:SluitEnZinkvoegen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sluit- en zinkvoegen binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Sluit- en zinkvoegen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Smeedwerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Smeedwerk binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Smeedwerk"@nl ;
@@ -11627,6 +11471,14 @@ otl:graaf-ib-venrplanfase {
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
+
+    otl-patroon:Sportdoel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportdoel binnen de context van informatieproduct VenR Planfase"@nl ;
+        sh:name "Sportdoel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Sportgrasveld a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportgrasveld binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -11774,6 +11626,8 @@ otl:graaf-ib-venrplanfase {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Standaard Verzorgend Onderhoud binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Standaard Verzorgend Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:conditienaonderhoud ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumtijdafgerond ],
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
@@ -11784,15 +11638,21 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:geplandeeinddatum ],
             [ sh:minCount 1 ;
-                sh:path otl:modificatieindicator ],
+                sh:path otl:minimumleeftijd ],
             [ sh:minCount 1 ;
                 sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:programmeringsstatus ],
             [ sh:minCount 1 ;
-                sh:path otl:vervangingsmomentindicator ] .
+                sh:path otl:vervangingsmomentindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Stankscherm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stankscherm binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -11974,13 +11834,7 @@ otl:graaf-ib-venrplanfase {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storings Afhankelijk Onderhoud binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Storings Afhankelijk Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:conditienaonderhoud ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtetaakduur ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Storingsgedrag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storingsgedrag binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -11992,23 +11846,15 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:toelichting ] .
 
-    otl-patroon:Storingsmeldsysteem a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storingsmeldsysteem binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Storingsmeldsysteem"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Storingsvoorspellendegrootheid a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type StoringsVoorspellendeGrootheid binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "StoringsVoorspellendeGrootheid"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:pfCurve ],
+            [ sh:minCount 1 ;
+                sh:path otl:pfInterval ],
             [ sh:minCount 1 ;
                 sh:path otl:trigger ] .
 
@@ -12328,13 +12174,17 @@ otl:graaf-ib-venrplanfase {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Systeem binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Systeem"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Systeemdeel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Systeemdeel binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Systeemdeel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Systeemeis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Systeemeis binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -12466,6 +12316,12 @@ otl:graaf-ib-venrplanfase {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:TandwieloverbrengingOpen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging open binnen de context van informatieproduct VenR Planfase"@nl ;
+        sh:name "Tandwieloverbrenging open"@nl ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
@@ -12477,8 +12333,6 @@ otl:graaf-ib-venrplanfase {
                 sh:path otl:garantietermijn ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
@@ -12656,27 +12510,13 @@ otl:graaf-ib-venrplanfase {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toestands Afhankelijk Onderhoud binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Toestands Afhankelijk Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:conditienaonderhoud ],
-            [ sh:minCount 1 ;
                 sh:path otl:detectiewaarschijnlijkheid ],
             [ sh:minCount 1 ;
                 sh:path otl:inspectieinterval ],
             [ sh:minCount 1 ;
                 sh:path otl:minimumleeftijd ],
             [ sh:minCount 1 ;
-                sh:path otl:offset ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:pfCurve ],
-            [ sh:minCount 1 ;
-                sh:path otl:pfInterval ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtetaakduur ],
-            [ sh:minCount 1 ;
-                sh:path otl:wettelijkverplichtindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Toestandsinspectie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toestandsinspectie binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -12690,13 +12530,19 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:geplandeeinddatum ],
             [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
                 sh:path otl:naam ],
             [ sh:minCount 1 ;
-                sh:path otl:nulinspectieindicator ],
+                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:programmeringsstatus ] .
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Toilet a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toilet binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -13056,18 +12902,6 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:TussenRelaisInterfaceStations a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussen relais - interface stations binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Tussen relais - interface stations"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Tussenlaag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussenlaag binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Tussenlaag"@nl ;
@@ -13163,18 +12997,6 @@ otl:graaf-ib-venrplanfase {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:UnDetectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type UN-detectie binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "UN-detectie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
 
     otl-patroon:Urinoir a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Urinoir binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -13298,21 +13120,11 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
+                sh:path otl:risiconiveau ],
+            [ sh:minCount 1 ;
                 sh:path otl:toelichting ],
             [ sh:minCount 1 ;
                 sh:path otl:waarschijnlijkheid ] .
-
-    otl-patroon:VeiligheidsPlc a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheids PLC binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Veiligheids PLC"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
 
     otl-patroon:Veiligheidsdomein a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheidsdomein binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -13638,18 +13450,6 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
 
-    otl-patroon:VerkeersgeleidingEnEvacuatieverlichting a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleiding- en evacuatieverlichting binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Verkeersgeleiding- en evacuatieverlichting"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Verkeersgeleidingsverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleidingsverlichting binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Verkeersgeleidingsverlichting"@nl ;
@@ -13682,9 +13482,9 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
 
-    otl-patroon:Verlichtingsinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichtingsinstallaties binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Verlichtingsinstallaties"@nl ;
+    otl-patroon:Verlichting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichting binnen de context van informatieproduct VenR Planfase"@nl ;
+        sh:name "Verlichting"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -14096,18 +13896,6 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
 
-    otl-patroon:VluchtweginstallatieVerlichtingEnVasteBorden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtweginstallatie- verlichting en vaste borden binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Vluchtweginstallatie- verlichting en vaste borden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Vluchtwegverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtwegverlichting binnen de context van informatieproduct VenR Planfase"@nl ;
         sh:name "Vluchtwegverlichting"@nl ;
@@ -14115,30 +13903,6 @@ otl:graaf-ib-venrplanfase {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingenHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingen HP en PB kasten binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Voedingen HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
-    otl-patroon:VoedingsinstallatieOnder50V a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingsinstallatie onder 50V binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Voedingsinstallatie onder 50V"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
 
     otl-patroon:Voegconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voegconstructie binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -14280,21 +14044,19 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VoorzieningenHulpdiensten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voorzieningen hulpdiensten binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Voorzieningen hulpdiensten"@nl ;
+    otl-patroon:VoorzienenietbeschikbaarheidEis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VoorzieneNietBeschikbaarheid Eis binnen de context van informatieproduct VenR Planfase"@nl ;
+        sh:name "VoorzieneNietBeschikbaarheid Eis"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
+                sh:path otl:naam ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
+                sh:path otl:waarde ] .
 
-    otl-patroon:VorstbeveiligingEnVerwarming a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vorstbeveiliging en verwarming binnen de context van informatieproduct VenR Planfase"@nl ;
-        sh:name "Vorstbeveiliging en verwarming"@nl ;
+    otl-patroon:VoorzieningenHulpdiensten a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voorzieningen hulpdiensten binnen de context van informatieproduct VenR Planfase"@nl ;
+        sh:name "Voorzieningen hulpdiensten"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -14342,7 +14104,7 @@ otl:graaf-ib-venrplanfase {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bron ],
             [ sh:minCount 1 ;
-                sh:path otl:datumtijd ],
+                sh:path otl:datumtijdgeconstateerd ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -14536,8 +14298,6 @@ otl:graaf-ib-venrplanfase {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
@@ -14550,13 +14310,19 @@ otl:graaf-ib-venrplanfase {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ],
             [ sh:minCount 1 ;
                 sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
+
+    otl-patroon:WaterplantOndergedoken a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant ondergedoken binnen de context van informatieproduct VenR Planfase"@nl ;
+        sh:name "Waterplant ondergedoken"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Waterreguleringswerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterreguleringswerk binnen de context van informatieproduct VenR Planfase"@nl ;
@@ -15101,11 +14867,11 @@ otl:graaf-ib-venrplanfase {
                 sh:path otl:theoretischelevensduur ] .
 
     otl:graaf-ib-venrplanfase a owl:Ontology ;
-        dct:created "2023-02-01"^^xsd:date ;
+        dct:created "2023-04-04"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'VenR Planfase' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'VenR Planfase'"@nl ;
-        pav:currentVersion otl:graaf-ib-venrplanfase-3.1.20 ;
-        pav:derivedFrom "IBRWS Release 20" ;
+        pav:currentVersion otl:graaf-ib-venrplanfase-3.1.21 ;
+        pav:derivedFrom "IB RWS release 21" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

@@ -54,10 +54,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aanleginrichting binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Aanleginrichting"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -430,10 +426,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aquaduct binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Aquaduct"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -505,6 +497,12 @@ otl:graaf-ib-areaaltabelhvwn-hws {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
+
+    otl-patroon:Asseteigenaar a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Asseteigenaar binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
+        sh:name "Asseteigenaar"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:Atletiekbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Atletiekbaan binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
@@ -738,10 +736,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beheerobject Overstijgende Voorziening binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Beheerobject Overstijgende Voorziening"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -753,6 +747,12 @@ otl:graaf-ib-areaaltabelhvwn-hws {
                 sh:path otl:status ],
             [ sh:minCount 1 ;
                 sh:path otl:topcode ] .
+
+    otl-patroon:Beheerorganisatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beheerorganisatie binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
+        sh:name "Beheerorganisatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:Bekabeling a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bekabeling binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
@@ -865,6 +865,14 @@ otl:graaf-ib-areaaltabelhvwn-hws {
     otl-patroon:Besturingsinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Besturingsinstallatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:BesturingsinstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie derden binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
+        sh:name "Besturingsinstallatie derden"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -1122,10 +1130,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bosgebied binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Bosgebied"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -1212,14 +1216,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:BrandmeldinstallatieInDeTunnel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeldinstallatie in de tunnel binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Brandmeldinstallatie in de tunnel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Brandslang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandslang binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Brandslang"@nl ;
@@ -1264,10 +1260,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brug beweegbaar binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Brug beweegbaar"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -1284,10 +1276,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brug vast binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Brug vast"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:classificatie ],
@@ -1360,10 +1348,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bunker binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Bunker"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -1562,10 +1546,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Coupure binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Coupure"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -1608,10 +1588,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dam binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Dam"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:lengte ],
@@ -1808,30 +1784,10 @@ otl:graaf-ib-areaaltabelhvwn-hws {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:DigitaleAudioOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale audio-opslag binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Digitale audio-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:DigitaleBeeldOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale beeld-opslag binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Digitale beeld-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Dijk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dijk binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Dijk"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:lengte ],
@@ -1877,14 +1833,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
     otl-patroon:DiverseInstallaties a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Diverse installaties binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Diverse installaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Doel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doel binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Doel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -2126,10 +2074,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duiker binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Duiker"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -2154,10 +2098,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duingebied binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Duingebied"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:lengte ],
@@ -2226,10 +2166,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ecoduct binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Ecoduct"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -2402,10 +2338,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunatunnel binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Faunatunnel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -2588,19 +2520,19 @@ otl:graaf-ib-areaaltabelhvwn-hws {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Gebied a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebied binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Gebied"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Gebouwinstallaties a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebouwinstallaties binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Gebouwinstallaties"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Gebruiksgebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebruiksgebied binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
+        sh:name "Gebruiksgebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -2710,14 +2642,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Geluidsbakens a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsbakens binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Geluidsbakens"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Geluidsdemper a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsdemper binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Geluidsdemper"@nl ;
@@ -2730,10 +2654,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gemaal binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Gemaal"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -2984,14 +2904,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Groen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Groen binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Groen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Gronddepot a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gronddepot binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Gronddepot"@nl ;
@@ -3004,10 +2916,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grondkering binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Grondkering"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -3170,10 +3078,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Haven binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Haven"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:beheersregime ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
@@ -3300,10 +3204,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hevel binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Hevel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -3526,10 +3426,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Individuele Behandeling van Afvalwater systeem binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Individuele Behandeling van Afvalwater systeem"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -3604,10 +3500,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Infragebonden gebouw binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Infragebonden gebouw"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:beheersregime ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
@@ -3658,6 +3550,14 @@ otl:graaf-ib-areaaltabelhvwn-hws {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:InstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatie derden binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
+        sh:name "Installatie derden"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Installatiekabel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatiekabel binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Installatiekabel"@nl ;
@@ -3665,14 +3565,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:InstallatiesDerden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installaties derden binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Installaties derden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3707,14 +3599,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
     otl-patroon:Intercompost a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Intercompost binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Intercompost"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Interieur a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Interieur binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Interieur"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -3832,10 +3716,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kade binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Kade"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:beheersregime ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
@@ -3946,10 +3826,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Keersluis binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Keersluis"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -4410,9 +4286,9 @@ otl:graaf-ib-areaaltabelhvwn-hws {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LaadpalenElektrischeVoertuigen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpalen elektrische voertuigen binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Laadpalen elektrische voertuigen"@nl ;
+    otl-patroon:LaadpaalElektrischeVoertuigen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpaal elektrische voertuigen binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
+        sh:name "Laadpaal elektrische voertuigen"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -4590,14 +4466,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LichtEnKrachtInstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Licht en Kracht Installaties binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Licht en Kracht Installaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Lichtgroepenkast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtgroepenkast binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Lichtgroepenkast"@nl ;
@@ -4623,14 +4491,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Lichtrooster a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtrooster binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Lichtrooster"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4970,10 +4830,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Natuurgebied binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Natuurgebied"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -4997,6 +4853,14 @@ otl:graaf-ib-areaaltabelhvwn-hws {
     otl-patroon:Net a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Net binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Net"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Netaansluiting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Netaansluiting binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
+        sh:name "Netaansluiting"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -5208,10 +5072,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderdoorgang binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Onderdoorgang"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -5352,10 +5212,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Open tunnelbak binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Open tunnelbak"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -5516,12 +5372,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Organisatieonderdeel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Organisatieonderdeel binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Organisatieonderdeel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
     otl-patroon:OverEnOnderdrukinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Over- en onderdrukinstallatie binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Over- en onderdrukinstallatie"@nl ;
@@ -5552,10 +5402,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Overkluizing binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Overkluizing"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -5868,17 +5714,17 @@ otl:graaf-ib-areaaltabelhvwn-hws {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:PompEnVentilatieinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pomp- en ventilatieinstallaties binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Pomp- en ventilatieinstallaties"@nl ;
+    otl-patroon:Pompinstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
+        sh:name "Pompinstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Pompinstallatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Pompinstallatie"@nl ;
+    otl-patroon:Pompinstallaties a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallaties binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
+        sh:name "Pompinstallaties"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -6338,14 +6184,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:RolhekkenEnToegangsdeurenDienstgebouwen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolhekken en toegangsdeuren dienstgebouwen binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Rolhekken en toegangsdeuren dienstgebouwen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Rolluik a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolluik binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Rolluik"@nl ;
@@ -6748,10 +6586,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schutsluis binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Schutsluis"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -6798,10 +6632,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sifon binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Sifon"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -6831,14 +6661,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:SignaleringHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signalering HP en PB kasten binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Signalering HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -6968,14 +6790,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:SluitEnZinkvoegen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sluit- en zinkvoegen binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Sluit- en zinkvoegen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Smeedwerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Smeedwerk binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Smeedwerk"@nl ;
@@ -7058,6 +6872,14 @@ otl:graaf-ib-areaaltabelhvwn-hws {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Sportdoel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportdoel binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
+        sh:name "Sportdoel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Sportgrasveld a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportgrasveld binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Sportgrasveld"@nl ;
@@ -7112,10 +6934,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Spuisluis binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Spuisluis"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -7260,22 +7078,10 @@ otl:graaf-ib-areaaltabelhvwn-hws {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Storingsmeldsysteem a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storingsmeldsysteem binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Storingsmeldsysteem"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Stormvloedkering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stormvloedkering binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Stormvloedkering"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -7448,10 +7254,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stuw binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Stuw"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -7576,11 +7378,15 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:TandwieloverbrengingOpen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging open binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
+        sh:name "Tandwieloverbrenging open"@nl ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -7654,10 +7460,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Terrein binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Terrein"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:beheersregime ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
@@ -7930,10 +7732,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tunnel binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Tunnel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -7962,14 +7760,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:TussenRelaisInterfaceStations a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussen relais - interface stations binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Tussen relais - interface stations"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Tussenlaag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussenlaag binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Tussenlaag"@nl ;
@@ -7984,10 +7774,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uiterwaard binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Uiterwaard"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:beheersregime ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
@@ -8035,14 +7821,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
     otl-patroon:Uitstroomopening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uitstroomopening binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Uitstroomopening"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:UnDetectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type UN-detectie binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "UN-detectie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -8113,14 +7891,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
     otl-patroon:Vangconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vangconstructie binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Vangconstructie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VeiligheidsPlc a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheids PLC binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Veiligheids PLC"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -8294,10 +8064,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeerscentrale binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Verkeerscentrale"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
@@ -8319,14 +8085,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
     otl-patroon:Verkeerseiland a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeerseiland binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Verkeerseiland"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VerkeersgeleidingEnEvacuatieverlichting a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleiding- en evacuatieverlichting binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Verkeersgeleiding- en evacuatieverlichting"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -8356,9 +8114,9 @@ otl:graaf-ib-areaaltabelhvwn-hws {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Verlichtingsinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichtingsinstallaties binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Verlichtingsinstallaties"@nl ;
+    otl-patroon:Verlichting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichting binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
+        sh:name "Verlichting"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -8432,10 +8190,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verzorgingsplaats binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Verzorgingsplaats"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -8452,10 +8206,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Viaduct binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Viaduct"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -8628,33 +8378,9 @@ otl:graaf-ib-areaaltabelhvwn-hws {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VluchtweginstallatieVerlichtingEnVasteBorden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtweginstallatie- verlichting en vaste borden binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Vluchtweginstallatie- verlichting en vaste borden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Vluchtwegverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtwegverlichting binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Vluchtwegverlichting"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingenHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingen HP en PB kasten binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Voedingen HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingsinstallatieOnder50V a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingsinstallatie onder 50V binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Voedingsinstallatie onder 50V"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -8749,14 +8475,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
     otl-patroon:VoorzieningenHulpdiensten a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voorzieningen hulpdiensten binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Voorzieningen hulpdiensten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VorstbeveiligingEnVerwarming a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vorstbeveiliging en verwarming binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
-        sh:name "Vorstbeveiliging en verwarming"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -8950,11 +8668,15 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:WaterplantOndergedoken a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant ondergedoken binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
+        sh:name "Waterplant ondergedoken"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -8962,10 +8684,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterreguleringswerk binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Waterreguleringswerk"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -8998,10 +8716,6 @@ otl:graaf-ib-areaaltabelhvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Weg binnen de context van informatieproduct Areaaltabel HVWN HWS"@nl ;
         sh:name "Weg"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -9359,11 +9073,11 @@ otl:graaf-ib-areaaltabelhvwn-hws {
                 sh:path otl:omschrijving ] .
 
     otl:graaf-ib-areaaltabelhvwn-hws a owl:Ontology ;
-        dct:created "2023-02-01"^^xsd:date ;
+        dct:created "2023-04-04"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Areaaltabel HVWN HWS' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Areaaltabel HVWN HWS'"@nl ;
-        pav:currentVersion otl:graaf-ib-areaaltabelhvwn-hws-3.1.20 ;
-        pav:derivedFrom "IBRWS Release 20" ;
+        pav:currentVersion otl:graaf-ib-areaaltabelhvwn-hws-3.1.21 ;
+        pav:derivedFrom "IB RWS release 21" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

@@ -32,13 +32,15 @@ otl:graaf-ib-programmering {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:topcode ] .
 
-    otl-patroon:BerekendePrestatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende Prestatie binnen de context van informatieproduct Programmering"@nl ;
-        sh:name "Berekende Prestatie"@nl ;
+    otl-patroon:BerekendeVoorzienenietbeschikbaarheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VoorzieneNietBeschikbaarheid binnen de context van informatieproduct Programmering"@nl ;
+        sh:name "Berekende VoorzieneNietBeschikbaarheid"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitgevoerd ],
             [ sh:minCount 1 ;
-                sh:path otl:voorzienenietbeschikbaarheid ] .
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
 
     otl-patroon:Bosgebied a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bosgebied binnen de context van informatieproduct Programmering"@nl ;
@@ -445,11 +447,11 @@ otl:graaf-ib-programmering {
                 sh:path otl:naam ] .
 
     otl:graaf-ib-programmering a owl:Ontology ;
-        dct:created "2023-02-01"^^xsd:date ;
+        dct:created "2023-04-04"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Programmering' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Programmering'"@nl ;
-        pav:currentVersion otl:graaf-ib-programmering-3.1.20 ;
-        pav:derivedFrom "IBRWS Release 20" ;
+        pav:currentVersion otl:graaf-ib-programmering-3.1.21 ;
+        pav:derivedFrom "IB RWS release 21" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .
