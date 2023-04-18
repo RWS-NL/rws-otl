@@ -274,6 +274,12 @@ otl:graaf-ib-geluid {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
+    otl-patroon:Beheerorganisatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beheerorganisatie binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Beheerorganisatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
     otl-patroon:Bekabeling a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bekabeling binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Bekabeling"@nl ;
@@ -436,12 +442,6 @@ otl:graaf-ib-geluid {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
-    otl-patroon:Bosgebied a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bosgebied binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Bosgebied"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerder ] .
-
     otl-patroon:Brandblusser a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandblusser binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Brandblusser"@nl ;
@@ -562,12 +562,6 @@ otl:graaf-ib-geluid {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
-    otl-patroon:Dam a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dam binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Dam"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerder ] .
-
     otl-patroon:Damwand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Damwand binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Damwand"@nl ;
@@ -608,7 +602,9 @@ otl:graaf-ib-geluid {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:type ] .
+                sh:path otl:type ],
+            [ sh:minCount 1 ;
+                sh:path otl:verhardingsvlak ] .
 
     otl-patroon:DeklaagOpen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deklaag (open) binnen de context van informatieproduct Geluid"@nl ;
@@ -620,7 +616,9 @@ otl:graaf-ib-geluid {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:type ] .
+                sh:path otl:type ],
+            [ sh:minCount 1 ;
+                sh:path otl:verhardingsvlak ] .
 
     otl-patroon:Deksel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deksel binnen de context van informatieproduct Geluid"@nl ;
@@ -691,12 +689,6 @@ otl:graaf-ib-geluid {
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
-
-    otl-patroon:Dijk a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dijk binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Dijk"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerder ] .
 
     otl-patroon:Dilatatievoeg a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dilatatievoeg binnen de context van informatieproduct Geluid"@nl ;
@@ -797,12 +789,6 @@ otl:graaf-ib-geluid {
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
-
-    otl-patroon:Duingebied a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duingebied binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Duingebied"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerder ] .
 
     otl-patroon:Duinovergang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duinovergang binnen de context van informatieproduct Geluid"@nl ;
@@ -1014,9 +1000,9 @@ otl:graaf-ib-geluid {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
-    otl-patroon:Gebied a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebied binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Gebied"@nl ;
+    otl-patroon:Gebruiksgebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebruiksgebied binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Gebruiksgebied"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:naam ] .
 
@@ -1736,13 +1722,9 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nalevingsschakel geluid binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Nalevingsschakel geluid"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheergrenzen ] .
-
-    otl-patroon:Natuurgebied a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Natuurgebied binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Natuurgebied"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerder ] .
+                sh:path otl:beheergrenzen ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:Nivelleerschuif a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nivelleerschuif binnen de context van informatieproduct Geluid"@nl ;
@@ -2186,7 +2168,9 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type ReferentiepuntGPP binnen de context van informatieproduct Geluid"@nl ;
         sh:name "ReferentiepuntGPP"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:geluidproductieplafond ] .
+                sh:path otl:geluidproductieplafond ],
+            [ sh:minCount 1 ;
+                sh:path otl:risiconiveau ] .
 
     otl-patroon:Reflector a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reflector binnen de context van informatieproduct Geluid"@nl ;
@@ -2680,9 +2664,9 @@ otl:graaf-ib-geluid {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
-    otl-patroon:Tandwieloverbrenging a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Tandwieloverbrenging"@nl ;
+    otl-patroon:TandwieloverbrengingOpen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging open binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Tandwieloverbrenging open"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
@@ -2778,12 +2762,6 @@ otl:graaf-ib-geluid {
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
 
-    otl-patroon:Uiterwaard a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uiterwaard binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Uiterwaard"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerder ] .
-
     otl-patroon:Uitmonding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uitmonding binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Uitmonding"@nl ;
@@ -2866,31 +2844,13 @@ otl:graaf-ib-geluid {
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
 
-    otl-patroon:Verkeersintensiteit a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersintensiteit binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Verkeersintensiteit"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:aantalautos ],
-            [ sh:minCount 1 ;
-                sh:path otl:aantalmiddelzwareautos ],
-            [ sh:minCount 1 ;
-                sh:path otl:aantalzwarevrachtautos ],
-            [ sh:minCount 1 ;
-                sh:path otl:baannummer ],
-            [ sh:minCount 1 ;
-                sh:path otl:dagdeel ],
-            [ sh:minCount 1 ;
-                sh:path otl:jaartal ],
-            [ sh:minCount 1 ;
-                sh:path otl:tijdsblok ] .
-
     otl-patroon:VerkeersintensiteitPrognose a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersintensiteit prognose binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Verkeersintensiteit prognose"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:aantalautos ],
             [ sh:minCount 1 ;
-                sh:path otl:aantalmiddelzwareautos ],
+                sh:path otl:aantalmiddelzwarevrachtautos ],
             [ sh:minCount 1 ;
                 sh:path otl:aantalzwarevrachtautos ],
             [ sh:minCount 1 ;
@@ -2908,7 +2868,7 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:aantalautos ],
             [ sh:minCount 1 ;
-                sh:path otl:aantalmiddelzwareautos ],
+                sh:path otl:aantalmiddelzwarevrachtautos ],
             [ sh:minCount 1 ;
                 sh:path otl:aantalzwarevrachtautos ],
             [ sh:minCount 1 ;
@@ -2924,7 +2884,25 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeerssnelheid binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Verkeerssnelheid"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:verkeerssnelheid ] .
+                sh:path otl:aangegevenverkeerssnelheid ] .
+
+    otl-patroon:Verkeerstoestand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeerstoestand binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Verkeerstoestand"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:aantalautos ],
+            [ sh:minCount 1 ;
+                sh:path otl:aantalmiddelzwarevrachtautos ],
+            [ sh:minCount 1 ;
+                sh:path otl:aantalzwarevrachtautos ],
+            [ sh:minCount 1 ;
+                sh:path otl:baannummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:dagdeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:jaartal ],
+            [ sh:minCount 1 ;
+                sh:path otl:tijdsblok ] .
 
     otl-patroon:Versterker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Versterker binnen de context van informatieproduct Geluid"@nl ;
@@ -2965,12 +2943,6 @@ otl:graaf-ib-geluid {
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
-
-    otl-patroon:Verzorgingsplaats a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verzorgingsplaats binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Verzorgingsplaats"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerder ] .
 
     otl-patroon:Viaduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Viaduct binnen de context van informatieproduct Geluid"@nl ;
@@ -3088,22 +3060,20 @@ otl:graaf-ib-geluid {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
-    otl-patroon:Weg a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Weg binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Weg"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerder ] .
-
     otl-patroon:Wegdeelgpp a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type WegdeelGPP binnen de context van informatieproduct Geluid"@nl ;
         sh:name "WegdeelGPP"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
                 sh:path otl:rijlijn ] .
 
     otl-patroon:Wegvak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wegvak binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Wegvak"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
                 sh:path otl:rijlijn ] .
 
     otl-patroon:WideAreaNetwork a sh:NodeShape ;
@@ -3187,11 +3157,11 @@ otl:graaf-ib-geluid {
                 sh:path otl:materiaal ] .
 
     otl:graaf-ib-geluid a owl:Ontology ;
-        dct:created "2023-02-01"^^xsd:date ;
+        dct:created "2023-04-04"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Geluid' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Geluid'"@nl ;
-        pav:currentVersion otl:graaf-ib-geluid-3.1.20 ;
-        pav:derivedFrom "IBRWS Release 20" ;
+        pav:currentVersion otl:graaf-ib-geluid-3.1.21 ;
+        pav:derivedFrom "IB RWS release 21" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

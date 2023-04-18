@@ -480,6 +480,12 @@ otl:graaf-ib-natuur {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Asseteigenaar a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Asseteigenaar binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Asseteigenaar"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
     otl-patroon:Atletiekbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Atletiekbaan binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Atletiekbaan"@nl ;
@@ -702,6 +708,12 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Beheerorganisatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beheerorganisatie binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Beheerorganisatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
     otl-patroon:Bekabeling a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bekabeling binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Bekabeling"@nl ;
@@ -835,6 +847,14 @@ otl:graaf-ib-natuur {
     otl-patroon:Besturingsinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Besturingsinstallatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:BesturingsinstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie derden binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Besturingsinstallatie derden"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
@@ -1086,8 +1106,6 @@ otl:graaf-ib-natuur {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bosgebied binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Bosgebied"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerder ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Bouwakker a sh:NodeShape ;
@@ -1165,14 +1183,6 @@ otl:graaf-ib-natuur {
     otl-patroon:BrandmeldEnOntruimingsinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeld- en ontruimingsinstallatie binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Brandmeld- en ontruimingsinstallatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:BrandmeldinstallatieInDeTunnel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeldinstallatie in de tunnel binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Brandmeldinstallatie in de tunnel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
@@ -1488,11 +1498,11 @@ otl:graaf-ib-natuur {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Correctief Onderhoud binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Correctief Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:conditienaonderhoud ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumtijdafgerond ],
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
-            [ sh:minCount 1 ;
-                sh:path otl:modificatieindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:naam ],
             [ sh:minCount 1 ;
@@ -1502,7 +1512,11 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:urgentie ],
             [ sh:minCount 1 ;
-                sh:path otl:vervangingsmomentindicator ] .
+                sh:path otl:vervangingsmomentindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Coupure a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Coupure binnen de context van informatieproduct Natuur"@nl ;
@@ -1548,8 +1562,6 @@ otl:graaf-ib-natuur {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dam binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Dam"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerder ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Damwand a sh:NodeShape ;
@@ -1744,28 +1756,10 @@ otl:graaf-ib-natuur {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:DigitaleAudioOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale audio-opslag binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Digitale audio-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:DigitaleBeeldOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale beeld-opslag binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Digitale beeld-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Dijk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dijk binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Dijk"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerder ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Dilatatievoeg a sh:NodeShape ;
@@ -1804,12 +1798,6 @@ otl:graaf-ib-natuur {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Doel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doel binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Doel"@nl ;
-        sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Doelvoorstellingsapparatuur a sh:NodeShape ;
@@ -2056,8 +2044,6 @@ otl:graaf-ib-natuur {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duingebied binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Duingebied"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerder ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Duinovergang a sh:NodeShape ;
@@ -2410,6 +2396,14 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
 
+    otl-patroon:FunctioneelTesten a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Functioneel Testen binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Functioneel Testen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:FunctioneleTest a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Functionele Test binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Functionele Test"@nl ;
@@ -2422,7 +2416,11 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:geplandeeinddatum ],
             [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
                 sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
@@ -2430,7 +2428,11 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:projectnaam ],
             [ sh:minCount 1 ;
-                sh:path otl:resultaat ] .
+                sh:path otl:resultaat ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Fundatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fundatie binnen de context van informatieproduct Natuur"@nl ;
@@ -2512,26 +2514,6 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Gebeurtenis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebeurtenis binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Gebeurtenis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:faseniveau ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:periode ] .
-
-    otl-patroon:Gebied a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebied binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Gebied"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Gebouwinstallaties a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebouwinstallaties binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Gebouwinstallaties"@nl ;
@@ -2544,23 +2526,21 @@ otl:graaf-ib-natuur {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebruiks Afhankelijk Onderhoud binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Gebruiks Afhankelijk Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:conditienaonderhoud ],
-            [ sh:minCount 1 ;
                 sh:path otl:minimumleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:typemeting ],
             [ sh:minCount 1 ;
-                sh:path otl:vervangingsinsterval ],
+                sh:path otl:vervangingsinsterval ] .
+
+    otl-patroon:Gebruiksgebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebruiksgebied binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Gebruiksgebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
             [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtetaakduur ],
-            [ sh:minCount 1 ;
-                sh:path otl:wettelijkverplichtindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Gedenksteen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gedenksteen binnen de context van informatieproduct Natuur"@nl ;
@@ -2675,14 +2655,6 @@ otl:graaf-ib-natuur {
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
-
-    otl-patroon:Geluidsbakens a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsbakens binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Geluidsbakens"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
 
     otl-patroon:Geluidsdemper a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsdemper binnen de context van informatieproduct Natuur"@nl ;
@@ -2924,14 +2896,6 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
 
-    otl-patroon:Groen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Groen binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Groen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Gronddepot a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gronddepot binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Gronddepot"@nl ;
@@ -2998,9 +2962,9 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
 
-    otl-patroon:Habitattype a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Habitattype binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Habitattype"@nl ;
+    otl-patroon:Habitat a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Habitat binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Habitat"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:habitattypecode ],
             [ sh:minCount 1 ;
@@ -3532,17 +3496,33 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:geplandeeinddatum ],
             [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
                 sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:programmeringsstatus ],
             [ sh:minCount 1 ;
-                sh:path otl:projectnaam ] .
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Inspectiewagen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Inspectiewagen binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Inspectiewagen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:InstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatie derden binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Installatie derden"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
@@ -3560,14 +3540,6 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
 
-    otl-patroon:InstallatiesDerden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installaties derden binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Installaties derden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:InstandhoudingBeheersmaatregel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instandhouding Beheersmaatregel binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Instandhouding Beheersmaatregel"@nl ;
@@ -3580,7 +3552,11 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:projectnaam ] .
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Instandhoudingsinspectie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instandhoudingsinspectie binnen de context van informatieproduct Natuur"@nl ;
@@ -3594,25 +3570,27 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:geplandeeinddatum ],
             [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
                 sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:programmeringsstatus ],
             [ sh:minCount 1 ;
-                sh:path otl:projectnaam ] .
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Instandhoudingsstrategie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instandhoudingsstrategie binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Instandhoudingsstrategie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:conditienaonderhoud ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtetaakduur ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Instroomopening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instroomopening binnen de context van informatieproduct Natuur"@nl ;
@@ -3650,14 +3628,6 @@ otl:graaf-ib-natuur {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Intercompost binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Intercompost"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Interieur a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Interieur binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Interieur"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Isolator a sh:NodeShape ;
@@ -3994,9 +3964,9 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
 
-    otl-patroon:Klanteisenspecificatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Klanteisenspecificatie binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Klanteisenspecificatie"@nl ;
+    otl-patroon:Klanteis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Klanteis binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Klanteis"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:hardheid ],
             [ sh:minCount 1 ;
@@ -4278,9 +4248,9 @@ otl:graaf-ib-natuur {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LaadpalenElektrischeVoertuigen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpalen elektrische voertuigen binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Laadpalen elektrische voertuigen"@nl ;
+    otl-patroon:LaadpaalElektrischeVoertuigen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpaal elektrische voertuigen binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Laadpaal elektrische voertuigen"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
@@ -4450,14 +4420,6 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LichtEnKrachtInstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Licht en Kracht Installaties binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Licht en Kracht Installaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Lichtgroepenkast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtgroepenkast binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Lichtgroepenkast"@nl ;
@@ -4487,14 +4449,6 @@ otl:graaf-ib-natuur {
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
-
-    otl-patroon:Lichtrooster a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtrooster binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Lichtrooster"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
 
     otl-patroon:Lichtstraat a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtstraat binnen de context van informatieproduct Natuur"@nl ;
@@ -4796,6 +4750,24 @@ otl:graaf-ib-natuur {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Modificatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Modificatie binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Modificatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumtijdafgerond ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdstart ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
+
     otl-patroon:Monitor a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Monitor binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Monitor"@nl ;
@@ -4812,9 +4784,33 @@ otl:graaf-ib-natuur {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Monitoring binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Monitoring"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:bevinding ],
+                sh:path otl:datumtijdafgerond ],
             [ sh:minCount 1 ;
-                sh:path otl:periodeuitgevoerd ] .
+                sh:path otl:datumtijdstart ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandebegindatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeeinddatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:periodeuitgevoerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:resultaat ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Monsternameapparaat a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Monsternameapparaat binnen de context van informatieproduct Natuur"@nl ;
@@ -4840,8 +4836,6 @@ otl:graaf-ib-natuur {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Natuurgebied binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Natuurgebied"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerder ],
-            [ sh:minCount 1 ;
                 sh:path otl:compensatiegebiedindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:effectniveau ],
@@ -4868,6 +4862,14 @@ otl:graaf-ib-natuur {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Net binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Net"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Netaansluiting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Netaansluiting binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Netaansluiting"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Nevengeul a sh:NodeShape ;
@@ -4942,6 +4944,34 @@ otl:graaf-ib-natuur {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Nulinspectie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nulinspectie binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Nulinspectie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumtijdafgerond ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdstart ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandebegindatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeeinddatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
+
     otl-patroon:ObjectBeheerRegime a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Object Beheer Regime binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Object Beheer Regime"@nl ;
@@ -4968,13 +4998,21 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:geplandeeinddatum ],
             [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
                 sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:programmeringsstatus ],
             [ sh:minCount 1 ;
-                sh:path otl:projectnaam ] .
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Obstakelbeveiliger a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Obstakelbeveiliger binnen de context van informatieproduct Natuur"@nl ;
@@ -5169,6 +5207,20 @@ otl:graaf-ib-natuur {
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
+
+    otl-patroon:OngewensteGebeurtenis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ongewenste Gebeurtenis binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Ongewenste Gebeurtenis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumtijdeind ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdstart ],
+            [ sh:minCount 1 ;
+                sh:path otl:faseniveau ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:periode ] .
 
     otl-patroon:Ontvangbed a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ontvangbed binnen de context van informatieproduct Natuur"@nl ;
@@ -5744,17 +5796,17 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
 
-    otl-patroon:PompEnVentilatieinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pomp- en ventilatieinstallaties binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Pomp- en ventilatieinstallaties"@nl ;
+    otl-patroon:Pompinstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Pompinstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Pompinstallatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Pompinstallatie"@nl ;
+    otl-patroon:Pompinstallaties a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallaties binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Pompinstallaties"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
@@ -5810,6 +5862,8 @@ otl:graaf-ib-natuur {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:afwijkinggeplanduitgevoerdindicator ],
             [ sh:minCount 1 ;
+                sh:path otl:conditienaonderhoud ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumtijdafgerond ],
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
@@ -5820,9 +5874,11 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:geplandeeinddatum ],
             [ sh:minCount 1 ;
-                sh:path otl:modificatieindicator ],
+                sh:path otl:minimumleeftijd ],
             [ sh:minCount 1 ;
                 sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
@@ -5830,7 +5886,11 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:projectnaam ],
             [ sh:minCount 1 ;
-                sh:path otl:vervangingsmomentindicator ] .
+                sh:path otl:vervangingsmomentindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Procesbassin a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Procesbassin binnen de context van informatieproduct Natuur"@nl ;
@@ -6240,14 +6300,6 @@ otl:graaf-ib-natuur {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:RolhekkenEnToegangsdeurenDienstgebouwen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolhekken en toegangsdeuren dienstgebouwen binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Rolhekken en toegangsdeuren dienstgebouwen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Rolluik a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolluik binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Rolluik"@nl ;
@@ -6580,13 +6632,21 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:geplandeeinddatum ],
             [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
                 sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:programmeringsstatus ],
             [ sh:minCount 1 ;
-                sh:path otl:projectnaam ] .
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Schraalgrasland a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schraalgrasland binnen de context van informatieproduct Natuur"@nl ;
@@ -6736,14 +6796,6 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
 
-    otl-patroon:SignaleringHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signalering HP en PB kasten binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Signalering HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Skatebaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Skatebaan binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Skatebaan"@nl ;
@@ -6874,16 +6926,6 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:SluitEnZinkvoegen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sluit- en zinkvoegen binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Sluit- en zinkvoegen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Smeedwerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Smeedwerk binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Smeedwerk"@nl ;
@@ -6980,6 +7022,12 @@ otl:graaf-ib-natuur {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Sportdoel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportdoel binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Sportdoel"@nl ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Sportgrasveld a sh:NodeShape ;
@@ -7138,6 +7186,8 @@ otl:graaf-ib-natuur {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Standaard Verzorgend Onderhoud binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Standaard Verzorgend Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:conditienaonderhoud ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumtijdafgerond ],
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
@@ -7148,9 +7198,11 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:geplandeeinddatum ],
             [ sh:minCount 1 ;
-                sh:path otl:modificatieindicator ],
+                sh:path otl:minimumleeftijd ],
             [ sh:minCount 1 ;
                 sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
@@ -7158,7 +7210,11 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:projectnaam ],
             [ sh:minCount 1 ;
-                sh:path otl:vervangingsmomentindicator ] .
+                sh:path otl:vervangingsmomentindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Stankscherm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stankscherm binnen de context van informatieproduct Natuur"@nl ;
@@ -7257,8 +7313,8 @@ otl:graaf-ib-natuur {
                 sh:path otl:type ] .
 
     otl-patroon:StorendeFactor a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storende factor binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Storende factor"@nl ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storende Factor binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Storende Factor"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:gevolg ],
             [ sh:minCount 1 ;
@@ -7270,20 +7326,6 @@ otl:graaf-ib-natuur {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storings Afhankelijk Onderhoud binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Storings Afhankelijk Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:conditienaonderhoud ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtetaakduur ] .
-
-    otl-patroon:Storingsmeldsysteem a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storingsmeldsysteem binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Storingsmeldsysteem"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Stormvloedkering a sh:NodeShape ;
@@ -7552,11 +7594,15 @@ otl:graaf-ib-natuur {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Tandwieloverbrenging"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:TandwieloverbrengingOpen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging open binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Tandwieloverbrenging open"@nl ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
@@ -7680,27 +7726,13 @@ otl:graaf-ib-natuur {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toestands Afhankelijk Onderhoud binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Toestands Afhankelijk Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:conditienaonderhoud ],
-            [ sh:minCount 1 ;
                 sh:path otl:detectiewaarschijnlijkheid ],
             [ sh:minCount 1 ;
                 sh:path otl:inspectieinterval ],
             [ sh:minCount 1 ;
                 sh:path otl:minimumleeftijd ],
             [ sh:minCount 1 ;
-                sh:path otl:offset ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:pfCurve ],
-            [ sh:minCount 1 ;
-                sh:path otl:pfInterval ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtetaakduur ],
-            [ sh:minCount 1 ;
-                sh:path otl:wettelijkverplichtindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Toestandsinspectie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toestandsinspectie binnen de context van informatieproduct Natuur"@nl ;
@@ -7716,15 +7748,21 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:geplandeeinddatum ],
             [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
                 sh:path otl:naam ],
             [ sh:minCount 1 ;
-                sh:path otl:nulinspectieindicator ],
+                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:programmeringsstatus ],
             [ sh:minCount 1 ;
-                sh:path otl:projectnaam ] .
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Toilet a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toilet binnen de context van informatieproduct Natuur"@nl ;
@@ -7954,14 +7992,6 @@ otl:graaf-ib-natuur {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:TussenRelaisInterfaceStations a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussen relais - interface stations binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Tussen relais - interface stations"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Tussenlaag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussenlaag binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Tussenlaag"@nl ;
@@ -7978,8 +8008,6 @@ otl:graaf-ib-natuur {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uiterwaard binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Uiterwaard"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerder ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Uithouder a sh:NodeShape ;
@@ -8020,14 +8048,6 @@ otl:graaf-ib-natuur {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uitstroomopening binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Uitstroomopening"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:UnDetectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type UN-detectie binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "UN-detectie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Urinoir a sh:NodeShape ;
@@ -8081,14 +8101,6 @@ otl:graaf-ib-natuur {
     otl-patroon:Vangconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vangconstructie binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Vangconstructie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VeiligheidsPlc a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheids PLC binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Veiligheids PLC"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
@@ -8300,14 +8312,6 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VerkeersgeleidingEnEvacuatieverlichting a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleiding- en evacuatieverlichting binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Verkeersgeleiding- en evacuatieverlichting"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Verkeersgeleidingsverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleidingsverlichting binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Verkeersgeleidingsverlichting"@nl ;
@@ -8330,9 +8334,9 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Verlichtingsinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichtingsinstallaties binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Verlichtingsinstallaties"@nl ;
+    otl-patroon:Verlichting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichting binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Verlichting"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
@@ -8410,8 +8414,6 @@ otl:graaf-ib-natuur {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verzorgingsplaats binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Verzorgingsplaats"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerder ],
-            [ sh:minCount 1 ;
                 sh:path otl:bodemsaneringslocatieindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -8588,34 +8590,10 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VluchtweginstallatieVerlichtingEnVasteBorden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtweginstallatie- verlichting en vaste borden binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Vluchtweginstallatie- verlichting en vaste borden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Vluchtwegverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtwegverlichting binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Vluchtwegverlichting"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingenHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingen HP en PB kasten binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Voedingen HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingsinstallatieOnder50V a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingsinstallatie onder 50V binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Voedingsinstallatie onder 50V"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Voegconstructie a sh:NodeShape ;
@@ -8716,14 +8694,6 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VorstbeveiligingEnVerwarming a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vorstbeveiliging en verwarming binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Vorstbeveiliging en verwarming"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Vuilvangrooster a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vuilvangrooster binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Vuilvangrooster"@nl ;
@@ -8748,7 +8718,7 @@ otl:graaf-ib-natuur {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bron ],
             [ sh:minCount 1 ;
-                sh:path otl:datumtijd ],
+                sh:path otl:datumtijdgeconstateerd ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -8886,9 +8856,13 @@ otl:graaf-ib-natuur {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
                 sh:path otl:type ] .
+
+    otl-patroon:WaterplantOndergedoken a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant ondergedoken binnen de context van informatieproduct Natuur"@nl ;
+        sh:name "Waterplant ondergedoken"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Waterreguleringswerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterreguleringswerk binnen de context van informatieproduct Natuur"@nl ;
@@ -8920,8 +8894,6 @@ otl:graaf-ib-natuur {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Weg binnen de context van informatieproduct Natuur"@nl ;
         sh:name "Weg"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerder ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Wegkantsysteem a sh:NodeShape ;
@@ -8967,14 +8939,6 @@ otl:graaf-ib-natuur {
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Werkorder a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Werkorder binnen de context van informatieproduct Natuur"@nl ;
-        sh:name "Werkorder"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:type ],
-            [ sh:minCount 1 ;
-                sh:path otl:vakgroep ] .
 
     otl-patroon:Werpaccommodatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Werpaccommodatie binnen de context van informatieproduct Natuur"@nl ;
@@ -9239,11 +9203,11 @@ otl:graaf-ib-natuur {
                 sh:path otl:omschrijving ] .
 
     otl:graaf-ib-natuur a owl:Ontology ;
-        dct:created "2023-02-01"^^xsd:date ;
+        dct:created "2023-04-04"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Natuur' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Natuur'"@nl ;
-        pav:currentVersion otl:graaf-ib-natuur-3.1.20 ;
-        pav:derivedFrom "IBRWS Release 20" ;
+        pav:currentVersion otl:graaf-ib-natuur-3.1.21 ;
+        pav:derivedFrom "IB RWS release 21" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

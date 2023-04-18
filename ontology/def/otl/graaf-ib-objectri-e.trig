@@ -590,6 +590,12 @@ otl:graaf-ib-objectri-e {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:BesturingsinstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie derden binnen de context van informatieproduct Object RI&E"@nl ;
+        sh:name "Besturingsinstallatie derden"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Betonverharding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Betonverharding binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Betonverharding"@nl ;
@@ -811,12 +817,6 @@ otl:graaf-ib-objectri-e {
     otl-patroon:BrandmeldEnOntruimingsinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeld- en ontruimingsinstallatie binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Brandmeld- en ontruimingsinstallatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:BrandmeldinstallatieInDeTunnel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeldinstallatie in de tunnel binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Brandmeldinstallatie in de tunnel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1206,18 +1206,6 @@ otl:graaf-ib-objectri-e {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:DigitaleAudioOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale audio-opslag binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Digitale audio-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:DigitaleBeeldOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale beeld-opslag binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Digitale beeld-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Dijk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dijk binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Dijk"@nl ;
@@ -1253,12 +1241,6 @@ otl:graaf-ib-objectri-e {
     otl-patroon:DiverseInstallaties a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Diverse installaties binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Diverse installaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Doel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doel binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Doel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1808,12 +1790,6 @@ otl:graaf-ib-objectri-e {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Geluidsbakens a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsbakens binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Geluidsbakens"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Geluidsdemper a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsdemper binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Geluidsdemper"@nl ;
@@ -1975,12 +1951,6 @@ otl:graaf-ib-objectri-e {
     otl-patroon:Grindkoffer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grindkoffer binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Grindkoffer"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Groen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Groen binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Groen"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -2424,15 +2394,15 @@ otl:graaf-ib-objectri-e {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Installatiekabel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatiekabel binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Installatiekabel"@nl ;
+    otl-patroon:InstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatie derden binnen de context van informatieproduct Object RI&E"@nl ;
+        sh:name "Installatie derden"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:InstallatiesDerden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installaties derden binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Installaties derden"@nl ;
+    otl-patroon:Installatiekabel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatiekabel binnen de context van informatieproduct Object RI&E"@nl ;
+        sh:name "Installatiekabel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -2465,12 +2435,6 @@ otl:graaf-ib-objectri-e {
     otl-patroon:Intercompost a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Intercompost binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Intercompost"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Interieur a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Interieur binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Interieur"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -2910,9 +2874,9 @@ otl:graaf-ib-objectri-e {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LaadpalenElektrischeVoertuigen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpalen elektrische voertuigen binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Laadpalen elektrische voertuigen"@nl ;
+    otl-patroon:LaadpaalElektrischeVoertuigen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpaal elektrische voertuigen binnen de context van informatieproduct Object RI&E"@nl ;
+        sh:name "Laadpaal elektrische voertuigen"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3030,12 +2994,6 @@ otl:graaf-ib-objectri-e {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LichtEnKrachtInstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Licht en Kracht Installaties binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Licht en Kracht Installaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Lichtgroepenkast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtgroepenkast binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Lichtgroepenkast"@nl ;
@@ -3051,12 +3009,6 @@ otl:graaf-ib-objectri-e {
     otl-patroon:Lichtopstand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtopstand binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Lichtopstand"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Lichtrooster a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtrooster binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Lichtrooster"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3337,6 +3289,12 @@ otl:graaf-ib-objectri-e {
     otl-patroon:Net a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Net binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Net"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Netaansluiting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Netaansluiting binnen de context van informatieproduct Object RI&E"@nl ;
+        sh:name "Netaansluiting"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3916,15 +3874,15 @@ otl:graaf-ib-objectri-e {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:PompEnVentilatieinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pomp- en ventilatieinstallaties binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Pomp- en ventilatieinstallaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Pompinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Pompinstallatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Pompinstallaties a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallaties binnen de context van informatieproduct Object RI&E"@nl ;
+        sh:name "Pompinstallaties"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4216,12 +4174,6 @@ otl:graaf-ib-objectri-e {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Rol a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rol binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Rol"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
     otl-patroon:Rolbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolbaan binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Rolbaan"@nl ;
@@ -4237,12 +4189,6 @@ otl:graaf-ib-objectri-e {
     otl-patroon:Rolgordijn a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolgordijn binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Rolgordijn"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:RolhekkenEnToegangsdeurenDienstgebouwen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolhekken en toegangsdeuren dienstgebouwen binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Rolhekken en toegangsdeuren dienstgebouwen"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4568,12 +4514,6 @@ otl:graaf-ib-objectri-e {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:SignaleringHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signalering HP en PB kasten binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Signalering HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Skatebaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Skatebaan binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Skatebaan"@nl ;
@@ -4664,12 +4604,6 @@ otl:graaf-ib-objectri-e {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:SluitEnZinkvoegen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sluit- en zinkvoegen binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Sluit- en zinkvoegen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Smeedwerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Smeedwerk binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Smeedwerk"@nl ;
@@ -4735,6 +4669,12 @@ otl:graaf-ib-objectri-e {
     otl-patroon:Sportattribuut a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportattribuut binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Sportattribuut"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Sportdoel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportdoel binnen de context van informatieproduct Object RI&E"@nl ;
+        sh:name "Sportdoel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4869,12 +4809,6 @@ otl:graaf-ib-objectri-e {
     otl-patroon:Stootkussen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stootkussen binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Stootkussen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Storingsmeldsysteem a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storingsmeldsysteem binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Storingsmeldsysteem"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5066,8 +5000,12 @@ otl:graaf-ib-objectri-e {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Tandwieloverbrenging"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:TandwieloverbrengingOpen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging open binnen de context van informatieproduct Object RI&E"@nl ;
+        sh:name "Tandwieloverbrenging open"@nl ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Tank a sh:NodeShape ;
@@ -5338,12 +5276,6 @@ otl:graaf-ib-objectri-e {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:TussenRelaisInterfaceStations a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussen relais - interface stations binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Tussen relais - interface stations"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Tussenlaag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussenlaag binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Tussenlaag"@nl ;
@@ -5385,12 +5317,6 @@ otl:graaf-ib-objectri-e {
     otl-patroon:Uitstroomopening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uitstroomopening binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Uitstroomopening"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:UnDetectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type UN-detectie binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "UN-detectie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5458,7 +5384,7 @@ otl:graaf-ib-objectri-e {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:blootstelling ],
             [ sh:minCount 1 ;
-                sh:path otl:datumtijd ],
+                sh:path otl:datumtijdgeregistreerd ],
             [ sh:minCount 1 ;
                 sh:path otl:effect ],
             [ sh:minCount 1 ;
@@ -5467,6 +5393,8 @@ otl:graaf-ib-objectri-e {
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:risicobron ],
+            [ sh:minCount 1 ;
+                sh:path otl:risiconiveau ],
             [ sh:minCount 1 ;
                 sh:path otl:risicosoort ],
             [ sh:minCount 1 ;
@@ -5477,12 +5405,6 @@ otl:graaf-ib-objectri-e {
     otl-patroon:VeiligheidRisicoOorzaak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheid Risico-oorzaak binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Veiligheid Risico-oorzaak"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VeiligheidsPlc a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheids PLC binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Veiligheids PLC"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5626,12 +5548,6 @@ otl:graaf-ib-objectri-e {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VerkeersgeleidingEnEvacuatieverlichting a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleiding- en evacuatieverlichting binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Verkeersgeleiding- en evacuatieverlichting"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Verkeersgeleidingsverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleidingsverlichting binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Verkeersgeleidingsverlichting"@nl ;
@@ -5658,9 +5574,9 @@ otl:graaf-ib-objectri-e {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Verlichtingsinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichtingsinstallaties binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Verlichtingsinstallaties"@nl ;
+    otl-patroon:Verlichting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichting binnen de context van informatieproduct Object RI&E"@nl ;
+        sh:name "Verlichting"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5842,27 +5758,9 @@ otl:graaf-ib-objectri-e {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VluchtweginstallatieVerlichtingEnVasteBorden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtweginstallatie- verlichting en vaste borden binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Vluchtweginstallatie- verlichting en vaste borden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Vluchtwegverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtwegverlichting binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Vluchtwegverlichting"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingenHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingen HP en PB kasten binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Voedingen HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingsinstallatieOnder50V a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingsinstallatie onder 50V binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Voedingsinstallatie onder 50V"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5929,12 +5827,6 @@ otl:graaf-ib-objectri-e {
     otl-patroon:VoorzieningenHulpdiensten a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voorzieningen hulpdiensten binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Voorzieningen hulpdiensten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VorstbeveiligingEnVerwarming a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vorstbeveiliging en verwarming binnen de context van informatieproduct Object RI&E"@nl ;
-        sh:name "Vorstbeveiliging en verwarming"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -6056,8 +5948,12 @@ otl:graaf-ib-objectri-e {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant binnen de context van informatieproduct Object RI&E"@nl ;
         sh:name "Waterplant"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:WaterplantOndergedoken a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant ondergedoken binnen de context van informatieproduct Object RI&E"@nl ;
+        sh:name "Waterplant ondergedoken"@nl ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Waterreguleringswerk a sh:NodeShape ;
@@ -6337,11 +6233,11 @@ otl:graaf-ib-objectri-e {
                 sh:path otl:omschrijving ] .
 
     otl:graaf-ib-objectri-e a owl:Ontology ;
-        dct:created "2023-02-01"^^xsd:date ;
+        dct:created "2023-04-04"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Object RI&E' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Object RI&E'"@nl ;
-        pav:currentVersion otl:graaf-ib-objectri-e-3.1.20 ;
-        pav:derivedFrom "IBRWS Release 20" ;
+        pav:currentVersion otl:graaf-ib-objectri-e-3.1.21 ;
+        pav:derivedFrom "IB RWS release 21" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

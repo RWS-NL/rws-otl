@@ -1004,21 +1004,105 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:BerekendePrestatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende Prestatie binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Berekende Prestatie"@nl ;
+    otl-patroon:BerekendeFaalfrequentie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende Faalfrequentie binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Berekende Faalfrequentie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:aantalkeervgmeffect ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitgevoerd ],
             [ sh:minCount 1 ;
-                sh:path otl:frequentie ],
+                sh:path otl:naam ],
             [ sh:minCount 1 ;
-                sh:path otl:instandhoudingskosten ],
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeKosten a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende Kosten binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Berekende Kosten"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitgevoerd ],
             [ sh:minCount 1 ;
-                sh:path otl:onvoorzienenietbeschikbaarheid ],
+                sh:path otl:naam ],
             [ sh:minCount 1 ;
-                sh:path otl:voorzienenietbeschikbaarheid ] .
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeOnvoorzienenietbeschikbaarheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende OnvoorzieneNietBeschikbaarheid binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Berekende OnvoorzieneNietBeschikbaarheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVgmEffect1 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VGM Effect 1 binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Berekende VGM Effect 1"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVgmEffect2 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VGM Effect 2 binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Berekende VGM Effect 2"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVgmEffect3 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VGM Effect 3 binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Berekende VGM Effect 3"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVgmEffect4 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VGM Effect 4 binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Berekende VGM Effect 4"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVgmEffect5 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VGM Effect 5 binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Berekende VGM Effect 5"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVgmEffect6 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VGM Effect 6 binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Berekende VGM Effect 6"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BerekendeVoorzienenietbeschikbaarheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VoorzieneNietBeschikbaarheid binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Berekende VoorzieneNietBeschikbaarheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitgevoerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
 
     otl-patroon:Bergbezinkbassin a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bergbezinkbassin binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
@@ -1093,6 +1177,18 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
     otl-patroon:Besturingsinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Besturingsinstallatie"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:bouwdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:BesturingsinstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie derden binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Besturingsinstallatie derden"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
@@ -1530,18 +1626,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:BrandmeldinstallatieInDeTunnel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeldinstallatie in de tunnel binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Brandmeldinstallatie in de tunnel"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Brandslang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandslang binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Brandslang"@nl ;
@@ -1968,17 +2052,23 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Correctief Onderhoud binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Correctief Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:conditienaonderhoud ],
+            [ sh:minCount 1 ;
+                sh:path otl:conditiereductiefactor ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumtijdafgerond ],
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
-                sh:path otl:modificatieindicator ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:urgentie ],
             [ sh:minCount 1 ;
                 sh:path otl:vervangingsmomentindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ] .
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ] .
 
     otl-patroon:Coupure a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Coupure binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
@@ -2262,30 +2352,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:DigitaleAudioOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale audio-opslag binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Digitale audio-opslag"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:DigitaleBeeldOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale beeld-opslag binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Digitale beeld-opslag"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Dijk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dijk binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Dijk"@nl ;
@@ -2339,16 +2405,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Doel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doel binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Doel"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -2900,17 +2956,23 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:waarde ] .
 
+    otl-patroon:FaalfrequentieEis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faalfrequentie Eis binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Faalfrequentie Eis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
+
     otl-patroon:Faalgevolg a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faalgevolg binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Faalgevolg"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:naam ],
             [ sh:minCount 1 ;
-                sh:path otl:percentagefunctieverlies ],
-            [ sh:minCount 1 ;
-                sh:path otl:tunnelfaaldefinitie ],
-            [ sh:minCount 1 ;
-                sh:path otl:vgmEffect ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Faaloorzaak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faaloorzaak binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
@@ -3162,19 +3224,11 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Functioneel Testen binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Functioneel Testen"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:conditienaonderhoud ],
-            [ sh:minCount 1 ;
                 sh:path otl:minimumleeftijd ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:testinterval ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtetaakduur ],
-            [ sh:minCount 1 ;
-                sh:path otl:wettelijkverplichtindicator ] .
+                sh:path otl:testinterval ] .
 
     otl-patroon:FunctioneleInspectieEnTesten a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Functionele Inspectie en Testen binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
@@ -3186,11 +3240,17 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:uiterstjaarvanuitvoering ],
             [ sh:minCount 1 ;
                 sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ],
             [ sh:minCount 1 ;
                 sh:path otl:wettelijkverplichtindicator ] .
 
@@ -3204,6 +3264,10 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:resultaat ],
@@ -3211,6 +3275,8 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
                 sh:path otl:uiterstjaarvanuitvoering ],
             [ sh:minCount 1 ;
                 sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ],
             [ sh:minCount 1 ;
                 sh:path otl:wettelijkverplichtindicator ] .
 
@@ -3336,23 +3402,13 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebruiks Afhankelijk Onderhoud binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Gebruiks Afhankelijk Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:conditienaonderhoud ],
-            [ sh:minCount 1 ;
                 sh:path otl:minimumleeftijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:typemeting ],
             [ sh:minCount 1 ;
-                sh:path otl:vervangingsinsterval ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtetaakduur ],
-            [ sh:minCount 1 ;
-                sh:path otl:wettelijkverplichtindicator ] .
+                sh:path otl:vervangingsinsterval ] .
 
     otl-patroon:Gedenksteen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gedenksteen binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
@@ -3492,18 +3548,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Geluidsbakens a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsbakens binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Geluidsbakens"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Geluidsdemper a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsdemper binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Geluidsdemper"@nl ;
@@ -3555,14 +3599,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Geometrie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geometrie binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Geometrie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:rdWaarde ],
-            [ sh:minCount 1 ;
-                sh:path otl:type ] .
 
     otl-patroon:Geotextiel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geotextiel binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
@@ -3825,18 +3861,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
     otl-patroon:Grindkoffer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grindkoffer binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Grindkoffer"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Groen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Groen binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Groen"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
@@ -4662,9 +4686,9 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Installatiekabel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatiekabel binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Installatiekabel"@nl ;
+    otl-patroon:InstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatie derden binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Installatie derden"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
@@ -4674,9 +4698,9 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:InstallatiesDerden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installaties derden binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Installaties derden"@nl ;
+    otl-patroon:Installatiekabel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatiekabel binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Installatiekabel"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
@@ -4696,11 +4720,17 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 0 ;
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 0 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 0 ;
+                sh:path otl:offset ],
+            [ sh:minCount 0 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 0 ;
                 sh:path otl:uiterstjaarvanuitvoering ],
             [ sh:minCount 0 ;
                 sh:path otl:verwachtekosten ],
+            [ sh:minCount 0 ;
+                sh:path otl:verwachtetaakduur ],
             [ sh:minCount 0 ;
                 sh:path otl:wettelijkverplichtindicator ] .
 
@@ -4749,26 +4779,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Interieur a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Interieur binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Interieur"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Inzet a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Inzet binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Inzet"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:aantal ],
-            [ sh:minCount 0 ;
-                sh:path otl:tijdactief ] .
 
     otl-patroon:Isolator a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Isolator binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
@@ -5598,9 +5608,9 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LaadpalenElektrischeVoertuigen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpalen elektrische voertuigen binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Laadpalen elektrische voertuigen"@nl ;
+    otl-patroon:LaadpaalElektrischeVoertuigen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpaal elektrische voertuigen binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Laadpaal elektrische voertuigen"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
@@ -5826,18 +5836,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LichtEnKrachtInstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Licht en Kracht Installaties binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Licht en Kracht Installaties"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Lichtgroepenkast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtgroepenkast binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Lichtgroepenkast"@nl ;
@@ -5863,18 +5861,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
     otl-patroon:Lichtopstand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtopstand binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Lichtopstand"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Lichtrooster a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtrooster binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Lichtrooster"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
@@ -6126,11 +6112,15 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
         sh:property [ sh:minCount 0 ;
                 sh:path otl:aanrijtijdcorrectief ],
             [ sh:minCount 0 ;
-                sh:path otl:kosten ],
+                sh:path otl:aantal ],
             [ sh:minCount 0 ;
                 sh:path otl:naam ],
             [ sh:minCount 0 ;
                 sh:path otl:omschrijving ],
+            [ sh:minCount 0 ;
+                sh:path otl:tarief ],
+            [ sh:minCount 0 ;
+                sh:path otl:tijdactief ],
             [ sh:minCount 0 ;
                 sh:path otl:voorrijkostencorrectief ],
             [ sh:minCount 0 ;
@@ -6288,6 +6278,20 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Modificatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Modificatie binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Modificatie"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumtijdafgerond ],
+            [ sh:minCount 0 ;
+                sh:path otl:datumtijdstart ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 0 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 0 ;
+                sh:path otl:verwachtetaakduur ] .
+
     otl-patroon:Monitor a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Monitor binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Monitor"@nl ;
@@ -6352,6 +6356,18 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Netaansluiting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Netaansluiting binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Netaansluiting"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:bouwdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Nevengeul a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nevengeul binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Nevengeul"@nl ;
@@ -6371,20 +6387,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:NonConformiteit a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Non Conformiteit binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Non Conformiteit"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijddefinitiefherstel ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdfunctioneelherstel ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdgemeld ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdopgetreden ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -6736,6 +6738,12 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:OngewensteGebeurtenis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ongewenste Gebeurtenis binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Ongewenste Gebeurtenis"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Ontvangbed a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ontvangbed binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Ontvangbed"@nl ;
@@ -6779,6 +6787,16 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
+
+    otl-patroon:OnvoorzienenietbeschikbaarheidEis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type OnvoorzieneNietBeschikbaarheid Eis binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "OnvoorzieneNietBeschikbaarheid Eis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
 
     otl-patroon:OpEnAfrit a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Op- en afrit binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
@@ -7288,11 +7306,15 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
         sh:property [ sh:minCount 0 ;
                 sh:path otl:aanrijtijdcorrectief ],
             [ sh:minCount 0 ;
-                sh:path otl:kosten ],
+                sh:path otl:aantal ],
             [ sh:minCount 0 ;
                 sh:path otl:naam ],
             [ sh:minCount 0 ;
                 sh:path otl:omschrijving ],
+            [ sh:minCount 0 ;
+                sh:path otl:tarief ],
+            [ sh:minCount 0 ;
+                sh:path otl:tijdactief ],
             [ sh:minCount 0 ;
                 sh:path otl:voorrijkostencorrectief ],
             [ sh:minCount 0 ;
@@ -7462,9 +7484,9 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
 
-    otl-patroon:PompEnVentilatieinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pomp- en ventilatieinstallaties binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Pomp- en ventilatieinstallaties"@nl ;
+    otl-patroon:Pompinstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Pompinstallatie"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
@@ -7474,9 +7496,9 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Pompinstallatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Pompinstallatie"@nl ;
+    otl-patroon:Pompinstallaties a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallaties binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Pompinstallaties"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
@@ -7546,20 +7568,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:PrestatieEis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Prestatie Eis binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Prestatie Eis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:frequentie ],
-            [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:onvoorzienenietbeschikbaarheid ],
-            [ sh:minCount 1 ;
-                sh:path otl:voorzienenietbeschikbaarheid ] .
-
     otl-patroon:PreventiefOnderhoud a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Preventief Onderhoud binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Preventief Onderhoud"@nl ;
@@ -7568,13 +7576,19 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:afwijkinggeplanduitgevoerdindicator ],
             [ sh:minCount 1 ;
+                sh:path otl:conditienaonderhoud ],
+            [ sh:minCount 1 ;
+                sh:path otl:conditiereductiefactor ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumtijdafgerond ],
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
                 sh:path otl:eenopeenvervangingindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:modificatieindicator ],
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
@@ -7583,6 +7597,8 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
                 sh:path otl:vervangingsmomentindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ],
             [ sh:minCount 1 ;
                 sh:path otl:wettelijkverplichtindicator ] .
 
@@ -7964,7 +7980,7 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reservedeel binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Reservedeel"@nl ;
         sh:property [ sh:minCount 0 ;
-                sh:path otl:aanrijtijdcorrectief ],
+                sh:path otl:aantal ],
             [ sh:minCount 0 ;
                 sh:path otl:kosten ],
             [ sh:minCount 0 ;
@@ -7972,11 +7988,7 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 0 ;
                 sh:path otl:naam ],
             [ sh:minCount 0 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 0 ;
-                sh:path otl:voorrijkostencorrectief ],
-            [ sh:minCount 0 ;
-                sh:path otl:voorrijkostenpreventief ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Riem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Riem binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
@@ -8097,18 +8109,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:RolhekkenEnToegangsdeurenDienstgebouwen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolhekken en toegangsdeuren dienstgebouwen binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Rolhekken en toegangsdeuren dienstgebouwen"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -8546,11 +8546,17 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 0 ;
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 0 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 0 ;
+                sh:path otl:offset ],
+            [ sh:minCount 0 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 0 ;
                 sh:path otl:uiterstjaarvanuitvoering ],
             [ sh:minCount 0 ;
                 sh:path otl:verwachtekosten ],
+            [ sh:minCount 0 ;
+                sh:path otl:verwachtetaakduur ],
             [ sh:minCount 0 ;
                 sh:path otl:wettelijkverplichtindicator ] .
 
@@ -8756,18 +8762,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:SignaleringHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signalering HP en PB kasten binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Signalering HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Skatebaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Skatebaan binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Skatebaan"@nl ;
@@ -8950,20 +8944,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:SluitEnZinkvoegen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sluit- en zinkvoegen binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Sluit- en zinkvoegen"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Smeedwerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Smeedwerk binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Smeedwerk"@nl ;
@@ -9067,6 +9047,16 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Sportdoel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportdoel binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Sportdoel"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:bouwdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -9216,13 +9206,19 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:adviesjaarvanuitvoering ],
             [ sh:minCount 1 ;
+                sh:path otl:conditienaonderhoud ],
+            [ sh:minCount 1 ;
+                sh:path otl:conditiereductiefactor ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumtijdafgerond ],
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
                 sh:path otl:eenopeenvervangingindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:modificatieindicator ],
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 1 ;
+                sh:path otl:offset ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
@@ -9231,6 +9227,8 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
                 sh:path otl:vervangingsmomentindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtetaakduur ],
             [ sh:minCount 1 ;
                 sh:path otl:wettelijkverplichtindicator ] .
 
@@ -9376,24 +9374,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storings Afhankelijk Onderhoud binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Storings Afhankelijk Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:conditienaonderhoud ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtetaakduur ] .
-
-    otl-patroon:Storingsmeldsysteem a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storingsmeldsysteem binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Storingsmeldsysteem"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Storingsvoorspellendegrootheid a sh:NodeShape ;
@@ -9401,6 +9381,10 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
         sh:name "StoringsVoorspellendeGrootheid"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:pfCurve ],
+            [ sh:minCount 1 ;
+                sh:path otl:pfInterval ],
             [ sh:minCount 1 ;
                 sh:path otl:trigger ] .
 
@@ -9759,16 +9743,20 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
         sh:name "Tandwieloverbrenging"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
-            [ sh:minCount 0 ;
+            [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:TandwieloverbrengingOpen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging open binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Tandwieloverbrenging open"@nl ;
+        sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
                 sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -9942,27 +9930,13 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toestands Afhankelijk Onderhoud binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Toestands Afhankelijk Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:conditienaonderhoud ],
-            [ sh:minCount 1 ;
                 sh:path otl:detectiewaarschijnlijkheid ],
             [ sh:minCount 1 ;
                 sh:path otl:inspectieinterval ],
             [ sh:minCount 1 ;
                 sh:path otl:minimumleeftijd ],
             [ sh:minCount 1 ;
-                sh:path otl:offset ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:pfCurve ],
-            [ sh:minCount 1 ;
-                sh:path otl:pfInterval ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtetaakduur ],
-            [ sh:minCount 1 ;
-                sh:path otl:wettelijkverplichtindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Toestandsinspectie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toestandsinspectie binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
@@ -9974,11 +9948,17 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 0 ;
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 0 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 0 ;
+                sh:path otl:offset ],
+            [ sh:minCount 0 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 0 ;
                 sh:path otl:uiterstjaarvanuitvoering ],
             [ sh:minCount 0 ;
                 sh:path otl:verwachtekosten ],
+            [ sh:minCount 0 ;
+                sh:path otl:verwachtetaakduur ],
             [ sh:minCount 0 ;
                 sh:path otl:wettelijkverplichtindicator ] .
 
@@ -10302,18 +10282,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:TussenRelaisInterfaceStations a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussen relais - interface stations binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Tussen relais - interface stations"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Tussenlaag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussenlaag binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Tussenlaag"@nl ;
@@ -10389,18 +10357,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:UnDetectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type UN-detectie binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "UN-detectie"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -10495,18 +10451,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
                 sh:path otl:gevaarafwending ],
             [ sh:minCount 0 ;
                 sh:path otl:waarschijnlijkheid ] .
-
-    otl-patroon:VeiligheidsPlc a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheids PLC binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Veiligheids PLC"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
 
     otl-patroon:Veiligheidsventiel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheidsventiel binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
@@ -10806,18 +10750,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VerkeersgeleidingEnEvacuatieverlichting a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleiding- en evacuatieverlichting binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Verkeersgeleiding- en evacuatieverlichting"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Verkeersgeleidingsverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleidingsverlichting binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Verkeersgeleidingsverlichting"@nl ;
@@ -10852,9 +10784,9 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Verlichtingsinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichtingsinstallaties binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Verlichtingsinstallaties"@nl ;
+    otl-patroon:Verlichting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichting binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Verlichting"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
@@ -11194,18 +11126,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VluchtweginstallatieVerlichtingEnVasteBorden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtweginstallatie- verlichting en vaste borden binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Vluchtweginstallatie- verlichting en vaste borden"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Vluchtwegverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtwegverlichting binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Vluchtwegverlichting"@nl ;
@@ -11213,30 +11133,6 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingenHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingen HP en PB kasten binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Voedingen HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingsinstallatieOnder50V a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingsinstallatie onder 50V binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Voedingsinstallatie onder 50V"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -11358,21 +11254,19 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:VoorzienenietbeschikbaarheidEis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VoorzieneNietBeschikbaarheid Eis binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "VoorzieneNietBeschikbaarheid Eis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
+
     otl-patroon:VoorzieningenHulpdiensten a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voorzieningen hulpdiensten binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
         sh:name "Voorzieningen hulpdiensten"@nl ;
-        sh:property [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VorstbeveiligingEnVerwarming a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vorstbeveiliging en verwarming binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
-        sh:name "Vorstbeveiliging en verwarming"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
@@ -11410,7 +11304,7 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:advies ],
             [ sh:minCount 1 ;
-                sh:path otl:datumtijd ],
+                sh:path otl:datumtijdgeconstateerd ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -11603,16 +11497,20 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
         sh:name "Waterplant"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bouwdatum ],
-            [ sh:minCount 0 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:WaterplantOndergedoken a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant ondergedoken binnen de context van informatieproduct Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)"@nl ;
+        sh:name "Waterplant ondergedoken"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:bouwdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -12099,11 +11997,11 @@ otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp {
                 sh:path otl:omschrijving ] .
 
     otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp a owl:Ontology ;
-        dct:created "2023-02-01"^^xsd:date ;
+        dct:created "2023-04-04"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Prestatiegestuurd-InstandsHoudingsPlan (p-IHP)'"@nl ;
-        pav:currentVersion otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp-3.1.20 ;
-        pav:derivedFrom "IBRWS Release 20" ;
+        pav:currentVersion otl:graaf-ib-prestatiegestuurdinstandshoudingsplan-p-ihp-3.1.21 ;
+        pav:derivedFrom "IB RWS release 21" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

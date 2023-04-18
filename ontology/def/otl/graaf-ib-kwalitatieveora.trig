@@ -434,6 +434,8 @@ otl:graaf-ib-kwalitatieveora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Asset Risico binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Asset Risico"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:risiconiveau ],
+            [ sh:minCount 1 ;
                 sh:path otl:toelichting ] .
 
     otl-patroon:Atletiekbaan a sh:NodeShape ;
@@ -764,6 +766,14 @@ otl:graaf-ib-kwalitatieveora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:BesturingsinstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie derden binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
+        sh:name "Besturingsinstallatie derden"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Betonverharding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Betonverharding binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Betonverharding"@nl ;
@@ -1062,14 +1072,6 @@ otl:graaf-ib-kwalitatieveora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:BrandmeldinstallatieInDeTunnel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeldinstallatie in de tunnel binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Brandmeldinstallatie in de tunnel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Brandslang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandslang binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Brandslang"@nl ;
@@ -1358,8 +1360,6 @@ otl:graaf-ib-kwalitatieveora {
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
-                sh:path otl:modificatieindicator ],
-            [ sh:minCount 1 ;
                 sh:path otl:naam ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
@@ -1560,22 +1560,6 @@ otl:graaf-ib-kwalitatieveora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:DigitaleAudioOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale audio-opslag binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Digitale audio-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:DigitaleBeeldOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale beeld-opslag binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Digitale beeld-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Dijk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dijk binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Dijk"@nl ;
@@ -1613,14 +1597,6 @@ otl:graaf-ib-kwalitatieveora {
     otl-patroon:DiverseInstallaties a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Diverse installaties binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Diverse installaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Doel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doel binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Doel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -2022,23 +1998,25 @@ otl:graaf-ib-kwalitatieveora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faalgevolg binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Faalgevolg"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beschikbaarheid ],
+                sh:path otl:beschikbaarheidsscore ],
             [ sh:minCount 1 ;
-                sh:path otl:gezondheid ],
+                sh:path otl:gezondheidsscore ],
             [ sh:minCount 1 ;
-                sh:path otl:imago ],
+                sh:path otl:imagoscore ],
             [ sh:minCount 1 ;
-                sh:path otl:kosten ],
+                sh:path otl:kostenscore ],
             [ sh:minCount 1 ;
-                sh:path otl:omgevingmilieu ],
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omgevingmilieuscore ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:onderhoudbaarheid ],
+                sh:path otl:onderhoudbaarheidsscore ],
             [ sh:minCount 1 ;
-                sh:path otl:security ],
+                sh:path otl:securityscore ],
             [ sh:minCount 1 ;
-                sh:path otl:veiligheid ] .
+                sh:path otl:veiligheidsscore ] .
 
     otl-patroon:Faaloorzaak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faaloorzaak binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
@@ -2222,9 +2200,7 @@ otl:graaf-ib-kwalitatieveora {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:testinterval ],
-            [ sh:minCount 1 ;
-                sh:path otl:wettelijkverplichtindicator ] .
+                sh:path otl:testinterval ] .
 
     otl-patroon:FunctioneleInspectieEnTesten a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Functionele Inspectie en Testen binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
@@ -2340,9 +2316,7 @@ otl:graaf-ib-kwalitatieveora {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:vervangingsinsterval ],
-            [ sh:minCount 1 ;
-                sh:path otl:wettelijkverplichtindicator ] .
+                sh:path otl:vervangingsinsterval ] .
 
     otl-patroon:Gedenksteen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gedenksteen binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
@@ -2435,14 +2409,6 @@ otl:graaf-ib-kwalitatieveora {
     otl-patroon:GeluidbeperkendeConstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidbeperkende constructie binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Geluidbeperkende constructie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Geluidsbakens a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsbakens binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Geluidsbakens"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -2659,14 +2625,6 @@ otl:graaf-ib-kwalitatieveora {
     otl-patroon:Grindkoffer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grindkoffer binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Grindkoffer"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Groen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Groen binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Groen"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -3240,21 +3198,17 @@ otl:graaf-ib-kwalitatieveora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Inspectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Inspectie binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Inspectie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijdafgerond ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdstart ],
-            [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Inspectiewagen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Inspectiewagen binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Inspectiewagen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:InstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatie derden binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
+        sh:name "Installatie derden"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -3265,26 +3219,6 @@ otl:graaf-ib-kwalitatieveora {
         sh:name "Installatiekabel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:InstallatiesDerden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installaties derden binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Installaties derden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:InstandhoudingBeheersmaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instandhouding Beheersmaatregel binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Instandhouding Beheersmaatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijdafgerond ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdstart ],
-            [ sh:minCount 1 ;
-                sh:path otl:naam ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3327,14 +3261,6 @@ otl:graaf-ib-kwalitatieveora {
     otl-patroon:Intercompost a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Intercompost binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Intercompost"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Interieur a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Interieur binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Interieur"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -3916,9 +3842,9 @@ otl:graaf-ib-kwalitatieveora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LaadpalenElektrischeVoertuigen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpalen elektrische voertuigen binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Laadpalen elektrische voertuigen"@nl ;
+    otl-patroon:LaadpaalElektrischeVoertuigen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpaal elektrische voertuigen binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
+        sh:name "Laadpaal elektrische voertuigen"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -4076,14 +4002,6 @@ otl:graaf-ib-kwalitatieveora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LichtEnKrachtInstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Licht en Kracht Installaties binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Licht en Kracht Installaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Lichtgroepenkast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtgroepenkast binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Lichtgroepenkast"@nl ;
@@ -4103,14 +4021,6 @@ otl:graaf-ib-kwalitatieveora {
     otl-patroon:Lichtopstand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtopstand binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Lichtopstand"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Lichtrooster a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtrooster binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Lichtrooster"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -4396,6 +4306,18 @@ otl:graaf-ib-kwalitatieveora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Modificatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Modificatie binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
+        sh:name "Modificatie"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:datumtijdafgerond ],
+            [ sh:minCount 0 ;
+                sh:path otl:datumtijdstart ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Monitor a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Monitor binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Monitor"@nl ;
@@ -4446,6 +4368,14 @@ otl:graaf-ib-kwalitatieveora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Netaansluiting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Netaansluiting binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
+        sh:name "Netaansluiting"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Nevengeul a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nevengeul binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Nevengeul"@nl ;
@@ -4459,20 +4389,6 @@ otl:graaf-ib-kwalitatieveora {
         sh:name "Nivelleerschuif"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:NonConformiteit a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Non Conformiteit binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Non Conformiteit"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijddefinitiefherstel ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdfunctioneelherstel ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdgemeld ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdopgetreden ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4524,23 +4440,23 @@ otl:graaf-ib-kwalitatieveora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Objectverlichting a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Objectverlichting binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Objectverlichting"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Observatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Observatie binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Observatie"@nl ;
+    otl-patroon:Nulinspectie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nulinspectie binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
+        sh:name "Nulinspectie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumtijdafgerond ],
             [ sh:minCount 1 ;
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
                 sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Objectverlichting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Objectverlichting binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
+        sh:name "Objectverlichting"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4687,22 +4603,6 @@ otl:graaf-ib-kwalitatieveora {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Onderhoud a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderhoud binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Onderhoud"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijdafgerond ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdstart ],
-            [ sh:minCount 1 ;
-                sh:path otl:modificatieindicator ],
-            [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:vervangingsmomentindicator ] .
 
     otl-patroon:Onderhoudsstrook a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderhoudsstrook binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
@@ -5240,17 +5140,17 @@ otl:graaf-ib-kwalitatieveora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:PompEnVentilatieinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pomp- en ventilatieinstallaties binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Pomp- en ventilatieinstallaties"@nl ;
+    otl-patroon:Pompinstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
+        sh:name "Pompinstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Pompinstallatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Pompinstallatie"@nl ;
+    otl-patroon:Pompinstallaties a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallaties binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
+        sh:name "Pompinstallaties"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -5307,8 +5207,6 @@ otl:graaf-ib-kwalitatieveora {
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
                 sh:path otl:eenopeenvervangingindicator ],
-            [ sh:minCount 1 ;
-                sh:path otl:modificatieindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:naam ],
             [ sh:minCount 1 ;
@@ -5634,7 +5532,9 @@ otl:graaf-ib-kwalitatieveora {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:gevolgscore ],
             [ sh:minCount 1 ;
-                sh:path otl:kansscore ] .
+                sh:path otl:kansscore ],
+            [ sh:minCount 1 ;
+                sh:path otl:risiconiveau ] .
 
     otl-patroon:Rivier a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rivier binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
@@ -5679,14 +5579,6 @@ otl:graaf-ib-kwalitatieveora {
     otl-patroon:Rolgordijn a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolgordijn binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Rolgordijn"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:RolhekkenEnToegangsdeurenDienstgebouwen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolhekken en toegangsdeuren dienstgebouwen binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Rolhekken en toegangsdeuren dienstgebouwen"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -6128,14 +6020,6 @@ otl:graaf-ib-kwalitatieveora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:SignaleringHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signalering HP en PB kasten binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Signalering HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Skatebaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Skatebaan binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Skatebaan"@nl ;
@@ -6256,14 +6140,6 @@ otl:graaf-ib-kwalitatieveora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:SluitEnZinkvoegen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sluit- en zinkvoegen binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Sluit- en zinkvoegen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Smeedwerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Smeedwerk binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Smeedwerk"@nl ;
@@ -6339,6 +6215,14 @@ otl:graaf-ib-kwalitatieveora {
     otl-patroon:Sportattribuut a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportattribuut binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Sportattribuut"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Sportdoel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportdoel binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
+        sh:name "Sportdoel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -6441,8 +6325,6 @@ otl:graaf-ib-kwalitatieveora {
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
                 sh:path otl:eenopeenvervangingindicator ],
-            [ sh:minCount 1 ;
-                sh:path otl:modificatieindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:naam ],
             [ sh:minCount 1 ;
@@ -6556,14 +6438,6 @@ otl:graaf-ib-kwalitatieveora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storings Afhankelijk Onderhoud binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Storings Afhankelijk Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Storingsmeldsysteem a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storingsmeldsysteem binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Storingsmeldsysteem"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Storingsvoorspellendegrootheid a sh:NodeShape ;
@@ -6804,9 +6678,13 @@ otl:graaf-ib-kwalitatieveora {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:TandwieloverbrengingOpen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging open binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
+        sh:name "Tandwieloverbrenging open"@nl ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -6936,9 +6814,7 @@ otl:graaf-ib-kwalitatieveora {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:inspectieinterval ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:wettelijkverplichtindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Toestandsinspectie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toestandsinspectie binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
@@ -6949,8 +6825,6 @@ otl:graaf-ib-kwalitatieveora {
                 sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:nulinspectieindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -7186,14 +7060,6 @@ otl:graaf-ib-kwalitatieveora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:TussenRelaisInterfaceStations a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussen relais - interface stations binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Tussen relais - interface stations"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Tussenlaag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussenlaag binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Tussenlaag"@nl ;
@@ -7252,14 +7118,6 @@ otl:graaf-ib-kwalitatieveora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:UnDetectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type UN-detectie binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "UN-detectie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Urinoir a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Urinoir binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Urinoir"@nl ;
@@ -7311,14 +7169,6 @@ otl:graaf-ib-kwalitatieveora {
     otl-patroon:Vangconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vangconstructie binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Vangconstructie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VeiligheidsPlc a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheids PLC binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Veiligheids PLC"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -7500,14 +7350,6 @@ otl:graaf-ib-kwalitatieveora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VerkeersgeleidingEnEvacuatieverlichting a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleiding- en evacuatieverlichting binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Verkeersgeleiding- en evacuatieverlichting"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Verkeersgeleidingsverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleidingsverlichting binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Verkeersgeleidingsverlichting"@nl ;
@@ -7532,9 +7374,9 @@ otl:graaf-ib-kwalitatieveora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Verlichtingsinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichtingsinstallaties binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Verlichtingsinstallaties"@nl ;
+    otl-patroon:Verlichting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichting binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
+        sh:name "Verlichting"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -7774,33 +7616,9 @@ otl:graaf-ib-kwalitatieveora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VluchtweginstallatieVerlichtingEnVasteBorden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtweginstallatie- verlichting en vaste borden binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Vluchtweginstallatie- verlichting en vaste borden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Vluchtwegverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtwegverlichting binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Vluchtwegverlichting"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingenHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingen HP en PB kasten binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Voedingen HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingsinstallatieOnder50V a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingsinstallatie onder 50V binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Voedingsinstallatie onder 50V"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -7894,14 +7712,6 @@ otl:graaf-ib-kwalitatieveora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VorstbeveiligingEnVerwarming a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vorstbeveiliging en verwarming binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
-        sh:name "Vorstbeveiliging en verwarming"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Vuilvangrooster a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vuilvangrooster binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
         sh:name "Vuilvangrooster"@nl ;
@@ -7924,7 +7734,7 @@ otl:graaf-ib-kwalitatieveora {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:advies ],
             [ sh:minCount 1 ;
-                sh:path otl:datumtijd ],
+                sh:path otl:datumtijdgeconstateerd ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -8070,9 +7880,13 @@ otl:graaf-ib-kwalitatieveora {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:WaterplantOndergedoken a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant ondergedoken binnen de context van informatieproduct Kwalitatieve ORA"@nl ;
+        sh:name "Waterplant ondergedoken"@nl ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -8431,11 +8245,11 @@ otl:graaf-ib-kwalitatieveora {
                 sh:path otl:omschrijving ] .
 
     otl:graaf-ib-kwalitatieveora a owl:Ontology ;
-        dct:created "2023-02-01"^^xsd:date ;
+        dct:created "2023-04-04"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Kwalitatieve ORA' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Kwalitatieve ORA'"@nl ;
-        pav:currentVersion otl:graaf-ib-kwalitatieveora-3.1.20 ;
-        pav:derivedFrom "IBRWS Release 20" ;
+        pav:currentVersion otl:graaf-ib-kwalitatieveora-3.1.21 ;
+        pav:derivedFrom "IB RWS release 21" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

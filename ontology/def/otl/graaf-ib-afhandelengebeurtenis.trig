@@ -998,6 +998,14 @@ otl:graaf-ib-afhandelengebeurtenis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:BesturingsinstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie derden binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
+        sh:name "Besturingsinstallatie derden"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Betonverharding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Betonverharding binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Betonverharding"@nl ;
@@ -1373,14 +1381,6 @@ otl:graaf-ib-afhandelengebeurtenis {
     otl-patroon:BrandmeldEnOntruimingsinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeld- en ontruimingsinstallatie binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Brandmeld- en ontruimingsinstallatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:BrandmeldinstallatieInDeTunnel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeldinstallatie in de tunnel binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Brandmeldinstallatie in de tunnel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
@@ -2036,22 +2036,6 @@ otl:graaf-ib-afhandelengebeurtenis {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:DigitaleAudioOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale audio-opslag binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Digitale audio-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:DigitaleBeeldOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale beeld-opslag binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Digitale beeld-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Dijk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dijk binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Dijk"@nl ;
@@ -2106,12 +2090,6 @@ otl:graaf-ib-afhandelengebeurtenis {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Doel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doel binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Doel"@nl ;
-        sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Doelvoorstellingsapparatuur a sh:NodeShape ;
@@ -2934,14 +2912,6 @@ otl:graaf-ib-afhandelengebeurtenis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Gebeurtenis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebeurtenis binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Gebeurtenis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijd ],
-            [ sh:minCount 1 ;
-                sh:path otl:faseniveau ] .
-
     otl-patroon:Gebouwinstallaties a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebouwinstallaties binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Gebouwinstallaties"@nl ;
@@ -3083,14 +3053,6 @@ otl:graaf-ib-afhandelengebeurtenis {
     otl-patroon:GeluidbeperkendeConstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidbeperkende constructie binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Geluidbeperkende constructie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Geluidsbakens a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsbakens binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Geluidsbakens"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
@@ -3343,14 +3305,6 @@ otl:graaf-ib-afhandelengebeurtenis {
                 sh:path otl:omschrijving ],
             [ sh:minCount 0 ;
                 sh:path otl:qrcode ] .
-
-    otl-patroon:Groen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Groen binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Groen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
 
     otl-patroon:Gronddepot a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gronddepot binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
@@ -3976,6 +3930,14 @@ otl:graaf-ib-afhandelengebeurtenis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:InstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatie derden binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
+        sh:name "Installatie derden"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Installatiekabel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatiekabel binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Installatiekabel"@nl ;
@@ -3994,11 +3956,13 @@ otl:graaf-ib-afhandelengebeurtenis {
             [ sh:minCount 0 ;
                 sh:path otl:qrcode ] .
 
-    otl-patroon:InstallatiesDerden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installaties derden binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Installaties derden"@nl ;
+    otl-patroon:InstandhoudingBeheersmaatregel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instandhouding Beheersmaatregel binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
+        sh:name "Instandhouding Beheersmaatregel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
+                sh:path otl:datumtijdafgerond ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdstart ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4051,22 +4015,6 @@ otl:graaf-ib-afhandelengebeurtenis {
         sh:name "Intercompost"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Interieur a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Interieur binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Interieur"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Inzet a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Inzet binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Inzet"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:aantal ],
-            [ sh:minCount 1 ;
-                sh:path otl:tijdactief ] .
 
     otl-patroon:Isolator a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Isolator binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
@@ -4748,9 +4696,9 @@ otl:graaf-ib-afhandelengebeurtenis {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LaadpalenElektrischeVoertuigen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpalen elektrische voertuigen binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Laadpalen elektrische voertuigen"@nl ;
+    otl-patroon:LaadpaalElektrischeVoertuigen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpaal elektrische voertuigen binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
+        sh:name "Laadpaal elektrische voertuigen"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
@@ -4952,14 +4900,6 @@ otl:graaf-ib-afhandelengebeurtenis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LichtEnKrachtInstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Licht en Kracht Installaties binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Licht en Kracht Installaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Lichtgroepenkast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtgroepenkast binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Lichtgroepenkast"@nl ;
@@ -5001,14 +4941,6 @@ otl:graaf-ib-afhandelengebeurtenis {
                 sh:path otl:omschrijving ],
             [ sh:minCount 0 ;
                 sh:path otl:qrcode ] .
-
-    otl-patroon:Lichtrooster a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtrooster binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Lichtrooster"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
 
     otl-patroon:Lichtstraat a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtstraat binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
@@ -5252,6 +5184,18 @@ otl:graaf-ib-afhandelengebeurtenis {
             [ sh:minCount 0 ;
                 sh:path otl:qrcode ] .
 
+    otl-patroon:Materieel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Materieel binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
+        sh:name "Materieel"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:aantal ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 0 ;
+                sh:path otl:tarief ],
+            [ sh:minCount 0 ;
+                sh:path otl:tijdactief ] .
+
     otl-patroon:Meer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Meer binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Meer"@nl ;
@@ -5386,7 +5330,7 @@ otl:graaf-ib-afhandelengebeurtenis {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Middel binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Middel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:kosten ],
+                sh:path otl:aantal ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5446,6 +5390,14 @@ otl:graaf-ib-afhandelengebeurtenis {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Netaansluiting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Netaansluiting binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
+        sh:name "Netaansluiting"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Nevengeul a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nevengeul binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Nevengeul"@nl ;
@@ -5469,14 +5421,6 @@ otl:graaf-ib-afhandelengebeurtenis {
                 sh:path otl:omschrijving ],
             [ sh:minCount 0 ;
                 sh:path otl:qrcode ] .
-
-    otl-patroon:NonConformiteit a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Non Conformiteit binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Non Conformiteit"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijdgemeld ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdopgetreden ] .
 
     otl-patroon:NooddoucheInstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nooddouche-installatie binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
@@ -5761,6 +5705,18 @@ otl:graaf-ib-afhandelengebeurtenis {
                 sh:path otl:omschrijving ],
             [ sh:minCount 0 ;
                 sh:path otl:qrcode ] .
+
+    otl-patroon:OngewensteGebeurtenis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ongewenste Gebeurtenis binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
+        sh:name "Ongewenste Gebeurtenis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumtijdeind ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumtijdstart ],
+            [ sh:minCount 1 ;
+                sh:path otl:faseniveau ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Ontvangbed a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ontvangbed binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
@@ -6278,6 +6234,18 @@ otl:graaf-ib-afhandelengebeurtenis {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Personeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Personeel binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
+        sh:name "Personeel"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:aantal ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 0 ;
+                sh:path otl:tarief ],
+            [ sh:minCount 0 ;
+                sh:path otl:tijdactief ] .
+
     otl-patroon:Personenzoekinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Personenzoekinstallatie binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Personenzoekinstallatie"@nl ;
@@ -6442,17 +6410,17 @@ otl:graaf-ib-afhandelengebeurtenis {
             [ sh:minCount 0 ;
                 sh:path otl:qrcode ] .
 
-    otl-patroon:PompEnVentilatieinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pomp- en ventilatieinstallaties binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Pomp- en ventilatieinstallaties"@nl ;
+    otl-patroon:Pompinstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
+        sh:name "Pompinstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Pompinstallatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Pompinstallatie"@nl ;
+    otl-patroon:Pompinstallaties a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallaties binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
+        sh:name "Pompinstallaties"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
@@ -6874,6 +6842,16 @@ otl:graaf-ib-afhandelengebeurtenis {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Reservedeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reservedeel binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
+        sh:name "Reservedeel"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:aantal ],
+            [ sh:minCount 0 ;
+                sh:path otl:kosten ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Riem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Riem binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Riem"@nl ;
@@ -7000,14 +6978,6 @@ otl:graaf-ib-afhandelengebeurtenis {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolgordijn binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Rolgordijn"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:RolhekkenEnToegangsdeurenDienstgebouwen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolhekken en toegangsdeuren dienstgebouwen binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Rolhekken en toegangsdeuren dienstgebouwen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Rolluik a sh:NodeShape ;
@@ -7576,14 +7546,6 @@ otl:graaf-ib-afhandelengebeurtenis {
             [ sh:minCount 0 ;
                 sh:path otl:qrcode ] .
 
-    otl-patroon:SignaleringHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signalering HP en PB kasten binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Signalering HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Skatebaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Skatebaan binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Skatebaan"@nl ;
@@ -7722,14 +7684,6 @@ otl:graaf-ib-afhandelengebeurtenis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:SluitEnZinkvoegen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sluit- en zinkvoegen binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Sluit- en zinkvoegen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Smeedwerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Smeedwerk binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Smeedwerk"@nl ;
@@ -7804,6 +7758,12 @@ otl:graaf-ib-afhandelengebeurtenis {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Sportdoel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportdoel binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
+        sh:name "Sportdoel"@nl ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Sportgrasveld a sh:NodeShape ;
@@ -8027,14 +7987,6 @@ otl:graaf-ib-afhandelengebeurtenis {
                 sh:path otl:datumtijdgemeld ],
             [ sh:minCount 0 ;
                 sh:path otl:datumtijdopgetreden ] .
-
-    otl-patroon:Storingsmeldsysteem a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storingsmeldsysteem binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Storingsmeldsysteem"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
 
     otl-patroon:Stormvloedkering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stormvloedkering binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
@@ -8339,6 +8291,12 @@ otl:graaf-ib-afhandelengebeurtenis {
     otl-patroon:Tandwieloverbrenging a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Tandwieloverbrenging"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:TandwieloverbrengingOpen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging open binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
+        sh:name "Tandwieloverbrenging open"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:barcode ],
             [ sh:minCount 1 ;
@@ -8349,8 +8307,6 @@ otl:graaf-ib-afhandelengebeurtenis {
                 sh:path otl:discipline ],
             [ sh:minCount 0 ;
                 sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 0 ;
@@ -8722,14 +8678,6 @@ otl:graaf-ib-afhandelengebeurtenis {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:TussenRelaisInterfaceStations a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussen relais - interface stations binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Tussen relais - interface stations"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Tussenlaag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussenlaag binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Tussenlaag"@nl ;
@@ -8800,14 +8748,6 @@ otl:graaf-ib-afhandelengebeurtenis {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:UnDetectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type UN-detectie binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "UN-detectie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Urinoir a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Urinoir binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Urinoir"@nl ;
@@ -8874,14 +8814,6 @@ otl:graaf-ib-afhandelengebeurtenis {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheid Beheersmaatregel binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Veiligheid Beheersmaatregel"@nl ;
         sh:property [ sh:minCount 0 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VeiligheidsPlc a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheids PLC binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Veiligheids PLC"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Veiligheidsventiel a sh:NodeShape ;
@@ -9110,14 +9042,6 @@ otl:graaf-ib-afhandelengebeurtenis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VerkeersgeleidingEnEvacuatieverlichting a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleiding- en evacuatieverlichting binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Verkeersgeleiding- en evacuatieverlichting"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Verkeersgeleidingsverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleidingsverlichting binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Verkeersgeleidingsverlichting"@nl ;
@@ -9140,9 +9064,9 @@ otl:graaf-ib-afhandelengebeurtenis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Verlichtingsinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichtingsinstallaties binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Verlichtingsinstallaties"@nl ;
+    otl-patroon:Verlichting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichting binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
+        sh:name "Verlichting"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:discipline ],
             [ sh:minCount 1 ;
@@ -9434,34 +9358,10 @@ otl:graaf-ib-afhandelengebeurtenis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VluchtweginstallatieVerlichtingEnVasteBorden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtweginstallatie- verlichting en vaste borden binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Vluchtweginstallatie- verlichting en vaste borden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Vluchtwegverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtwegverlichting binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Vluchtwegverlichting"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingenHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingen HP en PB kasten binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Voedingen HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingsinstallatieOnder50V a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingsinstallatie onder 50V binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Voedingsinstallatie onder 50V"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Voegconstructie a sh:NodeShape ;
@@ -9574,14 +9474,6 @@ otl:graaf-ib-afhandelengebeurtenis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VorstbeveiligingEnVerwarming a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vorstbeveiliging en verwarming binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Vorstbeveiliging en verwarming"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Vuilvangrooster a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vuilvangrooster binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
         sh:name "Vuilvangrooster"@nl ;
@@ -9612,7 +9504,7 @@ otl:graaf-ib-afhandelengebeurtenis {
         sh:property [ sh:minCount 0 ;
                 sh:path otl:bron ],
             [ sh:minCount 0 ;
-                sh:path otl:datumtijd ],
+                sh:path otl:datumtijdgeconstateerd ],
             [ sh:minCount 0 ;
                 sh:path otl:omschrijving ] .
 
@@ -9765,10 +9657,14 @@ otl:graaf-ib-afhandelengebeurtenis {
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
             [ sh:minCount 0 ;
                 sh:path otl:qrcode ] .
+
+    otl-patroon:WaterplantOndergedoken a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant ondergedoken binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
+        sh:name "Waterplant ondergedoken"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Waterreguleringswerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterreguleringswerk binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
@@ -9784,21 +9680,21 @@ otl:graaf-ib-afhandelengebeurtenis {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Weerhut a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Weerhut binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Weerhut"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Weersgesteldheid a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Weersgesteldheid binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
-        sh:name "Weersgesteldheid"@nl ;
+    otl-patroon:Weer a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Weer binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
+        sh:name "Weer"@nl ;
         sh:property [ sh:minCount 0 ;
                 sh:path otl:temperatuur ],
             [ sh:minCount 0 ;
                 sh:path otl:weertype ],
             [ sh:minCount 0 ;
                 sh:path otl:zicht ] .
+
+    otl-patroon:Weerhut a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Weerhut binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
+        sh:name "Weerhut"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Weg a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Weg binnen de context van informatieproduct Afhandelen Gebeurtenis"@nl ;
@@ -10173,11 +10069,11 @@ otl:graaf-ib-afhandelengebeurtenis {
                 sh:path otl:omschrijving ] .
 
     otl:graaf-ib-afhandelengebeurtenis a owl:Ontology ;
-        dct:created "2023-02-01"^^xsd:date ;
+        dct:created "2023-04-04"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Afhandelen Gebeurtenis' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Afhandelen Gebeurtenis'"@nl ;
-        pav:currentVersion otl:graaf-ib-afhandelengebeurtenis-3.1.20 ;
-        pav:derivedFrom "IBRWS Release 20" ;
+        pav:currentVersion otl:graaf-ib-afhandelengebeurtenis-3.1.21 ;
+        pav:derivedFrom "IB RWS release 21" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

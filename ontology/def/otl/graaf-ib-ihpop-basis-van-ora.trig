@@ -52,8 +52,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aanleginrichting binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Aanleginrichting"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -384,8 +382,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aquaduct binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Aquaduct"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -456,7 +452,9 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Asset Risico binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Asset Risico"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:aspecteis ] .
+                sh:path otl:aspecteis ],
+            [ sh:minCount 1 ;
+                sh:path otl:risiconiveau ] .
 
     otl-patroon:Atletiekbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Atletiekbaan binnen de context van informatieproduct IHP op basis van ORA"@nl ;
@@ -678,8 +676,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beheerobject Overstijgende Voorziening binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Beheerobject Overstijgende Voorziening"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -789,6 +785,14 @@ otl:graaf-ib-ihpop-basis-van-ora {
     otl-patroon:Besturingsinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Besturingsinstallatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:BesturingsinstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie derden binnen de context van informatieproduct IHP op basis van ORA"@nl ;
+        sh:name "Besturingsinstallatie derden"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -1090,14 +1094,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:BrandmeldinstallatieInDeTunnel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeldinstallatie in de tunnel binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Brandmeldinstallatie in de tunnel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Brandslang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandslang binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Brandslang"@nl ;
@@ -1142,8 +1138,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brug beweegbaar binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Brug beweegbaar"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -1158,8 +1152,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brug vast binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Brug vast"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -1222,8 +1214,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bunker binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Bunker"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -1426,8 +1416,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Coupure binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Coupure"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -1622,22 +1610,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:DigitaleAudioOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale audio-opslag binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Digitale audio-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:DigitaleBeeldOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale beeld-opslag binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Digitale beeld-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Dijk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dijk binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Dijk"@nl ;
@@ -1679,14 +1651,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
     otl-patroon:DiverseInstallaties a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Diverse installaties binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Diverse installaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Doel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doel binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Doel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -1912,8 +1876,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duiker binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Duiker"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -1992,8 +1954,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ecoduct binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Ecoduct"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -2160,8 +2120,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunatunnel binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Faunatunnel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -2266,9 +2224,7 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:testinterval ],
-            [ sh:minCount 1 ;
-                sh:path otl:wettelijkverplichtindicator ] .
+                sh:path otl:testinterval ] .
 
     otl-patroon:Fundatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fundatie binnen de context van informatieproduct IHP op basis van ORA"@nl ;
@@ -2358,9 +2314,7 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:vervangingsinsterval ],
-            [ sh:minCount 1 ;
-                sh:path otl:wettelijkverplichtindicator ] .
+                sh:path otl:vervangingsinsterval ] .
 
     otl-patroon:Gedenksteen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gedenksteen binnen de context van informatieproduct IHP op basis van ORA"@nl ;
@@ -2458,14 +2412,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Geluidsbakens a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsbakens binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Geluidsbakens"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Geluidsdemper a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsdemper binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Geluidsdemper"@nl ;
@@ -2478,8 +2424,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gemaal binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Gemaal"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -2690,14 +2634,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Groen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Groen binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Groen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Gronddepot a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gronddepot binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Gronddepot"@nl ;
@@ -2710,8 +2646,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grondkering binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Grondkering"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -2862,8 +2796,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Haven binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Haven"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -2974,8 +2906,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hevel binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Hevel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -3188,8 +3118,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Individuele Behandeling van Afvalwater systeem binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Individuele Behandeling van Afvalwater systeem"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -3304,6 +3232,14 @@ otl:graaf-ib-ihpop-basis-van-ora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:InstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatie derden binnen de context van informatieproduct IHP op basis van ORA"@nl ;
+        sh:name "Installatie derden"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Installatiekabel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatiekabel binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Installatiekabel"@nl ;
@@ -3311,26 +3247,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:InstallatiesDerden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installaties derden binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Installaties derden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:InstandhoudingBeheersmaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instandhouding Beheersmaatregel binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Instandhouding Beheersmaatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijdafgerond ],
-            [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ] .
 
     otl-patroon:Instroomopening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instroomopening binnen de context van informatieproduct IHP op basis van ORA"@nl ;
@@ -3359,14 +3275,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
     otl-patroon:Intercompost a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Intercompost binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Intercompost"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Interieur a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Interieur binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Interieur"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -3480,8 +3388,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kade binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Kade"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -3560,8 +3466,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Keersluis binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Keersluis"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -3964,9 +3868,9 @@ otl:graaf-ib-ihpop-basis-van-ora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LaadpalenElektrischeVoertuigen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpalen elektrische voertuigen binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Laadpalen elektrische voertuigen"@nl ;
+    otl-patroon:LaadpaalElektrischeVoertuigen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpaal elektrische voertuigen binnen de context van informatieproduct IHP op basis van ORA"@nl ;
+        sh:name "Laadpaal elektrische voertuigen"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -4124,14 +4028,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LichtEnKrachtInstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Licht en Kracht Installaties binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Licht en Kracht Installaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Lichtgroepenkast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtgroepenkast binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Lichtgroepenkast"@nl ;
@@ -4151,14 +4047,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
     otl-patroon:Lichtopstand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtopstand binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Lichtopstand"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Lichtrooster a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtrooster binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Lichtrooster"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -4492,6 +4380,14 @@ otl:graaf-ib-ihpop-basis-van-ora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Netaansluiting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Netaansluiting binnen de context van informatieproduct IHP op basis van ORA"@nl ;
+        sh:name "Netaansluiting"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Nevengeul a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nevengeul binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Nevengeul"@nl ;
@@ -4505,20 +4401,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:name "Nivelleerschuif"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:NonConformiteit a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Non Conformiteit binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Non Conformiteit"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumtijddefinitiefherstel ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdfunctioneelherstel ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdgemeld ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumtijdopgetreden ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4702,8 +4584,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderdoorgang binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Onderdoorgang"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -4822,8 +4702,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Open tunnelbak binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Open tunnelbak"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -4970,12 +4848,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Organisatieonderdeel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Organisatieonderdeel binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Organisatieonderdeel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
     otl-patroon:OverEnOnderdrukinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Over- en onderdrukinstallatie binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Over- en onderdrukinstallatie"@nl ;
@@ -5004,8 +4876,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Overkluizing binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Overkluizing"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -5288,17 +5158,17 @@ otl:graaf-ib-ihpop-basis-van-ora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:PompEnVentilatieinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pomp- en ventilatieinstallaties binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Pomp- en ventilatieinstallaties"@nl ;
+    otl-patroon:Pompinstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct IHP op basis van ORA"@nl ;
+        sh:name "Pompinstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Pompinstallatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Pompinstallatie"@nl ;
+    otl-patroon:Pompinstallaties a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallaties binnen de context van informatieproduct IHP op basis van ORA"@nl ;
+        sh:name "Pompinstallaties"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -5734,14 +5604,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:RolhekkenEnToegangsdeurenDienstgebouwen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolhekken en toegangsdeuren dienstgebouwen binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Rolhekken en toegangsdeuren dienstgebouwen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Rolluik a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolluik binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Rolluik"@nl ;
@@ -6114,8 +5976,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schutsluis binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Schutsluis"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -6154,8 +6014,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sifon binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Sifon"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -6177,14 +6035,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
     otl-patroon:Signaalkabel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signaalkabel binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Signaalkabel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:SignaleringHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signalering HP en PB kasten binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Signalering HP en PB kasten"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -6310,14 +6160,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:SluitEnZinkvoegen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sluit- en zinkvoegen binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Sluit- en zinkvoegen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Smeedwerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Smeedwerk binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Smeedwerk"@nl ;
@@ -6398,6 +6240,14 @@ otl:graaf-ib-ihpop-basis-van-ora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Sportdoel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportdoel binnen de context van informatieproduct IHP op basis van ORA"@nl ;
+        sh:name "Sportdoel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Sportgrasveld a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportgrasveld binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Sportgrasveld"@nl ;
@@ -6450,8 +6300,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Spuisluis binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Spuisluis"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -6644,14 +6492,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Storingsmeldsysteem a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storingsmeldsysteem binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Storingsmeldsysteem"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Storingsvoorspellendegrootheid a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type StoringsVoorspellendeGrootheid binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "StoringsVoorspellendeGrootheid"@nl ;
@@ -6664,8 +6504,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stormvloedkering binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Stormvloedkering"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -6792,8 +6630,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stuw binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Stuw"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -6918,9 +6754,13 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:TandwieloverbrengingOpen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging open binnen de context van informatieproduct IHP op basis van ORA"@nl ;
+        sh:name "Tandwieloverbrenging open"@nl ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -7042,9 +6882,7 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:inspectieinterval ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:wettelijkverplichtindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Toilet a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toilet binnen de context van informatieproduct IHP op basis van ORA"@nl ;
@@ -7258,8 +7096,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tunnel binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Tunnel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -7281,14 +7117,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
     otl-patroon:Turbine a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Turbine binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Turbine"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:TussenRelaisInterfaceStations a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussen relais - interface stations binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Tussen relais - interface stations"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -7350,14 +7178,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:UnDetectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type UN-detectie binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "UN-detectie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Urinoir a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Urinoir binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Urinoir"@nl ;
@@ -7409,14 +7229,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
     otl-patroon:Vangconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vangconstructie binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Vangconstructie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VeiligheidsPlc a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheids PLC binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Veiligheids PLC"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -7598,14 +7410,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VerkeersgeleidingEnEvacuatieverlichting a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleiding- en evacuatieverlichting binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Verkeersgeleiding- en evacuatieverlichting"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Verkeersgeleidingsverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleidingsverlichting binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Verkeersgeleidingsverlichting"@nl ;
@@ -7630,9 +7434,9 @@ otl:graaf-ib-ihpop-basis-van-ora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Verlichtingsinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichtingsinstallaties binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Verlichtingsinstallaties"@nl ;
+    otl-patroon:Verlichting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichting binnen de context van informatieproduct IHP op basis van ORA"@nl ;
+        sh:name "Verlichting"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -7714,8 +7518,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Viaduct binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Viaduct"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -7878,33 +7680,9 @@ otl:graaf-ib-ihpop-basis-van-ora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VluchtweginstallatieVerlichtingEnVasteBorden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtweginstallatie- verlichting en vaste borden binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Vluchtweginstallatie- verlichting en vaste borden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Vluchtwegverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtwegverlichting binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Vluchtwegverlichting"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingenHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingen HP en PB kasten binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Voedingen HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingsinstallatieOnder50V a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingsinstallatie onder 50V binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Voedingsinstallatie onder 50V"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
@@ -7998,14 +7776,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VorstbeveiligingEnVerwarming a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vorstbeveiliging en verwarming binnen de context van informatieproduct IHP op basis van ORA"@nl ;
-        sh:name "Vorstbeveiliging en verwarming"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Vuilvangrooster a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vuilvangrooster binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Vuilvangrooster"@nl ;
@@ -8028,7 +7798,7 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:advies ],
             [ sh:minCount 1 ;
-                sh:path otl:datumtijd ],
+                sh:path otl:datumtijdgeconstateerd ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -8174,9 +7944,13 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:WaterplantOndergedoken a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant ondergedoken binnen de context van informatieproduct IHP op basis van ORA"@nl ;
+        sh:name "Waterplant ondergedoken"@nl ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -8184,8 +7958,6 @@ otl:graaf-ib-ihpop-basis-van-ora {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterreguleringswerk binnen de context van informatieproduct IHP op basis van ORA"@nl ;
         sh:name "Waterreguleringswerk"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
             [ sh:minCount 1 ;
                 sh:path otl:cultuurhistorie ],
@@ -8541,11 +8313,11 @@ otl:graaf-ib-ihpop-basis-van-ora {
                 sh:path otl:omschrijving ] .
 
     otl:graaf-ib-ihpop-basis-van-ora a owl:Ontology ;
-        dct:created "2023-02-01"^^xsd:date ;
+        dct:created "2023-04-04"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'IHP op basis van ORA' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'IHP op basis van ORA'"@nl ;
-        pav:currentVersion otl:graaf-ib-ihpop-basis-van-ora-3.1.20 ;
-        pav:derivedFrom "IBRWS Release 20" ;
+        pav:currentVersion otl:graaf-ib-ihpop-basis-van-ora-3.1.21 ;
+        pav:derivedFrom "IB RWS release 21" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

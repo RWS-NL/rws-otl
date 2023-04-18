@@ -790,6 +790,12 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Asseteigenaar a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Asseteigenaar binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Asseteigenaar"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
     otl-patroon:Atletiekbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Atletiekbaan binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Atletiekbaan"@nl ;
@@ -797,24 +803,6 @@ otl:graaf-ib-constructieveveiligheid {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Baan a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Baan binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Baan"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:baanpositie ],
-            [ sh:minCount 1 ;
-                sh:path otl:begafstand ],
-            [ sh:minCount 1 ;
-                sh:path otl:eindafstand ],
-            [ sh:minCount 1 ;
-                sh:path otl:hmletter ],
-            [ sh:minCount 1 ;
-                sh:path otl:lengte ],
-            [ sh:minCount 1 ;
-                sh:path otl:oppervlakte ],
-            [ sh:minCount 1 ;
-                sh:path otl:rijbaanrichting ] .
 
     otl-patroon:Baanzool a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Baanzool binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
@@ -1148,6 +1136,12 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:technischeindelevensduur ] .
 
+    otl-patroon:Beheerorganisatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beheerorganisatie binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Beheerorganisatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
     otl-patroon:Beheersmaatregel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beheersmaatregel binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Beheersmaatregel"@nl ;
@@ -1249,6 +1243,14 @@ otl:graaf-ib-constructieveveiligheid {
         sh:name "Beluchtingstank"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:BeoordelingToetsing a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beoordeling Toetsing binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Beoordeling Toetsing"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumtijdbeoordeling ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1373,6 +1375,18 @@ otl:graaf-ib-constructieveveiligheid {
     otl-patroon:Besturingsinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Besturingsinstallatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:theoretischelevensduur ] .
+
+    otl-patroon:BesturingsinstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie derden binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Besturingsinstallatie derden"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
@@ -1770,12 +1784,6 @@ otl:graaf-ib-constructieveveiligheid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bosgebied binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Bosgebied"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerder ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -1891,18 +1899,6 @@ otl:graaf-ib-constructieveveiligheid {
     otl-patroon:BrandmeldEnOntruimingsinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeld- en ontruimingsinstallatie binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Brandmeld- en ontruimingsinstallatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
-    otl-patroon:BrandmeldinstallatieInDeTunnel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandmeldinstallatie in de tunnel binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Brandmeldinstallatie in de tunnel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
@@ -2476,12 +2472,6 @@ otl:graaf-ib-constructieveveiligheid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dam binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Dam"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerder ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -2594,7 +2584,9 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ],
             [ sh:minCount 1 ;
-                sh:path otl:type ] .
+                sh:path otl:type ],
+            [ sh:minCount 1 ;
+                sh:path otl:verhardingsvlak ] .
 
     otl-patroon:DeklaagOpen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deklaag (open) binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
@@ -2618,7 +2610,9 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ],
             [ sh:minCount 1 ;
-                sh:path otl:type ] .
+                sh:path otl:type ],
+            [ sh:minCount 1 ;
+                sh:path otl:verhardingsvlak ] .
 
     otl-patroon:Deksel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deksel binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
@@ -2820,40 +2814,10 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:DigitaleAudioOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale audio-opslag binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Digitale audio-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
-    otl-patroon:DigitaleBeeldOpslag a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Digitale beeld-opslag binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Digitale beeld-opslag"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Dijk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dijk binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Dijk"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerder ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -2927,14 +2891,6 @@ otl:graaf-ib-constructieveveiligheid {
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
-
-    otl-patroon:Doel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doel binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Doel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
 
     otl-patroon:Doelvoorstellingsapparatuur a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doelvoorstellingsapparatuur binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
@@ -3316,12 +3272,6 @@ otl:graaf-ib-constructieveveiligheid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duingebied binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Duingebied"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerder ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -3611,6 +3561,12 @@ otl:graaf-ib-constructieveveiligheid {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
+
+    otl-patroon:Expertise a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Expertise binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Expertise"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:Fantasietoestel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fantasietoestel binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
@@ -4238,18 +4194,6 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
 
-    otl-patroon:Geluidsbakens a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsbakens binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Geluidsbakens"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Geluidsdemper a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsdemper binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Geluidsdemper"@nl ;
@@ -4595,18 +4539,6 @@ otl:graaf-ib-constructieveveiligheid {
                 sh:path otl:theoretischelevensduur ],
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
-
-    otl-patroon:Groen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Groen binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Groen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
 
     otl-patroon:Gronddepot a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gronddepot binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
@@ -5514,6 +5446,18 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
 
+    otl-patroon:InstallatieDerden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatie derden binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Installatie derden"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:theoretischelevensduur ] .
+
     otl-patroon:Installatiekabel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatiekabel binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Installatiekabel"@nl ;
@@ -5535,18 +5479,6 @@ otl:graaf-ib-constructieveveiligheid {
                 sh:path otl:theoretischelevensduur ],
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
-
-    otl-patroon:InstallatiesDerden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installaties derden binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Installaties derden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
 
     otl-patroon:InstandhoudingBeheersmaatregel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instandhouding Beheersmaatregel binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
@@ -5645,18 +5577,6 @@ otl:graaf-ib-constructieveveiligheid {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Interieur a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Interieur binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Interieur"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
 
     otl-patroon:Isolator a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Isolator binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
@@ -6592,9 +6512,9 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LaadpalenElektrischeVoertuigen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpalen elektrische voertuigen binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Laadpalen elektrische voertuigen"@nl ;
+    otl-patroon:LaadpaalElektrischeVoertuigen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laadpaal elektrische voertuigen binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Laadpaal elektrische voertuigen"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
@@ -6864,18 +6784,6 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
 
-    otl-patroon:LichtEnKrachtInstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Licht en Kracht Installaties binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Licht en Kracht Installaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Lichtgroepenkast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtgroepenkast binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Lichtgroepenkast"@nl ;
@@ -6927,18 +6835,6 @@ otl:graaf-ib-constructieveveiligheid {
                 sh:path otl:theoretischelevensduur ],
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
-
-    otl-patroon:Lichtrooster a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtrooster binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Lichtrooster"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
 
     otl-patroon:Lichtstraat a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtstraat binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
@@ -7460,12 +7356,6 @@ otl:graaf-ib-constructieveveiligheid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Natuurgebied binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Natuurgebied"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerder ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -7497,6 +7387,18 @@ otl:graaf-ib-constructieveveiligheid {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
+
+    otl-patroon:Netaansluiting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Netaansluiting binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Netaansluiting"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:theoretischelevensduur ] .
 
     otl-patroon:Nevengeul a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nevengeul binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
@@ -8642,6 +8544,14 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Personeelscapaciteit a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Personeelscapaciteit binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Personeelscapaciteit"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:fte ],
+            [ sh:minCount 1 ;
+                sh:path otl:jaartal ] .
+
     otl-patroon:Personenzoekinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Personenzoekinstallatie binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Personenzoekinstallatie"@nl ;
@@ -8856,9 +8766,9 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
 
-    otl-patroon:PompEnVentilatieinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pomp- en ventilatieinstallaties binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Pomp- en ventilatieinstallaties"@nl ;
+    otl-patroon:Pompinstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Pompinstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
@@ -8868,9 +8778,9 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
 
-    otl-patroon:Pompinstallatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Pompinstallatie"@nl ;
+    otl-patroon:Pompinstallaties a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallaties binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Pompinstallaties"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
@@ -9597,18 +9507,6 @@ otl:graaf-ib-constructieveveiligheid {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:RolhekkenEnToegangsdeurenDienstgebouwen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolhekken en toegangsdeuren dienstgebouwen binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Rolhekken en toegangsdeuren dienstgebouwen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
 
     otl-patroon:Rolluik a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rolluik binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
@@ -10386,18 +10284,6 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
 
-    otl-patroon:SignaleringHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signalering HP en PB kasten binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Signalering HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Skatebaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Skatebaan binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Skatebaan"@nl ;
@@ -10594,20 +10480,6 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
 
-    otl-patroon:SluitEnZinkvoegen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sluit- en zinkvoegen binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Sluit- en zinkvoegen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Smeedwerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Smeedwerk binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Smeedwerk"@nl ;
@@ -10688,6 +10560,8 @@ otl:graaf-ib-constructieveveiligheid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:einddatum ],
             [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
                 sh:path otl:startdatum ] .
 
     otl-patroon:Spoorweg a sh:NodeShape ;
@@ -10717,6 +10591,14 @@ otl:graaf-ib-constructieveveiligheid {
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
+
+    otl-patroon:Sportdoel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportdoel binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Sportdoel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Sportgrasveld a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sportgrasveld binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
@@ -11014,18 +10896,6 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
 
-    otl-patroon:Storingsmeldsysteem a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storingsmeldsysteem binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Storingsmeldsysteem"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Stormvloedkering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stormvloedkering binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Stormvloedkering"@nl ;
@@ -11147,14 +11017,6 @@ otl:graaf-ib-constructieveveiligheid {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Strook a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Strook binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Strook"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:einddatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:startdatum ] .
 
     otl-patroon:Stroombreker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stroombreker binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
@@ -11474,6 +11336,12 @@ otl:graaf-ib-constructieveveiligheid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:TandwieloverbrengingOpen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging open binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Tandwieloverbrenging open"@nl ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
@@ -11485,8 +11353,6 @@ otl:graaf-ib-constructieveveiligheid {
                 sh:path otl:garantietermijn ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
@@ -12018,18 +11884,6 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:TussenRelaisInterfaceStations a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussen relais - interface stations binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Tussen relais - interface stations"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Tussenlaag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussenlaag binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Tussenlaag"@nl ;
@@ -12058,12 +11912,6 @@ otl:graaf-ib-constructieveveiligheid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uiterwaard binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Uiterwaard"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerder ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -12129,18 +11977,6 @@ otl:graaf-ib-constructieveveiligheid {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:UnDetectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type UN-detectie binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "UN-detectie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
 
     otl-patroon:Urinoir a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Urinoir binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
@@ -12243,18 +12079,6 @@ otl:graaf-ib-constructieveveiligheid {
                 sh:path otl:naam ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:VeiligheidsPlc a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheids PLC binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Veiligheids PLC"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
 
     otl-patroon:Veiligheidsdomein a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheidsdomein binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
@@ -12572,6 +12396,26 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
 
+    otl-patroon:Verkeersbaan a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersbaan binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Verkeersbaan"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:baanpositie ],
+            [ sh:minCount 1 ;
+                sh:path otl:begafstand ],
+            [ sh:minCount 1 ;
+                sh:path otl:eindafstand ],
+            [ sh:minCount 1 ;
+                sh:path otl:hmletter ],
+            [ sh:minCount 1 ;
+                sh:path otl:lengte ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:oppervlakte ],
+            [ sh:minCount 1 ;
+                sh:path otl:rijbaanrichting ] .
+
     otl-patroon:Verkeersbord a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersbord binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Verkeersbord"@nl ;
@@ -12626,18 +12470,6 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
 
-    otl-patroon:VerkeersgeleidingEnEvacuatieverlichting a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleiding- en evacuatieverlichting binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Verkeersgeleiding- en evacuatieverlichting"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Verkeersgeleidingsverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersgeleidingsverlichting binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Verkeersgeleidingsverlichting"@nl ;
@@ -12658,13 +12490,35 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
 
-    otl-patroon:Verkeersintensiteit a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersintensiteit binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Verkeersintensiteit"@nl ;
+    otl-patroon:Verkeersregelinstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersregelinstallatie binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Verkeersregelinstallatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:discipline ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:theoretischelevensduur ] .
+
+    otl-patroon:Verkeersstrook a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersstrook binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Verkeersstrook"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:einddatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:startdatum ] .
+
+    otl-patroon:Verkeerstoestand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeerstoestand binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Verkeerstoestand"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:aantalautos ],
             [ sh:minCount 1 ;
-                sh:path otl:aantalmiddelzwareautos ],
+                sh:path otl:aantalmiddelzwarevrachtautos ],
             [ sh:minCount 1 ;
                 sh:path otl:aantalzwarevrachtautos ],
             [ sh:minCount 1 ;
@@ -12678,21 +12532,9 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:tijdsblok ] .
 
-    otl-patroon:Verkeersregelinstallatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersregelinstallatie binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Verkeersregelinstallatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
-    otl-patroon:Verlichtingsinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichtingsinstallaties binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Verlichtingsinstallaties"@nl ;
+    otl-patroon:Verlichting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichting binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Verlichting"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
@@ -12822,12 +12664,6 @@ otl:graaf-ib-constructieveveiligheid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verzorgingsplaats binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Verzorgingsplaats"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerder ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
@@ -13098,18 +12934,6 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
 
-    otl-patroon:VluchtweginstallatieVerlichtingEnVasteBorden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtweginstallatie- verlichting en vaste borden binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Vluchtweginstallatie- verlichting en vaste borden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Vluchtwegverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtwegverlichting binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Vluchtwegverlichting"@nl ;
@@ -13117,30 +12941,6 @@ otl:graaf-ib-constructieveveiligheid {
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:VoedingenHpEnPbKasten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingen HP en PB kasten binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Voedingen HP en PB kasten"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
-    otl-patroon:VoedingsinstallatieOnder50V a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voedingsinstallatie onder 50V binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Voedingsinstallatie onder 50V"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
 
     otl-patroon:Voegconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voegconstructie binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
@@ -13294,23 +13094,13 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
 
-    otl-patroon:VorstbeveiligingEnVerwarming a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vorstbeveiliging en verwarming binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
-        sh:name "Vorstbeveiliging en verwarming"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:discipline ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:theoretischelevensduur ] .
-
     otl-patroon:Vrachtwagenstrook a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vrachtwagenstrook binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Vrachtwagenstrook"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:einddatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
             [ sh:minCount 1 ;
                 sh:path otl:startdatum ] .
 
@@ -13350,7 +13140,7 @@ otl:graaf-ib-constructieveveiligheid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bron ],
             [ sh:minCount 1 ;
-                sh:path otl:datumtijd ],
+                sh:path otl:datumtijdgeconstateerd ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -13542,8 +13332,6 @@ otl:graaf-ib-constructieveveiligheid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
-                sh:path otl:bouwdatum ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
@@ -13556,11 +13344,17 @@ otl:graaf-ib-constructieveveiligheid {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ],
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
+
+    otl-patroon:WaterplantOndergedoken a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant ondergedoken binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Waterplant ondergedoken"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bouwdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Waterreguleringswerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterreguleringswerk binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
@@ -13606,12 +13400,6 @@ otl:graaf-ib-constructieveveiligheid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Weg binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
         sh:name "Weg"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:asseteigenaar ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerder ],
-            [ sh:minCount 1 ;
-                sh:path otl:beheerorganisatie ],
-            [ sh:minCount 1 ;
                 sh:path otl:bouwdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:categorie ],
@@ -13659,6 +13447,12 @@ otl:graaf-ib-constructieveveiligheid {
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:theoretischelevensduur ] .
+
+    otl-patroon:Wegvak a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wegvak binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
+        sh:name "Wegvak"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:Weide a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Weide binnen de context van informatieproduct Constructieve Veiligheid"@nl ;
@@ -13809,6 +13603,8 @@ otl:graaf-ib-constructieveveiligheid {
         sh:name "Wisselstrook"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:einddatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
             [ sh:minCount 1 ;
                 sh:path otl:startdatum ] .
 
@@ -14103,11 +13899,11 @@ otl:graaf-ib-constructieveveiligheid {
                 sh:path otl:theoretischelevensduur ] .
 
     otl:graaf-ib-constructieveveiligheid a owl:Ontology ;
-        dct:created "2023-02-01"^^xsd:date ;
+        dct:created "2023-04-04"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Constructieve Veiligheid' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Constructieve Veiligheid'"@nl ;
-        pav:currentVersion otl:graaf-ib-constructieveveiligheid-3.1.20 ;
-        pav:derivedFrom "IBRWS Release 20" ;
+        pav:currentVersion otl:graaf-ib-constructieveveiligheid-3.1.21 ;
+        pav:derivedFrom "IB RWS release 21" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .
