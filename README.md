@@ -1,4 +1,4 @@
-# Rijkswaterstaat AIRBIM-OTL
+# Rijkswaterstaat OTL
 
 Welkom op de officiele, openbare Git repository van de Rijkswaterstaat Object Type Library (OTL).
 
