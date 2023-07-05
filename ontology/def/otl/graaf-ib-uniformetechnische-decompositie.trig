@@ -1,0 +1,1305 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix otl: <https://data.rws.nl/def/otl/> .
+@prefix otl-patroon: <https://data.rws.nl/def/otl-patroon/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+otl:graaf-ib-uniformetechnische-decompositie {
+    otl-patroon:Aandrijving a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aandrijving binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Aandrijving"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Aanloopgebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aanloopgebied binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Aanloopgebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Aansluitleiding a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aansluitleiding binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Aansluitleiding"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Aardelektrode a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aardelektrode binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Aardelektrode"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Achtergrondschild a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Achtergrondschild binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Achtergrondschild"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Achterloopsheidscherm a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Achterloopsheidscherm binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Achterloopsheidscherm"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Afscheiding a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afscheiding binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Afscheiding"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Afsluitboom a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afsluitboom binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Afsluitboom"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Ankergebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ankergebied binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Ankergebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Antivandalismevoorziening a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Antivandalismevoorziening binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Antivandalismevoorziening"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Antiverblindingsscherm a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Antiverblindingsscherm binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Antiverblindingsscherm"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Appendage a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Appendage binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Appendage"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Armatuur a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Armatuur binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Armatuur"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Balanspriem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Balanspriem binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Balanspriem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Balk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Balk binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Balk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:BebordingEnBewegwijzering a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bebording en bewegwijzering binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Bebording en bewegwijzering"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Beeindigingsprofiel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beëindigingsprofiel binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Beëindigingsprofiel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:BegroeidTerreindeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Begroeid terreindeel binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Begroeid terreindeel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Begroeiing a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Begroeiing binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Begroeiing"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Bekleding a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bekleding binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Bekleding"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Berm a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berm binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Berm"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Beschoeiing a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beschoeiing binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Beschoeiing"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Betonverharding a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Betonverharding binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Betonverharding"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Bewegwijzeringsbord a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bewegwijzeringsbord binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Bewegwijzeringsbord"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Blokkenmuur a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Blokkenmuur binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Blokkenmuur"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Bodem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bodem binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Bodem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Bodemstabilisatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bodemstabilisatie binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Bodemstabilisatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Boog a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Boog binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Boog"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Boom a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Boom binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Boom"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Bordes a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bordes binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Bordes"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:CalamiteitenDoorsteekInstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Calamiteiten Doorsteek installatie binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Calamiteiten Doorsteek installatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:CameraBeweegbaar a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Camera beweegbaar binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Camera beweegbaar"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:CameraVast a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Camera vast binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Camera vast"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:ClosedCircuitTelevisionInstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Closed Circuit TeleVision installatie binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Closed Circuit TeleVision installatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Combiwand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Combiwand binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Combiwand"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Console a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Console binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Console"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Contragewicht a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Contragewicht binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Contragewicht"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Dak a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dak binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Dak"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Damwand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Damwand binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Damwand"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:DamwandBovenwatertalud a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Damwand bovenwatertalud binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Damwand bovenwatertalud"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:DamwandOnderwatertalud a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Damwand onderwatertalud binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Damwand onderwatertalud"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:DeklaagDicht a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deklaag (dicht) binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Deklaag (dicht)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:DeklaagOpen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deklaag (open) binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Deklaag (open)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Deksel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deksel binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Deksel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Detectielus a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detectielus binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Detectielus"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Detector a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detector binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Detector"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Deur a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deur binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Deur"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:DiagonaalVakwerkligger a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Diagonaal vakwerkligger binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Diagonaal vakwerkligger"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Diepwand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Diepwand binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Diepwand"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Display a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Display binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Display"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Doorlaatkoker a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doorlaatkoker binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Doorlaatkoker"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Draad a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Draad binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Draad"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Draadstang a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Draadstang binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Draadstang"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Draaipoort a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Draaipoort binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Draaipoort"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Drainage a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drainage binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Drainage"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Drainagebuis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drainagebuis binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Drainagebuis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Drainmonding a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drainmonding binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Drainmonding"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Drempel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drempel binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Drempel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Drukpalen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drukpalen binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Drukpalen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Duiker a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duiker binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Duiker"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Dwarsdrager a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dwarsdrager binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Dwarsdrager"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:DynamischeBewegwijzeringEnInformatieSystemen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dynamische bewegwijzering en informatie systemen binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Dynamische bewegwijzering en informatie systemen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Elementenverharding a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Elementenverharding binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Elementenverharding"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Energiekabel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Energiekabel binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Energiekabel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:FaunaInsprong a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fauna-insprong binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Fauna-insprong"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:FaunaUittreedplaats a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fauna uittreedplaats binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Fauna uittreedplaats"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Faunadekking a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunadekking binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Faunadekking"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Faunageleiding a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunageleiding binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Faunageleiding"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Faunaopening a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunaopening binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Faunaopening"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Faunawand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunawand binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Faunawand"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Filterconstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Filterconstructie binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Filterconstructie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Frame a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Frame binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Frame"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Fundatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fundatie binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Fundatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Fundering a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fundering binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Fundering"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:FunderingslaagGebonden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Funderingslaag (gebonden) binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Funderingslaag (gebonden)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:FunderingslaagOngebonden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Funderingslaag (ongebonden) binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Funderingslaag (ongebonden)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Gaas a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gaas binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Gaas"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Geleidebarrier a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geleidebarriër binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Geleidebarriër"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Geleideconstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geleideconstructie binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Geleideconstructie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Geleiderail a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geleiderail binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Geleiderail"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:GeluidbeperkendeConstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidbeperkende constructie binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Geluidbeperkende constructie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Gladheidsmeldsysteem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gladheidsmeldsysteem binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Gladheidsmeldsysteem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Goot a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Goot binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Goot"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Gording a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gording binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Gording"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:GrasKruid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gras/kruid binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Gras/kruid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Grendel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grendel binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Grendel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Greppel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Greppel binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Greppel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Grindkoffer a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grindkoffer binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Grindkoffer"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Grondlichaam a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grondlichaam binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Grondlichaam"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Grondverbetering a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grondverbetering binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Grondverbetering"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Haag a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Haag binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Haag"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Halfverharding a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Halfverharding binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Halfverharding"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Hameistijl a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hameistijl binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Hameistijl"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:HangerBoogbrug a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hanger boogbrug binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Hanger boogbrug"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Hangstang a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hangstang binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Hangstang"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Har a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Har binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Har"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Hectometerbord a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hectometerbord binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Hectometerbord"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Heester a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Heester binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Heester"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Hek a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hek binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Hek"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Helofytenfilter a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Helofytenfilter binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Helofytenfilter"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Hemelwaterafvoer a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hemelwaterafvoer binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Hemelwaterafvoer"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:InGrondVervaardigdePalen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type In grond vervaardigde palen binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "In grond vervaardigde palen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Informatiebord a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Informatiebord binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Informatiebord"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Instroomopening a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instroomopening binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Instroomopening"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Kabelgoot a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kabelgoot binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Kabelgoot"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Kast a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kast binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Kast"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Keermuur a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Keermuur binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Keermuur"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Keerplaats a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Keerplaats binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Keerplaats"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:KerendeConstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kerende constructie binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Kerende constructie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Kesp a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kesp binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Kesp"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Kolk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kolk binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Kolk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Kolom a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kolom binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Kolom"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Laagspanningsinstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laagspanningsinstallatie binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Laagspanningsinstallatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Ladder a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ladder binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Ladder"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Landhoofd a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Landhoofd binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Landhoofd"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Landverkeerssein a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Landverkeerssein binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Landverkeerssein"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Langsligger a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Langsligger binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Langsligger"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Leuning a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Leuning binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Leuning"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Leuningconstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Leuningconstructie binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Leuningconstructie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Looppoort a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Looppoort binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Looppoort"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Loopstrook a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Loopstrook binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Loopstrook"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Luik a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Luik binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Luik"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Markering a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Markering binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Markering"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Mast a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Mast binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Mast"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Obstakelbeveiliger a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Obstakelbeveiliger binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Obstakelbeveiliger"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:OnbegroeidTerreindeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onbegroeid terreindeel binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Onbegroeid terreindeel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Onderdoorgang a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderdoorgang binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Onderdoorgang"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Onderlaag a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderlaag binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Onderlaag"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Onderloopsheidscherm a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderloopsheidscherm binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Onderloopsheidscherm"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:OnverhardOppervlak a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onverhard oppervlak binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Onverhard oppervlak"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:OpenBuispalen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Open buispalen binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Open buispalen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:OpenbareVerlichting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Openbare verlichting binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Openbare verlichting"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Ophangconstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ophangconstructie binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Ophangconstructie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Oplegbalk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oplegbalk binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Oplegbalk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Oplegblok a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oplegblok binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Oplegblok"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Oplegging a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oplegging binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Oplegging"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Oplegstoel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oplegstoel binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Oplegstoel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Oplegtafel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oplegtafel binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Oplegtafel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Opsluitconstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Opsluitconstructie binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Opsluitconstructie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Oversteek a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oversteek binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Oversteek"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Paal a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Paal binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Paal"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Paneel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Paneel binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Paneel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Pijler a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pijler binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Pijler"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Plaatveld a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Plaatveld binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Plaatveld"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Pomp a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pomp binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Pomp"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Portaal a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Portaal binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Portaal"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Put a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Put binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Put"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Pyloon a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pyloon binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Pyloon"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Randelement a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Randelement binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Randelement"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:RijIJzer a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rij-ijzer binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Rij-ijzer"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Rijdek a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rijdek binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Rijdek"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Rooster a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rooster binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Rooster"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:SamengesteldeDamwand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Samengestelde damwand binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Samengestelde damwand"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Schacht a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schacht binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Schacht"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Schampkant a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schampkant binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Schampkant"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Schampstrook a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schampstrook binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Schampstrook"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Schanskorf a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schanskorf binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Schanskorf"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Schort a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schort binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Schort"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Schotbalksponning a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schotbalksponning binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Schotbalksponning"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Schuifpoort a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schuifpoort binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Schuifpoort"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Signaalgever a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signaalgever binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Signaalgever"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Signaalkabel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signaalkabel binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Signaalkabel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Slijtlaag a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Slijtlaag binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Slijtlaag"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Sloof a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sloof binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Sloof"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Sloot a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sloot binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Sloot"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Staalkabel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Staalkabel binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Staalkabel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Steenhoop a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Steenhoop binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Steenhoop"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Stempelbuis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stempelbuis binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Stempelbuis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Steunpunt a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Steunpunt binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Steunpunt"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Stijl a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stijl binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Stijl"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Stobbenwal a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stobbenwal binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Stobbenwal"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Stortebed a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stortebed binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Stortebed"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Takkenril a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Takkenril binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Takkenril"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Talud a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Talud binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Talud"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Trap a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Trap binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Trap"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Trekpalen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Trekpalen binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Trekpalen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Tuidraad a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tuidraad binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Tuidraad"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Tussenlaag a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussenlaag binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Tussenlaag"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Uithouder a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uithouder binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Uithouder"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Uitstroomopening a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uitstroomopening binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Uitstroomopening"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Vaargeul a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vaargeul binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Vaargeul"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:VerhardingWegtype1Hoofdwegennet a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verharding wegtype 1 (hoofdwegennet) binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Verharding wegtype 1 (hoofdwegennet)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:VerhardingWegtype2ZwaarbelasteWeg a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verharding wegtype 2 (zwaarbelaste weg) binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Verharding wegtype 2 (zwaarbelaste weg)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:VerhardingWegtype3GemiddeldBelasteWeg a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verharding wegtype 3 (gemiddeld belaste weg) binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Verharding wegtype 3 (gemiddeld belaste weg)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:VerhardingWegtype4LichtBelast a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verharding wegtype 4 (licht belast) binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Verharding wegtype 4 (licht belast)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:VerhardingWegtype5WegInWoongebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verharding wegtype 5 (weg in woongebied) binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Verharding wegtype 5 (weg in woongebied)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:VerhardingWegtype6WegInVerblijfsgebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verharding wegtype 6 (weg in verblijfsgebied) binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Verharding wegtype 6 (weg in verblijfsgebied)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:VerhardingWegtype7Fietspaden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verharding wegtype 7 (fietspaden) binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Verharding wegtype 7 (fietspaden)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Verkeersbord a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersbord binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Verkeersbord"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Verkeersregelinstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersregelinstallatie binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Verkeersregelinstallatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:VerplaatsbareVangrailInstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verplaatsbare Vangrail installatie binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Verplaatsbare Vangrail installatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:VerticaalVakwerkligger a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verticaal vakwerkligger binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Verticaal vakwerkligger"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Verzorgingsplaats a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verzorgingsplaats binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Verzorgingsplaats"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Viaduct a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Viaduct binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Viaduct"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Vleugelwand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vleugelwand binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Vleugelwand"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Vloer a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vloer binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Vloer"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Vluchtdeur a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtdeur binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Vluchtdeur"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Voegovergang a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voegovergang binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Voegovergang"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Waarschuwingslicht a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waarschuwingslicht binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Waarschuwingslicht"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Wand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wand binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Wand"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Wandafwerking a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wandafwerking binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Wandafwerking"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Wandconstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wandconstructie binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Wandconstructie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Waterbodem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterbodem binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Waterbodem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Waterlichaam a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterlichaam binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Waterlichaam"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Waterplant a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Waterplant"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Weg a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Weg binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Weg"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Wegkantsysteem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wegkantsysteem binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Wegkantsysteem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Wegkruipplek a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wegkruipplek binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Wegkruipplek"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Wegmarkering a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wegmarkering binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Wegmarkering"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:WeighInMotion a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Weigh In Motion binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Weigh In Motion"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Windverband a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Windverband binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Windverband"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Wingebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wingebied binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Wingebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Woelbak a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Woelbak binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Woelbak"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl-patroon:Zonnepaneel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zonnepaneel binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
+        sh:name "Zonnepaneel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:subtypeutd ] .
+
+    otl:graaf-ib-uniformetechnische-decompositie a owl:Ontology ;
+        dct:created "2023-06-14"^^xsd:date ;
+        dct:description "Het informatiemodel voor informatieproduct 'Uniforme Technische Decompositie' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
+        dct:title "IB voor informatieproduct 'Uniforme Technische Decompositie'"@nl ;
+        pav:derivedFrom "IB RWS release 22" ;
+        pav:version "3.1.22" ;
+        owl:imports pav:,
+            unit:,
+            otl:graaf-informatiemodel .
+}
+

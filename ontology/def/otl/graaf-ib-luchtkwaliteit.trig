@@ -12,39 +12,39 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aandrijving binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Aandrijving"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Aanslag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aanslag binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Aanslag"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Aansluitconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aansluitconstructie binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Aansluitconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Aansluitleiding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aansluitleiding binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Aansluitleiding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -54,19 +54,19 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Aardelektrode a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aardelektrode binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Aardelektrode"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Accu a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Accu binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -82,19 +82,19 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Achterplaat binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Achterplaat"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Afdichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afdichting binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Afdichting"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -102,19 +102,19 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afdichtingsprofiel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Afdichtingsprofiel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Afsluitboom a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afsluitboom binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Afsluitboom"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -122,11 +122,11 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afsluitboomverlichting binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Afsluitboomverlichting"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Afsluiter a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afsluiter binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -142,9 +142,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afvalbak binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Afvalbak"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -164,9 +164,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Antiverblindingsscherm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Antiverblindingsscherm binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -174,19 +174,19 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Appendage a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Appendage binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Appendage"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Aquaduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aquaduct binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -198,11 +198,11 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Armatuur binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Armatuur"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Asfaltverharding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Asfaltverharding binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -210,9 +210,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Balg a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Balg binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -220,39 +220,39 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Balk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Balk binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Balk"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Bank a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bank binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Bank"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Bedieningspaneel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bedieningspaneel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Bedieningspaneel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Beeindigingsprofiel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beëindigingsprofiel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -260,19 +260,19 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Begroeiing a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Begroeiing binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Begroeiing"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Beheerorganisatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beheerorganisatie binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -284,59 +284,59 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beheersmaatregel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Beheersmaatregel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:naam ] .
 
     otl-patroon:Bekabeling a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bekabeling binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Bekabeling"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Bekleding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bekleding binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Bekleding"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Belijning a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Belijning binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Belijning"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:type ] .
+                sh:path otl:type ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Beplating a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beplating binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Beplating"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Beschermlaag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beschermlaag binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Beschermlaag"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -344,21 +344,21 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beschoeiing binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Beschoeiing"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Betonverharding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Betonverharding binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Betonverharding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Bevestiging a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bevestiging binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -366,47 +366,47 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Bewegwijzeringsbord a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bewegwijzeringsbord binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Bewegwijzeringsbord"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Bliksemafleider a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bliksemafleider binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Bliksemafleider"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Blokkenmuur a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Blokkenmuur binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Blokkenmuur"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Bodembedekker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bodembedekker binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Bodembedekker"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -424,19 +424,19 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Boog binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Boog"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Boom a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Boom binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Boom"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -454,9 +454,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandblusser binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Brandblusser"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -464,9 +464,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Buffer binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Buffer"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -474,21 +474,21 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Buisaansluiting binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Buisaansluiting"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Buisleiding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Buisleiding binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Buisleiding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:CameraBeweegbaar a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Camera beweegbaar binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -504,21 +504,21 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Camera vast binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Camera vast"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Centrale a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Centrale binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Centrale"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Cilinder a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Cilinder binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -534,9 +534,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Compressor binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Compressor"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -544,31 +544,31 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Console binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Console"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Contragewicht a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Contragewicht binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Contragewicht"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Dak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dak binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Dak"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Damwand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Damwand binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -576,27 +576,39 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:DamwandBovenwatertalud a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Damwand bovenwatertalud binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Damwand bovenwatertalud"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:DamwandOnderwatertalud a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Damwand onderwatertalud binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Damwand onderwatertalud"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
+
+    otl-patroon:Deklaag a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deklaag binnen de context van informatieproduct Luchtkwaliteit"@nl ;
+        sh:name "Deklaag"@nl ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:verhardingsvlak ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -604,11 +616,11 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deklaag (dicht) binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Deklaag (dicht)"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:verhardingsvlak ] .
 
@@ -616,23 +628,23 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deklaag (open) binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Deklaag (open)"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:verhardingsvlak ],
             [ sh:minCount 1 ;
-                sh:path otl:verhardingsvlak ] .
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ] .
 
     otl-patroon:Deksel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deksel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Deksel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Dekzerkprofiel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dekzerkprofiel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -643,6 +655,16 @@ otl:graaf-ib-luchtkwaliteit {
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
+
+    otl-patroon:DetectieOnderstation a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detectie onderstation binnen de context van informatieproduct Luchtkwaliteit"@nl ;
+        sh:name "Detectie onderstation"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Detectielus a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detectielus binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -658,41 +680,51 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detector binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Detector"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
+
+    otl-patroon:Detectorstation a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detectorstation binnen de context van informatieproduct Luchtkwaliteit"@nl ;
+        sh:name "Detectorstation"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Deur a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deur binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Deur"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Deurgeleiding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deurgeleiding binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Deurgeleiding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:DiagonaalVakwerkligger a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Diagonaal vakwerkligger binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Diagonaal vakwerkligger"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Dilatatievoeg a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dilatatievoeg binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -708,9 +740,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Display binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Display"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -718,9 +750,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doorvoer binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Doorvoer"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -728,29 +760,29 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Draadstang binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Draadstang"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Draaipunt a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Draaipunt binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Draaipunt"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Drainagebuis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drainagebuis binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Drainagebuis"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -768,21 +800,21 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drempel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Drempel"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Drijfkist a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drijfkist binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Drijfkist"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Drijfraam a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drijfraam binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -798,11 +830,11 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duinovergang binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Duinovergang"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Duinstruweel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duinstruweel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -820,19 +852,19 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Dwarsdrager a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dwarsdrager binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Dwarsdrager"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Ecoduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ecoduct binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -844,11 +876,11 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Elektromotor binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Elektromotor"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Elementenverharding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Elementenverharding binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -856,9 +888,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:EmbryonaalDuin a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Embryonaal-duin binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -876,39 +908,39 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Evacuatieverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Evacuatieverlichting binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Evacuatieverlichting"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Faunaopening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunaopening binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Faunaopening"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Faunaspiegel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunaspiegel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Faunaspiegel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Faunawand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunawand binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -916,19 +948,19 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Filterconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Filterconstructie binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Filterconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Flens a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Flens binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -944,11 +976,11 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Folie binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Folie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Frame a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Frame binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -956,27 +988,37 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Fundatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fundatie binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Fundatie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
+
+    otl-patroon:Funderingslaag a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Funderingslaag binnen de context van informatieproduct Luchtkwaliteit"@nl ;
+        sh:name "Funderingslaag"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:FunderingslaagGebonden a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Funderingslaag (gebonden) binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Funderingslaag (gebonden)"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -984,37 +1026,37 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Funderingslaag (ongebonden) binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Funderingslaag (ongebonden)"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Gaas a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gaas binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Gaas"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Gebruiksgebied a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebruiksgebied binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Gebruiksgebied"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:naam ] .
 
     otl-patroon:Geleidebarrier a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geleidebarriër binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Geleidebarriër"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -1024,19 +1066,19 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Geleiderail a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geleiderail binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Geleiderail"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Geleidewerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geleidewerk binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1044,9 +1086,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Gelijkrichter a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gelijkrichter binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1054,85 +1096,85 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:GeluidbeperkendeConstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidbeperkende constructie binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Geluidbeperkende constructie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:hoogte ],
+                sh:path otl:type ],
             [ sh:minCount 1 ;
-                sh:path otl:type ] .
+                sh:path otl:hoogte ] .
 
     otl-patroon:Generator a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Generator binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Generator"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Geometrie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geometrie binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Geometrie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:rdWaarde ],
+                sh:path otl:type ],
             [ sh:minCount 1 ;
-                sh:path otl:type ] .
+                sh:path otl:rdWaarde ] .
 
     otl-patroon:Geotextiel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geotextiel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Geotextiel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Goot a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Goot binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Goot"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Gording a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gording binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Gording"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:GrasKruid a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gras/kruid binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Gras/kruid"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Grindkoffer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grindkoffer binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Grindkoffer"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Grondlichaam a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grondlichaam binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1140,9 +1182,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Haag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Haag binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1150,17 +1192,17 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Haalkom a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Haalkom binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Haalkom"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -1168,11 +1210,11 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Halfverharding binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Halfverharding"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:HangerBoogbrug a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hanger boogbrug binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1188,11 +1230,11 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hectometerbord binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Hectometerbord"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Heester a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Heester binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1208,77 +1250,87 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hefdeur binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Hefdeur"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Hek a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hek binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Hek"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Hoofdsysteem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofdsysteem binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Hoofdsysteem"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:naam ] .
 
     otl-patroon:Hoofdverdeler a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofdverdeler binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Hoofdverdeler"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
+
+    otl-patroon:Hulpdienstpaneel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hulpdienstpaneel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
+        sh:name "Hulpdienstpaneel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:HydraulischAggregaat a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hydraulisch aggregaat binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Hydraulisch aggregaat"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:IndividueleBehandelingVanAfvalwater a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Individuele Behandeling van Afvalwater binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Individuele Behandeling van Afvalwater"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Informatiebord a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Informatiebord binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Informatiebord"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Inlaat a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Inlaat binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Inlaat"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -1286,11 +1338,11 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatiekabel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Installatiekabel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Instroomopening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instroomopening binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1298,9 +1350,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Intercom a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Intercom binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1308,9 +1360,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Kaapstander a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kaapstander binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1318,17 +1370,17 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Kabelgoot a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kabelgoot binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Kabelgoot"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -1336,19 +1388,19 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kapiteel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Kapiteel"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Kast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kast binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Kast"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -1356,41 +1408,41 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Keermuur binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Keermuur"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Kerf a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kerf binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Kerf"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Kesp a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kesp binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Kesp"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Ketting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ketting binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Ketting"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Kist a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kist binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1406,11 +1458,11 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Klep binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Klep"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Klepketting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Klepketting binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1418,9 +1470,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Koker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Koker binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1436,11 +1488,11 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kolk binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Kolk"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Kolom a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kolom binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1448,37 +1500,37 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Koppeling a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Koppeling binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Koppeling"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Kribbaken a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kribbaken binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Kribbaken"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Kunstobject a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kunstobject binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Kunstobject"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -1488,37 +1540,37 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Ladder a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ladder binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Ladder"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Landhoofd a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Landhoofd binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Landhoofd"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Landverkeerssein a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Landverkeerssein binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Landverkeerssein"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -1526,21 +1578,21 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Langsligger binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Langsligger"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Leuning a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Leuning binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Leuning"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Leuningafwerking a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Leuningafwerking binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1548,9 +1600,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Lichtgroepenkast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtgroepenkast binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1558,19 +1610,19 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Lichtopstand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtopstand binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Lichtopstand"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:LocalAreaNetwork a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Local Area Network binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1578,69 +1630,69 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Loopkat a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Loopkat binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Loopkat"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Loopplank a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Loopplank binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Loopplank"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Loopstrook a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Loopstrook binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Loopstrook"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Luchtkanaal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Luchtkanaal binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Luchtkanaal"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Luidspreker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Luidspreker binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Luidspreker"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Luik a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Luik binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Luik"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Maaiveld a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Maaiveld binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1648,9 +1700,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Mast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Mast binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1658,9 +1710,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Meerpaal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Meerpaal binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1668,29 +1720,29 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Meerstoel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Meerstoel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Meerstoel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Meetpunt a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Meetpunt binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Meetpunt"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Meubilair a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Meubilair binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1698,49 +1750,49 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Monitor a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Monitor binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Monitor"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Nivelleerschuif a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nivelleerschuif binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Nivelleerschuif"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Noodhandbediening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Noodhandbediening binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Noodhandbediening"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Noodstop a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Noodstop binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Noodstop"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Obstakelbeveiliger a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Obstakelbeveiliger binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1748,29 +1800,39 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Oevervegetatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oevervegetatie binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Oevervegetatie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
+
+    otl-patroon:Onderdeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderdeel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
+        sh:name "Onderdeel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Onderlaag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderlaag binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Onderlaag"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Onderloopsheidscherm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderloopsheidscherm binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1778,17 +1840,17 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Onderverdeler a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderverdeler binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Onderverdeler"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -1796,19 +1858,19 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ontvangbed binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Ontvangbed"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:OnverhardOppervlak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onverhard oppervlak binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Onverhard oppervlak"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -1816,9 +1878,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Op- en afrit binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Op- en afrit"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -1838,9 +1900,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Oplegpunt a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oplegpunt binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1858,17 +1920,17 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Opsluitband a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Opsluitband binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Opsluitband"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -1876,29 +1938,29 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Opsluitconstructie binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Opsluitconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Overgangsplaat a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Overgangsplaat binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Overgangsplaat"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Overspanningbeveiliging a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Overspanningbeveiliging binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Overspanningbeveiliging"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -1906,21 +1968,21 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oversteek binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Oversteek"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Paal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Paal binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Paal"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Paalbeugel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Paalbeugel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1928,9 +1990,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Palenrij a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Palenrij binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -1938,17 +2000,17 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Paneel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Paneel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Paneel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -1958,17 +2020,17 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Peilschaal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Peilschaal binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Peilschaal"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -1976,47 +2038,49 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pijler binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Pijler"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Plaatveld a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Plaatveld binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Plaatveld"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Planfase a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Planfase binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Planfase"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:complexiteitsniveau ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:eindfase ],
+            [ sh:minCount 1 ;
+                sh:path otl:proces ],
+            [ sh:minCount 1 ;
+                sh:path otl:eindmaand ],
+            [ sh:minCount 1 ;
+                sh:path otl:startfase ],
+            [ sh:minCount 1 ;
+                sh:path otl:doorlooptijdmaanden ],
+            [ sh:minCount 1 ;
+                sh:path otl:scope ],
+            [ sh:minCount 1 ;
                 sh:path otl:aanleiding ],
             [ sh:minCount 1 ;
                 sh:path otl:beginmaand ],
             [ sh:minCount 1 ;
-                sh:path otl:complexiteitsniveau ],
-            [ sh:minCount 1 ;
-                sh:path otl:doel ],
-            [ sh:minCount 1 ;
-                sh:path otl:eindfase ],
-            [ sh:minCount 1 ;
-                sh:path otl:eindmaand ],
-            [ sh:minCount 1 ;
                 sh:path otl:naam ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:proces ],
-            [ sh:minCount 1 ;
-                sh:path otl:scope ],
-            [ sh:minCount 1 ;
-                sh:path otl:startfase ] .
+                sh:path otl:doel ] .
 
     otl-patroon:Plant a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Plant binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2062,9 +2126,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Portofoon binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Portofoon"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -2072,67 +2136,67 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Programmable Logic Controller binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Programmable Logic Controller"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Project a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Project binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Project"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:type1EBesluit ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumeerstebesluit ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumrealisatie ],
-            [ sh:minCount 1 ;
-                sh:path otl:doel ],
             [ sh:minCount 1 ;
                 sh:path otl:jaartal ],
             [ sh:minCount 1 ;
-                sh:path otl:naam ],
+                sh:path otl:datumrealisatie ],
             [ sh:minCount 1 ;
                 sh:path otl:scope ],
             [ sh:minCount 1 ;
-                sh:path otl:type1EBesluit ] .
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:doel ] .
 
     otl-patroon:Projectfase a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Projectfase binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Projectfase"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:aanleiding ],
+                sh:path otl:proces ],
             [ sh:minCount 1 ;
                 sh:path otl:doel ],
             [ sh:minCount 1 ;
-                sh:path otl:eindfase ],
-            [ sh:minCount 1 ;
                 sh:path otl:naam ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:startfase ],
             [ sh:minCount 1 ;
-                sh:path otl:proces ],
+                sh:path otl:aanleiding ],
+            [ sh:minCount 1 ;
+                sh:path otl:eindfase ],
             [ sh:minCount 1 ;
                 sh:path otl:scope ],
             [ sh:minCount 1 ;
-                sh:path otl:startfase ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Projectgebied a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Projectgebied binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Projectgebied"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:naam ] .
 
     otl-patroon:Puntdeur a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Puntdeur binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Puntdeur"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Putrand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Putrand binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2140,19 +2204,19 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Pyloon a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pyloon binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Pyloon"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Railbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Railbaan binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2160,9 +2224,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Railgeleiding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Railgeleiding binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2170,49 +2234,49 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Randelement a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Randelement binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Randelement"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Reddingsboei a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reddingsboei binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Reddingsboei"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Reductiekast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reductiekast binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Reductiekast"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Reflector a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reflector binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Reflector"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:RegelbareAandrijving a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Regelbare aandrijving binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2220,17 +2284,17 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Reling a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reling binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Reling"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -2248,9 +2312,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rij-ijzer binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Rij-ijzer"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -2258,9 +2322,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rijdek binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Rijdek"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -2268,41 +2332,41 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rijzendam binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Rijzendam"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Rivierhout a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rivierhout binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Rivierhout"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Roldeur a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Roldeur binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Roldeur"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Rooster a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rooster binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Rooster"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:SamengesteldeDamwand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Samengestelde damwand binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2310,17 +2374,17 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Schachtopbouw a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schachtopbouw binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Schachtopbouw"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -2328,9 +2392,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schakelaar binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Schakelaar"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -2350,29 +2414,29 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Scheepvaartsein a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Scheepvaartsein binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Scheepvaartsein"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Scherm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Scherm binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Scherm"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Schijnduiker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schijnduiker binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2380,9 +2444,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Schoor a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schoor binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2390,23 +2454,33 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Schort a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schort binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Schort"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Schotbalksponning a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schotbalksponning binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Schotbalksponning"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
+
+    otl-patroon:Schraalgrasland a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schraalgrasland binnen de context van informatieproduct Luchtkwaliteit"@nl ;
+        sh:name "Schraalgrasland"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
@@ -2428,11 +2502,11 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schuif binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Schuif"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Schuifketting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schuifketting binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2448,11 +2522,11 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sensor binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Sensor"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Server a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Server binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2460,59 +2534,59 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Signaalgever a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signaalgever binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Signaalgever"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Signaalkabel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signaalkabel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Signaalkabel"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Sleufopbouw a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sleufopbouw binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Sleufopbouw"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Sloof a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sloof binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Sloof"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Slufter a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Slufter binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Slufter"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Smeersysteem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Smeersysteem binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2520,17 +2594,17 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Spuisein a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Spuisein binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Spuisein"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -2558,11 +2632,11 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stijl binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Stijl"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Stobbenwal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stobbenwal binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2588,11 +2662,11 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stortebed binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Stortebed"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Strand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Strand binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2600,19 +2674,19 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Struikroos a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Struikroos binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Struikroos"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Stuifkuil a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stuifkuil binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2628,31 +2702,31 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stuifscherm binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Stuifscherm"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:SupervisoryControlAndDataAcquisition a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Supervisory Control and Data Acquisition binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Supervisory Control and Data Acquisition"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Switch a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Switch binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Switch"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Systeem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Systeem binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2666,19 +2740,19 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Systeemdeel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Systeemdeel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:naam ] .
 
     otl-patroon:Tafel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tafel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Tafel"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Takel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Takel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2694,19 +2768,19 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Takkenril binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Takkenril"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:TandwieloverbrengingOpen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging open binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Tandwieloverbrenging open"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -2726,27 +2800,27 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:normwaarde ],
             [ sh:minCount 1 ;
-                sh:path otl:risiconiveau ],
+                sh:path otl:toelichting ],
             [ sh:minCount 1 ;
-                sh:path otl:toelichting ] .
+                sh:path otl:risiconiveau ] .
 
     otl-patroon:Toplaag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toplaag binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Toplaag"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Trap a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Trap binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Trap"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -2754,9 +2828,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Trapafwerking binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Trapafwerking"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -2764,31 +2838,31 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Trekduwstang binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Trekduwstang"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Trottoirband a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Trottoirband binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Trottoirband"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Tuidraad a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tuidraad binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Tuidraad"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Tunnel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tunnel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2800,11 +2874,11 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussenlaag binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Tussenlaag"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Uitmonding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uitmonding binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2820,9 +2894,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Valreep binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Valreep"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -2830,19 +2904,19 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheidsventiel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Veiligheidsventiel"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Veldbus a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veldbus binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Veldbus"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -2850,9 +2924,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verbinding binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Verbinding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -2860,21 +2934,31 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verbindingsbrug binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Verbindingsbrug"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Verbrandingsmotor a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verbrandingsmotor binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Verbrandingsmotor"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:datumuitbedrijf ] .
+
+    otl-patroon:Verhardingslaag a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verhardingslaag binnen de context van informatieproduct Luchtkwaliteit"@nl ;
+        sh:name "Verhardingslaag"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Verkeersbord a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersbord binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2882,9 +2966,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
 
@@ -2894,39 +2978,39 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:aantalautos ],
             [ sh:minCount 1 ;
+                sh:path otl:baannummer ],
+            [ sh:minCount 1 ;
                 sh:path otl:aantalmiddelzwarevrachtautos ],
             [ sh:minCount 1 ;
-                sh:path otl:aantalzwarevrachtautos ],
-            [ sh:minCount 1 ;
-                sh:path otl:baannummer ],
+                sh:path otl:tijdsblok ],
             [ sh:minCount 1 ;
                 sh:path otl:dagdeel ],
             [ sh:minCount 1 ;
                 sh:path otl:fileindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:jaartal ],
+                sh:path otl:aantalzwarevrachtautos ],
             [ sh:minCount 1 ;
-                sh:path otl:tijdsblok ] .
+                sh:path otl:jaartal ] .
 
     otl-patroon:VerkeersintensiteitToekomstscenario a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersintensiteit toekomstscenario binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Verkeersintensiteit toekomstscenario"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:aantalautos ],
-            [ sh:minCount 1 ;
-                sh:path otl:aantalmiddelzwarevrachtautos ],
-            [ sh:minCount 1 ;
-                sh:path otl:aantalzwarevrachtautos ],
+                sh:path otl:tijdsblok ],
             [ sh:minCount 1 ;
                 sh:path otl:baannummer ],
-            [ sh:minCount 1 ;
-                sh:path otl:dagdeel ],
             [ sh:minCount 1 ;
                 sh:path otl:fileindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:jaartal ],
             [ sh:minCount 1 ;
-                sh:path otl:tijdsblok ] .
+                sh:path otl:aantalzwarevrachtautos ],
+            [ sh:minCount 1 ;
+                sh:path otl:aantalmiddelzwarevrachtautos ],
+            [ sh:minCount 1 ;
+                sh:path otl:dagdeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:aantalautos ] .
 
     otl-patroon:Verkeerssnelheid a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeerssnelheid binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2938,21 +3022,21 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeerstoestand binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Verkeerstoestand"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:aantalautos ],
-            [ sh:minCount 1 ;
-                sh:path otl:aantalmiddelzwarevrachtautos ],
-            [ sh:minCount 1 ;
-                sh:path otl:aantalzwarevrachtautos ],
+                sh:path otl:tijdsblok ],
             [ sh:minCount 1 ;
                 sh:path otl:baannummer ],
             [ sh:minCount 1 ;
-                sh:path otl:dagdeel ],
-            [ sh:minCount 1 ;
                 sh:path otl:fileindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:jaartal ],
+                sh:path otl:aantalmiddelzwarevrachtautos ],
             [ sh:minCount 1 ;
-                sh:path otl:tijdsblok ] .
+                sh:path otl:dagdeel ],
+            [ sh:minCount 1 ;
+                sh:path otl:aantalautos ],
+            [ sh:minCount 1 ;
+                sh:path otl:aantalzwarevrachtautos ],
+            [ sh:minCount 1 ;
+                sh:path otl:jaartal ] .
 
     otl-patroon:Versterker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Versterker binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2960,9 +3044,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:VerticaalVakwerkligger a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verticaal vakwerkligger binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -2978,19 +3062,19 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verwarmingstoestel binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Verwarmingstoestel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Verwerkingseenheid a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verwerkingseenheid binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Verwerkingseenheid"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -3004,29 +3088,29 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Videomatrix binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Videomatrix"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Vleugelwand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vleugelwand binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Vleugelwand"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Vloer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vloer binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Vloer"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -3036,9 +3120,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Voegconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voegconstructie binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -3046,17 +3130,17 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:VoeglozeOvergang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voegloze overgang binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Voegloze overgang"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -3064,9 +3148,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voetpedaal binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Voetpedaal"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -3084,61 +3168,61 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wand binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Wand"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Waterbodem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterbodem binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Waterbodem"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Waterplant a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Waterplant"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:WegsegmentLuchtkwaliteit a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wegsegment luchtkwaliteit binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Wegsegment luchtkwaliteit"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:rijlijn ],
+                sh:path otl:waardeluchtkwaliteit ],
             [ sh:minCount 1 ;
-                sh:path otl:waardeluchtkwaliteit ] .
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:rijlijn ] .
 
     otl-patroon:Wegvak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wegvak binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Wegvak"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:rijlijn ] .
+                sh:path otl:rijlijn ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:WideAreaNetwork a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wide Area Network binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Wide Area Network"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -3146,19 +3230,19 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Windverband binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Windverband"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Wrijfgording a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wrijfgording binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Wrijfgording"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -3166,9 +3250,9 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wrijfschort binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Wrijfschort"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -3176,21 +3260,21 @@ otl:graaf-ib-luchtkwaliteit {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wrijfstijl binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Wrijfstijl"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Zandvang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zandvang binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Zandvang"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Zender a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zender binnen de context van informatieproduct Luchtkwaliteit"@nl ;
@@ -3198,26 +3282,26 @@ otl:graaf-ib-luchtkwaliteit {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Zinkstuk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zinkstuk binnen de context van informatieproduct Luchtkwaliteit"@nl ;
         sh:name "Zinkstuk"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl:graaf-ib-luchtkwaliteit a owl:Ontology ;
-        dct:created "2023-04-04"^^xsd:date ;
+        dct:created "2023-06-14"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Luchtkwaliteit' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Luchtkwaliteit'"@nl ;
-        pav:currentVersion otl:graaf-ib-luchtkwaliteit-3.1.21 ;
-        pav:derivedFrom "IB RWS release 21" ;
+        pav:derivedFrom "IB RWS release 22" ;
+        pav:version "3.1.22" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .
