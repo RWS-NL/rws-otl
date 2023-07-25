@@ -32,15 +32,47 @@ otl:graaf-ib-programmering {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:topcode ] .
 
+    otl-patroon:BeheersmaatregelRups a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beheersmaatregel RUPS binnen de context van informatieproduct Programmering"@nl ;
+        sh:name "Beheersmaatregel RUPS"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:adviesjaarvanuitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:invoerdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:uiterstjaarvanuitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:jaargerealiseerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:sturingstype ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachtekostenonderbouwing ],
+            [ sh:minCount 1 ;
+                sh:path otl:aangepastuiterstjaarvanuitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:handmatigtoegevoegdindicator ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsbasismaatregeltype ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeerjaarvanuitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:planjaarvanuitvoering ] .
+
     otl-patroon:BerekendeVoorzienenietbeschikbaarheid a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berekende VoorzieneNietBeschikbaarheid binnen de context van informatieproduct Programmering"@nl ;
         sh:name "Berekende VoorzieneNietBeschikbaarheid"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitgevoerd ],
-            [ sh:minCount 1 ;
                 sh:path otl:waarde ],
             [ sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitgevoerd ] .
 
     otl-patroon:Bosgebied a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bosgebied binnen de context van informatieproduct Programmering"@nl ;
@@ -142,9 +174,9 @@ otl:graaf-ib-programmering {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofdfunctie binnen de context van informatieproduct Programmering"@nl ;
         sh:name "Hoofdfunctie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:naam ] .
 
     otl-patroon:Hoofdsysteem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofdsysteem binnen de context van informatieproduct Programmering"@nl ;
@@ -216,15 +248,27 @@ otl:graaf-ib-programmering {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Observatie binnen de context van informatieproduct Programmering"@nl ;
         sh:name "Observatie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:programmeringsstatus ],
-            [ sh:minCount 1 ;
-                sh:path otl:naam ],
+                sh:path otl:invoerdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:verwachtekostenonderbouwing ],
             [ sh:minCount 1 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
                 sh:path otl:programmeringsmaatregelnummer ],
             [ sh:minCount 1 ;
+                sh:path otl:d3Product ],
+            [ sh:minCount 1 ;
+                sh:path otl:aangepastuiterstjaarvanuitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:jaargerealiseerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:sturingstype ],
+            [ sh:minCount 1 ;
                 sh:path otl:programmeringsbasismaatregeltype ],
+            [ sh:minCount 1 ;
+                sh:path otl:priocode ],
             [ sh:minCount 1 ;
                 sh:path otl:planjaarvanuitvoering ],
             [ sh:minCount 1 ;
@@ -232,13 +276,11 @@ otl:graaf-ib-programmering {
             [ sh:minCount 1 ;
                 sh:path otl:uiterstjaarvanuitvoering ],
             [ sh:minCount 1 ;
-                sh:path otl:priocode ],
+                sh:path otl:handmatigtoegevoegdindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:jaargerealiseerd ],
+                sh:path otl:programmeerjaarvanuitvoering ],
             [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 1 ;
-                sh:path otl:d3Product ] .
+                sh:path otl:naam ] .
 
     otl-patroon:Onderdoorgang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderdoorgang binnen de context van informatieproduct Programmering"@nl ;
@@ -262,71 +304,87 @@ otl:graaf-ib-programmering {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Preventief Onderhoud binnen de context van informatieproduct Programmering"@nl ;
         sh:name "Preventief Onderhoud"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:uiterstjaarvanuitvoering ],
-            [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:d3Product ],
-            [ sh:minCount 1 ;
-                sh:path otl:planjaarvanuitvoering ],
-            [ sh:minCount 1 ;
-                sh:path otl:programmeringsmaatregelnummer ],
+                sh:path otl:invoerdatum ],
             [ sh:minCount 1 ;
                 sh:path otl:verwachtekostenonderbouwing ],
             [ sh:minCount 1 ;
+                sh:path otl:aangepastuiterstjaarvanuitvoering ],
+            [ sh:minCount 1 ;
                 sh:path otl:adviesjaarvanuitvoering ],
             [ sh:minCount 1 ;
-                sh:path otl:priocode ],
+                sh:path otl:uiterstjaarvanuitvoering ],
             [ sh:minCount 1 ;
-                sh:path otl:verwachtekosten ],
+                sh:path otl:programmeerjaarvanuitvoering ],
             [ sh:minCount 1 ;
-                sh:path otl:programmeringsbasismaatregeltype ],
+                sh:path otl:sturingstype ],
+            [ sh:minCount 1 ;
+                sh:path otl:d3Product ],
+            [ sh:minCount 1 ;
+                sh:path otl:jaargerealiseerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:handmatigtoegevoegdindicator ],
             [ sh:minCount 1 ;
                 sh:path otl:programmeringsstatus ],
             [ sh:minCount 1 ;
-                sh:path otl:jaargerealiseerd ] .
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:priocode ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsbasismaatregeltype ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:planjaarvanuitvoering ] .
 
     otl-patroon:ProgrammeringMaatregelcluster a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Programmering Maatregelcluster binnen de context van informatieproduct Programmering"@nl ;
         sh:name "Programmering Maatregelcluster"@nl ;
         sh:property [ sh:minCount 0 ;
-                sh:path otl:jaargerealiseerd ],
-            [ sh:minCount 0 ;
-                sh:path otl:uiterstjaarvanuitvoering ],
-            [ sh:minCount 0 ;
                 sh:path otl:programmeringsstatus ],
-            [ sh:minCount 0 ;
-                sh:path otl:adviesjaarvanuitvoering ],
-            [ sh:minCount 0 ;
-                sh:path otl:d3Product ],
-            [ sh:minCount 0 ;
-                sh:path otl:verwachtekostenonderbouwing ],
             [ sh:minCount 0 ;
                 sh:path otl:programmeringsmaatregelnummer ],
             [ sh:minCount 0 ;
-                sh:path otl:toelichting ],
+                sh:path otl:planjaarvanuitvoering ],
             [ sh:minCount 0 ;
-                sh:path otl:programmeringsbasismaatregeltype ],
+                sh:path otl:jaargerealiseerd ],
             [ sh:minCount 0 ;
-                sh:path otl:priocode ],
-            [ sh:minCount 0 ;
-                sh:path otl:naam ],
+                sh:path otl:programmeerjaarvanuitvoering ],
             [ sh:minCount 0 ;
                 sh:path otl:verwachtekosten ],
             [ sh:minCount 0 ;
-                sh:path otl:planjaarvanuitvoering ] .
+                sh:path otl:priocode ],
+            [ sh:minCount 0 ;
+                sh:path otl:programmeringsbasismaatregeltype ],
+            [ sh:minCount 0 ;
+                sh:path otl:uiterstjaarvanuitvoering ],
+            [ sh:minCount 0 ;
+                sh:path otl:adviesjaarvanuitvoering ],
+            [ sh:minCount 0 ;
+                sh:path otl:verwachtekostenonderbouwing ],
+            [ sh:minCount 0 ;
+                sh:path otl:toelichting ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:aangepastuiterstjaarvanuitvoering ],
+            [ sh:minCount 0 ;
+                sh:path otl:sturingstype ],
+            [ sh:minCount 0 ;
+                sh:path otl:d3Product ] .
 
     otl-patroon:Regio a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Regio binnen de context van informatieproduct Programmering"@nl ;
         sh:name "Regio"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:programmeringsbudgethws ],
-            [ sh:minCount 1 ;
-                sh:path otl:programmeringsbudgethvwn ],
-            [ sh:minCount 1 ;
                 sh:path otl:programmeringsbudgethwn ],
             [ sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsbudgethws ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsbudgethvwn ] .
 
     otl-patroon:Rivier a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rivier binnen de context van informatieproduct Programmering"@nl ;
@@ -362,29 +420,39 @@ otl:graaf-ib-programmering {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Standaard Verzorgend Onderhoud binnen de context van informatieproduct Programmering"@nl ;
         sh:name "Standaard Verzorgend Onderhoud"@nl ;
         sh:property [ sh:minCount 0 ;
-                sh:path otl:d3Product ],
+                sh:path otl:priocode ],
             [ sh:minCount 0 ;
-                sh:path otl:uiterstjaarvanuitvoering ],
+                sh:path otl:programmeringsbasismaatregeltype ],
             [ sh:minCount 0 ;
                 sh:path otl:adviesjaarvanuitvoering ],
             [ sh:minCount 0 ;
-                sh:path otl:programmeringsmaatregelnummer ],
-            [ sh:minCount 0 ;
                 sh:path otl:programmeringsstatus ],
             [ sh:minCount 0 ;
-                sh:path otl:verwachtekosten ],
-            [ sh:minCount 0 ;
-                sh:path otl:jaargerealiseerd ],
-            [ sh:minCount 0 ;
-                sh:path otl:priocode ],
-            [ sh:minCount 0 ;
-                sh:path otl:naam ],
+                sh:path otl:invoerdatum ],
             [ sh:minCount 0 ;
                 sh:path otl:verwachtekostenonderbouwing ],
             [ sh:minCount 0 ;
+                sh:path otl:handmatigtoegevoegdindicator ],
+            [ sh:minCount 0 ;
+                sh:path otl:aangepastuiterstjaarvanuitvoering ],
+            [ sh:minCount 0 ;
+                sh:path otl:sturingstype ],
+            [ sh:minCount 0 ;
+                sh:path otl:jaargerealiseerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:uiterstjaarvanuitvoering ],
+            [ sh:minCount 0 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:d3Product ],
+            [ sh:minCount 0 ;
                 sh:path otl:planjaarvanuitvoering ],
             [ sh:minCount 0 ;
-                sh:path otl:programmeringsbasismaatregeltype ] .
+                sh:path otl:programmeringsmaatregelnummer ],
+            [ sh:minCount 0 ;
+                sh:path otl:verwachtekosten ],
+            [ sh:minCount 0 ;
+                sh:path otl:programmeerjaarvanuitvoering ] .
 
     otl-patroon:Stormvloedkering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stormvloedkering binnen de context van informatieproduct Programmering"@nl ;
@@ -471,11 +539,11 @@ otl:graaf-ib-programmering {
                 sh:path otl:naam ] .
 
     otl:graaf-ib-programmering a owl:Ontology ;
-        dct:created "2023-06-14"^^xsd:date ;
+        dct:created "2023-07-11"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Programmering' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Programmering'"@nl ;
-        pav:derivedFrom "IB RWS release 22" ;
-        pav:version "3.1.22" ;
+        pav:derivedFrom "IB RWS release 23" ;
+        pav:version "3.1.23" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

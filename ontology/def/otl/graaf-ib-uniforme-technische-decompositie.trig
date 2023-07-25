@@ -7,7 +7,7 @@
 @prefix unit: <http://qudt.org/vocab/unit/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-otl:graaf-ib-uniformetechnische-decompositie {
+otl:graaf-ib-uniforme-technische-decompositie {
     otl-patroon:Aandrijving a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aandrijving binnen de context van informatieproduct Uniforme Technische Decompositie"@nl ;
         sh:name "Aandrijving"@nl ;
@@ -1292,12 +1292,12 @@ otl:graaf-ib-uniformetechnische-decompositie {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:subtypeutd ] .
 
-    otl:graaf-ib-uniformetechnische-decompositie a owl:Ontology ;
-        dct:created "2023-06-14"^^xsd:date ;
+    otl:graaf-ib-uniforme-technische-decompositie a owl:Ontology ;
+        dct:created "2023-07-11"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Uniforme Technische Decompositie' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Uniforme Technische Decompositie'"@nl ;
-        pav:derivedFrom "IB RWS release 22" ;
-        pav:version "3.1.22" ;
+        pav:derivedFrom "IB RWS release 23" ;
+        pav:version "3.1.23" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .
