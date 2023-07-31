@@ -7,7 +7,7 @@
 @prefix unit: <http://qudt.org/vocab/unit/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-otl:graaf-ib-beheerreservedelen {
+otl:graaf-ib-beheer-reservedelen {
     otl-patroon:Aalgoot a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aalgoot binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Aalgoot"@nl ;
@@ -18,9 +18,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aandrijving binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Aandrijving"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:AandrijvingEnBewegingswerkElektrohydraulisch a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aandrijving en bewegingswerk elektrohydraulisch binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -70,25 +70,25 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aansluitconstructie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Aansluitconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Aansluitleiding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aansluitleiding binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Aansluitleiding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Aanstraalverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aanstraalverlichting binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Aanstraalverlichting"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:AanvullendeVoorziening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aanvullende voorziening binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -120,9 +120,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Accu binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Accu"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:AchterbeplatingFender a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Achterbeplating fender binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -174,9 +174,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afdichtingsprofiel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Afdichtingsprofiel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Afmeervoorziening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afmeervoorziening binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -234,9 +234,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afsluiter binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Afsluiter"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Afvalbak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afvalbak binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -262,9 +262,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Anker binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Anker"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Ankergebied a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ankergebied binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -282,9 +282,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Antenne binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Antenne"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Antivandalismevoorziening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Antivandalismevoorziening binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -296,9 +296,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Antiverblindingsscherm binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Antiverblindingsscherm"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Appendage a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Appendage binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -412,17 +412,17 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Balg binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Balg"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Balk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Balk binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Balk"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Ballastweerstand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ballastweerstand binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -496,17 +496,17 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bedieningspaneel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Bedieningspaneel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Beeindigingsprofiel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beëindigingsprofiel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Beëindigingsprofiel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Beek a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beek binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -550,25 +550,25 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bekabeling binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Bekabeling"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Bekleding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bekleding binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Bekleding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Belijning a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Belijning binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Belijning"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Beluchtingsinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beluchtingsinstallatie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -636,25 +636,13 @@ otl:graaf-ib-beheerreservedelen {
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
 
-    otl-patroon:Besturingsinstallatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
-        sh:name "Besturingsinstallatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:BesturingsinstallatieDerden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie derden binnen de context van informatieproduct Beheer Reservedelen"@nl ;
-        sh:name "Besturingsinstallatie derden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Betonverharding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Betonverharding binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Betonverharding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Bevestiging a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bevestiging binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -726,9 +714,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Blokkenmuur binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Blokkenmuur"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Bodem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bodem binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -740,9 +728,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bodembedekker binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Bodembedekker"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Bodembescherming a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bodembescherming binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -778,9 +766,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bolder binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Bolder"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Boog a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Boog binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -854,19 +842,13 @@ otl:graaf-ib-beheerreservedelen {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Brandblusinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandblusinstallaties binnen de context van informatieproduct Beheer Reservedelen"@nl ;
-        sh:name "Brandblusinstallaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Brandblusser a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandblusser binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Brandblusser"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:BrandcompartimenteringEnRookscheidingen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandcompartimentering en rookscheidingen binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -960,9 +942,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Buisleiding binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Buisleiding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Buitenberm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Buitenberm binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1014,9 +996,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Centrale binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Centrale"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:CentraleAntenneInstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Centrale Antenne Installatie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1040,9 +1022,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Cilinder binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Cilinder"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:ClosedCircuitTelevisionInstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Closed Circuit TeleVision installatie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1071,12 +1053,6 @@ otl:graaf-ib-beheerreservedelen {
     otl-patroon:Combiwand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Combiwand binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Combiwand"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Communicatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Communicatie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
-        sh:name "Communicatie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1110,17 +1086,17 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Console binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Console"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Contragewicht a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Contragewicht binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Contragewicht"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Coupure a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Coupure binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1132,9 +1108,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dak binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Dak"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Dakafwerking a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dakafwerking binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1158,9 +1134,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Damwand binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Damwand"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:DamwandBovenwatertalud a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Damwand bovenwatertalud binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1174,9 +1150,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Damwand onderwatertalud binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Damwand onderwatertalud"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Dataloginstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dataloginstallatie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1202,25 +1178,25 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deklaag (dicht) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Deklaag (dicht)"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:DeklaagOpen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deklaag (open) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Deklaag (open)"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Deksel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deksel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Deksel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Dekzerkprofiel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dekzerkprofiel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1234,9 +1210,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detectie onderstation binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Detectie onderstation"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Detectielus a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detectielus binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1250,17 +1226,17 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detector binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Detector"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Detectorstation a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detectorstation binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Detectorstation"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Deur a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deur binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1274,9 +1250,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deurgeleiding binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Deurgeleiding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Deurrails a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deurrails binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1294,15 +1270,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Diagonaal vakwerkligger binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Diagonaal vakwerkligger"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:DienstgebouwCiviel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dienstgebouw civiel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
-        sh:name "Dienstgebouw civiel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Dieptefiltratie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dieptefiltratie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1340,15 +1310,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Display binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Display"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:DiverseInstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Diverse installaties binnen de context van informatieproduct Beheer Reservedelen"@nl ;
-        sh:name "Diverse installaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Doelvoorstellingsapparatuur a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doelvoorstellingsapparatuur binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1372,9 +1336,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doorvoer binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Doorvoer"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Douche a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Douche binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1426,25 +1390,25 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drainagebuis binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Drainagebuis"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Drainmonding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drainmonding binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Drainmonding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Drempel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drempel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Drempel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Drijfbaken a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drijfbaken binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1456,9 +1420,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drijfkist binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Drijfkist"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:DrijflaagAfvoerbak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drijflaag afvoerbak binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1476,9 +1440,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drijfraam binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Drijfraam"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:DrijvendeBolder a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drijvende bolder binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1550,9 +1514,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duinovergang binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Duinovergang"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Duinstruweel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duinstruweel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1566,9 +1530,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duinvoetverdediging binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Duinvoetverdediging"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:DuurzameEnergiebron a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duurzame energiebron binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1600,9 +1564,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Elektromotor binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Elektromotor"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Elektrovijzel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Elektrovijzel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1620,17 +1584,17 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Elementenverharding binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Elementenverharding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:EmbryonaalDuin a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Embryonaal-duin binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Embryonaal-duin"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Energiekabel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Energiekabel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1639,12 +1603,6 @@ otl:graaf-ib-beheerreservedelen {
                 sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:wisseldeelindicator ] .
-
-    otl-patroon:Energievoorziening a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Energievoorziening binnen de context van informatieproduct Beheer Reservedelen"@nl ;
-        sh:name "Energievoorziening"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
 
     otl-patroon:Erf a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Erf binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1656,9 +1614,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Evacuatieverlichting binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Evacuatieverlichting"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Evenaar a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Evenaar binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1706,9 +1664,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunaopening binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Faunaopening"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Faunaspiegel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunaspiegel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1728,9 +1686,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunawand binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Faunawand"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Filterconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Filterconstructie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1768,9 +1726,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Flens binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Flens"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Folie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Folie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1796,9 +1754,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Frame binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Frame"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Functie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Functie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1842,9 +1800,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Funderingslaag (ongebonden) binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Funderingslaag (ongebonden)"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Gaas a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gaas binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1878,12 +1836,6 @@ otl:graaf-ib-beheerreservedelen {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Gebouwinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebouwinstallaties binnen de context van informatieproduct Beheer Reservedelen"@nl ;
-        sh:name "Gebouwinstallaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Gedenksteen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gedenksteen binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Gedenksteen"@nl ;
@@ -1914,9 +1866,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geleidende balk binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Geleidende balk"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Geleider a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geleider binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -1928,9 +1880,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geleiderail binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Geleiderail"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Geleidetoren a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geleidetoren binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -2058,17 +2010,17 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Goot binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Goot"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Gording a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gording binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Gording"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Graf a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Graf binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -2136,9 +2088,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grindkoffer binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Grindkoffer"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Gronddepot a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gronddepot binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -2156,9 +2108,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grondlichaam binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Grondlichaam"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Grondverbetering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grondverbetering binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -2176,17 +2128,17 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Haag binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Haag"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Haalkom a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Haalkom binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Haalkom"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:HalfverhardSportveld a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Halfverhard sportveld binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -2198,9 +2150,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Halfverharding binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Halfverharding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Halsbeugel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Halsbeugel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -2280,9 +2232,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hectometerbord binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Hectometerbord"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Heester a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Heester binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -2296,9 +2248,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hefdeur binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Hefdeur"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Hefschuif a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hefschuif binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -2316,9 +2268,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hek binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Hek"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Helling a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Helling binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -2408,9 +2360,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofdverdeler binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Hoofdverdeler"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:HoogFrequentInstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoog Frequent installatie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -2494,12 +2446,6 @@ otl:graaf-ib-beheerreservedelen {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:InEnUitrittenCiviel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type In- en uitritten civiel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
-        sh:name "In- en uitritten civiel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:InGrondVervaardigdePalen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type In grond vervaardigde palen binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "In grond vervaardigde palen"@nl ;
@@ -2516,9 +2462,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Individuele Behandeling van Afvalwater binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Individuele Behandeling van Afvalwater"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:IndividueleBehandelingVanAfvalwaterSysteem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Individuele Behandeling van Afvalwater systeem binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -2592,9 +2538,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Inlaat binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Inlaat"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Inlaatvoorziening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Inlaatvoorziening binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -2630,25 +2576,25 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatiekabel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Installatiekabel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Instroomopening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instroomopening binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Instroomopening"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Intercom a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Intercom binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Intercom"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Intercominstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Intercominstallatie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -2690,9 +2636,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kaapstander binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Kaapstander"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Kaart a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kaart binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -2722,9 +2668,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kabelgoot binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Kabelgoot"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:KabelsEnLeidingen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kabels en Leidingen binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -2780,9 +2726,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kast binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Kast"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:KathodischeBescherminstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kathodische bescherminstallatie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -2844,9 +2790,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kerf binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Kerf"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Keringschuif a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Keringschuif binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -2950,9 +2896,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Klepketting binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Klepketting"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Klimaatinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Klimaatinstallatie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3000,9 +2946,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Koker binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Koker"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Kolk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kolk binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3016,9 +2962,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kolom binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Kolom"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Kooi a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kooi binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3100,9 +3046,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kunstobject binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Kunstobject"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Kunststofsportveld a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kunststofsportveld binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3158,9 +3104,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ladder binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Ladder"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Ladderbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ladderbaan binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3196,25 +3142,25 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Landhoofd binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Landhoofd"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Landverkeerssein a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Landverkeerssein binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Landverkeerssein"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Langsligger a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Langsligger binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Langsligger"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Leidam a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Leidam binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3258,9 +3204,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Leuningafwerking binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Leuningafwerking"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Leuningband a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Leuningband binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3284,15 +3230,15 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Leverancier Artikel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Leverancier Artikel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:minimalebestelhoeveelheid ],
+                sh:path otl:levertijd ],
             [ sh:minCount 1 ;
                 sh:path otl:besteleenheid ],
             [ sh:minCount 1 ;
-                sh:path otl:artikelnummer ],
+                sh:path otl:minimalebestelhoeveelheid ],
             [ sh:minCount 1 ;
                 sh:path otl:brutoprijs ],
             [ sh:minCount 1 ;
-                sh:path otl:levertijd ] .
+                sh:path otl:artikelnummer ] .
 
     otl-patroon:Leverbaarheid a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Leverbaarheid binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3300,17 +3246,17 @@ otl:graaf-ib-beheerreservedelen {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:score ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:toelichting ],
             [ sh:minCount 1 ;
-                sh:path otl:toelichting ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Lichtgroepenkast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtgroepenkast binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Lichtgroepenkast"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Lichtkoepel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtkoepel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3368,17 +3314,17 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Loopkat binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Loopkat"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Loopplank a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Loopplank binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Loopplank"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Looppoort a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Looppoort binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3390,9 +3336,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Loopstrook binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Loopstrook"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Luchtdroger a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Luchtdroger binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3418,17 +3364,17 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Luidspreker binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Luidspreker"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Luik a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Luik binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Luik"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Maaiveld a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Maaiveld binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3466,9 +3412,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Mast binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Mast"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Meer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Meer binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3508,9 +3454,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Meetpunt binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Meetpunt"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Meetput a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Meetput binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3566,9 +3512,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Monitor binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Monitor"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Monsternameapparaat a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Monsternameapparaat binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3638,9 +3584,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Noodstop binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Noodstop"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:NoodstroominstallatieRoterend a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Noodstroominstallatie roterend binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3696,9 +3642,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oevervegetatie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Oevervegetatie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Oeverzwaluwenwand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oeverzwaluwenwand binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3770,9 +3716,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderdeel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Onderdeel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Onderdoorgang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderdoorgang binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3796,13 +3742,13 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderhoudsgroep binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Onderhoudsgroep"@nl ;
         sh:property [ sh:minCount 0 ;
-                sh:path otl:functiehersteltijd ],
-            [ sh:minCount 0 ;
                 sh:path otl:technischgereedtijd ],
+            [ sh:minCount 0 ;
+                sh:path otl:faalkanskritischindicator ],
             [ sh:minCount 0 ;
                 sh:path otl:aantalreservedelen ],
             [ sh:minCount 0 ;
-                sh:path otl:faalkanskritischindicator ] .
+                sh:path otl:functiehersteltijd ] .
 
     otl-patroon:Onderhoudsstrook a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderhoudsstrook binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3820,9 +3766,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderlaag binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Onderlaag"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Onderloopsheidscherm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderloopsheidscherm binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3836,9 +3782,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderverdeler binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Onderverdeler"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Ongeclassificeerd a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ongeclassificeerd binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3850,9 +3796,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ontvangbed binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Ontvangbed"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Ontvanger a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ontvanger binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3870,9 +3816,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onverhard oppervlak binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Onverhard oppervlak"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:OpEnAfrit a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Op- en afrit binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -3978,17 +3924,17 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Opsluitband binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Opsluitband"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Opsluitconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Opsluitconstructie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Opsluitconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Opstal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Opstal binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4052,9 +3998,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oversteek binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Oversteek"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Paaiplaats a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Paaiplaats binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4066,9 +4012,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Paal binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Paal"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Paalbeugel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Paalbeugel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4096,9 +4042,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Paneel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Paneel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Pannakooi a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pannakooi binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4128,9 +4074,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Peilbuis binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Peilbuis"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Peilschaal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Peilschaal binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4206,9 +4152,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Plaatveld binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Plaatveld"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Plafond a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Plafond binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4232,17 +4178,17 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Plant binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Plant"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Plasberm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Plasberm binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Plasberm"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Poer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Poer binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4262,19 +4208,13 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pomp binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Pomp"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Pompinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallatie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Pompinstallatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Pompinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallaties binnen de context van informatieproduct Beheer Reservedelen"@nl ;
-        sh:name "Pompinstallaties"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -4300,9 +4240,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Portofoon binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Portofoon"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Praatpaal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Praatpaal binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4334,9 +4274,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Puntdeur binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Puntdeur"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Put a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Put binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4402,9 +4342,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Railgeleiding binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Railgeleiding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:RailsInVerharding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rails in verharding binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4454,9 +4394,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reddingsboei binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Reddingsboei"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Reddingsdavit a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reddingsdavit binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4508,9 +4448,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Regelbare aandrijving binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Regelbare aandrijving"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Reling a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reling binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4550,25 +4490,25 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rij-ijzer binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Rij-ijzer"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Rijdek a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rijdek binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Rijdek"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Rijzendam a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rijzendam binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Rijzendam"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Riolering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Riolering binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4586,9 +4526,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rivierhout binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Rivierhout"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Roerwerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Roerwerk binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4662,9 +4602,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rooster binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Rooster"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:RoostergoedContainer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Roostergoed container binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4700,9 +4640,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Samengestelde damwand binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Samengestelde damwand"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:SanitaireInstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sanitaire installatie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4748,9 +4688,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schampstrook binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Schampstrook"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Schanskorf a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schanskorf binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4770,9 +4710,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Scheepvaartsein binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Scheepvaartsein"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Scheepverkeersbeseining a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Scheepverkeersbeseining binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4784,9 +4724,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Scherm binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Scherm"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Schietbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schietbaan binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4810,9 +4750,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schijnduiker binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Schijnduiker"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Schokdemper a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schokdemper binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4894,9 +4834,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schuif binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Schuif"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Schuifconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schuifconstructie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4914,9 +4854,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schuifketting binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Schuifketting"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Schuifpoort a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schuifpoort binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -4934,25 +4874,25 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sensor binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Sensor"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Server a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Server binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Server"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Servicebaarheid a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Servicebaarheid binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Servicebaarheid"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
                 sh:path otl:score ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:toelichting ] .
 
@@ -4980,9 +4920,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signaalkabel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Signaalkabel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Skatebaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Skatebaan binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -5038,9 +4978,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sloof binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Sloof"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Sloot a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sloot binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -5052,9 +4992,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Slufter binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Slufter"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Sluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sluis binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -5096,9 +5036,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Smeersysteem binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Smeersysteem"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Spar a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Spar binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -5188,9 +5128,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Spuisein binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Spuisein"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Spuisluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Spuisluis binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -5294,9 +5234,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stootkussen binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Stootkussen"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Stormvloedkering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stormvloedkering binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -5366,17 +5306,17 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Struikroos binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Struikroos"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Stuifkuil a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stuifkuil binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Stuifkuil"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Stuifscherm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stuifscherm binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -5420,9 +5360,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Supervisory Control and Data Acquisition binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Supervisory Control and Data Acquisition"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Switch a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Switch binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -5442,9 +5382,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tafel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Tafel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Tafeltennistafel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tafeltennistafel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -5456,9 +5396,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Takel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Takel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Takkenril a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Takkenril binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -5496,9 +5436,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging open binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Tandwieloverbrenging open"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Tank a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tank binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -5614,9 +5554,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toplaag binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Toplaag"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Touwbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Touwbaan binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -5690,9 +5630,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Trapafwerking binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Trapafwerking"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Trapconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Trapconstructie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -5782,9 +5722,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussenlaag binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Tussenlaag"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Uiterwaard a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uiterwaard binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -5858,9 +5798,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Valreep binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Valreep"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Vangconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vangconstructie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -5872,9 +5812,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheidsventiel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Veiligheidsventiel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Veldafscheiding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veldafscheiding binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -5918,9 +5858,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verbinding binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Verbinding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Verbindingsbrug a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verbindingsbrug binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -6004,9 +5944,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersbord binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Verkeersbord"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Verkeerscentrale a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeerscentrale binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -6032,21 +5972,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Verkeersinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersinstallaties binnen de context van informatieproduct Beheer Reservedelen"@nl ;
-        sh:name "Verkeersinstallaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Verkeersregelinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersregelinstallatie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Verkeersregelinstallatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Verlichting a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichting binnen de context van informatieproduct Beheer Reservedelen"@nl ;
-        sh:name "Verlichting"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -6072,9 +6000,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Versterker binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Versterker"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:VerticaalVakwerkligger a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verticaal vakwerkligger binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -6088,9 +6016,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verwarmingstoestel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Verwarmingstoestel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Verwerkingseenheid a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verwerkingseenheid binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -6122,9 +6050,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Videomatrix binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Videomatrix"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Videowall a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Videowall binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -6250,17 +6178,17 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voegconstructie binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Voegconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:VoeglozeOvergang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voegloze overgang binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Voegloze overgang"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Voegovergang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voegovergang binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -6284,9 +6212,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voetpedaal binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Voetpedaal"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Voliere a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Volière binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -6312,17 +6240,17 @@ otl:graaf-ib-beheerreservedelen {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:artikelnummer ],
             [ sh:minCount 1 ;
-                sh:path otl:maximalevoorraad ],
-            [ sh:minCount 1 ;
-                sh:path otl:aantalinvoorraad ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
                 sh:path otl:minimalevoorraad ],
             [ sh:minCount 1 ;
-                sh:path otl:artikelsoort ],
+                sh:path otl:maximalevoorraad ],
             [ sh:minCount 1 ;
                 sh:path otl:voorkeursleverancier ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:artikelsoort ],
+            [ sh:minCount 1 ;
+                sh:path otl:aantalinvoorraad ] .
 
     otl-patroon:Voortstuwer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voortstuwer binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -6460,9 +6388,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Waterplant"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:WaterplantOndergedoken a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant ondergedoken binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -6552,9 +6480,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wide Area Network binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Wide Area Network"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Wiel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wiel binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -6584,9 +6512,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Windverband binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Windverband"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Wingebied a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wingebied binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -6610,25 +6538,25 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wrijfgording binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Wrijfgording"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Wrijfschort a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wrijfschort binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Wrijfschort"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Wrijfstijl a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wrijfstijl binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Wrijfstijl"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Wrijvingswerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wrijvingswerk binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -6690,9 +6618,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zender binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Zender"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
+                sh:path otl:wisseldeelindicator ],
             [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:ZettingbeperkendeElement a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zettingbeperkende element binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -6722,9 +6650,9 @@ otl:graaf-ib-beheerreservedelen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zinkstuk binnen de context van informatieproduct Beheer Reservedelen"@nl ;
         sh:name "Zinkstuk"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:wisseldeelindicator ],
+                sh:path otl:omschrijving ],
             [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:wisseldeelindicator ] .
 
     otl-patroon:Zitelement a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zitelement binnen de context van informatieproduct Beheer Reservedelen"@nl ;
@@ -6756,12 +6684,12 @@ otl:graaf-ib-beheerreservedelen {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl:graaf-ib-beheerreservedelen a owl:Ontology ;
-        dct:created "2023-06-14"^^xsd:date ;
+    otl:graaf-ib-beheer-reservedelen a owl:Ontology ;
+        dct:created "2023-07-11"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Beheer Reservedelen' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Beheer Reservedelen'"@nl ;
-        pav:derivedFrom "IB RWS release 22" ;
-        pav:version "3.1.22" ;
+        pav:derivedFrom "IB RWS release 23" ;
+        pav:version "3.1.23" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

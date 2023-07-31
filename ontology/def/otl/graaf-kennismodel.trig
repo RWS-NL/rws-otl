@@ -129,6 +129,11 @@ otl:graaf-kennismodel {
         skos:definition "Plat constructiedeel ter ondersteuning van de ankerstang"@nl ;
         skos:prefLabel "Achterplaat"@nl .
 
+    otl:ActieveActiviteit a skos:Concept ;
+        skos:broaderTransitive otl:InformatieConcept ;
+        skos:definition "Actieve rol van een activiteit, die het resultaat van een transformatie van objecten specificeert in termen van input en output."@nl ;
+        skos:prefLabel "Actieve Activiteit"@nl .
+
     otl:AdviseurCrisisbeheersing a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
         skos:definition "De adviseur crisisbeheersing adviseert het Crisisteam Rijkswaterstaat over de crisisbeheersingsprocessen. De adviseur crisisbeheersing kent de verantwoordelijkheden van Rijkswaterstaat en de crisispartners tijdens een crisisopschaling. Daarnaast heeft de Adviseur Crisisbeheersing een leidende rol in de oordeelsvorming."@nl ;
@@ -138,6 +143,11 @@ otl:graaf-kennismodel {
         skos:broaderTransitive otl:InformatieConcept ;
         skos:definition "De adviseur crisiscommunicatie adviseert het Crisisteam Rijkswaterstaat over communicatievraagstukken bij opschaling naar fase 2 en is eindverantwoordelijk voor het proces. De regie kan gemandateerd zijn aan regisseur crisiscommunicatie/hoofd actiecentrum."@nl ;
         skos:prefLabel "Adviseur crisiscommunicatie"@nl .
+
+    otl:AdviseurSecurityCentre a skos:Concept ;
+        skos:broaderTransitive otl:InformatieConcept ;
+        skos:definition "Een persoon die advies en begeleiding biedt met betrekking tot beveiligingsmaatregelen en -praktijken binnen een Security Centre."@nl ;
+        skos:prefLabel "Adviseur Security Centre"@nl .
 
     otl:Afdekplaat a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -176,7 +186,7 @@ otl:graaf-kennismodel {
 
     otl:AfscheiderinstallatieDynamisch a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Installatie voor het kunstmatig scheiden van stoffen in verontreinigd water door middel van mechanische bewegingen"@nl ;
+        skos:definition "Installatie voor het kunstmatig scheiden van stoffen in verontreinigd water door middel van mechanische bewegingen."@nl ;
         skos:prefLabel "Afscheiderinstallatie dynamisch"@nl .
 
     otl:AfscheiderinstallatieStatisch a skos:Concept ;
@@ -326,7 +336,7 @@ otl:graaf-kennismodel {
 
     otl:Asset a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Een asset is een item, ding of entiteit die potenti&#235;le of actuele waarde heeft voor Rijkswaterstaat."@nl ;
+        skos:definition "Een asset is een item, ding of entiteit die potentiële of actuele waarde heeft voor Rijkswaterstaat."@nl ;
         skos:prefLabel "Asset"@nl .
 
     otl:AssetRisico a skos:Concept ;
@@ -441,7 +451,7 @@ otl:graaf-kennismodel {
 
     otl:BedieningsEnBesturingsinstallatie a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Samenstel van automatiseringsystemen en bedieningsorganen waarmee installaties worden bewaakt, bediend en bestuurd"@nl ;
+        skos:definition "Samenstel van automatiseringsystemen en bedieningsorganen waarmee installaties worden bewaakt, bediend en bestuurd."@nl ;
         skos:prefLabel "Bedienings- en besturingsinstallatie"@nl .
 
     otl:Bedieningspaneel a skos:Concept ;
@@ -499,6 +509,11 @@ otl:graaf-kennismodel {
         skos:definition "Activiteit die moet worden uitgevoerd om een doelstelling te bereiken."@nl ;
         skos:prefLabel "Beheersmaatregel"@nl .
 
+    otl:BeheersmaatregelRups a skos:Concept ;
+        skos:broaderTransitive otl:InformatieConcept ;
+        skos:definition "Activiteit die moet worden uitgevoerd om een doelstelling te bereiken dis is vastgelegd in het systeem RUPS."@nl ;
+        skos:prefLabel "Beheersmaatregel RUPS"@nl .
+
     otl:Beheertype a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
         skos:definition "Set van beheermaatregelen die samen het beheer van een vegetatietype vormgeven."@nl ;
@@ -521,7 +536,7 @@ otl:graaf-kennismodel {
 
     otl:Belanghebbende a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition "Persoon of organisatie die een besluit of activiteit kan be&#239;nvloeden, door een besluit of activiteit kan worden be&#239;nvloed, of zichzelf beschouwt als be&#239;nvloed door een besluit of activiteit."@nl ;
+        skos:definition "Persoon of organisatie die een besluit of activiteit kan beïnvloeden, door een besluit of activiteit kan worden beïnvloed, of zichzelf beschouwt als beïnvloed door een besluit of activiteit."@nl ;
         skos:prefLabel "Belanghebbende"@nl .
 
     otl:Belijning a skos:Concept ;
@@ -684,16 +699,6 @@ otl:graaf-kennismodel {
         skos:definition "Beheersmaatregel die genomen wordt om de risico's die betrekking hebben tot het werken in een besloten ruimte te minimaliseren/ elimineren."@nl ;
         skos:prefLabel "Besloten Ruimte Maatregel"@nl .
 
-    otl:Besturingsinstallatie a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Installatie die de verschillende processen op de brug bestuurt en bewaakt, opdrachten van de bediening afhandelt en de data uitwisseling met de daarbij betrokken installaties verzorgt."@nl ;
-        skos:prefLabel "Besturingsinstallatie"@nl .
-
-    otl:BesturingsinstallatieDerden a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "(SATO)"@nl ;
-        skos:prefLabel "Besturingsinstallatie derden"@nl .
-
     otl:BestuurlijkRisico a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
         skos:definition "Project risico m.b.t. politiek/ bestuurlijk."@nl ;
@@ -756,7 +761,7 @@ otl:graaf-kennismodel {
 
     otl:Binnenverlichting a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Installatie die dient om ruimten in een bouwwerk te verlichten"@nl ;
+        skos:definition "Installatie die dient om ruimten in een bouwwerk te verlichten."@nl ;
         skos:prefLabel "Binnenverlichting"@nl .
 
     otl:BiologischeRol a skos:Concept ;
@@ -871,13 +876,8 @@ otl:graaf-kennismodel {
 
     otl:Brandblusinstallatie a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Installatie voor het bestrijden/ blussen van een brand met verschillende blusmiddelen"@nl ;
+        skos:definition "Installatie voor het bestrijden/ blussen van een brand met verschillende blusmiddelen."@nl ;
         skos:prefLabel "Brandblusinstallatie"@nl .
-
-    otl:Brandblusinstallaties a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Installatie voor het bestrijden/ blussen van een brand met verschillende blusmiddelen"@nl ;
-        skos:prefLabel "Brandblusinstallaties"@nl .
 
     otl:Brandblusser a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -1024,6 +1024,16 @@ otl:graaf-kennismodel {
         skos:definition "Installatiedeel dat, gebruikmakend van middelpuntvliedende kracht (centrifugale kracht), stoffen van elkaar scheidt"@nl ;
         skos:prefLabel "Centrifuge"@nl .
 
+    otl:ChiefInformationOfficer a skos:Concept ;
+        skos:broaderTransitive otl:InformatieConcept ;
+        skos:definition "Persoon verantwoordelijk voor de informatievoorziening in een organisatie. Belast met (delen van) de richtinggevende processen."@nl ;
+        skos:prefLabel "Chief Information Officer"@nl .
+
+    otl:ChiefInformationSecurityOfficer a skos:Concept ;
+        skos:broaderTransitive otl:InformatieConcept ;
+        skos:definition "Persoon verantwoordelijk voor de informatiebeveiliging in een organisatie. CISO is verantwoordelijk voor het definiëren van de informatiebeveiligingsstrategie, gebaseerd op een risicomanagementbenadering en rekening houdend met de organisatiebehoefte, dreigingsbeeld en trends. Hij/ zij richt de informatiebeveiliging in de organisatie in, bepaalt de daarvoor benodigde middelen en wijst deze toe."@nl ;
+        skos:prefLabel "Chief Information Security Officer"@nl .
+
     otl:Cilinder a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Samenstel van werktuigbouwkundige componenten dat een plunjerstang kan laten bewegen"@nl ;
@@ -1053,11 +1063,6 @@ otl:graaf-kennismodel {
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Verticale grondkerende constructie bestaande uit een combinatie van stalen damwandplanken en stalen buispalen of uit H-palen."@nl ;
         skos:prefLabel "Combiwand"@nl .
-
-    otl:Communicatie a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "(SATO)"@nl ;
-        skos:prefLabel "Communicatie"@nl .
 
     otl:Compensator a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -1121,7 +1126,7 @@ otl:graaf-kennismodel {
 
     otl:Crisis a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition "Onverwachte gebeurtenis waarbij het normaal functioneren van het netwerk, de informatievoorziening en de leefomgeving ernstig wordt verstoord of dreigt te worden verstoord (meestal voor langere tijd met potenti&#235;le grote negatieve effecten voor de omgeving met betrekking tot veiligheid, bereikbaarheid en leefbaarheid) en/of met (potenti&#235;le) grote imagoschade en/of met (potenti&#235;le) grote financi&#235;le consequenties voor RWS."@nl ;
+        skos:definition "Onverwachte gebeurtenis waarbij het normaal functioneren van het netwerk, de informatievoorziening en de leefomgeving ernstig wordt verstoord of dreigt te worden verstoord (meestal voor langere tijd met potentiële grote negatieve effecten voor de omgeving met betrekking tot veiligheid, bereikbaarheid en leefbaarheid) en/of met (potentiële) grote imagoschade en/of met (potentiële) grote financiële consequenties voor RWS."@nl ;
         skos:prefLabel "Crisis"@nl .
 
     otl:Crisisjurist a skos:Concept ;
@@ -1148,6 +1153,26 @@ otl:graaf-kennismodel {
         skos:broaderTransitive otl:InformatieConcept ;
         skos:definition "CUR 166-II inspectie is een methode om damwandconstructies te onderzoeken."@nl ;
         skos:prefLabel "CUR 166-II Inspectie"@nl .
+
+    otl:CybersecurityBeheersmaatregel a skos:Concept ;
+        skos:broaderTransitive otl:InformatieConcept ;
+        skos:definition "Activiteit die moet worden uitgevoerd om cyberaanvallen tegen te gaan."@nl ;
+        skos:prefLabel "Cybersecurity Beheersmaatregel"@nl .
+
+    otl:CybersecurityEis a skos:Concept ;
+        skos:broaderTransitive otl:InformatieConcept ;
+        skos:definition "Een specifieke eis om de bescherming tegen cyberdreigingen te waarborgen."@nl ;
+        skos:prefLabel "Cybersecurity Eis"@nl .
+
+    otl:CybersecurityRisico a skos:Concept ;
+        skos:broaderTransitive otl:InformatieConcept ;
+        skos:definition "Effect van onzekerheid m.b.t. cybersecurity."@nl ;
+        skos:prefLabel "Cybersecurity Risico"@nl .
+
+    otl:Cybersecuritygevolg a skos:Concept ;
+        skos:broaderTransitive otl:InformatieConcept ;
+        skos:definition "Het gevolg van cyberaanvallen en -incidenten op de functie en de veiligheid van de asset."@nl ;
+        skos:prefLabel "Cybersecuritygevolg"@nl .
 
     otl:Dak a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -1269,11 +1294,6 @@ otl:graaf-kennismodel {
         skos:definition "Diagonale balk of een profiel in een vakwerk om de stijfheid te vergroten."@nl ;
         skos:prefLabel "Diagonaal vakwerkligger"@nl .
 
-    otl:DienstgebouwCiviel a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "(SATO)"@nl ;
-        skos:prefLabel "Dienstgebouw civiel"@nl .
-
     otl:Dieptefiltratie a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Installatiedeel ten behoeve van een behandelingsproces waarbij het hele filterbed wordt gebruikt om niet-oplosbare deeltjes uit hydraulie olie te filteren."@nl ;
@@ -1324,14 +1344,9 @@ otl:graaf-kennismodel {
         skos:definition "Manager, die verantwoordelijk is voor een district."@nl ;
         skos:prefLabel "Districthoofd"@nl .
 
-    otl:DiverseInstallaties a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "(SATO)"@nl ;
-        skos:prefLabel "Diverse installaties"@nl .
-
     otl:Doelgroep a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition "Groep bestaande medewerkers die betrokken dient te worden bij, van invloed is op, belang heeft bij en/of be&#239;nvloed wordt door een proces."@nl ;
+        skos:definition "Groep bestaande medewerkers die betrokken dient te worden bij, van invloed is op, belang heeft bij en/of beïnvloed wordt door een proces."@nl ;
         skos:prefLabel "Doelgroep"@nl .
 
     otl:Doelsoort a skos:Concept ;
@@ -1413,6 +1428,11 @@ otl:graaf-kennismodel {
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Uiteinde van een drain, die uitmondt in zee of een andere waterstroom en grond/afval water vervoert."@nl ;
         skos:prefLabel "Drainmonding"@nl .
+
+    otl:Dreiging a skos:Concept ;
+        skos:broaderTransitive otl:InformatieConcept ;
+        skos:definition "Dreiging verwijst naar een situatie of -gebeurtenis die gevaar of schade voor een organisatie kan opleveren. Bijvoorbeeld in het kader van cybersecurity."@nl ;
+        skos:prefLabel "Dreiging"@nl .
 
     otl:Drempel a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -1541,7 +1561,7 @@ otl:graaf-kennismodel {
 
     otl:Effectenindicator a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition """De effectenindicator geeft informatie over de gevoeligheid van soorten en habitattypen voor de meest voorkomende storende factoren. Deze informatie is generiek: om vast te stellen of een activiteit in praktijk schadelijk is moet vervolgonderzoek plaats vinden.\r
+        skos:definition """De effectenindicator geeft informatie over de gevoeligheid van soorten en habitattypen voor de meest voorkomende storende factoren. Deze informatie is generiek: om vast te stellen of een activiteit in praktijk schadelijk is moet vervolgonderzoek plaats vinden.
 Op soorten en habitattypen hebben storende factoren uiteindelijk gevolgen in termen van verandering in de populatiesamenstelling van soorten en voor habitattypen in termen van verandering in de structuur en functie. Op termijn kan dit leiden tot een verandering in de biodiversiteit."""@nl ;
         skos:prefLabel "Effectenindicator"@nl .
 
@@ -1600,11 +1620,6 @@ Op soorten en habitattypen hebben storende factoren uiteindelijk gevolgen in ter
         skos:definition "Kabel bestemd voor het transport van elektriciteit."@nl ;
         skos:prefLabel "Energiekabel"@nl .
 
-    otl:Energievoorziening a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Voorziening t.b.v. het leveren van energie."@nl ;
-        skos:prefLabel "Energievoorziening"@nl .
-
     otl:Erf a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Begrensd terrein dat toebehoort aan een gebouw."@nl ;
@@ -1627,7 +1642,7 @@ Op soorten en habitattypen hebben storende factoren uiteindelijk gevolgen in ter
 
     otl:Evenement a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition "Een eendaags of meerdaags, vaak periodiek weerkerend gebeuren of activiteit bedoeld voor groepen ge&#239;nteresseerden rond een bepaald onderwerp."@nl ;
+        skos:definition "Een eendaags of meerdaags, vaak periodiek weerkerend gebeuren of activiteit bedoeld voor groepen geïnteresseerden rond een bepaald onderwerp."@nl ;
         skos:prefLabel "Evenement"@nl .
 
     otl:Evenwichtstoestel a skos:Concept ;
@@ -1639,6 +1654,11 @@ Op soorten en habitattypen hebben storende factoren uiteindelijk gevolgen in ter
         skos:broaderTransitive otl:InformatieConcept ;
         skos:definition "Kennis en vaardigheden die een persoon beschikt."@nl ;
         skos:prefLabel "Expertise"@nl .
+
+    otl:Explain a skos:Concept ;
+        skos:broaderTransitive otl:InformatieConcept ;
+        skos:definition "Plausibel gemotiveerde tijdelijke afwijking ten aanzien van de eisen en maatregelen uit de BIO of de Cybersecurity Implementatierichtlijn Objecten waarvan het risico als gevolg van de afwijking geaccepteerd is."@nl ;
+        skos:prefLabel "Explain"@nl .
 
     otl:ExterneVeiligheid a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
@@ -1787,7 +1807,7 @@ Op soorten en habitattypen hebben storende factoren uiteindelijk gevolgen in ter
 
     otl:FunctioneleInspectieEnTesten a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition "Toestandsinspectie voor bediening, besturing &amp; installaties. De testen richten zich op die functies die moeten functioneren in afwijkende situaties (bijv. noodstop, noodstroom, overschakelen van bediening). De FIT wordt uitgevoerd aan de hand van een 'FIT typical': een checklist die ge&#239;nspecteerd en getest moeten worden. Het is een generieke lijst die per object op maat moet worden gemaakt."@nl ;
+        skos:definition "Toestandsinspectie voor bediening, besturing & installaties. De testen richten zich op die functies die moeten functioneren in afwijkende situaties (bijv. noodstop, noodstroom, overschakelen van bediening). De FIT wordt uitgevoerd aan de hand van een 'FIT typical': een checklist die geïnspecteerd en getest moeten worden. Het is een generieke lijst die per object op maat moet worden gemaakt."@nl ;
         skos:prefLabel "Functionele Inspectie en Testen"@nl .
 
     otl:FunctioneleTest a skos:Concept ;
@@ -1827,8 +1847,8 @@ Op soorten en habitattypen hebben storende factoren uiteindelijk gevolgen in ter
 
     otl:FysiekeToestand a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition """Technische toestand of staat waarin een bouwdeel verkeert uitgedrukt in een score.\r
-\r
+        skos:definition """Technische toestand of staat waarin een bouwdeel verkeert uitgedrukt in een score.
+
 Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
         skos:prefLabel "Fysieke Toestand"@nl .
 
@@ -1862,14 +1882,9 @@ Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
         skos:definition "Een Gebouw is een bouwwerk of een gedeelte daarvan, dat een voor mensen toegankelijk overdekte en geheel of gedeeltelijk met wanden omsloten ruimte vormt (en dat bestemd en/of ingericht is voor menselijk verblijf, arbeid, installaties of handel). (bron: Woningwet)"@nl ;
         skos:prefLabel "Gebouw"@nl .
 
-    otl:Gebouwinstallaties a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Component aan de buitenzijde van een gebouw  die het aanzicht van het gebouw mede bepaalt."@nl ;
-        skos:prefLabel "Gebouwinstallaties"@nl .
-
     otl:GebruiksAfhankelijkOnderhoud a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition "Onderhoudsstrategie waarbij een component op basis van kalendertijd, gebruiksduur of aantal aanvragen wordt vervangen. Deze vorm kent &#233;&#233;n parameter, het vervangingsinterval. Een bekend voorbeeld is het vervangen van de distributieriem bij een automotor."@nl ;
+        skos:definition "Onderhoudsstrategie waarbij een component op basis van kalendertijd, gebruiksduur of aantal aanvragen wordt vervangen. Deze vorm kent één parameter, het vervangingsinterval. Een bekend voorbeeld is het vervangen van de distributieriem bij een automotor."@nl ;
         skos:prefLabel "Gebruiks Afhankelijk Onderhoud"@nl .
 
     otl:Gebruiksgebied a skos:Concept ;
@@ -1984,7 +1999,7 @@ Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
 
     otl:Geometrie a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition "Geografische gegevens. De ruimtelijke gegevens van de kapitaalgoederen, uitgedrukt in x, y en z-co&#246;rdinaten."@nl ;
+        skos:definition "Geografische gegevens. De ruimtelijke gegevens van de kapitaalgoederen, uitgedrukt in x, y en z-coördinaten."@nl ;
         skos:prefLabel "Geometrie"@nl .
 
     otl:Geotextiel a skos:Concept ;
@@ -2016,6 +2031,11 @@ Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
         skos:broaderTransitive otl:InformatieConcept ;
         skos:definition "Een stof die zich in een asset bevindt en extra aandacht behoeft. Bijvoorbeeld PFAS."@nl ;
         skos:prefLabel "Gevaarlijke Stof"@nl .
+
+    otl:Gevolg a skos:Concept ;
+        skos:broaderTransitive otl:InformatieConcept ;
+        skos:definition "Gebeurtenis of omstandigheid die optreedt als resultaat van een of meer oorzaken en bijdragende factoren en omstandigheden."@nl ;
+        skos:prefLabel "Gevolg"@nl .
 
     otl:Giek a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -2427,11 +2447,6 @@ Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
         skos:definition "Terrein waarop een ondiepe laag water wordt aangebracht om op te schaatsen wanneer de vorst intreedt."@nl ;
         skos:prefLabel "IJsbaan"@nl .
 
-    otl:InEnUitrittenCiviel a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "(SATO)"@nl ;
-        skos:prefLabel "In- en uitritten civiel"@nl .
-
     otl:InGrondVervaardigdePalen a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Proces waarbij stoffen met behulp va een oplosmiddel  aan een materiaal worden onttrokken."@nl ;
@@ -2444,7 +2459,7 @@ Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
 
     otl:Incident a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition "Een gebeurtenis die de veiligheid en/of capaciteit van de (vaar)weg nadelig be&#239;nvloedt of kan be&#239;nvloeden en als zodanig de doorstroming van het verkeer belemmert of kan belemmeren."@nl ;
+        skos:definition "Een gebeurtenis die de veiligheid en/of capaciteit van de (vaar)weg nadelig beïnvloedt of kan beïnvloeden en als zodanig de doorstroming van het verkeer belemmert of kan belemmeren."@nl ;
         skos:prefLabel "Incident"@nl .
 
     otl:IndividueleBehandelingVanAfvalwater a skos:Concept ;
@@ -2499,7 +2514,7 @@ Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
 
     otl:InformatiecoordinatorCrisisteam a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition "De Informatieco&#246;rdinator CT-RWS levert in de warme fase een continu actueel informatiebeeld dat de crisisorganisatie ondersteunt in de beeldvorming, oordeelsvorming en besluitvorming. In samenwerking met de Informatieco&#246;rdinator-CIC verzamelt, veredelt en verspreidt de informatieco&#246;rdinator de relevante informatie bij een crisis."@nl ;
+        skos:definition "De Informatiecoördinator CT-RWS levert in de warme fase een continu actueel informatiebeeld dat de crisisorganisatie ondersteunt in de beeldvorming, oordeelsvorming en besluitvorming. In samenwerking met de Informatiecoördinator-CIC verzamelt, veredelt en verspreidt de informatiecoördinator de relevante informatie bij een crisis."@nl ;
         skos:prefLabel "Informatiecoördinator crisisteam"@nl .
 
     otl:Informatiekwaliteit a skos:Concept ;
@@ -2524,7 +2539,7 @@ Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
 
     otl:Infrawerk a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Een Infrawerk is een lijnvormige constructie voor vervoer en transport van personen, goederen, stoffen, energie en informatie, met inbegrip van de daarvan deel uitmakende infragebonden installaties. (bron: AOA Begrippen- en Definitielijst)"@nl ;
+        skos:definition "Een Infrawerk is een lijnvormige constructie voor vervoer en transport van personen, goederen, stoffen, energie en informatie, met inbegrip van de daarvan deel uitmakende infragebonden installaties."@nl ;
         skos:prefLabel "Infrawerk"@nl .
 
     otl:Inlaat a skos:Concept ;
@@ -2597,6 +2612,11 @@ Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
         skos:definition "Het wegenemen van en/of preventief beheersen van risico's van menselijk gedrag (bewust en onbewust, bedoeld en onbedoeld, gewild en ongewild) die de staat, aard en functionaliteit van het areaal van RWS kunnen aantasten."@nl ;
         skos:prefLabel "Integrale beveiliging"@nl .
 
+    otl:IntegraleBeveiligingEis a skos:Concept ;
+        skos:broaderTransitive otl:InformatieConcept ;
+        skos:definition "Een specifieke eis met betrekking tot de veiligheid van een systeem, waarbij rekening wordt gehouden met bewust onveilig menselijk handelen. Deze eis richt zich op het identificeren en implementeren van maatregelen die de impact van opzettelijke of roekeloze acties van gebruikers minimaliseren en de integriteit en beschikbaarheid van het systeem waarborgen."@nl ;
+        skos:prefLabel "Integrale Beveiliging Eis"@nl .
+
     otl:Intercom a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Installatiedeel waarmee tweeweg communicatie mogelijk is met een alarmcentrale."@nl ;
@@ -2614,7 +2634,7 @@ Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
 
     otl:Investeringsvoorstel a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition "Voorgestelde Activiteit waarbij de initi&#235;le kosten voor rekening van de Op-drachtgever komen en waarbij het rendement van de investering zich buiten de contractperiode van de Overeenkomst manifesteert."@nl ;
+        skos:definition "Voorgestelde Activiteit waarbij de initiële kosten voor rekening van de Op-drachtgever komen en waarbij het rendement van de investering zich buiten de contractperiode van de Overeenkomst manifesteert."@nl ;
         skos:prefLabel "Investeringsvoorstel"@nl .
 
     otl:Invloed a skos:Concept ;
@@ -2989,7 +3009,7 @@ Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
 
     otl:Kunstwerk a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Een Kunstwerk is een constructie van enige omvang van hout, steen, metaal of ander materiaal, die op de plaats van bestemming hetzij direct hetzij indirect met de grond verbonden is, hetzij direct of indirect steun vindt in of op de grond, bedoeld om ter plaatse te functioneren. Een kunstwerk is niet bestemd en/of ingericht voor menselijk verblijf, arbeid, installaties of handel. De constructie is in dezelfde tijd gecre&#235;erd."@nl ;
+        skos:definition "Een Kunstwerk is een constructie van enige omvang van hout, steen, metaal of ander materiaal, die op de plaats van bestemming hetzij direct hetzij indirect met de grond verbonden is, hetzij direct of indirect steun vindt in of op de grond, bedoeld om ter plaatse te functioneren. Een kunstwerk is niet bestemd en/of ingericht voor menselijk verblijf, arbeid, installaties of handel. De constructie is in dezelfde tijd gecreëerd."@nl ;
         skos:prefLabel "Kunstwerk"@nl .
 
     otl:Kwelder a skos:Concept ;
@@ -3006,6 +3026,11 @@ Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Een ondoorlatende, in de regel verticale, constructie voor verlenging van de kwelweg."@nl ;
         skos:prefLabel "Kwelscherm"@nl .
+
+    otl:Kwetsbaarheid a skos:Concept ;
+        skos:broaderTransitive otl:InformatieConcept ;
+        skos:definition "Eigenschap die een aanvaller de mogelijkheid biedt een cyberaanval uit te voeren of een eigenschap die kan leiden tot uitval. Dit kan zich voordoen in een digitale dienst, proces of systeem, maar ook in de samenleving als geheel of in een specifieke organisatie."@nl ;
+        skos:prefLabel "Kwetsbaarheid"@nl .
 
     otl:KwhMetering a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -3169,7 +3194,7 @@ Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
 
     otl:LiftInstallatie a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Installatie voor verticaal transport van personen of goederen, bestaande uit een liftkooi die in een liftschacht langs leiders bewogen wordt en op vaste plaatsen stopt"@nl ;
+        skos:definition "Installatie voor verticaal transport van personen of goederen, bestaande uit een liftkooi die in een liftschacht langs leiders bewogen wordt en op vaste plaatsen stopt."@nl ;
         skos:prefLabel "Lift-installatie"@nl .
 
     otl:Liftdeur a skos:Concept ;
@@ -3214,7 +3239,7 @@ Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
 
     otl:Looproute a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition "Groepering van assets ten behoeve van effici&#235;nt onderhoud."@nl ;
+        skos:definition "Groepering van assets ten behoeve van efficiënt onderhoud."@nl ;
         skos:prefLabel "Looproute"@nl .
 
     otl:Loopstrook a skos:Concept ;
@@ -3524,7 +3549,7 @@ Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
 
     otl:Nulinspectie a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition "De nulinspectie, die zorgt voor de vastlegging van de in het beheerobject opgenomen bouwdelen, de uitwerking van een initi&#235;le risicoanalyse en het initi&#235;le IHP."@nl ;
+        skos:definition "De nulinspectie, die zorgt voor de vastlegging van de in het beheerobject opgenomen bouwdelen, de uitwerking van een initiële risicoanalyse en het initiële IHP."@nl ;
         skos:prefLabel "Nulinspectie"@nl .
 
     otl:ObjectInBeeld a skos:Concept ;
@@ -3534,7 +3559,7 @@ Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
 
     otl:Objectcategorie a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition "Groepering van objectsubcategorie&#235;n volgens welke de object beheerregimes zijn ingedeeld."@nl ;
+        skos:definition "Groepering van objectsubcategorieën volgens welke de object beheerregimes zijn ingedeeld."@nl ;
         skos:prefLabel "Objectcategorie"@nl .
 
     otl:Objectsubcategorie a skos:Concept ;
@@ -3544,7 +3569,7 @@ Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
 
     otl:Objectverlichting a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Installatie die dient om bouwwerken en andere constructies of objecten aan de buitenzijde te verlichten"@nl ;
+        skos:definition "Installatie die dient om bouwwerken en andere constructies of objecten aan de buitenzijde te verlichten."@nl ;
         skos:prefLabel "Objectverlichting"@nl .
 
     otl:Observatie a skos:Concept ;
@@ -3564,7 +3589,7 @@ Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
 
     otl:Oefening a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition "Activiteit gericht op het ori&#235;nteren, leren, samenwerken, experimenteren en leren van de vaardigheden in een nagebootste situatie of simulatie."@nl ;
+        skos:definition "Activiteit gericht op het oriënteren, leren, samenwerken, experimenteren en leren van de vaardigheden in een nagebootste situatie of simulatie."@nl ;
         skos:prefLabel "Oefening"@nl .
 
     otl:Oefenring a skos:Concept ;
@@ -3999,7 +4024,7 @@ Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
 
     otl:Perceel a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition "Onroerende zaak, kadastraal ge&#239;dentificeerd en met kadastrale grenzen begrensd deel van het Nederlands grondgebied. Als onderdeel van het Nederlands grondgebied is het een driedimensionaal ruimtelijk object."@nl ;
+        skos:definition "Onroerende zaak, kadastraal geïdentificeerd en met kadastrale grenzen begrensd deel van het Nederlands grondgebied. Als onderdeel van het Nederlands grondgebied is het een driedimensionaal ruimtelijk object."@nl ;
         skos:prefLabel "Perceel"@nl .
 
     otl:Pergola a skos:Concept ;
@@ -4039,13 +4064,11 @@ Opmerking: momenteel staat dit los van het vastleggen van de faalcurve."""@nl ;
 
     otl:PersoonlijkBeschermingsmiddel a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition """Uitrusting die bestemd is om door de werknemer gedragen of vastgehouden te worden teneinde hem te beschermen tegen een of meer gevaren die zijn veiligheid of gezondheid op het werk kunnen bedregen alsmede aanvullingen of accessoires die daartoe kunnen bijdragen met uitzondering van:\r
-<ol>\r
-	<li>gewone of uniforme werkkleding die niet specifiek bedoeld is om de veiligheid en de gezondheid van de werknemer te beschermen;</li>\r
-	<li>sportuitrusting;</li>\r
-	<li>zelfverdedigings- of afschrikkingsmateriaal;</li>\r
-</ol>\r
-draagbare apparaten voor het opsporen en signaleren van gevaren en belastingsfactoren."""@nl ;
+        skos:definition """Uitrusting die bestemd is om door de werknemer gedragen of vastgehouden te worden teneinde hem te beschermen tegen een of meer gevaren die zijn veiligheid of gezondheid op het werk kunnen bedreigen alsmede aanvullingen of accessoires die daartoe kunnen bijdragen met uitzondering van:
+1. gewone of uniforme werkkleding die niet specifiek bedoeld is om de veiligheid en de gezondheid van de werknemer te beschermen;
+2. sportuitrusting;
+3. zelfverdedigings- of afschrikkingsmateriaal;
+4. draagbare apparaten voor het opsporen en signaleren van gevaren en belastingsfactoren."""@nl ;
         skos:prefLabel "Persoonlijk Beschermingsmiddel"@nl .
 
     otl:PersoonlijkRisico a skos:Concept ;
@@ -4140,13 +4163,8 @@ draagbare apparaten voor het opsporen en signaleren van gevaren en belastingsfac
 
     otl:Pompinstallatie a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Installatie die een vloeistof of gas kan verplaatsten met behulp van een pomp"@nl ;
+        skos:definition "Installatie die een vloeistof of gas kan verplaatsten met behulp van een pomp."@nl ;
         skos:prefLabel "Pompinstallatie"@nl .
-
-    otl:Pompinstallaties a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "(SATO)"@nl ;
-        skos:prefLabel "Pompinstallaties"@nl .
 
     otl:Pompkelder a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -4188,6 +4206,11 @@ draagbare apparaten voor het opsporen en signaleren van gevaren en belastingsfac
         skos:definition "Bassin waarin zuivering van influent (afvalwater) wordt gerealiseerd met door processen in gang te zetten diverse actieve- en monitoringsinstallaties. Het beheerobject procesbassins is een verzamelobject, hetgeen zegt dat er verschillende soorten uit gedecomponeerd kunnen worden"@nl ;
         skos:prefLabel "Procesbassin"@nl .
 
+    otl:Productmanager a skos:Concept ;
+        skos:broaderTransitive otl:InformatieConcept ;
+        skos:definition "Een persoon binnen een organisatie die verantwoordelijk is voor de ontwikkeling, lancering en/ of het beheer van een product of productlijn."@nl ;
+        skos:prefLabel "Productmanager"@nl .
+
     otl:ProgrammableLogicController a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Verwerkingseenheid, die op basis van de informatie op zijn ingangen, zijn uitgangen aanstuurt,Â bedoeld om machines en installaties aan te sturen."@nl ;
@@ -4200,7 +4223,7 @@ draagbare apparaten voor het opsporen en signaleren van gevaren en belastingsfac
 
     otl:Project a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition "Opzichzelfstaand proces dat bestaat uit een geheel van geco&#246;rdineerde en beheerste activiteiten met start- en einddata, die worden ondernomen om een doelstelling (3.7.1) te halen gericht op het voldoen aan specifieke eisen (3.6.4), inclusief randvoorwaarden met betrekking tot tijd, kosten en middelen."@nl ;
+        skos:definition "Opzichzelfstaand proces dat bestaat uit een geheel van gecoördineerde en beheerste activiteiten met start- en einddata, die worden ondernomen om een doelstelling (3.7.1) te halen gericht op het voldoen aan specifieke eisen (3.6.4), inclusief randvoorwaarden met betrekking tot tijd, kosten en middelen."@nl ;
         skos:prefLabel "Project"@nl .
 
     otl:ProjectBeheersmaatregel a skos:Concept ;
@@ -4395,8 +4418,8 @@ draagbare apparaten voor het opsporen en signaleren van gevaren en belastingsfac
 
     otl:Regiopiket a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition """Het regiopiket is er om de regionale kennis te ontsluiten en aan te wenden bij calamiteiten (fase 1) en crises (fase 2). Je kunt het regiopiket zien als regionale kennismakelaar. De regiopikethouder kan dit zelf doen of via regionale collega’s. Het regiopiket kan benaderd worden door de Officier van Dienst (in fase 1) en door de technisch voorzitter (in fase 2 en fase 3).\r
-Wanneer er vanuit een regionale dienst meerdere inhoudelijk adviseurs betrokken worden, dan heeft het regiopiket een co&#246;rdinerende rol. Dit geldt zowel binnen de regionale dienst, als richting de crisisorganisatie."""@nl ;
+        skos:definition """Het regiopiket is er om de regionale kennis te ontsluiten en aan te wenden bij calamiteiten (fase 1) en crises (fase 2). Je kunt het regiopiket zien als regionale kennismakelaar. De regiopikethouder kan dit zelf doen of via regionale collega’s. Het regiopiket kan benaderd worden door de Officier van Dienst (in fase 1) en door de technisch voorzitter (in fase 2 en fase 3).
+Wanneer er vanuit een regionale dienst meerdere inhoudelijk adviseurs betrokken worden, dan heeft het regiopiket een coördinerende rol. Dit geldt zowel binnen de regionale dienst, als richting de crisisorganisatie."""@nl ;
         skos:prefLabel "Regiopiket"@nl .
 
     otl:RegisseurCrisiscommunicatie a skos:Concept ;
@@ -4556,7 +4579,7 @@ Wanneer er vanuit een regionale dienst meerdere inhoudelijk adviseurs betrokken 
 
     otl:Ruimerinstallatie a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Installatie die met behulp van roterende installatiedelen bezonken slib of een drijvende verontreinigde laag bijeenbrengt naar een centraal punt in een bassin of tank"@nl ;
+        skos:definition "Installatie die met behulp van roterende installatiedelen bezonken slib of een drijvende verontreinigde laag bijeenbrengt naar een centraal punt in een bassin of tank."@nl ;
         skos:prefLabel "Ruimerinstallatie"@nl .
 
     otl:RuimtelijkRisico a skos:Concept ;
@@ -4759,6 +4782,11 @@ Wanneer er vanuit een regionale dienst meerdere inhoudelijk adviseurs betrokken 
         skos:definition "Inzicht in het termijn dat het onderdeel nog ondersteund wordt door de leverancier (updates, kennis, service, etc.) en de snelheid waarmee de ondersteuning kan worden geleverd."@nl ;
         skos:prefLabel "Servicebaarheid"@nl .
 
+    otl:Servicemanager a skos:Concept ;
+        skos:broaderTransitive otl:InformatieConcept ;
+        skos:definition "Een verantwoordelijke persoon binnen een organisatie die de coördinatie en het beheer van diensten aan klanten verzorgt."@nl ;
+        skos:prefLabel "Servicemanager"@nl .
+
     otl:Shikanen a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Installatiedeel voor het omploegen van uitgewaterd slib dat zich verplaatst op een lopende transportband"@nl ;
@@ -4811,7 +4839,7 @@ Wanneer er vanuit een regionale dienst meerdere inhoudelijk adviseurs betrokken 
 
     otl:Slijtlaag a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Een uit &#233;&#233;n of meerdere lagen opgebouwd systeem dat de stroefheid van het onder verkeer liggende oppervlak voor langere termijn garandeert en in sommige gevallen een beschermende werking heeft naar de ondergrond."@nl ;
+        skos:definition "Een uit één of meerdere lagen opgebouwd systeem dat de stroefheid van het onder verkeer liggende oppervlak voor langere termijn garandeert en in sommige gevallen een beschermende werking heeft naar de ondergrond."@nl ;
         skos:prefLabel "Slijtlaag"@nl .
 
     otl:Slokop a skos:Concept ;
@@ -5141,8 +5169,8 @@ Wanneer er vanuit een regionale dienst meerdere inhoudelijk adviseurs betrokken 
 
     otl:StrategischAdviseurCrisisbeheersing a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition """De strategisch adviseur Crisisbeheersing sluit aan bij het CT-RWS indien er is opgeschaald naar fase 3. Ook kan de strategisch adviseur Crisisbeheersing in fase 2 al aansluiten bij het CT-RWS wanneer de verwachting is dat opschaling naar fase 3 mogelijk is (met toestemming van de Beslisser fase 2 en na overleg met de adviseur crisisbeheersing).\r
-De strategisch adviseur Crisisbeheersing begeleidt het CT-RWS bij het voorbereiden van de besluitvorming voor het Corporate Crisisteam (CCT). Hierbij wordt de werkwijze met de tien strategische families gebruikt.\r
+        skos:definition """De strategisch adviseur Crisisbeheersing sluit aan bij het CT-RWS indien er is opgeschaald naar fase 3. Ook kan de strategisch adviseur Crisisbeheersing in fase 2 al aansluiten bij het CT-RWS wanneer de verwachting is dat opschaling naar fase 3 mogelijk is (met toestemming van de Beslisser fase 2 en na overleg met de adviseur crisisbeheersing).
+De strategisch adviseur Crisisbeheersing begeleidt het CT-RWS bij het voorbereiden van de besluitvorming voor het Corporate Crisisteam (CCT). Hierbij wordt de werkwijze met de tien strategische families gebruikt.
 De strategisch adviseur Crisisbeheersing behoort niet tot de kernbezetting van het Corporate Crisisteam bij fase 3, maar kan op verzoek van de beslisser fase 3 wel aansluiten."""@nl ;
         skos:prefLabel "Strategisch adviseur crisisbeheersing"@nl .
 
@@ -5223,13 +5251,13 @@ De strategisch adviseur Crisisbeheersing behoort niet tot de kernbezetting van h
 
     otl:Systeem a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition """Het Hoofdwegennetwerk (HWN) is samengesteld uit rijkswegen, zoals deze zijn bepaald en vastgelegd in de Actuele Wegenlijst c.q. het Nationaal Wegenbestand. Het betreft een complete rijksweg, bijvoorbeeld de gehele rijksweg 73. Er is sprake van een intensieve relatie met het onderliggend wegennetwerk.\r
+        skos:definition """Het Hoofdwegennetwerk (HWN) is samengesteld uit rijkswegen, zoals deze zijn bepaald en vastgelegd in de Actuele Wegenlijst c.q. het Nationaal Wegenbestand. Het betreft een complete rijksweg, bijvoorbeeld de gehele rijksweg 73. Er is sprake van een intensieve relatie met het onderliggend wegennetwerk.
 Het Rijkswaternet (HVWN/HWS) is samengesteld uit topografische eenheden of te wel de rivieren, kanalen, kusten en eilanden. Enerzijds dienen deze als vaarwegen voor de beroeps- en recreatiescheepvaart (HVWN). Anderzijds vormen ze watersystemen binnen internationale en nationale stroomgebieden (HWS). Er is sprake van een intensieve relatie met regionale watersystemen. De topografische eenheden zijn uniek en homogeen, bijv. de gehele Rijn en het gehele Noordzeekanaal, waardoor ze de functies van beide netwerken kunnen bedienen."""@nl ;
         skos:prefLabel "Systeem"@nl .
 
     otl:Systeemdeel a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition "Een systeemdeel is een gedeelte van de weg tussen twee verkeerskundig belangrijke aansluitingen en/of knooppunten. Het bestaat uit &#233;&#233;n of meer wegvakken waarop B&amp;O (en andere maatregelen ) in samenhang worden geprogrammeerd, gericht op het optimaal functioneren van het systeemdeel."@nl ;
+        skos:definition "Een systeemdeel is een gedeelte van de weg tussen twee verkeerskundig belangrijke aansluitingen en/of knooppunten. Het bestaat uit één of meer wegvakken waarop B&O (en andere maatregelen ) in samenhang worden geprogrammeerd, gericht op het optimaal functioneren van het systeemdeel."@nl ;
         skos:prefLabel "Systeemdeel"@nl .
 
     otl:Systeemeis a skos:Concept ;
@@ -5789,7 +5817,7 @@ Het Rijkswaternet (HVWN/HWS) is samengesteld uit topografische eenheden of te we
 
     otl:Verhardingslaag a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Constructiedeel van een verharding bestaand uit &#233;&#233;n materiaal. Een verhardingslaag bestaat uit &#233;&#233;n laag."@nl ;
+        skos:definition "Constructiedeel van een verharding bestaand uit één materiaal. Een verhardingslaag bestaat uit één laag."@nl ;
         skos:prefLabel "Verhardingslaag"@nl .
 
     otl:Verificatie a skos:Concept ;
@@ -5826,11 +5854,6 @@ Het Rijkswaternet (HVWN/HWS) is samengesteld uit topografische eenheden of te we
         skos:broaderTransitive bs:PhysicalObject ;
         skos:definition "Lichtbronnen geplaatst op de weg of geleiderailconstructies die het verkeer geleiden."@nl ;
         skos:prefLabel "Verkeersgeleidingsverlichting"@nl .
-
-    otl:Verkeersinstallaties a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "(SATO)"@nl ;
-        skos:prefLabel "Verkeersinstallaties"@nl .
 
     otl:Verkeersintensiteit a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
@@ -5876,11 +5899,6 @@ Het Rijkswaternet (HVWN/HWS) is samengesteld uit topografische eenheden of te we
         skos:broaderTransitive otl:InformatieConcept ;
         skos:definition "Veiligheid van de verkeersdeelnemer, als gevolg van deelname aan het verkeer."@nl ;
         skos:prefLabel "Verkeersveiligheid"@nl .
-
-    otl:Verlichting a skos:Concept ;
-        skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Installatie die dient om de omgeving te verlichten."@nl ;
-        skos:prefLabel "Verlichting"@nl .
 
     otl:VerplaatsbareVangrailInstallatie a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
@@ -6044,7 +6062,7 @@ Het Rijkswaternet (HVWN/HWS) is samengesteld uit topografische eenheden of te we
 
     otl:VluchthavenAanwezigheidsdetectieInstallatie a skos:Concept ;
         skos:broaderTransitive bs:PhysicalObject ;
-        skos:definition "Detectiesysteem dat de aanwezigheid van voertuigen vaststelt in een vluchthaven"@nl ;
+        skos:definition "Detectiesysteem dat de aanwezigheid van voertuigen vaststelt in een vluchthaven."@nl ;
         skos:prefLabel "Vluchthaven Aanwezigheidsdetectie installatie"@nl .
 
     otl:Vluchtroute a skos:Concept ;
@@ -6314,7 +6332,7 @@ Het Rijkswaternet (HVWN/HWS) is samengesteld uit topografische eenheden of te we
 
     otl:Wegvak a skos:Concept ;
         skos:broaderTransitive otl:InformatieConcept ;
-        skos:definition "Een deel van een weg waarbij de weg in lengterichting is opgedeeld in &#233;&#233;n of meerdere delen (vakken)."@nl ;
+        skos:definition "Een deel van een weg waarbij de weg in lengterichting is opgedeeld in één of meerdere delen (vakken)."@nl ;
         skos:prefLabel "Wegvak"@nl .
 
     otl:Weide a skos:Concept ;
@@ -6551,6 +6569,10 @@ Het Rijkswaternet (HVWN/HWS) is samengesteld uit topografische eenheden of te we
         skos:definition "Snelheid van het verkeer dat staat aangegeven door de bebording."@nl ;
         skos:prefLabel "AangegevenVerkeerssnelheid"@nl .
 
+    otl:aangepastuiterstjaarvanuitvoering a rdf:Property ;
+        skos:definition "Door assetmanager geadviseerde uiterst jaar van uitvoering vaak gebaseerd op MTTF dat is aangepast tijdens de programmering."@nl ;
+        skos:prefLabel "AangepastUiterstJaarvanUitvoering"@nl .
+
     otl:aanleiding a rdf:Property ;
         skos:definition "De aanleiding is de reden dat het project/projectfase wordt uitgevoerd. Verdiepen in de aanleiding is belangrijk bij een project(fase), want hierdoor leert men te begrijpen wat hij/ zij uiteindelijk wilt bereiken. Verder laat de aanleiding ook de geschiedenis zien, waardoor mogelijk patronen voor de aanleiding te zien zijn."@nl,
             "De aanleiding waarom de toestandsinspectie uitgevoerd moet worden."@nl,
@@ -6629,11 +6651,9 @@ Het Rijkswaternet (HVWN/HWS) is samengesteld uit topografische eenheden of te we
         skos:prefLabel "AdviesJaarvanUitvoering"@nl .
 
     otl:afmetingAfstand a rdf:Property ;
-        skos:definition """Afstand is een natuurkundige en wiskundige grootheid die de meetbare <b>ruimte </b>tussen twee niet samenvallende objecten aangeeft: zicht, asftandhoogliggers, doorrijbreedte (=ruimte tussen twee wanden), etc.\r
-Afmeting heeft betrekking op de kenmerkende (<b>lengte)maten </b>van een object: lengte, breedte, hoogte, diepte, diameter, etc.\r
-\r
-QUDT:Length"""@nl ;
-        skos:prefLabel "Afmeting / Afstand"@nl .
+        skos:definition """Afstand is een natuurkundige en wiskundige grootheid die de meetbare ruimte tussen twee niet samenvallende objecten aangeeft: zicht, asftandhoogliggers, doorrijbreedte (=ruimte tussen twee wanden), etc.
+Afmeting heeft betrekking op de kenmerkende (lengte)maten van een object: lengte, breedte, hoogte, diepte, diameter, etc."""@nl ;
+        skos:prefLabel "Afmeting-Afstand"@nl .
 
     otl:afnameslijtage a rdf:Property ;
         skos:definition "Afname van de degradatie van de technische toestand van het materiaal die zich geleidelijk manifesteert als gevolg van een voortdurende blootstelling aan wrijving."@nl ;
@@ -6676,7 +6696,7 @@ QUDT:Length"""@nl ;
         skos:prefLabel "Baannummer"@nl .
 
     otl:baanpositie a rdf:Property ;
-        skos:definition "De locatie van de baan ten opzichte van het midden van de weg (Weg Ori&#235;ntatie Lijn)."@nl ;
+        skos:definition "De locatie van de baan ten opzichte van het midden van de weg (Weg Oriëntatie Lijn)."@nl ;
         skos:prefLabel "Baanpositie"@nl .
 
     otl:backupindicator a rdf:Property ;
@@ -6712,7 +6732,7 @@ QUDT:Length"""@nl ;
         skos:prefLabel "BehaaldIndicator"@nl .
 
     otl:beheergrenzen a rdf:Property ;
-        skos:definition "GEO/GIS. Locatiegrens. Een grens waarvoor geldt dat &#233;&#233;n organisatie het beheer uitvoert binnen deze grens. Meerdere punten. Twee lijnen."@nl ;
+        skos:definition "GEO/GIS. Locatiegrens. Een grens waarvoor geldt dat één organisatie het beheer uitvoert binnen deze grens. Meerdere punten. Twee lijnen."@nl ;
         skos:prefLabel "Beheergrenzen"@nl .
 
     otl:beheersregime a rdf:Property ;
@@ -6748,8 +6768,8 @@ QUDT:Length"""@nl ;
         skos:prefLabel "BezoekIndicator"@nl .
 
     otl:blootstelling a rdf:Property ;
-        skos:definition """Frequentie en duur blootstelling aan het gevaar.\r
-\r
+        skos:definition """Frequentie en duur blootstelling aan het gevaar.
+
 Hernoemen naar Blootstellingsfactor?"""@nl ;
         skos:prefLabel "Blootstelling"@nl .
 
@@ -6790,17 +6810,21 @@ Hernoemen naar Blootstellingsfactor?"""@nl ;
         skos:prefLabel "Bron"@nl .
 
     otl:bronvanfalen a rdf:Property ;
-        skos:definition """Toewijzing van de faaloorzaak aan tekortkoming bij:\r
-- ontwerp\r
-- realisatie\r
-- bediening\r
-- onderhoud\r
+        skos:definition """Toewijzing van de faaloorzaak aan tekortkoming bij:
+- ontwerp
+- realisatie
+- bediening
+- onderhoud
 - nvt (bijv. bij regulier gebruik - 'nobody's fault')"""@nl ;
         skos:prefLabel "BronVanFalen"@nl .
 
     otl:brutoprijs a rdf:Property ;
         skos:definition "De bruto prijs van het artikel door een leverancier."@nl ;
         skos:prefLabel "Brutoprijs"@nl .
+
+    otl:budget a rdf:Property ;
+        skos:definition "Bedrag dat feitelijk beschikbaar gesteld wordt (bijv. voor de realisatie van een project)."@nl ;
+        skos:prefLabel "Budget"@nl .
 
     otl:budgethuidigefase a rdf:Property ;
         skos:definition "Het bedrag dat feitelijk beschikbaar wordt gesteld voor de huidige fase."@nl ;
@@ -6887,8 +6911,16 @@ Hernoemen naar Blootstellingsfactor?"""@nl ;
         skos:definition "Geeft aan hoe belangrijk de cultuur historische waarde van het kunstwerk is."@nl ;
         skos:prefLabel "Cultuurhistorie"@nl .
 
+    otl:cyberclassificatie a rdf:Property ;
+        skos:definition "Cyberclassificatie is het classificeren van objecten op basis van de impact van hun uitval op het primaire vitale proces van een organisatie. Deze classificatie wordt gekoppeld aan een cybersecurity weerstandsniveau. Het vormt de basis voor het bepalen van passende maatregelen. Hierbij worden objecten met functies geordend op basis van hun kritieke aard in relatie tot het ondersteunde proces."@nl ;
+        skos:prefLabel "Cyberclassificatie"@nl .
+
+    otl:cybersecurityweerstandsniveau a rdf:Property ;
+        skos:definition "Het vermogen om weerstand te bieden tegen aanvallen die bedoeld zijn om zich met geweld of manipulatie toegang fysiek dan wel digitaal te verschaffen tot ruimten en tot de informatievoorziening."@nl ;
+        skos:prefLabel "CybersecurityWeerstandsniveau"@nl .
+
     otl:d3Product a rdf:Property ;
-        skos:definition "Een begrotingscategorie waaraan beheersmaatregelen gekoppeld worden voor financiering. Deze code is primair bedoeld voor de financi&#235;le verantwoording van het uitgevoerde werk."@nl ;
+        skos:definition "Een begrotingscategorie waaraan beheersmaatregelen gekoppeld worden voor financiering. Deze code is primair bedoeld voor de financiële verantwoording van het uitgevoerde werk."@nl ;
         skos:prefLabel "D3-product"@nl .
 
     otl:dagdeel a rdf:Property ;
@@ -6899,6 +6931,10 @@ Hernoemen naar Blootstellingsfactor?"""@nl ;
         skos:definition "Tijdsmoment met een nauwkeurigheid van een dag."@nl ;
         skos:prefLabel "Datum"@nl .
 
+    otl:datumaanvraag a rdf:Property ;
+        skos:definition "Datum waarop de Explain is aangevraagd."@nl ;
+        skos:prefLabel "DatumAanvraag"@nl .
+
     otl:datumeerstebesluit a rdf:Property ;
         skos:definition "Datum waarin the toonaangevende besluit wordt verwacht."@nl ;
         skos:prefLabel "DatumEersteBesluit"@nl .
@@ -6908,7 +6944,7 @@ Hernoemen naar Blootstellingsfactor?"""@nl ;
         skos:prefLabel "DatumInBedrijfName"@nl .
 
     otl:datumoplevering a rdf:Property ;
-        skos:definition "Datum waarop een asset is opgeleverd"@nl ;
+        skos:definition "Datum waarop een asset is opgeleverd."@nl ;
         skos:prefLabel "DatumOplevering"@nl .
 
     otl:datumrealisatie a rdf:Property ;
@@ -6932,7 +6968,7 @@ Hernoemen naar Blootstellingsfactor?"""@nl ;
         skos:prefLabel "DatumTijdAdministratiefGereed"@nl .
 
     otl:datumtijdafgerond a rdf:Property ;
-        skos:definition "DatumTijd waarop de activiteit be&#235;indigd is."@nl ;
+        skos:definition "DatumTijd waarop de activiteit beëindigd is."@nl ;
         skos:prefLabel "DatumTijdAfgerond"@nl .
 
     otl:datumtijdafgesloten a rdf:Property ;
@@ -7025,7 +7061,7 @@ Hernoemen naar Blootstellingsfactor?"""@nl ;
         skos:prefLabel "Debiet"@nl .
 
     otl:depositiewaarde a rdf:Property ;
-        skos:definition """Depositiewaarde is de hoeveelheid reactieve stikstof die binnen een bepaald gebied neerslaat.\r
+        skos:definition """Depositiewaarde is de hoeveelheid reactieve stikstof die binnen een bepaald gebied neerslaat.
 De depositiewaarde wordt uitgedrukt in kilogram of mol stikstof per hectare per jaar."""@nl ;
         skos:prefLabel "Depositiewaarde"@nl .
 
@@ -7074,6 +7110,10 @@ De depositiewaarde wordt uitgedrukt in kilogram of mol stikstof per hectare per 
         skos:definition "De beschikbare ruimte tussen de weg en de onderkant van een bouwwerk boven de weg, zoals een viaduct of een tunnel."@nl ;
         skos:prefLabel "Doorrijhoogte"@nl .
 
+    otl:dreigingsscore a rdf:Property ;
+        skos:definition "Dreigingsscore is een numerieke waardering die de waarschijnlijkheid en het potentieel van een bepaalde dreiging aangeeft. Het is een maatstaf die wordt gebruikt om de kans te beoordelen dat een specifieke dreiging zich voordoet en de mogelijke impact ervan op systemen, netwerken of gegevens."@nl ;
+        skos:prefLabel "Dreigingsscore"@nl .
+
     otl:drempeldiepte a rdf:Property ;
         skos:definition "De drempeldiepte van een asset."@nl ;
         skos:prefLabel "Drempeldiepte"@nl .
@@ -7091,14 +7131,10 @@ De depositiewaarde wordt uitgedrukt in kilogram of mol stikstof per hectare per 
         skos:prefLabel "DuurSluiten"@nl .
 
     otl:economischeeindelevensduurindicator a rdf:Property ;
-        skos:definition """De indicator wordt gedefinieerd als de verhouding tussen:\r
-<ul>\r
-	<li>de huidige waarde van langdurig onderhoud voor een bestaande constructie en vervanging in de toekomst</li>\r
-</ul>\r
-versus\r
-<ul>\r
-	<li>de huidige waarde van een directe vervanging en het daarop volgende langetermijnonderhoud voor een nieuwe constructie.</li>\r
-</ul>"""@nl ;
+        skos:definition """De indicator wordt gedefinieerd als de verhouding tussen:
+- de huidige waarde van langdurig onderhoud voor een bestaande constructie en vervanging in de toekomst
+versus
+- de huidige waarde van een directe vervanging en het daarop volgende langetermijnonderhoud voor een nieuwe constructie."""@nl ;
         skos:prefLabel "EconomischeEindeLevensduurIndicator"@nl .
 
     otl:eenheid a rdf:Property ;
@@ -7106,12 +7142,12 @@ versus\r
         skos:prefLabel "Eenheid"@nl .
 
     otl:eenopeenvervangingindicator a rdf:Property ;
-        skos:definition "Indicator of het element / het bouwdeel &#233;&#233;n op &#233;&#233;n wordt vervangen door een identiek element/ bouwdeel."@nl ;
+        skos:definition "Indicator of het element / het bouwdeel één op één wordt vervangen door een identiek element/ bouwdeel."@nl ;
         skos:prefLabel "EenOpEenVervangingIndicator"@nl .
 
     otl:effect a rdf:Property ;
-        skos:definition """Ernst van het letsel verwonding.\r
-\r
+        skos:definition """Ernst van het letsel verwonding.
+
 Hernoemen naar effectfactor?"""@nl ;
         skos:prefLabel "Effect"@nl .
 
@@ -7135,6 +7171,10 @@ Hernoemen naar effectfactor?"""@nl ;
         skos:definition "Eindmaand van de planfase."@nl ;
         skos:prefLabel "Eindmaand"@nl .
 
+    otl:eiscode a rdf:Property ;
+        skos:definition "De unieke code van de betreffende eis."@nl ;
+        skos:prefLabel "EisCode"@nl .
+
     otl:elementtype a rdf:Property ;
         skos:definition "Groepering van elementen naar type."@nl ;
         skos:prefLabel "ElementType"@nl .
@@ -7152,21 +7192,21 @@ Hernoemen naar effectfactor?"""@nl ;
         skos:prefLabel "Faalfrequentie"@nl .
 
     otl:faalgedrag a rdf:Property ;
-        skos:definition """Beschrijving van het faalgedrag:\r
-- veroudering\r
+        skos:definition """Beschrijving van het faalgedrag:
+- veroudering
 - willekeurig falen"""@nl ;
         skos:prefLabel "Faalgedrag"@nl .
 
     otl:faalkansdistributie a rdf:Property ;
-        skos:definition """Faalkansverdeling van een faaloorzaak. Er zijn 3 type faalkansdistributie welke hoort bij de faalwijze:\r
-Exponentieel: voor random falen. Dit faalgedrag geldt voor faalwijzen die met een constante kans kunnen optreden (dus niet be&#239;nvloed worden door veroudering), het betreft hier externe oorzaken (bv. blikseminslag) of menselijke fouten (bv. bedienfouten, aanvaring sluisdeur).\r
-Normaal: voor veroudering: dit faalgedrag betreft falen waar de kans van optreden geleidelijk toeneemt in de tijd en verdeeld is volgens een Gauss curve. Dit faalgedrag wordt standaard toegepast op verouderende componenten.\r
+        skos:definition """Faalkansverdeling van een faaloorzaak. Er zijn 3 type faalkansdistributie welke hoort bij de faalwijze:
+Exponentieel: voor random falen. Dit faalgedrag geldt voor faalwijzen die met een constante kans kunnen optreden (dus niet beïnvloed worden door veroudering), het betreft hier externe oorzaken (bv. blikseminslag) of menselijke fouten (bv. bedienfouten, aanvaring sluisdeur).
+Normaal: voor veroudering: dit faalgedrag betreft falen waar de kans van optreden geleidelijk toeneemt in de tijd en verdeeld is volgens een Gauss curve. Dit faalgedrag wordt standaard toegepast op verouderende componenten.
 Vaste waarde: dit betreft faalgedrag waarbij exact bekend is wanneer een component faalt. Dit faalgedrag wordt toegepast voor de componenten die zeker niet zullen falen (door de 'vaste waarde' op 1.000 jaar te zetten (8.760.000 uur)). T.b.v. "Secundaire functionaliteiten" kan eventueel het faalmodel  'Vaste waarde' worden gehanteerd, maar de voorkeur is ook voor secundaire functionaliteit om faalmodel 'Normaal' te gebruiken."""@nl ;
         skos:prefLabel "Faalkansdistributie"@nl .
 
     otl:faalkanskritischindicator a rdf:Property ;
         skos:definition "Indicator om aan te geven of het onderdeel invloed heeft op de faalkans van het sluiten van stormvloedkering."@nl ;
-        skos:prefLabel "FaalkanskritischIndicator"@nl .
+        skos:prefLabel "FaalkansKritischIndicator"@nl .
 
     otl:faalkanspervraag a rdf:Property ;
         skos:definition "De kans op falen als een component wordt aangesproken."@nl ;
@@ -7179,10 +7219,6 @@ Vaste waarde: dit betreft faalgedrag waarbij exact bekend is wanneer een compone
     otl:faunavoorzieningindicator a rdf:Property ;
         skos:definition "Indicator die aangeeft of het kunstwerk een faunavoorzieningsfunctie vervult."@nl ;
         skos:prefLabel "FaunavoorzieningIndicator"@nl .
-
-    otl:fileindicator a rdf:Property ;
-        skos:definition "Indicator voor file. Gereden snelheid is kleiner dan 50 km/h."@nl ;
-        skos:prefLabel "FileIndicator"@nl .
 
     otl:frequentie a rdf:Property ;
         skos:definition "Aantal keer dat iets plaatsvindt binnen een tijdsperiode."@nl ;
@@ -7208,6 +7244,10 @@ Vaste waarde: dit betreft faalgedrag waarbij exact bekend is wanneer een compone
         skos:definition "De garantietermijn van een asset."@nl ;
         skos:prefLabel "Garantietermijn"@nl .
 
+    otl:geldigtot a rdf:Property ;
+        skos:definition "Einddatum waarop de Explain zijn wettelijke bevoegdheid verliest en niet langer van kracht is."@nl ;
+        skos:prefLabel "GeldigTot"@nl .
+
     otl:geluidproductieplafond a rdf:Property ;
         skos:definition "Een punt in Nederland waar ter referentie is vastgesteld wat de maximale toegstane geluidbelasting per etmaalperiode mag zijn die geproduceerd wordt door een Rijksweg, een provinciale weg, een industrieterrein, of het hoofdspoor."@nl ;
         skos:prefLabel "Geluidproductieplafond"@nl .
@@ -7222,7 +7262,7 @@ Vaste waarde: dit betreft faalgedrag waarbij exact bekend is wanneer een compone
 
     otl:geodesieLandmeetkunde a rdf:Property ;
         skos:definition "Beschrijving van de locatie van een object volgens een landmeetkundig systeem. In Nederland wordt doorgaans gebruik gemaakt van het stelsel van de Rijksdriehoeksmeting (RD) voor de lengte- en breedtepositie van een object en het Nieuw Amsterdams Peil als referentiepunt voor de hoogteligging."@nl ;
-        skos:prefLabel "Geodesie / landmeetkunde"@nl .
+        skos:prefLabel "Geodesie-Landmeetkunde"@nl .
 
     otl:geometrie a rdf:Property ;
         skos:definition "Ruimtelijke beschrijving van de vorm van een object in termen van punten, lijnen en vlakken."@nl ;
@@ -7235,6 +7275,10 @@ Vaste waarde: dit betreft faalgedrag waarbij exact bekend is wanneer een compone
     otl:geplandeeinddatum a rdf:Property ;
         skos:definition "Geplande einddatum van de activiteiten."@nl ;
         skos:prefLabel "GeplandeEinddatum"@nl .
+
+    otl:geredensnelheidlagerdan50indicator a rdf:Property ;
+        skos:definition "Indicator voor een weg waarop de gereden snelheid lager is dan 50 km/h."@nl ;
+        skos:prefLabel "GeredenSnelheidLagerDan50Indicator"@nl .
 
     otl:geschatbudgetadvies a rdf:Property ;
         skos:definition "Geschat bedrag dat beschikbaar gesteld wordt voor het realiseren van het uitgewerkte advies."@nl ;
@@ -7269,23 +7313,20 @@ Vaste waarde: dit betreft faalgedrag waarbij exact bekend is wanneer een compone
         skos:prefLabel "GeschatBudgetVolgendeFase"@nl .
 
     otl:getypeerd a rdf:Property ;
-        skos:definition """<b>Met eenheid.</b>\r
-Kenmerk dat getypeerd wordt door een eenheidssoort (quantity kind) en waarvan de waarde wordt uitgedrukt in een eenheid. Een eenheidssoort is bijvoorbeeld Lengte. De bijbehorende eenheid kan centimeter, meter, lichtjaar of een andere lengtemaat zijn. De waarde heeft alleen betekenis in combinatie met een eenheid.\r
-<ul>\r
-	<li>QUDT-typering\r
-In principe worden typeringen en eenheden volgens de QUDT-lijst gebruikt. QUDT-typeringen en eenheden worden weergegeven met een namespace qu.\r
-- typering: qu:length, qu:frequency, qu:mass\r
-- eenheid: qu:KiloG, qu:MilliM</li>\r
-</ul>\r
-<ul>\r
-	<li>RWS-typering\r
-Waar de QUDT-lijst niet volstaat worden 'custom'-typeringen gedefinieerd.</li>\r
-</ul>"""@nl ;
+        skos:definition """Kwantiteitsaanduiding met een dimensie. 
+Kenmerk waarvan de numerieke waarde een dimensie kent,  getypeerd wordt door een eenheidssoort (quantity kind) en waarvan de waarde wordt uitgedrukt in een eenheid. 
+Een eenheidssoort is bijvoorbeeld Lengte. De bijbehorende eenheid kan centimeter, meter, lichtjaar of een andere lengtemaat zijn. De waarde heeft alleen betekenis in combinatie met een eenheid.
+- QUDT-typering
+In principe worden typeringen en eenheden volgens de QUDT-lijst gebruikt. QUDT-typeringen en eenheden worden weergegeven met een namespace qu.
+- typering: qu:length, qu:frequency, qu:mass
+- eenheid: qu:KiloG, qu:MilliM
+- RWS-typering
+Waar de QUDT-lijst niet volstaat worden 'custom'-typeringen gedefinieerd."""@nl ;
         skos:prefLabel "Getypeerd"@nl .
 
     otl:gevaarafwending a rdf:Property ;
-        skos:definition """Mogelijkheid om het gevaar af te wenden/te ontwijken.\r
-\r
+        skos:definition """Mogelijkheid om het gevaar af te wenden/te ontwijken.
+
 Hernoemen naar Gevaarafwendingsfactor?"""@nl ;
         skos:prefLabel "Gevaarafwending"@nl .
 
@@ -7294,7 +7335,13 @@ Hernoemen naar Gevaarafwendingsfactor?"""@nl ;
         skos:prefLabel "Gevolg"@nl .
 
     otl:gevolgscore a rdf:Property ;
-        skos:definition "Classificatie van het gevolg van falen"@nl ;
+        skos:definition """Classificatie van het gevolg van falen.
+Rijkswaterstaat heeft ervoor gekozen om de ongewenste gevolgen te groeperen in
+vier categorieën:
+1. Verwaarloosbaar
+2. Beperkt
+3. Groot
+4. Ernstig"""@nl ;
         skos:prefLabel "Gevolgscore"@nl .
 
     otl:gewicht a rdf:Property ;
@@ -7306,11 +7353,11 @@ Hernoemen naar Gevaarafwendingsfactor?"""@nl ;
         skos:prefLabel "Gezondheidsscore"@nl .
 
     otl:graaf-kennismodel a owl:Ontology ;
-        dct:created "2023-06-14"^^xsd:date ;
+        dct:created "2023-07-11"^^xsd:date ;
         dct:description "Het OTL kennismodel bevat concepten en eigenschappen met hun definities."@nl ;
         dct:title "OTL kennismodel"@nl ;
-        pav:derivedFrom "IB RWS release 22" ;
-        pav:version "3.1.22" ;
+        pav:derivedFrom "IB RWS release 23" ;
+        pav:version "3.1.23" ;
         owl:imports dct:,
             geo:,
             skos:,
@@ -7319,6 +7366,10 @@ Hernoemen naar Gevaarafwendingsfactor?"""@nl ;
     otl:habitattypecode a rdf:Property ;
         skos:definition "Code van het habitattype uit een van de standaardschema's."@nl ;
         skos:prefLabel "Habitattypecode"@nl .
+
+    otl:handmatigtoegevoegdindicator a rdf:Property ;
+        skos:definition "Indicator om aan te tonen of een programmeringsmaatregel handmatig is ingevoerd of niet."@nl ;
+        skos:prefLabel "HandmatigToegevoegdIndicator"@nl .
 
     otl:hardheid a rdf:Property ;
         skos:definition "Indicatie of een klanteisenspecificatie een wens, eis of besluit is."@nl ;
@@ -7364,10 +7415,11 @@ Hernoemen naar Gevaarafwendingsfactor?"""@nl ;
         skos:definition "De ouderdom van een asset (afgeleid van bouwdatum of bouwjaar)."@nl ;
         skos:prefLabel "HuidigeLeeftijd"@nl .
 
-    otl:identificatie a rdf:Property ;
-        skos:definition """ID of code.\r
+    otl:identifier a rdf:Property ;
+        skos:definition """DEF-4783
+
 Kenmerk waarvan de waarde een unieke entiteit identificeert."""@nl ;
-        skos:prefLabel "Identificatie"@nl .
+        skos:prefLabel "Identifier"@nl .
 
     otl:ikindicator a rdf:Property ;
         skos:definition "Indicator of de inzet van de medewerker vanuit interne kosten wordt gefinancierd."@nl ;
@@ -7380,18 +7432,6 @@ Kenmerk waarvan de waarde een unieke entiteit identificeert."""@nl ;
     otl:impactlokalebedieningnetwerk a rdf:Property ;
         skos:definition "Impact van de lokale bediening op het overige netwerk."@nl ;
         skos:prefLabel "ImpactLokaleBedieningNetwerk"@nl .
-
-    otl:indicator a rdf:Property ;
-        skos:definition """Boolean\r
-Kenmerk waarvan de waarde aangeeft of bepaalde bewering geldig is: waar of niet waar (true of false).\r
-Een Indicator is een Boolean die alleen de waarde True / False kan hebben. Synoniemen voor deze waarden zijn 1 / 0  of Ja / Nee.\r
-De naam van een Kenmerk van het type Boolean wordt geformuleerd als een bewering die waar of niet waar is of een vraag die met ja of nee beantwoord kan worden. De naam begint bij voorkeur met Is (is). Indien nodig met een ander werkwoord.\r
-Voorbeelden:\r
-- IsFaalkanskritisch ( Het concept is faalkanskritisch)\r
-- IsBackupBeschikbaar (Is er van de asset een backup beschikbaar? )\r
-- PomptZoetNaarZout (De asset pompt van zoet naar zout)\r
-- IsWettelijkBeschermd (de soort is wettelijk beschermd)"""@nl ;
-        skos:prefLabel "Indicator"@nl .
 
     otl:indicatorhoofdtransportas a rdf:Property ;
         skos:definition "Een sluis bevindt zich in hoofdtransportas (HTS) of overige vaarwegen. Indicator of een sluis zich in een hoofdtransportas bevindt."@nl ;
@@ -7429,6 +7469,10 @@ Voorbeelden:\r
         skos:definition "Berekening van de verwachte instandhoudingskosten van een kunstwerk per jaar."@nl ;
         skos:prefLabel "Instandhoudingskosten"@nl .
 
+    otl:integralebeveiligingsscore a rdf:Property ;
+        skos:definition "Classificatie van het gevolg van falen op objectniveau volgens de referentiedocumenten en de handreiking Kwalitatieve ORA voor security (Se), oftewel Integrale Beveiliging."@nl ;
+        skos:prefLabel "IntegraleBeveiligingsscore"@nl .
+
     otl:internebelanghebbendeindicator a rdf:Property ;
         skos:definition "Indicator of de belanghebbende zich binnen IenW bevindt."@nl ;
         skos:prefLabel "InterneBelanghebbendeIndicator"@nl .
@@ -7440,6 +7484,10 @@ Voorbeelden:\r
     otl:interval a rdf:Property ;
         skos:definition "Tijd tussen het uitvoeren van planbare activiteiten."@nl ;
         skos:prefLabel "Interval"@nl .
+
+    otl:invoerdatum a rdf:Property ;
+        skos:definition "Datum waarop de programmeringsmaatregel is ingevoerd."@nl ;
+        skos:prefLabel "Invoerdatum"@nl .
 
     otl:isBeschrevenDoor a rdf:property ;
         skos:definition "eigenschap waarmee een relatie tussen een asset en een informatieconcept, of een informatieconcept en een ander informatieconcept kan worden gelegd."@nl ;
@@ -7470,11 +7518,22 @@ Voorbeelden:\r
         skos:prefLabel "Kans"@nl .
 
     otl:kansscore a rdf:Property ;
-        skos:definition "Classificatie van de kans van falen"@nl ;
+        skos:definition """Classificatie van de kans van falen.
+1. Verwaarloosbaar
+2.  Klein
+3. Middelmatig
+4. Groot
+5. Zeker"""@nl,
+            """De kansscore is de waarschijnlijkheid dat de dreiging zich zal manifesteren en dat de kwetsbaarheid wordt benur door het ontbreken van de CSIR maatregel. Deze kansscore wordt uitgedrukt in een vijfpuntschaal:
+1. Verwaarloosbaar
+2.  Klein
+3. Middelmatig
+4. Groot
+5. Zeker"""@nl ;
         skos:prefLabel "Kansscore"@nl .
 
     otl:kenmerk a rdf:Property ;
-        skos:definition "Enkelvoudige en (in het algemeen) gestructureerd vastgelegde informatie zoals bouwjaar, naam, omschrijving, lengte, discipline etc. Meestal is er een &#233;&#233;n op &#233;&#233;n relatie met het onderwerp"@nl,
+        skos:definition "Enkelvoudige en (in het algemeen) gestructureerd vastgelegde informatie zoals bouwjaar, naam, omschrijving, lengte, discipline etc. Meestal is er een één op één relatie met het onderwerp"@nl,
             "Kenmerk van  de Storende factor."@nl ;
         skos:prefLabel "Kenmerk"@nl .
 
@@ -7491,7 +7550,8 @@ Voorbeelden:\r
         skos:prefLabel "KortlopendIndicator"@nl .
 
     otl:kosten a rdf:Property ;
-        skos:definition "Gemaakte kosten voor het uitvoeren van een activiteit."@nl ;
+        skos:definition "Gemaakte kosten voor het uitvoeren van een activiteit."@nl,
+            "Post die aan de debetzijde (in min) van het resultaat geboekt worden."@nl ;
         skos:prefLabel "Kosten"@nl .
 
     otl:kostenscore a rdf:Property ;
@@ -7531,9 +7591,19 @@ Voorbeelden:\r
         skos:prefLabel "KwaliteitsscoreCompleet"@nl .
 
     otl:kwantiteit a rdf:Property ;
-        skos:definition """<b>Numeriek</b>\r
+        skos:definition """Grootheid =quantitytype
+dimensie = eenheid = unit
+
+Grootheid lengte met dimensie cm,km
+Grootheid aantal is dimensieloos (is ook weer een eenheidselement) met "stuks" ?
+Hoe m.b.t. percentage, kans
+
 Kenmerk waarvan de waarde numeriek is. Het kenmerk geeft een hoeveelheid weer."""@nl ;
         skos:prefLabel "Kwantiteit"@nl .
+
+    otl:kwetsbaarheidsscore a rdf:Property ;
+        skos:definition "Kwetsbaarheidsscore is een numerieke maatstaf die de ernst en het risico van een kwetsbaarheid aangeeft, waardoor prioriteit en gerichte acties kunnen worden bepaald om kwetsbaarheden op te lossen op basis van hun impact en dreigingsniveau."@nl ;
+        skos:prefLabel "Kwetsbaarheidsscore"@nl .
 
     otl:langlopendindicator a rdf:Property ;
         skos:definition "Indicator of de type werkvergunning langlopend is."@nl ;
@@ -7577,7 +7647,7 @@ Kenmerk waarvan de waarde numeriek is. Het kenmerk geeft een hoeveelheid weer.""
         skos:prefLabel "Materiaal"@nl .
 
     otl:matevanbedreiging a rdf:Property ;
-        skos:definition "De mate van bedreiging van een soort in een bepaald jaar is afgeleid van de zeldzaamheid in dat jaar en de trend vanaf 1950 tot dat jaar. De mate van bedreiging is verdeeld over de volgende categorie&#235;n: verdwenen uit Nederland, ernstig bedreigd, bedreigd, kwetsbaar, gevoelig."@nl ;
+        skos:definition "De mate van bedreiging van een soort in een bepaald jaar is afgeleid van de zeldzaamheid in dat jaar en de trend vanaf 1950 tot dat jaar. De mate van bedreiging is verdeeld over de volgende categorieën: verdwenen uit Nederland, ernstig bedreigd, bedreigd, kwetsbaar, gevoelig."@nl ;
         skos:prefLabel "MateVanBedreiging"@nl .
 
     otl:maximaleconstructiebreedte a rdf:Property ;
@@ -7593,7 +7663,7 @@ Kenmerk waarvan de waarde numeriek is. Het kenmerk geeft een hoeveelheid weer.""
         skos:prefLabel "MaximaleVoorraad"@nl .
 
     otl:meantimetofailure a rdf:Property ;
-        skos:definition "Van iedere faaloorzaak dient aangegeven te worden hoe vaak die kan optreden. Dit wordt uitgedrukt in de verwachte levensduur (ook wel bekend als de MTTF, Mean Time To Failure). Uitgangspunt hierbij is dat er g&#233;&#233;n preventieve vervangingen worden uitgevoerd, maar dat wel het standaard verzorgend onderhoud (bv. smeren en schoonmaken) wordt uitgevoerd. Voor verouderende componenten wordt daarbij aangenomen dat de faalkans normaal verdeeld is en de MTTF de 50% waarde van de levensduur is. Dus een MTTF van 20 jaar betekent dat er 50% kans is dat de component v&#243;&#243;r dat moment, en 50% kans dat de component n&#225; dat moment gaat falen. Voor willekeurig falende componenten wordt de exponenti&#235;le verdeling gebruikt en wordt met de MTTF aangeduid wat de gemiddelde kans op falen is (een MTTF van 20 jaar betekent dat er jaarlijks een 5% kans op falen is)."@nl ;
+        skos:definition "Van iedere faaloorzaak dient aangegeven te worden hoe vaak die kan optreden. Dit wordt uitgedrukt in de verwachte levensduur (ook wel bekend als de MTTF, Mean Time To Failure). Uitgangspunt hierbij is dat er géén preventieve vervangingen worden uitgevoerd, maar dat wel het standaard verzorgend onderhoud (bv. smeren en schoonmaken) wordt uitgevoerd. Voor verouderende componenten wordt daarbij aangenomen dat de faalkans normaal verdeeld is en de MTTF de 50% waarde van de levensduur is. Dus een MTTF van 20 jaar betekent dat er 50% kans is dat de component vóór dat moment, en 50% kans dat de component ná dat moment gaat falen. Voor willekeurig falende componenten wordt de exponentiële verdeling gebruikt en wordt met de MTTF aangeduid wat de gemiddelde kans op falen is (een MTTF van 20 jaar betekent dat er jaarlijks een 5% kans op falen is)."@nl ;
         skos:prefLabel "MeanTimeToFailure"@nl .
 
     otl:medewerkercode a rdf:Property ;
@@ -7672,14 +7742,14 @@ Kenmerk waarvan de waarde numeriek is. Het kenmerk geeft een hoeveelheid weer.""
             "Naam van de functie"@nl,
             "Naam van de leverancier."@nl,
             "Naam van de projectdiscipline."@nl,
+            "Naam van de soortgroep."@nl,
             "Naam van de systeemeis."@nl,
             "Naam van de veiligheidregio."@nl,
             "Naam van een asset, object of concept."@nl,
             "Naam van een deelvariant."@nl,
             "Naam van een evenement."@nl,
             "Naam van een variant."@nl,
-            "Naam van het habitat."@nl,
-            "Naar van de soortgroep."@nl ;
+            "Naam van het habitat."@nl ;
         skos:prefLabel "Naam"@nl .
 
     otl:natura2000gebiedindicator a rdf:Property ;
@@ -7687,7 +7757,7 @@ Kenmerk waarvan de waarde numeriek is. Het kenmerk geeft een hoeveelheid weer.""
         skos:prefLabel "Natura2000gebiedIndicator"@nl .
 
     otl:nederlandsenaam a rdf:Property ;
-        skos:definition """De naam van de soort in het Nederlands. \r
+        skos:definition """De naam van de soort in het Nederlands. 
 Veel soorten hebben geen Nederlandse naam en zullen altijd met de wetenschappelijke naam benoemd worden."""@nl ;
         skos:prefLabel "NederlandseNaam"@nl .
 
@@ -7742,7 +7812,7 @@ Veel soorten hebben geen Nederlandse naam en zullen altijd met de wetenschappeli
     otl:omschrijving a rdf:Property ;
         skos:definition "Beschrijving van de voorraad"@nl,
             "De beschrijving wat tijdens een waarneming gezien is."@nl,
-            "De omschrijving van de Non Conformiteit"@nl,
+            "De omschrijving van de afwijking."@nl,
             "De omschrijving van de gebeurtenis."@nl,
             "De omschrijving van de menselijke handeling."@nl,
             "De omschrijving van de standaard beheersmaatregel."@nl,
@@ -7759,7 +7829,7 @@ Veel soorten hebben geen Nederlandse naam en zullen altijd met de wetenschappeli
             "Omschrijving van de beheersmaatregel."@nl,
             "Omschrijving van de faaloorzaak"@nl,
             "Omschrijving van de faalwijze"@nl,
-            "Omschrijving van de functie"@nl,
+            "Omschrijving van de functie."@nl,
             "Omschrijving van de inspectiemethode."@nl,
             "Omschrijving van de leverbaarheid van een nieuw asset."@nl,
             "Omschrijving van de onderhoudsactiviteit die op bepaalde assets uitgevoerd moet worden."@nl,
@@ -7793,8 +7863,10 @@ Veel soorten hebben geen Nederlandse naam en zullen altijd met de wetenschappeli
         skos:prefLabel "Onderzoeksbehoefte"@nl .
 
     otl:ongetypeerd a rdf:Property ;
-        skos:definition """<b>Zonder eenheid</b>\r
-Kenmerk waarvan de numerieke waarde geen eenheid kent."""@nl ;
+        skos:definition """Kenmerk waarvan de numerieke waarde geen dimensie heeft en geen eenheid kent.
+De numerieke waarde is voldoende om het het kenmerk betekenis te geven. De naam of beschrijving van het kenmerk zal dit dan duidelijk moeten maken.
+"AantalBezoekers" als kenmerk van een "Event"	
+"AfnameSlijtage" als kenmerk van"""@nl ;
         skos:prefLabel "Ongetypeerd"@nl .
 
     otl:ontwerplevensduur a rdf:Property ;
@@ -7857,6 +7929,10 @@ Kenmerk waarvan de numerieke waarde geen eenheid kent."""@nl ;
         skos:definition "Een beschrijving van de politieke en bestuurlijke gevoeligheden in relatie tot de crisis."@nl ;
         skos:prefLabel "PolitiekBestuurlijkeGevoeligheid"@nl .
 
+    otl:prijs a rdf:Property ;
+        skos:definition "Het bedrag te betalen in geld of goederen/diensten in ruil voor een product of dienst."@nl ;
+        skos:prefLabel "Prijs"@nl .
+
     otl:primairekeringindicator a rdf:Property ;
         skos:definition "Indicator of het object een primaire kering is."@nl ;
         skos:prefLabel "PrimaireKeringIndicator"@nl .
@@ -7872,6 +7948,10 @@ Kenmerk waarvan de numerieke waarde geen eenheid kent."""@nl ;
     otl:programma a rdf:Property ;
         skos:definition "De geplande achtereenvolging van activiteiten verbonden aan de tijd."@nl ;
         skos:prefLabel "Programma"@nl .
+
+    otl:programmeerjaarvanuitvoering a rdf:Property ;
+        skos:definition "Het jaar waarin de uitvoering van een maatregel wordt geprogrammeerd. Volgens de programmering zal de maatregel in dit jaar worden uitgevoerd."@nl ;
+        skos:prefLabel "ProgrammeerJaarvanUitvoering"@nl .
 
     otl:programmeringsbasismaatregeltype a rdf:Property ;
         skos:definition "Een categorie van maatregelen met overeenkomstige kenmerken voor programmering."@nl ;
@@ -7894,7 +7974,7 @@ Kenmerk waarvan de numerieke waarde geen eenheid kent."""@nl ;
         skos:prefLabel "ProgrammeringsmaatregelNummer"@nl .
 
     otl:programmeringsstatus a rdf:Property ;
-        skos:definition "Indicator of een onderhoudsstrategie programmeringsbasis of programmering als status heeft."@nl ;
+        skos:definition "Waarde die weergeeft welke status de maatregel heeft in het proces programmering. Opties zijn: gecontracteerd, geprogrammeerd, geaccepteerd, opdracht programmeringsbasis."@nl ;
         skos:prefLabel "Programmeringsstatus"@nl .
 
     otl:projectnaam a rdf:Property ;
@@ -7910,7 +7990,7 @@ Kenmerk waarvan de numerieke waarde geen eenheid kent."""@nl ;
         skos:prefLabel "QRcode"@nl .
 
     otl:ramssheepScore a rdf:Property ;
-        skos:definition "Socres volgens het RAMSHEEP-systeem"@nl ;
+        skos:definition "Score volgens het RAMSSHEEP-systeem"@nl ;
         skos:prefLabel "RAMSSHEEP-score"@nl .
 
     otl:raster a rdf:Property ;
@@ -7918,12 +7998,16 @@ Kenmerk waarvan de numerieke waarde geen eenheid kent."""@nl ;
         skos:prefLabel "Raster"@nl .
 
     otl:rdWaarde a rdf:Property ;
-        skos:definition "Co&#246;rdinaten volgens stelsel van de Rijksdriehoeksmeting."@nl ;
+        skos:definition "Coördinaten volgens stelsel van de Rijksdriehoeksmeting."@nl ;
         skos:prefLabel "RD-waarde"@nl .
 
     otl:redenuitstel a rdf:Property ;
         skos:definition "Reden tot het uitstellen van de uitvoering van de werkorder door opdrachtnemer."@nl ;
         skos:prefLabel "RedenUitstel"@nl .
+
+    otl:referentienummer a rdf:Property ;
+        skos:definition "Het referentienummer van de Explain."@nl ;
+        skos:prefLabel "Referentienummer"@nl .
 
     otl:restLevensduur a rdf:Property ;
         skos:definition "De verwachte resterende levensduur van een damwand."@nl ;
@@ -7958,17 +8042,17 @@ Kenmerk waarvan de numerieke waarde geen eenheid kent."""@nl ;
         skos:prefLabel "RisicodossierIndicator"@nl .
 
     otl:risiconiveau a rdf:Property ;
-        skos:definition "Classificatie van risico’s vari&#235;rend van acceptabel tot onacceptabel, aangegeven met de kleuren groen, geel en rood in de risicomatrix."@nl,
+        skos:definition "Classificatie van risico’s variërend van acceptabel tot onacceptabel, aangegeven met de kleuren groen, geel en rood in de risicomatrix."@nl,
             "De risicocategorie gedefinieerd voor RWS op basis van kansscore en gevolgscore."@nl,
             "Het niveau dat is verbonden aan de risicoscore die aan het risico is toegekend."@nl ;
         skos:prefLabel "Risiconiveau"@nl .
 
     otl:risicoscore a rdf:Property ;
-        skos:definition "Product van kans en gevolg."@nl ;
+        skos:definition "Product van kansscore en gevolgscore."@nl ;
         skos:prefLabel "Risicoscore"@nl .
 
     otl:risicosoort a rdf:Property ;
-        skos:definition "Het type risico, geeft aan voor welk type RI&amp;E dit risico van belang is."@nl ;
+        skos:definition "Het type risico, geeft aan voor welk type RI&E dit risico van belang is."@nl ;
         skos:prefLabel "Risicosoort"@nl .
 
     otl:rodelijstsoortindicator a rdf:Property ;
@@ -8000,7 +8084,8 @@ Kenmerk waarvan de numerieke waarde geen eenheid kent."""@nl ;
         skos:prefLabel "SchutspeilMinimaal"@nl .
 
     otl:scope a rdf:Property ;
-        skos:definition "De scope van een activiteit."@nl,
+        skos:definition "De scope van de Explain."@nl,
+            "De scope van een activiteit."@nl,
             "De scope van een projectfase."@nl ;
         skos:prefLabel "Scope"@nl .
 
@@ -8023,10 +8108,6 @@ Kenmerk waarvan de numerieke waarde geen eenheid kent."""@nl ;
         skos:definition "Indicator of de asset is opgenomen in de security monitor."@nl ;
         skos:prefLabel "SecurityMonitoringIndicator"@nl .
 
-    otl:securityscore a rdf:Property ;
-        skos:definition "Classificatie van het gevolg van falen op objectniveau volgens de referentiedocumenten en de handreiking Kwalitatieve ORA voor security (Se)."@nl ;
-        skos:prefLabel "Securityscore"@nl .
-
     otl:securityupdatedatum a rdf:Property ;
         skos:definition "Datum van de laatste update."@nl ;
         skos:prefLabel "SecurityUpdateDatum"@nl .
@@ -8048,7 +8129,8 @@ Kenmerk waarvan de numerieke waarde geen eenheid kent."""@nl ;
         skos:prefLabel "StandaardDeviatieMTTF"@nl .
 
     otl:startdatum a rdf:Property ;
-        skos:definition "De datum waarop de (rij)strook in gebuikt is genomen."@nl ;
+        skos:definition "De datum waarop de (rij)strook in gebuikt is genomen."@nl,
+            "Startdatum waarop de Explain van kracht is."@nl ;
         skos:prefLabel "Startdatum"@nl .
 
     otl:startfase a rdf:Property ;
@@ -8060,13 +8142,14 @@ Kenmerk waarvan de numerieke waarde geen eenheid kent."""@nl ;
             "De status van de IV asset."@nl,
             "De status van de beheersmaatregel."@nl,
             "Het geeft de operationele status weer, in het kader van het programma VenE, van het object in Expert desk. Op basis van de operationele status kunnen met de Normplanning DVM de juiste budgettering voor beheer en onderhoud worden bepaald."@nl,
-            "Status van een asset."@nl ;
+            "Status van een asset."@nl,
+            "Status van het contract."@nl ;
         skos:prefLabel "Status"@nl .
 
     otl:statusconstructieveveiligheid a rdf:Property ;
-        skos:definition """De status van het kunstwerk op het gebied van constructieve veiligheid. Deze status wordt aangegeven middels de volgende categorie&#235;n:\r
-1: Geen herberekening nodig;\r
-2: Herberekening nodig: directe maatregelen worden niet verwacht;\r
+        skos:definition """De status van het kunstwerk op het gebied van constructieve veiligheid. Deze status wordt aangegeven middels de volgende categorieën:
+1: Geen herberekening nodig;
+2: Herberekening nodig: directe maatregelen worden niet verwacht;
 3: herberekening nodig;"""@nl ;
         skos:prefLabel "StatusConstructieveVeiligheid"@nl .
 
@@ -8091,8 +8174,12 @@ Kenmerk waarvan de numerieke waarde geen eenheid kent."""@nl ;
         skos:prefLabel "StrategischeBrugIndicator"@nl .
 
     otl:strookpositie a rdf:Property ;
-        skos:definition "De locatie in dwarsrichting van de strook ten opzichte van de Baan Ori&#235;ntatie Lijn."@nl ;
+        skos:definition "De locatie in dwarsrichting van de strook ten opzichte van de Baan Oriëntatie Lijn."@nl ;
         skos:prefLabel "Strookpositie"@nl .
+
+    otl:sturingstype a rdf:Property ;
+        skos:definition "Het type contract waaronder de programmeringsmaatregel valt. Bijvoorbeeld onder een prestatiecontract."@nl ;
+        skos:prefLabel "Sturingstype"@nl .
 
     otl:subcategorie a rdf:Property ;
         skos:definition "Subcategorie van de asset zoals aangegeven bij Beheerkaart NAT die deels overeenkomen met NEN2767-4."@nl ;
@@ -8123,7 +8210,9 @@ Kenmerk waarvan de numerieke waarde geen eenheid kent."""@nl ;
         skos:prefLabel "TechnischGereedTijd"@nl .
 
     otl:tekst a rdf:Property ;
-        skos:definition "Kenmerk waarvan de waarde een textuele  beschrijving is en een alfanumerieke waarde heeft."@nl ;
+        skos:definition """DEF-4213
+
+Kenmerk waarvan de waarde een tekstuele beschrijving is en een alfanumerieke waarde heeft."""@nl ;
         skos:prefLabel "Tekst"@nl .
 
     otl:telefoonnummer a rdf:Property ;
@@ -8140,7 +8229,8 @@ Kenmerk waarvan de numerieke waarde geen eenheid kent."""@nl ;
         skos:prefLabel "TestInterval"@nl .
 
     otl:thema a rdf:Property ;
-        skos:definition "De grondgedachte"@nl,
+        skos:definition "De grondgedachte."@nl,
+            "Het thema van een cybersecurity eis."@nl,
             "Het thema van een klanteisenspecificatie."@nl,
             "Het thema van een klantvraag."@nl,
             "Thema van een beoordelingscriterium."@nl ;
@@ -8159,7 +8249,9 @@ Kenmerk waarvan de numerieke waarde geen eenheid kent."""@nl ;
         skos:prefLabel "Tijdsblok"@nl .
 
     otl:tijdsduur a rdf:Property ;
-        skos:definition "Periode tussen twee tijdsmomenten."@nl ;
+        skos:definition """DEF-3707
+
+Periode tussen twee tijdsmomenten."""@nl ;
         skos:prefLabel "Tijdsduur"@nl .
 
     otl:tijdsmoment a rdf:Property ;
@@ -8213,7 +8305,7 @@ Kenmerk waarvan de numerieke waarde geen eenheid kent."""@nl ;
         skos:definition "Beschrijving van het soort anker."@nl,
             "Beschrijving van het soort bekleding."@nl,
             "Beschrijving van het soort damwand."@nl,
-            """De flora en fauna in Nederland vormen samen het geheel van planten (flora) en dieren (fauna) die in Nederland voorkomen.\r
+            """De flora en fauna in Nederland vormen samen het geheel van planten (flora) en dieren (fauna) die in Nederland voorkomen.
 Type geeft aan of de Soort een dier (Fauna) of een plant (Flora) is."""@nl,
             "De manier waarop de dieptepeiling meting wordt uitgevoerd."@nl,
             "Een soort met bepaalde kenmerken"@nl,
@@ -8225,7 +8317,7 @@ Type geeft aan of de Soort een dier (Fauna) of een plant (Flora) is."""@nl,
             "Karakterisering van een asset op basis van onderscheidende kenmerken (voor zover dit niet  tot uitdrukking is gebracht in de assettypenaam)."@nl,
             "Soort belijning"@nl,
             "Soort constructie"@nl,
-            "Soort contract"@nl,
+            "Soort contract."@nl,
             "Soort geometrie."@nl,
             "Soort maatregel"@nl,
             "Soort onderdeel van een bepaald merk."@nl,
@@ -8286,9 +8378,9 @@ Type geeft aan of de Soort een dier (Fauna) of een plant (Flora) is."""@nl,
         skos:definition "Een groep die hetzelfde type werk verricht"@nl ;
         skos:prefLabel "Vakgroep"@nl .
 
-    otl:valuta a rdf:Property ;
+    otl:valutabedrag a rdf:Property ;
         skos:definition "Monetaire eenheid waarin een geldbedrag wordt uitgedrukt."@nl ;
-        skos:prefLabel "Valuta"@nl .
+        skos:prefLabel "Valutabedrag"@nl .
 
     otl:veiligheidsscore a rdf:Property ;
         skos:definition "Classificatie van het gevolg van falen op objectniveau volgens de referentiedocumenten en de handreiking Kwalitatieve ORA voor veiligheid (S)."@nl ;
@@ -8312,7 +8404,7 @@ Type geeft aan of de Soort een dier (Fauna) of een plant (Flora) is."""@nl,
         skos:prefLabel "Verkeersintensiteit"@nl .
 
     otl:vervangingsinsterval a rdf:Property ;
-        skos:definition """Het vaste interval waarin de preventieve onderhoudstaak plaatsvindt. Als stelregel voor het interval van een preventieve taak kan worden gehanteerd: \r
+        skos:definition """Het vaste interval waarin de preventieve onderhoudstaak plaatsvindt. Als stelregel voor het interval van een preventieve taak kan worden gehanteerd: 
 Interval preventieve taak is 80% van de MTTF van de betreffende faalwijze."""@nl ;
         skos:prefLabel "Vervangingsinsterval"@nl .
 
@@ -8383,13 +8475,24 @@ Interval preventieve taak is 80% van de MTTF van de betreffende faalwijze."""@nl
         skos:prefLabel "WaardeLuchtkwaliteit"@nl .
 
     otl:waardenlijst a rdf:Property ;
-        skos:definition """<b>Beperkt aantal expliciet benoemde waarden</b>\r
-Kenmerk dat moet voldoen aan een waarde uit een uitputtende lijst met waarden."""@nl ;
-        skos:prefLabel "Waardenlijst"@nl .
+        skos:definition "Kenmerk dat moet voldoen aan een waarde uit een uitputtende lijst met waarden."@nl ;
+        skos:prefLabel "WAARDENLIJST"@nl .
+
+    otl:waarheidswaarde a rdf:Property ;
+        skos:definition """DEF-4962 Waarheidswaarde (Booleaan)
+Kenmerk waarvan de waarde aangeeft of bepaalde bewering geldig is: waar of niet waar (true of false).
+Een Indicator is een Boolean die alleen de waarde True / False kan hebben. Synoniemen voor deze waarden zijn 1 / 0  of Ja / Nee.
+De naam van een Kenmerk van het type Boolean wordt geformuleerd als een bewering die waar of niet waar is of een vraag die met ja of nee beantwoord kan worden. De naam begint bij voorkeur met Is (is). Indien nodig met een ander werkwoord.
+Voorbeelden:
+- IsFaalkanskritisch ( Het concept is faalkanskritisch)
+- IsBackupBeschikbaar (Is er van de asset een backup beschikbaar? )
+- PomptZoetNaarZout (De asset pompt van zoet naar zout)
+- IsWettelijkBeschermd (de soort is wettelijk beschermd)"""@nl ;
+        skos:prefLabel "Waarheidswaarde"@nl .
 
     otl:waarschijnlijkheid a rdf:Property ;
-        skos:definition """Kans van optreden gevaarlijke gebeurtenis.\r
-\r
+        skos:definition """Kans van optreden gevaarlijke gebeurtenis.
+
 Hernoemen naar Waarschijnlijkheidsfactor?"""@nl ;
         skos:prefLabel "Waarschijnlijkheid"@nl .
 
@@ -8434,7 +8537,7 @@ Hernoemen naar Waarschijnlijkheidsfactor?"""@nl ;
         skos:prefLabel "WetenschappelijkeNaam"@nl .
 
     otl:wettelijkebeschermingindicator a rdf:Property ;
-        skos:definition """Indicator die aangeeft of de Soort wettelijk beschermd moet worden.\r
+        skos:definition """Indicator die aangeeft of de Soort wettelijk beschermd moet worden.
 De wettelijke bescherming van soorten heeft tot doel deze in een gunstige staat van instandhouding (GSvI) te krijgen en te behouden."""@nl ;
         skos:prefLabel "WettelijkeBeschermingIndicator"@nl .
 

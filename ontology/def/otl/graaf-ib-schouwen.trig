@@ -574,18 +574,6 @@ otl:graaf-ib-schouwen {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Besturingsinstallatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie binnen de context van informatieproduct Schouwen"@nl ;
-        sh:name "Besturingsinstallatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:BesturingsinstallatieDerden a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Besturingsinstallatie derden binnen de context van informatieproduct Schouwen"@nl ;
-        sh:name "Besturingsinstallatie derden"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Betonverharding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Betonverharding binnen de context van informatieproduct Schouwen"@nl ;
         sh:name "Betonverharding"@nl ;
@@ -769,12 +757,6 @@ otl:graaf-ib-schouwen {
     otl-patroon:Brandblusinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandblusinstallatie binnen de context van informatieproduct Schouwen"@nl ;
         sh:name "Brandblusinstallatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Brandblusinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandblusinstallaties binnen de context van informatieproduct Schouwen"@nl ;
-        sh:name "Brandblusinstallaties"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -976,12 +958,6 @@ otl:graaf-ib-schouwen {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Communicatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Communicatie binnen de context van informatieproduct Schouwen"@nl ;
-        sh:name "Communicatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Compensator a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Compensator binnen de context van informatieproduct Schouwen"@nl ;
         sh:name "Compensator"@nl ;
@@ -1162,12 +1138,6 @@ otl:graaf-ib-schouwen {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:DienstgebouwCiviel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dienstgebouw civiel binnen de context van informatieproduct Schouwen"@nl ;
-        sh:name "Dienstgebouw civiel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Dieptefiltratie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dieptefiltratie binnen de context van informatieproduct Schouwen"@nl ;
         sh:name "Dieptefiltratie"@nl ;
@@ -1201,12 +1171,6 @@ otl:graaf-ib-schouwen {
     otl-patroon:Display a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Display binnen de context van informatieproduct Schouwen"@nl ;
         sh:name "Display"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:DiverseInstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Diverse installaties binnen de context van informatieproduct Schouwen"@nl ;
-        sh:name "Diverse installaties"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1468,12 +1432,6 @@ otl:graaf-ib-schouwen {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Energievoorziening a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Energievoorziening binnen de context van informatieproduct Schouwen"@nl ;
-        sh:name "Energievoorziening"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Erf a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Erf binnen de context van informatieproduct Schouwen"@nl ;
         sh:name "Erf"@nl ;
@@ -1669,12 +1627,6 @@ otl:graaf-ib-schouwen {
     otl-patroon:Gebouw a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebouw binnen de context van informatieproduct Schouwen"@nl ;
         sh:name "Gebouw"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Gebouwinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebouwinstallaties binnen de context van informatieproduct Schouwen"@nl ;
-        sh:name "Gebouwinstallaties"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -2239,12 +2191,6 @@ otl:graaf-ib-schouwen {
     otl-patroon:IJsbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type IJsbaan binnen de context van informatieproduct Schouwen"@nl ;
         sh:name "IJsbaan"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:InEnUitrittenCiviel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type In- en uitritten civiel binnen de context van informatieproduct Schouwen"@nl ;
-        sh:name "In- en uitritten civiel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3820,12 +3766,6 @@ otl:graaf-ib-schouwen {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Pompinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompinstallaties binnen de context van informatieproduct Schouwen"@nl ;
-        sh:name "Pompinstallaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Pompkelder a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pompkelder binnen de context van informatieproduct Schouwen"@nl ;
         sh:name "Pompkelder"@nl ;
@@ -4742,9 +4682,9 @@ otl:graaf-ib-schouwen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storing binnen de context van informatieproduct Schouwen"@nl ;
         sh:name "Storing"@nl ;
         sh:property [ sh:minCount 0 ;
-                sh:path otl:datumtijdgemeld ],
+                sh:path otl:datumtijdopgetreden ],
             [ sh:minCount 0 ;
-                sh:path otl:datumtijdopgetreden ] .
+                sh:path otl:datumtijdgemeld ] .
 
     otl-patroon:Stormvloedkering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stormvloedkering binnen de context van informatieproduct Schouwen"@nl ;
@@ -5424,21 +5364,9 @@ otl:graaf-ib-schouwen {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Verkeersinstallaties a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersinstallaties binnen de context van informatieproduct Schouwen"@nl ;
-        sh:name "Verkeersinstallaties"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Verkeersregelinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersregelinstallatie binnen de context van informatieproduct Schouwen"@nl ;
         sh:name "Verkeersregelinstallatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Verlichting a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verlichting binnen de context van informatieproduct Schouwen"@nl ;
-        sh:name "Verlichting"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5704,11 +5632,11 @@ otl:graaf-ib-schouwen {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waarneming binnen de context van informatieproduct Schouwen"@nl ;
         sh:name "Waarneming"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
                 sh:path otl:bron ],
             [ sh:minCount 1 ;
-                sh:path otl:datumtijdgeconstateerd ] .
+                sh:path otl:datumtijdgeconstateerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:WaarschuwingsEnAlarmeringssysteem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waarschuwings- en alarmeringssysteem binnen de context van informatieproduct Schouwen"@nl ;
@@ -6095,11 +6023,11 @@ otl:graaf-ib-schouwen {
                 sh:path otl:omschrijving ] .
 
     otl:graaf-ib-schouwen a owl:Ontology ;
-        dct:created "2023-06-14"^^xsd:date ;
+        dct:created "2023-07-11"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Schouwen' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Schouwen'"@nl ;
-        pav:derivedFrom "IB RWS release 22" ;
-        pav:version "3.1.22" ;
+        pav:derivedFrom "IB RWS release 23" ;
+        pav:version "3.1.23" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .

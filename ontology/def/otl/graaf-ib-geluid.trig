@@ -32,49 +32,49 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aansluitconstructie binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Aansluitconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Aansluitleiding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aansluitleiding binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Aansluitleiding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Aanstraalverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aanstraalverlichting binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Aanstraalverlichting"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Aardelektrode a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aardelektrode binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Aardelektrode"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ] .
 
     otl-patroon:Accu a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Accu binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Accu"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
 
@@ -82,61 +82,61 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Achterplaat binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Achterplaat"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ] .
 
     otl-patroon:Afdichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afdichting binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Afdichting"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Afdichtingsprofiel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afdichtingsprofiel binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Afdichtingsprofiel"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Afsluitboom a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afsluitboom binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Afsluitboom"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Afsluitboomverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afsluitboomverlichting binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Afsluitboomverlichting"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
+
+    otl-patroon:Afsluiter a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afsluiter binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Afsluiter"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
-
-    otl-patroon:Afsluiter a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afsluiter binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Afsluiter"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Afvalbak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afvalbak binnen de context van informatieproduct Geluid"@nl ;
@@ -152,11 +152,11 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Anker binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Anker"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Antenne a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Antenne binnen de context van informatieproduct Geluid"@nl ;
@@ -172,9 +172,9 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Antiverblindingsscherm binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Antiverblindingsscherm"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
 
@@ -200,9 +200,9 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Asfaltverharding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Asfaltverharding binnen de context van informatieproduct Geluid"@nl ;
@@ -210,9 +210,9 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Balg a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Balg binnen de context van informatieproduct Geluid"@nl ;
@@ -220,37 +220,37 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Balk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Balk binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Balk"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Bank a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bank binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Bank"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Bedieningspaneel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bedieningspaneel binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Bedieningspaneel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -258,21 +258,21 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beëindigingsprofiel binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Beëindigingsprofiel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
-
-    otl-patroon:Begroeiing a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Begroeiing binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Begroeiing"@nl ;
-        sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
+
+    otl-patroon:Begroeiing a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Begroeiing binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Begroeiing"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Beheerorganisatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beheerorganisatie binnen de context van informatieproduct Geluid"@nl ;
@@ -284,9 +284,9 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bekabeling binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Bekabeling"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -294,19 +294,19 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bekleding binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Bekleding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Belijning a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Belijning binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Belijning"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:type ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
@@ -316,11 +316,11 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beplating binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Beplating"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Beschermlaag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beschermlaag binnen de context van informatieproduct Geluid"@nl ;
@@ -328,29 +328,29 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
-
-    otl-patroon:Beschoeiing a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beschoeiing binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Beschoeiing"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
-    otl-patroon:Betonverharding a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Betonverharding binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Betonverharding"@nl ;
+    otl-patroon:Beschoeiing a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beschoeiing binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Beschoeiing"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
+
+    otl-patroon:Betonverharding a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Betonverharding binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Betonverharding"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Bevestiging a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bevestiging binnen de context van informatieproduct Geluid"@nl ;
@@ -368,9 +368,9 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Bliksemafleider a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bliksemafleider binnen de context van informatieproduct Geluid"@nl ;
@@ -378,49 +378,49 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Blokkenmuur a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Blokkenmuur binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Blokkenmuur"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ] .
 
     otl-patroon:Bodembedekker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bodembedekker binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Bodembedekker"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Bolder a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bolder binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Bolder"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Boog a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Boog binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Boog"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Boom a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Boom binnen de context van informatieproduct Geluid"@nl ;
@@ -438,27 +438,27 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Brandblusser a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandblusser binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Brandblusser"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Buffer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Buffer binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Buffer"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -468,29 +468,29 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Buisleiding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Buisleiding binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Buisleiding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:CameraBeweegbaar a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Camera beweegbaar binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Camera beweegbaar"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:CameraVast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Camera vast binnen de context van informatieproduct Geluid"@nl ;
@@ -506,25 +506,45 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Centrale binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Centrale"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Cilinder a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Cilinder binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Cilinder"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
+
+    otl-patroon:Compressor a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Compressor binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Compressor"@nl ;
+        sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
-    otl-patroon:Compressor a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Compressor binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Compressor"@nl ;
+    otl-patroon:Console a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Console binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Console"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
+
+    otl-patroon:Contragewicht a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Contragewicht binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Contragewicht"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
@@ -532,33 +552,13 @@ otl:graaf-ib-geluid {
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
 
-    otl-patroon:Console a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Console binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Console"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
-
-    otl-patroon:Contragewicht a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Contragewicht binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Contragewicht"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
-
     otl-patroon:Dak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dak binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Dak"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -566,29 +566,29 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Damwand binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Damwand"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:DamwandBovenwatertalud a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Damwand bovenwatertalud binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Damwand bovenwatertalud"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:DamwandOnderwatertalud a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Damwand onderwatertalud binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Damwand onderwatertalud"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
 
@@ -596,13 +596,13 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deklaag binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Deklaag"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:type ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:verhardingsvlak ] .
 
@@ -612,25 +612,25 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:verhardingsvlak ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:type ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:verhardingsvlak ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:DeklaagOpen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deklaag (open) binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Deklaag (open)"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:verhardingsvlak ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:type ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:verhardingsvlak ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -640,13 +640,23 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Dekzerkprofiel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dekzerkprofiel binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Dekzerkprofiel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
+
+    otl-patroon:DetectieOnderstation a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detectie onderstation binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Detectie onderstation"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
@@ -654,23 +664,13 @@ otl:graaf-ib-geluid {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
-    otl-patroon:DetectieOnderstation a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detectie onderstation binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Detectie onderstation"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
-
     otl-patroon:Detectielus a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detectielus binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Detectielus"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -678,21 +678,21 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detector binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Detector"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Detectorstation a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detectorstation binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Detectorstation"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Deur a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deur binnen de context van informatieproduct Geluid"@nl ;
@@ -708,19 +708,19 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deurgeleiding binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Deurgeleiding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:DiagonaalVakwerkligger a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Diagonaal vakwerkligger binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Diagonaal vakwerkligger"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -738,21 +738,21 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Display binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Display"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Doorvoer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doorvoer binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Doorvoer"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Draadstang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Draadstang binnen de context van informatieproduct Geluid"@nl ;
@@ -778,49 +778,49 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drainagebuis binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Drainagebuis"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ] .
 
     otl-patroon:Drainmonding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drainmonding binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Drainmonding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Drempel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drempel binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Drempel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Drijfkist a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drijfkist binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Drijfkist"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Drijfraam a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drijfraam binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Drijfraam"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -830,9 +830,9 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Duinstruweel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duinstruweel binnen de context van informatieproduct Geluid"@nl ;
@@ -840,19 +840,19 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Duinvoetverdediging a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duinvoetverdediging binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Duinvoetverdediging"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Dwarsdrager a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dwarsdrager binnen de context van informatieproduct Geluid"@nl ;
@@ -860,9 +860,9 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Ecoduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ecoduct binnen de context van informatieproduct Geluid"@nl ;
@@ -874,21 +874,21 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Elektromotor binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Elektromotor"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Elementenverharding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Elementenverharding binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Elementenverharding"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:EmbryonaalDuin a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Embryonaal-duin binnen de context van informatieproduct Geluid"@nl ;
@@ -906,27 +906,27 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Evacuatieverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Evacuatieverlichting binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Evacuatieverlichting"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Faunaopening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunaopening binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Faunaopening"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -934,41 +934,41 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunaspiegel binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Faunaspiegel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Faunawand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunawand binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Faunawand"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Filterconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Filterconstructie binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Filterconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
-
-    otl-patroon:Flens a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Flens binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Flens"@nl ;
-        sh:property [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
+
+    otl-patroon:Flens a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Flens binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Flens"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ] .
 
     otl-patroon:Folie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Folie binnen de context van informatieproduct Geluid"@nl ;
@@ -986,19 +986,19 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Fundatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fundatie binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Fundatie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Funderingslaag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Funderingslaag binnen de context van informatieproduct Geluid"@nl ;
@@ -1006,33 +1006,33 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
                 sh:path otl:type ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:FunderingslaagGebonden a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Funderingslaag (gebonden) binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Funderingslaag (gebonden)"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:type ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:FunderingslaagOngebonden a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Funderingslaag (ongebonden) binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Funderingslaag (ongebonden)"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:type ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -1040,11 +1040,11 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gaas binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Gaas"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Gebruiksgebied a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebruiksgebied binnen de context van informatieproduct Geluid"@nl ;
@@ -1056,11 +1056,11 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geleidebarriër binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Geleidebarriër"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:GeleidendeBalk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geleidende balk binnen de context van informatieproduct Geluid"@nl ;
@@ -1068,9 +1068,9 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Geleiderail a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geleiderail binnen de context van informatieproduct Geluid"@nl ;
@@ -1078,19 +1078,19 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Geleidewerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geleidewerk binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Geleidewerk"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Gelijkrichter a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gelijkrichter binnen de context van informatieproduct Geluid"@nl ;
@@ -1098,9 +1098,9 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:GeluidbeperkendeConstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidbeperkende constructie binnen de context van informatieproduct Geluid"@nl ;
@@ -1110,9 +1110,9 @@ otl:graaf-ib-geluid {
             [ sh:minCount 0 ;
                 sh:path otl:hellingshoek ],
             [ sh:minCount 1 ;
-                sh:path otl:type ],
+                sh:path otl:absorptiewaarde ],
             [ sh:minCount 1 ;
-                sh:path otl:absorptiewaarde ] .
+                sh:path otl:type ] .
 
     otl-patroon:Geluidsbronmaatregel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsbronmaatregel binnen de context van informatieproduct Geluid"@nl ;
@@ -1124,9 +1124,9 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Generator binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Generator"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
 
@@ -1134,49 +1134,49 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geometrie binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Geometrie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:rdWaarde ],
+                sh:path otl:type ],
             [ sh:minCount 1 ;
-                sh:path otl:type ] .
+                sh:path otl:rdWaarde ] .
 
     otl-patroon:Geotextiel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geotextiel binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Geotextiel"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Goot a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Goot binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Goot"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Gording a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gording binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Gording"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
-
-    otl-patroon:GrasKruid a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gras/kruid binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Gras/kruid"@nl ;
-        sh:property [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
+
+    otl-patroon:GrasKruid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gras/kruid binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Gras/kruid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ] .
 
     otl-patroon:Grindkoffer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grindkoffer binnen de context van informatieproduct Geluid"@nl ;
@@ -1184,17 +1184,17 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Grondlichaam a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grondlichaam binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Grondlichaam"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -1212,25 +1212,15 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Haalkom binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Haalkom"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Halfverharding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Halfverharding binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Halfverharding"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
-
-    otl-patroon:HangerBoogbrug a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hanger boogbrug binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Hanger boogbrug"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
@@ -1238,25 +1228,35 @@ otl:graaf-ib-geluid {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
+    otl-patroon:HangerBoogbrug a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hanger boogbrug binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Hanger boogbrug"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
+
     otl-patroon:Hectometerbord a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hectometerbord binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Hectometerbord"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Heester a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Heester binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Heester"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Hefdeur a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hefdeur binnen de context van informatieproduct Geluid"@nl ;
@@ -1272,9 +1272,9 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hek binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Hek"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -1288,9 +1288,9 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofdverdeler binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Hoofdverdeler"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -1300,9 +1300,9 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:HydraulischAggregaat a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hydraulisch aggregaat binnen de context van informatieproduct Geluid"@nl ;
@@ -1320,37 +1320,37 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Informatiebord a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Informatiebord binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Informatiebord"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Inlaat a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Inlaat binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Inlaat"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Installatiekabel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatiekabel binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Installatiekabel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -1358,11 +1358,11 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instroomopening binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Instroomopening"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Intercom a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Intercom binnen de context van informatieproduct Geluid"@nl ;
@@ -1370,23 +1370,13 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Kaapstander a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kaapstander binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Kaapstander"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
-
-    otl-patroon:Kabelgoot a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kabelgoot binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Kabelgoot"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
@@ -1394,13 +1384,23 @@ otl:graaf-ib-geluid {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
+    otl-patroon:Kabelgoot a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kabelgoot binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Kabelgoot"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
+
     otl-patroon:Kapiteel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kapiteel binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Kapiteel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -1410,17 +1410,17 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Keermuur a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Keermuur binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Keermuur"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -1428,9 +1428,9 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kerf binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Kerf"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -1438,11 +1438,11 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kesp binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Kesp"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Ketting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ketting binnen de context van informatieproduct Geluid"@nl ;
@@ -1450,9 +1450,9 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Kist a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kist binnen de context van informatieproduct Geluid"@nl ;
@@ -1460,19 +1460,19 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Klep a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Klep binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Klep"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Klepketting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Klepketting binnen de context van informatieproduct Geluid"@nl ;
@@ -1498,9 +1498,9 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kolk binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Kolk"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -1518,35 +1518,15 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Koppeling binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Koppeling"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Kribbaken a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kribbaken binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Kribbaken"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
-
-    otl-patroon:Kunstobject a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kunstobject binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Kunstobject"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
-
-    otl-patroon:Kwelscherm a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kwelscherm binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Kwelscherm"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
@@ -1554,25 +1534,45 @@ otl:graaf-ib-geluid {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
+    otl-patroon:Kunstobject a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kunstobject binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Kunstobject"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ] .
+
+    otl-patroon:Kwelscherm a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kwelscherm binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Kwelscherm"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
+
     otl-patroon:Ladder a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ladder binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Ladder"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Landhoofd a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Landhoofd binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Landhoofd"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Landverkeerssein a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Landverkeerssein binnen de context van informatieproduct Geluid"@nl ;
@@ -1588,11 +1588,11 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Langsligger binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Langsligger"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Leuning a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Leuning binnen de context van informatieproduct Geluid"@nl ;
@@ -1618,21 +1618,21 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtgroepenkast binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Lichtgroepenkast"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Lichtopstand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtopstand binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Lichtopstand"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:LocalAreaNetwork a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Local Area Network binnen de context van informatieproduct Geluid"@nl ;
@@ -1648,9 +1648,9 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Loopkat binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Loopkat"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -1658,9 +1658,9 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Loopplank binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Loopplank"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
 
@@ -1668,11 +1668,11 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Loopstrook binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Loopstrook"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Luchtkanaal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Luchtkanaal binnen de context van informatieproduct Geluid"@nl ;
@@ -1688,11 +1688,11 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Luidspreker binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Luidspreker"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Luik a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Luik binnen de context van informatieproduct Geluid"@nl ;
@@ -1700,9 +1700,9 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Maaiveld a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Maaiveld binnen de context van informatieproduct Geluid"@nl ;
@@ -1710,9 +1710,9 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Mast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Mast binnen de context van informatieproduct Geluid"@nl ;
@@ -1728,21 +1728,21 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Meerpaal binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Meerpaal"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Meerstoel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Meerstoel binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Meerstoel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ] .
 
     otl-patroon:Meetpunt a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Meetpunt binnen de context van informatieproduct Geluid"@nl ;
@@ -1758,11 +1758,11 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Meubilair binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Meubilair"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Monitor a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Monitor binnen de context van informatieproduct Geluid"@nl ;
@@ -1770,37 +1770,37 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:NalevingsschakelGeluid a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nalevingsschakel geluid binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Nalevingsschakel geluid"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:beheergrenzen ],
+                sh:path otl:naam ],
             [ sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:beheergrenzen ] .
 
     otl-patroon:Nivelleerschuif a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nivelleerschuif binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Nivelleerschuif"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
-
-    otl-patroon:Noodhandbediening a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Noodhandbediening binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Noodhandbediening"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
+
+    otl-patroon:Noodhandbediening a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Noodhandbediening binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Noodhandbediening"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Noodstop a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Noodstop binnen de context van informatieproduct Geluid"@nl ;
@@ -1816,19 +1816,19 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Obstakelbeveiliger binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Obstakelbeveiliger"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Oevervegetatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oevervegetatie binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Oevervegetatie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -1836,21 +1836,21 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderdeel binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Onderdeel"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Onderlaag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderlaag binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Onderlaag"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
 
@@ -1870,37 +1870,37 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Ontvangbed a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ontvangbed binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Ontvangbed"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:OnverhardOppervlak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onverhard oppervlak binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Onverhard oppervlak"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:OpEnAfrit a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Op- en afrit binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Op- en afrit"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -1910,17 +1910,17 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Oplegblok a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oplegblok binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Oplegblok"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -1928,9 +1928,9 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oplegpunt binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Oplegpunt"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
 
@@ -1938,11 +1938,11 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oplegstoel binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Oplegstoel"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Opsluitband a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Opsluitband binnen de context van informatieproduct Geluid"@nl ;
@@ -1958,9 +1958,9 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Opsluitconstructie binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Opsluitconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
 
@@ -1970,9 +1970,9 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Overspanningbeveiliging a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Overspanningbeveiliging binnen de context van informatieproduct Geluid"@nl ;
@@ -1990,19 +1990,19 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Paal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Paal binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Paal"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Paalbeugel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Paalbeugel binnen de context van informatieproduct Geluid"@nl ;
@@ -2038,19 +2038,19 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Peilbuis binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Peilbuis"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Peilschaal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Peilschaal binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Peilschaal"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
 
@@ -2058,9 +2058,9 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pijler binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Pijler"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -2068,19 +2068,19 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Plaatveld binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Plaatveld"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Plant a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Plant binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Plant"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -2088,11 +2088,11 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Plasberm binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Plasberm"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Poer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Poer binnen de context van informatieproduct Geluid"@nl ;
@@ -2100,17 +2100,17 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Pomp a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pomp binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Pomp"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -2118,11 +2118,11 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Portofoon binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Portofoon"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ] .
 
     otl-patroon:ProgrammableLogicController a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Programmable Logic Controller binnen de context van informatieproduct Geluid"@nl ;
@@ -2130,19 +2130,19 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Project a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Project binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Project"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:scope ],
-            [ sh:minCount 1 ;
                 sh:path otl:doel ],
             [ sh:minCount 1 ;
-                sh:path otl:jaartal ] .
+                sh:path otl:jaartal ],
+            [ sh:minCount 1 ;
+                sh:path otl:scope ] .
 
     otl-patroon:Projectgebied a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Projectgebied binnen de context van informatieproduct Geluid"@nl ;
@@ -2156,27 +2156,27 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Putrand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Putrand binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Putrand"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Pyloon a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pyloon binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Pyloon"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -2184,29 +2184,29 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Railbaan binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Railbaan"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Railgeleiding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Railgeleiding binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Railgeleiding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Randelement a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Randelement binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Randelement"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
 
@@ -2214,39 +2214,39 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reddingsboei binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Reddingsboei"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Reductiekast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reductiekast binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Reductiekast"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
-
-    otl-patroon:Referentiepuntgpp a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type ReferentiepuntGPP binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "ReferentiepuntGPP"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:risiconiveau ],
-            [ sh:minCount 1 ;
-                sh:path otl:geluidproductieplafond ] .
-
-    otl-patroon:Reflector a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reflector binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Reflector"@nl ;
-        sh:property [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
+
+    otl-patroon:Referentiepuntgpp a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type ReferentiepuntGPP binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "ReferentiepuntGPP"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:geluidproductieplafond ],
+            [ sh:minCount 1 ;
+                sh:path otl:risiconiveau ] .
+
+    otl-patroon:Reflector a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reflector binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Reflector"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ] .
 
     otl-patroon:RegelbareAandrijving a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Regelbare aandrijving binnen de context van informatieproduct Geluid"@nl ;
@@ -2254,9 +2254,9 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Reling a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reling binnen de context van informatieproduct Geluid"@nl ;
@@ -2264,9 +2264,9 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Rem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rem binnen de context van informatieproduct Geluid"@nl ;
@@ -2282,19 +2282,19 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rij-ijzer binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Rij-ijzer"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Rijdek a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rijdek binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Rijdek"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
 
@@ -2302,21 +2302,21 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rijzendam binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Rijzendam"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ] .
 
     otl-patroon:Rivierhout a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rivierhout binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Rivierhout"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Roldeur a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Roldeur binnen de context van informatieproduct Geluid"@nl ;
@@ -2324,19 +2324,19 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Rooster a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rooster binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Rooster"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:SamengesteldeDamwand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Samengestelde damwand binnen de context van informatieproduct Geluid"@nl ;
@@ -2344,13 +2344,23 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Schachtopbouw a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schachtopbouw binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Schachtopbouw"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ] .
+
+    otl-patroon:Schakelaar a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schakelaar binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Schakelaar"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
@@ -2358,23 +2368,13 @@ otl:graaf-ib-geluid {
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
 
-    otl-patroon:Schakelaar a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schakelaar binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Schakelaar"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
-
     otl-patroon:Schampstrook a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schampstrook binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Schampstrook"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
 
@@ -2382,11 +2382,11 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schanskorf binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Schanskorf"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Scheepvaartsein a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Scheepvaartsein binnen de context van informatieproduct Geluid"@nl ;
@@ -2394,27 +2394,27 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Scherm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Scherm binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Scherm"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Schijnduiker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schijnduiker binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Schijnduiker"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -2442,21 +2442,21 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schotbalksponning binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Schotbalksponning"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Schraalgrasland a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schraalgrasland binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Schraalgrasland"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Schrikhek a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schrikhek binnen de context van informatieproduct Geluid"@nl ;
@@ -2472,11 +2472,11 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schuif binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Schuif"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Schuifketting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schuifketting binnen de context van informatieproduct Geluid"@nl ;
@@ -2484,17 +2484,17 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Sensor a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sensor binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Sensor"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
@@ -2502,15 +2502,25 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Server binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Server"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Signaalgever a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signaalgever binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Signaalgever"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
+
+    otl-patroon:Signaalkabel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signaalkabel binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Signaalkabel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
@@ -2518,35 +2528,25 @@ otl:graaf-ib-geluid {
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ] .
 
-    otl-patroon:Signaalkabel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signaalkabel binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Signaalkabel"@nl ;
+    otl-patroon:Sleufopbouw a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sleufopbouw binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Sleufopbouw"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
+
+    otl-patroon:Sloof a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sloof binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Sloof"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
-
-    otl-patroon:Sleufopbouw a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sleufopbouw binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Sleufopbouw"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
-
-    otl-patroon:Sloof a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sloof binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Sloof"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
 
     otl-patroon:Slufter a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Slufter binnen de context van informatieproduct Geluid"@nl ;
@@ -2562,21 +2562,21 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Smeersysteem binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Smeersysteem"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Spuisein a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Spuisein binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Spuisein"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Staalkabel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Staalkabel binnen de context van informatieproduct Geluid"@nl ;
@@ -2584,37 +2584,37 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Steilwand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Steilwand binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Steilwand"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Stijl a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stijl binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Stijl"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Stobbenwal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stobbenwal binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Stobbenwal"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
 
@@ -2632,21 +2632,21 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stortebed binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Stortebed"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ] .
 
     otl-patroon:Strand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Strand binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Strand"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Struikroos a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Struikroos binnen de context van informatieproduct Geluid"@nl ;
@@ -2664,17 +2664,17 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Stuifscherm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stuifscherm binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Stuifscherm"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -2682,11 +2682,11 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Supervisory Control and Data Acquisition binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Supervisory Control and Data Acquisition"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ] .
 
     otl-patroon:Switch a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Switch binnen de context van informatieproduct Geluid"@nl ;
@@ -2694,9 +2694,9 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Systeem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Systeem binnen de context van informatieproduct Geluid"@nl ;
@@ -2716,39 +2716,39 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Takel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Takel binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Takel"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ] .
 
     otl-patroon:Takkenril a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Takkenril binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Takkenril"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
+
+    otl-patroon:TandwieloverbrengingOpen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging open binnen de context van informatieproduct Geluid"@nl ;
+        sh:name "Tandwieloverbrenging open"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
-
-    otl-patroon:TandwieloverbrengingOpen a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tandwieloverbrenging open binnen de context van informatieproduct Geluid"@nl ;
-        sh:name "Tandwieloverbrenging open"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Tank a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tank binnen de context van informatieproduct Geluid"@nl ;
@@ -2766,9 +2766,9 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Trap a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Trap binnen de context van informatieproduct Geluid"@nl ;
@@ -2776,27 +2776,27 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Trapafwerking a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Trapafwerking binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Trapafwerking"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Trekduwstang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Trekduwstang binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Trekduwstang"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ] .
 
@@ -2806,17 +2806,17 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Tuidraad a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tuidraad binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Tuidraad"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
 
@@ -2830,33 +2830,33 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussenlaag binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Tussenlaag"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:type ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:type ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Uitmonding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uitmonding binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Uitmonding"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Valreep a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Valreep binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Valreep"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Veiligheidsventiel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheidsventiel binnen de context van informatieproduct Geluid"@nl ;
@@ -2892,81 +2892,81 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verbindingsbrug binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Verbindingsbrug"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Verbrandingsmotor a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verbrandingsmotor binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Verbrandingsmotor"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Verhardingslaag a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verhardingslaag binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Verhardingslaag"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:type ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Verkeersbord a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersbord binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Verkeersbord"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
-                sh:path otl:type ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ] .
 
     otl-patroon:VerkeersintensiteitPrognose a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersintensiteit prognose binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Verkeersintensiteit prognose"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:aantalmiddelzwarevrachtautos ],
-            [ sh:minCount 1 ;
-                sh:path otl:aantalautos ],
-            [ sh:minCount 1 ;
-                sh:path otl:baannummer ],
-            [ sh:minCount 1 ;
-                sh:path otl:jaartal ],
+                sh:path otl:tijdsblok ],
             [ sh:minCount 1 ;
                 sh:path otl:aantalzwarevrachtautos ],
             [ sh:minCount 1 ;
                 sh:path otl:dagdeel ],
             [ sh:minCount 1 ;
-                sh:path otl:tijdsblok ] .
+                sh:path otl:baannummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:jaartal ],
+            [ sh:minCount 1 ;
+                sh:path otl:aantalmiddelzwarevrachtautos ],
+            [ sh:minCount 1 ;
+                sh:path otl:aantalautos ] .
 
     otl-patroon:VerkeersintensiteitToekomstscenario a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersintensiteit toekomstscenario binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Verkeersintensiteit toekomstscenario"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:tijdsblok ],
-            [ sh:minCount 1 ;
                 sh:path otl:baannummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:aantalmiddelzwarevrachtautos ],
             [ sh:minCount 1 ;
                 sh:path otl:aantalzwarevrachtautos ],
             [ sh:minCount 1 ;
-                sh:path otl:dagdeel ],
+                sh:path otl:tijdsblok ],
             [ sh:minCount 1 ;
                 sh:path otl:aantalautos ],
             [ sh:minCount 1 ;
-                sh:path otl:jaartal ],
+                sh:path otl:dagdeel ],
             [ sh:minCount 1 ;
-                sh:path otl:aantalmiddelzwarevrachtautos ] .
+                sh:path otl:jaartal ] .
 
     otl-patroon:Verkeerssnelheid a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeerssnelheid binnen de context van informatieproduct Geluid"@nl ;
@@ -2978,17 +2978,17 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeerstoestand binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Verkeerstoestand"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:aantalmiddelzwarevrachtautos ],
-            [ sh:minCount 1 ;
                 sh:path otl:dagdeel ],
-            [ sh:minCount 1 ;
-                sh:path otl:aantalzwarevrachtautos ],
-            [ sh:minCount 1 ;
-                sh:path otl:jaartal ],
             [ sh:minCount 1 ;
                 sh:path otl:tijdsblok ],
             [ sh:minCount 1 ;
+                sh:path otl:aantalzwarevrachtautos ],
+            [ sh:minCount 1 ;
+                sh:path otl:aantalmiddelzwarevrachtautos ],
+            [ sh:minCount 1 ;
                 sh:path otl:baannummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:jaartal ],
             [ sh:minCount 1 ;
                 sh:path otl:aantalautos ] .
 
@@ -2996,19 +2996,19 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Versterker binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Versterker"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ] .
 
     otl-patroon:VerticaalVakwerkligger a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verticaal vakwerkligger binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Verticaal vakwerkligger"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
 
@@ -3026,11 +3026,11 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verwerkingseenheid binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Verwerkingseenheid"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datumuitbedrijf ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ] .
 
     otl-patroon:Viaduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Viaduct binnen de context van informatieproduct Geluid"@nl ;
@@ -3052,61 +3052,61 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vleugelwand binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Vleugelwand"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Vloer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vloer binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Vloer"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Vluchtdeur a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtdeur binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Vluchtdeur"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Voegconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voegconstructie binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Voegconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:VoeglozeOvergang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voegloze overgang binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Voegloze overgang"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datuminbedrijfname ] .
 
     otl-patroon:Voetpedaal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voetpedaal binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Voetpedaal"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Vuilvangrooster a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vuilvangrooster binnen de context van informatieproduct Geluid"@nl ;
@@ -3114,29 +3114,29 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Wand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wand binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Wand"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Waterbodem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterbodem binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Waterbodem"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Waterplant a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant binnen de context van informatieproduct Geluid"@nl ;
@@ -3144,35 +3144,35 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Wegdeelgpp a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type WegdeelGPP binnen de context van informatieproduct Geluid"@nl ;
         sh:name "WegdeelGPP"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
                 sh:path otl:geluidswaarde ],
             [ sh:minCount 1 ;
-                sh:path otl:rijlijn ],
-            [ sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:rijlijn ] .
 
     otl-patroon:Wegvak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wegvak binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Wegvak"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
+                sh:path otl:rijlijn ],
             [ sh:minCount 1 ;
-                sh:path otl:rijlijn ] .
+                sh:path otl:naam ] .
 
     otl-patroon:WideAreaNetwork a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wide Area Network binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Wide Area Network"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ],
-            [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
+            [ sh:minCount 1 ;
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
 
@@ -3180,9 +3180,9 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Windverband binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Windverband"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
-            [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ] .
 
@@ -3192,9 +3192,9 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Wrijfschort a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wrijfschort binnen de context van informatieproduct Geluid"@nl ;
@@ -3202,19 +3202,19 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Wrijfstijl a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wrijfstijl binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Wrijfstijl"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:materiaal ],
             [ sh:minCount 1 ;
                 sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl-patroon:Zandvang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zandvang binnen de context van informatieproduct Geluid"@nl ;
@@ -3222,9 +3222,9 @@ otl:graaf-ib-geluid {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:datumuitbedrijf ],
             [ sh:minCount 1 ;
-                sh:path otl:materiaal ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:materiaal ] .
 
     otl-patroon:Zender a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zender binnen de context van informatieproduct Geluid"@nl ;
@@ -3240,18 +3240,18 @@ otl:graaf-ib-geluid {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zinkstuk binnen de context van informatieproduct Geluid"@nl ;
         sh:name "Zinkstuk"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:datumuitbedrijf ],
+                sh:path otl:datuminbedrijfname ],
             [ sh:minCount 1 ;
                 sh:path otl:materiaal ],
             [ sh:minCount 1 ;
-                sh:path otl:datuminbedrijfname ] .
+                sh:path otl:datumuitbedrijf ] .
 
     otl:graaf-ib-geluid a owl:Ontology ;
-        dct:created "2023-06-14"^^xsd:date ;
+        dct:created "2023-07-11"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'Geluid' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'Geluid'"@nl ;
-        pav:derivedFrom "IB RWS release 22" ;
-        pav:version "3.1.22" ;
+        pav:derivedFrom "IB RWS release 23" ;
+        pav:version "3.1.23" ;
         owl:imports pav:,
             unit:,
             otl:graaf-informatiemodel .
