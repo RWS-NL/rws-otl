@@ -1,3 +1,6 @@
+![Logo Rijkswaterstaat | Ministerie van Infrastructuur en Waterstaat](https://github.com/RWS-NL/rws-otl/assets/467305/bd5d0ace-1cc3-4efd-ae4f-c9913aefd31f)
+
+
 # Rijkswaterstaat OTL
 
 Welkom op de officiele, openbare Git repository van de Rijkswaterstaat Object Type Library (OTL).
