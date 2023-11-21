@@ -1,5 +1,4 @@
-![Logo Rijkswaterstaat | Ministerie van Infrastructuur en Waterstaat](https://github.com/RWS-NL/rws-otl/assets/467305/bd5d0ace-1cc3-4efd-ae4f-c9913aefd31f)
-
+![Logo Rijkswaterstaat | Ministerie van Infrastructuur en Waterstaat](https://github.com/RWS-NL/rws-otl/assets/467305/13932dd5-c2c1-4fb0-9cca-d93ba02b5076)
 
 # Rijkswaterstaat OTL
 
