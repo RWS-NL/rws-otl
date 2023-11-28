@@ -1,0 +1,2357 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix otl: <https://data.rws.nl/def/otl/> .
+@prefix otl-patroon: <https://data.rws.nl/def/otl-patroon/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+otl:graaf-ib-dashboard-utd {
+    otl-patroon:Aandrijving a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aandrijving binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Aandrijving"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Aanloopgebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aanloopgebied binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Aanloopgebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Aansluitleiding a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aansluitleiding binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Aansluitleiding"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Aardelektrode a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aardelektrode binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Aardelektrode"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Achtergrondschild a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Achtergrondschild binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Achtergrondschild"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Achterloopsheidscherm a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Achterloopsheidscherm binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Achterloopsheidscherm"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Afscheiding a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afscheiding binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Afscheiding"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Afsluitboom a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afsluitboom binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Afsluitboom"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Ankergebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ankergebied binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Ankergebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Antivandalismevoorziening a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Antivandalismevoorziening binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Antivandalismevoorziening"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Antiverblindingsscherm a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Antiverblindingsscherm binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Antiverblindingsscherm"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Appendage a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Appendage binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Appendage"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Armatuur a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Armatuur binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Armatuur"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Balanspriem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Balanspriem binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Balanspriem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Balk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Balk binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Balk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:BebordingEnBewegwijzering a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type BebordingEnBewegwijzering binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Bebording en bewegwijzering"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Beeindigingsprofiel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beeindigingsprofiel binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Beëindigingsprofiel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Begroeiing a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Begroeiing binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Begroeiing"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Bekleding a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bekleding binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Bekleding"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Berm a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Berm binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Berm"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Beschoeiing a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beschoeiing binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Beschoeiing"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Betonverharding a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Betonverharding binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Betonverharding"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Bewegwijzeringsbord a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bewegwijzeringsbord binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Bewegwijzeringsbord"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Blokkenmuur a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Blokkenmuur binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Blokkenmuur"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Bodem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bodem binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Bodem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Bodemstabilisatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bodemstabilisatie binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Bodemstabilisatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Boog a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Boog binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Boog"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Boom a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Boom binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Boom"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Bordes a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bordes binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Bordes"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:CCTVinstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type CCTVinstallatie binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "CCTV-installatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:CalamiteitenDoorsteekinstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type CalamiteitenDoorsteekinstallatie binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Calamiteiten Doorsteekinstallatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:CameraBeweegbaar a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type CameraBeweegbaar binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Camera beweegbaar"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:CameraVast a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type CameraVast binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Camera vast"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Combiwand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Combiwand binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Combiwand"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Console a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Console binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Console"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Contragewicht a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Contragewicht binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Contragewicht"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Dak a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dak binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Dak"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Damwand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Damwand binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Damwand"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:DamwandBovenwatertalud a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type DamwandBovenwatertalud binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Damwand bovenwatertalud"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:DamwandOnderwatertalud a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type DamwandOnderwatertalud binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Damwand onderwatertalud"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:DamwandSamengesteld a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type DamwandSamengesteld binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Damwand samengesteld"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Deklaag-Dicht a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deklaag-Dicht binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Deklaag (dicht)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Deklaag-Open a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deklaag-Open binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Deklaag (open)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Deksel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deksel binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Deksel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Detectielus a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detectielus binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Detectielus"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Detector a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detector binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Detector"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Deur a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deur binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Deur"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:DiagonaalVakwerkligger a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type DiagonaalVakwerkligger binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Diagonaal vakwerkligger"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Diepwand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Diepwand binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Diepwand"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Display a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Display binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Display"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Doorlaatkoker a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Doorlaatkoker binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Doorlaatkoker"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Draad a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Draad binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Draad"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Draadstang a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Draadstang binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Draadstang"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Draaipoort a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Draaipoort binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Draaipoort"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Drainage a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drainage binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Drainage"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Drainagebuis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drainagebuis binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Drainagebuis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Drainmonding a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drainmonding binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Drainmonding"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Drempel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drempel binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Drempel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Drukpalen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Drukpalen binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Drukpalen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Duiker a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duiker binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Duiker"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 0 ;
+                sh:path otl:isGevalideerdBinnen ],
+            [ sh:minCount 0 ;
+                sh:path otl:isGevalideerdBuiten ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderdeelVanNetwerkschakel ] .
+
+    otl-patroon:Dwarsdrager a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dwarsdrager binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Dwarsdrager"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:DynamischeBewegwijzeringEnInformatieSystemen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type DynamischeBewegwijzeringEnInformatieSystemen binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Dynamische bewegwijzering en informatie systemen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Elementenverharding a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Elementenverharding binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Elementenverharding"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Energiekabel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Energiekabel binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Energiekabel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:FaunaInsprong a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type FaunaInsprong binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Fauna-insprong"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:FaunaUittreedplaats a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type FaunaUittreedplaats binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Fauna uittreedplaats"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Faunadekking a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunadekking binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Faunadekking"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Faunageleiding a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunageleiding binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Faunageleiding"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Faunaopening a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunaopening binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Faunaopening"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Faunawand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunawand binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Faunawand"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Filterconstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Filterconstructie binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Filterconstructie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Frame a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Frame binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Frame"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Fundatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fundatie binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Fundatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Fundering a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fundering binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Fundering"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Funderingslaag-Gebonden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Funderingslaag-Gebonden binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Funderingslaag (gebonden)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Funderingslaag-Ongebonden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Funderingslaag-Ongebonden binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Funderingslaag (ongebonden)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Gaas a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gaas binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Gaas"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Geleidebarrier a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geleidebarrier binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Geleidebarriër"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Geleideconstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geleideconstructie binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Geleideconstructie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Geleiderail a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geleiderail binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Geleiderail"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:GeluidbeperkendeConstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type GeluidbeperkendeConstructie binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Geluidbeperkende constructie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Gladheidsmeldsysteem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gladheidsmeldsysteem binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Gladheidsmeldsysteem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Goot a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Goot binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Goot"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Gording a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gording binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Gording"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:GrasEnOfKruid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type GrasEnOfKruid binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Gras en/of kruid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Grendel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grendel binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Grendel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Greppel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Greppel binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Greppel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Grindkoffer a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grindkoffer binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Grindkoffer"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Grondlichaam a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grondlichaam binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Grondlichaam"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Grondverbetering a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grondverbetering binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Grondverbetering"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Haag a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Haag binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Haag"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Halfverharding a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Halfverharding binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Halfverharding"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Hameistijl a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hameistijl binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Hameistijl"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:HangerBoogbrug a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type HangerBoogbrug binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Hanger boogbrug"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Hangstang a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hangstang binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Hangstang"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Har a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Har binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Har"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Hectometerbord a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hectometerbord binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Hectometerbord"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Heester a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Heester binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Heester"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Hek a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hek binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Hek"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Helofytenfilter a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Helofytenfilter binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Helofytenfilter"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Hemelwaterafvoer a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hemelwaterafvoer binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Hemelwaterafvoer"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:InGrondVervaardigdePalen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type InGrondVervaardigdePalen binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "In grond vervaardigde palen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Informatiebord a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Informatiebord binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Informatiebord"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Instroomopening a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instroomopening binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Instroomopening"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Kabelgoot a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kabelgoot binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Kabelgoot"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Kast a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kast binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Kast"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Keermuur a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Keermuur binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Keermuur"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Keerplaats a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Keerplaats binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Keerplaats"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:KerendeConstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type KerendeConstructie binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Kerende constructie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Kesp a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kesp binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Kesp"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Kolk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kolk binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Kolk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Kolom a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kolom binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Kolom"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Laagspanningsinstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Laagspanningsinstallatie binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Laagspanningsinstallatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Ladder a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ladder binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Ladder"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Landhoofd a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Landhoofd binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Landhoofd"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Landverkeerssein a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Landverkeerssein binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Landverkeerssein"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Langsligger a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Langsligger binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Langsligger"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Leuning a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Leuning binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Leuning"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Leuningconstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Leuningconstructie binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Leuningconstructie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Looppoort a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Looppoort binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Looppoort"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Loopstrook a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Loopstrook binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Loopstrook"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Luik a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Luik binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Luik"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Markering a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Markering binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Markering"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Mast a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Mast binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Mast"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Netwerkschakel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Netwerkschakel binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Netwerkschakel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:objectID ] .
+
+    otl-patroon:Obstakelbeveiliger a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Obstakelbeveiliger binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Obstakelbeveiliger"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Onderdoorgang a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderdoorgang binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Onderdoorgang"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 0 ;
+                sh:path otl:isGevalideerdBinnen ],
+            [ sh:minCount 0 ;
+                sh:path otl:isGevalideerdBuiten ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderdeelVanNetwerkschakel ] .
+
+    otl-patroon:Onderlaag a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderlaag binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Onderlaag"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Onderloopsheidscherm a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderloopsheidscherm binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Onderloopsheidscherm"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:OnverhardOppervlak a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type OnverhardOppervlak binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Onverhard oppervlak"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:OpenBuispalen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type OpenBuispalen binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Open buispalen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:OpenbareVerlichting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type OpenbareVerlichting binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Openbare verlichting"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Ophangconstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ophangconstructie binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Ophangconstructie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Oplegbalk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oplegbalk binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Oplegbalk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Oplegblok a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oplegblok binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Oplegblok"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Oplegging a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oplegging binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Oplegging"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Oplegstoel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oplegstoel binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Oplegstoel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Oplegtafel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oplegtafel binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Oplegtafel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Oppervlaktewater a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oppervlaktewater binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Oppervlaktewater"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Opsluitconstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Opsluitconstructie binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Opsluitconstructie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Oversteek a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oversteek binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Oversteek"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Paal a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Paal binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Paal"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Paneel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Paneel binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Paneel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Pijler a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pijler binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Pijler"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Plaatveld a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Plaatveld binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Plaatveld"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Pomp a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pomp binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Pomp"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Portaal a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Portaal binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Portaal"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Put a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Put binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Put"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Pyloon a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pyloon binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Pyloon"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Randelement a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Randelement binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Randelement"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Reflector a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reflector binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Reflector"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:RijIJzer a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type RijIJzer binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Rij-ijzer"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Rijdek a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rijdek binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Rijdek"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Rooster a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rooster binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Rooster"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Schacht a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schacht binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Schacht"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Schampkant a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schampkant binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Schampkant"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Schampstrook a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schampstrook binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Schampstrook"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Schanskorf a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schanskorf binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Schanskorf"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Schort a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schort binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Schort"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Schotbalksponning a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schotbalksponning binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Schotbalksponning"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Schuifpoort a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schuifpoort binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Schuifpoort"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Signaalgever a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signaalgever binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Signaalgever"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Signaalkabel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Signaalkabel binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Signaalkabel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Slijtlaag a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Slijtlaag binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Slijtlaag"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Sloof a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sloof binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Sloof"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Sloot a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sloot binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Sloot"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Staalkabel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Staalkabel binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Staalkabel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Steenhoop a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Steenhoop binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Steenhoop"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Stempelbuis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stempelbuis binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Stempelbuis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Steunpunt a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Steunpunt binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Steunpunt"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Stijl a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stijl binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Stijl"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Stobbenwal a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stobbenwal binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Stobbenwal"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Stortebed a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stortebed binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Stortebed"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Takkenril a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Takkenril binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Takkenril"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Talud a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Talud binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Talud"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:TerreindeelBegroeid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type TerreindeelBegroeid binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Terreindeel begroeid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:TerreindeelOnbegroeid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type TerreindeelOnbegroeid binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Terreindeel onbegroeid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Trap a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Trap binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Trap"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Trekpalen a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Trekpalen binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Trekpalen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Tuidraad a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tuidraad binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Tuidraad"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Tussenlaag a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tussenlaag binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Tussenlaag"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Uithouder a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uithouder binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Uithouder"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Uitstroomopening a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uitstroomopening binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Uitstroomopening"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Vaargeul a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vaargeul binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Vaargeul"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:VerhardingWegtype1-Hoofdwegennet a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VerhardingWegtype1-Hoofdwegennet binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Verharding wegtype 1 (hoofdwegennet)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:VerhardingWegtype2-ZwaarbelasteWeg a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VerhardingWegtype2-ZwaarbelasteWeg binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Verharding wegtype 2 (zwaarbelaste weg)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:VerhardingWegtype3-GemiddeldBelasteWeg a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VerhardingWegtype3-GemiddeldBelasteWeg binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Verharding wegtype 3 (gemiddeld belaste weg)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:VerhardingWegtype4-LichtBelast a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VerhardingWegtype4-LichtBelast binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Verharding wegtype 4 (licht belast)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:VerhardingWegtype5-WegInWoongebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VerhardingWegtype5-WegInWoongebied binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Verharding wegtype 5 (weg in woongebied)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:VerhardingWegtype6-WegInVerblijfsgebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VerhardingWegtype6-WegInVerblijfsgebied binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Verharding wegtype 6 (weg in verblijfsgebied)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:VerhardingWegtype7-Fietspaden a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VerhardingWegtype7-Fietspaden binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Verharding wegtype 7 (fietspaden)"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Verkeersbord a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersbord binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Verkeersbord"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Verkeersregelinstallatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersregelinstallatie binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Verkeersregelinstallatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:VerplaatsbareGeleidebarrier a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VerplaatsbareGeleidebarrier binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Verplaatsbare geleidebarrier"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:VerticaalVakwerkligger a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VerticaalVakwerkligger binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Verticaal vakwerkligger"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Verzorgingsplaats a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verzorgingsplaats binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Verzorgingsplaats"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 0 ;
+                sh:path otl:isGevalideerdBinnen ],
+            [ sh:minCount 0 ;
+                sh:path otl:isGevalideerdBuiten ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderdeelVanNetwerkschakel ] .
+
+    otl-patroon:Viaduct a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Viaduct binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Viaduct"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 0 ;
+                sh:path otl:isGevalideerdBinnen ],
+            [ sh:minCount 0 ;
+                sh:path otl:isGevalideerdBuiten ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderdeelVanNetwerkschakel ] .
+
+    otl-patroon:Vleugelwand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vleugelwand binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Vleugelwand"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Vloer a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vloer binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Vloer"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Vluchtdeur a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtdeur binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Vluchtdeur"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Voegovergang a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Voegovergang binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Voegovergang"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Waarschuwingslicht a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waarschuwingslicht binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Waarschuwingslicht"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Wand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wand binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Wand"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Wandafwerking a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wandafwerking binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Wandafwerking"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Wandconstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wandconstructie binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Wandconstructie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Waterbodem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterbodem binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Waterbodem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Waterplant a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterplant binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Waterplant"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Weg a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Weg binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Weg"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 0 ;
+                sh:path otl:isGevalideerdBinnen ],
+            [ sh:minCount 0 ;
+                sh:path otl:isGevalideerdBuiten ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderdeelVanNetwerkschakel ] .
+
+    otl-patroon:Wegkantsysteem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wegkantsysteem binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Wegkantsysteem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:functioneleEigenschap ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Wegkruipplek a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wegkruipplek binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Wegkruipplek"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Wegmarkering a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wegmarkering binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Wegmarkering"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:constructievorm ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:WeighInMotion a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type WeighInMotion binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Weigh In Motion"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Windverband a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Windverband binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Windverband"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Wingebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wingebied binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Wingebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Woelbak a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Woelbak binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Woelbak"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl-patroon:Zonnepaneel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zonnepaneel binnen de context van informatieproduct dashboard-utd"@nl ;
+        sh:name "Zonnepaneel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:RWSconcept ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal1 ],
+            [ sh:minCount 1 ;
+                sh:path otl:materiaal2 ] .
+
+    otl:graaf-ib-dashboard-utd a owl:Ontology ;
+        dct:created "2023-11-24"^^xsd:date ;
+        dct:description "Het informatiemodel voor informatieproduct 'dashboard-utd' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
+        dct:title "IB voor informatieproduct 'dashboard-utd'"@nl ;
+        pav:derivedFrom "IB RWS Release 25.1" ;
+        pav:version "Release 25.1" ;
+        owl:imports pav:,
+            otl:graaf-informatiemodel .
+}
+

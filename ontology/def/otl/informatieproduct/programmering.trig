@@ -1,0 +1,1733 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix otl: <https://data.rws.nl/def/otl/> .
+@prefix otl-patroon: <https://data.rws.nl/def/otl-patroon/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+otl:graaf-ib-programmering {
+    otl-patroon:Aanleginrichting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aanleginrichting binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Aanleginrichting"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:AdministratiefGebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type AdministratiefGebied binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Administratief gebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Afdeling a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afdeling binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Afdeling"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Afrit a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afrit binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Afrit"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Aquaduct a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aquaduct binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Aquaduct"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Arbeidsveiligheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Arbeidsveiligheid binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Arbeidsveiligheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:AssetRisico a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type AssetRisico binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Assetrisico"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:Bedreiging a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bedreiging binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Bedreiging"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:Beheergebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beheergebied binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Beheergebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:BeheerobjectOverstijgendeVoorziening a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type BeheerobjectOverstijgendeVoorziening binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Beheerobject Overstijgende Voorziening"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Beheersmaatregel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beheersmaatregel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Beheersmaatregel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:BeheersmaatregelRUPS a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type BeheersmaatregelRUPS binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Beheersmaatregel RUPS"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:aangepasteUiterstJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:invoerdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isHandmatigToegevoegd ],
+            [ sh:minCount 0 ;
+                sh:path otl:jaarGerealiseerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeerjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelBasistype ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:sturingstype ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ] .
+
+    otl-patroon:Bergruimte a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bergruimte binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Bergruimte"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Beschikbaarheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beschikbaarheid binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Beschikbaarheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:BeslotenRuimteMaatregel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type BeslotenRuimteMaatregel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Besloten Ruimte Maatregel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:BestuurlijkRisico a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type BestuurlijkRisico binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Bestuurlijk Risico"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:Betrouwbaarheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Betrouwbaarheid binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Betrouwbaarheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:Binnennode a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Binnennode binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Binnennode"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Binnenpad a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Binnenpad binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Binnenpad"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Bosgebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bosgebied binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Bosgebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Brandveiligheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Brandveiligheid binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Brandveiligheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:BrugBeweegbaar a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type BrugBeweegbaar binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Brug beweegbaar"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:BrugVast a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type BrugVast binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Brug vast"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Bunker a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bunker binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Bunker"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:ConstructieveVeiligheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type ConstructieveVeiligheid binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Constructieve Veiligheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:CorrectiefOnderhoud a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type CorrectiefOnderhoud binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Correctief Onderhoud"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ] .
+
+    otl-patroon:Coupure a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Coupure binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Coupure"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Cyberbedreiging a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Cyberbedreiging binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Cyberbedreiging"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:CybersecurityBeheersmaatregel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type CybersecurityBeheersmaatregel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Cybersecurity Beheersmaatregel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:CybersecurityRisico a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type CybersecurityRisico binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Cybersecurity-risico"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:Dam a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dam binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Dam"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Dijk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Dijk binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Dijk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:District a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type District binnen de context van informatieproduct programmering"@nl ;
+        sh:name "District"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Duiker a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duiker binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Duiker"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Duingebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Duingebied binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Duingebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Ecoduct a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ecoduct binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Ecoduct"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:EconomischGebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type EconomischGebied binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Economisch gebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:EconomischRisico a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type EconomischRisico binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Economisch Risico"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:ElektrischeVeiligheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type ElektrischeVeiligheid binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Elektrische Veiligheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:ElektrotechnischeMaatregel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type ElektrotechnischeMaatregel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Elektrotechnische Maatregel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:ExterneVeiligheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type ExterneVeiligheid binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Externe Veiligheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:Faalfrequentie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faalfrequentie binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Faalfrequentie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:FaalkansSluitenKering a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type FaalkansSluitenKering binnen de context van informatieproduct programmering"@nl ;
+        sh:name "FaalkansSluitenKering"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:Faunatunnel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faunatunnel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Faunatunnel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Functie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Functie binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Functie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Functieruimte a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Functieruimte binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Functieruimte"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:FunctioneleInspectieEnTesten a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type FunctioneleInspectieEnTesten binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Functionele Inspectie en Testen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:aangepasteUiterstJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:D3-product ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:invoerdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isHandmatigToegevoegd ],
+            [ sh:minCount 0 ;
+                sh:path otl:jaarGerealiseerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:priocode ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeerjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelBasistype ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:sturingstype ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ] .
+
+    otl-patroon:FunctioneleTest a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type FunctioneleTest binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Functionele Test"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:aangepasteUiterstJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:D3-product ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:invoerdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isHandmatigToegevoegd ],
+            [ sh:minCount 0 ;
+                sh:path otl:jaarGerealiseerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:priocode ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeerjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelBasistype ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:sturingstype ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ] .
+
+    otl-patroon:FunctioneleToestand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type FunctioneleToestand binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Functionele Toestand"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:FysiekeToestand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type FysiekeToestand binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Fysieke Toestand"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:Gebruiksgebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebruiksgebied binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Gebruiksgebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Geluidbeheersmaatregel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidbeheersmaatregel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Geluidbeheersmaatregel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Geluidoverdrachtsmaatregel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidoverdrachtsmaatregel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Geluidoverdrachtsmaatregel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Geluidsbronmaatregel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsbronmaatregel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Geluidsbronmaatregel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Gemaal a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gemaal binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Gemaal"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:GerichteTechnischeInspectie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type GerichteTechnischeInspectie binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Gerichte Technische Inspectie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:aangepasteUiterstJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:D3-product ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:invoerdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isHandmatigToegevoegd ],
+            [ sh:minCount 0 ;
+                sh:path otl:jaarGerealiseerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:priocode ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeerjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelBasistype ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:sturingstype ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ] .
+
+    otl-patroon:Grondkering a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Grondkering binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Grondkering"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Haven a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Haven binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Haven"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Hevel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hevel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Hevel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Hoofdfunctie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofdfunctie binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Hoofdfunctie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Hoofdrijbaan a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofdrijbaan binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Hoofdrijbaan"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Hoofdsysteem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofdsysteem binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Hoofdsysteem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Hoofdvaarwegennetwerk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofdvaarwegennetwerk binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Hoofdvaarwegennetwerk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Hoofdwatersysteem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofdwatersysteem binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Hoofdwatersysteem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Hoofdwegennetwerk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofdwegennetwerk binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Hoofdwegennetwerk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:HoogRisicoBeheersmaatregel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type HoogRisicoBeheersmaatregel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Hoog Risico Beheersmaatregel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:IBAsysteem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type IBAsysteem binnen de context van informatieproduct programmering"@nl ;
+        sh:name "IBA-systeem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Inspectie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Inspectie binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Inspectie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:aangepasteUiterstJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:D3-product ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:invoerdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isHandmatigToegevoegd ],
+            [ sh:minCount 0 ;
+                sh:path otl:jaarGerealiseerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:priocode ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeerjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelBasistype ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:sturingstype ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ] .
+
+    otl-patroon:InstandhoudingBeheersmaatregel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type InstandhoudingBeheersmaatregel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Instandhouding Beheersmaatregel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ] .
+
+    otl-patroon:Instandhoudingsinspectie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instandhoudingsinspectie binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Instandhoudingsinspectie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:aangepasteUiterstJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:D3-product ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:invoerdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isHandmatigToegevoegd ],
+            [ sh:minCount 0 ;
+                sh:path otl:jaarGerealiseerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:priocode ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeerjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelBasistype ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:sturingstype ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ] .
+
+    otl-patroon:IntegraleBeveiliging a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type IntegraleBeveiliging binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Integrale beveiliging"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:Investeringsvoorstel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Investeringsvoorstel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Investeringsvoorstel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ] .
+
+    otl-patroon:Kade a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kade binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Kade"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Kanaal a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kanaal binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Kanaal"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Keersluis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Keersluis binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Keersluis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Keuring a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Keuring binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Keuring"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Kwetsbaarheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kwetsbaarheid binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Kwetsbaarheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:Levensduur a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Levensduur binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Levensduur"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:Leverbaarheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Leverbaarheid binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Leverbaarheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:Looproute a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Looproute binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Looproute"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Luchtkwaliteitsmeting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Luchtkwaliteitsmeting binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Luchtkwaliteitsmeting"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Machineveiligheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Machineveiligheid binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Machineveiligheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:Magazijn a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Magazijn binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Magazijn"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Meer a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Meer binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Meer"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Modificatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Modificatie binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Modificatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ] .
+
+    otl-patroon:Monitoring a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Monitoring binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Monitoring"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:aangepasteUiterstJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:D3-product ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:invoerdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isHandmatigToegevoegd ],
+            [ sh:minCount 0 ;
+                sh:path otl:jaarGerealiseerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:priocode ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeerjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelBasistype ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:sturingstype ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ] .
+
+    otl-patroon:NatuurBeheersmaatregel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type NatuurBeheersmaatregel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Natuur Beheersmaatregel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Natuurgebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Natuurgebied binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Natuurgebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:NautischeVeiligheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type NautischeVeiligheid binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Nautische Veiligheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:Netwerk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Netwerk binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Netwerk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Netwerkgebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Netwerkgebied binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Netwerkgebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Netwerklink a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Netwerklink binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Netwerklink"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Netwerknode a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Netwerknode binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Netwerknode"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Netwerkpad a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Netwerkpad binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Netwerkpad"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Nulinspectie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nulinspectie binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Nulinspectie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:aangepasteUiterstJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:D3-product ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:invoerdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isHandmatigToegevoegd ],
+            [ sh:minCount 0 ;
+                sh:path otl:jaarGerealiseerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:priocode ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeerjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelBasistype ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:sturingstype ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ] .
+
+    otl-patroon:Objectcategorie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Objectcategorie binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Objectcategorie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Objectsubcategorie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Objectsubcategorie binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Objectsubcategorie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Observatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Observatie binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Observatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:aangepasteUiterstJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:D3-product ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:invoerdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isHandmatigToegevoegd ],
+            [ sh:minCount 0 ;
+                sh:path otl:jaarGerealiseerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:priocode ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeerjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelBasistype ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:sturingstype ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ] .
+
+    otl-patroon:OmgevingsRisico a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type OmgevingsRisico binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Omgevingsrisico"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:Onderdoorgang a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderdoorgang binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Onderdoorgang"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Onderhoud a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderhoud binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Onderhoud"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ] .
+
+    otl-patroon:OnvoorzieneNietBeschikbaarheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type OnvoorzieneNietBeschikbaarheid binnen de context van informatieproduct programmering"@nl ;
+        sh:name "OnvoorzieneNietBeschikbaarheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:OpenTunnelbak a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type OpenTunnelbak binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Open tunnelbak"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Organisatieonderdeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Organisatieonderdeel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Organisatieonderdeel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsbudgetHVWN ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsbudgetHWN ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsbudgetHWS ] .
+
+    otl-patroon:OrganisatorischRisico a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type OrganisatorischRisico binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Organisatorisch Risico"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:Overkluizing a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Overkluizing binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Overkluizing"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Perceel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Perceel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Perceel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:PersoonlijkRisico a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type PersoonlijkRisico binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Persoonlijk Risico"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:PlanetairOppervlakgebruiksgebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type PlanetairOppervlakgebruiksgebied binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Planetair oppervlakgebruiksgebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:PlanningRisico a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type PlanningRisico binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Planning Risico"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:Prestatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Prestatie binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Prestatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:PreventiefOnderhoud a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type PreventiefOnderhoud binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Preventief Onderhoud"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:aangepasteUiterstJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:D3-product ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:invoerdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isHandmatigToegevoegd ],
+            [ sh:minCount 0 ;
+                sh:path otl:jaarGerealiseerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:priocode ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeerjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelBasistype ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:sturingstype ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ] .
+
+    otl-patroon:ProgrammeringMaatregelcluster a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type ProgrammeringMaatregelcluster binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Programmering Maatregelcluster"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:aangepasteUiterstJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:D3-product ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 0 ;
+                sh:path otl:jaarGerealiseerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:priocode ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeerjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelBasistype ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:sturingstype ],
+            [ sh:minCount 1 ;
+                sh:path otl:toelichting ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ] .
+
+    otl-patroon:ProjectBeheersmaatregel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type ProjectBeheersmaatregel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Project Beheersmaatregel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:ProjectRisico a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type ProjectRisico binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Projectrisico"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:Projectgebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Projectgebied binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Projectgebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Regio a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Regio binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Regio"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsbudgetHVWN ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsbudgetHWN ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsbudgetHWS ] .
+
+    otl-patroon:Risico a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Risico binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Risico"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:Rivier a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rivier binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Rivier"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:RuimtelijkRisico a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type RuimtelijkRisico binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Ruimtelijk Risico"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:Schouw a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schouw binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Schouw"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:aangepasteUiterstJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:D3-product ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:invoerdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isHandmatigToegevoegd ],
+            [ sh:minCount 0 ;
+                sh:path otl:jaarGerealiseerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:priocode ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeerjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelBasistype ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:sturingstype ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ] .
+
+    otl-patroon:Schutsluis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schutsluis binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Schutsluis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Servicebaarheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Servicebaarheid binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Servicebaarheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:Sifon a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sifon binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Sifon"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:SocialeVeiligheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type SocialeVeiligheid binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Sociale Veiligheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:Spitsstrook a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Spitsstrook binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Spitsstrook"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Spuisluis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Spuisluis binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Spuisluis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:StandaardVeiligheidsmaatregel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type StandaardVeiligheidsmaatregel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Standaard Veiligheidsmaatregel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:StandaardVerzorgendOnderhoud a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type StandaardVerzorgendOnderhoud binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Standaard Verzorgend Onderhoud"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:aangepasteUiterstJaarVanUitvoering ],
+            [ sh:minCount 0 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 0 ;
+                sh:path otl:D3-product ],
+            [ sh:minCount 0 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:invoerdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isHandmatigToegevoegd ],
+            [ sh:minCount 0 ;
+                sh:path otl:jaarGerealiseerd ],
+            [ sh:minCount 0 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            [ sh:minCount 0 ;
+                sh:path otl:priocode ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeerjaarUitvoering ],
+            [ sh:minCount 0 ;
+                sh:path otl:programmeringsmaatregelBasistype ],
+            [ sh:minCount 0 ;
+                sh:path otl:programmeringsmaatregelnummer ],
+            [ sh:minCount 0 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:sturingstype ],
+            [ sh:minCount 0 ;
+                sh:path otl:uitersteJaarVanUitvoering ] .
+
+    otl-patroon:Storingsgedrag a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storingsgedrag binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Storingsgedrag"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:Stormvloedkering a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stormvloedkering binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Stormvloedkering"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Stuw a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stuw binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Stuw"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Systeem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Systeem binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Systeem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Systeemaspect a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Systeemaspect binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Systeemaspect"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:Systeemdeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Systeemdeel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Systeemdeel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:TechnischRisico a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type TechnischRisico binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Technisch Risico"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:TechnischeFunctie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type TechnischeFunctie binnen de context van informatieproduct programmering"@nl ;
+        sh:name "TechnischeFunctie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Telecommunicatienetwerk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Telecommunicatienetwerk binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Telecommunicatienetwerk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Toerit a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toerit binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Toerit"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Toestandsinspectie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toestandsinspectie binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Toestandsinspectie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:aangepasteUiterstJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:D3-product ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:invoerdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isHandmatigToegevoegd ],
+            [ sh:minCount 0 ;
+                sh:path otl:jaarGerealiseerd ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:priocode ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeerjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelBasistype ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelnummer ],
+            [ sh:minCount 1 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:minCount 1 ;
+                sh:path otl:sturingstype ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ] .
+
+    otl-patroon:Transportlink a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Transportlink binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Transportlink"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Transportnetwerk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Transportnetwerk binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Transportnetwerk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Transportnode a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Transportnode binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Transportnode"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Transportpad a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Transportpad binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Transportpad"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Tunnel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tunnel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Tunnel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Tunnelveiligheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tunnelveiligheid binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Tunnelveiligheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:Uiterwaard a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Uiterwaard binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Uiterwaard"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Utiliteitsnetwerk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Utiliteitsnetwerk binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Utiliteitsnetwerk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Vaarwegennetwerk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vaarwegennetwerk binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Vaarwegennetwerk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Vaarweglink a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vaarweglink binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Vaarweglink"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Vaarwegnode a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vaarwegnode binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Vaarwegnode"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Vaarwegpad a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vaarwegpad binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Vaarwegpad"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Veiligheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheid binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Veiligheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:VeiligheidBeheersmaatregel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VeiligheidBeheersmaatregel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Veiligheid Beheersmaatregel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:VeiligheidGezondheidMilieu a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VeiligheidGezondheidMilieu binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Veiligheid Gezondheid Milieu"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:VeiligheidGezondheidMilieuEffect1 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VeiligheidGezondheidMilieuEffect1 binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Veiligheid Gezondheid Milieu Effect 1"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:VeiligheidGezondheidMilieuEffect2 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VeiligheidGezondheidMilieuEffect2 binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Veiligheid Gezondheid Milieu Effect 2"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:VeiligheidGezondheidMilieuEffect3 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VeiligheidGezondheidMilieuEffect3 binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Veiligheid Gezondheid Milieu Effect 3"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:VeiligheidGezondheidMilieuEffect4 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VeiligheidGezondheidMilieuEffect4 binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Veiligheid Gezondheid Milieu Effect 4"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:VeiligheidGezondheidMilieuEffect5 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VeiligheidGezondheidMilieuEffect5 binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Veiligheid Gezondheid Milieu Effect 5"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:VeiligheidGezondheidMilieuEffect6 a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VeiligheidGezondheidMilieuEffect6 binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Veiligheid Gezondheid Milieu Effect 6"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:VeiligheidRisico a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VeiligheidRisico binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Veiligheidsrisico"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:VeiligheidRisicoProject a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VeiligheidRisicoProject binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Veiligheid Risico Project"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:Verbetervoorstel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verbetervoorstel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Verbetervoorstel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:verwachteKosten ] .
+
+    otl-patroon:Verbindingsweg a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verbindingsweg binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Verbindingsweg"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Verkeersbaan a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersbaan binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Verkeersbaan"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Verkeersmaatregel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersmaatregel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Verkeersmaatregel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Verkeersstrook a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersstrook binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Verkeersstrook"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Verkeersveiligheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersveiligheid binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Verkeersveiligheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:Vervuilingsmaatregel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vervuilingsmaatregel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Vervuilingsmaatregel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Verzorgingsbaan a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verzorgingsbaan binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Verzorgingsbaan"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Verzorgingsplaats a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verzorgingsplaats binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Verzorgingsplaats"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Viaduct a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Viaduct binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Viaduct"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Vluchtroute a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vluchtroute binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Vluchtroute"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:VoorzieneNietBeschikbaarheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VoorzieneNietBeschikbaarheid binnen de context van informatieproduct programmering"@nl ;
+        sh:name "VoorzieneNietBeschikbaarheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:Vrachtwagenstrook a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vrachtwagenstrook binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Vrachtwagenstrook"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:WaterEnWatergangLijnvormig a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type WaterEnWatergangLijnvormig binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Water en watergang lijnvormig"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:WaterEnWatergangNietLijnvormig a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type WaterEnWatergangNietLijnvormig binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Water en watergang niet lijnvormig"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Waternetwerk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waternetwerk binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Watersysteemnetwerk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Waterreguleringswerk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterreguleringswerk binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Waterreguleringswerk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Waterveiligheid a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterveiligheid binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Waterveiligheid"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumVastgesteld ],
+            [ sh:minCount 1 ;
+                sh:path otl:status ] .
+
+    otl-patroon:Weg a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Weg binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Weg"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Wegdeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wegdeel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Wegdeel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:WegdeelGPP a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type WegdeelGPP binnen de context van informatieproduct programmering"@nl ;
+        sh:name "WegdeelGPP"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Wegennetwerk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wegennetwerk binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Wegennetwerk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Weglink a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Weglink binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Weglink"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:WegsegmentLuchtkwaliteit a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type WegsegmentLuchtkwaliteit binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Wegsegment luchtkwaliteit"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Wegvak a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wegvak binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Wegvak"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:WerkplekMaatregel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type WerkplekMaatregel binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Werkplek Maatregel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:WettelijkRisico a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type WettelijkRisico binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Wettelijk Risico"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:Wisselstrook a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wisselstrook binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Wisselstrook"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Zee a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zee binnen de context van informatieproduct programmering"@nl ;
+        sh:name "Zee"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl:graaf-ib-programmering a owl:Ontology ;
+        dct:created "2023-11-28"^^xsd:date ;
+        dct:description "Het informatiemodel voor informatieproduct 'programmering' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
+        dct:title "IB voor informatieproduct 'programmering'"@nl ;
+        pav:derivedFrom "IB RWS Prerelease 2023-10-25 13:31" ;
+        pav:version "Prerelease 2023-10-25 13:31" ;
+        owl:imports pav:,
+            otl:graaf-informatiemodel .
+}
+
