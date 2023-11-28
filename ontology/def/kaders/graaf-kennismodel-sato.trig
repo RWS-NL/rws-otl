@@ -1,0 +1,606 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix sato: <https://data.rws.nl/def/sato/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sato:graaf-kennismodel {
+    sato:Beheerobject_SATO_Root a skos:Concept ;
+        dct:identifier "SATO_Root"^^xsd:string ;
+        skos:prefLabel "Tunnel"@nl ;
+        sato:kanOnderdeelHebben sato:Categorie_10,
+            sato:Categorie_100,
+            sato:Categorie_20,
+            sato:Categorie_200,
+            sato:Categorie_30,
+            sato:Categorie_300,
+            sato:Categorie_35,
+            sato:Categorie_40,
+            sato:Categorie_400,
+            sato:Categorie_50,
+            sato:Categorie_60,
+            sato:Categorie_70,
+            sato:Categorie_80,
+            sato:Categorie_90 .
+
+    sato:Categorie_10 a skos:Concept ;
+        dct:identifier "10"^^xsd:string ;
+        skos:prefLabel "Energievoorziening"@nl ;
+        sato:kanOnderdeelHebben sato:Installatie_11,
+            sato:Installatie_12,
+            sato:Installatie_13,
+            sato:Installatie_14,
+            sato:Installatie_15,
+            sato:Installatie_16,
+            sato:Installatie_17 .
+
+    sato:Categorie_100 a skos:Concept ;
+        dct:identifier "100"^^xsd:string ;
+        skos:prefLabel "Tunnelbuis Civiel"@nl ;
+        sato:kanOnderdeelHebben sato:Installatie_101,
+            sato:Installatie_102,
+            sato:Installatie_103,
+            sato:Installatie_104,
+            sato:Installatie_105,
+            sato:Installatie_106,
+            sato:Installatie_107,
+            sato:Installatie_108,
+            sato:Installatie_109,
+            sato:Installatie_110,
+            sato:Installatie_111,
+            sato:Installatie_112 .
+
+    sato:Categorie_20 a skos:Concept ;
+        dct:identifier "20"^^xsd:string ;
+        skos:prefLabel "Verlichting"@nl ;
+        sato:kanOnderdeelHebben sato:Installatie_21,
+            sato:Installatie_22,
+            sato:Installatie_23,
+            sato:Installatie_26 .
+
+    sato:Categorie_200 a skos:Concept ;
+        dct:identifier "200"^^xsd:string ;
+        skos:prefLabel "Toeritten Civiel"@nl ;
+        sato:kanOnderdeelHebben sato:Installatie_201,
+            sato:Installatie_202,
+            sato:Installatie_203,
+            sato:Installatie_204,
+            sato:Installatie_205,
+            sato:Installatie_206,
+            sato:Installatie_207,
+            sato:Installatie_208,
+            sato:Installatie_209,
+            sato:Installatie_210,
+            sato:Installatie_211,
+            sato:Installatie_212,
+            sato:Installatie_213,
+            sato:Installatie_214,
+            sato:Installatie_215,
+            sato:Installatie_216,
+            sato:Installatie_217,
+            sato:Installatie_218 .
+
+    sato:Categorie_30 a skos:Concept ;
+        dct:identifier "30"^^xsd:string ;
+        skos:prefLabel "Vloeistofpompinstallatie Tunnel"@nl ;
+        sato:kanOnderdeelHebben sato:Installatie_31,
+            sato:Installatie_32,
+            sato:Installatie_33,
+            sato:Installatie_34 .
+
+    sato:Categorie_300 a skos:Concept ;
+        dct:identifier "300"^^xsd:string ;
+        skos:prefLabel "Dienstgebouw Civiel"@nl ;
+        sato:kanOnderdeelHebben sato:Installatie_301,
+            sato:Installatie_302,
+            sato:Installatie_303,
+            sato:Installatie_304,
+            sato:Installatie_305,
+            sato:Installatie_307,
+            sato:Installatie_308,
+            sato:Installatie_309,
+            sato:Installatie_310,
+            sato:Installatie_311,
+            sato:Installatie_312,
+            sato:Installatie_314 .
+
+    sato:Categorie_35 a skos:Concept ;
+        dct:identifier "35"^^xsd:string ;
+        skos:prefLabel "Ventilatiesystemen"@nl ;
+        sato:kanOnderdeelHebben sato:Installatie_36,
+            sato:Installatie_37,
+            sato:Installatie_38,
+            sato:Installatie_39 .
+
+    sato:Categorie_40 a skos:Concept ;
+        dct:identifier "40"^^xsd:string ;
+        skos:prefLabel "Verkeersinstallaties"@nl ;
+        sato:kanOnderdeelHebben sato:Installatie_41,
+            sato:Installatie_42,
+            sato:Installatie_43,
+            sato:Installatie_44,
+            sato:Installatie_45,
+            sato:Installatie_46,
+            sato:Installatie_49 .
+
+    sato:Categorie_400 a skos:Concept ;
+        dct:identifier "400"^^xsd:string ;
+        skos:prefLabel "Terrein"@nl ;
+        sato:kanOnderdeelHebben sato:Installatie_401,
+            sato:Installatie_402,
+            sato:Installatie_403,
+            sato:Installatie_404,
+            sato:Installatie_405,
+            sato:Installatie_406,
+            sato:Installatie_407,
+            sato:Installatie_408,
+            sato:Installatie_409 .
+
+    sato:Categorie_50 a skos:Concept ;
+        dct:identifier "50"^^xsd:string ;
+        skos:prefLabel "Brandblusinstallaties"@nl ;
+        sato:kanOnderdeelHebben sato:Installatie_51,
+            sato:Installatie_53 .
+
+    sato:Categorie_60 a skos:Concept ;
+        dct:identifier "60"^^xsd:string ;
+        skos:prefLabel "Communicatie"@nl ;
+        sato:kanOnderdeelHebben sato:Installatie_61,
+            sato:Installatie_62,
+            sato:Installatie_63,
+            sato:Installatie_64,
+            sato:Installatie_65 .
+
+    sato:Categorie_70 a skos:Concept ;
+        dct:identifier "70"^^xsd:string ;
+        skos:prefLabel "Gebouwinstallaties"@nl ;
+        sato:kanOnderdeelHebben sato:Installatie_71,
+            sato:Installatie_72,
+            sato:Installatie_74,
+            sato:Installatie_75,
+            sato:Installatie_76,
+            sato:Installatie_77,
+            sato:Installatie_79 .
+
+    sato:Categorie_80 a skos:Concept ;
+        dct:identifier "80"^^xsd:string ;
+        skos:prefLabel "Besturingsinstallaties"@nl ;
+        sato:kanOnderdeelHebben sato:Installatie_81,
+            sato:Installatie_82,
+            sato:Installatie_83,
+            sato:Installatie_84,
+            sato:Installatie_86,
+            sato:Installatie_87,
+            sato:Installatie_88 .
+
+    sato:Categorie_90 a skos:Concept ;
+        dct:identifier "90"^^xsd:string ;
+        skos:prefLabel "Diverse installaties"@nl ;
+        sato:kanOnderdeelHebben sato:Installatie_91,
+            sato:Installatie_92,
+            sato:Installatie_94,
+            sato:Installatie_95,
+            sato:Installatie_96,
+            sato:Installatie_97,
+            sato:Installatie_98 .
+
+    sato:Installatie_101 a skos:Concept ;
+        dct:identifier "101"^^xsd:string ;
+        skos:prefLabel "Fundering"@nl .
+
+    sato:Installatie_102 a skos:Concept ;
+        dct:identifier "102"^^xsd:string ;
+        skos:prefLabel "Wandconstructie"@nl .
+
+    sato:Installatie_103 a skos:Concept ;
+        dct:identifier "103"^^xsd:string ;
+        skos:prefLabel "Dakconstructie"@nl .
+
+    sato:Installatie_104 a skos:Concept ;
+        dct:identifier "104"^^xsd:string ;
+        skos:prefLabel "Hoofddraagconstructie"@nl .
+
+    sato:Installatie_105 a skos:Concept ;
+        dct:identifier "105"^^xsd:string ;
+        skos:prefLabel "Voegovergang"@nl .
+
+    sato:Installatie_106 a skos:Concept ;
+        dct:identifier "106"^^xsd:string ;
+        skos:prefLabel "Verharding "@nl .
+
+    sato:Installatie_107 a skos:Concept ;
+        dct:identifier "107"^^xsd:string ;
+        skos:prefLabel "Vloerconstructie (MTK)"@nl .
+
+    sato:Installatie_108 a skos:Concept ;
+        dct:identifier "108"^^xsd:string ;
+        skos:prefLabel "Pompkelder"@nl .
+
+    sato:Installatie_109 a skos:Concept ;
+        dct:identifier "109"^^xsd:string ;
+        skos:prefLabel "Hemelwaterafvoer"@nl .
+
+    sato:Installatie_11 a skos:Concept ;
+        dct:identifier "11"^^xsd:string ;
+        skos:prefLabel "Netaansluiting"@nl .
+
+    sato:Installatie_110 a skos:Concept ;
+        dct:identifier "110"^^xsd:string ;
+        skos:prefLabel "Geleideconstructie"@nl .
+
+    sato:Installatie_111 a skos:Concept ;
+        dct:identifier "111"^^xsd:string ;
+        skos:prefLabel "Wegmarkering"@nl .
+
+    sato:Installatie_112 a skos:Concept ;
+        dct:identifier "112"^^xsd:string ;
+        skos:prefLabel "Hittewerende voorziening"@nl .
+
+    sato:Installatie_12 a skos:Concept ;
+        dct:identifier "12"^^xsd:string ;
+        skos:prefLabel "Aarding, bliksem- en overspanningsbeveiliging"@nl .
+
+    sato:Installatie_13 a skos:Concept ;
+        dct:identifier "13"^^xsd:string ;
+        skos:prefLabel "Laagspanningsinstallatie"@nl .
+
+    sato:Installatie_14 a skos:Concept ;
+        dct:identifier "14"^^xsd:string ;
+        skos:prefLabel "Noodstroominstallatie (roterend)"@nl .
+
+    sato:Installatie_15 a skos:Concept ;
+        dct:identifier "15"^^xsd:string ;
+        skos:prefLabel "Noodstroominstallatie (statisch)"@nl .
+
+    sato:Installatie_16 a skos:Concept ;
+        dct:identifier "16"^^xsd:string ;
+        skos:prefLabel "Hoogspanningsinstallatie"@nl .
+
+    sato:Installatie_17 a skos:Concept ;
+        dct:identifier "17"^^xsd:string ;
+        skos:prefLabel "Duurzame energiebron"@nl .
+
+    sato:Installatie_201 a skos:Concept ;
+        dct:identifier "201"^^xsd:string ;
+        skos:prefLabel "Fundering"@nl .
+
+    sato:Installatie_202 a skos:Concept ;
+        dct:identifier "202"^^xsd:string ;
+        skos:prefLabel "Wandconstructie"@nl .
+
+    sato:Installatie_203 a skos:Concept ;
+        dct:identifier "203"^^xsd:string ;
+        skos:prefLabel "Kerende constructie"@nl .
+
+    sato:Installatie_204 a skos:Concept ;
+        dct:identifier "204"^^xsd:string ;
+        skos:prefLabel "Folieconstructie "@nl .
+
+    sato:Installatie_205 a skos:Concept ;
+        dct:identifier "205"^^xsd:string ;
+        skos:prefLabel "Voegovergang"@nl .
+
+    sato:Installatie_206 a skos:Concept ;
+        dct:identifier "206"^^xsd:string ;
+        skos:prefLabel "Verharding "@nl .
+
+    sato:Installatie_207 a skos:Concept ;
+        dct:identifier "207"^^xsd:string ;
+        skos:prefLabel "Lichtroosterconstructie"@nl .
+
+    sato:Installatie_208 a skos:Concept ;
+        dct:identifier "208"^^xsd:string ;
+        skos:prefLabel "Geluidbeperkende constructie"@nl .
+
+    sato:Installatie_209 a skos:Concept ;
+        dct:identifier "209"^^xsd:string ;
+        skos:prefLabel "Verkeerskundige draagconstructie"@nl .
+
+    sato:Installatie_21 a skos:Concept ;
+        dct:identifier "21"^^xsd:string ;
+        skos:prefLabel "Openbare verlichting (verkeersbuis)"@nl .
+
+    sato:Installatie_210 a skos:Concept ;
+        dct:identifier "210"^^xsd:string ;
+        skos:prefLabel "Geleideconstructie"@nl .
+
+    sato:Installatie_211 a skos:Concept ;
+        dct:identifier "211"^^xsd:string ;
+        skos:prefLabel "Wegmarkering"@nl .
+
+    sato:Installatie_212 a skos:Concept ;
+        dct:identifier "212"^^xsd:string ;
+        skos:prefLabel "Talud"@nl .
+
+    sato:Installatie_213 a skos:Concept ;
+        dct:identifier "213"^^xsd:string ;
+        skos:prefLabel "Leuningconstructie"@nl .
+
+    sato:Installatie_214 a skos:Concept ;
+        dct:identifier "214"^^xsd:string ;
+        skos:prefLabel "Hemelwaterafvoer"@nl .
+
+    sato:Installatie_215 a skos:Concept ;
+        dct:identifier "215"^^xsd:string ;
+        skos:prefLabel "Drainage"@nl .
+
+    sato:Installatie_216 a skos:Concept ;
+        dct:identifier "216"^^xsd:string ;
+        skos:prefLabel "Groen (incl. watergang en kanteldijken)"@nl .
+
+    sato:Installatie_217 a skos:Concept ;
+        dct:identifier "217"^^xsd:string ;
+        skos:prefLabel "Bebording en bewegwijzering (statisch)"@nl .
+
+    sato:Installatie_218 a skos:Concept ;
+        dct:identifier "218"^^xsd:string ;
+        skos:prefLabel "Hittewerende voorziening"@nl .
+
+    sato:Installatie_22 a skos:Concept ;
+        dct:identifier "22"^^xsd:string ;
+        skos:prefLabel "Verlichting Veilige Ruimte"@nl .
+
+    sato:Installatie_23 a skos:Concept ;
+        dct:identifier "23"^^xsd:string ;
+        skos:prefLabel "Openbare verlichting (OV)"@nl .
+
+    sato:Installatie_26 a skos:Concept ;
+        dct:identifier "26"^^xsd:string ;
+        skos:prefLabel "Verlichting Dienstgang"@nl .
+
+    sato:Installatie_301 a skos:Concept ;
+        dct:identifier "301"^^xsd:string ;
+        skos:prefLabel "Vluchtweginstallatie"@nl .
+
+    sato:Installatie_302 a skos:Concept ;
+        dct:identifier "302"^^xsd:string ;
+        skos:prefLabel "Sanitaire installatie"@nl .
+
+    sato:Installatie_303 a skos:Concept ;
+        dct:identifier "303"^^xsd:string ;
+        skos:prefLabel "Dakconstructie"@nl .
+
+    sato:Installatie_304 a skos:Concept ;
+        dct:identifier "304"^^xsd:string ;
+        skos:prefLabel "Vloerconstructie"@nl .
+
+    sato:Installatie_305 a skos:Concept ;
+        dct:identifier "305"^^xsd:string ;
+        skos:prefLabel "Hijs- en hefinstallatie"@nl .
+
+    sato:Installatie_307 a skos:Concept ;
+        dct:identifier "307"^^xsd:string ;
+        skos:prefLabel "Brandcompartimentering en rookscheiding"@nl .
+
+    sato:Installatie_308 a skos:Concept ;
+        dct:identifier "308"^^xsd:string ;
+        skos:prefLabel "Branddoorvoering"@nl .
+
+    sato:Installatie_309 a skos:Concept ;
+        dct:identifier "309"^^xsd:string ;
+        skos:prefLabel "Zonweringsinstallatie"@nl .
+
+    sato:Installatie_31 a skos:Concept ;
+        dct:identifier "31"^^xsd:string ;
+        skos:prefLabel "Hoofdpompinstallatie"@nl .
+
+    sato:Installatie_310 a skos:Concept ;
+        dct:identifier "310"^^xsd:string ;
+        skos:prefLabel "Interieur"@nl .
+
+    sato:Installatie_311 a skos:Concept ;
+        dct:identifier "311"^^xsd:string ;
+        skos:prefLabel "Trapconstructie"@nl .
+
+    sato:Installatie_312 a skos:Concept ;
+        dct:identifier "312"^^xsd:string ;
+        skos:prefLabel "Watertapinstallatie"@nl .
+
+    sato:Installatie_314 a skos:Concept ;
+        dct:identifier "314"^^xsd:string ;
+        skos:prefLabel "Wandconstructie"@nl .
+
+    sato:Installatie_32 a skos:Concept ;
+        dct:identifier "32"^^xsd:string ;
+        skos:prefLabel "Middenpompinstallatie"@nl .
+
+    sato:Installatie_33 a skos:Concept ;
+        dct:identifier "33"^^xsd:string ;
+        skos:prefLabel "Hellingpompinstallatie"@nl .
+
+    sato:Installatie_34 a skos:Concept ;
+        dct:identifier "34"^^xsd:string ;
+        skos:prefLabel "Lenspompinstallatie"@nl .
+
+    sato:Installatie_36 a skos:Concept ;
+        dct:identifier "36"^^xsd:string ;
+        skos:prefLabel "Ventilatie-installatie Tunnel"@nl .
+
+    sato:Installatie_37 a skos:Concept ;
+        dct:identifier "37"^^xsd:string ;
+        skos:prefLabel "Meetinstallatie Luchtkwaliteit"@nl .
+
+    sato:Installatie_38 a skos:Concept ;
+        dct:identifier "38"^^xsd:string ;
+        skos:prefLabel "Overdrukinstallatie Grensruimte"@nl .
+
+    sato:Installatie_39 a skos:Concept ;
+        dct:identifier "39"^^xsd:string ;
+        skos:prefLabel "Overdrukinstallatie Veilige Ruimte"@nl .
+
+    sato:Installatie_401 a skos:Concept ;
+        dct:identifier "401"^^xsd:string ;
+        skos:prefLabel "Verlichting Terrein"@nl .
+
+    sato:Installatie_402 a skos:Concept ;
+        dct:identifier "402"^^xsd:string ;
+        skos:prefLabel "Verharding"@nl .
+
+    sato:Installatie_403 a skos:Concept ;
+        dct:identifier "403"^^xsd:string ;
+        skos:prefLabel "Wegmarkering"@nl .
+
+    sato:Installatie_404 a skos:Concept ;
+        dct:identifier "404"^^xsd:string ;
+        skos:prefLabel "Terrein Riolering"@nl .
+
+    sato:Installatie_405 a skos:Concept ;
+        dct:identifier "405"^^xsd:string ;
+        skos:prefLabel "Hekwerk en terreinafscheiding"@nl .
+
+    sato:Installatie_406 a skos:Concept ;
+        dct:identifier "406"^^xsd:string ;
+        skos:prefLabel "Rolhek en looppoort"@nl .
+
+    sato:Installatie_407 a skos:Concept ;
+        dct:identifier "407"^^xsd:string ;
+        skos:prefLabel "Laadpaal elektrische voertuig"@nl .
+
+    sato:Installatie_408 a skos:Concept ;
+        dct:identifier "408"^^xsd:string ;
+        skos:prefLabel "Voorzieningen hulpdiensten"@nl .
+
+    sato:Installatie_409 a skos:Concept ;
+        dct:identifier "409"^^xsd:string ;
+        skos:prefLabel "Peilbuis"@nl .
+
+    sato:Installatie_41 a skos:Concept ;
+        dct:identifier "41"^^xsd:string ;
+        skos:prefLabel "Wegkantsysteem (WKS)"@nl .
+
+    sato:Installatie_42 a skos:Concept ;
+        dct:identifier "42"^^xsd:string ;
+        skos:prefLabel "Verkeersdetectie-installatie"@nl .
+
+    sato:Installatie_43 a skos:Concept ;
+        dct:identifier "43"^^xsd:string ;
+        skos:prefLabel "Hoogtedetectie-installatie"@nl .
+
+    sato:Installatie_44 a skos:Concept ;
+        dct:identifier "44"^^xsd:string ;
+        skos:prefLabel "Afsluitboominstallatie"@nl .
+
+    sato:Installatie_45 a skos:Concept ;
+        dct:identifier "45"^^xsd:string ;
+        skos:prefLabel "Verkeersregelinstallatie (VRI)"@nl .
+
+    sato:Installatie_46 a skos:Concept ;
+        dct:identifier "46"^^xsd:string ;
+        skos:prefLabel "Verplaatsbare Vangrail installatie (VEVA)"@nl .
+
+    sato:Installatie_49 a skos:Concept ;
+        dct:identifier "49"^^xsd:string ;
+        skos:prefLabel "Calamiteiten Doorsteek installatie (CADO)"@nl .
+
+    sato:Installatie_51 a skos:Concept ;
+        dct:identifier "51"^^xsd:string ;
+        skos:prefLabel "Brandblusinstallatie"@nl .
+
+    sato:Installatie_53 a skos:Concept ;
+        dct:identifier "53"^^xsd:string ;
+        skos:prefLabel "Hulppost installatie"@nl .
+
+    sato:Installatie_61 a skos:Concept ;
+        dct:identifier "61"^^xsd:string ;
+        skos:prefLabel "CCTV"@nl .
+
+    sato:Installatie_62 a skos:Concept ;
+        dct:identifier "62"^^xsd:string ;
+        skos:prefLabel "Hoog Frequent installatie (HF en C2000)"@nl .
+
+    sato:Installatie_63 a skos:Concept ;
+        dct:identifier "63"^^xsd:string ;
+        skos:prefLabel "Omroepinstallatie"@nl .
+
+    sato:Installatie_64 a skos:Concept ;
+        dct:identifier "64"^^xsd:string ;
+        skos:prefLabel "Intercominstallatie (noodtelefooninstallatie)"@nl .
+
+    sato:Installatie_65 a skos:Concept ;
+        dct:identifier "65"^^xsd:string ;
+        skos:prefLabel "Telefooninstallatie "@nl .
+
+    sato:Installatie_71 a skos:Concept ;
+        dct:identifier "71"^^xsd:string ;
+        skos:prefLabel "Klimaatinstallatie"@nl .
+
+    sato:Installatie_72 a skos:Concept ;
+        dct:identifier "72"^^xsd:string ;
+        skos:prefLabel "Inbraakbeveiligingsinstallatie"@nl .
+
+    sato:Installatie_74 a skos:Concept ;
+        dct:identifier "74"^^xsd:string ;
+        skos:prefLabel "Brandmeld- en ontruimingsinstallatie (BMI)"@nl .
+
+    sato:Installatie_75 a skos:Concept ;
+        dct:identifier "75"^^xsd:string ;
+        skos:prefLabel "Brandblusinstallatie"@nl .
+
+    sato:Installatie_76 a skos:Concept ;
+        dct:identifier "76"^^xsd:string ;
+        skos:prefLabel "Waarschuwings- en alarmeringssysteem (WAS)"@nl .
+
+    sato:Installatie_77 a skos:Concept ;
+        dct:identifier "77"^^xsd:string ;
+        skos:prefLabel "Verlichting Dienstgebouw"@nl .
+
+    sato:Installatie_79 a skos:Concept ;
+        dct:identifier "79"^^xsd:string ;
+        skos:prefLabel "Toegangscontrole-installatie"@nl .
+
+    sato:Installatie_81 a skos:Concept ;
+        dct:identifier "81"^^xsd:string ;
+        skos:prefLabel "Bedieningsinstallatie"@nl .
+
+    sato:Installatie_82 a skos:Concept ;
+        dct:identifier "82"^^xsd:string ;
+        skos:prefLabel "Besturingsinstallatie (coördinerend)"@nl .
+
+    sato:Installatie_83 a skos:Concept ;
+        dct:identifier "83"^^xsd:string ;
+        skos:prefLabel "Noodbedieningsinstallatie"@nl .
+
+    sato:Installatie_84 a skos:Concept ;
+        dct:identifier "84"^^xsd:string ;
+        skos:prefLabel "Hulpdienstpaneel Verkeersbuis"@nl .
+
+    sato:Installatie_86 a skos:Concept ;
+        dct:identifier "86"^^xsd:string ;
+        skos:prefLabel "Transmissie netwerk"@nl .
+
+    sato:Installatie_87 a skos:Concept ;
+        dct:identifier "87"^^xsd:string ;
+        skos:prefLabel "Externe koppeling"@nl .
+
+    sato:Installatie_88 a skos:Concept ;
+        dct:identifier "88"^^xsd:string ;
+        skos:prefLabel "Plaatselijke bediening installatie"@nl .
+
+    sato:Installatie_91 a skos:Concept ;
+        dct:identifier "91"^^xsd:string ;
+        skos:prefLabel "Vluchtdeur"@nl .
+
+    sato:Installatie_92 a skos:Concept ;
+        dct:identifier "92"^^xsd:string ;
+        skos:prefLabel "Kabeldraagconstructie"@nl .
+
+    sato:Installatie_94 a skos:Concept ;
+        dct:identifier "94"^^xsd:string ;
+        skos:prefLabel "Dynamische Vluchtroute Indicatie Veilige Ruimte"@nl .
+
+    sato:Installatie_95 a skos:Concept ;
+        dct:identifier "95"^^xsd:string ;
+        skos:prefLabel "Kabels en Leidingen"@nl .
+
+    sato:Installatie_96 a skos:Concept ;
+        dct:identifier "96"^^xsd:string ;
+        skos:prefLabel "Vluchtdeurindicatie Verkeersbuis "@nl .
+
+    sato:Installatie_97 a skos:Concept ;
+        dct:identifier "97"^^xsd:string ;
+        skos:prefLabel "Pictogrammen en bebording "@nl .
+
+    sato:Installatie_98 a skos:Concept ;
+        dct:identifier "98"^^xsd:string ;
+        skos:prefLabel "Installaties derden"@nl .
+}
+
