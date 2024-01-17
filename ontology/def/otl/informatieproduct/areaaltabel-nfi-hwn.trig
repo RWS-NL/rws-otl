@@ -89,9 +89,25 @@ otl:graaf-ib-areaaltabel-nfi-hwn {
             [ sh:minCount 1 ;
                 sh:path otl:topcode ] .
 
+    otl-patroon:DetectieOnderstation a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type DetectieOnderstation binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
+        sh:name "Detectie onderstation"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:betreftMTM ],
+            [ sh:minCount 1 ;
+                sh:path otl:kilometerVan ] .
+
     otl-patroon:Detectielus a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detectielus binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Detectielus"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:betreftMTM ],
+            [ sh:minCount 1 ;
+                sh:path otl:kilometerVan ] .
+
+    otl-patroon:Detectorstation a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detectorstation binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
+        sh:name "Detectorstation"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:betreftMTM ],
             [ sh:minCount 1 ;
@@ -191,6 +207,14 @@ otl:graaf-ib-areaaltabel-nfi-hwn {
             [ sh:minCount 1 ;
                 sh:path otl:topcode ] .
 
+    otl-patroon:Kunstwerk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kunstwerk binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
+        sh:name "Kunstwerk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
     otl-patroon:Meer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Meer binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Meer"@nl ;
@@ -261,6 +285,14 @@ otl:graaf-ib-areaaltabel-nfi-hwn {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:oppervlakte ] .
 
+    otl-patroon:Sluis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sluis binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
+        sh:name "Sluis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
     otl-patroon:Spitsstrook a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Spitsstrook binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Spitsstrook"@nl ;
@@ -297,12 +329,6 @@ otl:graaf-ib-areaaltabel-nfi-hwn {
             [ sh:minCount 1 ;
                 sh:path otl:topcode ] .
 
-    otl-patroon:Toerit a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toerit binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
-        sh:name "Toerit"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:oppervlakte ] .
-
     otl-patroon:Tunnel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Tunnel binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Tunnel"@nl ;
@@ -319,7 +345,7 @@ otl:graaf-ib-areaaltabel-nfi-hwn {
 
     otl-patroon:Verkeersbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersbaan binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
-        sh:name "Verkeersbaan"@nl ;
+        sh:name "Wegbaan"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:oppervlakte ] .
 
@@ -327,7 +353,7 @@ otl:graaf-ib-areaaltabel-nfi-hwn {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeerscentrale binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Verkeerscentrale"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:operationeleStatus ],
+                sh:path otl:status ],
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
 
@@ -341,7 +367,7 @@ otl:graaf-ib-areaaltabel-nfi-hwn {
 
     otl-patroon:Verkeersstrook a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersstrook binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
-        sh:name "Verkeersstrook"@nl ;
+        sh:name "Wegstrook"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:lengte ] .
 
@@ -358,12 +384,6 @@ otl:graaf-ib-areaaltabel-nfi-hwn {
                 sh:path otl:status ],
             [ sh:minCount 1 ;
                 sh:path otl:topcode ] .
-
-    otl-patroon:Vrachtwagenstrook a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vrachtwagenstrook binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
-        sh:name "Vrachtwagenstrook"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:lengte ] .
 
     otl-patroon:WaterEnWatergangLijnvormig a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type WaterEnWatergangLijnvormig binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
@@ -403,12 +423,6 @@ otl:graaf-ib-areaaltabel-nfi-hwn {
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
 
-    otl-patroon:Wisselstrook a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wisselstrook binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
-        sh:name "Wisselstrook"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:lengte ] .
-
     otl-patroon:Zee a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zee binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Zee"@nl ;
@@ -416,11 +430,11 @@ otl:graaf-ib-areaaltabel-nfi-hwn {
                 sh:path otl:oppervlakte ] .
 
     otl:graaf-ib-areaaltabel-nfi-hwn a owl:Ontology ;
-        dct:created "2023-11-28"^^xsd:date ;
+        dct:created "2024-01-17"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'areaaltabel-nfi-hwn' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'areaaltabel-nfi-hwn'"@nl ;
-        pav:derivedFrom "IB RWS Prerelease 2023-10-25 13:31" ;
-        pav:version "Prerelease 2023-10-25 13:31" ;
+        pav:derivedFrom "IB RWS Release 25.1" ;
+        pav:version "Release 25.1" ;
         owl:imports pav:,
             otl:graaf-informatiemodel .
 }

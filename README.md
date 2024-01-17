@@ -25,4 +25,4 @@ De OTL is een actueel en praktisch toepasbaar informatiemodel dat is opgebouwd d
     - SATO
     - Uniforme Technische Decompositie (UTD)
     
-	**- [linksets](./ontology/def/linksets):** Linksets beschrijven de mapping tussen klassen in een extern model en klassen in de OTL. Zo kan de OTL bekeken worden met een specifiekere view. 
+	**- [linksets](./ontology/def/linksets):** Linksets beschrijven de mapping tussen klassen in een extern model en klassen in de OTL. Zo kan de OTL bekeken worden met een specifiekere view, zoals de NEN2767 of de Algemene Begrippen en Definitielijst van Rijkswaterstaat.  

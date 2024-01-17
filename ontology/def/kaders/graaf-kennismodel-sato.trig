@@ -95,6 +95,7 @@ sato:graaf-kennismodel {
             sato:Installatie_303,
             sato:Installatie_304,
             sato:Installatie_305,
+            sato:Installatie_306,
             sato:Installatie_307,
             sato:Installatie_308,
             sato:Installatie_309,
@@ -366,6 +367,10 @@ sato:graaf-kennismodel {
     sato:Installatie_305 a skos:Concept ;
         dct:identifier "305"^^xsd:string ;
         skos:prefLabel "Hijs- en hefinstallatie"@nl .
+
+    sato:Installatie_306 a skos:Concept ;
+        dct:identifier "306"^^xsd:string ;
+        skos:prefLabel "Binnen-, buitendeur en rolluik"@nl .
 
     sato:Installatie_307 a skos:Concept ;
         dct:identifier "307"^^xsd:string ;

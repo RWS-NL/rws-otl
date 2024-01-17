@@ -1704,7 +1704,7 @@ otl:graaf-otl-nen2767-4-linkset {
 
     otl:Verankering dct:conformsTo nen-2767-4:Element_218 .
 
-    otl:Verbinding dct:conformsTo nen-2767-4:Bouwdeel_1581 .
+    otl:VerbindingElektrisch dct:conformsTo nen-2767-4:Bouwdeel_1581 .
 
     otl:Verbindingsbrug dct:conformsTo nen-2767-4:Bouwdeel_1341 .
 
@@ -1947,11 +1947,11 @@ otl:graaf-otl-nen2767-4-linkset {
     otl:Zonweringsinstallatie dct:conformsTo nen-2767-4:Element_401 .
 
     otl:graaf-otl-nen2767-4-linkset a owl:Ontology ;
-        dct:created "2023-11-28"^^xsd:date ;
+        dct:created "2024-01-17"^^xsd:date ;
         dct:description "De OTL-nen2767-4 linkset legt een koppeling tussen OTL-concepten en nen2767-4-concepten."@nl ;
         dct:title "Linkset naar OTL voor RWS-kader 'nen2767-4'"@nl ;
-        pav:derivedFrom "IB RWS Prerelease 2023-10-25 13:31" ;
-        pav:version "Prerelease 2023-10-25 13:31" ;
+        pav:derivedFrom "IB RWS Release 25.1" ;
+        pav:version "Release 25.1" ;
         owl:imports nen-2767-4:,
             otl:graaf-kennismodel .
 }

@@ -85,11 +85,11 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Aanvrager a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aanvrager binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Aanvrager"@nl ;
+    otl-patroon:AanvullendeVoorziening a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type AanvullendeVoorziening binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Aanvullende voorziening"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Aardelektrode a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aardelektrode binnen de context van informatieproduct csir-explain"@nl ;
@@ -145,18 +145,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:AdviseurCrisisbeheersing a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type AdviseurCrisisbeheersing binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Adviseur crisisbeheersing"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
-    otl-patroon:AdviseurCrisiscommunicatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type AdviseurCrisiscommunicatie binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Adviseur crisiscommunicatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
     otl-patroon:AdviseurSecurityCentre a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type AdviseurSecurityCentre binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Adviseur Security Centre"@nl ;
@@ -168,12 +156,6 @@ otl:graaf-ib-csir-explain {
         sh:name "Afdekplaat"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Afdeling a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afdeling binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Afdeling"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
 
     otl-patroon:Afdelingshoofd a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Afdelingshoofd binnen de context van informatieproduct csir-explain"@nl ;
@@ -313,12 +295,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Applicatiebeheerder a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Applicatiebeheerder binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Applicatiebeheerder"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
     otl-patroon:Aquaduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aquaduct binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Aquaduct"@nl ;
@@ -367,27 +343,11 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Aspecteis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Aspecteis binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Aspecteis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Assenstelsel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Assenstelsel binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Assenstelsel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:AssetRisico a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type AssetRisico binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Assetrisico"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:risiconiveau ],
-            [ sh:minCount 1 ;
-                sh:path otl:toelichting ] .
 
     otl-patroon:Assetmanager a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Assetmanager binnen de context van informatieproduct csir-explain"@nl ;
@@ -521,14 +481,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Bedreiging a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bedreiging binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Bedreiging"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:risiconiveau ],
-            [ sh:minCount 1 ;
-                sh:path otl:toelichting ] .
-
     otl-patroon:Beeindigingsprofiel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beeindigingsprofiel binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Beëindigingsprofiel"@nl ;
@@ -570,26 +522,6 @@ otl:graaf-ib-csir-explain {
                 sh:path otl:naam ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Beheersmaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beheersmaatregel binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Beheersmaatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
-    otl-patroon:BeheersmaatregelRUPS a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type BeheersmaatregelRUPS binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Beheersmaatregel RUPS"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
 
     otl-patroon:Bekabeling a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Bekabeling binnen de context van informatieproduct csir-explain"@nl ;
@@ -657,68 +589,16 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:BeschikbaarheidEis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type BeschikbaarheidEis binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Beschikbaarheid Eis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:waarde ] .
-
     otl-patroon:Beschoeiing a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Beschoeiing binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Beschoeiing"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:BeslisserFase2 a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type BeslisserFase2 binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Beslisser fase 2"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
-    otl-patroon:BeslotenRuimteMaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type BeslotenRuimteMaatregel binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Besloten Ruimte Maatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
-    otl-patroon:BestuurlijkRisico a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type BestuurlijkRisico binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Bestuurlijk Risico"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:risiconiveau ],
-            [ sh:minCount 1 ;
-                sh:path otl:toelichting ] .
-
     otl-patroon:Betonverharding a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Betonverharding binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Betonverharding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:BetrouwbaarheidEis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type BetrouwbaarheidEis binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Betrouwbaarheid Eis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:waarde ] .
-
-    otl-patroon:BeveiligingEis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type BeveiligingEis binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Beveiliging Eis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Bevestiging a sh:NodeShape ;
@@ -1179,16 +1059,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:CorrectiefOnderhoud a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type CorrectiefOnderhoud binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Correctief Onderhoud"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
     otl-patroon:Coupure a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Coupure binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Coupure"@nl ;
@@ -1200,18 +1070,6 @@ otl:graaf-ib-csir-explain {
                 sh:path otl:naam ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Crisisjurist a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Crisisjurist binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Crisisjurist"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
-    otl-patroon:Crisisrol a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Crisisrol binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Crisisrol"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
 
     otl-patroon:Cyberbedreiging a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Cyberbedreiging binnen de context van informatieproduct csir-explain"@nl ;
@@ -1355,6 +1213,12 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Deklaag a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deklaag binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Deklaag"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Deklaag-Dicht a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Deklaag-Dicht binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Deklaag (dicht)"@nl ;
@@ -1379,6 +1243,12 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:DetectieOnderstation a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type DetectieOnderstation binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Detectie onderstation"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Detectielus a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detectielus binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Detectielus"@nl ;
@@ -1388,6 +1258,12 @@ otl:graaf-ib-csir-explain {
     otl-patroon:Detector a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detector binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Detector"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Detectorstation a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Detectorstation binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Detectorstation"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -1715,29 +1591,11 @@ otl:graaf-ib-csir-explain {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:EconomischRisico a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type EconomischRisico binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Economisch Risico"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:risiconiveau ],
-            [ sh:minCount 1 ;
-                sh:path otl:toelichting ] .
-
     otl-patroon:Elektromotor a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Elektromotor binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Elektromotor"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:ElektrotechnischeMaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type ElektrotechnischeMaatregel binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Elektrotechnische Maatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
 
     otl-patroon:Elektrovijzel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Elektrovijzel binnen de context van informatieproduct csir-explain"@nl ;
@@ -1805,7 +1663,7 @@ otl:graaf-ib-csir-explain {
             [ sh:minCount 1 ;
                 sh:path otl:referentienummer ],
             [ sh:minCount 1 ;
-                sh:path otl:scope-Explain ],
+                sh:path otl:scope ],
             [ sh:minCount 1 ;
                 sh:path otl:status ],
             [ sh:minCount 1 ;
@@ -1814,46 +1672,6 @@ otl:graaf-ib-csir-explain {
                 sh:path otl:versienummer ],
             [ sh:minCount 1 ;
                 sh:path otl:zwaarwegendeReden ] .
-
-    otl-patroon:FaalfrequentieEis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type FaalfrequentieEis binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Faalfrequentie Eis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:waarde ] .
-
-    otl-patroon:Faalgevolg a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Faalgevolg binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Faalgevolg"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:beschikbaarheidsscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:beveiligingsscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:gezondheidsscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:Imagoscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:kostenscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:omgevingMilieuscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:onderhoudbaarheidsscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:veiligheidsscore ] .
-
-    otl-patroon:FaalkansSluitenKeringEis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type FaalkansSluitenKeringEis binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "FaalkansSluitenKering Eis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:waarde ] .
 
     otl-patroon:Fantasietoestel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fantasietoestel binnen de context van informatieproduct csir-explain"@nl ;
@@ -1975,40 +1793,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Functie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Functie binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Functie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:FunctioneleEis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type FunctioneleEis binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Functionele Eis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:FunctioneleInspectieEnTesten a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type FunctioneleInspectieEnTesten binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Functionele Inspectie en Testen"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
-    otl-patroon:FunctioneleTest a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type FunctioneleTest binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Functionele Test"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
     otl-patroon:Fundatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fundatie binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Fundatie"@nl ;
@@ -2018,6 +1802,12 @@ otl:graaf-ib-csir-explain {
     otl-patroon:Fundering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Fundering binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Fundering"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Funderingslaag a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Funderingslaag binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Funderingslaag"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -2061,6 +1851,16 @@ otl:graaf-ib-csir-explain {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gasinstallatie binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Gasinstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Gebouw a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gebouw binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Gebouw"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:cyberclassificatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:cybersecurityWeerstandsniveau ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Gedenksteen a sh:NodeShape ;
@@ -2129,41 +1929,11 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Geluidbeheersmaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidbeheersmaatregel binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Geluidbeheersmaatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
     otl-patroon:GeluidbeperkendeConstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type GeluidbeperkendeConstructie binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Geluidbeperkende constructie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Geluidoverdrachtsmaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidoverdrachtsmaatregel binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Geluidoverdrachtsmaatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
-    otl-patroon:Geluidsbronmaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsbronmaatregel binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Geluidsbronmaatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
 
     otl-patroon:Geluidsdemper a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Geluidsdemper binnen de context van informatieproduct csir-explain"@nl ;
@@ -2195,16 +1965,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:GerichteTechnischeInspectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type GerichteTechnischeInspectie binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Gerichte Technische Inspectie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
     otl-patroon:GestrekteOever-Natuurvriendelijk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type GestrekteOever-Natuurvriendelijk binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Gestrekte oever (natuurvriendelijk)"@nl ;
@@ -2216,26 +1976,6 @@ otl:graaf-ib-csir-explain {
         sh:name "Gestrekte oever (talud)"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Gevolg a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Gevolg binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Gevolg"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:beschikbaarheidsscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:beveiligingsscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:gezondheidsscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:Imagoscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:kostenscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:omgevingMilieuscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:onderhoudbaarheidsscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:veiligheidsscore ] .
 
     otl-patroon:Giek a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Giek binnen de context van informatieproduct csir-explain"@nl ;
@@ -2597,6 +2337,12 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Hoofdconstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofdconstructie binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Hoofdconstructie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Hoofddraagconstructie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hoofddraagconstructie binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Hoofddraagconstructie"@nl ;
@@ -2620,16 +2366,6 @@ otl:graaf-ib-csir-explain {
         sh:name "Hoofdverdeler"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:HoogRisicoBeheersmaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type HoogRisicoBeheersmaatregel binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Hoog Risico Beheersmaatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
 
     otl-patroon:HoogfrequentInstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type HoogfrequentInstallatie binnen de context van informatieproduct csir-explain"@nl ;
@@ -2667,15 +2403,15 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Houder a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Houder binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Houder"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
     otl-patroon:Hpalen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hpalen binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "H-palen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Hulpdienstpaneel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Hulpdienstpaneel binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Hulpdienstpaneel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -2733,6 +2469,12 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:ITSysteem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type ITSysteem binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "IT Systeem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:InGrondVervaardigdePalen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type InGrondVervaardigdePalen binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "In grond vervaardigde palen"@nl ;
@@ -2787,18 +2529,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:InformatiecooerdinatorCIC a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type InformatiecooerdinatorCIC binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Informatiecoördinator CIC"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
-    otl-patroon:InformatiecooerdinatorCrisisteam a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type InformatiecooerdinatorCrisisteam binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Informatiecoördinator crisisteam"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
     otl-patroon:InfragebondenGebouw a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type InfragebondenGebouw binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Infragebonden gebouw"@nl ;
@@ -2813,6 +2543,18 @@ otl:graaf-ib-csir-explain {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Infraroodlamp binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Infraroodlamp"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Infrawerk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Infrawerk binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Infrawerk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:cyberclassificatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:cybersecurityWeerstandsniveau ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Inlaat a sh:NodeShape ;
@@ -2833,19 +2575,15 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Inspectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Inspectie binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Inspectie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
     otl-patroon:Inspectiewagen a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Inspectiewagen binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Inspectiewagen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Installatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Installatie binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Installatie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -2860,26 +2598,6 @@ otl:graaf-ib-csir-explain {
         sh:name "Installatiekabel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:InstandhoudingBeheersmaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type InstandhoudingBeheersmaatregel binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Instandhouding Beheersmaatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
-    otl-patroon:Instandhoudingsinspectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instandhoudingsinspectie binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Instandhoudingsinspectie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
 
     otl-patroon:Instroomopening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Instroomopening binnen de context van informatieproduct csir-explain"@nl ;
@@ -2904,16 +2622,6 @@ otl:graaf-ib-csir-explain {
         sh:name "Intercompost"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Investeringsvoorstel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Investeringsvoorstel binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Investeringsvoorstel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
 
     otl-patroon:Isolator a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Isolator binnen de context van informatieproduct csir-explain"@nl ;
@@ -3014,12 +2722,6 @@ otl:graaf-ib-csir-explain {
     otl-patroon:Kadeput a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kadeput binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Kadeput"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Kanaal a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kanaal binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Kanaal"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3166,16 +2868,6 @@ otl:graaf-ib-csir-explain {
         sh:name "Keukeninstallatie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Keuring a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Keuring binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Keuring"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
 
     otl-patroon:Kinderspeelplaats a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kinderspeelplaats binnen de context van informatieproduct csir-explain"@nl ;
@@ -3351,6 +3043,18 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Kunstwerk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kunstwerk binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Kunstwerk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:cyberclassificatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:cybersecurityWeerstandsniveau ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Kwelder a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kwelder binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Kwelder"@nl ;
@@ -3495,18 +3199,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:LiaisonBT a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type LiaisonBT binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Liaison BT"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
-    otl-patroon:LiaisonROT a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type LiaisonROT binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Liaison ROT"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
     otl-patroon:Lichtgroepenkast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Lichtgroepenkast binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Lichtgroepenkast"@nl ;
@@ -3603,16 +3295,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Luchtkwaliteitsmeting a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Luchtkwaliteitsmeting binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Luchtkwaliteitsmeting"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
     otl-patroon:Luidspreker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Luidspreker binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Luidspreker"@nl ;
@@ -3658,18 +3340,6 @@ otl:graaf-ib-csir-explain {
     otl-patroon:Mast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Mast binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Mast"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:Medewerker a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Medewerker binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Medewerker"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
-    otl-patroon:Meer a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Meer binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Meer"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3751,47 +3421,17 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Modificatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Modificatie binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Modificatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
     otl-patroon:Monitor a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Monitor binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Monitor"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Monitoring a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Monitoring binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Monitoring"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
     otl-patroon:Monsternameapparaat a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Monsternameapparaat binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Monsternameapparaat"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:NatuurBeheersmaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type NatuurBeheersmaatregel binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Natuur Beheersmaatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
 
     otl-patroon:Natuurgebied a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Natuurgebied binnen de context van informatieproduct csir-explain"@nl ;
@@ -3877,31 +3517,11 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Nulinspectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Nulinspectie binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Nulinspectie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
     otl-patroon:Objectverlichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Objectverlichting binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Objectverlichting"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Observatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Observatie binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Observatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
 
     otl-patroon:Obstakelbeveiliger a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Obstakelbeveiliger binnen de context van informatieproduct csir-explain"@nl ;
@@ -3912,6 +3532,12 @@ otl:graaf-ib-csir-explain {
     otl-patroon:Oefenring a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oefenring binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Oefenring"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Oever a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Oever binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Oever"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -3951,20 +3577,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:OmgevingsRisico a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type OmgevingsRisico binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Omgevingsrisico"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:risiconiveau ],
-            [ sh:minCount 1 ;
-                sh:path otl:toelichting ] .
-
-    otl-patroon:Omgevingsmanager a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Omgevingsmanager binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Omgevingsmanager"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
     otl-patroon:Omloopbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Omloopbaan binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Omloopbaan"@nl ;
@@ -4001,6 +3613,12 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Onderdeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderdeel binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Onderdeel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Onderdoorgang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderdoorgang binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Onderdoorgang"@nl ;
@@ -4024,16 +3642,6 @@ otl:graaf-ib-csir-explain {
         sh:name "Ondergrond speelvoorziening"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Onderhoud a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderhoud binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Onderhoud"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
 
     otl-patroon:Onderhoudsstrook a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Onderhoudsstrook binnen de context van informatieproduct csir-explain"@nl ;
@@ -4065,6 +3673,12 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Ongeclassificeerd a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ongeclassificeerd binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Ongeclassificeerd"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Ontvangbed a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Ontvangbed binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Ontvangbed"@nl ;
@@ -4088,16 +3702,6 @@ otl:graaf-ib-csir-explain {
         sh:name "Onverhard oppervlak"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:OnvoorzieneNietBeschikbaarheidEis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type OnvoorzieneNietBeschikbaarheidEis binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "OnvoorzieneNietBeschikbaarheid Eis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:waarde ] .
 
     otl-patroon:OpEnAfrit a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type OpEnAfrit binnen de context van informatieproduct csir-explain"@nl ;
@@ -4236,20 +3840,6 @@ otl:graaf-ib-csir-explain {
         sh:name "Opzetinrichting"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Organisatieonderdeel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Organisatieonderdeel binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Organisatieonderdeel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
-    otl-patroon:OrganisatorischRisico a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type OrganisatorischRisico binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Organisatorisch Risico"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:risiconiveau ],
-            [ sh:minCount 1 ;
-                sh:path otl:toelichting ] .
 
     otl-patroon:OverEnOnderdrukinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type OverEnOnderdrukinstallatie binnen de context van informatieproduct csir-explain"@nl ;
@@ -4413,14 +4003,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:PersoonlijkRisico a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type PersoonlijkRisico binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Persoonlijk Risico"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:risiconiveau ],
-            [ sh:minCount 1 ;
-                sh:path otl:toelichting ] .
-
     otl-patroon:Pictogram a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pictogram binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Pictogram"@nl ;
@@ -4432,12 +4014,6 @@ otl:graaf-ib-csir-explain {
         sh:name "Pijler"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:PiketOperationeelAssetmanagement a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type PiketOperationeelAssetmanagement binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Piket operationeel assetmanagement"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
 
     otl-patroon:Pipingberm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Pipingberm binnen de context van informatieproduct csir-explain"@nl ;
@@ -4474,14 +4050,6 @@ otl:graaf-ib-csir-explain {
         sh:name "Plafondconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:PlanningRisico a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type PlanningRisico binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Planning Risico"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:risiconiveau ],
-            [ sh:minCount 1 ;
-                sh:path otl:toelichting ] .
 
     otl-patroon:Plant a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Plant binnen de context van informatieproduct csir-explain"@nl ;
@@ -4559,16 +4127,6 @@ otl:graaf-ib-csir-explain {
             [ sh:minCount 1 ;
                 sh:path otl:waarde ] .
 
-    otl-patroon:PreventiefOnderhoud a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type PreventiefOnderhoud binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Preventief Onderhoud"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
     otl-patroon:Procesbassin a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Procesbassin binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Procesbassin"@nl ;
@@ -4580,24 +4138,6 @@ otl:graaf-ib-csir-explain {
         sh:name "Productmanager"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:naam ] .
-
-    otl-patroon:ProjectBeheersmaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type ProjectBeheersmaatregel binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Project Beheersmaatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
-    otl-patroon:ProjectRisico a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type ProjectRisico binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Projectrisico"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:risiconiveau ],
-            [ sh:minCount 1 ;
-                sh:path otl:toelichting ] .
 
     otl-patroon:Puntbeluchter a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Puntbeluchter binnen de context van informatieproduct csir-explain"@nl ;
@@ -4773,18 +4313,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:naam ] .
 
-    otl-patroon:Regiopiket a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Regiopiket binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Regiopiket"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
-    otl-patroon:RegisseurCrisiscommunicatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type RegisseurCrisiscommunicatie binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Regisseur crisiscommunicatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
     otl-patroon:Reling a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Reling binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Reling"@nl ;
@@ -4839,14 +4367,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Risico a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Risico binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Risico"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:risiconiveau ],
-            [ sh:minCount 1 ;
-                sh:path otl:toelichting ] .
-
     otl-patroon:Risicomatrix a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Risicomatrix binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Risicomatrix"@nl ;
@@ -4856,12 +4376,6 @@ otl:graaf-ib-csir-explain {
                 sh:path otl:kansscore ],
             [ sh:minCount 1 ;
                 sh:path otl:risiconiveau ] .
-
-    otl-patroon:Rivier a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rivier binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Rivier"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
 
     otl-patroon:Rivierhout a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Rivierhout binnen de context van informatieproduct csir-explain"@nl ;
@@ -4971,17 +4485,15 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:RuimtelijkRisico a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type RuimtelijkRisico binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Ruimtelijk Risico"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:risiconiveau ],
-            [ sh:minCount 1 ;
-                sh:path otl:toelichting ] .
-
     otl-patroon:SCADA a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type SCADA binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "SCADA"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Samenstelling a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Samenstelling binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Samenstelling"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -5129,16 +4641,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Schouw a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schouw binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Schouw"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
     otl-patroon:Schraalgrasland a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Schraalgrasland binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Schraalgrasland"@nl ;
@@ -5198,12 +4700,6 @@ otl:graaf-ib-csir-explain {
                 sh:path otl:naam ],
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Secretaris a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Secretaris binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Secretaris"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
 
     otl-patroon:Sensor a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sensor binnen de context van informatieproduct csir-explain"@nl ;
@@ -5317,6 +4813,18 @@ otl:graaf-ib-csir-explain {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Slufter binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Slufter"@nl ;
         sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Sluis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sluis binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Sluis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:cyberclassificatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:cybersecurityWeerstandsniveau ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
     otl-patroon:Sluisdeur a sh:NodeShape ;
@@ -5481,26 +4989,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:StandaardVeiligheidsmaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type StandaardVeiligheidsmaatregel binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Standaard Veiligheidsmaatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
-    otl-patroon:StandaardVerzorgendOnderhoud a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type StandaardVerzorgendOnderhoud binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Standaard Verzorgend Onderhoud"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
     otl-patroon:Stankscherm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stankscherm binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Stankscherm"@nl ;
@@ -5567,32 +5055,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:StorendeFactor a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type StorendeFactor binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Storende Factor"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:beschikbaarheidsscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:beveiligingsscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:gezondheidsscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:Imagoscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:kostenscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:omgevingMilieuscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:onderhoudbaarheidsscore ],
-            [ sh:minCount 1 ;
-                sh:path otl:veiligheidsscore ] .
-
-    otl-patroon:Storing a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Storing binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Storing"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Stormvloedkering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Stormvloedkering binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Stormvloedkering"@nl ;
@@ -5634,18 +5096,6 @@ otl:graaf-ib-csir-explain {
         sh:name "Strandhoofd"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:StrategischAdviseurCrisisbeheersing a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type StrategischAdviseurCrisisbeheersing binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Strategisch adviseur crisisbeheersing"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
-    otl-patroon:StrategischAdviseurCrisiscommunicatie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type StrategischAdviseurCrisiscommunicatie binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Strategisch adviseur crisiscommunicatie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
 
     otl-patroon:Strekdam a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Strekdam binnen de context van informatieproduct csir-explain"@nl ;
@@ -5731,14 +5181,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Systeemeis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Systeemeis binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Systeemeis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Taats a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Taats binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Taats"@nl ;
@@ -5810,20 +5252,6 @@ otl:graaf-ib-csir-explain {
         sh:name "Tankconstructie"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:TechnischRisico a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type TechnischRisico binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Technisch Risico"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:risiconiveau ],
-            [ sh:minCount 1 ;
-                sh:path otl:toelichting ] .
-
-    otl-patroon:TechnischVoorzitter a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type TechnischVoorzitter binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Technisch voorzitter"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
 
     otl-patroon:TechnischeFunctie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type TechnischeFunctie binnen de context van informatieproduct csir-explain"@nl ;
@@ -5919,15 +5347,11 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Toestandsinspectie a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toestandsinspectie binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Toestandsinspectie"@nl ;
+    otl-patroon:Toeritdoseringscentrale a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toeritdoseringscentrale binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Toeritdoseringscentrale"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Toilet a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Toilet binnen de context van informatieproduct csir-explain"@nl ;
@@ -6199,31 +5623,11 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VeiligheidBeheersmaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VeiligheidBeheersmaatregel binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Veiligheid Beheersmaatregel"@nl ;
+    otl-patroon:Vegetatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vegetatie binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Vegetatie"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
-    otl-patroon:VeiligheidRisico a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VeiligheidRisico binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Veiligheidsrisico"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:risiconiveau ],
-            [ sh:minCount 1 ;
-                sh:path otl:toelichting ] .
-
-    otl-patroon:VeiligheidRisicoProject a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VeiligheidRisicoProject binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Veiligheid Risico Project"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:risiconiveau ],
-            [ sh:minCount 1 ;
-                sh:path otl:toelichting ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Veiligheidsventiel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Veiligheidsventiel binnen de context van informatieproduct csir-explain"@nl ;
@@ -6267,19 +5671,9 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Verbetervoorstel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verbetervoorstel binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Verbetervoorstel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
-    otl-patroon:Verbinding a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verbinding binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Verbinding"@nl ;
+    otl-patroon:VerbindingElektrisch a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VerbindingElektrisch binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Verbinding (elektrisch)"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
@@ -6301,11 +5695,11 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Vergunningsrol a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vergunningsrol binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Vergunningsrol"@nl ;
+    otl-patroon:Verharding a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verharding binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Verharding"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:omschrijving ] .
 
     otl-patroon:VerhardingWegtype1-Hoofdwegennet a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VerhardingWegtype1-Hoofdwegennet binnen de context van informatieproduct csir-explain"@nl ;
@@ -6349,6 +5743,12 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Verhardingslaag a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verhardingslaag binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Verhardingslaag"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Verkeersbord a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersbord binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Verkeersbord"@nl ;
@@ -6383,16 +5783,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Verkeersmaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersmaatregel binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Verkeersmaatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
     otl-patroon:Verkeersregelinstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeersregelinstallatie binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Verkeersregelinstallatie"@nl ;
@@ -6423,27 +5813,11 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Verstrekker a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verstrekker binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Verstrekker"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ] .
-
     otl-patroon:VerticaalVakwerkligger a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VerticaalVakwerkligger binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Verticaal vakwerkligger"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:Vervuilingsmaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Vervuilingsmaatregel binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Vervuilingsmaatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
 
     otl-patroon:Verwarmingstoestel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verwarmingstoestel binnen de context van informatieproduct csir-explain"@nl ;
@@ -6667,16 +6041,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:VoorzieneNietBeschikbaarheidEis a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VoorzieneNietBeschikbaarheidEis binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "VoorzieneNietBeschikbaarheid Eis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:waarde ] .
-
     otl-patroon:VoorzieningenHulpdiensten a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type VoorzieningenHulpdiensten binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Voorzieningen hulpdiensten"@nl ;
@@ -6761,18 +6125,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:WaterEnWatergangLijnvormig a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type WaterEnWatergangLijnvormig binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Water en watergang lijnvormig"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
-    otl-patroon:WaterEnWatergangNietLijnvormig a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type WaterEnWatergangNietLijnvormig binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Water en watergang niet lijnvormig"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Waterbodem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Waterbodem binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Waterbodem"@nl ;
@@ -6839,6 +6191,12 @@ otl:graaf-ib-csir-explain {
             [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
+    otl-patroon:Wegconstructie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wegconstructie binnen de context van informatieproduct csir-explain"@nl ;
+        sh:name "Wegconstructie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
     otl-patroon:Wegkantsysteem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Wegkantsysteem binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Wegkantsysteem"@nl ;
@@ -6875,16 +6233,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:WerkplekMaatregel a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type WerkplekMaatregel binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Werkplek Maatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            [ sh:minCount 1 ;
-                sh:path otl:status ] .
-
     otl-patroon:Werpaccommodatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Werpaccommodatie binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Werpaccommodatie"@nl ;
@@ -6896,14 +6244,6 @@ otl:graaf-ib-csir-explain {
         sh:name "Wervelventiel"@nl ;
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
-
-    otl-patroon:WettelijkRisico a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type WettelijkRisico binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Wettelijk Risico"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:risiconiveau ],
-            [ sh:minCount 1 ;
-                sh:path otl:toelichting ] .
 
     otl-patroon:WideAreaNetwork a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type WideAreaNetwork binnen de context van informatieproduct csir-explain"@nl ;
@@ -7019,12 +6359,6 @@ otl:graaf-ib-csir-explain {
         sh:property [ sh:minCount 1 ;
                 sh:path otl:omschrijving ] .
 
-    otl-patroon:Zee a sh:NodeShape ;
-        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zee binnen de context van informatieproduct csir-explain"@nl ;
-        sh:name "Zee"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
-
     otl-patroon:Zeestrand a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Zeestrand binnen de context van informatieproduct csir-explain"@nl ;
         sh:name "Zeestrand"@nl ;
@@ -7098,11 +6432,11 @@ otl:graaf-ib-csir-explain {
                 sh:path otl:omschrijving ] .
 
     otl:graaf-ib-csir-explain a owl:Ontology ;
-        dct:created "2023-11-28"^^xsd:date ;
+        dct:created "2024-01-17"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'csir-explain' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'csir-explain'"@nl ;
-        pav:derivedFrom "IB RWS Prerelease 2023-10-25 13:31" ;
-        pav:version "Prerelease 2023-10-25 13:31" ;
+        pav:derivedFrom "IB RWS Release 25.1" ;
+        pav:version "Release 25.1" ;
         owl:imports pav:,
             otl:graaf-informatiemodel .
 }
