@@ -474,7 +474,7 @@ otl:graaf-ib-nwsp-soll {
                 sh:path otl:omschrijving ] .
 
     otl:graaf-ib-nwsp-soll a owl:Ontology ;
-        dct:created "2023-11-24"^^xsd:date ;
+        dct:created "2024-01-17"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'nwsp-soll' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'nwsp-soll'"@nl ;
         pav:derivedFrom "IB RWS Release 25.1" ;

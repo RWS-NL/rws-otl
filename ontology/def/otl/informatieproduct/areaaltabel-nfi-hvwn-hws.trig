@@ -27,7 +27,7 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type BebordingEnBewegwijzering binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Bebording en bewegwijzering"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:operationeleStatus ],
+                sh:path otl:status ],
             [ sh:minCount 1 ;
                 sh:path otl:type ] .
 
@@ -197,6 +197,14 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
             [ sh:minCount 1 ;
                 sh:path otl:topcode ] .
 
+    otl-patroon:Kunstwerk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Kunstwerk binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Kunstwerk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
     otl-patroon:Meer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Meer binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Meer"@nl ;
@@ -257,6 +265,14 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
             [ sh:minCount 1 ;
                 sh:path otl:topcode ] .
 
+    otl-patroon:Sluis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Sluis binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Sluis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
     otl-patroon:Spuisluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Spuisluis binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Spuisluis"@nl ;
@@ -299,7 +315,7 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van asset type Verkeerscentrale binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Verkeerscentrale"@nl ;
         sh:property [ sh:minCount 1 ;
-                sh:path otl:operationeleStatus ],
+                sh:path otl:status ],
             [ sh:minCount 1 ;
                 sh:path otl:type ],
             [ sh:minCount 1 ;
@@ -350,11 +366,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
                 sh:path otl:vaarwegtype ] .
 
     otl:graaf-ib-areaaltabel-nfi-hvwn-hws a owl:Ontology ;
-        dct:created "2023-11-28"^^xsd:date ;
+        dct:created "2024-01-17"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'areaaltabel-nfi-hvwn-hws' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'areaaltabel-nfi-hvwn-hws'"@nl ;
-        pav:derivedFrom "IB RWS Prerelease 2023-10-25 13:31" ;
-        pav:version "Prerelease 2023-10-25 13:31" ;
+        pav:derivedFrom "IB RWS Release 25.1" ;
+        pav:version "Release 25.1" ;
         owl:imports pav:,
             otl:graaf-informatiemodel .
 }
