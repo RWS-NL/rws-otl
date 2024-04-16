@@ -1,0 +1,423 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix graaf: <https://data.rws.nl/def/nen-2767-4/1-5+1/> .
+@prefix nen-2767-4: <https://data.rws.nl/def/nen-2767-4/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+graaf:graaf-patronenmodel {
+    nen-2767-4:BeheerobjectPatroon a sh:NodeShape ;
+        sh:closed true ;
+        sh:ignoredProperties ( rdf:type ) ;
+        sh:property nen-2767-4:BeheerobjectPatroon_identifier,
+            nen-2767-4:NodePatroon_broaderTransitive,
+            nen-2767-4:NodePatroon_prefLabel ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:prefixes skos:,
+                    nen-2767-4: ;
+                sh:select "select $this where {nen-2767-4:Beheerobjecten skos:member $this}" ] .
+
+    nen-2767-4:BelangPatroon a sh:NodeShape ;
+        sh:closed true ;
+        sh:ignoredProperties ( rdf:type ) ;
+        sh:property nen-2767-4:BelangPatroon_identifier,
+            nen-2767-4:BelangPatroon_weegFactor,
+            nen-2767-4:NodePatroon_prefLabel ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:prefixes skos:,
+                    nen-2767-4: ;
+                sh:select "select $this where {nen-2767-4:Belangen skos:member $this } " ] .
+
+    nen-2767-4:BouwdeelPatroon a sh:NodeShape ;
+        sh:closed true ;
+        sh:ignoredProperties ( rdf:type ) ;
+        sh:property nen-2767-4:BouwdeelPatroon_belang,
+            nen-2767-4:BouwdeelPatroon_identifier,
+            nen-2767-4:BouwdeelPatroon_kanOnderdeelZijnVan,
+            nen-2767-4:NodePatroon_broaderTransitive,
+            nen-2767-4:NodePatroon_prefLabel ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:prefixes skos:,
+                    nen-2767-4: ;
+                sh:select "select $this where {nen-2767-4:Bouwdelen skos:member $this }" ] .
+
+    nen-2767-4:EenheidPatroon a sh:NodeShape ;
+        sh:closed true ;
+        sh:ignoredProperties ( rdf:type ) ;
+        sh:property nen-2767-4:EenheidPatroon_afkorting,
+            nen-2767-4:EenheidPatroon_identifier,
+            nen-2767-4:NodePatroon_prefLabel ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:prefixes skos:,
+                    nen-2767-4: ;
+                sh:select "select $this where { nen-2767-4:Eenheden skos:member $this }" ] .
+
+    nen-2767-4:ElementPatroon a sh:NodeShape ;
+        sh:closed true ;
+        sh:ignoredProperties ( rdf:type ) ;
+        sh:property nen-2767-4:ElementPatroon_identifier,
+            nen-2767-4:ElementPatroon_kanOnderdeelZijnVan,
+            nen-2767-4:ElementPatroon_kanVoorkomenBij,
+            nen-2767-4:NodePatroon_broaderTransitive,
+            nen-2767-4:NodePatroon_prefLabel ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:prefixes skos:,
+                    nen-2767-4: ;
+                sh:select "select $this where {nen-2767-4:Elementen skos:member $this }" ] .
+
+    nen-2767-4:GebrekPatroon a sh:NodeShape ;
+        sh:closed true ;
+        sh:ignoredProperties ( rdf:type ) ;
+        sh:property nen-2767-4:GebrekPatroon_eenheid,
+            nen-2767-4:GebrekPatroon_gebrekType,
+            nen-2767-4:GebrekPatroon_gebrekgroep,
+            nen-2767-4:GebrekPatroon_gebreksoort,
+            nen-2767-4:GebrekPatroon_identifier,
+            nen-2767-4:GebrekPatroon_intensiteit,
+            nen-2767-4:GebrekPatroon_kanVoorkomenBij,
+            nen-2767-4:NodePatroon_description,
+            nen-2767-4:NodePatroon_prefLabel ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:prefixes skos:,
+                    nen-2767-4: ;
+                sh:select "select $this where {nen-2767-4:Gebreken skos:member $this }" ] .
+
+    nen-2767-4:GebrekgroepPatroon a sh:NodeShape ;
+        sh:closed true ;
+        sh:ignoredProperties ( rdf:type ) ;
+        sh:property nen-2767-4:GebrekgroepPatroon_identifier,
+            nen-2767-4:NodePatroon_prefLabel ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:prefixes skos:,
+                    nen-2767-4: ;
+                sh:select "select $this where {nen-2767-4:Gebrekgroepen skos:member $this }" ] .
+
+    nen-2767-4:GebreksoortPatroon a sh:NodeShape ;
+        sh:closed true ;
+        sh:ignoredProperties ( rdf:type ) ;
+        sh:property nen-2767-4:GebreksoortPatroon_afkorting,
+            nen-2767-4:GebreksoortPatroon_gebreksoortBelang,
+            nen-2767-4:GebreksoortPatroon_identifier,
+            nen-2767-4:NodePatroon_description,
+            nen-2767-4:NodePatroon_prefLabel ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:prefixes skos:,
+                    nen-2767-4: ;
+                sh:select "select $this where {nen-2767-4:Gebreksoorten skos:member $this }" ] .
+
+    nen-2767-4:MateriaalsoortPatroon a sh:NodeShape ;
+        sh:closed true ;
+        sh:ignoredProperties ( rdf:type ) ;
+        sh:property nen-2767-4:MateriaalsoortPatroon_identifier,
+            nen-2767-4:MateriaalsoortPatroon_kanVoorkomenBij,
+            nen-2767-4:NodePatroon_prefLabel ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:prefixes skos:,
+                    nen-2767-4: ;
+                sh:select "select $this where {nen-2767-4:Materiaalsoorten skos:member $this }" ] .
+
+    nen-2767-4:VakdisciplinePatroon a sh:NodeShape ;
+        sh:closed true ;
+        sh:ignoredProperties ( rdf:type ) ;
+        sh:property nen-2767-4:NodePatroon_prefLabel,
+            nen-2767-4:VakdisciplinePatroon_identifier ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:prefixes skos:,
+                    nen-2767-4: ;
+                sh:select "select $this where {nen-2767-4:Vakdisciplines skos:member $this }" ] .
+
+    nen-2767-4:BeheerobjectPatroon_identifier a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "De code waarmee het concept binnen deze standaard wordt geïdentificeerd.  De correspondentiecode van een beheerobject is opgebouwd uit twee letters."@nl ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:minLength 1 ;
+        sh:name "heeft identificatie"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:identifier ;
+        sh:pattern "[A-Z]{2}" .
+
+    nen-2767-4:BelangPatroon_identifier a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "De code waarmee het concept binnen deze standaard wordt geïdentificeerd.  De code van een belang bestaat uit één cijfer."@nl ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:minLength 1 ;
+        sh:name "heeft identificatie"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:identifier ;
+        sh:pattern "[0-9]{1}" .
+
+    nen-2767-4:BelangPatroon_weegFactor a sh:PropertyShape ;
+        sh:description "Een belang kan een weegfactor hebben."@nl ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path nen-2767-4:weegFactor ;
+        sh:pattern "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN" .
+
+    nen-2767-4:BouwdeelPatroon_belang a sh:PropertyShape ;
+        sh:description "De mate waarin een bouwdeel van belang is."@nl ;
+        sh:in ( nen-2767-4:Belang_Laag nen-2767-4:Belang_Gemiddeld nen-2767-4:Belang_Hoog ) ;
+        sh:maxCount 1 ;
+        sh:path nen-2767-4:belang .
+
+    nen-2767-4:BouwdeelPatroon_identifier a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "De code waarmee het concept binnen deze standaard wordt geïdentificeerd.  De correspondentiecode van een bouwdeel is opgebouwd uit vier cijfers"@nl ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:minLength 1 ;
+        sh:name "heeft identificatie"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:identifier ;
+        sh:pattern "[0-9]{4}" .
+
+    nen-2767-4:BouwdeelPatroon_kanOnderdeelZijnVan a sh:PropertyShape ;
+        sh:description "Een bouwdeel kan onderdeel zijn van één of meer elementen."@nl ;
+        sh:path nen-2767-4:kanOnderdeelZijnVan ;
+        sh:sparql [ a sh:SPARQLConstraint ;
+                sh:message "Waardes moeten onderdeel zijn van de Element collectie." ;
+                sh:prefixes skos:,
+                    nen-2767-4: ;
+                sh:select """\r
+            SELECT $this ?value\r
+            WHERE {\r
+                $this $PATH ?value .\r
+                FILTER NOT EXISTS {\r
+                    nen-2767-4:Elementen skos:member ?value .\r
+                }\r
+            }\r
+            """ ] .
+
+    nen-2767-4:EenheidPatroon_afkorting a sh:PropertyShape ;
+        sh:description "Een eenheid kan een afkorting hebben."@nl ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path nen-2767-4:afkorting .
+
+    nen-2767-4:EenheidPatroon_identifier a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "De code waarmee het concept binnen deze standaard wordt geïdentificeerd.  De code van een eenheid bestaat uit cijfers."@nl ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:minLength 1 ;
+        sh:name "heeft identificatie"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:identifier ;
+        sh:pattern "[0-9]+" .
+
+    nen-2767-4:ElementPatroon_identifier a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "De code waarmee het concept binnen deze standaard wordt geïdentificeerd.  De correspondentiecode van een element is opgebouwd uit drie cijfers."@nl ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:minLength 1 ;
+        sh:name "heeft identificatie"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:identifier ;
+        sh:pattern "[0-9]{3}" .
+
+    nen-2767-4:ElementPatroon_kanOnderdeelZijnVan a sh:PropertyShape ;
+        sh:description "Een element kan onderdeel zijn van een of meer beheerobjecten."@nl ;
+        sh:path nen-2767-4:kanOnderdeelZijnVan ;
+        sh:sparql [ a sh:SPARQLConstraint ;
+                sh:message "Waardes moeten onderdeel zijn van de Beheerobject collectie." ;
+                sh:prefixes skos:,
+                    nen-2767-4: ;
+                sh:select """\r
+                SELECT $this ?value\r
+                WHERE {\r
+                    $this $PATH ?value .\r
+                    FILTER NOT EXISTS {\r
+                        nen-2767-4:Beheerobjecten skos:member ?value .\r
+                    }\r
+                }\r
+                """ ] .
+
+    nen-2767-4:ElementPatroon_kanVoorkomenBij a sh:PropertyShape ;
+        sh:description "Een element kan voorkomen bij nul of meer vakdisciplines."@nl ;
+        sh:path nen-2767-4:kanVoorkomenBij ;
+        sh:sparql [ a sh:SPARQLConstraint ;
+                sh:message "Waardes moeten onderdeel zijn van de Vakdiscipline collectie." ;
+                sh:prefixes skos:,
+                    nen-2767-4: ;
+                sh:select """\r
+            SELECT $this ?value\r
+            WHERE {\r
+                $this $PATH ?value .\r
+                FILTER NOT EXISTS {\r
+                    nen-2767-4:Vakdisciplines skos:member ?value .\r
+                }\r
+            }\r
+            """ ] .
+
+    nen-2767-4:GebrekPatroon_eenheid a sh:PropertyShape ;
+        sh:in ( nen-2767-4:Eenheid_1 nen-2767-4:Eenheid_2 nen-2767-4:Eenheid_3 nen-2767-4:Eenheid_4 nen-2767-4:Eenheid_5 ) ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path nen-2767-4:eenheid .
+
+    nen-2767-4:GebrekPatroon_gebrekType a sh:PropertyShape ;
+        sh:datatype rdf:langString ;
+        sh:description "Een gebrek kan een type hebben."@nl ;
+        sh:languageIn ( "nl" ) ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path nen-2767-4:gebrekType ;
+        sh:uniqueLang true .
+
+    nen-2767-4:GebrekPatroon_gebrekgroep a sh:PropertyShape ;
+        sh:in ( nen-2767-4:Gebrekgroep_1 nen-2767-4:Gebrekgroep_2 nen-2767-4:Gebrekgroep_3 nen-2767-4:Gebrekgroep_4 nen-2767-4:Gebrekgroep_5 nen-2767-4:Gebrekgroep_6 nen-2767-4:Gebrekgroep_7 nen-2767-4:Gebrekgroep_8 nen-2767-4:Gebrekgroep_9 nen-2767-4:Gebrekgroep_10 nen-2767-4:Gebrekgroep_11 nen-2767-4:Gebrekgroep_12 nen-2767-4:Gebrekgroep_13 nen-2767-4:Gebrekgroep_14 nen-2767-4:Gebrekgroep_15 nen-2767-4:Gebrekgroep_16 ) ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path nen-2767-4:gebrekgroep .
+
+    nen-2767-4:GebrekPatroon_gebreksoort a sh:PropertyShape ;
+        sh:in ( nen-2767-4:Gebreksoort_1 nen-2767-4:Gebreksoort_2 nen-2767-4:Gebreksoort_3 nen-2767-4:Gebreksoort_4 nen-2767-4:Gebreksoort_5 nen-2767-4:Gebreksoort_6 nen-2767-4:Gebreksoort_7 nen-2767-4:Gebreksoort_8 nen-2767-4:Gebreksoort_9 nen-2767-4:Gebreksoort_10 nen-2767-4:Gebreksoort_11 nen-2767-4:Gebreksoort_12 ) ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path nen-2767-4:gebreksoort .
+
+    nen-2767-4:GebrekPatroon_identifier a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "De code waarmee het concept binnen deze standaard wordt geïdentificeerd.  De correspondentiecode van een gebrek is opgebouwd uit 'G-' en vervolgens drie cijfers."@nl ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:minLength 1 ;
+        sh:name "heeft identificatie"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:identifier ;
+        sh:pattern "^[G][-][0-9]{3}" .
+
+    nen-2767-4:GebrekPatroon_intensiteit a sh:PropertyShape ;
+        sh:datatype rdf:langString ;
+        sh:description "Een gebrek kan een intensiteit hebben."@nl ;
+        sh:languageIn ( "nl" ) ;
+        sh:maxCount 1 ;
+        sh:path nen-2767-4:intensiteit ;
+        sh:uniqueLang true .
+
+    nen-2767-4:GebrekPatroon_kanVoorkomenBij a sh:PropertyShape ;
+        sh:description "Een gebrek kan voorkomen bij van nul of meer materiaalsoorten."@nl ;
+        sh:path nen-2767-4:kanVoorkomenBij ;
+        sh:sparql [ a sh:SPARQLConstraint ;
+                sh:message "Waardes moeten onderdeel zijn van de Materiaalsoort collectie." ;
+                sh:prefixes skos:,
+                    nen-2767-4: ;
+                sh:select """\r
+            SELECT $this ?value\r
+            WHERE {\r
+                $this $PATH ?value .\r
+                FILTER NOT EXISTS {\r
+                    nen-2767-4:Materiaalsoorten skos:member ?value .\r
+                }\r
+            }\r
+            """ ] .
+
+    nen-2767-4:GebrekgroepPatroon_identifier a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "De code waarmee het concept binnen deze standaard wordt geïdentificeerd. De code van een gebrekgroep bestaat uit één tot twee cijfers."@nl ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:minLength 1 ;
+        sh:name "heeft identificatie"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:identifier ;
+        sh:pattern "[0-9]{1,2}" .
+
+    nen-2767-4:GebreksoortPatroon_afkorting a sh:PropertyShape ;
+        sh:datatype rdf:langString ;
+        sh:description "Een gebreksoort kan een afkorting hebben."@nl ;
+        sh:languageIn ( "nl" ) ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path nen-2767-4:afkorting ;
+        sh:uniqueLang true .
+
+    nen-2767-4:GebreksoortPatroon_gebreksoortBelang a sh:PropertyShape ;
+        sh:datatype rdf:langString ;
+        sh:description "Een gebreksoort kan een belang hebben."@nl ;
+        sh:languageIn ( "nl" ) ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path nen-2767-4:gebreksoortBelang ;
+        sh:uniqueLang true .
+
+    nen-2767-4:GebreksoortPatroon_identifier a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "De code waarmee het concept binnen deze standaard wordt geïdentificeerd.  De code van een gebreksoort bestaat uit één of twee cijfers."@nl ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:minLength 1 ;
+        sh:name "heeft identificatie"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:identifier ;
+        sh:pattern "[0-9]{1,2}" .
+
+    nen-2767-4:MateriaalsoortPatroon_identifier a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "De code waarmee het concept binnen deze standaard wordt geïdentificeerd.  De correspondentiecode van een materiaalsoort is opgebouwd uit een tot drie cijfers."@nl ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:minLength 1 ;
+        sh:name "heeft identificatie"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:identifier ;
+        sh:pattern "[0-9]{1,3}" .
+
+    nen-2767-4:MateriaalsoortPatroon_kanVoorkomenBij a sh:PropertyShape ;
+        sh:description "Een materiaalsoort kan voorkomen bij nul of meer bouwdelen."@nl ;
+        sh:path nen-2767-4:kanVoorkomenBij ;
+        sh:sparql [ a sh:SPARQLConstraint ;
+                sh:message "Waardes moeten onderdeel zijn van de Bouwdeel collectie." ;
+                sh:prefixes skos:,
+                    nen-2767-4: ;
+                sh:select """\r
+                SELECT $this ?value\r
+                WHERE {\r
+                    $this $PATH ?value .\r
+                    FILTER NOT EXISTS {\r
+                        nen-2767-4:Bouwdelen skos:member ?value .\r
+                    }\r
+                }\r
+                """ ] .
+
+    nen-2767-4:VakdisciplinePatroon_identifier a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "De code waarmee het concept binnen deze standaard wordt geïdentificeerd.  De code van een vakdiscipline is opgebouwd uit twee letters."@nl ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:minLength 1 ;
+        sh:name "heeft identificatie"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:identifier ;
+        sh:pattern "[A-Z]{2}" .
+
+    nen-2767-4:NodePatroon_description a sh:PropertyShape ;
+        sh:datatype rdf:langString ;
+        sh:description "De menselijk-leesbare beschrijving van het concept (Dublin Core)."@nl ;
+        sh:languageIn ( "nl" ) ;
+        sh:maxCount 1 ;
+        sh:name "heeft omschrijving"@nl ;
+        sh:path dct:description ;
+        sh:uniqueLang true .
+
+    nen-2767-4:NodePatroon_broaderTransitive a sh:PropertyShape ;
+        sh:description "Het generieke object waar het concept toe behoort."@nl ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:name "heeft generiek object"@nl ;
+        sh:path skos:broaderTransitive .
+
+    nen-2767-4:NodePatroon_prefLabel a sh:PropertyShape ;
+        sh:datatype rdf:langString ;
+        sh:description "De menselijk-leesbare naam van het concept."@nl ;
+        sh:languageIn ( "nl" ) ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:name "heeft voorkeurslabel"@nl ;
+        sh:path skos:prefLabel ;
+        sh:uniqueLang true .
+}
+

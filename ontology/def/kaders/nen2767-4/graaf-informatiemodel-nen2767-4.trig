@@ -1,0 +1,77 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix graaf: <https://data.rws.nl/def/nen-2767-4/> .
+@prefix nen2660-term: <https://w3id.org/nen2660/term#> .
+@prefix nen-2767-4: <https://data.rws.nl/def/nen-2767-4/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+graaf:graaf-informatiemodel {
+    nen-2767-4:BeheerobjectPatroon a sh:NodeShape ;
+        sh:property nen-2767-4:BeheerobjectPatroonEigenschap ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select "select $this where {$this <http://purl.org/dc/terms/subject>/<http://purl.org/dc/terms/conformsTo>/^<http://www.w3.org/2004/02/skos/core#member> <https://data.rws.nl/def/nen-2767-4/Beheerobjecten> .}" ] .
+
+    nen-2767-4:BouwdeelPatroon a sh:NodeShape ;
+        sh:property nen-2767-4:BouwdeelPatroonInverseHasPart ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select "select $this where {$this <http://purl.org/dc/terms/subject>/<http://purl.org/dc/terms/conformsTo>/^<http://www.w3.org/2004/02/skos/core#member> <https://data.rws.nl/def/nen-2767-4/Bouwdelen> .}" ] .
+
+    nen-2767-4:ElementPatroon a sh:NodeShape ;
+        rdfs:isDefinedBy nen-2767-4: ;
+        sh:property nen-2767-4:ElementPatroonEigenschap,
+            nen-2767-4:ElementPatroonInverseHasPart ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select "select $this where {$this <http://purl.org/dc/terms/subject>/<http://purl.org/dc/terms/conformsTo>/^<http://www.w3.org/2004/02/skos/core#member> <https://data.rws.nl/def/nen-2767-4/Elementen> .}" ] .
+
+    nen-2767-4:TypischeDecompositieShape a sh:NodeShape ;
+        sh:message "Decompositierelatie voldoet niet aan typische decompositie" ;
+        sh:severity sh:Warning ;
+        sh:sparql nen-2767-4:typischeDecompositieQuery ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select "select $this where {$this <http://purl.org/dc/terms/subject>/<http://purl.org/dc/terms/conformsTo>/^<http://www.w3.org/2004/02/skos/core#member> ?nenConcept . VALUES ?nenConcept { <https://data.rws.nl/def/nen-2767-4/Beheerobjecten> <https://data.rws.nl/def/nen-2767-4/Elementen> }}" ] .
+
+    nen-2767-4:BeheerobjectPatroonEigenschap a sh:PropertyShape ;
+        sh:in ( nen-2767-4:Elementen ) ;
+        sh:message "Onderdelen van Beheerobjecten moeten Elementen zijn"@nl ;
+        sh:name "heeft onderdeel"@nl ;
+        sh:path ( nen2660-term:hasPart dct:subject dct:conformsTo [ sh:inversePath skos:member ] ) ;
+        sh:severity sh:Violation .
+
+    nen-2767-4:BouwdeelPatroonInverseHasPart a sh:PropertyShape ;
+        sh:hasValue nen-2767-4:Elementen ;
+        sh:message "Er moet een Element aanwezig zijn dat verwijst naar dit Bouwdeel" ;
+        sh:name "inkomende heeft onderdeel" ;
+        sh:path ( [ sh:inversePath nen2660-term:hasPart ] dct:subject dct:conformsTo [ sh:inversePath skos:member ] ) ;
+        sh:severity sh:Violation .
+
+    nen-2767-4:ElementPatroonEigenschap a sh:PropertyShape ;
+        sh:in ( nen-2767-4:Bouwdelen ) ;
+        sh:message "Onderdelen van Elementen moeten Bouwdelen zijn"@nl ;
+        sh:name "heeft onderdeel"@nl ;
+        sh:path ( nen2660-term:hasPart dct:subject dct:conformsTo [ sh:inversePath skos:member ] ) ;
+        sh:severity sh:Violation .
+
+    nen-2767-4:ElementPatroonInverseHasPart a sh:PropertyShape ;
+        sh:hasValue nen-2767-4:Beheerobjecten ;
+        sh:message "Er moet een Beheerobject aanwezig zijn dat verwijst naar dit Element" ;
+        sh:name "inkomende heeft onderdeel" ;
+        sh:path ( [ sh:inversePath nen2660-term:hasPart ] dct:subject dct:conformsTo [ sh:inversePath skos:member ] ) .
+
+    nen-2767-4:typischeDecompositieQuery sh:prefixes dct:,
+            nen-2767-4:,
+            nen2660-term: ;
+        sh:select """\r
+    SELECT $this (<https://w3id.org/nen2660/term#hasPart> AS ?path) (?part AS ?value)\r
+    WHERE {\r
+      $this <http://purl.org/dc/terms/subject>/<http://purl.org/dc/terms/conformsTo> ?targetClass ;\r
+        <https://w3id.org/nen2660/term#hasPart> ?part .\r
+      FILTER NOT EXISTS {\r
+        ?classAllowed <https://data.rws.nl/def/nen-2767-4/kanOnderdeelZijnVan> ?targetClass .\r
+        ?part <http://purl.org/dc/terms/subject>/<http://purl.org/dc/terms/conformsTo> ?classAllowed .\r
+      }\r
+    }\r
+  """ .
+}
+
