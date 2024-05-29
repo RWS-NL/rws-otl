@@ -1,4 +1,3 @@
-@prefix bs: <https://w3id.org/def/basicsemantics-owl#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix nen2660-term: <https://w3id.org/nen2660/term#> .
@@ -22,8 +21,13 @@ otl:graaf-kennismodel {
 
     otl:Aanbestedingsdossier-doc a skos:Concept ;
         skos:broaderTransitive otl:Dossier-doc ;
-        skos:definition "Stukken die door de aanbestedende dienst of het speciale-sectorbedrijf worden opgesteld of vermeld ter omschrijving of bepaling van onderdelen van de aanbesteding of de procedure"@nl ;
+        skos:definition "Stukken die door de aanbestedende dienst of het speciale-sectorbedrijf worden opgesteld of vermeld ter omschrijving of bepaling van onderdelen van de aanbesteding of de procedure."@nl ;
         skos:prefLabel "Aanbestedingsdossier"@nl .
+
+    otl:Aanbiedingsbrief-doc a skos:Concept ;
+        skos:broaderTransitive otl:Uncategorized-doc ;
+        skos:definition ""@nl ;
+        skos:prefLabel "Aanbiedingsbrief"@nl .
 
     otl:Aandrijving a skos:Concept ;
         skos:broaderTransitive otl:Onderdeel ;
@@ -62,13 +66,18 @@ otl:graaf-kennismodel {
 
     otl:Aanmaning-doc a skos:Concept ;
         skos:broaderTransitive otl:Opdracht-doc ;
-        skos:definition "Opdracht om tot betaling over te gaan of melding van ingebrekestelling"@nl ;
+        skos:definition "Opdracht om tot betaling over te gaan of melding van ingebrekestelling."@nl ;
         skos:prefLabel "Aanmaning"@nl .
 
     otl:Aanrijbalk a skos:Concept ;
         skos:broaderTransitive otl:AanvullendeVoorziening ;
         skos:definition "Balkvormige aanrijbescherming boven de weg voor het beschermen van constructies tegen de aanrijding van een voertuig."@nl ;
         skos:prefLabel "Aanrijbalk"@nl .
+
+    otl:Aanrijplan-doc a skos:Concept ;
+        skos:broaderTransitive otl:Plan-doc ;
+        skos:definition "Beschrijving van de wijze waarop een locatie met een voertuig bereikt kan worden."@nl ;
+        skos:prefLabel "Aanrijplan"@nl .
 
     otl:Aanslag a skos:Concept ;
         skos:broaderTransitive otl:Onderdeel ;
@@ -105,11 +114,6 @@ otl:graaf-kennismodel {
         skos:definition "De persoon die de vergunning aanvraagt."@nl ;
         skos:prefLabel "Aanvrager"@nl .
 
-    otl:Aanzichttekening-doc a skos:Concept ;
-        skos:broaderTransitive otl:RuimtelijkeIndeling-doc ;
-        skos:definition "Een tekening waarop de indeling van (de voorzijde of het binnenwerk van) een elektrische-apparatenkast wordt weergegeven. (WP)"@nl ;
-        skos:prefLabel "Aanzichttekening"@nl .
-
     otl:Aardelektrode a skos:Concept ;
         skos:broaderTransitive otl:Onderdeel ;
         skos:definition "Koperen staaf of buis voor het geleiden van elektrische energie naar de aarde"@nl ;
@@ -119,6 +123,11 @@ otl:graaf-kennismodel {
         skos:broaderTransitive otl:Installatie ;
         skos:definition "Installatie voor het beschermen van gebouwen en kunstwerken tegen de gevolgen van blikseminslag en het beveiligen van mens en dier bij aardstroomfouten"@nl ;
         skos:prefLabel "Aarding- en bliksembeveiligingsinstallatie"@nl .
+
+    otl:Aardingbeveiligingstekening-doc a skos:Concept ;
+        skos:broaderTransitive otl:Configuratieschema-doc ;
+        skos:definition "Schematische tekening t.b.v. signaalbeveiliging (aarding en bliksembeveiliging)."@nl ;
+        skos:prefLabel "Aardingbeveiligingstekening"@nl .
 
     otl:Aardingssysteemtekening-doc a skos:Concept ;
         skos:broaderTransitive otl:Samenhang-doc ;
@@ -240,6 +249,11 @@ otl:graaf-kennismodel {
         skos:definition "Meestal lineaire constructie bedoeld als een obstakel om twee gebieden van elkaar te scheiden."@nl ;
         skos:prefLabel "Afscheiding"@nl .
 
+    otl:Afschermingsplan-doc a skos:Concept ;
+        skos:broaderTransitive otl:Plan-doc ;
+        skos:definition "Beschrijving van de gekozen of bestaande route-,  terrein of andere afschermingen (machine- of component afschermingen). Risico's, bevindingen en advies omtrent afschermen; deelinstall. ,hekwerken, omheiningen, terrein beveiligingen. "@nl ;
+        skos:prefLabel "Afschermingsplan"@nl .
+
     otl:Afslagzone a skos:Concept ;
         skos:broaderTransitive otl:Hoofdconstructie ;
         skos:definition "Deel van het duin waar afslag mag optreden."@nl ;
@@ -279,6 +293,11 @@ otl:graaf-kennismodel {
         skos:broaderTransitive otl:Ongeclassificeerd ;
         skos:definition "Constructiedeel dat water afvoert."@nl ;
         skos:prefLabel "Afvoer"@nl .
+
+    otl:Afwegingsmatrix-doc a skos:Concept ;
+        skos:broaderTransitive otl:Uncategorized-doc ;
+        skos:definition "Tabel om varianten onderling te vergelijken om zorgvuldig een afgewogen keuze te kunnen maken. (bron: Uitvoeren variantenanalyse)"@nl ;
+        skos:prefLabel "Afwegingsmatrix"@nl .
 
     otl:Agenda-doc a skos:Concept ;
         skos:broaderTransitive otl:Planning-doc ;
@@ -337,7 +356,7 @@ otl:graaf-kennismodel {
 
     otl:ApplicatieEnBesturingssoftwareBediening-doc a skos:Concept ;
         skos:broaderTransitive otl:Gebruiksaanwijzing-doc ;
-        skos:definition "?"@nl ;
+        skos:definition "Gebruiksaanwijzing voor de bediening van een applicatie, machine of apparaat."@nl ;
         skos:prefLabel "Applicatie- en besturingssoftware bediening"@nl .
 
     otl:Applicatiebeheerder a skos:Concept ;
@@ -451,7 +470,7 @@ otl:graaf-kennismodel {
         skos:prefLabel "Atletiekbaan"@nl .
 
     otl:BPSlocatie a rdf:Property ;
-        skos:definition "Locatie volgens Beschrijvende Plaatsaanduiding Systematiek (BPS)"@nl ;
+        skos:definition "Locatie (positie of punt in de ruimte) volgens de Beschrijvende Plaatsaanduiding Systematiek (BPS)."@nl ;
         skos:prefLabel "BPS-locatie"@nl .
 
     otl:Baanjunctie a skos:Concept ;
@@ -589,6 +608,11 @@ otl:graaf-kennismodel {
         skos:definition "Natuurlijke, smalle en ondiepe waterloop zonder getij die vanuit een bron stroomafwaarts vloeit."@nl ;
         skos:prefLabel "Beek"@nl .
 
+    otl:Beeldenboek-doc a skos:Concept ;
+        skos:broaderTransitive otl:Handleiding-doc ;
+        skos:definition "Document waarin de presetstand van een camera vastgelegd is aan de hand van foto's."@nl ;
+        skos:prefLabel "Beeldenboek"@nl .
+
     otl:Beglazing a skos:Concept ;
         skos:broaderTransitive otl:Ongeclassificeerd ;
         skos:definition "Geheel dat wordt gevormd door alles wat te maken heeft met de bevestiging van glas. Hiertoe behoren de sponning, ruiten en bevestigings- en afdichtingsmaterialen"@nl ;
@@ -636,7 +660,7 @@ otl:graaf-kennismodel {
 
     otl:Beheerovereenkomst-doc a skos:Concept ;
         skos:broaderTransitive otl:Overeenkomst-doc ;
-        skos:definition "?"@nl ;
+        skos:definition "Overeenkomst waarin afspraken worden vastgelegd m.b.t. beheer."@nl ;
         skos:prefLabel "Beheerovereenkomst"@nl .
 
     otl:BeheersmaatregelRUPS a skos:Concept ;
@@ -708,6 +732,11 @@ otl:graaf-kennismodel {
         skos:broaderTransitive otl:Onderdeel ;
         skos:definition "Geheel van platen, bevestigd op het frame, van een keringschuif die het water keren"@nl ;
         skos:prefLabel "Beplating"@nl .
+
+    otl:BerekeningenMechanischeSubOnderdelen-doc a skos:Concept ;
+        skos:broaderTransitive otl:Berekeningsrapport-doc ;
+        skos:definition "Berekening van de mechanische eigenschappen van een onderdeel."@nl ;
+        skos:prefLabel "Berekeningen mechanische sub onderdelen"@nl .
 
     otl:Bergbezinkbassin a skos:Concept ;
         skos:broaderTransitive otl:AanvullendeVoorziening ;
@@ -811,7 +840,7 @@ otl:graaf-kennismodel {
 
     otl:Bestuursovereenkomst-doc a skos:Concept ;
         skos:broaderTransitive otl:Overeenkomst-doc ;
-        skos:definition "Bestuurlijke overeenkomst waarin wordt vastgelegd wie  verantwoordelijk is voor bepaalde (vervolg)stappen in een proces."@nl ;
+        skos:definition "Bestuurlijke overeenkomst waarin wordt vastgelegd wie verantwoordelijk is voor bepaalde (vervolg)stappen in een proces."@nl ;
         skos:prefLabel "Bestuursovereenkomst"@nl .
 
     otl:Betaalafspraak-doc a skos:Concept ;
@@ -821,7 +850,7 @@ otl:graaf-kennismodel {
 
     otl:Betaalopdracht-doc a skos:Concept ;
         skos:broaderTransitive otl:Opdracht-doc ;
-        skos:definition "Een betalingsopdracht is een reeks instructies die de rekeninghouder aan zijn financiële instelling geeft zodat deze kan overgaan tot het overmaken van geld van zijn rekening naar een persoon, bedrijf of instelling."@nl ;
+        skos:definition "Een reeks instructies die een rekeninghouder aan zijn financiële instelling geeft zodat deze kan overgaan tot het overmaken van geld van zijn rekening naar een persoon, bedrijf of instelling."@nl ;
         skos:prefLabel "Betaalopdracht"@nl .
 
     otl:Betonverharding a skos:Concept ;
@@ -904,6 +933,11 @@ otl:graaf-kennismodel {
         skos:definition "Muur van stukken materiaal die samen een waterkerende constructie vormen"@nl ;
         skos:prefLabel "Blokkenmuur"@nl .
 
+    otl:Blokkentestrapport-doc a skos:Concept ;
+        skos:broaderTransitive otl:ISATrapport-doc ;
+        skos:definition ""@nl ;
+        skos:prefLabel "Blokkentestrapport"@nl .
+
     otl:Bodem a skos:Concept ;
         skos:broaderTransitive otl:Hoofdconstructie ;
         skos:definition "Onderkant, ondergrond of bedding van waterwegen, watervlaktes en objecten."@nl ;
@@ -918,6 +952,11 @@ otl:graaf-kennismodel {
         skos:broaderTransitive otl:AanvullendeVoorziening ;
         skos:definition "Bedekking van de bodem middels stortsteen of zetsteen die erop gericht is de kwaliteit van de bodem te behouden"@nl ;
         skos:prefLabel "Bodembescherming"@nl .
+
+    otl:Bodemonderzoek-doc a skos:Concept ;
+        skos:broaderTransitive otl:Onderzoeksrapport-doc ;
+        skos:definition ""@nl ;
+        skos:prefLabel "Bodemonderzoek"@nl .
 
     otl:Bodemstabilisatie a skos:Concept ;
         skos:broaderTransitive otl:Ongeclassificeerd ;
@@ -984,6 +1023,11 @@ otl:graaf-kennismodel {
         skos:definition "Begroeid terreindeel met kruiden, struiken en een dusdanig aantal bomen dat deze min of meer een gesloten geheel vormen."@nl ;
         skos:prefLabel "Bosgebied"@nl .
 
+    otl:Botsveiligheidscertificaat-doc a skos:Concept ;
+        skos:broaderTransitive otl:Certificaat-doc ;
+        skos:definition ""@nl ;
+        skos:prefLabel "Botsveiligheidscertificaat"@nl .
+
     otl:Bouwakker a skos:Concept ;
         skos:broaderTransitive otl:Ongeclassificeerd ;
         skos:definition "Begroeid terreindeel ten behoeve van akkerbouw."@nl ;
@@ -1001,8 +1045,13 @@ otl:graaf-kennismodel {
 
     otl:Bouwplan-doc a skos:Concept ;
         skos:broaderTransitive otl:Plan-doc ;
-        skos:definition ""@nl ;
+        skos:definition "Bewijsvoering dat het tunnelontwerp zal voldoen aan de bouwvoorschriften en dat een doeltreffende calamiteitenbestrijding in het tunnelsysteem zal kunnen plaatsvinden. Het plan is het vervolg op het Tunnelveiligheidsplan en is onderdeel van de aanvraag van de Bouwvergunning."@nl ;
         skos:prefLabel "Bouwplan"@nl .
+
+    otl:Bovenaanzicht-doc a skos:Concept ;
+        skos:broaderTransitive otl:Aanzichttekening-doc ;
+        skos:definition "Aanzichttekening die de indeling van een object of ruimte bovenaf weergeeft."@nl ;
+        skos:prefLabel "Bovenaanzicht"@nl .
 
     otl:Bovenbouwconstructie a skos:Concept ;
         skos:broaderTransitive otl:Hoofdconstructie ;
@@ -1074,6 +1123,11 @@ otl:graaf-kennismodel {
         skos:definition "Kunstmatig gemaakte hoop van bijeengeschraapt blad en maaisel waarin diersoorten overwinteren en/ of zich voortplanten."@nl ;
         skos:prefLabel "Broeihoop"@nl .
 
+    otl:Broncode-doc a skos:Concept ;
+        skos:broaderTransitive otl:Softwareproductspecificatie-doc ;
+        skos:definition "Voor mensen leesbare tekst die een programmeur heeft geschreven in een programmeertaal. Er bestaan verschillende programmeertalen, zoals C, C++, Pascal. De broncode wordt door een compiler omgezet naar een voor computer uitvoerbare machine code."@nl ;
+        skos:prefLabel "Broncode"@nl .
+
     otl:BrugBeweegbaar a skos:Concept ;
         skos:broaderTransitive otl:Kunstwerk ;
         skos:definition "Beweegbare verbinding voor verkeer tussen minimaal twee punten die gescheiden worden door waterwegen en variabele doorvaarthoogte biedt."@nl ;
@@ -1123,6 +1177,11 @@ otl:graaf-kennismodel {
         skos:broaderTransitive otl:Kunstwerk ;
         skos:definition "Zwaar versterkt militair verdedigingswerk dat bescherming biedt tegen bombardementen en beschietingen"@nl ;
         skos:prefLabel "Bunker"@nl .
+
+    otl:CCTVPlan-doc a skos:Concept ;
+        skos:broaderTransitive otl:Plan-doc ;
+        skos:definition "CCTV (Close Circuit Television) plan omschrijft zichtvelden, locaties, werking en doel van CCTV-systeem."@nl ;
+        skos:prefLabel "CCTV plan"@nl .
 
     otl:CCTVinstallatie a skos:Concept ;
         skos:broaderTransitive otl:Installatie ;
@@ -1301,6 +1360,16 @@ otl:graaf-kennismodel {
         skos:definition "Installatie die gassen samen perst en onder hogere druk beschikbaar stelt"@nl ;
         skos:prefLabel "Compressorinstallatie"@nl .
 
+    otl:ComputerProgrammeerHandleiding-doc a skos:Concept ;
+        skos:broaderTransitive otl:Gebruiksaanwijzing-doc ;
+        skos:definition "Handleiding om de computer te programmeren."@nl ;
+        skos:prefLabel "Computer programmeer handleiding"@nl .
+
+    otl:Computerprogramma-doc a skos:Concept ;
+        skos:broaderTransitive otl:Softwareproductspecificatie-doc ;
+        skos:definition "De (door Opdrachtnemer op te leveren) set programmaregels zoals die, op directe of indirecte wijze, door een computer kan worden gebruikt om een bepaald, nader omschreven, resultaat tot stand te brengen. Programmatuur kan worden onderscheiden in Standaard- en Maatwerkprogrammatuur."@nl ;
+        skos:prefLabel "Computerprogramma"@nl .
+
     otl:ConfiguratieschemaAardePotentiaalvereffening-doc a skos:Concept ;
         skos:broaderTransitive otl:Configuratieschema-doc ;
         skos:definition "Geeft de samenhang tussen (deel)installaties weer m.b.t. aarde/potentiaalvereffening."@nl ;
@@ -1320,6 +1389,11 @@ otl:graaf-kennismodel {
         skos:broaderTransitive otl:Configuratieschema-doc ;
         skos:definition "Geeft de samenhang tussen (deel)installaties weer m.b.t. procesbesturing."@nl ;
         skos:prefLabel "Configuratieschema procesbesturing"@nl .
+
+    otl:Conformiteitsverklaring-doc a skos:Concept ;
+        skos:broaderTransitive otl:Certificaat-doc ;
+        skos:definition " Verklaring die een fabrikant moet afgeven dat aangetoond is dat aan de op het product toepasselijke eisen is voldaan."@nl ;
+        skos:prefLabel "Conformiteitsverklaring"@nl .
 
     otl:Connector a skos:Concept ;
         skos:broaderTransitive otl:Ongeclassificeerd ;
@@ -1436,6 +1510,11 @@ otl:graaf-kennismodel {
         skos:definition "Melding over een mogelijk incident in het domein van cybersecurity."@nl ;
         skos:prefLabel "Cybersecurityincidentmelding"@nl .
 
+    otl:Cybersecurityplan-doc a skos:Concept ;
+        skos:broaderTransitive otl:Plan-doc ;
+        skos:definition "Plan met maatregelen ter voorkoming van gevaar of schade veroorzaakt door verstoring, uitval of misbruik van ICT en Industriële Automatisering."@nl ;
+        skos:prefLabel "Cybersecurityplan"@nl .
+
     otl:D3-product a rdf:Property ;
         skos:definition "Een begrotingscategorie waaraan beheersmaatregelen gekoppeld worden voor financiering. Deze code is primair bedoeld voor de financiële verantwoording van het uitgevoerde werk."@nl ;
         skos:prefLabel "D3-product"@nl .
@@ -1484,6 +1563,16 @@ otl:graaf-kennismodel {
         skos:broaderTransitive otl:Onderdeel ;
         skos:definition "Grond- en/of waterkerende constructie, die bestaat uit een verticaal in de grond geplaatste wand die is gefabriceerd uit twee, met elkaar verbonden, verschillende houtsoorten die verschillende eigenschappen hebben"@nl ;
         skos:prefLabel "Damwand samengesteld"@nl .
+
+    otl:DatabaseOntwerpbeschrijving-doc a skos:Concept ;
+        skos:broaderTransitive otl:Ontwerp-doc ;
+        skos:definition "Het ontwerp van een database."@nl ;
+        skos:prefLabel "Database ontwerpbeschrijving"@nl .
+
+    otl:Datablad-doc a skos:Concept ;
+        skos:broaderTransitive otl:BeschrijvingAlgemeen-doc ;
+        skos:definition "Een datablad is een document dat de eigenschappen van elektronische of mechanische componenten of systemen beschrijft. Het blad bevat voldoende informatie om een technicus in staat te stellen de component of het systeem toe te passen."@nl ;
+        skos:prefLabel "Datablad"@nl .
 
     otl:Dataloginstallatie a skos:Concept ;
         skos:broaderTransitive otl:Installatie ;
@@ -1556,7 +1645,7 @@ NB. Datum en tijdstip kunnen in bronsystemen als aparte velden zijn vastgelegd. 
         skos:prefLabel "Dekzerkprofiel"@nl .
 
     otl:Denken a skos:Concept ;
-        skos:broaderTransitive nen2660-term:MentalActivity ;
+        skos:broaderTransitive otl:MentaleActiviteit ;
         skos:definition "Rationele activiteit die plaatsvindt binnen de geest (mind) van een persoon, en die resulteert in gedachten."@nl ;
         skos:prefLabel "Denken"@nl .
 
@@ -1715,6 +1804,11 @@ NB. Datum en tijdstip kunnen in bronsystemen als aparte velden zijn vastgelegd. 
         skos:definition "Stang met schroefdraad dat als bevestigingsmiddel dient om de afstand tussen twee componenten te fixeren."@nl ;
         skos:prefLabel "Draadstang"@nl .
 
+    otl:Draaiboek-doc a skos:Concept ;
+        skos:broaderTransitive otl:Plan-doc ;
+        skos:definition "Omschrijving welke operationele en situationele zaken van belang zijn tijdens de voorbereiding en uitvoering van activiteiten."@nl ;
+        skos:prefLabel "Draaiboek"@nl .
+
     otl:Draaipoort a skos:Concept ;
         skos:broaderTransitive otl:Ongeclassificeerd ;
         skos:definition "Ronddraaiend toegangshek, te roteren om een verticale as als afsluitbare doorgang in een muur of terreinafscheiding"@nl ;
@@ -1856,7 +1950,7 @@ NB. Datum en tijdstip kunnen in bronsystemen als aparte velden zijn vastgelegd. 
         skos:prefLabel "Dwarsdrager"@nl .
 
     otl:Dwarsprofiel-doc a skos:Concept ;
-        skos:broaderTransitive otl:Constructietekening-doc ;
+        skos:broaderTransitive otl:Profieltekening-doc ;
         skos:definition "Een constructietekening die een dwarsdoorsnede van een object weergeeft."@nl ;
         skos:prefLabel "Dwarsprofiel"@nl .
 
@@ -1877,7 +1971,7 @@ NB. Datum en tijdstip kunnen in bronsystemen als aparte velden zijn vastgelegd. 
 
     otl:Eendraadschema-doc a skos:Concept ;
         skos:broaderTransitive otl:Samenhang-doc ;
-        skos:definition "Een eendraadschema geeft de principes van de elektrische installatie weer in grote lijnen. (WP)"@nl ;
+        skos:definition "Een eendraadschema geeft de principes van de elektrische installatie weer in grote lijnen."@nl ;
         skos:prefLabel "Eendraadschema"@nl .
 
     otl:Eenheid a skos:Concept ;
@@ -1946,6 +2040,11 @@ Op soorten en habitattypen hebben storende factoren uiteindelijk gevolgen in ter
         skos:definition "Duinen in ontwikkeling met pioniers vegetatie."@nl ;
         skos:prefLabel "Embryonaal duin"@nl .
 
+    otl:Energiebalansberekening-doc a skos:Concept ;
+        skos:broaderTransitive otl:Berekeningsrapport-doc ;
+        skos:definition "Berekening van energiebalans van het totale object en/of thermische energiebalans per ruimte."@nl ;
+        skos:prefLabel "Energiebalansberekening"@nl .
+
     otl:Energiekabel a skos:Concept ;
         skos:broaderTransitive otl:Onderdeel ;
         skos:definition "Kabel bestemd voor het transport van elektriciteit."@nl ;
@@ -2011,6 +2110,11 @@ Op soorten en habitattypen hebben storende factoren uiteindelijk gevolgen in ter
         skos:broaderTransitive otl:Onderzoeksrapport-doc ;
         skos:definition "Rapportage met betrekking tot Functionele Inspecties en Testen (FIT) van (beheer)objecten"@nl ;
         skos:prefLabel "FIT-rapportage"@nl .
+
+    otl:FMECArapport-doc a skos:Concept ;
+        skos:broaderTransitive otl:Risicoanalyse-doc ;
+        skos:definition "Failure Mode and Effect Analysis, waarbij óók een inschatting wordt gemaakt van de kans op de gevonden faaloorzaak. De kans wordt veelal op basis van expertmening vastgesteld en gespecificeerd in een kansklasse."@nl ;
+        skos:prefLabel "FMECA-rapport"@nl .
 
     otl:FaalcurveParameter a skos:Concept ;
         skos:broaderTransitive otl:Concepttype ;
@@ -2122,6 +2226,11 @@ Op soorten en habitattypen hebben storende factoren uiteindelijk gevolgen in ter
         skos:definition "Filtermedium wat zich in het filterhuis bevindt. Bijvoorbeeld lavastenen of actieve kool"@nl ;
         skos:prefLabel "Filtervulling"@nl .
 
+    otl:FirmwareSupportHandleiding-doc a skos:Concept ;
+        skos:broaderTransitive otl:Gebruiksaanwijzing-doc ;
+        skos:definition "Handleiding om de firmware op een apparaat te (her)programmeren"@nl ;
+        skos:prefLabel "Firmware support handleiding"@nl .
+
     otl:Fitnesstoestel a skos:Concept ;
         skos:broaderTransitive otl:Ongeclassificeerd ;
         skos:definition "Apparaat waarmee de fitheid en/of gezondheid en/of conditionele voorwaarden van mensen worden verbeterd en/of onderhouden."@nl ;
@@ -2146,6 +2255,11 @@ Op soorten en habitattypen hebben storende factoren uiteindelijk gevolgen in ter
         skos:broaderTransitive otl:Ongeclassificeerd ;
         skos:definition "Installatie die voor de sier water omhoog spuit."@nl ;
         skos:prefLabel "Fontein"@nl .
+
+    otl:Foutenboomanalyse-doc a skos:Concept ;
+        skos:broaderTransitive otl:Risicoanalyse-doc ;
+        skos:definition "Analyse, die de kans op falen van het systeem berekent door uit te gaan van de kansen op falen van de afzonderlijke systeemelementen."@nl ;
+        skos:prefLabel "Foutenboomanalyse"@nl .
 
     otl:Frame a skos:Concept ;
         skos:broaderTransitive otl:Onderdeel ;
@@ -2287,6 +2401,11 @@ Op soorten en habitattypen hebben storende factoren uiteindelijk gevolgen in ter
         skos:definition "Verslag van een Gate review dat resulteert in een besluit: Red Gate, Orange Gate of Green Gate."@nl ;
         skos:prefLabel "Gate review-rapport"@nl .
 
+    otl:GebruikersinterfaceOntwerp-doc a skos:Concept ;
+        skos:broaderTransitive otl:TechnischOntwerp-doc ;
+        skos:definition "Ontwerp van de gebruikersinterface."@nl ;
+        skos:prefLabel "Gebruikersinterface ontwerp"@nl .
+
     otl:GebruiksAfhankelijkOnderhoud a skos:Concept ;
         skos:broaderTransitive otl:Onderhoudsstrategie ;
         skos:definition "Onderhoudsstrategie waarbij een component op basis van kalendertijd, gebruiksduur of aantal aanvragen wordt vervangen. Deze vorm kent één parameter, het vervangingsinterval. Een bekend voorbeeld is het vervangen van de distributieriem bij een automotor."@nl ;
@@ -2397,6 +2516,11 @@ Op soorten en habitattypen hebben storende factoren uiteindelijk gevolgen in ter
         skos:definition "Apparaat dat mechanische energie omzet in elektrische stroom"@nl ;
         skos:prefLabel "Generator"@nl .
 
+    otl:Geografie-doc a skos:Concept ;
+        skos:broaderTransitive otl:Vastlegging-doc ;
+        skos:definition ""@nl ;
+        skos:prefLabel "Geografie"@nl .
+
     otl:Geometrie a skos:Concept ;
         skos:broaderTransitive otl:RuimtelijkeLocatiereferentie ;
         skos:definition "Geografische gegevens. De ruimtelijke gegevens van de kapitaalgoederen, uitgedrukt in x, y en z-coördinaten."@nl ;
@@ -2473,6 +2597,11 @@ Waar de QUDT-lijst niet volstaat worden 'custom'-typeringen gedefinieerd."""@nl 
         skos:broaderTransitive otl:Ongeclassificeerd ;
         skos:definition "Kabel die bestaat uit een of meerdere optische vezels van glas, omhuld met een mantel, gebruikt voor digitale informatieoverdracht"@nl ;
         skos:prefLabel "Glasvezelkabel"@nl .
+
+    otl:Glasvezelmeting-doc a skos:Concept ;
+        skos:broaderTransitive otl:Meetrapport-doc ;
+        skos:definition "Resultaat van de meting van druk of verzakking van een grondlichaam met behulp van glasvezelkabel."@nl ;
+        skos:prefLabel "Glasvezelmeting"@nl .
 
     otl:Glasvezelput a skos:Concept ;
         skos:broaderTransitive otl:Ongeclassificeerd ;
@@ -2759,6 +2888,11 @@ Waar de QUDT-lijst niet volstaat worden 'custom'-typeringen gedefinieerd."""@nl 
         skos:definition "Installatie voor het hijsen en transporteren van zware lasten"@nl ;
         skos:prefLabel "Hijs- en hefinstallatie"@nl .
 
+    otl:Hijscertificaat-doc a skos:Concept ;
+        skos:broaderTransitive otl:Certificaat-doc ;
+        skos:definition "Verkaring die aangeeft dat een hijs- of hefinstallatie voldoet aan de voorschriften."@nl ;
+        skos:prefLabel "Hijscertificaat"@nl .
+
     otl:Hijsplan-doc a skos:Concept ;
         skos:broaderTransitive otl:Werkinstructie-doc ;
         skos:definition "Beschrijft hoe een object gehesen kan worden (instructie, werkwijze, berekeningen, etc)."@nl ;
@@ -2828,6 +2962,11 @@ Waar de QUDT-lijst niet volstaat worden 'custom'-typeringen gedefinieerd."""@nl 
         skos:broaderTransitive otl:Verkeersbaan ;
         skos:definition "Rijbaan met twee of meer rijstroken, bestemd voor het doorgaande verkeer."@nl ;
         skos:prefLabel "Hoofdrijbaan"@nl .
+
+    otl:Hoofdstroomschema-doc a skos:Concept ;
+        skos:broaderTransitive otl:Stroomkringschema-doc ;
+        skos:definition "Stroomkringschema voor hoofdstroom (400/230Vac) ."@nl ;
+        skos:prefLabel "Hoofdstroomschema"@nl .
 
     otl:Hoofdsysteem a skos:Concept ;
         skos:broaderTransitive nen2660-term:SpatialRegion ;
@@ -2951,7 +3090,7 @@ Waar de QUDT-lijst niet volstaat worden 'custom'-typeringen gedefinieerd."""@nl 
 
     otl:IHPOpBasisVanProbo-doc a skos:Concept ;
         skos:broaderTransitive otl:Instandhoudingsplan-doc ;
-        skos:definition " Instandhoudingsplan gebaseerd op een uitgebreide kwantitatieve risicoanalyse variant voor de kritische assets, waarbij strenge eisen maatgevend zijn (foutenboom-methode). "@nl ;
+        skos:definition "Instandhoudingsplan gebaseerd op een uitgebreide kwantitatieve risicoanalyse variant voor de kritische assets, waarbij strenge eisen maatgevend zijn (foutenboom-methode)."@nl ;
         skos:prefLabel "IHP op basis van Probo"@nl .
 
     otl:IJsbaan a skos:Concept ;
@@ -2959,15 +3098,15 @@ Waar de QUDT-lijst niet volstaat worden 'custom'-typeringen gedefinieerd."""@nl 
         skos:definition "Terrein waarop een ondiepe laag water wordt aangebracht om op te schaatsen wanneer de vorst intreedt."@nl ;
         skos:prefLabel "IJsbaan"@nl .
 
+    otl:IOlijst-doc a skos:Concept ;
+        skos:broaderTransitive otl:Samenhang-doc ;
+        skos:definition "Een overzicht dat alle inputs en outputs (o.a. sensoren en actuatoren) toont van een besturingssysteem."@nl ;
+        skos:prefLabel "I/O-lijst"@nl .
+
     otl:ISATprotocol-doc a skos:Concept ;
         skos:broaderTransitive otl:Testplan-doc ;
         skos:definition "Testplan voor een Integrated Site Acceptance Test (zie SAT: DEF-3377)"@nl ;
         skos:prefLabel "ISAT-protocol"@nl .
-
-    otl:ISATrapport-doc a skos:Concept ;
-        skos:broaderTransitive otl:Testrapport-doc ;
-        skos:definition "Testrapport met betrekking tot een Integrated Site Acceptance Test (ISAT)"@nl ;
-        skos:prefLabel "ISAT-rapport"@nl .
 
     otl:ITSysteem a skos:Concept ;
         skos:broaderTransitive otl:Installatie ;
@@ -3068,6 +3207,11 @@ Kenmerk waarvan de waarde een unieke entiteit identificeert."""@nl ;
         skos:broaderTransitive otl:Topkwaliteit ;
         skos:definition "De toegevoegde waarde van informatie wordt vooral bepaald door de kwaliteit ervan in de ogen van de informatieklanten. Voor RWS zijn de volgende aspecten van belang bij het bepalen van de kwaliteit van de informatie: Actualiteit, Betrouwbaarheid en Compleetheid."@nl ;
         skos:prefLabel "Informatiekwaliteit"@nl .
+
+    otl:InformatieprofielBeslismoment-doc a skos:Concept ;
+        skos:broaderTransitive otl:Uncategorized-doc ;
+        skos:definition ""@nl ;
+        skos:prefLabel "Informatieprofiel beslismoment "@nl .
 
     otl:Informatiestroom a skos:Concept ;
         skos:broaderTransitive otl:Overdrachtstype ;
@@ -3277,10 +3421,15 @@ Kenmerk waarvan de waarde een unieke entiteit identificeert."""@nl ;
         skos:definition "Buis of kabel bestemd voor voortgeleiding van energie, materie of data."@nl ;
         skos:prefLabel "Kabel en leiding"@nl .
 
-    otl:Kabelberekening-doc a skos:Concept ;
+    otl:Kabelberekening-E-doc a skos:Concept ;
         skos:broaderTransitive otl:Berekeningsrapport-doc ;
         skos:definition "Berekening van o.a. de benodigde aderdoorsnede, de kortsluitstroom, spanningsverlies en de selectiviteit voor sterkstroomkabels in elektrotechnische installaties zoals in de procesindustrie, gebouw- en openbare verlichting. "@nl ;
-        skos:prefLabel "Kabelberekening"@nl .
+        skos:prefLabel "Kabelberekening (E)"@nl .
+
+    otl:Kabelberekening-WTK-doc a skos:Concept ;
+        skos:broaderTransitive otl:Berekeningsrapport-doc ;
+        skos:definition "Kabelberekening van de mechanische eigenschappen en het gedrag van kabels die worden gebruikt voor het overbrengen van krachten, bewegingen of energie."@nl ;
+        skos:prefLabel "Kabelberekening (WTK)"@nl .
 
     otl:Kabeldraagconstructie a skos:Concept ;
         skos:broaderTransitive otl:AanvullendeVoorziening ;
@@ -3502,10 +3651,10 @@ Kenmerk waarvan de waarde een unieke entiteit identificeert."""@nl ;
         skos:definition "Beschrijft de verschillende onderdelen van een uit te voeren project en geeft onder andere aan waarop deze onderdelen dienen te worden gekeurd. / Een beknopte maar volledige opsomming van keuringsitems vanuit de overeenkomst, normeringen, aanbevelingen, richtlijnen en/of aanvullende ontwerpeisen om zodoende aan te tonen, dat het gevraagde is geleverd of is uitgevoerd. In het keuringsplan vindt op detailniveau de verificatie van de eisen plaats ter uiteindelijke validatie van het product."@nl ;
         skos:prefLabel "Keuringsplan"@nl .
 
-    otl:Keuringsrapport-doc a skos:Concept ;
-        skos:broaderTransitive otl:Rapport-doc ;
-        skos:definition "Verslag van een gestandaardiseerde keuring waarmee wordt aangetoond dat een object voldoet aan (vooraf) gestelde eisen. Resulteert in een certificaat."@nl ;
-        skos:prefLabel "Keuringsrapport"@nl .
+    otl:KeuringsrapportEMC-doc a skos:Concept ;
+        skos:broaderTransitive otl:Keuringsrapport-doc ;
+        skos:definition "Keuringsrapport van het vermogen van uitrusting om in een elektromagnetische omgeving bevredigend te functioneren, zonder zelf elektromagnetische storingen te veroorzaken die ontoelaatbaar zijn voor andere uitrusting in die omgeving. EMC (Electromagnetic Compatibility)."@nl ;
+        skos:prefLabel "Keuringsrapport EMC"@nl .
 
     otl:KeuzedocumentVoorkeursvarianten-doc a skos:Concept ;
         skos:broaderTransitive otl:Besluitenlijst-doc ;
@@ -3863,7 +4012,7 @@ Kenmerk waarvan de waarde numeriek is. Het kenmerk geeft een hoeveelheid weer.""
         skos:prefLabel "Lekdetector"@nl .
 
     otl:Lengteprofiel-doc a skos:Concept ;
-        skos:broaderTransitive otl:Constructietekening-doc ;
+        skos:broaderTransitive otl:Profieltekening-doc ;
         skos:definition "Dwarsdoorsnede genomen langs de belangrijkste organisatorische as van een bouwwerk of voorwerp."@nl ;
         skos:prefLabel "Lengteprofiel"@nl .
 
@@ -4082,6 +4231,16 @@ Kenmerk waarvan de waarde numeriek is. Het kenmerk geeft een hoeveelheid weer.""
         skos:definition "Draagconstructie, bestaande uit een verticale buispaal, die wordt gebruikt om iets op hoogte te brengen."@nl ;
         skos:prefLabel "Mast"@nl .
 
+    otl:Mastberekening-doc a skos:Concept ;
+        skos:broaderTransitive otl:Berekeningsrapport-doc ;
+        skos:definition "Berekening van de sterkte van een mast."@nl ;
+        skos:prefLabel "Mastberekening"@nl .
+
+    otl:Masttekening-doc a skos:Concept ;
+        skos:broaderTransitive otl:Constructietekening-doc ;
+        skos:definition "Tekening op basis waarvan een (licht)mast vervaardigd kan worden."@nl ;
+        skos:prefLabel "Masttekening"@nl .
+
     otl:Materiaalcertificaat-doc a skos:Concept ;
         skos:broaderTransitive otl:Certificaat-doc ;
         skos:definition "Verklaring die aangeeft dat het product volgens de vervaardigingsnorm is geproduceerd wordt."@nl ;
@@ -4134,7 +4293,7 @@ Kenmerk waarvan de waarde numeriek is. Het kenmerk geeft een hoeveelheid weer.""
 
     otl:MeetEnRegelschema-doc a skos:Concept ;
         skos:broaderTransitive otl:Samenhang-doc ;
-        skos:definition "Een meet- en regelschema (of regelkringschema) is een schema waarop staat weergegeven hoe een instrument in het veld is verbonden met de besturingseenheid. (WP)"@nl ;
+        skos:definition "Een meet- en regelschema (of regelkringschema) is een schema waarop staat weergegeven hoe een instrument in het veld is verbonden met de besturingseenheid."@nl ;
         skos:prefLabel "Meet- en regelschema"@nl .
 
     otl:Meetinstallatie a skos:Concept ;
@@ -4154,7 +4313,7 @@ Kenmerk waarvan de waarde numeriek is. Het kenmerk geeft een hoeveelheid weer.""
 
     otl:Meetsysteem a skos:Concept ;
         skos:broaderTransitive otl:Ongeclassificeerd ;
-        skos:definition "<bewegingswerk> Systeem, bestaande uit een of meerdere meetpunten, die de positie monitoren van bewegende onderdelen van een bewegingswerk om de besturing te voorzien van informatie."@nl ;
+        skos:definition "Systeem, bestaande uit een of meerdere meetpunten, die de positie monitoren van bewegende onderdelen van een bewegingswerk om de besturing te voorzien van informatie."@nl ;
         skos:prefLabel "Meetsysteem"@nl .
 
     otl:Membraan a skos:Concept ;
@@ -4188,7 +4347,7 @@ Kenmerk waarvan de waarde numeriek is. Het kenmerk geeft een hoeveelheid weer.""
         skos:prefLabel "Menselijke handeling"@nl .
 
     otl:MentaleToestand a skos:Concept ;
-        skos:broaderTransitive nen2660-term:ObjectState ;
+        skos:broaderTransitive otl:Objecttoestand ;
         skos:definition "Toestand van een mens, die door voelen kan worden ervaren."@nl ;
         skos:prefLabel "Mentale toestand"@nl .
 
@@ -4211,6 +4370,11 @@ Kenmerk waarvan de waarde numeriek is. Het kenmerk geeft een hoeveelheid weer.""
         skos:broaderTransitive otl:Voorschrift-doc ;
         skos:definition ""@nl ;
         skos:prefLabel "Ministeriele regeling"@nl .
+
+    otl:MitigerendeMaatregelen-doc a skos:Concept ;
+        skos:broaderTransitive otl:Onderzoeksrapport-doc ;
+        skos:definition "Maatregel die negatieve effecten vermindert of wegneemt."@nl ;
+        skos:prefLabel "Mitigerende maatregelen"@nl .
 
     otl:Mixer a skos:Concept ;
         skos:broaderTransitive otl:Ongeclassificeerd ;
@@ -4279,7 +4443,7 @@ Kenmerk waarvan de waarde numeriek is. Het kenmerk geeft een hoeveelheid weer.""
 
     otl:NEN3140 a skos:Concept ;
         skos:broaderTransitive otl:Keuringsmethode ;
-        skos:definition "NEN 3149 keuring is een inspectie door een gecertificeerde inspecteur die controleert of de bestaande elektrische laagspanningsinstallaties voldoet aan de (wettelijk verplichte) eisen. De inspectie bestaat uit een visuele inspectie en uit een inspectie door meting en beproeving."@nl ;
+        skos:definition "NEN 3140 keuring is een inspectie door een gecertificeerde inspecteur die controleert of de bestaande elektrische laagspanningsinstallaties voldoet aan de (wettelijk verplichte) eisen. De inspectie bestaat uit een visuele inspectie en uit een inspectie door meting en beproeving."@nl ;
         skos:prefLabel "NEN3140"@nl .
 
     otl:NEN3140-rapportage-doc a skos:Concept ;
@@ -4342,6 +4506,11 @@ Kenmerk waarvan de waarde numeriek is. Het kenmerk geeft een hoeveelheid weer.""
         skos:definition "Installatie, ook wel misthoorn genoemd, die doormiddel van akoestische signalen schepen helpt navigeren bij slecht zicht."@nl ;
         skos:prefLabel "Nautofooninstallatie"@nl .
 
+    otl:Negenvlaksmatrix-doc a skos:Concept ;
+        skos:broaderTransitive otl:Uncategorized-doc ;
+        skos:definition "Hulpmiddel om de technische urgentie [van?] te onderbouwen."@nl ;
+        skos:prefLabel "Negenvlaksmatrix"@nl .
+
     otl:Net a skos:Concept ;
         skos:broaderTransitive otl:Ongeclassificeerd ;
         skos:definition "Geheel van touwwerk dat in verschillende sporten wordt gebruikt. Bijvoorbeeld een volleybalnet"@nl ;
@@ -4351,6 +4520,11 @@ Kenmerk waarvan de waarde numeriek is. Het kenmerk geeft een hoeveelheid weer.""
         skos:broaderTransitive otl:Installatie ;
         skos:definition "SATO-object voor de aansluiting van het object op het hoofdstroomnet."@nl ;
         skos:prefLabel "Netaansluiting"@nl .
+
+    otl:Netwerkschakel a skos:Concept ;
+        skos:broaderTransitive nen2660-term:SpatialRegion ;
+        skos:definition "Deel van een netwerk, bestaande uit een aaneengesloten keten van beheerobjecten binnen één netwerkcategorie, die samen een voor de gebruiker relevante functie vervullen."@nl ;
+        skos:prefLabel "Netwerkschakel"@nl .
 
     otl:Netwerkschakelplan-doc a skos:Concept ;
         skos:broaderTransitive otl:Beleidsdocument-doc ;
@@ -4412,6 +4586,11 @@ Kenmerk waarvan de waarde numeriek is. Het kenmerk geeft een hoeveelheid weer.""
         skos:definition "Bij nieuwbouw van een object, of bij grote renovatie van een bestaand object, moet na afloop een 0-inspectie gedaan worden. Deze omvat een complete inspectie van het object, het opgestelde beheer en onderhoudsplan helpt hierbij. Op basis daarvan wordt een compleet IHP opgesteld."@nl ;
         skos:prefLabel "Nulinspectierapport"@nl .
 
+    otl:OTDRmeting-doc a skos:Concept ;
+        skos:broaderTransitive otl:Meetrapport-doc ;
+        skos:definition "Resultaat van een OTDR-meting (Optical time-domain reflectometer) waarbij wordt vastgesteld in hoeverre een glasvezeltraject binnen de vooraf gestelde eisen functioneert."@nl ;
+        skos:prefLabel "OTDR-meting"@nl .
+
     otl:OTOmodule a skos:Concept ;
         skos:broaderTransitive otl:SocialeActiviteit ;
         skos:definition "Onderdeel van OTO-programma met een vaste structuur bestaande uit doelgroepen, leerdoelen, leermiddelen en leervormen."@nl ;
@@ -4426,6 +4605,11 @@ Kenmerk waarvan de waarde numeriek is. Het kenmerk geeft een hoeveelheid weer.""
         skos:broaderTransitive otl:Kader-doc ;
         skos:definition "Beschrijving per object-categorie van de LCC-optimale onderhoudsstrategieën voor het halen van verschillende prestatieniveaus. "@nl ;
         skos:prefLabel "Objectbeheerregime"@nl .
+
+    otl:Objectboek-doc a skos:Concept ;
+        skos:broaderTransitive otl:BeschrijvingAlgemeen-doc ;
+        skos:definition "Algemeen document bestaande uit verschillende paragrafen waarin het doel en de werking van het object met alle subsystemen beschreven wordt (als integraal veilig werkend geheel)."@nl ;
+        skos:prefLabel "Objectboek"@nl .
 
     otl:Objectcategorie a skos:Concept ;
         skos:broaderTransitive otl:Objectgroep ;
@@ -4536,6 +4720,11 @@ Kenmerk waarvan de waarde numeriek is. Het kenmerk geeft een hoeveelheid weer.""
         skos:broaderTransitive otl:Vergunning-doc ;
         skos:definition ""@nl ;
         skos:prefLabel "Omgevingsvergunning"@nl .
+
+    otl:Omgevingswijzer-doc a skos:Concept ;
+        skos:broaderTransitive otl:Uncategorized-doc ;
+        skos:definition ""@nl ;
+        skos:prefLabel "Omgevingswijzer"@nl .
 
     otl:Omissielijst-doc a skos:Concept ;
         skos:broaderTransitive otl:Checklist-doc ;
@@ -4659,6 +4848,11 @@ De numerieke waarde is voldoende om het het kenmerk betekenis te geven. De naam 
         skos:definition ""@nl ;
         skos:prefLabel "Ontheffing"@nl .
 
+    otl:Ontruimingsplan-doc a skos:Concept ;
+        skos:broaderTransitive otl:Plan-doc ;
+        skos:definition "Plan dat beschrijft hoe men dient te ontruimen, met plattegronden inclusief vluchtroutes en telefoonnummers."@nl ;
+        skos:prefLabel "Ontruimingsplan"@nl .
+
     otl:Ontvangbed a skos:Concept ;
         skos:broaderTransitive otl:Onderdeel ;
         skos:definition "Bodembeschermingsconstructie die is aangebracht na een uitlaat tegen het uitspoelen van de grond."@nl ;
@@ -4678,6 +4872,11 @@ De numerieke waarde is voldoende om het het kenmerk betekenis te geven. De naam 
         skos:broaderTransitive otl:RisicoInventarisatieEn-evaluatie-doc ;
         skos:definition "Systematische inventarisatie, beoordeling en beheersing van de projectspecifieke veiligheidsrisico’s."@nl ;
         skos:prefLabel "Ontwerp risico-inventarisatie en -evaluatie"@nl .
+
+    otl:Ontwerpbeslissing-doc a skos:Concept ;
+        skos:broaderTransitive otl:Uncategorized-doc ;
+        skos:definition "Selectie van een bepaalde ontwerpmaatregel (voorkeursvariant) uit een aantal mogelijke ontwerpmaatregelen (varianten) op basis van een verzameling van criteria."@nl ;
+        skos:prefLabel "Ontwerpbeslissing"@nl .
 
     otl:Ontwerpnota-doc a skos:Concept ;
         skos:broaderTransitive otl:Nota-doc ;
@@ -4746,7 +4945,7 @@ De numerieke waarde is voldoende om het het kenmerk betekenis te geven. De naam 
 
     otl:OperationeelConceptbeschrijving-doc a skos:Concept ;
         skos:broaderTransitive otl:Specificatie-doc ;
-        skos:definition "(deel)systeemgerichte beschrijving van de gebruikers van het systeem, het beoogd gebruik van het systeem, hoe het bedoeld is dat het systeem gebruikt kan worden en de externe omstandigheden gedurende welke het systeem gebruikt zal worden. De OCD beschrijft de context waarbinnen de probleemdefinitie (functionele eisen, mate van effectiviteit, doelen en waardeketen) bestaat, dus het doel van het systeem."@nl ;
+        skos:definition "Systeem- of deelsysteemgerichte beschrijving van de gebruikers van het systeem, het beoogd gebruik van het systeem, hoe het bedoeld is dat het systeem gebruikt kan worden en de externe omstandigheden gedurende welke het systeem gebruikt zal worden. De OCD beschrijft de context waarbinnen de probleemdefinitie (functionele eisen, mate van effectiviteit, doelen en waardeketen) bestaat, dus het doel van het systeem."@nl ;
         skos:prefLabel "Operationeel conceptbeschrijving"@nl .
 
     otl:Ophangconstructie a skos:Concept ;
@@ -5281,9 +5480,14 @@ De numerieke waarde is voldoende om het het kenmerk betekenis te geven. De naam 
         skos:definition "Bassin waarin zuivering van influent (afvalwater) wordt gerealiseerd met door processen in gang te zetten diverse actieve- en monitoringsinstallaties. Het beheerobject procesbassins is een verzamelobject, hetgeen zegt dat er verschillende soorten uit gedecomponeerd kunnen worden"@nl ;
         skos:prefLabel "Procesbassin"@nl .
 
-    otl:Procesbeschrijving-doc a skos:Concept ;
+    otl:Procesbeschrijving-Instructie-doc a skos:Concept ;
         skos:broaderTransitive otl:Verslag-doc ;
         skos:definition "Document waaruit de wijze van uitvoering en het verloop van een proces blijkt."@nl ;
+        skos:prefLabel "Procesbeschrijving"@nl .
+
+    otl:Procesbeschrijving-Verslag-doc a skos:Concept ;
+        skos:broaderTransitive otl:Instructie-doc ;
+        skos:definition "Document wat schematisch en tekstueel uitleg geeft hoe een proces in elkaar zit."@nl ;
         skos:prefLabel "Procesbeschrijving"@nl .
 
     otl:Productdecompositie-doc a skos:Concept ;
@@ -5383,6 +5587,10 @@ De numerieke waarde is voldoende om het het kenmerk betekenis te geven. De naam 
         skos:definition "Coördinaten volgens stelsel van de Rijksdriehoeksmeting."@nl ;
         skos:prefLabel "RD-waarde"@nl .
 
+    otl:RVVcode a rdf:Property ;
+        skos:definition "Code van een verkeersbord, volgens Reglement verkeersregels en verkeerstekens."@nl ;
+        skos:prefLabel "RVV-code"@nl .
+
     otl:RWSconcept a rdf:Property ;
         skos:definition "Typering van een decompositie-onderdeel volgens de RSW Conceptenbibliotheek."@nl ;
         skos:prefLabel "RWS-concept"@nl .
@@ -5400,6 +5608,16 @@ De numerieke waarde is voldoende om het het kenmerk betekenis te geven. De naam 
         skos:broaderTransitive otl:Onderzoeksrapport-doc ;
         skos:definition "Analyse waarin de raakvlakken tussen deelontwerpen worden geanalyseerd en onderling worden afgestemd"@nl ;
         skos:prefLabel "Raakvlakanalyse"@nl .
+
+    otl:Raakvlakeisenspecificatie-doc a skos:Concept ;
+        skos:broaderTransitive otl:Specificatie-doc ;
+        skos:definition "De eisen voor één of meerdere raakvlakken."@nl ;
+        skos:prefLabel "Raakvlakeisenspecificatie"@nl .
+
+    otl:Raakvlakontwerpbeschrijving-doc a skos:Concept ;
+        skos:broaderTransitive otl:Ontwerp-doc ;
+        skos:definition "Het ontwerp van één of meerdere raakvlakken."@nl ;
+        skos:prefLabel "Raakvlakontwerpbeschrijving "@nl .
 
     otl:Raam a skos:Concept ;
         skos:broaderTransitive otl:Ongeclassificeerd ;
@@ -5546,6 +5764,11 @@ De numerieke waarde is voldoende om het het kenmerk betekenis te geven. De naam 
         skos:definition "De als een 3D punt gemodelleerde meetkundige representatie van de locatie, van een door het bevoegd gezag vastgesteld geluidproductieplafond, op vaste afstand t.o.v. van een rijksweg, een provinciale weg, een spoorbaan of een industrieterrein."@nl ;
         skos:prefLabel "ReferentiepuntGPP"@nl .
 
+    otl:Reflectiemeting-doc a skos:Concept ;
+        skos:broaderTransitive otl:Meetrapport-doc ;
+        skos:definition "Resultaat van de meting van de reflectiewaarden van wegmarkeringen."@nl ;
+        skos:prefLabel "Reflectiemeting"@nl .
+
     otl:Reflector a skos:Concept ;
         skos:broaderTransitive otl:Onderdeel ;
         skos:definition "Installatiedeel dat door zijn vorm straling reflecteert dat opgevangen kan worden om positie aan te duiden"@nl ;
@@ -5622,6 +5845,11 @@ Wanneer er vanuit een regionale dienst meerdere inhoudelijk adviseurs betrokken 
         skos:definition "Een reservedeel dient als een artikel ter vervanging van (een deel van) een asset."@nl ;
         skos:prefLabel "Reservedeel"@nl .
 
+    otl:Reservedelenlijst-doc a skos:Concept ;
+        skos:broaderTransitive otl:Samenhang-doc ;
+        skos:definition "Een overzicht van alle onderdelen/ materialen en hun aantallen die op voorraad moeten worden gehouden."@nl ;
+        skos:prefLabel "Reservedelenlijst"@nl .
+
     otl:Reviewaanvraag-doc a skos:Concept ;
         skos:broaderTransitive otl:Aanvraag-doc ;
         skos:definition "Aanvraag voor het uitvoeren van een review."@nl ;
@@ -5639,7 +5867,7 @@ Wanneer er vanuit een regionale dienst meerdere inhoudelijk adviseurs betrokken 
 
     otl:Rijbewijs-doc a skos:Concept ;
         skos:broaderTransitive otl:Vaardigheidsbewijs-doc ;
-        skos:definition "Verklaring waaruit blijkt van een onderzoek met goed gevolg naar de rijvaardigheid van de aanvrager tot het besturen van motorrijtuigen van de in de verklaring vermelde rijbewijscategorie"@nl ;
+        skos:definition "Verklaring waaruit blijkt dat de eigenaar voldoet aan eisen die worden gesteld aan de rijvaardigheid met betrekking  tot het besturen van motorrijtuigen van de in de verklaring vermelde rijbewijscategorie."@nl ;
         skos:prefLabel "Rijbewijs"@nl .
 
     otl:Rijdek a skos:Concept ;
@@ -5656,11 +5884,6 @@ Wanneer er vanuit een regionale dienst meerdere inhoudelijk adviseurs betrokken 
         skos:broaderTransitive otl:AanvullendeVoorziening ;
         skos:definition "Stelsel van constructies en installaties bestemd voor de inzameling, het transport en de tijdelijke berging van afvalwater"@nl ;
         skos:prefLabel "Riolering"@nl .
-
-    otl:Risicoanalyse-doc a skos:Concept ;
-        skos:broaderTransitive otl:Berekeningsrapport-doc ;
-        skos:definition ""@nl ;
-        skos:prefLabel "Risicoanalyse"@nl .
 
     otl:Risicodossier-doc a skos:Concept ;
         skos:broaderTransitive otl:Dossier-doc ;
@@ -6049,7 +6272,7 @@ Wanneer er vanuit een regionale dienst meerdere inhoudelijk adviseurs betrokken 
 
     otl:Situatieschema-doc a skos:Concept ;
         skos:broaderTransitive otl:RuimtelijkeIndeling-doc ;
-        skos:definition "Een situatieschema is een plattegrond van een bouwwerk waarop naast alle onderdelen van het stroomnetwerk (stopcontacten, schakelaars, lichtpunten, kasten) ook je aangesloten installaties staan aangeduid. "@nl ;
+        skos:definition "Een situatieschema is een plattegrond van een bouwwerk waarop naast alle onderdelen van het stroomnetwerk (stopcontacten, schakelaars, lichtpunten, kasten) ook je aangesloten installaties staan aangeduid."@nl ;
         skos:prefLabel "Situatieschema"@nl .
 
     otl:Sjabloon-doc a skos:Concept ;
@@ -6142,6 +6365,11 @@ Wanneer er vanuit een regionale dienst meerdere inhoudelijk adviseurs betrokken 
         skos:definition "Scheiding gemaakt van smeedwerk."@nl ;
         skos:prefLabel "Smeedwerk"@nl .
 
+    otl:Smeerschema-doc a skos:Concept ;
+        skos:broaderTransitive otl:Handleiding-doc ;
+        skos:definition "Een smeerschema geeft een schematische voorstelling van de smeerpunten van een onderdeel, welke voor elk smeerpunt, het toe te passen smeermiddel en de smeerfrequentie dient te worden opgegeven."@nl ;
+        skos:prefLabel "Smeerschema"@nl .
+
     otl:Smeersysteem a skos:Concept ;
         skos:broaderTransitive otl:Onderdeel ;
         skos:definition "Systeem van leidingen of slangen met of zonder pomp dat een apparaat, motor of machine van smering voorziet zodat slijting en corrosie wordt verminderd"@nl ;
@@ -6151,6 +6379,36 @@ Wanneer er vanuit een regionale dienst meerdere inhoudelijk adviseurs betrokken 
         skos:broaderTransitive otl:Veiligheid ;
         skos:definition "Mate waarin mensen van RWS en gebruikers van onze voorzieningen beschermd zijn en zich beschermd voelen tegen persoonlijk leed door misdrijven (criminaliteit), overtredingen en overlast door andere mensen."@nl ;
         skos:prefLabel "Sociale Veiligheid"@nl .
+
+    otl:SoftwareEisenspecificatie-doc a skos:Concept ;
+        skos:broaderTransitive otl:Specificatie-doc ;
+        skos:definition "De eisen waaraan de software moet voldoen."@nl ;
+        skos:prefLabel "Software eisenspecificatie"@nl .
+
+    otl:SoftwareOntwerpbeschrijving-doc a skos:Concept ;
+        skos:broaderTransitive otl:Ontwerp-doc ;
+        skos:definition "Het ontwerp van een software component."@nl ;
+        skos:prefLabel "Software ontwerpbeschrijving"@nl .
+
+    otl:SoftwareVersieBeschrijving-doc a skos:Concept ;
+        skos:broaderTransitive otl:Samenhang-doc ;
+        skos:definition "Lijst van alle opgeleverde bestanden met gerelateerde informatie."@nl ;
+        skos:prefLabel "Software versie beschrijving"@nl .
+
+    otl:Softwareinstallatieplan-doc a skos:Concept ;
+        skos:broaderTransitive otl:PlanVanAanpak-doc ;
+        skos:definition "Plan om de software op gebruikers locaties te instaleren."@nl ;
+        skos:prefLabel "Softwareinstallatieplan"@nl .
+
+    otl:Softwareontwikkelplan-doc a skos:Concept ;
+        skos:broaderTransitive otl:PlanVanAanpak-doc ;
+        skos:definition "Plan van aanpak dat beschrijft volgens welk ontwikkelproces de software geschreven wordt."@nl ;
+        skos:prefLabel "Softwareontwikkelplan"@nl .
+
+    otl:Softwaretransistieplan-doc a skos:Concept ;
+        skos:broaderTransitive otl:PlanVanAanpak-doc ;
+        skos:definition "Plan om de software over te dragen naar het onderhoudsteam."@nl ;
+        skos:prefLabel "Softwaretransistieplan"@nl .
 
     otl:Sonderingsrapport-doc a skos:Concept ;
         skos:broaderTransitive otl:Onderzoeksrapport-doc ;
@@ -6334,7 +6592,7 @@ Wanneer er vanuit een regionale dienst meerdere inhoudelijk adviseurs betrokken 
 
     otl:Stempelbuis a skos:Concept ;
         skos:broaderTransitive otl:Ongeclassificeerd ;
-        skos:definition "(Tijdelijke) buis tussen twee tegenoverliggende wanden, dammen of schotten bedoeld om naar elkaar toe wijken te voorkomen."@nl ;
+        skos:definition "Een (Tijdelijke) buis tussen twee tegenoverliggende wanden, dammen of schotten bedoeld om naar elkaar toe wijken te voorkomen."@nl ;
         skos:prefLabel "Stempelbuis"@nl .
 
     otl:Sterkteberekening-doc a skos:Concept ;
@@ -6386,6 +6644,11 @@ Wanneer er vanuit een regionale dienst meerdere inhoudelijk adviseurs betrokken 
         skos:broaderTransitive otl:Systeemaspect ;
         skos:definition "Inzicht in het niet functioneren op basis van storingsregistraties. Daarbij is het aantal storingen en de storingen zelf van belang."@nl ;
         skos:prefLabel "Storingsgedrag"@nl .
+
+    otl:Storingshandelingen-doc a skos:Concept ;
+        skos:broaderTransitive otl:Werkinstructie-doc ;
+        skos:definition "Beschrijving van alle relevante vereiste inspectie- en storingshandelingen voor bedienend of onderhoudspersoneel."@nl ;
+        skos:prefLabel "Storingshandelingen"@nl .
 
     otl:Storingsrapport-doc a skos:Concept ;
         skos:broaderTransitive otl:Overzichtsrapport-doc ;
@@ -6464,6 +6727,11 @@ De strategisch adviseur Crisisbeheersing behoort niet tot de kernbezetting van h
         skos:definition "Constructie in de vorm van een verhoging om waterstromingen langs de bodem te verstoren en/of te geleiden om zodoende de hinder voor scheepvaart te reduceren."@nl ;
         skos:prefLabel "Stroombreker"@nl .
 
+    otl:StroomkringschemaVeiligheidsketens-doc a skos:Concept ;
+        skos:broaderTransitive otl:Stroomkringschema-doc ;
+        skos:definition "idem als  Stroomkringschema?"@nl ;
+        skos:prefLabel "Stroomkringschema veiligheidsketens"@nl .
+
     otl:Stroomprofiel a skos:Concept ;
         skos:broaderTransitive otl:Ongeclassificeerd ;
         skos:definition "Inlaatvoorziening voor het geleiden van de toe- en afvoer van afvalwater in het rioleringsstelsel"@nl ;
@@ -6488,6 +6756,11 @@ De strategisch adviseur Crisisbeheersing behoort niet tot de kernbezetting van h
         skos:broaderTransitive otl:Ongeclassificeerd ;
         skos:definition "Verdroogd of door menselijke invloeden ontstaan onbegroeid zandgebied waar het zand een grillig reliëf  kan hebben door verstuiving en afzetting van de wind."@nl ;
         skos:prefLabel "Stuifzand"@nl .
+
+    otl:Stuurstroomschema-doc a skos:Concept ;
+        skos:broaderTransitive otl:Stroomkringschema-doc ;
+        skos:definition "Stroomkringschema voor stuurstroom (lagere spanningen)."@nl ;
+        skos:prefLabel "Stuurstroomschema"@nl .
 
     otl:Stuurstroomvoedingsinstallatie a skos:Concept ;
         skos:broaderTransitive otl:Installatie ;
@@ -6514,6 +6787,11 @@ De strategisch adviseur Crisisbeheersing behoort niet tot de kernbezetting van h
         skos:definition "Installatiedeel in de infrastructuur van een computernetwerk dat zorgt voor een datapakket naar een specifieke hardwarepoort wordt gestuurd waaraan dit pakket is geadresseerd"@nl ;
         skos:prefLabel "Switch"@nl .
 
+    otl:SysteemSoftwareTestbeschrijving-doc a skos:Concept ;
+        skos:broaderTransitive otl:Testplan-doc ;
+        skos:definition "Testgevallen/procedures voor kwalificatietesten van een systeem of software."@nl ;
+        skos:prefLabel "Systeem/software testbeschrijving"@nl .
+
     otl:SysteembeschrijvingStart-doc a skos:Concept ;
         skos:broaderTransitive otl:Samenhang-doc ;
         skos:definition ""@nl ;
@@ -6529,10 +6807,10 @@ De strategisch adviseur Crisisbeheersing behoort niet tot de kernbezetting van h
         skos:definition "Een systeemdeel is een gedeelte van de weg tussen twee verkeerskundig belangrijke aansluitingen en/of knooppunten. Het bestaat uit één of meer wegvakken waarop B&O (en andere maatregelen ) in samenhang worden geprogrammeerd, gericht op het optimaal functioneren van het systeemdeel."@nl ;
         skos:prefLabel "Systeemdeel"@nl .
 
-    otl:Systeemontwerp-doc a skos:Concept ;
+    otl:Systeemontwerpbeschrijving-doc a skos:Concept ;
         skos:broaderTransitive otl:Ontwerp-doc ;
         skos:definition "Beschrijving en onderbouwing van het ontwerp van een systeem of installatie"@nl ;
-        skos:prefLabel "Systeemontwerp"@nl .
+        skos:prefLabel "Systeemontwerpbeschrijving"@nl .
 
     otl:Systeemspecificatie-doc a skos:Concept ;
         skos:broaderTransitive otl:Specificatie-doc ;
@@ -6695,6 +6973,11 @@ Kenmerk waarvan de waarde een tekstuele beschrijving is en een alfanumerieke waa
         skos:definition "Verzamelnaam voor allerhande inrichtingselementen die worden gebruikt in de openbare ruimte. Het zijn in het algemeen niet verplaatsbare voorzieningen"@nl ;
         skos:prefLabel "Terreinmeubilair"@nl .
 
+    otl:TerugleverlijstAreaalinformatie-doc a skos:Concept ;
+        skos:broaderTransitive otl:BeschrijvingAlgemeen-doc ;
+        skos:definition "Document voor de oplevering van areaalinformatie die niet op een andere wijze als dataverzameling aangeleverd kan worden. Bedoeld voor verwerking als gestructureerde informatie in RWS-bronsystemen."@nl ;
+        skos:prefLabel "Terugleverlijst Areaalinformatie"@nl .
+
     otl:Terugslagklep a skos:Concept ;
         skos:broaderTransitive otl:Ongeclassificeerd ;
         skos:definition "Klep die gebruikt wordt om water, vloeistof, granulaat, poeder of gas slechts in een richting door te laten en bij een omgekeerde stroming dichtslaat."@nl ;
@@ -6729,6 +7012,11 @@ Periode tussen twee tijdsmomenten."""@nl ;
         skos:broaderTransitive otl:Werking-doc ;
         skos:definition "Een tijdvolgorde diagram geeft een schematische voorstelling welke op overzichtelijke wijze de volgorde aangeeft, waarin de verschillende onderdelen in werking treden, aangevuld met de tijdsduur van de verschijnselen. "@nl ;
         skos:prefLabel "Tijdvolgordediagram"@nl .
+
+    otl:Toegangsbeheerplan-doc a skos:Concept ;
+        skos:broaderTransitive otl:Plan-doc ;
+        skos:definition "Plan wat beschrijft wie in welke gevallen toegang heeft tot welk terrein, gebouw of ruimte."@nl ;
+        skos:prefLabel "Toegangsbeheerplan"@nl .
 
     otl:ToegangscontroleInstallatie a skos:Concept ;
         skos:broaderTransitive otl:Installatie ;
@@ -6772,7 +7060,7 @@ Periode tussen twee tijdsmomenten."""@nl ;
 
     otl:Toestelschema-doc a skos:Concept ;
         skos:broaderTransitive otl:Vastlegging-doc ;
-        skos:definition "Toestelschema’s kunnen bestaande schema’s zijn van fabrieksmatige eenheden welke geïntegreerd worden in het tekeningenpakket of veelvuldig voorkomende samenstellen van componenten welke een zelfstandige eenheid vormen en van buitenaf gevoed en bestuurd worden. "@nl ;
+        skos:definition "Toestelschema’s kunnen bestaande schema’s zijn van fabrieksmatige eenheden welke geïntegreerd worden in het tekeningenpakket of veelvuldig voorkomende samenstellen van componenten welke een zelfstandige eenheid vormen en van buitenaf gevoed en bestuurd worden."@nl ;
         skos:prefLabel "Toestelschema"@nl .
 
     otl:ToetskaderKAd-doc a skos:Concept ;
@@ -6827,7 +7115,7 @@ Periode tussen twee tijdsmomenten."""@nl ;
 
     otl:Trafohuis a skos:Concept ;
         skos:broaderTransitive otl:Ongeclassificeerd ;
-        skos:definition "(Afsluitbare) ruimte waarin apparatuur is opgesteld waarmee elektrische spanning wordt omgezet naar hogere of lagere waarden."@nl ;
+        skos:definition "Een (Afsluitbare) ruimte waarin apparatuur is opgesteld waarmee elektrische spanning wordt omgezet naar hogere of lagere waarden."@nl ;
         skos:prefLabel "Trafohuis"@nl .
 
     otl:Training a skos:Concept ;
@@ -6852,7 +7140,7 @@ Periode tussen twee tijdsmomenten."""@nl ;
 
     otl:Transitieplan-doc a skos:Concept ;
         skos:broaderTransitive otl:PlanVanAanpak-doc ;
-        skos:definition "Een plan waarin beschreven wordt welke beheersmaatregelen genomen worden om  tijdens de realisatiefase van een project de veiligheid te waarborgen en zo min mogelijk hinder te veroorzaken aan de belanghebbenden."@nl ;
+        skos:definition "Een transitieplan is een document waarin staat hoe de huidige situatie wordt omgezet naar een nieuwe situatie, met behulp een stappenplan. Dat betekent dat in het document alle stappen staan om van situatie A naar situatie B te komen."@nl ;
         skos:prefLabel "Transitieplan"@nl .
 
     otl:TransmissieApparatuur a skos:Concept ;
@@ -6869,6 +7157,11 @@ Periode tussen twee tijdsmomenten."""@nl ;
         skos:broaderTransitive otl:Installatie ;
         skos:definition "Installatie voor het horizontaal op een bewegende band of riem transporteren van materialen of goed(eren)."@nl ;
         skos:prefLabel "Transportinstallatie"@nl .
+
+    otl:Transportpad a skos:Concept ;
+        skos:broaderTransitive otl:Netwerkpad ;
+        skos:definition "Pad in een transport netwerk."@nl ;
+        skos:prefLabel "Transportpad"@nl .
 
     otl:Trap a skos:Concept ;
         skos:broaderTransitive otl:Onderdeel ;
@@ -6974,6 +7267,11 @@ Periode tussen twee tijdsmomenten."""@nl ;
         skos:definition "Strook grond langs een rivier gesitueerd tussen de lagere zomerdijk en de hogere winterdijk die bij een hoge waterstand onder water loopt en fungeert als waterbergingsgebied en in droge perioden veelal wordt gebruikt voor veeteelt en recreatie."@nl ;
         skos:prefLabel "Uiterwaard"@nl .
 
+    otl:Uitgangspuntenformulier-doc a skos:Concept ;
+        skos:broaderTransitive otl:Uncategorized-doc ;
+        skos:definition ""@nl ;
+        skos:prefLabel "Uitgangspuntenformulier"@nl .
+
     otl:Uithouder a skos:Concept ;
         skos:broaderTransitive otl:AanvullendeVoorziening ;
         skos:definition "In de wegberm geplaatste kolom met een uitlegger waaraan een paneel met verkeersaanduidingen, verkeerslantaarns en/of verlichtingsarmaturen zijn bevestigd."@nl ;
@@ -6998,6 +7296,11 @@ Periode tussen twee tijdsmomenten."""@nl ;
         skos:broaderTransitive otl:Ongeclassificeerd ;
         skos:definition "Opening waardoor een medium (vaak vloeistof) een object verlaat."@nl ;
         skos:prefLabel "Uitstroomopening"@nl .
+
+    otl:Uitvoeringsgebeurtenis a skos:Concept ;
+        skos:broaderTransitive nen2660-term:Event ;
+        skos:definition "Overgang tussen twee opeenvolgende toestanden van een activiteit."@nl ;
+        skos:prefLabel "Uitvoeringsgebeurtenis"@nl .
 
     otl:Uitvoeringsovereenkomst-doc a skos:Concept ;
         skos:broaderTransitive otl:Contract-doc ;
@@ -7024,11 +7327,6 @@ Periode tussen twee tijdsmomenten."""@nl ;
         skos:definition "Deel van de vaarweg dat voor de scheepvaart door te baggeren op een bepaalde minimale diepte wordt gehouden zodat scheepvaartverkeer mogelijk is"@nl ;
         skos:prefLabel "Vaargeul"@nl .
 
-    otl:Vaarwegennetwerkschakel a skos:Concept ;
-        skos:broaderTransitive otl:Netwerkschakel ;
-        skos:definition ""@nl ;
-        skos:prefLabel "Vaarwegennetwerkschakel"@nl .
-
     otl:Vaarwegjunctie a skos:Concept ;
         skos:broaderTransitive otl:Vaarwegnode ;
         skos:definition ""@nl ;
@@ -7037,17 +7335,12 @@ Periode tussen twee tijdsmomenten."""@nl ;
     otl:Vaarweglink a skos:Concept ;
         skos:broaderTransitive otl:Transportlink ;
         skos:definition "Link in een vaarwegnetwerk."@nl ;
-        skos:prefLabel "Vaarweglink"@nl .
+        skos:prefLabel "Vaarwegverbinding"@nl .
 
     otl:Vaarwegmarkering a skos:Concept ;
         skos:broaderTransitive otl:AanvullendeVoorziening ;
         skos:definition "Met behulp van markeringsvoorwerpen aangeven van de vaargeul, dan wel obstakels of gevaren in de vaargeul. Markeringsvoorwerpen kunnen boeien en bakens zijn"@nl ;
         skos:prefLabel "Vaarwegmarkering"@nl .
-
-    otl:Vaarwegpad a skos:Concept ;
-        skos:broaderTransitive otl:Transportpad ;
-        skos:definition "Pad in een vaarwegnetwerk."@nl ;
-        skos:prefLabel "Vaarwegpad"@nl .
 
     otl:Valbeveiliging a skos:Concept ;
         skos:broaderTransitive otl:AanvullendeVoorziening ;
@@ -7095,7 +7388,7 @@ Periode tussen twee tijdsmomenten."""@nl ;
         skos:prefLabel "Vegetatie"@nl .
 
     otl:VeiligheidGevaar a skos:Concept ;
-        skos:broaderTransitive nen2660-term:ObjectState ;
+        skos:broaderTransitive otl:Objecttoestand ;
         skos:definition "Intrinsieke eigenschap van materialen, machines, stoffen etc. om letstel of schade toe te kunnen brengen door overdracht van energie. Bijvoorbeeld door bewegende onderdelen, vallen van hoogte, vrijkomen van stoffen of micro-organismen."@nl ;
         skos:prefLabel "Veiligheid Gevaar"@nl .
 
@@ -7139,6 +7432,11 @@ Periode tussen twee tijdsmomenten."""@nl ;
         skos:definition "Project risico m.b.t. veiligheid."@nl ;
         skos:prefLabel "Veiligheid Risico Project"@nl .
 
+    otl:Veiligheidseisenspecificatie-doc a skos:Concept ;
+        skos:broaderTransitive otl:Specificatie-doc ;
+        skos:definition "Een document met daarin de eisen aan de veiligheidsfuncties van een systeem."@nl ;
+        skos:prefLabel "Veiligheidseisenspecificatie"@nl .
+
     otl:Veiligheidsregio a skos:Concept ;
         skos:broaderTransitive otl:PubliekrechtelijkeOrganisatie ;
         skos:definition "Samenwerkingsverband in een gebied waarin wordt samengewerkt door verscheidene besturen en diensten op het terrein van brandweerzorg, rampenbeheersing, crisisbeheersing, geneeskundige hulpverleningsorganisatie en handhaving van de openbare orde en veiligheid. Er zijn in Nederland 25 veiligheidsregio’s."@nl ;
@@ -7163,6 +7461,11 @@ Periode tussen twee tijdsmomenten."""@nl ;
         skos:broaderTransitive otl:Ongeclassificeerd ;
         skos:definition "Watervlakte (meestal zoet) die op natuurlijke wijze dan wel door menselijk ingrijpen (ingraving of afsluiting) is ontstaan."@nl ;
         skos:prefLabel "Ven"@nl .
+
+    otl:VenRStartUpFormulier-doc a skos:Concept ;
+        skos:broaderTransitive otl:Uncategorized-doc ;
+        skos:definition ""@nl ;
+        skos:prefLabel "VenR start-up formulier"@nl .
 
     otl:VentilatieInstallatie a skos:Concept ;
         skos:broaderTransitive otl:Installatie ;
@@ -7223,6 +7526,11 @@ Periode tussen twee tijdsmomenten."""@nl ;
         skos:broaderTransitive otl:Gespreksverslag-doc ;
         skos:definition "Verslag van een vergadering."@nl ;
         skos:prefLabel "Vergaderverslag"@nl .
+
+    otl:Vergunningstekening-doc a skos:Concept ;
+        skos:broaderTransitive otl:Constructietekening-doc ;
+        skos:definition "Bouwtekening die alle relevante informatie over een object of constrcitie bevat die nodig is voor het aanvragen van een vergunning."@nl ;
+        skos:prefLabel "Vergunningstekening"@nl .
 
     otl:VerhardingWegtype1-Hoofdwegennet a skos:Concept ;
         skos:broaderTransitive otl:Verharding ;
@@ -7309,6 +7617,11 @@ Periode tussen twee tijdsmomenten."""@nl ;
         skos:definition "Beheersmaatregel die genomen wordt om de risico's die betrekking hebben tot het verkeer te minimaliseren/ elimineren."@nl ;
         skos:prefLabel "Verkeersmaatregel"@nl .
 
+    otl:Verkeersmodel-doc a skos:Concept ;
+        skos:broaderTransitive otl:Uncategorized-doc ;
+        skos:definition ""@nl ;
+        skos:prefLabel "Verkeersmodel"@nl .
+
     otl:Verkeersregelinstallatie a skos:Concept ;
         skos:broaderTransitive otl:Installatie ;
         skos:definition "Installatie ten behoeve van de regeling en geleiding van het verkeer met behulp van optische en akoestische signalen."@nl ;
@@ -7320,7 +7633,7 @@ Periode tussen twee tijdsmomenten."""@nl ;
         skos:prefLabel "Verkeerssnelheid"@nl .
 
     otl:Verkeerstoestand a skos:Concept ;
-        skos:broaderTransitive nen2660-term:ActivityState ;
+        skos:broaderTransitive otl:Activiteittoestand ;
         skos:definition "Gemeten aantal motorvoertuigen van een categorie motorvoertuigen dat jaarlijks per uur, gemiddeld over een etmaalperiode, passeert"@nl ;
         skos:prefLabel "Verkeerstoestand"@nl .
 
@@ -7375,7 +7688,7 @@ Periode tussen twee tijdsmomenten."""@nl ;
         skos:prefLabel "Versnijder"@nl .
 
     otl:Versnippering a skos:Concept ;
-        skos:broaderTransitive nen2660-term:ObjectState ;
+        skos:broaderTransitive otl:Objecttoestand ;
         skos:definition "Doorsnijding van natuurgebieden, verbindingszones en leefgebieden van dieren."@nl ;
         skos:prefLabel "Versnippering"@nl .
 
@@ -7476,7 +7789,7 @@ Periode tussen twee tijdsmomenten."""@nl ;
 
     otl:Vijzelplan-doc a skos:Concept ;
         skos:broaderTransitive otl:Werkinstructie-doc ;
-        skos:definition "Beschrijft of en hoe een object gevijzeld kan worden (instructie, werkwijze, berkeneingen, etc)."@nl ;
+        skos:definition "Beschrijft of en hoe een object gevijzeld kan worden (instructie, werkwijze, berekeningen, etc)."@nl ;
         skos:prefLabel "Vijzelplan"@nl .
 
     otl:Vispassage a skos:Concept ;
@@ -7816,7 +8129,7 @@ Voorbeelden:
         skos:prefLabel "Waterwegvergunning"@nl .
 
     otl:Weer a skos:Concept ;
-        skos:broaderTransitive nen2660-term:ObjectState ;
+        skos:broaderTransitive otl:Objecttoestand ;
         skos:definition "Gegevens over de weersomstandigheden."@nl ;
         skos:prefLabel "Weer"@nl .
 
@@ -7896,7 +8209,7 @@ Voorbeelden:
         skos:prefLabel "Werk-spreekverbinding"@nl .
 
     otl:Werkconditie a skos:Concept ;
-        skos:broaderTransitive nen2660-term:ActivityState ;
+        skos:broaderTransitive otl:Activiteittoestand ;
         skos:definition "In beperkte betekenis alle zichtbare, hoorbare en op andere wijze waarneembare (fysieke) omstandigheden waaronder wordt gewerkt, de mate waarin deze de arbeid minder aangenaam maken, alsmede de tijd gedurende welke onder deze omstandigheden moet worden gewerkt (bijvoorbeeld verlichting, klimaat, atmosfeer, lawaai, terperatuur en straling alsmede de zwaarte van het werk, de lichaamshouding, het persoonlijk risico en eventueel de eentonigheid van het werk, de monotonie). In brede betekenis alle factoren die voor de beleving van de werksituatie van belang zijn zoals de arbeidsvoorwaarden, fysieke omstandigheden (zie hierboven), en de taak inhoudelijke, arbeidsorganisatorische en ergonomische aspecten van de werksituatie."@nl ;
         skos:prefLabel "Werkconditie"@nl .
 
@@ -7936,7 +8249,7 @@ Voorbeelden:
         skos:prefLabel "Werkwijzebeschrijving"@nl .
 
     otl:Werkzaamheid a skos:Concept ;
-        skos:broaderTransitive nen2660-term:PhysicalActivity ;
+        skos:broaderTransitive otl:FysiekeActiviteit ;
         skos:definition "Een activiteit betreft object- of areaalgerichte onderdelen van het werk, welke noodzakelijk zijn voor het verhelpen van vooraf gedefinieerde problemen of het upgraden van het kwaliteitsniveau dat noodzakelijk is voor het goed vervullen van de functies."@nl ;
         skos:prefLabel "Werkzaamheid"@nl .
 
@@ -8090,6 +8403,11 @@ Voorbeelden:
         skos:definition "Constructie die een grens stelt aan het proces waar grond onder invloed van een belasting wordt samengedrukt."@nl ;
         skos:prefLabel "Zettingbeperkende element"@nl .
 
+    otl:Zijaanzicht-doc a skos:Concept ;
+        skos:broaderTransitive otl:Aanzichttekening-doc ;
+        skos:definition "Aanzichttekening die de indeling van een object of ruimte vanaf de zijkant weergeeft."@nl ;
+        skos:prefLabel "Zijaanzicht"@nl .
+
     otl:Zijschildafdichting a skos:Concept ;
         skos:broaderTransitive otl:Ongeclassificeerd ;
         skos:definition "Metalen of kunststof plaat bevestigd ten hoogte van de waterlijn aan de binnenkant van de vizierschuif en dient ter bescherming tegen erosie van het water op de betonnen constructie"@nl ;
@@ -8175,6 +8493,10 @@ Voorbeelden:
         skos:definition "Aantal bezoekers bij een evenement."@nl ;
         skos:prefLabel "aantal bezoekers"@nl .
 
+    otl:aantalDeuren a rdf:Property ;
+        skos:definition "De hoeveelheid deuren van bijvoorbeeld een mast."@nl ;
+        skos:prefLabel "aantal deuren"@nl .
+
     otl:aantalGebruikers a rdf:Property ;
         skos:definition "De hoeveelheid van iemand die iets gebruikt of zich van iets bedient."@nl ;
         skos:prefLabel "aantal gebruikers"@nl .
@@ -8187,8 +8509,12 @@ Voorbeelden:
         skos:definition "Het verwachte aantal keer dat een VGM-effect optreedt bij een kunstwerk per jaar."@nl ;
         skos:prefLabel "aantal keer VGM-effect"@nl .
 
+    otl:aantalLampen a rdf:Property ;
+        skos:definition "De hoeveelheid lampen."@nl ;
+        skos:prefLabel "aantal lampen"@nl .
+
     otl:aantalMiddelzwareVrachtautos a rdf:Property ;
-        skos:definition "Hoeveelheid gemiddeld grote voertuigen"@nl ;
+        skos:definition "Hoeveelheid gemiddeld grote voertuigen."@nl ;
         skos:prefLabel "aantal middelzware vrachtautos"@nl .
 
     otl:aantalOverspanningen a rdf:Property ;
@@ -8204,7 +8530,7 @@ Voorbeelden:
         skos:prefLabel "aantal slachtoffers"@nl .
 
     otl:aantalZwareVrachtautos a rdf:Property ;
-        skos:definition "Hoeveelheid grote voertuigen"@nl ;
+        skos:definition "Hoeveelheid grote voertuigen."@nl ;
         skos:prefLabel "aantal zware vrachtautos"@nl .
 
     otl:absorptiewaarde a rdf:Property ;
@@ -8390,6 +8716,10 @@ Hernoemen naar Blootstellingsfactor?"""@nl ;
         skos:definition "Boomveiligheidsklasse (BVK) is een classificatiesysteem dat wordt gebruikt om de veiligheid van bomen te beoordelen. Het systeem is ontworpen om te bepalen of een boom veilig is om te behouden of dat deze moet worden verwijderd vanwege veiligheidsrisico's."@nl ;
         skos:prefLabel "boomveiligheidsklasse"@nl .
 
+    otl:bordnummer a rdf:Property ;
+        skos:definition ""@nl ;
+        skos:prefLabel "bordnummer"@nl .
+
     otl:bouwdatum a rdf:Property ;
         skos:definition "Datum waarop de asset gebouwd, geconstrueerd of gefabriceerd is."@nl ;
         skos:prefLabel "bouwdatum"@nl .
@@ -8467,6 +8797,10 @@ Hernoemen naar Blootstellingsfactor?"""@nl ;
         skos:definition "Hoeveelheid van een specifieke stof in relatie tot de volledige hoeveelheid van een mengsel van stoffen."@nl ;
         skos:prefLabel "concentratie"@nl .
 
+    otl:conditie a rdf:Property ;
+        skos:definition "Technische toestand of staat waarin een bouw- of installatiedeel verkeert."@nl ;
+        skos:prefLabel "conditie"@nl .
+
     otl:conditieNaOnderhoud a rdf:Property ;
         skos:definition "Beschrijving van de conditie na het uitvoeren van het onderhoud."@nl ;
         skos:prefLabel "conditie na onderhoud"@nl .
@@ -8543,9 +8877,17 @@ Hernoemen naar Blootstellingsfactor?"""@nl ;
         skos:definition "Datum waarop een asset is opgeleverd."@nl ;
         skos:prefLabel "datum oplevering"@nl .
 
+    otl:datumOppervlaktebehandeling a rdf:Property ;
+        skos:definition "Datum waarop de oppervlaktebehandeling is uitgevoerd."@nl ;
+        skos:prefLabel "datum oppervlaktebehandeling"@nl .
+
     otl:datumRealisatie a rdf:Property ;
         skos:definition "Datum waarop het project daadwerkelijk is opgeleverd."@nl ;
         skos:prefLabel "datum realisatie"@nl .
+
+    otl:datumReparatie a rdf:Property ;
+        skos:definition "Datum van de reparatie."@nl ;
+        skos:prefLabel "datum reparatie"@nl .
 
     otl:datumSecurityUpdate a rdf:Property ;
         skos:definition "Datum van de laatste update."@nl ;
@@ -8699,6 +9041,10 @@ De depositiewaarde wordt uitgedrukt in kilogram of mol stikstof per hectare per 
     otl:doorrijhoogte a rdf:Property ;
         skos:definition "De beschikbare ruimte in de hoogte tussen de weg en de onderkant van een bouwwerk boven de weg, zoals een viaduct of een tunnel."@nl ;
         skos:prefLabel "doorrijhoogte"@nl .
+
+    otl:draagkrachtuitzondering a rdf:Property ;
+        skos:definition "Uitzondering op de maximale draagkracht (druk) op een object."@nl ;
+        skos:prefLabel "draagkrachtuitzondering"@nl .
 
     otl:drempeldiepte a rdf:Property ;
         skos:definition "De drempeldiepte van een asset."@nl ;
@@ -8908,16 +9254,16 @@ Hernoemen naar Gevaarafwendingsfactor?"""@nl ;
         skos:prefLabel "gezondheidsscore"@nl .
 
     otl:graaf-kennismodel a owl:Ontology ;
-        dct:created "2024-01-17"^^xsd:date ;
+        dct:created "2024-03-20"^^xsd:date ;
         dct:description "Het OTL kennismodel bevat concepten en eigenschappen met hun definities."@nl ;
         dct:title "OTL kennismodel"@nl ;
-        pav:derivedFrom "IB RWS Release 25.1" ;
-        pav:version "Release 25.1" ;
+        pav:derivedFrom "IB RWS Release 26.4" ;
+        pav:version "Release 26.4" ;
         owl:imports dct:,
             geo:,
             skos:,
-            bs:,
-            nen2660-term: .
+            <https://w3id.org/nen2660/owl/def>,
+            <https://w3id.org/nen2660/skos/term> .
 
     otl:habitattypecode a rdf:Property ;
         skos:definition "Code van het habitattype uit een van de standaardschema's."@nl ;
@@ -8950,6 +9296,14 @@ Hernoemen naar Gevaarafwendingsfactor?"""@nl ;
     otl:heeftExplosiegevaarsignalering a rdf:Property ;
         skos:definition "De installatie heeft een voorziening waarmee overschrijding van de onderste explosiegrens voor brandbare gassen (Lower Explosive Limit (LEL)) wordt gesignaleerd."@nl ;
         skos:prefLabel "heeft explosiegevaarsignalering"@nl .
+
+    otl:heeftKompasfunctie a rdf:Property ;
+        skos:definition "Indicator die aangeeft of bijvoorbeeld een camera een kompasfunctie heeft."@nl ;
+        skos:prefLabel "heeft kompasfunctie"@nl .
+
+    otl:heeftMagnetischeAchtergrond a rdf:Property ;
+        skos:definition "Indicator om aan te geven of achtergrond van een bord magnetisch is of niet."@nl ;
+        skos:prefLabel "heeft magnetische achtergrond"@nl .
 
     otl:heeftNoGo a rdf:Property ;
         skos:definition "Indicator die aangeeft of een of meerdere van de relevante redenen tot uitstel is opgetreden."@nl ;
@@ -9054,21 +9408,29 @@ versus
         skos:definition "Deze indicator geeft aan of de beheersmaatregel een compenserende maatregel is. Natuurcompensatie is een maatregel die genomen wordt om een voorzien verlies aan beschermde natuur, ten gevolge van het uitvoeren van een project (aanleg van wegen, waterwegen e.d.) in of nabij een \"speciale beschermingszone\", te compenseren."@nl ;
         skos:prefLabel "is compenserende maatregel"@nl .
 
+    otl:isCykel a rdf:Property ;
+        skos:definition "Geeft aan of een netwerkpad dezelfde knoop als begin- en eindpunt heeft."@nl ;
+        skos:prefLabel "is cykel"@nl .
+
     otl:isDirectMerkbaar a rdf:Property ;
         skos:definition "Is het falen direct te constateren (bijv. zelf-meldend) of niet (bijv. pas bij inspectie opgemerkt)?"@nl ;
         skos:prefLabel "is direct merkbaar"@nl .
+
+    otl:isDynamischUitgevoerd a rdf:Property ;
+        skos:definition "Indicator om aan te geven of openbare verlichting dynamisch is uitgevoerd."@nl ;
+        skos:prefLabel "is dynamisch uitgevoerd"@nl .
 
     otl:isFaalkanskritisch a rdf:Property ;
         skos:definition "Indicator om aan te geven of het onderdeel invloed heeft op de faalkans van het sluiten van stormvloedkering."@nl ;
         skos:prefLabel "is faalkanskritisch"@nl .
 
-    otl:isGevalideerdBinnen a rdf:Property ;
+    otl:isGeverifieerdBinnen a rdf:Property ;
         skos:definition ""@nl ;
-        skos:prefLabel "is gevalideerd binnen"@nl .
+        skos:prefLabel "is geverifieerd binnen"@nl .
 
-    otl:isGevalideerdBuiten a rdf:Property ;
+    otl:isGeverifieerdBuiten a rdf:Property ;
         skos:definition ""@nl ;
-        skos:prefLabel "is gevalideerd buiten"@nl .
+        skos:prefLabel "is geverifieerd buiten"@nl .
 
     otl:isHandmatigToegevoegd a rdf:Property ;
         skos:definition "Indicator om aan te tonen of een programmeringsmaatregel handmatig is ingevoerd of niet."@nl ;
@@ -9146,6 +9508,10 @@ versus
         skos:definition "Een sluis bevindt zich in hoofdtransportas (HTS) of overige vaarwegen. Indicator of een sluis zich in een hoofdtransportas bevindt."@nl ;
         skos:prefLabel "is onderdeel hoofdtransportas"@nl .
 
+    otl:isOpAfstandParameteriseerbaar a rdf:Property ;
+        skos:definition "Indicator die aangeeft of bijvoorbeeld een camera op afstand kan worden aangepast of ingesteld."@nl ;
+        skos:prefLabel "is op afstand parameteriseerbaar"@nl .
+
     otl:isOpdrachtgever a rdf:Property ;
         skos:definition "Indicator of de belanghebbende de opdrachtgever is van een project."@nl ;
         skos:prefLabel "is opdrachtgever"@nl .
@@ -9202,6 +9568,10 @@ De wettelijke bescherming van soorten heeft tot doel deze in een gunstige staat 
     otl:isWisseldeel a rdf:Property ;
         skos:definition "Indicator of de asset een wisseldeel is. Een wisseldeel heeft als eigenschap dat het in voorrraad is, maar wel onderhouden wordt. Na actief gebruik wordt een wisseldeel gerepareerd en weer in voorraad genomen."@nl ;
         skos:prefLabel "is wisseldeel"@nl .
+
+    otl:isZandgevuld a rdf:Property ;
+        skos:definition "Indicator die aangeeft of bijvoorbeeld een paal zandgevuld is."@nl ;
+        skos:prefLabel "is zandgevuld"@nl .
 
     otl:jaarGerealiseerd a rdf:Property ;
         skos:definition "Jaar waarop een activiteit gerealiseerd is."@nl ;
@@ -9582,6 +9952,10 @@ Veel soorten hebben geen Nederlandse naam en zullen altijd met de wetenschappeli
         skos:definition "Het referentienummer van de Explain."@nl ;
         skos:prefLabel "referentienummer"@nl .
 
+    otl:reparatie a rdf:Property ;
+        skos:definition "Herstel van het oorspronkelijke functioneren, waarbij een beperkte toestandswijziging wordt doorgevoerd."@nl ;
+        skos:prefLabel "reparatie"@nl .
+
     otl:restLevensduur a rdf:Property ;
         skos:definition "De verwachte resterende levensduur van een damwand."@nl ;
         skos:prefLabel "rest levensduur"@nl .
@@ -9633,6 +10007,10 @@ Veel soorten hebben geen Nederlandse naam en zullen altijd met de wetenschappeli
     otl:scenario a rdf:Property ;
         skos:definition "Een beschrijving van een keten van gebeurtenissen die leidt tot een ongewenste gebeurtenis."@nl ;
         skos:prefLabel "scenario"@nl .
+
+    otl:schade a rdf:Property ;
+        skos:definition "Afwijking op de gewenste situatie waarbij waardevermindering optreedt en waarbij niet per definitie een directe relatie met de functionaliteit kan worden gelegd."@nl ;
+        skos:prefLabel "schade"@nl .
 
     otl:schutspeilMaximaal a rdf:Property ;
         skos:definition "Het maximale schutspeil van een schutsluis."@nl ;
@@ -9791,12 +10169,16 @@ Veel soorten hebben geen Nederlandse naam en zullen altijd met de wetenschappeli
         skos:prefLabel "trigger"@nl .
 
     otl:type a rdf:Property ;
-        skos:definition "Een soort met bepaalde kenmerken"@nl,
-            "Het type toonaangevende besluit"@nl,
-            "Type meting van preventieve onderhoudstaak, voor de onderhoudsstrategie GAO."@nl ;
-        skos:prefLabel "type"@nl,
-            "type 1e besluit"@nl,
-            "type meting"@nl .
+        skos:definition "Een soort met bepaalde kenmerken."@nl ;
+        skos:prefLabel "type"@nl .
+
+    otl:type1eBesluit a rdf:Property ;
+        skos:definition "Het type toonaangevende besluit"@nl ;
+        skos:prefLabel "type 1e besluit"@nl .
+
+    otl:typeMeting a rdf:Property ;
+        skos:definition "Type meting van preventieve onderhoudstaak, voor de onderhoudsstrategie GAO."@nl ;
+        skos:prefLabel "type meting"@nl .
 
     otl:uitersteJaarVanUitvoering a rdf:Property ;
         skos:definition "Door assetmanager geadviseerde uiterst jaar van uitvoering vaak gebaseerd op MTTF."@nl ;
@@ -9845,6 +10227,10 @@ Veel soorten hebben geen Nederlandse naam en zullen altijd met de wetenschappeli
     otl:verantwoordelijkePersoon a rdf:Property ;
         skos:definition "De persoon die administratief verantwoordelijk is voor het beheer en de afhandeling van een onderwerp."@nl ;
         skos:prefLabel "verantwoordelijke persoon"@nl .
+
+    otl:verbindingtype a rdf:Property ;
+        skos:definition "Eigenschap van een verbinding met betrekking tot kardinaliteit en/of richting"@nl ;
+        skos:prefLabel "verbindingtype"@nl .
 
     otl:verhardingsvlak a rdf:Property ;
         skos:definition "De oppervlakte van geometrisch vlak dat bestaat uit wegverharding."@nl ;
@@ -10001,7 +10387,7 @@ Hernoemen naar Waarschijnlijkheidsfactor?"""@nl ;
         skos:prefLabel "Afdelingshoofd"@nl .
 
     otl:Afwijking a skos:Concept ;
-        skos:broaderTransitive nen2660-term:ObjectState ;
+        skos:broaderTransitive otl:Objecttoestand ;
         skos:definition "Een afwijking is dat een fysiek object niet voldoet aan de eisen."@nl ;
         skos:prefLabel "Afwijking"@nl .
 
@@ -10076,7 +10462,7 @@ Hernoemen naar Waarschijnlijkheidsfactor?"""@nl ;
         skos:prefLabel "Domein"@nl .
 
     otl:Falen a skos:Concept ;
-        skos:broaderTransitive nen2660-term:TransformationEvent ;
+        skos:broaderTransitive otl:Transformatiegebeurtenis ;
         skos:definition "Gebeurtenis, of een verzameling gebeurtenissen, waardoor een systeem zijn functie verliest, c.q. niet meer kan vervullen (voldoet niet meer aan de functionele eis). Er wordt niet van falen van het systeem gesproken, indien het systeem zijn functie niet kan vervullen door geplande onderhoudswerkzaamheden of capaciteitsgebrek."@nl ;
         skos:prefLabel "Falen"@nl .
 
@@ -10090,6 +10476,11 @@ Hernoemen naar Waarschijnlijkheidsfactor?"""@nl ;
         skos:definition "Kwantitatieve karakterisering van een financieel aspect."@nl ;
         skos:prefLabel "Financiële grootheid"@nl .
 
+    otl:ISATrapport-doc a skos:Concept ;
+        skos:broaderTransitive otl:Testrapport-doc ;
+        skos:definition "Testrapport met betrekking tot een Integrated Site Acceptance Test (ISAT)"@nl ;
+        skos:prefLabel "ISAT-rapport"@nl .
+
     otl:Indicator a skos:Concept ;
         skos:broaderTransitive otl:Concepttype ;
         skos:definition "Een meetbaar fenomeen dat een signaal afgeeft wanneer de gewenste kwaliteit te wensen over laat, zonder aan te geven wat er precies aan de hand is. Het kan aanleiding zijn voor een nader onderzoek."@nl ;
@@ -10100,13 +10491,18 @@ Hernoemen naar Waarschijnlijkheidsfactor?"""@nl ;
         skos:definition "Strategie die nodig is om het object in de vereiste staat te houden of daarin terug te brengen, om functievervulling van het object gedurende de levensduur mogelijk te maken."@nl ;
         skos:prefLabel "Instandhoudingsstrategie"@nl .
 
+    otl:Keuringsrapport-doc a skos:Concept ;
+        skos:broaderTransitive otl:Rapport-doc ;
+        skos:definition "Verslag van een gestandaardiseerde keuring waarmee wordt aangetoond dat een object voldoet aan (vooraf) gestelde eisen. Resulteert in een certificaat."@nl ;
+        skos:prefLabel "Keuringsrapport"@nl .
+
     otl:KoninklijkBesluit-doc a skos:Concept ;
         skos:broaderTransitive otl:Voorschrift-doc ;
         skos:definition ""@nl ;
         skos:prefLabel "Koninklijk besluit"@nl .
 
     otl:Leren a skos:Concept ;
-        skos:broaderTransitive nen2660-term:MentalActivity ;
+        skos:broaderTransitive otl:MentaleActiviteit ;
         skos:definition "Het zich eigen maken van nieuwe, of het aanpassen van bestaande, kennis, gedrag, vaardigheden, procedures, inzichten of waarden, en kan het synthetiseren (samenvoegen) van verschillende soorten informatie inhouden."@nl ;
         skos:prefLabel "Leren"@nl .
 
@@ -10119,11 +10515,6 @@ Hernoemen naar Waarschijnlijkheidsfactor?"""@nl ;
         skos:broaderTransitive nen2660-term:SpatialRegion ;
         skos:definition "Relatie tussen twee nodes die een directe verbinding in het netwerk voorstelt."@nl ;
         skos:prefLabel "Netwerkverbinding"@nl .
-
-    otl:Netwerkschakel a skos:Concept ;
-        skos:broaderTransitive nen2660-term:SpatialRegion ;
-        skos:definition "Deel van een netwerk, bestaande uit een aaneengesloten keten van beheerobjecten binnen één netwerkcategorie, die samen een voor de gebruiker relevante functie vervullen."@nl ;
-        skos:prefLabel "Netwerkschakel"@nl .
 
     otl:Norm-doc a skos:Concept ;
         skos:broaderTransitive otl:Afspraak-doc ;
@@ -10216,20 +10607,15 @@ Hernoemen naar Waarschijnlijkheidsfactor?"""@nl ;
 Het Rijkswaternet (HVWN/HWS) is samengesteld uit topografische eenheden of te wel de rivieren, kanalen, kusten en eilanden. Enerzijds dienen deze als vaarwegen voor de beroeps- en recreatiescheepvaart (HVWN). Anderzijds vormen ze watersystemen binnen internationale en nationale stroomgebieden (HWS). Er is sprake van een intensieve relatie met regionale watersystemen. De topografische eenheden zijn uniek en homogeen, bijv. de gehele Rijn en het gehele Noordzeekanaal, waardoor ze de functies van beide netwerken kunnen bedienen."""@nl ;
         skos:prefLabel "Systeem"@nl .
 
-    otl:TechnischOntwerp-doc a skos:Concept ;
-        skos:broaderTransitive otl:Ontwerp-doc ;
-        skos:definition "Beschrijft technische werking  van een object."@nl ;
-        skos:prefLabel "Technisch ontwerp"@nl .
-
     otl:Toetskader-doc a skos:Concept ;
         skos:broaderTransitive otl:Kader-doc ;
         skos:definition "Een set normen en richtlijnen aan de hand waarvan een beoordeling kan plaatsvinden."@nl ;
         skos:prefLabel "Toetskader"@nl .
 
-    otl:Transportpad a skos:Concept ;
-        skos:broaderTransitive otl:Netwerkpad ;
-        skos:definition "Pad in een transport netwerk."@nl ;
-        skos:prefLabel "Transportpad"@nl .
+    otl:Transformatiegebeurtenis a skos:Concept ;
+        skos:broaderTransitive nen2660-term:Event ;
+        skos:definition "Overgang tussen twee opeenvolgende toestanden van een object."@nl ;
+        skos:prefLabel "Transformatiegebeurtenis"@nl .
 
     otl:Uitvoeringseisen-doc a skos:Concept ;
         skos:broaderTransitive otl:Specificatie-doc ;
@@ -10243,7 +10629,7 @@ Het Rijkswaternet (HVWN/HWS) is samengesteld uit topografische eenheden of te we
 
     otl:Vaardigheidsbewijs-doc a skos:Concept ;
         skos:broaderTransitive otl:Verklaring-doc ;
-        skos:definition "Bewijs van bekwaamheid"@nl ;
+        skos:definition "Bewijs waarmee de eigenaar zijn of haar  bekwaamheid of vaardigheid ten aanzien van een onderwerp kan aantonen."@nl ;
         skos:prefLabel "Vaardigheidsbewijs"@nl .
 
     otl:Vaarwegennetwerk a skos:Concept ;
@@ -10263,7 +10649,7 @@ Het Rijkswaternet (HVWN/HWS) is samengesteld uit topografische eenheden of te we
 
     otl:Verzoekschrift-Bestuurlijk-doc a skos:Concept ;
         skos:broaderTransitive otl:Verzoek-doc ;
-        skos:definition "Verzoek om aandacht voor een specifiek probleem. (https://www.overheid.nl/help/officiele-bekendmakingen/begrippenlijst)"@nl ;
+        skos:definition "Verzoek om aandacht voor een specifiek probleem."@nl ;
         skos:prefLabel "Verzoekschrift (bestuurlijk)"@nl .
 
     otl:Voortgangsrapport-doc a skos:Concept ;
@@ -10295,6 +10681,11 @@ Het Rijkswaternet (HVWN/HWS) is samengesteld uit topografische eenheden of te we
         skos:broaderTransitive otl:Verzoek-doc ;
         skos:definition "Verzoek een besluit te nemen, informatie te verstrekken of een procedure te starten."@nl ;
         skos:prefLabel "Aanvraag"@nl .
+
+    otl:Aanzichttekening-doc a skos:Concept ;
+        skos:broaderTransitive otl:RuimtelijkeIndeling-doc ;
+        skos:definition "Een tekening die de indeling van (de voorzijde of het binnenwerk van) een elektrische-apparatenkast weergeeft. (WP)"@nl ;
+        skos:prefLabel "Aanzichttekening"@nl .
 
     otl:Akte-doc a skos:Concept ;
         skos:broaderTransitive otl:Bewijs-doc ;
@@ -10416,6 +10807,11 @@ Het Rijkswaternet (HVWN/HWS) is samengesteld uit topografische eenheden of te we
         skos:definition "De combinatie van twee of meer verschillende zuivere stoffen zonder dat daarbij de moleculen hun identiteit verliezen."@nl ;
         skos:prefLabel "Mengsel"@nl .
 
+    otl:MentaleActiviteit a skos:Concept ;
+        skos:broaderTransitive nen2660-term:Activity ;
+        skos:definition "Activiteit die plaatsvindt of kan plaatsvinden binnen de geest (mind) van een mens."@nl ;
+        skos:prefLabel "Mentale activiteit"@nl .
+
     otl:Netwerknode a skos:Concept ;
         skos:broaderTransitive nen2660-term:SpatialRegion ;
         skos:definition "Netwerkelement dat het begin- of eindpunt vormt van een of meer netwerklinks."@nl ;
@@ -10466,6 +10862,11 @@ Het Rijkswaternet (HVWN/HWS) is samengesteld uit topografische eenheden of te we
         skos:definition "Eis waaraan een kapitaalgoed moet voldoen, uitgedrukt in meetbare eenheden."@nl ;
         skos:prefLabel "Prestatie Eis"@nl .
 
+    otl:Profieltekening-doc a skos:Concept ;
+        skos:broaderTransitive otl:Constructietekening-doc ;
+        skos:definition ""@nl ;
+        skos:prefLabel "Profieltekening"@nl .
+
     otl:Projectplan-doc a skos:Concept ;
         skos:broaderTransitive otl:Plan-doc ;
         skos:definition "Een plan op hoofdlijnen dat de belangrijkste producten van het project, de opleverdatum en de kosten weergeeft. Een initieel projectplan wordt gepresenteerd als onderdeel van de projectinitiatiedocumentatie. Het wordt bijgewerkt als er informatie over de werkelijke voortgang beschikbaar komt Het is een zeer belangrijk beheersdocument voor de stuurgroep om de werkelijke voortgang te kunnen meten ten opzichte van de verwachtingen. "@nl ;
@@ -10480,6 +10881,11 @@ Het Rijkswaternet (HVWN/HWS) is samengesteld uit topografische eenheden of te we
         skos:broaderTransitive nen2660-term:InformationObject ;
         skos:definition "Dat wat iets anders vertegenwoordigt."@nl ;
         skos:prefLabel "Representatie"@nl .
+
+    otl:Risicoanalyse-doc a skos:Concept ;
+        skos:broaderTransitive otl:Berekeningsrapport-doc ;
+        skos:definition ""@nl ;
+        skos:prefLabel "Risicoanalyse"@nl .
 
     otl:RuimtelijkPunt a skos:Concept ;
         skos:broaderTransitive nen2660-term:SpatialRegion ;
@@ -10496,6 +10902,11 @@ Het Rijkswaternet (HVWN/HWS) is samengesteld uit topografische eenheden of te we
         skos:definition "Document dat door de DG is ondertekend waarin de projectopdracht omschreven staat. Hierin staan de afspraken over geld en tijd. Maar ook staan de programmarisico's en uitgangspunten aangegeven."@nl ;
         skos:prefLabel "Scopeformulier"@nl .
 
+    otl:Softwareproductspecificatie-doc a skos:Concept ;
+        skos:broaderTransitive otl:Samenstelling-doc ;
+        skos:definition "De executeerbare software, de broncode en benodigde ondersteuningsinformatie"@nl ;
+        skos:prefLabel "Softwareproductspecificatie"@nl .
+
     otl:StandaardBeheersmaatregel a skos:Concept ;
         skos:broaderTransitive otl:Concepttype ;
         skos:definition "Veelvoorkomende beheersmaatregel voor een componenttype, gericht op het voorkomen van het optreden van een onzekere gebeurtenis of het beperken van de consequenties van een onzekere gebeurtenis."@nl ;
@@ -10505,6 +10916,11 @@ Het Rijkswaternet (HVWN/HWS) is samengesteld uit topografische eenheden of te we
         skos:broaderTransitive otl:Eis ;
         skos:definition "Eis die gesteld wordt aan het systeem."@nl ;
         skos:prefLabel "Systeemeis"@nl .
+
+    otl:TechnischOntwerp-doc a skos:Concept ;
+        skos:broaderTransitive otl:Ontwerp-doc ;
+        skos:definition "Beschrijft technische werking  van een object."@nl ;
+        skos:prefLabel "Technisch ontwerp"@nl .
 
     otl:Topkwaliteit a skos:Concept ;
         skos:broaderTransitive otl:Concepttype ;
@@ -10581,6 +10997,11 @@ Het Rijkswaternet (HVWN/HWS) is samengesteld uit topografische eenheden of te we
         skos:definition "Een chemische stof die een gelijke chemische samenstelling en herkenbare uniforme en isotrope eigenschappen heeft."@nl ;
         skos:prefLabel "Zuiverse stof"@nl .
 
+    otl:Activiteittoestand a skos:Concept ;
+        skos:broaderTransitive nen2660-term:State ;
+        skos:definition "Toestand van een activiteit gedurende een periode tussen twee uitvoeringsgebeurtenissen. Een activiteittoestand wordt gekenmerkt door de eigenschappen (met hun waarde) en relaties van de activiteit."@nl ;
+        skos:prefLabel "Activiteittoestand"@nl .
+
     otl:AdministratiefGebied a skos:Concept ;
         skos:broaderTransitive nen2660-term:SpatialRegion ;
         skos:definition "Niet tastbaar begrensd grondoppervlak dat als eenheid geldt voor bestuurlijke verantwoordelijkheid voor bedrijfsvoering waarbinnen een specifieke rechtsverhouding te onderscheiden is of waarvoor een specifieke functie of bestemming geldt. "@nl ;
@@ -10611,6 +11032,11 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:broaderTransitive otl:Planning-doc ;
         skos:definition "Controlelijst voor de gewenste inrichting of uitvoering. "@nl ;
         skos:prefLabel "Checklist"@nl .
+
+    otl:FysiekeActiviteit a skos:Concept ;
+        skos:broaderTransitive nen2660-term:Activity ;
+        skos:definition "Activiteit die plaatsvindt of kan plaatsvinden binnen de fysieke 4D ruimte-tijd. Een fysieke activiteit vormt een manifestatie en een afbakening van materie en/of energie."@nl ;
+        skos:prefLabel "Fysieke activiteit"@nl .
 
     otl:Gevolg a skos:Concept ;
         skos:broaderTransitive nen2660-term:Event ;
@@ -10678,7 +11104,7 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:prefLabel "Product"@nl .
 
     otl:Projectfase a skos:Concept ;
-        skos:broaderTransitive nen2660-term:ActivityState ;
+        skos:broaderTransitive otl:Activiteittoestand ;
         skos:definition "Project gedurende een periode tussen twee projectmijlpalen."@nl ;
         skos:prefLabel "Projectfase"@nl .
 
@@ -10697,19 +11123,19 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:definition "Een samenstelling is een geheel van onderdelen met een bepaald doel. Een samenstelling bestaat uit onderdelen. Een verzameling van samenstellingen vormt samen een kunstwerk, infrawerk, terrein of gebouw."@nl ;
         skos:prefLabel "Samenstelling"@nl .
 
+    otl:Stroomkringschema-doc a skos:Concept ;
+        skos:broaderTransitive otl:Samenhang-doc ;
+        skos:definition "Een stroomkringschema wordt getekend om een elektrische schakeling beter te begrijpen en om te zien hoeveel draden er bij te pas komen. "@nl ;
+        skos:prefLabel "Stroomkringschema"@nl .
+
     otl:Systeembeschrijving-doc a skos:Concept ;
         skos:broaderTransitive otl:Samenhang-doc ;
         skos:definition ""@nl ;
         skos:prefLabel "Systeembeschrijving"@nl .
 
-    otl:Testplan-doc a skos:Concept ;
-        skos:broaderTransitive otl:Plan-doc ;
-        skos:definition "Beschrijft plan om een testobject zoals een machine, een procedure, software of een combinatie daarvan te testen."@nl ;
-        skos:prefLabel "Testplan"@nl .
-
     otl:Testrapport-doc a skos:Concept ;
         skos:broaderTransitive otl:Rapport-doc ;
-        skos:definition "Document waarin de testresultaten, conclusies en aanbevelingen naar aanleiding van een test zijn vastgelegd."@nl ;
+        skos:definition "Testresultaten van kwalificatietesten van een systeem of software."@nl ;
         skos:prefLabel "Testrapport"@nl .
 
     otl:Vergunningsrol a skos:Concept ;
@@ -10732,11 +11158,6 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:definition ""@nl ;
         skos:prefLabel "Wegknoop"@nl .
 
-    otl:Werkinstructie-doc a skos:Concept ;
-        skos:broaderTransitive otl:Instructie-doc ;
-        skos:definition "Een document dat instructies bevat hoe een bepaalde onderhoudstaak uitgevoerd moet worden op een (groep van) asset(s)."@nl ;
-        skos:prefLabel "Werkinstructie"@nl .
-
     otl:Afspraak-doc a skos:Concept ;
         skos:broaderTransitive otl:Regeling-doc ;
         skos:definition "Gemeenschappelijk uitgangspunt van twee of meer partijen. "@nl ;
@@ -10751,11 +11172,6 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:broaderTransitive otl:Besluit-doc ;
         skos:definition "Beslissing van een persoon of organisatie die van specifieke strekking is, inhoudende een publiek- of privaatrechtelijke rechtshandeling. Hieronder vallen ook verlening, vernietiging, vaststelling en intrekking beschikkingen."@nl ;
         skos:prefLabel "Beschikking"@nl .
-
-    otl:BeschrijvingAlgemeen-doc a skos:Concept ;
-        skos:broaderTransitive otl:Vastlegging-doc ;
-        skos:definition ""@nl ;
-        skos:prefLabel "Beschrijving algemeen"@nl .
 
     otl:Besluit-doc a skos:Concept ;
         skos:broaderTransitive otl:Regeling-doc ;
@@ -10777,11 +11193,6 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:definition "Inspectie = (visueel) onderzoeken van conditie/staat van een object. Resulteert in score(s) voor deze conditie."@nl ;
         skos:prefLabel "Inspectierapport"@nl .
 
-    otl:Instructie-doc a skos:Concept ;
-        skos:broaderTransitive otl:Vastlegging-doc ;
-        skos:definition "Beschrijving van te volgen handelingen."@nl ;
-        skos:prefLabel "Instructie"@nl .
-
     otl:Middel a skos:Concept ;
         skos:broaderTransitive nen2660-term:DiscreteObject ;
         skos:definition "Standaard lijst met middelen dat gebruikt kan worden voor het uitvoeren van activiteiten. Zowel mensen als materieel."@nl ;
@@ -10802,11 +11213,6 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:definition "Juridische verhouding of relatie tussen partijen."@nl ;
         skos:prefLabel "Rechtsbetrekking"@nl .
 
-    otl:Samenstelling-doc a skos:Concept ;
-        skos:broaderTransitive otl:Vastlegging-doc ;
-        skos:definition "Beschrijft uit welke onderdelen een samengesteld object bestaat"@nl ;
-        skos:prefLabel "Samenstelling"@nl .
-
     otl:Sluis a skos:Concept ;
         skos:broaderTransitive otl:Kunstwerk ;
         skos:definition "Kunstwerk met een beweegbare waterkering, die de verbinding vormt tussen twee wateren met verschillende waterstanden. (bron: CROW 156)"@nl ;
@@ -10816,6 +11222,11 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:broaderTransitive nen2660-term:InformationObject ;
         skos:definition "Verzameling van twee of meer personen die met elkaar omgaan."@nl ;
         skos:prefLabel "Sociale groep"@nl .
+
+    otl:Testplan-doc a skos:Concept ;
+        skos:broaderTransitive otl:Plan-doc ;
+        skos:definition "Beschrijft plan om een testobject zoals een machine, een procedure, software of een combinatie daarvan te testen. Plan om de kwalificatietesten van een systeem of software uit te voeren."@nl ;
+        skos:prefLabel "Testplan"@nl .
 
     otl:Verhardingslaag a skos:Concept ;
         skos:broaderTransitive otl:Onderdeel ;
@@ -10827,6 +11238,11 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:definition ""@nl ;
         skos:prefLabel "Werking"@nl .
 
+    otl:Werkinstructie-doc a skos:Concept ;
+        skos:broaderTransitive otl:Instructie-doc ;
+        skos:definition "Een document dat instructies bevat hoe een bepaalde onderhoudstaak uitgevoerd moet worden op een (groep van) asset(s)."@nl ;
+        skos:prefLabel "Werkinstructie"@nl .
+
     otl:Berichtgeving-doc a skos:Concept ;
         skos:broaderTransitive otl:Document-doc ;
         skos:definition "Documenterend > Initiërend"@nl ;
@@ -10836,6 +11252,16 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:broaderTransitive otl:Beheersmaatregel ;
         skos:definition "Activiteit die moet worden uitgevoerd om een doelstelling te bereiken m.b.t. instandhouding van een asset."@nl ;
         skos:prefLabel "Instandhouding Beheersmaatregel"@nl .
+
+    otl:Instructie-doc a skos:Concept ;
+        skos:broaderTransitive otl:Vastlegging-doc ;
+        skos:definition "Beschrijving van te volgen handelingen."@nl ;
+        skos:prefLabel "Instructie"@nl .
+
+    otl:Objecttoestand a skos:Concept ;
+        skos:broaderTransitive nen2660-term:State ;
+        skos:definition "Toestand van een object gedurende een periode tussen twee transformatiegebeurtenissen. Een objecttoestand wordt gekenmerkt door de eigenschappen (met hun waarde) en relaties van het object."@nl ;
+        skos:prefLabel "Objecttoestand"@nl .
 
     otl:OngewensteGebeurtenis a skos:Concept ;
         skos:broaderTransitive nen2660-term:Event ;
@@ -10847,8 +11273,13 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:definition "Onzekere toekomstige gebeurtenis met negatieve consequenties voor het halen van de (project)doelstellingen."@nl ;
         skos:prefLabel "Risico"@nl .
 
+    otl:Samenstelling-doc a skos:Concept ;
+        skos:broaderTransitive otl:Vastlegging-doc ;
+        skos:definition "Beschrijft uit welke onderdelen een samengesteld object bestaat"@nl ;
+        skos:prefLabel "Samenstelling"@nl .
+
     otl:SocialeActiviteit a skos:Concept ;
-        skos:broaderTransitive nen2660-term:PhysicalActivity ;
+        skos:broaderTransitive otl:FysiekeActiviteit ;
         skos:definition "Activiteit van een persoon of groep van personen."@nl ;
         skos:prefLabel "Sociale activiteit"@nl .
 
@@ -10862,20 +11293,10 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:definition "Een contract is een formeel document dat twee of meer partijen bindt tot het nakomen van bepaalde afspraken of verplichtingen."@nl ;
         skos:prefLabel "Contract"@nl .
 
-    otl:Document-doc a skos:Concept ;
-        skos:broaderTransitive nen2660-term:InformationObject ;
-        skos:definition ""@nl ;
-        skos:prefLabel "Document"@nl .
-
     otl:Eis a skos:Concept ;
         skos:broaderTransitive nen2660-term:InformationObject ;
         skos:definition "Een regel die ergens voor moet gelden, gedefinieerd via zijn attributen of relaties."@nl ;
         skos:prefLabel "Eis"@nl .
-
-    otl:Gebruiksaanwijzing-doc a skos:Concept ;
-        skos:broaderTransitive otl:Instructie-doc ;
-        skos:definition "Beschrijving van de manier waarop een product of asset gebruikt moet worden."@nl ;
-        skos:prefLabel "Gebruiksaanwijzing"@nl .
 
     otl:Inspectie a skos:Concept ;
         skos:broaderTransitive otl:Observatie ;
@@ -10887,19 +11308,9 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:definition "Verplicht te hanteren norm of werkwijze, gericht op het beheersen van grote risico's voor RWS. Alleen met voorafgaand akkoord van de DG of proceseigenaar mag de kadergebruiker ervan afwijken."@nl ;
         skos:prefLabel "Kader"@nl .
 
-    otl:Meetrapport-doc a skos:Concept ;
-        skos:broaderTransitive otl:Rapport-doc ;
-        skos:definition "Verslag waarin de resultaten van een meting worden weegegeven."@nl ;
-        skos:prefLabel "Meetrapport"@nl .
-
-    otl:Ontwerp-doc a skos:Concept ;
-        skos:broaderTransitive otl:Plan-doc ;
-        skos:definition "Geschreven, getekend of op andere wijze gevisualiseerd plan, meestal aan anderen ter overweging aangeboden. "@nl ;
-        skos:prefLabel "Ontwerp"@nl .
-
     otl:Opdracht-doc a skos:Concept ;
         skos:broaderTransitive otl:Berichtgeving-doc ;
-        skos:definition "Document waaruit een bevel tot uitvoeren van een handeling blijkt"@nl ;
+        skos:definition "Document waaruit een bevel tot uitvoeren van een handeling blijkt."@nl ;
         skos:prefLabel "Opdracht"@nl .
 
     otl:VeiligheidGezondheidMilieu a skos:Concept ;
@@ -10914,7 +11325,7 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
 
     otl:Verzoek-doc a skos:Concept ;
         skos:broaderTransitive otl:Berichtgeving-doc ;
-        skos:definition "Document that initiates a defined course of action or change to fulfill a need"@nl ;
+        skos:definition "Document that initiates a defined course of action or change to fulfill a need."@nl ;
         skos:prefLabel "Verzoek"@nl .
 
     otl:Watersysteem a skos:Concept ;
@@ -10928,19 +11339,19 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:prefLabel "Weglink"@nl .
 
     otl:Beheersmaatregel a skos:Concept ;
-        skos:broaderTransitive nen2660-term:PhysicalActivity ;
+        skos:broaderTransitive otl:FysiekeActiviteit ;
         skos:definition "Activiteit die moet worden uitgevoerd om een doelstelling te bereiken."@nl ;
         skos:prefLabel "Beheersmaatregel"@nl .
 
-    otl:Certificaat-doc a skos:Concept ;
-        skos:broaderTransitive otl:Verklaring-doc ;
-        skos:definition "Een verklaring van een bevoegde instelling (bijv. overheid, certificeringsinstelling, onderwijsinstelling) die aangeeft dat een persoon, product, proces, dienst of systeem voldoet aan gestelde eisen. (hvo) ; Document dat bewijst dat aan vastgelegde specificaties is voldaan. (ABDL)"@nl ;
-        skos:prefLabel "Certificaat"@nl .
+    otl:BeschrijvingAlgemeen-doc a skos:Concept ;
+        skos:broaderTransitive otl:Vastlegging-doc ;
+        skos:definition ""@nl ;
+        skos:prefLabel "Beschrijving algemeen"@nl .
 
-    otl:Handleiding-doc a skos:Concept ;
-        skos:broaderTransitive otl:Instructie-doc ;
-        skos:definition "Beschrijving van de manier waarop een product of asset gebruiksklaar gemaakt moet worden. De inhoud van een handleiding kan betrekking hebben op assemblage, installatie, onderhoud, reparatie, kalibratrie, etc."@nl ;
-        skos:prefLabel "Handleiding"@nl .
+    otl:Document-doc a skos:Concept ;
+        skos:broaderTransitive nen2660-term:InformationObject ;
+        skos:definition ""@nl ;
+        skos:prefLabel "Document"@nl .
 
     otl:Verharding a skos:Concept ;
         skos:broaderTransitive otl:Hoofdconstructie ;
@@ -10962,6 +11373,11 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:definition ""@nl ;
         skos:prefLabel "Dossier"@nl .
 
+    otl:Gebruiksaanwijzing-doc a skos:Concept ;
+        skos:broaderTransitive otl:Instructie-doc ;
+        skos:definition "Beschrijving van de manier waarop een product of asset gebruikt moet worden."@nl ;
+        skos:prefLabel "Gebruiksaanwijzing"@nl .
+
     otl:Infrawerk a skos:Concept ;
         skos:broaderTransitive nen2660-term:DiscreteObject ;
         skos:definition "Een Infrawerk is een lijnvormige constructie voor vervoer en transport van personen, goederen, stoffen, energie en informatie, met inbegrip van de daarvan deel uitmakende infragebonden installaties."@nl ;
@@ -10971,11 +11387,6 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:broaderTransitive nen2660-term:InformationObject ;
         skos:definition "Verzameling van discrete objecten in het kader van aanleg of beheer en onderhoud."@nl ;
         skos:prefLabel "Objectgroep"@nl .
-
-    otl:PlanVanAanpak-doc a skos:Concept ;
-        skos:broaderTransitive otl:Plan-doc ;
-        skos:definition "Plan waarin is aangegeven hoe een handeling, object of dienst wordt ingericht en/of uitgevoerd. "@nl ;
-        skos:prefLabel "Plan van aanpak"@nl .
 
     otl:ProjectRisico a skos:Concept ;
         skos:broaderTransitive otl:Risico ;
@@ -10992,45 +11403,65 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:definition "Een metaconcept met concepten als instanties die attributen of relaties kunnen hebben."@nl ;
         skos:prefLabel "Concepttype"@nl .
 
-    otl:Constructietekening-doc a skos:Concept ;
-        skos:broaderTransitive otl:Constructie-doc ;
-        skos:definition "Een constructietekening is een tekening waarop de maatvoering van de onderdelen is weergegeven, zodat de desbetreffende onderdelen hiervan gefabriceerd zou kunnen worden. "@nl ;
-        skos:prefLabel "Constructietekening"@nl .
+    otl:Handleiding-doc a skos:Concept ;
+        skos:broaderTransitive otl:Instructie-doc ;
+        skos:definition "Beschrijving van de manier waarop een product of asset gebruiksklaar gemaakt moet worden. De inhoud van een handleiding kan betrekking hebben op assemblage, installatie, onderhoud, reparatie, kalibratrie, etc."@nl ;
+        skos:prefLabel "Handleiding"@nl .
+
+    otl:Meetrapport-doc a skos:Concept ;
+        skos:broaderTransitive otl:Rapport-doc ;
+        skos:definition "Verslag waarin de resultaten van een meting worden weegegeven."@nl ;
+        skos:prefLabel "Meetrapport"@nl .
+
+    otl:Ontwerp-doc a skos:Concept ;
+        skos:broaderTransitive otl:Plan-doc ;
+        skos:definition "Geschreven, getekend of op andere wijze gevisualiseerd plan, meestal aan anderen ter overweging aangeboden. "@nl ;
+        skos:prefLabel "Ontwerp"@nl .
 
     otl:Overeenkomst-doc a skos:Concept ;
         skos:broaderTransitive otl:Afspraak-doc ;
         skos:definition "Afspraak tussen twee partijen waarbij kenmerkend is dat men zich vooraf bindt aan de te leveren prestaties. "@nl ;
         skos:prefLabel "Overeenkomst"@nl .
 
+    otl:Uncategorized-doc a skos:Concept ;
+        skos:broaderTransitive otl:Document-doc ;
+        skos:definition ""@nl ;
+        skos:prefLabel "_Uncategorized"@nl .
+
     otl:VeiligheidBeheersmaatregel a skos:Concept ;
         skos:broaderTransitive otl:Beheersmaatregel ;
         skos:definition "Activiteit die moet worden uitgevoerd om een doelstelling te bereiken m.b.t. veiligheid."@nl ;
         skos:prefLabel "Veiligheid Beheersmaatregel"@nl .
 
-    otl:Berekeningsrapport-doc a skos:Concept ;
-        skos:broaderTransitive otl:Rapport-doc ;
-        skos:definition "Cijfermatige onderbouwing van werking of eigenschappen van systemen of processen. Een berekening kan een onderdeel zijn van een analyse."@nl ;
-        skos:prefLabel "Berekeningsrapport"@nl .
+    otl:Certificaat-doc a skos:Concept ;
+        skos:broaderTransitive otl:Verklaring-doc ;
+        skos:definition "Een verklaring van een bevoegde instelling (bijv. overheid, certificeringsinstelling, onderwijsinstelling) die aangeeft dat een persoon, product, proces, dienst of systeem voldoet aan gestelde eisen. (hvo) ; Document dat bewijst dat aan vastgelegde specificaties is voldaan. (ABDL)"@nl ;
+        skos:prefLabel "Certificaat"@nl .
+
+    otl:Constructietekening-doc a skos:Concept ;
+        skos:broaderTransitive otl:Constructie-doc ;
+        skos:definition "Een constructietekening is een tekening waarop de maatvoering van de onderdelen is weergegeven, zodat de desbetreffende onderdelen hiervan gefabriceerd zou kunnen worden. "@nl ;
+        skos:prefLabel "Constructietekening"@nl .
 
     otl:Medewerker a skos:Concept ;
         skos:broaderTransitive otl:SocialeRol ;
         skos:definition "Persoon die samen met anderen in een bedrijf of organisatie werkt om een gezamenlijk doel te bereiken. Er kan wel of niet sprake zijn van een arbeidsovereenkomst."@nl ;
         skos:prefLabel "Medewerker"@nl .
 
-    otl:Configuratieschema-doc a skos:Concept ;
-        skos:broaderTransitive otl:Samenhang-doc ;
-        skos:definition "Een schema dat op vereenvoudigde wijze de technische of functionele  samenhang tussen (deel)installaties weergeeft en de globale samenstelling of werking verklaart."@nl ;
-        skos:prefLabel "Configuratieschema"@nl .
+    otl:PlanVanAanpak-doc a skos:Concept ;
+        skos:broaderTransitive otl:Plan-doc ;
+        skos:definition "Plan waarin is aangegeven hoe een handeling, object of dienst wordt ingericht en/of uitgevoerd. "@nl ;
+        skos:prefLabel "Plan van aanpak"@nl .
 
     otl:Systeemaspect a skos:Concept ;
         skos:broaderTransitive otl:Concepttype ;
         skos:definition "Specifieke eigenschap van het (te ontwikkelen) systeem."@nl ;
         skos:prefLabel "Systeemaspect"@nl .
 
-    otl:Specificatie-doc a skos:Concept ;
-        skos:broaderTransitive otl:Plan-doc ;
-        skos:definition "Document met daarin de verzameling geordende eisen en beschrijving van de beschikbare oplossingsruimte dan wel de gekozen oplossing met de oplossingsmarge die geldt voor een systeem (product of dienst)."@nl ;
-        skos:prefLabel "Specificatie"@nl .
+    otl:Configuratieschema-doc a skos:Concept ;
+        skos:broaderTransitive otl:Samenhang-doc ;
+        skos:definition "Een schema dat op vereenvoudigde wijze de technische of functionele  samenhang tussen (deel)installaties weergeeft en de globale samenstelling of werking verklaart."@nl ;
+        skos:prefLabel "Configuratieschema"@nl .
 
     otl:Veiligheid a skos:Concept ;
         skos:broaderTransitive otl:Systeemaspect ;
@@ -11042,15 +11473,25 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:definition "Een rapport is een verslaglegging van een activiteit, gebeurtenis of toestand. (WP)"@nl ;
         skos:prefLabel "Rapport"@nl .
 
-    otl:Vastlegging-doc a skos:Concept ;
-        skos:broaderTransitive otl:Document-doc ;
-        skos:definition "Documenterend > Concluderend"@nl ;
-        skos:prefLabel "Vastlegging"@nl .
+    otl:Berekeningsrapport-doc a skos:Concept ;
+        skos:broaderTransitive otl:Rapport-doc ;
+        skos:definition "Cijfermatige onderbouwing van werking of eigenschappen van systemen of processen. Een berekening kan een onderdeel zijn van een analyse."@nl ;
+        skos:prefLabel "Berekeningsrapport"@nl .
 
     otl:Inspectiemethode a skos:Concept ;
         skos:broaderTransitive otl:Methode ;
         skos:definition "De wijze waarop een inspectie wordt uitgevoerd."@nl ;
         skos:prefLabel "Inspectiemethode"@nl .
+
+    otl:Vastlegging-doc a skos:Concept ;
+        skos:broaderTransitive otl:Document-doc ;
+        skos:definition "Documenterend > Concluderend"@nl ;
+        skos:prefLabel "Vastlegging"@nl .
+
+    otl:Specificatie-doc a skos:Concept ;
+        skos:broaderTransitive otl:Plan-doc ;
+        skos:definition "Document met daarin de verzameling geordende eisen en beschrijving van de beschikbare oplossingsruimte dan wel de gekozen oplossing met de oplossingsmarge die geldt voor een systeem (product of dienst)."@nl ;
+        skos:prefLabel "Specificatie"@nl .
 
     otl:Crisisrol a skos:Concept ;
         skos:broaderTransitive otl:Medewerker ;
@@ -11062,11 +11503,6 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:definition "Beschrijving van waar objecten zich in een ruimte bevinden."@nl ;
         skos:prefLabel "Ruimtelijke indeling"@nl .
 
-    otl:Samenhang-doc a skos:Concept ;
-        skos:broaderTransitive otl:Vastlegging-doc ;
-        skos:definition "Beschrijft de samenhang tussen onderdelen vanb een samengesteld object of onderdeel. Functionele en materiële eigenschappen van een product (of dienst), zoals omschreven in technische documentatie en gerealiseerd in het product (of dienst). (bron: Leidraad voor Systems Engineering (SE) in de GWW sector) ; "@nl ;
-        skos:prefLabel "Samenhang"@nl .
-
     otl:Onderzoeksrapport-doc a skos:Concept ;
         skos:broaderTransitive otl:Rapport-doc ;
         skos:definition "Rapport waarin verslag wordt gedaan van een onderzoek  of analyse. Dit kan betrekking hebben op onderzoeks- of analysemethode, aanpak, bevindingen, resultaten en conclusies."@nl ;
@@ -11076,6 +11512,11 @@ B. Verwachte fractie van de totale tijd dat een systeem, onder gegeven omstandig
         skos:broaderTransitive nen2660-term:DiscreteObject ;
         skos:definition "Een Kunstwerk is een constructie van enige omvang van hout, steen, metaal of ander materiaal, die op de plaats van bestemming hetzij direct hetzij indirect met de grond verbonden is, hetzij direct of indirect steun vindt in of op de grond, bedoeld om ter plaatse te functioneren. Een kunstwerk is niet bestemd en/of ingericht voor menselijk verblijf, arbeid, installaties of handel. De constructie is in dezelfde tijd gecreëerd."@nl ;
         skos:prefLabel "Kunstwerk"@nl .
+
+    otl:Samenhang-doc a skos:Concept ;
+        skos:broaderTransitive otl:Vastlegging-doc ;
+        skos:definition "Beschrijft de samenhang tussen onderdelen vanb een samengesteld object of onderdeel. Functionele en materiële eigenschappen van een product (of dienst), zoals omschreven in technische documentatie en gerealiseerd in het product (of dienst). (bron: Leidraad voor Systems Engineering (SE) in de GWW sector) ; "@nl ;
+        skos:prefLabel "Samenhang"@nl .
 
     otl:Plan-doc a skos:Concept ;
         skos:broaderTransitive otl:Planning-doc ;
