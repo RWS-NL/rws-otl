@@ -1,0 +1,485 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix otl: <https://data.rws.nl/def/otl/> .
+@prefix otl-patroon: <https://data.rws.nl/def/otl-patroon/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+otl:graaf-ib-nwsp-soll {
+    otl-patroon:AssetRisico a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept AssetRisico binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Assetrisico"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:risiconiveau ],
+            [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:Belanghebbende a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Belanghebbende binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Belanghebbende"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:CorrectiefOnderhoud a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept CorrectiefOnderhoud binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Correctief Onderhoud"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:urgentie ] .
+
+    otl-patroon:District a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept District binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "District"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Faalgevolg a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Faalgevolg binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Faalgevolg"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:beschikbaarheidsscore ],
+            [ sh:minCount 1 ;
+                sh:path otl:beveiligingsscore ],
+            [ sh:minCount 1 ;
+                sh:path otl:gezondheidsscore ],
+            [ sh:minCount 1 ;
+                sh:path otl:Imagoscore ],
+            [ sh:minCount 1 ;
+                sh:path otl:kostenscore ],
+            [ sh:minCount 1 ;
+                sh:path otl:omgevingMilieuscore ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderhoudbaarheidsscore ],
+            [ sh:minCount 1 ;
+                sh:path otl:veiligheidsscore ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Faaloorzaak a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Faaloorzaak binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Faaloorzaak"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bronVanFalen ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalgedrag ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Faalwijze a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Faalwijze binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Faalwijze"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:kansscore ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:FunctioneleInspectieEnTesten a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept FunctioneleInspectieEnTesten binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Functionele Inspectie en Testen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeEinddatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeStartdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isWettelijkVerplicht ],
+            [ sh:minCount 0 ;
+                sh:path otl:onderbouwingVerwachteKosten ] .
+
+    otl-patroon:FunctioneleTest a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept FunctioneleTest binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Functionele Test"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeEinddatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeStartdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isWettelijkVerplicht ],
+            [ sh:minCount 0 ;
+                sh:path otl:onderbouwingVerwachteKosten ] .
+
+    otl-patroon:FunctioneleToestand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept FunctioneleToestand binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Functionele Toestand"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:score ],
+            [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:FysiekeToestand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept FysiekeToestand binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Fysieke Toestand"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bovengrensNiveau ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:ondergrensNiveau ],
+            [ sh:minCount 1 ;
+                sh:path otl:score ],
+            [ sh:minCount 1 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:Hoofdfunctie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Hoofdfunctie binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Hoofdfunctie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Hoofdsysteem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Hoofdsysteem binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Hoofdsysteem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Inspectie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Inspectie binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Inspectie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeEinddatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeStartdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isWettelijkVerplicht ],
+            [ sh:minCount 0 ;
+                sh:path otl:onderbouwingVerwachteKosten ] .
+
+    otl-patroon:Kanaal a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kanaal binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Kanaal"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Klanteis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Klanteis binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Klanteis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:hardheid ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:statusHonorering ],
+            [ sh:minCount 1 ;
+                sh:path otl:thema ],
+            [ sh:minCount 1 ;
+                sh:path otl:verantwoordelijkePersoon ] .
+
+    otl-patroon:Klantvraag a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Klantvraag binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Klantvraag"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:thema ] .
+
+    otl-patroon:Meer a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Meer binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Meer"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Middel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Middel binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Middel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:aantal ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 0 ;
+                sh:path otl:toelichting ] .
+
+    otl-patroon:Modificatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Modificatie binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Modificatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ] .
+
+    otl-patroon:Netwerk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Netwerk binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Netwerk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Personeelscapaciteit a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Personeelscapaciteit binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Personeelscapaciteit"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:jaartal ],
+            [ sh:minCount 1 ;
+                sh:path otl:personeleInzet ] .
+
+    otl-patroon:Prestatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Prestatie binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Prestatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ] .
+
+    otl-patroon:PreventiefOnderhoud a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept PreventiefOnderhoud binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Preventief Onderhoud"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ],
+            [ sh:minCount 0 ;
+                sh:path otl:aangepasteUiterstJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:berekendeJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeEinddatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeStartdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:invoerdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isHandmatigToegevoegd ],
+            [ sh:minCount 1 ;
+                sh:path otl:isWettelijkVerplicht ],
+            [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 0 ;
+                sh:path otl:offset ],
+            [ sh:minCount 0 ;
+                sh:path otl:onderbouwingVerwachteKosten ] .
+
+    otl-patroon:Project a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Project binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Project"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumRealisatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:doel ],
+            [ sh:minCount 1 ;
+                sh:path otl:jaartal ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:scope ] .
+
+    otl-patroon:Regio a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Regio binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Regio"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ] .
+
+    otl-patroon:Rivier a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Rivier binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Rivier"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:StandaardBeheersmaatregelVariabel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept StandaardBeheersmaatregelVariabel binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Standaard Beheersmaatregel Variabel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:elementType ],
+            [ sh:minCount 1 ;
+                sh:path otl:interval ],
+            [ sh:minCount 1 ;
+                sh:path otl:isWettelijkVerplicht ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderdeeltype ] .
+
+    otl-patroon:StandaardBeheersmaatregelVast a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept StandaardBeheersmaatregelVast binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Standaard Beheersmaatregel Vast"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:elementType ],
+            [ sh:minCount 1 ;
+                sh:path otl:interval ],
+            [ sh:minCount 1 ;
+                sh:path otl:isWettelijkVerplicht ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderdeeltype ] .
+
+    otl-patroon:StandaardVerzorgendOnderhoud a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept StandaardVerzorgendOnderhoud binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Standaard Verzorgend Onderhoud"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:projectnaam ],
+            [ sh:minCount 0 ;
+                sh:path otl:uitersteJaarVanUitvoering ],
+            [ sh:minCount 0 ;
+                sh:path otl:aangepasteUiterstJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeEinddatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeStartdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:invoerdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isHandmatigToegevoegd ],
+            [ sh:minCount 1 ;
+                sh:path otl:isWettelijkVerplicht ],
+            [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 0 ;
+                sh:path otl:offset ],
+            [ sh:minCount 0 ;
+                sh:path otl:onderbouwingVerwachteKosten ] .
+
+    otl-patroon:Systeem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Systeem binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Systeem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Systeemdeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Systeemdeel binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Systeemdeel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:TechnischeFunctie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept TechnischeFunctie binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "TechnischeFunctie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Verbetervoorstel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Verbetervoorstel binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Verbetervoorstel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:projectnaam ] .
+
+    otl-patroon:WaterEnWatergangLijnvormig a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept WaterEnWatergangLijnvormig binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Water en watergang lijnvormig"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:WaterEnWatergangNietLijnvormig a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept WaterEnWatergangNietLijnvormig binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Water en watergang niet lijnvormig"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
+
+    otl-patroon:Zee a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Zee binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Zee"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
+
+    otl:graaf-ib-nwsp-soll a owl:Ontology ;
+        dct:created "2024-10-15"^^xsd:date ;
+        dct:description "Het informatiemodel voor informatieproduct 'nwsp-soll' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
+        dct:title "IB voor informatieproduct 'nwsp-soll'"@nl ;
+        pav:derivedFrom "IB RWS Release 29.0" ;
+        pav:version "Release 29.0" ;
+        owl:imports pav:,
+            otl:graaf-informatiemodel .
+}
+

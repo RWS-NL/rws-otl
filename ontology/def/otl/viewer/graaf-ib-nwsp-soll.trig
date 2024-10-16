@@ -1,0 +1,1136 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix otl: <https://data.rws.nl/def/otl/> .
+@prefix otl-patroon: <https://data.rws.nl/def/otl-patroon/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+otl:graaf-ib-nwsp-soll {
+    otl-patroon:AssetRisico a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept AssetRisico binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Assetrisico"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:risiconiveau ],
+            [ sh:minCount 1 ;
+                sh:path otl:toelichting ],
+            otl-patroon:risiconiveau-string-restrictie,
+            otl-patroon:toelichting-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/AssetRisico>
+            }""" ] .
+
+    otl-patroon:Belanghebbende a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Belanghebbende binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Belanghebbende"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:toelichting ],
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:toelichting-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Belanghebbende>
+            }""" ] .
+
+    otl-patroon:CorrectiefOnderhoud a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept CorrectiefOnderhoud binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Correctief Onderhoud"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:urgentie ],
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie,
+            otl-patroon:projectnaam-string-restrictie,
+            otl-patroon:urgentie-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/CorrectiefOnderhoud>
+            }""" ] .
+
+    otl-patroon:District a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept District binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "District"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/District>
+            }""" ] .
+
+    otl-patroon:Faalgevolg a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Faalgevolg binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Faalgevolg"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:beschikbaarheidsscore ],
+            [ sh:minCount 1 ;
+                sh:path otl:beveiligingsscore ],
+            [ sh:minCount 1 ;
+                sh:path otl:gezondheidsscore ],
+            [ sh:minCount 1 ;
+                sh:path otl:Imagoscore ],
+            [ sh:minCount 1 ;
+                sh:path otl:kostenscore ],
+            [ sh:minCount 1 ;
+                sh:path otl:omgevingMilieuscore ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderhoudbaarheidsscore ],
+            [ sh:minCount 1 ;
+                sh:path otl:veiligheidsscore ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            otl-patroon:Imagoscore-gevolgscore-restrictie,
+            otl-patroon:beschikbaarheidsscore-gevolgscore-restrictie,
+            otl-patroon:beveiligingsscore-gevolgscore-restrictie,
+            otl-patroon:gezondheidsscore-gevolgscore-restrictie,
+            otl-patroon:kostenscore-gevolgscore-restrictie,
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omgevingMilieuscore-gevolgscore-restrictie,
+            otl-patroon:omschrijving-string-restrictie,
+            otl-patroon:onderhoudbaarheidsscore-gevolgscore-restrictie,
+            otl-patroon:veiligheidsscore-gevolgscore-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Faalgevolg>
+            }""" ] .
+
+    otl-patroon:Faaloorzaak a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Faaloorzaak binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Faaloorzaak"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bronVanFalen ],
+            [ sh:minCount 1 ;
+                sh:path otl:faalgedrag ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            otl-patroon:bronVanFalen-string-restrictie,
+            otl-patroon:faalgedrag-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Faaloorzaak>
+            }""" ] .
+
+    otl-patroon:Faalwijze a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Faalwijze binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Faalwijze"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:kansscore ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            otl-patroon:kansscore-kansscore-restrictie,
+            otl-patroon:omschrijving-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Faalwijze>
+            }""" ] .
+
+    otl-patroon:FunctioneleInspectieEnTesten a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept FunctioneleInspectieEnTesten binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Functionele Inspectie en Testen"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeEinddatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeStartdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isWettelijkVerplicht ],
+            [ sh:minCount 0 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            otl-patroon:adviesjaarUitvoering-adviesjaarUitvoering-restrictie,
+            otl-patroon:geplandeEinddatum-date-restrictie,
+            otl-patroon:geplandeJaarUitvoering-gYear-restrictie,
+            otl-patroon:geplandeStartdatum-date-restrictie,
+            otl-patroon:isWettelijkVerplicht-boolean-restrictie,
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie,
+            otl-patroon:onderbouwingVerwachteKosten-string-restrictie,
+            otl-patroon:projectnaam-string-restrictie,
+            otl-patroon:uitersteJaarVanUitvoering-uitersteJaarVanUitvoering-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/FunctioneleInspectieEnTesten>
+            }""" ] .
+
+    otl-patroon:FunctioneleTest a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept FunctioneleTest binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Functionele Test"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeEinddatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeStartdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isWettelijkVerplicht ],
+            [ sh:minCount 0 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            otl-patroon:adviesjaarUitvoering-adviesjaarUitvoering-restrictie,
+            otl-patroon:geplandeEinddatum-date-restrictie,
+            otl-patroon:geplandeJaarUitvoering-gYear-restrictie,
+            otl-patroon:geplandeStartdatum-date-restrictie,
+            otl-patroon:isWettelijkVerplicht-boolean-restrictie,
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie,
+            otl-patroon:onderbouwingVerwachteKosten-string-restrictie,
+            otl-patroon:projectnaam-string-restrictie,
+            otl-patroon:uitersteJaarVanUitvoering-uitersteJaarVanUitvoering-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/FunctioneleTest>
+            }""" ] .
+
+    otl-patroon:FunctioneleToestand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept FunctioneleToestand binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Functionele Toestand"@nl ;
+        sh:property [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:score ],
+            [ sh:minCount 1 ;
+                sh:path otl:toelichting ],
+            otl-patroon:omschrijving-string-restrictie,
+            otl-patroon:score-decimal-restrictie,
+            otl-patroon:toelichting-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/FunctioneleToestand>
+            }""" ] .
+
+    otl-patroon:FysiekeToestand a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept FysiekeToestand binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Fysieke Toestand"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:bovengrensNiveau ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:ondergrensNiveau ],
+            [ sh:minCount 1 ;
+                sh:path otl:score ],
+            [ sh:minCount 1 ;
+                sh:path otl:toelichting ],
+            otl-patroon:bovengrensNiveau-decimal-restrictie,
+            otl-patroon:omschrijving-string-restrictie,
+            otl-patroon:ondergrensNiveau-decimal-restrictie,
+            otl-patroon:score-decimal-restrictie,
+            otl-patroon:toelichting-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/FysiekeToestand>
+            }""" ] .
+
+    otl-patroon:Hoofdfunctie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Hoofdfunctie binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Hoofdfunctie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Hoofdfunctie>
+            }""" ] .
+
+    otl-patroon:Hoofdsysteem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Hoofdsysteem binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Hoofdsysteem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Hoofdsysteem>
+            }""" ] .
+
+    otl-patroon:Inspectie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Inspectie binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Inspectie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeEinddatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeStartdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isWettelijkVerplicht ],
+            [ sh:minCount 0 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            otl-patroon:adviesjaarUitvoering-adviesjaarUitvoering-restrictie,
+            otl-patroon:geplandeEinddatum-date-restrictie,
+            otl-patroon:geplandeJaarUitvoering-gYear-restrictie,
+            otl-patroon:geplandeStartdatum-date-restrictie,
+            otl-patroon:isWettelijkVerplicht-boolean-restrictie,
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie,
+            otl-patroon:onderbouwingVerwachteKosten-string-restrictie,
+            otl-patroon:projectnaam-string-restrictie,
+            otl-patroon:uitersteJaarVanUitvoering-uitersteJaarVanUitvoering-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Inspectie>
+            }""" ] .
+
+    otl-patroon:Kanaal a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kanaal binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Kanaal"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Kanaal>
+            }""" ] .
+
+    otl-patroon:Klanteis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Klanteis binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Klanteis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:hardheid ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:statusHonorering ],
+            [ sh:minCount 1 ;
+                sh:path otl:thema ],
+            [ sh:minCount 1 ;
+                sh:path otl:verantwoordelijkePersoon ],
+            otl-patroon:hardheid-string-restrictie,
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie,
+            otl-patroon:statusHonorering-string-restrictie,
+            otl-patroon:thema-string-restrictie,
+            otl-patroon:verantwoordelijkePersoon-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Klanteis>
+            }""" ] .
+
+    otl-patroon:Klantvraag a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Klantvraag binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Klantvraag"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:thema ],
+            otl-patroon:omschrijving-string-restrictie,
+            otl-patroon:thema-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Klantvraag>
+            }""" ] .
+
+    otl-patroon:Meer a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Meer binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Meer"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Meer>
+            }""" ] .
+
+    otl-patroon:Middel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Middel binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Middel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:aantal ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 0 ;
+                sh:path otl:toelichting ],
+            otl-patroon:aantal-positiveInteger-restrictie,
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie,
+            otl-patroon:toelichting-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Middel>
+            }""" ] .
+
+    otl-patroon:Modificatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Modificatie binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Modificatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            otl-patroon:adviesjaarUitvoering-adviesjaarUitvoering-restrictie,
+            otl-patroon:geplandeJaarUitvoering-gYear-restrictie,
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie,
+            otl-patroon:projectnaam-string-restrictie,
+            otl-patroon:uitersteJaarVanUitvoering-uitersteJaarVanUitvoering-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Modificatie>
+            }""" ] .
+
+    otl-patroon:Netwerk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Netwerk binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Netwerk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Netwerk>
+            }""" ] .
+
+    otl-patroon:Personeelscapaciteit a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Personeelscapaciteit binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Personeelscapaciteit"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:jaartal ],
+            [ sh:minCount 1 ;
+                sh:path otl:personeleInzet ],
+            otl-patroon:jaartal-gYear-restrictie,
+            otl-patroon:personeleInzet-decimal-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Personeelscapaciteit>
+            }""" ] .
+
+    otl-patroon:Prestatie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Prestatie binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Prestatie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:waarde ],
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:waarde-decimal-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Prestatie>
+            }""" ] .
+
+    otl-patroon:PreventiefOnderhoud a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept PreventiefOnderhoud binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Preventief Onderhoud"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:projectnaam ],
+            [ sh:minCount 1 ;
+                sh:path otl:uitersteJaarVanUitvoering ],
+            [ sh:minCount 0 ;
+                sh:path otl:aangepasteUiterstJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:berekendeJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeEinddatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeStartdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:invoerdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isHandmatigToegevoegd ],
+            [ sh:minCount 1 ;
+                sh:path otl:isWettelijkVerplicht ],
+            [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 0 ;
+                sh:path otl:offset ],
+            [ sh:minCount 0 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            otl-patroon:aangepasteUiterstJaarVanUitvoering-gYear-restrictie,
+            otl-patroon:adviesjaarUitvoering-adviesjaarUitvoering-restrictie,
+            otl-patroon:berekendeJaarVanUitvoering-gYear-restrictie,
+            otl-patroon:geplandeEinddatum-date-restrictie,
+            otl-patroon:geplandeJaarUitvoering-gYear-restrictie,
+            otl-patroon:geplandeStartdatum-date-restrictie,
+            otl-patroon:invoerdatum-date-restrictie,
+            otl-patroon:isHandmatigToegevoegd-boolean-restrictie,
+            otl-patroon:isWettelijkVerplicht-boolean-restrictie,
+            otl-patroon:minimumleeftijd-minimumleeftijd-restrictie,
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:offset-duration-restrictie,
+            otl-patroon:omschrijving-string-restrictie,
+            otl-patroon:onderbouwingVerwachteKosten-string-restrictie,
+            otl-patroon:projectnaam-string-restrictie,
+            otl-patroon:uitersteJaarVanUitvoering-uitersteJaarVanUitvoering-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/PreventiefOnderhoud>
+            }""" ] .
+
+    otl-patroon:Project a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Project binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Project"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:datumRealisatie ],
+            [ sh:minCount 1 ;
+                sh:path otl:doel ],
+            [ sh:minCount 1 ;
+                sh:path otl:jaartal ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:scope ],
+            otl-patroon:datumRealisatie-date-restrictie,
+            otl-patroon:doel-string-restrictie,
+            otl-patroon:jaartal-gYear-restrictie,
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:scope-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Project>
+            }""" ] .
+
+    otl-patroon:Regio a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Regio binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Regio"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Regio>
+            }""" ] .
+
+    otl-patroon:Rivier a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Rivier binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Rivier"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Rivier>
+            }""" ] .
+
+    otl-patroon:StandaardBeheersmaatregelVariabel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept StandaardBeheersmaatregelVariabel binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Standaard Beheersmaatregel Variabel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:elementType ],
+            [ sh:minCount 1 ;
+                sh:path otl:interval ],
+            [ sh:minCount 1 ;
+                sh:path otl:isWettelijkVerplicht ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderdeeltype ],
+            otl-patroon:elementType-string-restrictie,
+            otl-patroon:interval-duration-restrictie,
+            otl-patroon:isWettelijkVerplicht-boolean-restrictie,
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie,
+            otl-patroon:onderdeeltype-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/StandaardBeheersmaatregelVariabel>
+            }""" ] .
+
+    otl-patroon:StandaardBeheersmaatregelVast a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept StandaardBeheersmaatregelVast binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Standaard Beheersmaatregel Vast"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:elementType ],
+            [ sh:minCount 1 ;
+                sh:path otl:interval ],
+            [ sh:minCount 1 ;
+                sh:path otl:isWettelijkVerplicht ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:onderdeeltype ],
+            otl-patroon:elementType-string-restrictie,
+            otl-patroon:interval-duration-restrictie,
+            otl-patroon:isWettelijkVerplicht-boolean-restrictie,
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie,
+            otl-patroon:onderdeeltype-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/StandaardBeheersmaatregelVast>
+            }""" ] .
+
+    otl-patroon:StandaardVerzorgendOnderhoud a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept StandaardVerzorgendOnderhoud binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Standaard Verzorgend Onderhoud"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:adviesjaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:projectnaam ],
+            [ sh:minCount 0 ;
+                sh:path otl:uitersteJaarVanUitvoering ],
+            [ sh:minCount 0 ;
+                sh:path otl:aangepasteUiterstJaarVanUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeEinddatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:minCount 1 ;
+                sh:path otl:geplandeStartdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:invoerdatum ],
+            [ sh:minCount 1 ;
+                sh:path otl:isHandmatigToegevoegd ],
+            [ sh:minCount 1 ;
+                sh:path otl:isWettelijkVerplicht ],
+            [ sh:minCount 1 ;
+                sh:path otl:minimumleeftijd ],
+            [ sh:minCount 0 ;
+                sh:path otl:offset ],
+            [ sh:minCount 0 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            otl-patroon:aangepasteUiterstJaarVanUitvoering-gYear-restrictie,
+            otl-patroon:adviesjaarUitvoering-adviesjaarUitvoering-restrictie,
+            otl-patroon:geplandeEinddatum-date-restrictie,
+            otl-patroon:geplandeJaarUitvoering-gYear-restrictie,
+            otl-patroon:geplandeStartdatum-date-restrictie,
+            otl-patroon:invoerdatum-date-restrictie,
+            otl-patroon:isHandmatigToegevoegd-boolean-restrictie,
+            otl-patroon:isWettelijkVerplicht-boolean-restrictie,
+            otl-patroon:minimumleeftijd-minimumleeftijd-restrictie,
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:offset-duration-restrictie,
+            otl-patroon:omschrijving-string-restrictie,
+            otl-patroon:onderbouwingVerwachteKosten-string-restrictie,
+            otl-patroon:projectnaam-string-restrictie,
+            otl-patroon:uitersteJaarVanUitvoering-uitersteJaarVanUitvoering-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/StandaardVerzorgendOnderhoud>
+            }""" ] .
+
+    otl-patroon:Systeem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Systeem binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Systeem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Systeem>
+            }""" ] .
+
+    otl-patroon:Systeemdeel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Systeemdeel binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Systeemdeel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Systeemdeel>
+            }""" ] .
+
+    otl-patroon:TechnischeFunctie a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept TechnischeFunctie binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "TechnischeFunctie"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:omschrijving ],
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/TechnischeFunctie>
+            }""" ] .
+
+    otl-patroon:Verbetervoorstel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Verbetervoorstel binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Verbetervoorstel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            [ sh:minCount 1 ;
+                sh:path otl:projectnaam ],
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie,
+            otl-patroon:projectnaam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Verbetervoorstel>
+            }""" ] .
+
+    otl-patroon:WaterEnWatergangLijnvormig a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept WaterEnWatergangLijnvormig binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Water en watergang lijnvormig"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WaterEnWatergangLijnvormig>
+            }""" ] .
+
+    otl-patroon:WaterEnWatergangNietLijnvormig a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept WaterEnWatergangNietLijnvormig binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Water en watergang niet lijnvormig"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WaterEnWatergangNietLijnvormig>
+            }""" ] .
+
+    otl-patroon:Zee a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Zee binnen de context van informatieproduct nwsp-soll"@nl ;
+        sh:name "Zee"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 0 ;
+                sh:path otl:omschrijving ],
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:omschrijving-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Zee>
+            }""" ] .
+
+    otl:graaf-ib-nwsp-soll a owl:Ontology ;
+        dct:created "2024-10-15"^^xsd:date ;
+        dct:description "Het informatiemodel voor informatieproduct 'nwsp-soll' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
+        dct:title "IB voor informatieproduct 'nwsp-soll'"@nl ;
+        pav:derivedFrom "IB RWS Release 29.0" ;
+        pav:version "Release 29.0" ;
+        owl:imports pav:,
+            sh: .
+
+    otl-patroon:Imagoscore-gevolgscore-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:positiveInteger ;
+        sh:description "Imagoscore patroon met gevolgscore restrictie"@nl ;
+        sh:in ( "1" "2" "3" "4" ) ;
+        sh:name "Imagoscore"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:Imagoscore .
+
+    otl-patroon:aantal-positiveInteger-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:positiveInteger ;
+        sh:description "aantal patroon met positiveInteger restrictie"@nl ;
+        sh:name "aantal"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:aantal .
+
+    otl-patroon:berekendeJaarVanUitvoering-gYear-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:gYear ;
+        sh:description "berekendeJaarVanUitvoering patroon met gYear restrictie"@nl ;
+        sh:name "berekendeJaarVanUitvoering"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:berekendeJaarVanUitvoering .
+
+    otl-patroon:beschikbaarheidsscore-gevolgscore-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:positiveInteger ;
+        sh:description "beschikbaarheidsscore patroon met gevolgscore restrictie"@nl ;
+        sh:in ( "1" "2" "3" "4" ) ;
+        sh:name "beschikbaarheidsscore"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:beschikbaarheidsscore .
+
+    otl-patroon:beveiligingsscore-gevolgscore-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:positiveInteger ;
+        sh:description "beveiligingsscore patroon met gevolgscore restrictie"@nl ;
+        sh:in ( "1" "2" "3" "4" ) ;
+        sh:name "beveiligingsscore"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:beveiligingsscore .
+
+    otl-patroon:bovengrensNiveau-decimal-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:decimal ;
+        sh:description "bovengrensNiveau patroon met decimal restrictie"@nl ;
+        sh:name "bovengrensNiveau"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:bovengrensNiveau .
+
+    otl-patroon:bronVanFalen-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "bronVanFalen patroon met string restrictie"@nl ;
+        sh:name "bronVanFalen"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:bronVanFalen .
+
+    otl-patroon:datumRealisatie-date-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:date ;
+        sh:description "datumRealisatie patroon met date restrictie"@nl ;
+        sh:name "datumRealisatie"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:datumRealisatie .
+
+    otl-patroon:doel-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "doel patroon met string restrictie"@nl ;
+        sh:name "doel"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:doel .
+
+    otl-patroon:faalgedrag-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "faalgedrag patroon met string restrictie"@nl ;
+        sh:name "faalgedrag"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:faalgedrag .
+
+    otl-patroon:gezondheidsscore-gevolgscore-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:positiveInteger ;
+        sh:description "gezondheidsscore patroon met gevolgscore restrictie"@nl ;
+        sh:in ( "1" "2" "3" "4" ) ;
+        sh:name "gezondheidsscore"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:gezondheidsscore .
+
+    otl-patroon:hardheid-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "hardheid patroon met string restrictie"@nl ;
+        sh:name "hardheid"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:hardheid .
+
+    otl-patroon:kansscore-kansscore-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:positiveInteger ;
+        sh:description "kansscore patroon met kansscore restrictie"@nl ;
+        sh:in ( "1" "2" "3" "4" "5" ) ;
+        sh:name "kansscore"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:kansscore .
+
+    otl-patroon:kostenscore-gevolgscore-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:positiveInteger ;
+        sh:description "kostenscore patroon met gevolgscore restrictie"@nl ;
+        sh:in ( "1" "2" "3" "4" ) ;
+        sh:name "kostenscore"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:kostenscore .
+
+    otl-patroon:omgevingMilieuscore-gevolgscore-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:positiveInteger ;
+        sh:description "omgevingMilieuscore patroon met gevolgscore restrictie"@nl ;
+        sh:in ( "1" "2" "3" "4" ) ;
+        sh:name "omgevingMilieuscore"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:omgevingMilieuscore .
+
+    otl-patroon:ondergrensNiveau-decimal-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:decimal ;
+        sh:description "ondergrensNiveau patroon met decimal restrictie"@nl ;
+        sh:name "ondergrensNiveau"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:ondergrensNiveau .
+
+    otl-patroon:onderhoudbaarheidsscore-gevolgscore-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:positiveInteger ;
+        sh:description "onderhoudbaarheidsscore patroon met gevolgscore restrictie"@nl ;
+        sh:in ( "1" "2" "3" "4" ) ;
+        sh:name "onderhoudbaarheidsscore"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:onderhoudbaarheidsscore .
+
+    otl-patroon:personeleInzet-decimal-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:decimal ;
+        sh:description "personeleInzet patroon met decimal restrictie"@nl ;
+        sh:name "personeleInzet"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:personeleInzet .
+
+    otl-patroon:risiconiveau-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "risiconiveau patroon met string restrictie"@nl ;
+        sh:name "risiconiveau"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:risiconiveau .
+
+    otl-patroon:scope-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "scope patroon met string restrictie"@nl ;
+        sh:name "scope"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:scope .
+
+    otl-patroon:statusHonorering-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "statusHonorering patroon met string restrictie"@nl ;
+        sh:name "statusHonorering"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:statusHonorering .
+
+    otl-patroon:urgentie-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "urgentie patroon met string restrictie"@nl ;
+        sh:name "urgentie"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:urgentie .
+
+    otl-patroon:veiligheidsscore-gevolgscore-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:positiveInteger ;
+        sh:description "veiligheidsscore patroon met gevolgscore restrictie"@nl ;
+        sh:in ( "1" "2" "3" "4" ) ;
+        sh:name "veiligheidsscore"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:veiligheidsscore .
+
+    otl-patroon:verantwoordelijkePersoon-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "verantwoordelijkePersoon patroon met string restrictie"@nl ;
+        sh:name "verantwoordelijkePersoon"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:verantwoordelijkePersoon .
+
+    otl-patroon:waarde-decimal-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:decimal ;
+        sh:description "waarde patroon met decimal restrictie"@nl ;
+        sh:name "waarde"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:waarde .
+
+    otl-patroon:aangepasteUiterstJaarVanUitvoering-gYear-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:gYear ;
+        sh:description "aangepasteUiterstJaarVanUitvoering patroon met gYear restrictie"@nl ;
+        sh:name "aangepasteUiterstJaarVanUitvoering"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:aangepasteUiterstJaarVanUitvoering .
+
+    otl-patroon:elementType-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "elementType patroon met string restrictie"@nl ;
+        sh:name "elementType"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:elementType .
+
+    otl-patroon:interval-duration-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:duration ;
+        sh:description "interval patroon met duration restrictie"@nl ;
+        sh:name "interval"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:interval .
+
+    otl-patroon:invoerdatum-date-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:date ;
+        sh:description "invoerdatum patroon met date restrictie"@nl ;
+        sh:name "invoerdatum"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:invoerdatum .
+
+    otl-patroon:isHandmatigToegevoegd-boolean-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:boolean ;
+        sh:description "isHandmatigToegevoegd patroon met boolean restrictie"@nl ;
+        sh:name "isHandmatigToegevoegd"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:isHandmatigToegevoegd .
+
+    otl-patroon:jaartal-gYear-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:gYear ;
+        sh:description "jaartal patroon met gYear restrictie"@nl ;
+        sh:name "jaartal"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:jaartal .
+
+    otl-patroon:minimumleeftijd-minimumleeftijd-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:duration ;
+        sh:description "minimumleeftijd patroon met minimumleeftijd restrictie"@nl ;
+        sh:maxInclusive "P1000Y"^^xsd:duration ;
+        sh:name "minimumleeftijd"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:minimumleeftijd .
+
+    otl-patroon:offset-duration-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:duration ;
+        sh:description "offset patroon met duration restrictie"@nl ;
+        sh:name "offset"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:offset .
+
+    otl-patroon:onderdeeltype-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "onderdeeltype patroon met string restrictie"@nl ;
+        sh:name "onderdeeltype"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:onderdeeltype .
+
+    otl-patroon:score-decimal-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:decimal ;
+        sh:description "score patroon met decimal restrictie"@nl ;
+        sh:name "score"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:score .
+
+    otl-patroon:thema-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "thema patroon met string restrictie"@nl ;
+        sh:name "thema"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:thema .
+
+    otl-patroon:geplandeEinddatum-date-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:date ;
+        sh:description "geplandeEinddatum patroon met date restrictie"@nl ;
+        sh:name "geplandeEinddatum"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:geplandeEinddatum .
+
+    otl-patroon:geplandeStartdatum-date-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:date ;
+        sh:description "geplandeStartdatum patroon met date restrictie"@nl ;
+        sh:name "geplandeStartdatum"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:geplandeStartdatum .
+
+    otl-patroon:onderbouwingVerwachteKosten-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "onderbouwingVerwachteKosten patroon met string restrictie"@nl ;
+        sh:name "onderbouwingVerwachteKosten"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:onderbouwingVerwachteKosten .
+
+    otl-patroon:toelichting-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "toelichting patroon met string restrictie"@nl ;
+        sh:name "toelichting"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:toelichting .
+
+    otl-patroon:adviesjaarUitvoering-adviesjaarUitvoering-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:gYear ;
+        sh:description "adviesjaarUitvoering patroon met adviesjaarUitvoering restrictie"@nl ;
+        sh:maxInclusive "2100"^^xsd:gYear ;
+        sh:minInclusive "1594"^^xsd:gYear ;
+        sh:name "adviesjaarUitvoering"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:adviesjaarUitvoering .
+
+    otl-patroon:geplandeJaarUitvoering-gYear-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:gYear ;
+        sh:description "geplandeJaarUitvoering patroon met gYear restrictie"@nl ;
+        sh:name "geplandeJaarUitvoering"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:geplandeJaarUitvoering .
+
+    otl-patroon:uitersteJaarVanUitvoering-uitersteJaarVanUitvoering-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:gYear ;
+        sh:description "uitersteJaarVanUitvoering patroon met uitersteJaarVanUitvoering restrictie"@nl ;
+        sh:maxInclusive "2100"^^xsd:gYear ;
+        sh:minInclusive "1594"^^xsd:gYear ;
+        sh:name "uitersteJaarVanUitvoering"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:uitersteJaarVanUitvoering .
+
+    otl-patroon:isWettelijkVerplicht-boolean-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:boolean ;
+        sh:description "isWettelijkVerplicht patroon met boolean restrictie"@nl ;
+        sh:name "isWettelijkVerplicht"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:isWettelijkVerplicht .
+
+    otl-patroon:projectnaam-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "projectnaam patroon met string restrictie"@nl ;
+        sh:name "projectnaam"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:projectnaam .
+
+    otl-patroon:omschrijving-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "omschrijving patroon met string restrictie"@nl ;
+        sh:name "omschrijving"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:omschrijving .
+
+    otl-patroon:naam-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "naam patroon met string restrictie"@nl ;
+        sh:name "naam"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:naam .
+}
+

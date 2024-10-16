@@ -1,1958 +1,1958 @@
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix nen-2767-4: <https://data.rws.nl/def/nen-2767-4/> .
+@prefix nen2767: <https://data.rws.nl/def/nen-2767-4/> .
 @prefix otl: <https://data.rws.nl/def/otl/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 otl:graaf-otl-nen2767-4-linkset {
-    otl:Aalgoot dct:conformsTo nen-2767-4:Element_424 .
+    otl:Aalgoot dct:conformsTo nen2767:Element_424 .
 
-    otl:Aandrijving dct:conformsTo nen-2767-4:Bouwdeel_1003 .
+    otl:Aandrijving dct:conformsTo nen2767:Bouwdeel_1003 .
 
-    otl:AandrijvingEnBewegingswerkElektrohydraulisch dct:conformsTo nen-2767-4:Element_101 .
+    otl:AandrijvingEnBewegingswerkElektrohydraulisch dct:conformsTo nen2767:Element_101 .
 
-    otl:AandrijvingEnBewegingswerkElektromechanisch dct:conformsTo nen-2767-4:Element_102 .
+    otl:AandrijvingEnBewegingswerkElektromechanisch dct:conformsTo nen2767:Element_102 .
 
-    otl:AandrijvingEnBewegingswerkMechanisch dct:conformsTo nen-2767-4:Element_103 .
+    otl:AandrijvingEnBewegingswerkMechanisch dct:conformsTo nen2767:Element_103 .
 
-    otl:Aanleginrichting dct:conformsTo nen-2767-4:Beheerobject_AA .
+    otl:Aanleginrichting dct:conformsTo nen2767:Beheerobject_AA .
 
-    otl:Aanloopgebied dct:conformsTo nen-2767-4:Element_268 .
+    otl:Aanloopgebied dct:conformsTo nen2767:Element_268 .
 
-    otl:Aanrijbalk dct:conformsTo nen-2767-4:Element_104 .
+    otl:Aanrijbalk dct:conformsTo nen2767:Element_104 .
 
-    otl:Aanslag dct:conformsTo nen-2767-4:Bouwdeel_1010 .
+    otl:Aanslag dct:conformsTo nen2767:Bouwdeel_1010 .
 
-    otl:Aansluitconstructie dct:conformsTo nen-2767-4:Bouwdeel_1011 .
+    otl:Aansluitconstructie dct:conformsTo nen2767:Bouwdeel_1011 .
 
-    otl:Aansluitleiding dct:conformsTo nen-2767-4:Bouwdeel_1013 .
+    otl:Aansluitleiding dct:conformsTo nen2767:Bouwdeel_1013 .
 
-    otl:Aanstraalverlichting dct:conformsTo nen-2767-4:Bouwdeel_1014 .
+    otl:Aanstraalverlichting dct:conformsTo nen2767:Bouwdeel_1014 .
 
-    otl:Aardelektrode dct:conformsTo nen-2767-4:Bouwdeel_1015 .
+    otl:Aardelektrode dct:conformsTo nen2767:Bouwdeel_1015 .
 
-    otl:AardingEnBliksembeveiligingsinstallatie dct:conformsTo nen-2767-4:Element_105 .
+    otl:AardingEnBliksembeveiligingsinstallatie dct:conformsTo nen2767:Element_105 .
 
-    otl:Aardrail dct:conformsTo nen-2767-4:Bouwdeel_2089 .
+    otl:Aardrail dct:conformsTo nen2767:Bouwdeel_2089 .
 
-    otl:Accu dct:conformsTo nen-2767-4:Bouwdeel_1018 .
+    otl:Accu dct:conformsTo nen2767:Bouwdeel_1018 .
 
-    otl:AchterbeplatingFender dct:conformsTo nen-2767-4:Bouwdeel_1019 .
+    otl:AchterbeplatingFender dct:conformsTo nen2767:Bouwdeel_1019 .
 
-    otl:Achtergrondschild dct:conformsTo nen-2767-4:Bouwdeel_1020 .
+    otl:Achtergrondschild dct:conformsTo nen2767:Bouwdeel_1020 .
 
-    otl:Achterland dct:conformsTo nen-2767-4:Element_264 .
+    otl:Achterland dct:conformsTo nen2767:Element_264 .
 
-    otl:Achterloopsheidscherm dct:conformsTo nen-2767-4:Bouwdeel_1021 .
+    otl:Achterloopsheidscherm dct:conformsTo nen2767:Bouwdeel_1021 .
 
-    otl:Achterplaat dct:conformsTo nen-2767-4:Bouwdeel_1022 .
+    otl:Achterplaat dct:conformsTo nen2767:Bouwdeel_1022 .
 
-    otl:Afdekplaat dct:conformsTo nen-2767-4:Bouwdeel_2049 .
+    otl:Afdekplaat dct:conformsTo nen2767:Bouwdeel_2049 .
 
-    otl:Afdichting dct:conformsTo nen-2767-4:Bouwdeel_1023 .
+    otl:Afdichting dct:conformsTo nen2767:Bouwdeel_1023 .
 
-    otl:Afdichtingsprofiel dct:conformsTo nen-2767-4:Bouwdeel_1024 .
+    otl:Afdichtingsprofiel dct:conformsTo nen2767:Bouwdeel_1024 .
 
-    otl:Afmeervoorziening dct:conformsTo nen-2767-4:Element_106 .
+    otl:Afmeervoorziening dct:conformsTo nen2767:Element_106 .
 
-    otl:AfscheiderinstallatieDynamisch dct:conformsTo nen-2767-4:Element_377 .
+    otl:AfscheiderinstallatieDynamisch dct:conformsTo nen2767:Element_377 .
 
-    otl:AfscheiderinstallatieStatisch dct:conformsTo nen-2767-4:Element_359 .
+    otl:AfscheiderinstallatieStatisch dct:conformsTo nen2767:Element_359 .
 
-    otl:Afscheiding dct:conformsTo nen-2767-4:Element_306 .
+    otl:Afscheiding dct:conformsTo nen2767:Element_306 .
 
-    otl:Afslagzone dct:conformsTo nen-2767-4:Element_428 .
+    otl:Afslagzone dct:conformsTo nen2767:Element_428 .
 
-    otl:Afsluitboom dct:conformsTo nen-2767-4:Bouwdeel_1094 .
+    otl:Afsluitboom dct:conformsTo nen2767:Bouwdeel_1094 .
 
-    otl:Afsluitboominstallatie dct:conformsTo nen-2767-4:Element_107 .
+    otl:Afsluitboominstallatie dct:conformsTo nen2767:Element_107 .
 
-    otl:Afsluitboomverlichting dct:conformsTo nen-2767-4:Bouwdeel_1033 .
+    otl:Afsluitboomverlichting dct:conformsTo nen2767:Bouwdeel_1033 .
 
-    otl:Afsluiter dct:conformsTo nen-2767-4:Bouwdeel_1034 .
+    otl:Afsluiter dct:conformsTo nen2767:Bouwdeel_1034 .
 
-    otl:Afvalbak dct:conformsTo nen-2767-4:Bouwdeel_1717 .
+    otl:Afvalbak dct:conformsTo nen2767:Bouwdeel_1717 .
 
-    otl:Afvalcontainer dct:conformsTo nen-2767-4:Bouwdeel_1718 .
+    otl:Afvalcontainer dct:conformsTo nen2767:Bouwdeel_1718 .
 
-    otl:Afvoer dct:conformsTo nen-2767-4:Bouwdeel_1719 .
+    otl:Afvoer dct:conformsTo nen2767:Bouwdeel_1719 .
 
-    otl:Anker dct:conformsTo nen-2767-4:Bouwdeel_1037 .
+    otl:Anker dct:conformsTo nen2767:Bouwdeel_1037 .
 
-    otl:Ankergebied dct:conformsTo nen-2767-4:Element_269 .
+    otl:Ankergebied dct:conformsTo nen2767:Element_269 .
 
-    otl:Anode dct:conformsTo nen-2767-4:Bouwdeel_2084 .
+    otl:Anode dct:conformsTo nen2767:Bouwdeel_2084 .
 
-    otl:Antenne dct:conformsTo nen-2767-4:Bouwdeel_1038 .
+    otl:Antenne dct:conformsTo nen2767:Bouwdeel_1038 .
 
-    otl:Antivandalismevoorziening dct:conformsTo nen-2767-4:Element_110 .
+    otl:Antivandalismevoorziening dct:conformsTo nen2767:Element_110 .
 
-    otl:Antiverblindingsscherm dct:conformsTo nen-2767-4:Bouwdeel_2040 .
+    otl:Antiverblindingsscherm dct:conformsTo nen2767:Bouwdeel_2040 .
 
-    otl:Appendage dct:conformsTo nen-2767-4:Bouwdeel_1040 .
+    otl:Appendage dct:conformsTo nen2767:Bouwdeel_1040 .
 
-    otl:Aquaduct dct:conformsTo nen-2767-4:Beheerobject_AB .
+    otl:Aquaduct dct:conformsTo nen2767:Beheerobject_AB .
 
-    otl:Arm dct:conformsTo nen-2767-4:Bouwdeel_1041 .
+    otl:Arm dct:conformsTo nen2767:Bouwdeel_1041 .
 
-    otl:Armatuur dct:conformsTo nen-2767-4:Bouwdeel_1042 .
+    otl:Armatuur dct:conformsTo nen2767:Bouwdeel_1042 .
 
-    otl:Asbestemming dct:conformsTo nen-2767-4:Element_275 .
+    otl:Asbestemming dct:conformsTo nen2767:Element_275 .
 
-    otl:Asfaltverharding dct:conformsTo nen-2767-4:Bouwdeel_1044 .
+    otl:Asfaltverharding dct:conformsTo nen2767:Bouwdeel_1044 .
 
-    otl:Asfaltwapening dct:conformsTo nen-2767-4:Bouwdeel_2197 .
+    otl:Asfaltwapening dct:conformsTo nen2767:Bouwdeel_2197 .
 
-    otl:Askoppeling dct:conformsTo nen-2767-4:Bouwdeel_1046 .
+    otl:Askoppeling dct:conformsTo nen2767:Bouwdeel_1046 .
 
-    otl:Assenstelsel dct:conformsTo nen-2767-4:Bouwdeel_1047 .
+    otl:Assenstelsel dct:conformsTo nen2767:Bouwdeel_1047 .
 
-    otl:Atletiekbaan dct:conformsTo nen-2767-4:Bouwdeel_1724 .
+    otl:Atletiekbaan dct:conformsTo nen2767:Bouwdeel_1724 .
 
-    otl:Baanzool dct:conformsTo nen-2767-4:Bouwdeel_1725 .
+    otl:Baanzool dct:conformsTo nen2767:Bouwdeel_1725 .
 
-    otl:BackstopHonkEnSoftbal dct:conformsTo nen-2767-4:Bouwdeel_1726 .
+    otl:BackstopHonkEnSoftbal dct:conformsTo nen2767:Bouwdeel_1726 .
 
-    otl:Bad dct:conformsTo nen-2767-4:Bouwdeel_2159 .
+    otl:Bad dct:conformsTo nen2767:Bouwdeel_2159 .
 
-    otl:Bak dct:conformsTo nen-2767-4:Bouwdeel_2131 .
+    otl:Bak dct:conformsTo nen2767:Bouwdeel_2131 .
 
-    otl:Baken dct:conformsTo nen-2767-4:Bouwdeel_1713 .
+    otl:Baken dct:conformsTo nen2767:Bouwdeel_1713 .
 
-    otl:Balanspriem dct:conformsTo nen-2767-4:Bouwdeel_1049 .
+    otl:Balanspriem dct:conformsTo nen2767:Bouwdeel_1049 .
 
-    otl:Balg dct:conformsTo nen-2767-4:Bouwdeel_1050 .
+    otl:Balg dct:conformsTo nen2767:Bouwdeel_1050 .
 
-    otl:Balk dct:conformsTo nen-2767-4:Bouwdeel_1051 .
+    otl:Balk dct:conformsTo nen2767:Bouwdeel_1051 .
 
-    otl:Ballastweerstand dct:conformsTo nen-2767-4:Bouwdeel_2090 .
+    otl:Ballastweerstand dct:conformsTo nen2767:Bouwdeel_2090 .
 
-    otl:Ballenvanger dct:conformsTo nen-2767-4:Bouwdeel_1728 .
+    otl:Ballenvanger dct:conformsTo nen2767:Bouwdeel_1728 .
 
-    otl:Ballon dct:conformsTo nen-2767-4:Bouwdeel_2093 .
+    otl:Ballon dct:conformsTo nen2767:Bouwdeel_2093 .
 
-    otl:Bank dct:conformsTo nen-2767-4:Bouwdeel_2036 .
+    otl:Bank dct:conformsTo nen2767:Bouwdeel_2036 .
 
-    otl:Banket dct:conformsTo nen-2767-4:Bouwdeel_2058 .
+    otl:Banket dct:conformsTo nen2767:Bouwdeel_2058 .
 
-    otl:Basculekelder dct:conformsTo nen-2767-4:Element_247 .
+    otl:Basculekelder dct:conformsTo nen2767:Element_247 .
 
-    otl:Basketbalpaal dct:conformsTo nen-2767-4:Bouwdeel_1730 .
+    otl:Basketbalpaal dct:conformsTo nen2767:Bouwdeel_1730 .
 
-    otl:Basketbalveld dct:conformsTo nen-2767-4:Bouwdeel_1731 .
+    otl:Basketbalveld dct:conformsTo nen2767:Bouwdeel_1731 .
 
-    otl:Beachvolleyveld dct:conformsTo nen-2767-4:Bouwdeel_1732 .
+    otl:Beachvolleyveld dct:conformsTo nen2767:Bouwdeel_1732 .
 
-    otl:BebordingEnBewegwijzering dct:conformsTo nen-2767-4:Element_111 .
+    otl:BebordingEnBewegwijzering dct:conformsTo nen2767:Element_111 .
 
-    otl:BedieningsEnBesturingsinstallatie dct:conformsTo nen-2767-4:Element_112 .
+    otl:BedieningsEnBesturingsinstallatie dct:conformsTo nen2767:Element_112 .
 
-    otl:Bedieningspaneel dct:conformsTo nen-2767-4:Bouwdeel_1057 .
+    otl:Bedieningspaneel dct:conformsTo nen2767:Bouwdeel_1057 .
 
-    otl:Beeindigingsprofiel dct:conformsTo nen-2767-4:Bouwdeel_1059 .
+    otl:Beeindigingsprofiel dct:conformsTo nen2767:Bouwdeel_1059 .
 
-    otl:Beek dct:conformsTo nen-2767-4:Element_353 .
+    otl:Beek dct:conformsTo nen2767:Element_353 .
 
-    otl:Beglazing dct:conformsTo nen-2767-4:Bouwdeel_2151 .
+    otl:Beglazing dct:conformsTo nen2767:Bouwdeel_2151 .
 
-    otl:Begraafplaats dct:conformsTo nen-2767-4:Beheerobject_AC .
+    otl:Begraafplaats dct:conformsTo nen2767:Beheerobject_AC .
 
-    otl:Begroeiing dct:conformsTo nen-2767-4:Bouwdeel_1060 .
+    otl:Begroeiing dct:conformsTo nen2767:Bouwdeel_1060 .
 
-    otl:BeheerobjectOverstijgendeVoorziening dct:conformsTo nen-2767-4:Beheerobject_CC .
+    otl:BeheerobjectOverstijgendeVoorziening dct:conformsTo nen2767:Beheerobject_CC .
 
-    otl:Bekabeling dct:conformsTo nen-2767-4:Bouwdeel_1062 .
+    otl:Bekabeling dct:conformsTo nen2767:Bouwdeel_1062 .
 
-    otl:Bekleding dct:conformsTo nen-2767-4:Bouwdeel_2206 .
+    otl:Bekleding dct:conformsTo nen2767:Bouwdeel_2206 .
 
-    otl:Belijning dct:conformsTo nen-2767-4:Bouwdeel_1736 .
+    otl:Belijning dct:conformsTo nen2767:Bouwdeel_1736 .
 
-    otl:Beluchtingsinstallatie dct:conformsTo nen-2767-4:Element_378 .
+    otl:Beluchtingsinstallatie dct:conformsTo nen2767:Element_378 .
 
-    otl:Beluchtingstank dct:conformsTo nen-2767-4:Beheerobject_CX .
+    otl:Beluchtingstank dct:conformsTo nen2767:Beheerobject_CX .
 
-    otl:Beplating dct:conformsTo nen-2767-4:Bouwdeel_2166 .
+    otl:Beplating dct:conformsTo nen2767:Bouwdeel_2166 .
 
-    otl:Bergbezinkbassin dct:conformsTo nen-2767-4:Element_356 .
+    otl:Bergbezinkbassin dct:conformsTo nen2767:Element_356 .
 
-    otl:Berm dct:conformsTo nen-2767-4:Element_114 .
+    otl:Berm dct:conformsTo nen2767:Element_114 .
 
-    otl:Beschermconstructie dct:conformsTo nen-2767-4:Bouwdeel_1976 .
+    otl:Beschermconstructie dct:conformsTo nen2767:Bouwdeel_1976 .
 
-    otl:Beschermkap dct:conformsTo nen-2767-4:Bouwdeel_1988 .
+    otl:Beschermkap dct:conformsTo nen2767:Bouwdeel_1988 .
 
-    otl:Beschermlaag dct:conformsTo nen-2767-4:Bouwdeel_2073 .
+    otl:Beschermlaag dct:conformsTo nen2767:Bouwdeel_2073 .
 
-    otl:Beschoeiing dct:conformsTo nen-2767-4:Bouwdeel_1068 .
+    otl:Beschoeiing dct:conformsTo nen2767:Bouwdeel_1068 .
 
-    otl:Betonverharding dct:conformsTo nen-2767-4:Bouwdeel_1070 .
+    otl:Betonverharding dct:conformsTo nen2767:Bouwdeel_1070 .
 
-    otl:Bevestiging dct:conformsTo nen-2767-4:Bouwdeel_1071 .
+    otl:Bevestiging dct:conformsTo nen2767:Bouwdeel_1071 .
 
-    otl:Bewegingswerk dct:conformsTo nen-2767-4:Bouwdeel_1072 .
+    otl:Bewegingswerk dct:conformsTo nen2767:Bouwdeel_1072 .
 
-    otl:Bewegwijzeringsbord dct:conformsTo nen-2767-4:Bouwdeel_1073 .
+    otl:Bewegwijzeringsbord dct:conformsTo nen2767:Bouwdeel_1073 .
 
-    otl:Bezinkbassin dct:conformsTo nen-2767-4:Beheerobject_CS .
+    otl:Bezinkbassin dct:conformsTo nen2767:Beheerobject_CS .
 
-    otl:Binnenberm dct:conformsTo nen-2767-4:Element_425 .
+    otl:Binnenberm dct:conformsTo nen2767:Element_425 .
 
-    otl:Binnenduin dct:conformsTo nen-2767-4:Element_429 .
+    otl:Binnenduin dct:conformsTo nen2767:Element_429 .
 
-    otl:Binnentalud dct:conformsTo nen-2767-4:Element_260 .
+    otl:Binnentalud dct:conformsTo nen2767:Element_260 .
 
-    otl:Binnenverlichting dct:conformsTo nen-2767-4:Element_115 .
+    otl:Binnenverlichting dct:conformsTo nen2767:Element_115 .
 
-    otl:Bliksemafleider dct:conformsTo nen-2767-4:Bouwdeel_2088 .
+    otl:Bliksemafleider dct:conformsTo nen2767:Bouwdeel_2088 .
 
-    otl:Bloembak dct:conformsTo nen-2767-4:Bouwdeel_2024 .
+    otl:Bloembak dct:conformsTo nen2767:Bouwdeel_2024 .
 
-    otl:Blokkenmuur dct:conformsTo nen-2767-4:Bouwdeel_1075 .
+    otl:Blokkenmuur dct:conformsTo nen2767:Bouwdeel_1075 .
 
-    otl:Bodem dct:conformsTo nen-2767-4:Element_116 .
+    otl:Bodem dct:conformsTo nen2767:Element_116 .
 
-    otl:Bodembedekker dct:conformsTo nen-2767-4:Bouwdeel_2212 .
+    otl:Bodembedekker dct:conformsTo nen2767:Bouwdeel_2212 .
 
-    otl:Bodembescherming dct:conformsTo nen-2767-4:Element_117 .
+    otl:Bodembescherming dct:conformsTo nen2767:Element_117 .
 
-    otl:Bodemstabilisatie dct:conformsTo nen-2767-4:Bouwdeel_1087 .
+    otl:Bodemstabilisatie dct:conformsTo nen2767:Bouwdeel_1087 .
 
-    otl:Boei dct:conformsTo nen-2767-4:Bouwdeel_1090 .
+    otl:Boei dct:conformsTo nen2767:Bouwdeel_1090 .
 
-    otl:Boeienlijn dct:conformsTo nen-2767-4:Bouwdeel_2082 .
+    otl:Boeienlijn dct:conformsTo nen2767:Bouwdeel_2082 .
 
-    otl:Boiler dct:conformsTo nen-2767-4:Bouwdeel_2162 .
+    otl:Boiler dct:conformsTo nen2767:Bouwdeel_2162 .
 
-    otl:Bolder dct:conformsTo nen-2767-4:Bouwdeel_1091 .
+    otl:Bolder dct:conformsTo nen2767:Bouwdeel_1091 .
 
-    otl:Boog dct:conformsTo nen-2767-4:Bouwdeel_1093 .
+    otl:Boog dct:conformsTo nen2767:Bouwdeel_1093 .
 
-    otl:Boom dct:conformsTo nen-2767-4:Bouwdeel_1743 .
+    otl:Boom dct:conformsTo nen2767:Bouwdeel_1743 .
 
-    otl:Boombak dct:conformsTo nen-2767-4:Bouwdeel_2021 .
+    otl:Boombak dct:conformsTo nen2767:Bouwdeel_2021 .
 
-    otl:Bordes dct:conformsTo nen-2767-4:Bouwdeel_1095 .
+    otl:Bordes dct:conformsTo nen2767:Bouwdeel_1095 .
 
-    otl:Borstel dct:conformsTo nen-2767-4:Bouwdeel_2096 .
+    otl:Borstel dct:conformsTo nen2767:Bouwdeel_2096 .
 
-    otl:Borstwering dct:conformsTo nen-2767-4:Element_349 .
+    otl:Borstwering dct:conformsTo nen2767:Element_349 .
 
-    otl:Bosgebied dct:conformsTo nen-2767-4:Beheerobject_AE .
+    otl:Bosgebied dct:conformsTo nen2767:Beheerobject_AE .
 
-    otl:Bouwakker dct:conformsTo nen-2767-4:Bouwdeel_1752 .
+    otl:Bouwakker dct:conformsTo nen2767:Bouwdeel_1752 .
 
-    otl:Bovenbouwconstructie dct:conformsTo nen-2767-4:Element_118 .
+    otl:Bovenbouwconstructie dct:conformsTo nen2767:Element_118 .
 
-    otl:Bovenleiding dct:conformsTo nen-2767-4:Bouwdeel_1099 .
+    otl:Bovenleiding dct:conformsTo nen2767:Bouwdeel_1099 .
 
-    otl:Brandblusinstallatie dct:conformsTo nen-2767-4:Element_119 .
+    otl:Brandblusinstallatie dct:conformsTo nen2767:Element_119 .
 
-    otl:Brandblusser dct:conformsTo nen-2767-4:Bouwdeel_1100 .
+    otl:Brandblusser dct:conformsTo nen2767:Bouwdeel_1100 .
 
-    otl:Brandgang dct:conformsTo nen-2767-4:Bouwdeel_1754 .
+    otl:Brandgang dct:conformsTo nen2767:Bouwdeel_1754 .
 
-    otl:BrandmeldEnOntruimingsinstallatie dct:conformsTo nen-2767-4:Element_120 .
+    otl:BrandmeldEnOntruimingsinstallatie dct:conformsTo nen2767:Element_120 .
 
-    otl:Brandslang dct:conformsTo nen-2767-4:Bouwdeel_2204 .
+    otl:Brandslang dct:conformsTo nen2767:Bouwdeel_2204 .
 
-    otl:Brandstofcel dct:conformsTo nen-2767-4:Bouwdeel_1103 .
+    otl:Brandstofcel dct:conformsTo nen2767:Bouwdeel_1103 .
 
-    otl:Brandstofunit dct:conformsTo nen-2767-4:Bouwdeel_1104 .
+    otl:Brandstofunit dct:conformsTo nen2767:Bouwdeel_1104 .
 
-    otl:Broedgat dct:conformsTo nen-2767-4:Bouwdeel_1755 .
+    otl:Broedgat dct:conformsTo nen2767:Bouwdeel_1755 .
 
-    otl:Broeihoop dct:conformsTo nen-2767-4:Bouwdeel_2019 .
+    otl:Broeihoop dct:conformsTo nen2767:Bouwdeel_2019 .
 
-    otl:BrugBeweegbaar dct:conformsTo nen-2767-4:Beheerobject_AF .
+    otl:BrugBeweegbaar dct:conformsTo nen2767:Beheerobject_AF .
 
-    otl:BrugVast dct:conformsTo nen-2767-4:Beheerobject_AG .
+    otl:BrugVast dct:conformsTo nen2767:Beheerobject_AG .
 
-    otl:Buffer dct:conformsTo nen-2767-4:Bouwdeel_1106 .
+    otl:Buffer dct:conformsTo nen2767:Bouwdeel_1106 .
 
-    otl:Buisaansluiting dct:conformsTo nen-2767-4:Bouwdeel_2053 .
+    otl:Buisaansluiting dct:conformsTo nen2767:Bouwdeel_2053 .
 
-    otl:Buisbeluchter dct:conformsTo nen-2767-4:Bouwdeel_2097 .
+    otl:Buisbeluchter dct:conformsTo nen2767:Bouwdeel_2097 .
 
-    otl:Buisleiding dct:conformsTo nen-2767-4:Bouwdeel_1331 .
+    otl:Buisleiding dct:conformsTo nen2767:Bouwdeel_1331 .
 
-    otl:Buitenberm dct:conformsTo nen-2767-4:Element_426 .
+    otl:Buitenberm dct:conformsTo nen2767:Element_426 .
 
-    otl:Buitentalud dct:conformsTo nen-2767-4:Element_258 .
+    otl:Buitentalud dct:conformsTo nen2767:Element_258 .
 
-    otl:Bunker dct:conformsTo nen-2767-4:Beheerobject_CF .
+    otl:Bunker dct:conformsTo nen2767:Beheerobject_CF .
 
-    otl:CCTVinstallatie dct:conformsTo nen-2767-4:Element_122 .
+    otl:CCTVinstallatie dct:conformsTo nen2767:Element_122 .
 
-    otl:Caisson dct:conformsTo nen-2767-4:Bouwdeel_1110 .
+    otl:Caisson dct:conformsTo nen2767:Bouwdeel_1110 .
 
-    otl:CalamiteitenDoorsteekinstallatie dct:conformsTo nen-2767-4:Element_121 .
+    otl:CalamiteitenDoorsteekinstallatie dct:conformsTo nen2767:Element_121 .
 
-    otl:CameraBeweegbaar dct:conformsTo nen-2767-4:Bouwdeel_2080 .
+    otl:CameraBeweegbaar dct:conformsTo nen2767:Bouwdeel_2080 .
 
-    otl:CameraVast dct:conformsTo nen-2767-4:Bouwdeel_2079 .
+    otl:CameraVast dct:conformsTo nen2767:Bouwdeel_2079 .
 
-    otl:Centrale dct:conformsTo nen-2767-4:Bouwdeel_1116 .
+    otl:Centrale dct:conformsTo nen2767:Bouwdeel_1116 .
 
-    otl:CentraleAntenneInstallatie dct:conformsTo nen-2767-4:Element_248 .
+    otl:CentraleAntenneInstallatie dct:conformsTo nen2767:Element_248 .
 
-    otl:CentraleDeurontgrendeling dct:conformsTo nen-2767-4:Bouwdeel_1118 .
+    otl:CentraleDeurontgrendeling dct:conformsTo nen2767:Bouwdeel_1118 .
 
-    otl:Centrifuge dct:conformsTo nen-2767-4:Bouwdeel_2120 .
+    otl:Centrifuge dct:conformsTo nen2767:Bouwdeel_2120 .
 
-    otl:Cilinder dct:conformsTo nen-2767-4:Bouwdeel_1119 .
+    otl:Cilinder dct:conformsTo nen2767:Bouwdeel_1119 .
 
-    otl:CoaxstralersTunnelbekabeling dct:conformsTo nen-2767-4:Bouwdeel_1120 .
+    otl:CoaxstralersTunnelbekabeling dct:conformsTo nen2767:Bouwdeel_1120 .
 
-    otl:Columbarium dct:conformsTo nen-2767-4:Bouwdeel_1756 .
+    otl:Columbarium dct:conformsTo nen2767:Bouwdeel_1756 .
 
-    otl:Combinatietoestel dct:conformsTo nen-2767-4:Bouwdeel_1757 .
+    otl:Combinatietoestel dct:conformsTo nen2767:Bouwdeel_1757 .
 
-    otl:Combiwand dct:conformsTo nen-2767-4:Bouwdeel_1121 .
+    otl:Combiwand dct:conformsTo nen2767:Bouwdeel_1121 .
 
-    otl:Compensator dct:conformsTo nen-2767-4:Bouwdeel_2098 .
+    otl:Compensator dct:conformsTo nen2767:Bouwdeel_2098 .
 
-    otl:Compressor dct:conformsTo nen-2767-4:Bouwdeel_1122 .
+    otl:Compressor dct:conformsTo nen2767:Bouwdeel_1122 .
 
-    otl:Compressorinstallatie dct:conformsTo nen-2767-4:Element_123 .
+    otl:Compressorinstallatie dct:conformsTo nen2767:Element_123 .
 
-    otl:Connector dct:conformsTo nen-2767-4:Bouwdeel_1124 .
+    otl:Connector dct:conformsTo nen2767:Bouwdeel_1124 .
 
-    otl:Console dct:conformsTo nen-2767-4:Bouwdeel_1126 .
+    otl:Console dct:conformsTo nen2767:Bouwdeel_1126 .
 
-    otl:Contragewicht dct:conformsTo nen-2767-4:Bouwdeel_1131 .
+    otl:Contragewicht dct:conformsTo nen2767:Bouwdeel_1131 .
 
-    otl:Coupure dct:conformsTo nen-2767-4:Beheerobject_AI .
+    otl:Coupure dct:conformsTo nen2767:Beheerobject_AI .
 
-    otl:Dak dct:conformsTo nen-2767-4:Bouwdeel_1132 .
+    otl:Dak dct:conformsTo nen2767:Bouwdeel_1132 .
 
-    otl:Dakafwerking dct:conformsTo nen-2767-4:Bouwdeel_2147 .
+    otl:Dakafwerking dct:conformsTo nen2767:Bouwdeel_2147 .
 
-    otl:Dakconstructie dct:conformsTo nen-2767-4:Element_391 .
+    otl:Dakconstructie dct:conformsTo nen2767:Element_391 .
 
-    otl:Dam dct:conformsTo nen-2767-4:Beheerobject_AJ .
+    otl:Dam dct:conformsTo nen2767:Beheerobject_AJ .
 
-    otl:Damwand dct:conformsTo nen-2767-4:Bouwdeel_1133 .
+    otl:Damwand dct:conformsTo nen2767:Bouwdeel_1133 .
 
-    otl:DamwandBovenwatertalud dct:conformsTo nen-2767-4:Bouwdeel_1134 .
+    otl:DamwandBovenwatertalud dct:conformsTo nen2767:Bouwdeel_1134 .
 
-    otl:DamwandOnderwatertalud dct:conformsTo nen-2767-4:Bouwdeel_1135 .
+    otl:DamwandOnderwatertalud dct:conformsTo nen2767:Bouwdeel_1135 .
 
-    otl:DamwandSamengesteld dct:conformsTo nen-2767-4:Bouwdeel_1474 .
+    otl:DamwandSamengesteld dct:conformsTo nen2767:Bouwdeel_1474 .
 
-    otl:Dataloginstallatie dct:conformsTo nen-2767-4:Element_370 .
+    otl:Dataloginstallatie dct:conformsTo nen2767:Element_370 .
 
-    otl:Dek dct:conformsTo nen-2767-4:Bouwdeel_1140 .
+    otl:Dek dct:conformsTo nen2767:Bouwdeel_1140 .
 
-    otl:Deklaag-Dicht dct:conformsTo nen-2767-4:Bouwdeel_2173 .
+    otl:Deklaag-Dicht dct:conformsTo nen2767:Bouwdeel_2173 .
 
-    otl:Deklaag-Open dct:conformsTo nen-2767-4:Bouwdeel_2174 .
+    otl:Deklaag-Open dct:conformsTo nen2767:Bouwdeel_2174 .
 
-    otl:Deksel dct:conformsTo nen-2767-4:Bouwdeel_1759 .
+    otl:Deksel dct:conformsTo nen2767:Bouwdeel_1759 .
 
-    otl:Dekzerkprofiel dct:conformsTo nen-2767-4:Bouwdeel_1141 .
+    otl:Dekzerkprofiel dct:conformsTo nen2767:Bouwdeel_1141 .
 
-    otl:Detectielus dct:conformsTo nen-2767-4:Bouwdeel_1144 .
+    otl:Detectielus dct:conformsTo nen2767:Bouwdeel_1144 .
 
-    otl:Detector dct:conformsTo nen-2767-4:Bouwdeel_1146 .
+    otl:Detector dct:conformsTo nen2767:Bouwdeel_1146 .
 
-    otl:Deur dct:conformsTo nen-2767-4:Bouwdeel_1148 .
+    otl:Deur dct:conformsTo nen2767:Bouwdeel_1148 .
 
-    otl:Deurgeleiding dct:conformsTo nen-2767-4:Bouwdeel_1150 .
+    otl:Deurgeleiding dct:conformsTo nen2767:Bouwdeel_1150 .
 
-    otl:Deurrails dct:conformsTo nen-2767-4:Bouwdeel_1151 .
+    otl:Deurrails dct:conformsTo nen2767:Bouwdeel_1151 .
 
-    otl:Deuvel dct:conformsTo nen-2767-4:Bouwdeel_1152 .
+    otl:Deuvel dct:conformsTo nen2767:Bouwdeel_1152 .
 
-    otl:DiagonaalVakwerkligger dct:conformsTo nen-2767-4:Bouwdeel_1153 .
+    otl:DiagonaalVakwerkligger dct:conformsTo nen2767:Bouwdeel_1153 .
 
-    otl:Dieptefiltratie dct:conformsTo nen-2767-4:Bouwdeel_1154 .
+    otl:Dieptefiltratie dct:conformsTo nen2767:Bouwdeel_1154 .
 
-    otl:Diepwand dct:conformsTo nen-2767-4:Bouwdeel_1155 .
+    otl:Diepwand dct:conformsTo nen2767:Bouwdeel_1155 .
 
-    otl:Dijk dct:conformsTo nen-2767-4:Beheerobject_AK .
+    otl:Dijk dct:conformsTo nen2767:Beheerobject_AK .
 
-    otl:Dilatatievoeg dct:conformsTo nen-2767-4:Bouwdeel_1158 .
+    otl:Dilatatievoeg dct:conformsTo nen2767:Bouwdeel_1158 .
 
-    otl:Dilatatievoegovergang dct:conformsTo nen-2767-4:Bouwdeel_1159 .
+    otl:Dilatatievoegovergang dct:conformsTo nen2767:Bouwdeel_1159 .
 
-    otl:Display dct:conformsTo nen-2767-4:Bouwdeel_1160 .
+    otl:Display dct:conformsTo nen2767:Bouwdeel_1160 .
 
-    otl:Doelvoorstellingsapparatuur dct:conformsTo nen-2767-4:Bouwdeel_1761 .
+    otl:Doelvoorstellingsapparatuur dct:conformsTo nen2767:Bouwdeel_1761 .
 
-    otl:DoorgangGrondlichaam dct:conformsTo nen-2767-4:Bouwdeel_1762 .
+    otl:DoorgangGrondlichaam dct:conformsTo nen2767:Bouwdeel_1762 .
 
-    otl:Doorlaatkoker dct:conformsTo nen-2767-4:Element_126 .
+    otl:Doorlaatkoker dct:conformsTo nen2767:Element_126 .
 
-    otl:Doorvoer dct:conformsTo nen-2767-4:Bouwdeel_1280 .
+    otl:Doorvoer dct:conformsTo nen2767:Bouwdeel_1280 .
 
-    otl:Douche dct:conformsTo nen-2767-4:Bouwdeel_2158 .
+    otl:Douche dct:conformsTo nen2767:Bouwdeel_2158 .
 
-    otl:Draad dct:conformsTo nen-2767-4:Bouwdeel_1765 .
+    otl:Draad dct:conformsTo nen2767:Bouwdeel_1765 .
 
-    otl:Draadstang dct:conformsTo nen-2767-4:Bouwdeel_1162 .
+    otl:Draadstang dct:conformsTo nen2767:Bouwdeel_1162 .
 
-    otl:Draaipoort dct:conformsTo nen-2767-4:Bouwdeel_2032 .
+    otl:Draaipoort dct:conformsTo nen2767:Bouwdeel_2032 .
 
-    otl:Draaipunt dct:conformsTo nen-2767-4:Bouwdeel_1164 .
+    otl:Draaipunt dct:conformsTo nen2767:Bouwdeel_1164 .
 
-    otl:Draaitoestel dct:conformsTo nen-2767-4:Bouwdeel_1766 .
+    otl:Draaitoestel dct:conformsTo nen2767:Bouwdeel_1766 .
 
-    otl:Drainage dct:conformsTo nen-2767-4:Element_127 .
+    otl:Drainage dct:conformsTo nen2767:Element_127 .
 
-    otl:Drainagebuis dct:conformsTo nen-2767-4:Bouwdeel_1166 .
+    otl:Drainagebuis dct:conformsTo nen2767:Bouwdeel_1166 .
 
-    otl:Drainmonding dct:conformsTo nen-2767-4:Bouwdeel_1167 .
+    otl:Drainmonding dct:conformsTo nen2767:Bouwdeel_1167 .
 
-    otl:Drempel dct:conformsTo nen-2767-4:Bouwdeel_1168 .
+    otl:Drempel dct:conformsTo nen2767:Bouwdeel_1168 .
 
-    otl:Drijfbaken dct:conformsTo nen-2767-4:Bouwdeel_1711 .
+    otl:Drijfbaken dct:conformsTo nen2767:Bouwdeel_1711 .
 
-    otl:Drijfkist dct:conformsTo nen-2767-4:Bouwdeel_2210 .
+    otl:Drijfkist dct:conformsTo nen2767:Bouwdeel_2210 .
 
-    otl:DrijflaagAfvoerbak dct:conformsTo nen-2767-4:Bouwdeel_2121 .
+    otl:DrijflaagAfvoerbak dct:conformsTo nen2767:Bouwdeel_2121 .
 
-    otl:Drijflaagruimer dct:conformsTo nen-2767-4:Bouwdeel_2099 .
+    otl:Drijflaagruimer dct:conformsTo nen2767:Bouwdeel_2099 .
 
-    otl:Drijfraam dct:conformsTo nen-2767-4:Bouwdeel_1170 .
+    otl:Drijfraam dct:conformsTo nen2767:Bouwdeel_1170 .
 
-    otl:DrijvendeBolder dct:conformsTo nen-2767-4:Bouwdeel_1171 .
+    otl:DrijvendeBolder dct:conformsTo nen2767:Bouwdeel_1171 .
 
-    otl:Drinkwaterinlaat dct:conformsTo nen-2767-4:Beheerobject_AL .
+    otl:Drinkwaterinlaat dct:conformsTo nen2767:Beheerobject_AL .
 
-    otl:Droogzetvoorziening dct:conformsTo nen-2767-4:Bouwdeel_1987 .
+    otl:Droogzetvoorziening dct:conformsTo nen2767:Bouwdeel_1987 .
 
-    otl:Drukknoppaal dct:conformsTo nen-2767-4:Bouwdeel_1172 .
+    otl:Drukknoppaal dct:conformsTo nen2767:Bouwdeel_1172 .
 
-    otl:Drukluchtschuiminstallatie dct:conformsTo nen-2767-4:Element_409 .
+    otl:Drukluchtschuiminstallatie dct:conformsTo nen2767:Element_409 .
 
-    otl:Drukpalen dct:conformsTo nen-2767-4:Bouwdeel_1173 .
+    otl:Drukpalen dct:conformsTo nen2767:Bouwdeel_1173 .
 
-    otl:Drukvat dct:conformsTo nen-2767-4:Bouwdeel_1174 .
+    otl:Drukvat dct:conformsTo nen2767:Bouwdeel_1174 .
 
-    otl:Dugout dct:conformsTo nen-2767-4:Bouwdeel_1768 .
+    otl:Dugout dct:conformsTo nen2767:Bouwdeel_1768 .
 
-    otl:Duiker dct:conformsTo nen-2767-4:Beheerobject_AM .
+    otl:Duiker dct:conformsTo nen2767:Beheerobject_AM .
 
-    otl:Duin dct:conformsTo nen-2767-4:Element_128 .
+    otl:Duin dct:conformsTo nen2767:Element_128 .
 
-    otl:Duingebied dct:conformsTo nen-2767-4:Beheerobject_AN .
+    otl:Duingebied dct:conformsTo nen2767:Beheerobject_AN .
 
-    otl:Duinovergang dct:conformsTo nen-2767-4:Bouwdeel_1176 .
+    otl:Duinovergang dct:conformsTo nen2767:Bouwdeel_1176 .
 
-    otl:Duinstruweel dct:conformsTo nen-2767-4:Bouwdeel_1770 .
+    otl:Duinstruweel dct:conformsTo nen2767:Bouwdeel_1770 .
 
-    otl:Duinvoetverdediging dct:conformsTo nen-2767-4:Bouwdeel_1177 .
+    otl:Duinvoetverdediging dct:conformsTo nen2767:Bouwdeel_1177 .
 
-    otl:DuurzameEnergiebron dct:conformsTo nen-2767-4:Element_129 .
+    otl:DuurzameEnergiebron dct:conformsTo nen2767:Element_129 .
 
-    otl:Dwarsdrager dct:conformsTo nen-2767-4:Bouwdeel_1179 .
+    otl:Dwarsdrager dct:conformsTo nen2767:Bouwdeel_1179 .
 
-    otl:DynamischeBewegwijzeringEnInformatieSystemen dct:conformsTo nen-2767-4:Element_130 .
+    otl:DynamischeBewegwijzeringEnInformatieSystemen dct:conformsTo nen2767:Element_130 .
 
-    otl:Ecoduct dct:conformsTo nen-2767-4:Beheerobject_AO .
+    otl:Ecoduct dct:conformsTo nen2767:Beheerobject_AO .
 
-    otl:Elektromotor dct:conformsTo nen-2767-4:Bouwdeel_1182 .
+    otl:Elektromotor dct:conformsTo nen2767:Bouwdeel_1182 .
 
-    otl:Elektrovijzel dct:conformsTo nen-2767-4:Bouwdeel_1183 .
+    otl:Elektrovijzel dct:conformsTo nen2767:Bouwdeel_1183 .
 
-    otl:Elementenverharding dct:conformsTo nen-2767-4:Bouwdeel_1184 .
+    otl:Elementenverharding dct:conformsTo nen2767:Bouwdeel_1184 .
 
-    otl:EmbryonaalDuin dct:conformsTo nen-2767-4:Bouwdeel_2232 .
+    otl:EmbryonaalDuin dct:conformsTo nen2767:Bouwdeel_2232 .
 
-    otl:Energiekabel dct:conformsTo nen-2767-4:Bouwdeel_1185 .
+    otl:Energiekabel dct:conformsTo nen2767:Bouwdeel_1185 .
 
-    otl:Erf dct:conformsTo nen-2767-4:Element_208 .
+    otl:Erf dct:conformsTo nen2767:Element_208 .
 
-    otl:Evacuatieverlichting dct:conformsTo nen-2767-4:Bouwdeel_1187 .
+    otl:Evacuatieverlichting dct:conformsTo nen2767:Bouwdeel_1187 .
 
-    otl:Evenaar dct:conformsTo nen-2767-4:Bouwdeel_1188 .
+    otl:Evenaar dct:conformsTo nen2767:Bouwdeel_1188 .
 
-    otl:Evenwichtstoestel dct:conformsTo nen-2767-4:Bouwdeel_1771 .
+    otl:Evenwichtstoestel dct:conformsTo nen2767:Bouwdeel_1771 .
 
-    otl:Fantasietoestel dct:conformsTo nen-2767-4:Bouwdeel_1772 .
+    otl:Fantasietoestel dct:conformsTo nen2767:Bouwdeel_1772 .
 
-    otl:FaunaInsprong dct:conformsTo nen-2767-4:Element_281 .
+    otl:FaunaInsprong dct:conformsTo nen2767:Element_281 .
 
-    otl:FaunaUittreedplaats dct:conformsTo nen-2767-4:Element_131 .
+    otl:FaunaUittreedplaats dct:conformsTo nen2767:Element_131 .
 
-    otl:Faunadekking dct:conformsTo nen-2767-4:Element_285 .
+    otl:Faunadekking dct:conformsTo nen2767:Element_285 .
 
-    otl:Faunageleiding dct:conformsTo nen-2767-4:Element_307 .
+    otl:Faunageleiding dct:conformsTo nen2767:Element_307 .
 
-    otl:Faunaopening dct:conformsTo nen-2767-4:Bouwdeel_1775 .
+    otl:Faunaopening dct:conformsTo nen2767:Bouwdeel_1775 .
 
-    otl:Faunaspiegel dct:conformsTo nen-2767-4:Bouwdeel_1778 .
+    otl:Faunaspiegel dct:conformsTo nen2767:Bouwdeel_1778 .
 
-    otl:Faunatunnel dct:conformsTo nen-2767-4:Beheerobject_AP .
+    otl:Faunatunnel dct:conformsTo nen2767:Beheerobject_AP .
 
-    otl:Faunawand dct:conformsTo nen-2767-4:Bouwdeel_2010 .
+    otl:Faunawand dct:conformsTo nen2767:Bouwdeel_2010 .
 
-    otl:Filterconstructie dct:conformsTo nen-2767-4:Bouwdeel_1191 .
+    otl:Filterconstructie dct:conformsTo nen2767:Bouwdeel_1191 .
 
-    otl:Filterdoek dct:conformsTo nen-2767-4:Bouwdeel_2100 .
+    otl:Filterdoek dct:conformsTo nen2767:Bouwdeel_2100 .
 
-    otl:Filterhuis dct:conformsTo nen-2767-4:Bouwdeel_2102 .
+    otl:Filterhuis dct:conformsTo nen2767:Bouwdeel_2102 .
 
-    otl:Filtervulling dct:conformsTo nen-2767-4:Bouwdeel_2101 .
+    otl:Filtervulling dct:conformsTo nen2767:Bouwdeel_2101 .
 
-    otl:Fitnesstoestel dct:conformsTo nen-2767-4:Bouwdeel_2035 .
+    otl:Fitnesstoestel dct:conformsTo nen2767:Bouwdeel_2035 .
 
-    otl:Flens dct:conformsTo nen-2767-4:Bouwdeel_1200 .
+    otl:Flens dct:conformsTo nen2767:Bouwdeel_1200 .
 
-    otl:Folie dct:conformsTo nen-2767-4:Bouwdeel_1201 .
+    otl:Folie dct:conformsTo nen2767:Bouwdeel_1201 .
 
-    otl:Folieconstructie dct:conformsTo nen-2767-4:Element_132 .
+    otl:Folieconstructie dct:conformsTo nen2767:Element_132 .
 
-    otl:Fontein dct:conformsTo nen-2767-4:Bouwdeel_1780 .
+    otl:Fontein dct:conformsTo nen2767:Bouwdeel_1780 .
 
-    otl:Frame dct:conformsTo nen-2767-4:Bouwdeel_1203 .
+    otl:Frame dct:conformsTo nen2767:Bouwdeel_1203 .
 
-    otl:Fundatie dct:conformsTo nen-2767-4:Bouwdeel_1204 .
+    otl:Fundatie dct:conformsTo nen2767:Bouwdeel_1204 .
 
-    otl:Fundering dct:conformsTo nen-2767-4:Element_133 .
+    otl:Fundering dct:conformsTo nen2767:Element_133 .
 
-    otl:Funderingslaag-Gebonden dct:conformsTo nen-2767-4:Bouwdeel_2176 .
+    otl:Funderingslaag-Gebonden dct:conformsTo nen2767:Bouwdeel_2176 .
 
-    otl:Funderingslaag-Ongebonden dct:conformsTo nen-2767-4:Bouwdeel_2177 .
+    otl:Funderingslaag-Ongebonden dct:conformsTo nen2767:Bouwdeel_2177 .
 
-    otl:GSMinstallatie dct:conformsTo nen-2767-4:Element_416 .
+    otl:GSMinstallatie dct:conformsTo nen2767:Element_416 .
 
-    otl:Gaas dct:conformsTo nen-2767-4:Bouwdeel_1781 .
+    otl:Gaas dct:conformsTo nen2767:Bouwdeel_1781 .
 
-    otl:Gaffel dct:conformsTo nen-2767-4:Bouwdeel_1979 .
+    otl:Gaffel dct:conformsTo nen2767:Bouwdeel_1979 .
 
-    otl:GasdetectieInstallatie dct:conformsTo nen-2767-4:Element_134 .
+    otl:GasdetectieInstallatie dct:conformsTo nen2767:Element_134 .
 
-    otl:Gasinstallatie dct:conformsTo nen-2767-4:Element_396 .
+    otl:Gasinstallatie dct:conformsTo nen2767:Element_396 .
 
-    otl:Gedenksteen dct:conformsTo nen-2767-4:Bouwdeel_2030 .
+    otl:Gedenksteen dct:conformsTo nen2767:Bouwdeel_2030 .
 
-    otl:Geiser dct:conformsTo nen-2767-4:Bouwdeel_2163 .
+    otl:Geiser dct:conformsTo nen2767:Bouwdeel_2163 .
 
-    otl:Geleidebarrier dct:conformsTo nen-2767-4:Bouwdeel_1053 .
+    otl:Geleidebarrier dct:conformsTo nen2767:Bouwdeel_1053 .
 
-    otl:Geleideconstructie dct:conformsTo nen-2767-4:Element_136 .
+    otl:Geleideconstructie dct:conformsTo nen2767:Element_136 .
 
-    otl:GeleidendeBalk dct:conformsTo nen-2767-4:Bouwdeel_1210 .
+    otl:GeleidendeBalk dct:conformsTo nen2767:Bouwdeel_1210 .
 
-    otl:Geleider dct:conformsTo nen-2767-4:Bouwdeel_1211 .
+    otl:Geleider dct:conformsTo nen2767:Bouwdeel_1211 .
 
-    otl:Geleiderail dct:conformsTo nen-2767-4:Bouwdeel_1212 .
+    otl:Geleiderail dct:conformsTo nen2767:Bouwdeel_1212 .
 
-    otl:Geleidetoren dct:conformsTo nen-2767-4:Element_405 .
+    otl:Geleidetoren dct:conformsTo nen2767:Element_405 .
 
-    otl:Geleidewerk dct:conformsTo nen-2767-4:Bouwdeel_1213 .
+    otl:Geleidewerk dct:conformsTo nen2767:Bouwdeel_1213 .
 
-    otl:Geleiding dct:conformsTo nen-2767-4:Bouwdeel_1984 .
+    otl:Geleiding dct:conformsTo nen2767:Bouwdeel_1984 .
 
-    otl:Gelijkrichter dct:conformsTo nen-2767-4:Bouwdeel_1215 .
+    otl:Gelijkrichter dct:conformsTo nen2767:Bouwdeel_1215 .
 
-    otl:GeluidbeperkendeConstructie dct:conformsTo nen-2767-4:Element_137 .
+    otl:GeluidbeperkendeConstructie dct:conformsTo nen2767:Element_137 .
 
-    otl:Geluidsdemper dct:conformsTo nen-2767-4:Bouwdeel_1143 .
+    otl:Geluidsdemper dct:conformsTo nen2767:Bouwdeel_1143 .
 
-    otl:Gemaal dct:conformsTo nen-2767-4:Beheerobject_AR .
+    otl:Gemaal dct:conformsTo nen2767:Beheerobject_AR .
 
-    otl:Generator dct:conformsTo nen-2767-4:Bouwdeel_1219 .
+    otl:Generator dct:conformsTo nen2767:Bouwdeel_1219 .
 
-    otl:Geotextiel dct:conformsTo nen-2767-4:Bouwdeel_1220 .
+    otl:Geotextiel dct:conformsTo nen2767:Bouwdeel_1220 .
 
-    otl:GestrekteOever-Natuurvriendelijk dct:conformsTo nen-2767-4:Element_138 .
+    otl:GestrekteOever-Natuurvriendelijk dct:conformsTo nen2767:Element_138 .
 
-    otl:GestrekteOever-Talud dct:conformsTo nen-2767-4:Element_139 .
+    otl:GestrekteOever-Talud dct:conformsTo nen2767:Element_139 .
 
-    otl:Giek dct:conformsTo nen-2767-4:Bouwdeel_1660 .
+    otl:Giek dct:conformsTo nen2767:Bouwdeel_1660 .
 
-    otl:Gistingstank dct:conformsTo nen-2767-4:Beheerobject_CV .
+    otl:Gistingstank dct:conformsTo nen2767:Beheerobject_CV .
 
-    otl:Gladheidsmeldsysteem dct:conformsTo nen-2767-4:Element_140 .
+    otl:Gladheidsmeldsysteem dct:conformsTo nen2767:Element_140 .
 
-    otl:Glasvezelkabel dct:conformsTo nen-2767-4:Bouwdeel_1222 .
+    otl:Glasvezelkabel dct:conformsTo nen2767:Bouwdeel_1222 .
 
-    otl:Glasvezelput dct:conformsTo nen-2767-4:Bouwdeel_1223 .
+    otl:Glasvezelput dct:conformsTo nen2767:Bouwdeel_1223 .
 
-    otl:Glijbaan dct:conformsTo nen-2767-4:Bouwdeel_1786 .
+    otl:Glijbaan dct:conformsTo nen2767:Bouwdeel_1786 .
 
-    otl:Golfpijp dct:conformsTo nen-2767-4:Bouwdeel_1224 .
+    otl:Golfpijp dct:conformsTo nen2767:Bouwdeel_1224 .
 
-    otl:Goot dct:conformsTo nen-2767-4:Bouwdeel_1225 .
+    otl:Goot dct:conformsTo nen2767:Bouwdeel_1225 .
 
-    otl:Gording dct:conformsTo nen-2767-4:Bouwdeel_1226 .
+    otl:Gording dct:conformsTo nen2767:Bouwdeel_1226 .
 
-    otl:Graf dct:conformsTo nen-2767-4:Element_291 .
+    otl:Graf dct:conformsTo nen2767:Element_291 .
 
-    otl:Grafbeplanting dct:conformsTo nen-2767-4:Bouwdeel_1788 .
+    otl:Grafbeplanting dct:conformsTo nen2767:Bouwdeel_1788 .
 
-    otl:Grafsteen dct:conformsTo nen-2767-4:Bouwdeel_1790 .
+    otl:Grafsteen dct:conformsTo nen2767:Bouwdeel_1790 .
 
-    otl:GrasEnOfKruid dct:conformsTo nen-2767-4:Bouwdeel_2211 .
+    otl:GrasEnOfKruid dct:conformsTo nen2767:Bouwdeel_2211 .
 
-    otl:Grasvegetatie dct:conformsTo nen-2767-4:Element_341 .
+    otl:Grasvegetatie dct:conformsTo nen2767:Element_341 .
 
-    otl:Grendel dct:conformsTo nen-2767-4:Bouwdeel_1227 .
+    otl:Grendel dct:conformsTo nen2767:Bouwdeel_1227 .
 
-    otl:Grendelinrichting dct:conformsTo nen-2767-4:Element_249 .
+    otl:Grendelinrichting dct:conformsTo nen2767:Element_249 .
 
-    otl:Grensprofiel dct:conformsTo nen-2767-4:Element_431 .
+    otl:Grensprofiel dct:conformsTo nen2767:Element_431 .
 
-    otl:Greppel dct:conformsTo nen-2767-4:Bouwdeel_1797 .
+    otl:Greppel dct:conformsTo nen2767:Bouwdeel_1797 .
 
-    otl:Grijper dct:conformsTo nen-2767-4:Bouwdeel_2086 .
+    otl:Grijper dct:conformsTo nen2767:Bouwdeel_2086 .
 
-    otl:Grindkoffer dct:conformsTo nen-2767-4:Bouwdeel_1798 .
+    otl:Grindkoffer dct:conformsTo nen2767:Bouwdeel_1798 .
 
-    otl:Gronddepot dct:conformsTo nen-2767-4:Bouwdeel_1801 .
+    otl:Gronddepot dct:conformsTo nen2767:Bouwdeel_1801 .
 
-    otl:Grondkering dct:conformsTo nen-2767-4:Beheerobject_AS .
+    otl:Grondkering dct:conformsTo nen2767:Beheerobject_AS .
 
-    otl:Grondlichaam dct:conformsTo nen-2767-4:Bouwdeel_1228 .
+    otl:Grondlichaam dct:conformsTo nen2767:Bouwdeel_1228 .
 
-    otl:Grondverbetering dct:conformsTo nen-2767-4:Bouwdeel_1234 .
+    otl:Grondverbetering dct:conformsTo nen2767:Bouwdeel_1234 .
 
-    otl:Haag dct:conformsTo nen-2767-4:Bouwdeel_2214 .
+    otl:Haag dct:conformsTo nen2767:Bouwdeel_2214 .
 
-    otl:Haalkom dct:conformsTo nen-2767-4:Bouwdeel_1237 .
+    otl:Haalkom dct:conformsTo nen2767:Bouwdeel_1237 .
 
-    otl:HalfverhardSportveld dct:conformsTo nen-2767-4:Bouwdeel_1805 .
+    otl:HalfverhardSportveld dct:conformsTo nen2767:Bouwdeel_1805 .
 
-    otl:Halfverharding dct:conformsTo nen-2767-4:Bouwdeel_2008 .
+    otl:Halfverharding dct:conformsTo nen2767:Bouwdeel_2008 .
 
-    otl:Halsbeugel dct:conformsTo nen-2767-4:Bouwdeel_2045 .
+    otl:Halsbeugel dct:conformsTo nen2767:Bouwdeel_2045 .
 
-    otl:Halslager dct:conformsTo nen-2767-4:Bouwdeel_1703 .
+    otl:Halslager dct:conformsTo nen2767:Bouwdeel_1703 .
 
-    otl:Hameistijl dct:conformsTo nen-2767-4:Bouwdeel_1238 .
+    otl:Hameistijl dct:conformsTo nen2767:Bouwdeel_1238 .
 
-    otl:Hamerstuk dct:conformsTo nen-2767-4:Bouwdeel_2167 .
+    otl:Hamerstuk dct:conformsTo nen2767:Bouwdeel_2167 .
 
-    otl:Handbrandmelder dct:conformsTo nen-2767-4:Bouwdeel_2005 .
+    otl:Handbrandmelder dct:conformsTo nen2767:Bouwdeel_2005 .
 
-    otl:HangerBoogbrug dct:conformsTo nen-2767-4:Bouwdeel_1239 .
+    otl:HangerBoogbrug dct:conformsTo nen2767:Bouwdeel_1239 .
 
-    otl:Hangstang dct:conformsTo nen-2767-4:Bouwdeel_1240 .
+    otl:Hangstang dct:conformsTo nen2767:Bouwdeel_1240 .
 
-    otl:Har dct:conformsTo nen-2767-4:Bouwdeel_1695 .
+    otl:Har dct:conformsTo nen2767:Bouwdeel_1695 .
 
-    otl:Hark dct:conformsTo nen-2767-4:Bouwdeel_2122 .
+    otl:Hark dct:conformsTo nen2767:Bouwdeel_2122 .
 
-    otl:Haspel dct:conformsTo nen-2767-4:Bouwdeel_2077 .
+    otl:Haspel dct:conformsTo nen2767:Bouwdeel_2077 .
 
-    otl:Haven dct:conformsTo nen-2767-4:Beheerobject_AT .
+    otl:Haven dct:conformsTo nen2767:Beheerobject_AT .
 
-    otl:Havendam dct:conformsTo nen-2767-4:Element_142 .
+    otl:Havendam dct:conformsTo nen2767:Element_142 .
 
-    otl:Hectometerbord dct:conformsTo nen-2767-4:Bouwdeel_1242 .
+    otl:Hectometerbord dct:conformsTo nen2767:Bouwdeel_1242 .
 
-    otl:Heester dct:conformsTo nen-2767-4:Bouwdeel_1905 .
+    otl:Heester dct:conformsTo nen2767:Bouwdeel_1905 .
 
-    otl:Hefdeur dct:conformsTo nen-2767-4:Bouwdeel_1243 .
+    otl:Hefdeur dct:conformsTo nen2767:Bouwdeel_1243 .
 
-    otl:Hefschuif dct:conformsTo nen-2767-4:Bouwdeel_1244 .
+    otl:Hefschuif dct:conformsTo nen2767:Bouwdeel_1244 .
 
-    otl:Heftoren dct:conformsTo nen-2767-4:Element_143 .
+    otl:Heftoren dct:conformsTo nen2767:Element_143 .
 
-    otl:Hek dct:conformsTo nen-2767-4:Bouwdeel_1246 .
+    otl:Hek dct:conformsTo nen2767:Bouwdeel_1246 .
 
-    otl:Helling dct:conformsTo nen-2767-4:Bouwdeel_2142 .
+    otl:Helling dct:conformsTo nen2767:Bouwdeel_2142 .
 
-    otl:Hellingafwerking dct:conformsTo nen-2767-4:Bouwdeel_2143 .
+    otl:Hellingafwerking dct:conformsTo nen2767:Bouwdeel_2143 .
 
-    otl:Helofytenfilter dct:conformsTo nen-2767-4:Bouwdeel_1248 .
+    otl:Helofytenfilter dct:conformsTo nen2767:Bouwdeel_1248 .
 
-    otl:Hemelwaterafvoer dct:conformsTo nen-2767-4:Element_144 .
+    otl:Hemelwaterafvoer dct:conformsTo nen2767:Element_144 .
 
-    otl:Heugelstang dct:conformsTo nen-2767-4:Bouwdeel_1250 .
+    otl:Heugelstang dct:conformsTo nen2767:Bouwdeel_1250 .
 
-    otl:Hevel dct:conformsTo nen-2767-4:Beheerobject_CH .
+    otl:Hevel dct:conformsTo nen2767:Beheerobject_CH .
 
-    otl:HijsEnHefinstallatie dct:conformsTo nen-2767-4:Element_146 .
+    otl:HijsEnHefinstallatie dct:conformsTo nen2767:Element_146 .
 
-    otl:Hindernisbaan dct:conformsTo nen-2767-4:Bouwdeel_1814 .
+    otl:Hindernisbaan dct:conformsTo nen2767:Bouwdeel_1814 .
 
-    otl:HittewerendeBekleding dct:conformsTo nen-2767-4:Bouwdeel_2207 .
+    otl:HittewerendeBekleding dct:conformsTo nen2767:Bouwdeel_2207 .
 
-    otl:Hockeyveld dct:conformsTo nen-2767-4:Bouwdeel_1816 .
+    otl:Hockeyveld dct:conformsTo nen2767:Bouwdeel_1816 .
 
-    otl:Honkbalveld dct:conformsTo nen-2767-4:Bouwdeel_1817 .
+    otl:Honkbalveld dct:conformsTo nen2767:Bouwdeel_1817 .
 
-    otl:Hoofddraagconstructie dct:conformsTo nen-2767-4:Element_147 .
+    otl:Hoofddraagconstructie dct:conformsTo nen2767:Element_147 .
 
-    otl:Hoofddraaipunt dct:conformsTo nen-2767-4:Element_148 .
+    otl:Hoofddraaipunt dct:conformsTo nen2767:Element_148 .
 
-    otl:Hoofdverdeler dct:conformsTo nen-2767-4:Bouwdeel_1256 .
+    otl:Hoofdverdeler dct:conformsTo nen2767:Bouwdeel_1256 .
 
-    otl:HoogfrequentInstallatie dct:conformsTo nen-2767-4:Element_145 .
+    otl:HoogfrequentInstallatie dct:conformsTo nen2767:Element_145 .
 
-    otl:Hoogspanningsinstallatie dct:conformsTo nen-2767-4:Element_149 .
+    otl:Hoogspanningsinstallatie dct:conformsTo nen2767:Element_149 .
 
-    otl:Hoogspanningsverdeler dct:conformsTo nen-2767-4:Bouwdeel_1258 .
+    otl:Hoogspanningsverdeler dct:conformsTo nen2767:Bouwdeel_1258 .
 
-    otl:Hoogspringaccommodatie dct:conformsTo nen-2767-4:Bouwdeel_1973 .
+    otl:Hoogspringaccommodatie dct:conformsTo nen2767:Bouwdeel_1973 .
 
-    otl:HoogtedetectieInstallatie dct:conformsTo nen-2767-4:Element_150 .
+    otl:HoogtedetectieInstallatie dct:conformsTo nen2767:Element_150 .
 
-    otl:Hoogwatervluchtplaats dct:conformsTo nen-2767-4:Element_423 .
+    otl:Hoogwatervluchtplaats dct:conformsTo nen2767:Element_423 .
 
-    otl:Hpalen dct:conformsTo nen-2767-4:Bouwdeel_1236 .
+    otl:Hpalen dct:conformsTo nen2767:Bouwdeel_1236 .
 
-    otl:Hulppostkast dct:conformsTo nen-2767-4:Bouwdeel_2201 .
+    otl:Hulppostkast dct:conformsTo nen2767:Bouwdeel_2201 .
 
-    otl:Hydrant dct:conformsTo nen-2767-4:Bouwdeel_2004 .
+    otl:Hydrant dct:conformsTo nen2767:Bouwdeel_2004 .
 
-    otl:HydraulischAggregaat dct:conformsTo nen-2767-4:Bouwdeel_1260 .
+    otl:HydraulischAggregaat dct:conformsTo nen2767:Bouwdeel_1260 .
 
-    otl:Hydrometer dct:conformsTo nen-2767-4:Bouwdeel_1263 .
+    otl:Hydrometer dct:conformsTo nen2767:Bouwdeel_1263 .
 
-    otl:Hydromotor dct:conformsTo nen-2767-4:Bouwdeel_2205 .
+    otl:Hydromotor dct:conformsTo nen2767:Bouwdeel_2205 .
 
-    otl:IBAreservoir dct:conformsTo nen-2767-4:Bouwdeel_1265 .
+    otl:IBAreservoir dct:conformsTo nen2767:Bouwdeel_1265 .
 
-    otl:IBAsysteem dct:conformsTo nen-2767-4:Beheerobject_DC .
+    otl:IBAsysteem dct:conformsTo nen2767:Beheerobject_DC .
 
-    otl:IJsbaan dct:conformsTo nen-2767-4:Bouwdeel_1821 .
+    otl:IJsbaan dct:conformsTo nen2767:Bouwdeel_1821 .
 
-    otl:InGrondVervaardigdePalen dct:conformsTo nen-2767-4:Bouwdeel_1264 .
+    otl:InGrondVervaardigdePalen dct:conformsTo nen2767:Bouwdeel_1264 .
 
-    otl:Inbraakbeveiligingsinstallatie dct:conformsTo nen-2767-4:Element_250 .
+    otl:Inbraakbeveiligingsinstallatie dct:conformsTo nen2767:Element_250 .
 
-    otl:Infiltratiekratten dct:conformsTo nen-2767-4:Bouwdeel_1266 .
+    otl:Infiltratiekratten dct:conformsTo nen2767:Bouwdeel_1266 .
 
-    otl:Infiltratieleiding dct:conformsTo nen-2767-4:Bouwdeel_1267 .
+    otl:Infiltratieleiding dct:conformsTo nen2767:Bouwdeel_1267 .
 
-    otl:Infiltratievelden dct:conformsTo nen-2767-4:Bouwdeel_1268 .
+    otl:Infiltratievelden dct:conformsTo nen2767:Bouwdeel_1268 .
 
-    otl:Infiltratievijvers dct:conformsTo nen-2767-4:Bouwdeel_1269 .
+    otl:Infiltratievijvers dct:conformsTo nen2767:Bouwdeel_1269 .
 
-    otl:Infiltratievoorziening dct:conformsTo nen-2767-4:Element_296 .
+    otl:Infiltratievoorziening dct:conformsTo nen2767:Element_296 .
 
-    otl:InformatieEnVolgsysteemScheepvaart1990 dct:conformsTo nen-2767-4:Element_154 .
+    otl:InformatieEnVolgsysteemScheepvaart1990 dct:conformsTo nen2767:Element_154 .
 
-    otl:Informatiebord dct:conformsTo nen-2767-4:Bouwdeel_1822 .
+    otl:Informatiebord dct:conformsTo nen2767:Bouwdeel_1822 .
 
-    otl:InfragebondenGebouw dct:conformsTo nen-2767-4:Beheerobject_AQ .
+    otl:InfragebondenGebouw dct:conformsTo nen2767:Beheerobject_AQ .
 
-    otl:Infraroodlamp dct:conformsTo nen-2767-4:Bouwdeel_1675 .
+    otl:Infraroodlamp dct:conformsTo nen2767:Bouwdeel_1675 .
 
-    otl:Inlaat dct:conformsTo nen-2767-4:Bouwdeel_2063 .
+    otl:Inlaat dct:conformsTo nen2767:Bouwdeel_2063 .
 
-    otl:Inlaatvoorziening dct:conformsTo nen-2767-4:Element_358 .
+    otl:Inlaatvoorziening dct:conformsTo nen2767:Element_358 .
 
-    otl:Inlooptrommel dct:conformsTo nen-2767-4:Bouwdeel_2123 .
+    otl:Inlooptrommel dct:conformsTo nen2767:Bouwdeel_2123 .
 
-    otl:Inspectiewagen dct:conformsTo nen-2767-4:Element_152 .
+    otl:Inspectiewagen dct:conformsTo nen2767:Element_152 .
 
-    otl:Installatiekabel dct:conformsTo nen-2767-4:Bouwdeel_1668 .
+    otl:Installatiekabel dct:conformsTo nen2767:Bouwdeel_1668 .
 
-    otl:Instroomopening dct:conformsTo nen-2767-4:Bouwdeel_1272 .
+    otl:Instroomopening dct:conformsTo nen2767:Bouwdeel_1272 .
 
-    otl:Intercom dct:conformsTo nen-2767-4:Bouwdeel_1273 .
+    otl:Intercom dct:conformsTo nen2767:Bouwdeel_1273 .
 
-    otl:Intercominstallatie dct:conformsTo nen-2767-4:Element_153 .
+    otl:Intercominstallatie dct:conformsTo nen2767:Element_153 .
 
-    otl:Intercompost dct:conformsTo nen-2767-4:Bouwdeel_1275 .
+    otl:Intercompost dct:conformsTo nen2767:Bouwdeel_1275 .
 
-    otl:Isolator dct:conformsTo nen-2767-4:Bouwdeel_2103 .
+    otl:Isolator dct:conformsTo nen2767:Bouwdeel_2103 .
 
-    otl:Jaloezie dct:conformsTo nen-2767-4:Bouwdeel_2188 .
+    otl:Jaloezie dct:conformsTo nen2767:Bouwdeel_2188 .
 
-    otl:Juk dct:conformsTo nen-2767-4:Bouwdeel_1278 .
+    otl:Juk dct:conformsTo nen2767:Bouwdeel_1278 .
 
-    otl:KWhMetering dct:conformsTo nen-2767-4:Bouwdeel_1322 .
+    otl:KWhMetering dct:conformsTo nen2767:Bouwdeel_1322 .
 
-    otl:Kaapstander dct:conformsTo nen-2767-4:Bouwdeel_1279 .
+    otl:Kaapstander dct:conformsTo nen2767:Bouwdeel_1279 .
 
-    otl:Kaart dct:conformsTo nen-2767-4:Bouwdeel_2183 .
+    otl:Kaart dct:conformsTo nen2767:Bouwdeel_2183 .
 
-    otl:Kabel dct:conformsTo nen-2767-4:Element_113 .
+    otl:Kabel dct:conformsTo nen2767:Element_113 .
 
-    otl:KabelEnLeiding dct:conformsTo nen-2767-4:Beheerobject_AV .
+    otl:KabelEnLeiding dct:conformsTo nen2767:Beheerobject_AV .
 
-    otl:Kabeldraagconstructie dct:conformsTo nen-2767-4:Element_156 .
+    otl:Kabeldraagconstructie dct:conformsTo nen2767:Element_156 .
 
-    otl:Kabelgoot dct:conformsTo nen-2767-4:Bouwdeel_1282 .
+    otl:Kabelgoot dct:conformsTo nen2767:Bouwdeel_1282 .
 
-    otl:KabelsEnLeidingen dct:conformsTo nen-2767-4:Element_155 .
+    otl:KabelsEnLeidingen dct:conformsTo nen2767:Element_155 .
 
-    otl:Kabelspaninrichting dct:conformsTo nen-2767-4:Bouwdeel_1285 .
+    otl:Kabelspaninrichting dct:conformsTo nen2767:Bouwdeel_1285 .
 
-    otl:Kabeltender dct:conformsTo nen-2767-4:Bouwdeel_1287 .
+    otl:Kabeltender dct:conformsTo nen2767:Bouwdeel_1287 .
 
-    otl:Kabeltrommel dct:conformsTo nen-2767-4:Bouwdeel_1288 .
+    otl:Kabeltrommel dct:conformsTo nen2767:Bouwdeel_1288 .
 
-    otl:Kade dct:conformsTo nen-2767-4:Beheerobject_AW .
+    otl:Kade dct:conformsTo nen2767:Beheerobject_AW .
 
-    otl:Kadeput dct:conformsTo nen-2767-4:Bouwdeel_1290 .
+    otl:Kadeput dct:conformsTo nen2767:Bouwdeel_1290 .
 
-    otl:Kanaal dct:conformsTo nen-2767-4:Beheerobject_AX .
+    otl:Kanaal dct:conformsTo nen2767:Beheerobject_AX .
 
-    otl:Kapiteel dct:conformsTo nen-2767-4:Bouwdeel_1678 .
+    otl:Kapiteel dct:conformsTo nen2767:Bouwdeel_1678 .
 
-    otl:Kast dct:conformsTo nen-2767-4:Bouwdeel_1292 .
+    otl:Kast dct:conformsTo nen2767:Bouwdeel_1292 .
 
-    otl:KathodischeBescherminstallatie dct:conformsTo nen-2767-4:Element_373 .
+    otl:KathodischeBescherminstallatie dct:conformsTo nen2767:Element_373 .
 
-    otl:Keerelement dct:conformsTo nen-2767-4:Bouwdeel_1295 .
+    otl:Keerelement dct:conformsTo nen2767:Bouwdeel_1295 .
 
-    otl:Keermuur dct:conformsTo nen-2767-4:Bouwdeel_1296 .
+    otl:Keermuur dct:conformsTo nen2767:Bouwdeel_1296 .
 
-    otl:Keerplaats dct:conformsTo nen-2767-4:Element_271 .
+    otl:Keerplaats dct:conformsTo nen2767:Element_271 .
 
-    otl:Keersluis dct:conformsTo nen-2767-4:Beheerobject_DD .
+    otl:Keersluis dct:conformsTo nen2767:Beheerobject_DD .
 
-    otl:Keerwand dct:conformsTo nen-2767-4:Bouwdeel_1824 .
+    otl:Keerwand dct:conformsTo nen2767:Bouwdeel_1824 .
 
-    otl:Kegelstuk dct:conformsTo nen-2767-4:Bouwdeel_2056 .
+    otl:Kegelstuk dct:conformsTo nen2767:Bouwdeel_2056 .
 
-    otl:Kelder dct:conformsTo nen-2767-4:Element_251 .
+    otl:Kelder dct:conformsTo nen2767:Element_251 .
 
-    otl:KerendeConstructie dct:conformsTo nen-2767-4:Element_157 .
+    otl:KerendeConstructie dct:conformsTo nen2767:Element_157 .
 
-    otl:Kerf dct:conformsTo nen-2767-4:Bouwdeel_2233 .
+    otl:Kerf dct:conformsTo nen2767:Bouwdeel_2233 .
 
-    otl:Keringschuif dct:conformsTo nen-2767-4:Element_205 .
+    otl:Keringschuif dct:conformsTo nen2767:Element_205 .
 
-    otl:Kesp dct:conformsTo nen-2767-4:Bouwdeel_1297 .
+    otl:Kesp dct:conformsTo nen2767:Bouwdeel_1297 .
 
-    otl:Ketel dct:conformsTo nen-2767-4:Bouwdeel_1299 .
+    otl:Ketel dct:conformsTo nen2767:Bouwdeel_1299 .
 
-    otl:Ketting dct:conformsTo nen-2767-4:Bouwdeel_1300 .
+    otl:Ketting dct:conformsTo nen2767:Bouwdeel_1300 .
 
-    otl:Kettingoog dct:conformsTo nen-2767-4:Bouwdeel_1301 .
+    otl:Kettingoog dct:conformsTo nen2767:Bouwdeel_1301 .
 
-    otl:Kettingoverbrenging dct:conformsTo nen-2767-4:Bouwdeel_1302 .
+    otl:Kettingoverbrenging dct:conformsTo nen2767:Bouwdeel_1302 .
 
-    otl:Kettingtand dct:conformsTo nen-2767-4:Bouwdeel_2124 .
+    otl:Kettingtand dct:conformsTo nen2767:Bouwdeel_2124 .
 
-    otl:Kettingverankering dct:conformsTo nen-2767-4:Bouwdeel_1303 .
+    otl:Kettingverankering dct:conformsTo nen2767:Bouwdeel_1303 .
 
-    otl:Keukenblok dct:conformsTo nen-2767-4:Bouwdeel_2198 .
+    otl:Keukenblok dct:conformsTo nen2767:Bouwdeel_2198 .
 
-    otl:Keukeninrichting dct:conformsTo nen-2767-4:Element_407 .
+    otl:Keukeninrichting dct:conformsTo nen2767:Element_407 .
 
-    otl:Keukeninstallatie dct:conformsTo nen-2767-4:Bouwdeel_2199 .
+    otl:Keukeninstallatie dct:conformsTo nen2767:Bouwdeel_2199 .
 
-    otl:Kinderspeelplaats dct:conformsTo nen-2767-4:Bouwdeel_1825 .
+    otl:Kinderspeelplaats dct:conformsTo nen2767:Bouwdeel_1825 .
 
-    otl:Kist dct:conformsTo nen-2767-4:Bouwdeel_2169 .
+    otl:Kist dct:conformsTo nen2767:Bouwdeel_2169 .
 
-    otl:Klep dct:conformsTo nen-2767-4:Bouwdeel_1304 .
+    otl:Klep dct:conformsTo nen2767:Bouwdeel_1304 .
 
-    otl:Klepconstructie dct:conformsTo nen-2767-4:Element_158 .
+    otl:Klepconstructie dct:conformsTo nen2767:Element_158 .
 
-    otl:Klepketting dct:conformsTo nen-2767-4:Bouwdeel_1306 .
+    otl:Klepketting dct:conformsTo nen2767:Bouwdeel_1306 .
 
-    otl:Klimaatinstallatie dct:conformsTo nen-2767-4:Element_337 .
+    otl:Klimaatinstallatie dct:conformsTo nen2767:Element_337 .
 
-    otl:Klimplantconstructie dct:conformsTo nen-2767-4:Bouwdeel_1827 .
+    otl:Klimplantconstructie dct:conformsTo nen2767:Bouwdeel_1827 .
 
-    otl:Klimtoestel dct:conformsTo nen-2767-4:Bouwdeel_1828 .
+    otl:Klimtoestel dct:conformsTo nen2767:Bouwdeel_1828 .
 
-    otl:Knelbeveiliging dct:conformsTo nen-2767-4:Bouwdeel_1310 .
+    otl:Knelbeveiliging dct:conformsTo nen2767:Bouwdeel_1310 .
 
-    otl:Knooppunt dct:conformsTo nen-2767-4:Bouwdeel_1311 .
+    otl:Knooppunt dct:conformsTo nen2767:Bouwdeel_1311 .
 
-    otl:Koelmachine dct:conformsTo nen-2767-4:Bouwdeel_1313 .
+    otl:Koelmachine dct:conformsTo nen2767:Bouwdeel_1313 .
 
-    otl:Kogelvanger dct:conformsTo nen-2767-4:Bouwdeel_1830 .
+    otl:Kogelvanger dct:conformsTo nen2767:Bouwdeel_1830 .
 
-    otl:Koker dct:conformsTo nen-2767-4:Bouwdeel_1831 .
+    otl:Koker dct:conformsTo nen2767:Bouwdeel_1831 .
 
-    otl:Kolk dct:conformsTo nen-2767-4:Bouwdeel_1314 .
+    otl:Kolk dct:conformsTo nen2767:Bouwdeel_1314 .
 
-    otl:Kolom dct:conformsTo nen-2767-4:Bouwdeel_1679 .
+    otl:Kolom dct:conformsTo nen2767:Bouwdeel_1679 .
 
-    otl:Kooi dct:conformsTo nen-2767-4:Bouwdeel_1315 .
+    otl:Kooi dct:conformsTo nen2767:Bouwdeel_1315 .
 
-    otl:Koppeling dct:conformsTo nen-2767-4:Bouwdeel_1316 .
+    otl:Koppeling dct:conformsTo nen2767:Bouwdeel_1316 .
 
-    otl:Kozijn dct:conformsTo nen-2767-4:Bouwdeel_2149 .
+    otl:Kozijn dct:conformsTo nen2767:Bouwdeel_2149 .
 
-    otl:Kozijnwerk dct:conformsTo nen-2767-4:Element_393 .
+    otl:Kozijnwerk dct:conformsTo nen2767:Element_393 .
 
-    otl:Kraan dct:conformsTo nen-2767-4:Bouwdeel_2161 .
+    otl:Kraan dct:conformsTo nen2767:Bouwdeel_2161 .
 
-    otl:Kraanrail dct:conformsTo nen-2767-4:Bouwdeel_1317 .
+    otl:Kraanrail dct:conformsTo nen2767:Bouwdeel_1317 .
 
-    otl:Kraanrailfundering dct:conformsTo nen-2767-4:Bouwdeel_1318 .
+    otl:Kraanrailfundering dct:conformsTo nen2767:Bouwdeel_1318 .
 
-    otl:Krib dct:conformsTo nen-2767-4:Element_159 .
+    otl:Krib dct:conformsTo nen2767:Element_159 .
 
-    otl:Kribbaken dct:conformsTo nen-2767-4:Bouwdeel_1319 .
+    otl:Kribbaken dct:conformsTo nen2767:Bouwdeel_1319 .
 
-    otl:Kribvak dct:conformsTo nen-2767-4:Element_160 .
+    otl:Kribvak dct:conformsTo nen2767:Element_160 .
 
-    otl:Kruin dct:conformsTo nen-2767-4:Element_259 .
+    otl:Kruin dct:conformsTo nen2767:Element_259 .
 
-    otl:Krukstang dct:conformsTo nen-2767-4:Bouwdeel_1321 .
+    otl:Krukstang dct:conformsTo nen2767:Bouwdeel_1321 .
 
-    otl:Kunstobject dct:conformsTo nen-2767-4:Bouwdeel_1833 .
+    otl:Kunstobject dct:conformsTo nen2767:Bouwdeel_1833 .
 
-    otl:Kunststofsportveld dct:conformsTo nen-2767-4:Bouwdeel_1834 .
+    otl:Kunststofsportveld dct:conformsTo nen2767:Bouwdeel_1834 .
 
-    otl:Kwelder dct:conformsTo nen-2767-4:Element_302 .
+    otl:Kwelder dct:conformsTo nen2767:Element_302 .
 
-    otl:Kwelkade dct:conformsTo nen-2767-4:Element_427 .
+    otl:Kwelkade dct:conformsTo nen2767:Element_427 .
 
-    otl:Kwelscherm dct:conformsTo nen-2767-4:Bouwdeel_2227 .
+    otl:Kwelscherm dct:conformsTo nen2767:Bouwdeel_2227 .
 
-    otl:Laagspanningsinstallatie dct:conformsTo nen-2767-4:Element_162 .
+    otl:Laagspanningsinstallatie dct:conformsTo nen2767:Element_162 .
 
-    otl:Ladder dct:conformsTo nen-2767-4:Bouwdeel_1324 .
+    otl:Ladder dct:conformsTo nen2767:Bouwdeel_1324 .
 
-    otl:Ladderbaan dct:conformsTo nen-2767-4:Bouwdeel_1325 .
+    otl:Ladderbaan dct:conformsTo nen2767:Bouwdeel_1325 .
 
-    otl:Lager dct:conformsTo nen-2767-4:Bouwdeel_2007 .
+    otl:Lager dct:conformsTo nen2767:Bouwdeel_2007 .
 
-    otl:Lamellenafscheider dct:conformsTo nen-2767-4:Bouwdeel_2068 .
+    otl:Lamellenafscheider dct:conformsTo nen2767:Bouwdeel_2068 .
 
-    otl:Landbouwgebied dct:conformsTo nen-2767-4:Beheerobject_AY .
+    otl:Landbouwgebied dct:conformsTo nen2767:Beheerobject_AY .
 
-    otl:Landbouwgrond dct:conformsTo nen-2767-4:Element_273 .
+    otl:Landbouwgrond dct:conformsTo nen2767:Element_273 .
 
-    otl:Landhoofd dct:conformsTo nen-2767-4:Bouwdeel_1326 .
+    otl:Landhoofd dct:conformsTo nen2767:Bouwdeel_1326 .
 
-    otl:Landverkeerssein dct:conformsTo nen-2767-4:Bouwdeel_1327 .
+    otl:Landverkeerssein dct:conformsTo nen2767:Bouwdeel_1327 .
 
-    otl:Langsligger dct:conformsTo nen-2767-4:Bouwdeel_1328 .
+    otl:Langsligger dct:conformsTo nen2767:Bouwdeel_1328 .
 
-    otl:Leidam dct:conformsTo nen-2767-4:Element_361 .
+    otl:Leidam dct:conformsTo nen2767:Element_361 .
 
-    otl:Leiding dct:conformsTo nen-2767-4:Element_163 .
+    otl:Leiding dct:conformsTo nen2767:Element_163 .
 
-    otl:Leidingnetwerk dct:conformsTo nen-2767-4:Bouwdeel_2202 .
+    otl:Leidingnetwerk dct:conformsTo nen2767:Bouwdeel_2202 .
 
-    otl:Leikade dct:conformsTo nen-2767-4:Element_360 .
+    otl:Leikade dct:conformsTo nen2767:Element_360 .
 
-    otl:Lekdetector dct:conformsTo nen-2767-4:Bouwdeel_1333 .
+    otl:Lekdetector dct:conformsTo nen2767:Bouwdeel_1333 .
 
-    otl:Leuning dct:conformsTo nen-2767-4:Bouwdeel_2192 .
+    otl:Leuning dct:conformsTo nen2767:Bouwdeel_2192 .
 
-    otl:Leuningafwerking dct:conformsTo nen-2767-4:Bouwdeel_2145 .
+    otl:Leuningafwerking dct:conformsTo nen2767:Bouwdeel_2145 .
 
-    otl:Leuningband dct:conformsTo nen-2767-4:Bouwdeel_1336 .
+    otl:Leuningband dct:conformsTo nen2767:Bouwdeel_1336 .
 
-    otl:Leuningconstructie dct:conformsTo nen-2767-4:Element_414 .
+    otl:Leuningconstructie dct:conformsTo nen2767:Element_414 .
 
-    otl:Lichtgroepenkast dct:conformsTo nen-2767-4:Bouwdeel_1669 .
+    otl:Lichtgroepenkast dct:conformsTo nen2767:Bouwdeel_1669 .
 
-    otl:Lichtkoepel dct:conformsTo nen-2767-4:Bouwdeel_2152 .
+    otl:Lichtkoepel dct:conformsTo nen2767:Bouwdeel_2152 .
 
-    otl:Lichtopstand dct:conformsTo nen-2767-4:Bouwdeel_1338 .
+    otl:Lichtopstand dct:conformsTo nen2767:Bouwdeel_1338 .
 
-    otl:Lichtstraat dct:conformsTo nen-2767-4:Bouwdeel_2153 .
+    otl:Lichtstraat dct:conformsTo nen2767:Bouwdeel_2153 .
 
-    otl:Liftdeur dct:conformsTo nen-2767-4:Bouwdeel_1340 .
+    otl:Liftdeur dct:conformsTo nen2767:Bouwdeel_1340 .
 
-    otl:Liftinstallatie dct:conformsTo nen-2767-4:Element_165 .
+    otl:Liftinstallatie dct:conformsTo nen2767:Element_165 .
 
-    otl:Lijnafwatering dct:conformsTo nen-2767-4:Bouwdeel_2062 .
+    otl:Lijnafwatering dct:conformsTo nen2767:Bouwdeel_2062 .
 
-    otl:LocalAreaNetwork dct:conformsTo nen-2767-4:Bouwdeel_2189 .
+    otl:LocalAreaNetwork dct:conformsTo nen2767:Bouwdeel_2189 .
 
-    otl:Loopbrug dct:conformsTo nen-2767-4:Element_166 .
+    otl:Loopbrug dct:conformsTo nen2767:Element_166 .
 
-    otl:Loopkat dct:conformsTo nen-2767-4:Bouwdeel_1343 .
+    otl:Loopkat dct:conformsTo nen2767:Bouwdeel_1343 .
 
-    otl:Loopplank dct:conformsTo nen-2767-4:Bouwdeel_1344 .
+    otl:Loopplank dct:conformsTo nen2767:Bouwdeel_1344 .
 
-    otl:Looppoort dct:conformsTo nen-2767-4:Bouwdeel_2034 .
+    otl:Looppoort dct:conformsTo nen2767:Bouwdeel_2034 .
 
-    otl:Loopstrook dct:conformsTo nen-2767-4:Bouwdeel_1838 .
+    otl:Loopstrook dct:conformsTo nen2767:Bouwdeel_1838 .
 
-    otl:Luchtdroger dct:conformsTo nen-2767-4:Bouwdeel_1345 .
+    otl:Luchtdroger dct:conformsTo nen2767:Bouwdeel_1345 .
 
-    otl:Luchtinlaat dct:conformsTo nen-2767-4:Bouwdeel_1277 .
+    otl:Luchtinlaat dct:conformsTo nen2767:Bouwdeel_1277 .
 
-    otl:Luchtkanaal dct:conformsTo nen-2767-4:Bouwdeel_1291 .
+    otl:Luchtkanaal dct:conformsTo nen2767:Bouwdeel_1291 .
 
-    otl:Luidspreker dct:conformsTo nen-2767-4:Bouwdeel_1346 .
+    otl:Luidspreker dct:conformsTo nen2767:Bouwdeel_1346 .
 
-    otl:Luik dct:conformsTo nen-2767-4:Bouwdeel_1347 .
+    otl:Luik dct:conformsTo nen2767:Bouwdeel_1347 .
 
-    otl:Maaiveld dct:conformsTo nen-2767-4:Bouwdeel_1350 .
+    otl:Maaiveld dct:conformsTo nen2767:Bouwdeel_1350 .
 
-    otl:Mantelbuis dct:conformsTo nen-2767-4:Element_167 .
+    otl:Mantelbuis dct:conformsTo nen2767:Element_167 .
 
-    otl:Marifooninstallatie dct:conformsTo nen-2767-4:Element_168 .
+    otl:Marifooninstallatie dct:conformsTo nen2767:Element_168 .
 
-    otl:Markering dct:conformsTo nen-2767-4:Bouwdeel_1357 .
+    otl:Markering dct:conformsTo nen2767:Bouwdeel_1357 .
 
-    otl:Markeringspaal dct:conformsTo nen-2767-4:Bouwdeel_1840 .
+    otl:Markeringspaal dct:conformsTo nen2767:Bouwdeel_1840 .
 
-    otl:Mast dct:conformsTo nen-2767-4:Bouwdeel_1358 .
+    otl:Mast dct:conformsTo nen2767:Bouwdeel_1358 .
 
-    otl:Meer dct:conformsTo nen-2767-4:Beheerobject_AZ .
+    otl:Meer dct:conformsTo nen2767:Beheerobject_AZ .
 
-    otl:Meerboei dct:conformsTo nen-2767-4:Bouwdeel_1702 .
+    otl:Meerboei dct:conformsTo nen2767:Bouwdeel_1702 .
 
-    otl:Meerpaal dct:conformsTo nen-2767-4:Bouwdeel_1361 .
+    otl:Meerpaal dct:conformsTo nen2767:Bouwdeel_1361 .
 
-    otl:Meerstoel dct:conformsTo nen-2767-4:Bouwdeel_1362 .
+    otl:Meerstoel dct:conformsTo nen2767:Bouwdeel_1362 .
 
-    otl:Meetinstallatie dct:conformsTo nen-2767-4:Element_374 .
+    otl:Meetinstallatie dct:conformsTo nen2767:Element_374 .
 
-    otl:Meetpunt dct:conformsTo nen-2767-4:Bouwdeel_2087 .
+    otl:Meetpunt dct:conformsTo nen2767:Bouwdeel_2087 .
 
-    otl:Meetput dct:conformsTo nen-2767-4:Bouwdeel_1364 .
+    otl:Meetput dct:conformsTo nen2767:Bouwdeel_1364 .
 
-    otl:Meetsysteem dct:conformsTo nen-2767-4:Bouwdeel_1363 .
+    otl:Meetsysteem dct:conformsTo nen2767:Bouwdeel_1363 .
 
-    otl:Membraan dct:conformsTo nen-2767-4:Bouwdeel_2104 .
+    otl:Membraan dct:conformsTo nen2767:Bouwdeel_2104 .
 
-    otl:Membraanbeluchter dct:conformsTo nen-2767-4:Bouwdeel_2105 .
+    otl:Membraanbeluchter dct:conformsTo nen2767:Bouwdeel_2105 .
 
-    otl:Menginstallatie dct:conformsTo nen-2767-4:Element_380 .
+    otl:Menginstallatie dct:conformsTo nen2767:Element_380 .
 
-    otl:Meubilair dct:conformsTo nen-2767-4:Bouwdeel_1365 .
+    otl:Meubilair dct:conformsTo nen2767:Bouwdeel_1365 .
 
-    otl:Microfoon dct:conformsTo nen-2767-4:Bouwdeel_1366 .
+    otl:Microfoon dct:conformsTo nen2767:Bouwdeel_1366 .
 
-    otl:Mixer dct:conformsTo nen-2767-4:Bouwdeel_2106 .
+    otl:Mixer dct:conformsTo nen2767:Bouwdeel_2106 .
 
-    otl:Monitor dct:conformsTo nen-2767-4:Bouwdeel_1369 .
+    otl:Monitor dct:conformsTo nen2767:Bouwdeel_1369 .
 
-    otl:Monsternameapparaat dct:conformsTo nen-2767-4:Bouwdeel_2119 .
+    otl:Monsternameapparaat dct:conformsTo nen2767:Bouwdeel_2119 .
 
-    otl:Natuurgebied dct:conformsTo nen-2767-4:Beheerobject_BA .
+    otl:Natuurgebied dct:conformsTo nen2767:Beheerobject_BA .
 
-    otl:Nautofoon dct:conformsTo nen-2767-4:Bouwdeel_1372 .
+    otl:Nautofoon dct:conformsTo nen2767:Bouwdeel_1372 .
 
-    otl:Nautofooninstallatie dct:conformsTo nen-2767-4:Element_170 .
+    otl:Nautofooninstallatie dct:conformsTo nen2767:Element_170 .
 
-    otl:Net dct:conformsTo nen-2767-4:Bouwdeel_2132 .
+    otl:Net dct:conformsTo nen2767:Bouwdeel_2132 .
 
-    otl:Nevengeul dct:conformsTo nen-2767-4:Element_364 .
+    otl:Nevengeul dct:conformsTo nen2767:Element_364 .
 
-    otl:Nivelleerschuif dct:conformsTo nen-2767-4:Bouwdeel_1375 .
+    otl:Nivelleerschuif dct:conformsTo nen2767:Bouwdeel_1375 .
 
-    otl:NooddoucheInstallatie dct:conformsTo nen-2767-4:Element_379 .
+    otl:NooddoucheInstallatie dct:conformsTo nen2767:Element_379 .
 
-    otl:Noodhandbediening dct:conformsTo nen-2767-4:Bouwdeel_2000 .
+    otl:Noodhandbediening dct:conformsTo nen2767:Bouwdeel_2000 .
 
-    otl:Noodstop dct:conformsTo nen-2767-4:Bouwdeel_1377 .
+    otl:Noodstop dct:conformsTo nen2767:Bouwdeel_1377 .
 
-    otl:NoodstroominstallatieRoterend dct:conformsTo nen-2767-4:Element_171 .
+    otl:NoodstroominstallatieRoterend dct:conformsTo nen2767:Element_171 .
 
-    otl:NoodstroominstallatieStatisch dct:conformsTo nen-2767-4:Element_172 .
+    otl:NoodstroominstallatieStatisch dct:conformsTo nen2767:Element_172 .
 
-    otl:Noodtelefoon dct:conformsTo nen-2767-4:Bouwdeel_1683 .
+    otl:Noodtelefoon dct:conformsTo nen2767:Bouwdeel_1683 .
 
-    otl:Objectverlichting dct:conformsTo nen-2767-4:Element_173 .
+    otl:Objectverlichting dct:conformsTo nen2767:Element_173 .
 
-    otl:Obstakelbeveiliger dct:conformsTo nen-2767-4:Bouwdeel_1382 .
+    otl:Obstakelbeveiliger dct:conformsTo nen2767:Bouwdeel_1382 .
 
-    otl:Oefenring dct:conformsTo nen-2767-4:Bouwdeel_1848 .
+    otl:Oefenring dct:conformsTo nen2767:Bouwdeel_1848 .
 
-    otl:Oeverbescherming dct:conformsTo nen-2767-4:Element_174 .
+    otl:Oeverbescherming dct:conformsTo nen2767:Element_174 .
 
-    otl:Oevervegetatie dct:conformsTo nen-2767-4:Bouwdeel_2228 .
+    otl:Oevervegetatie dct:conformsTo nen2767:Bouwdeel_2228 .
 
-    otl:Oeverzwaluwenwand dct:conformsTo nen-2767-4:Bouwdeel_2027 .
+    otl:Oeverzwaluwenwand dct:conformsTo nen2767:Bouwdeel_2027 .
 
-    otl:OlieEnBenzineafscheider dct:conformsTo nen-2767-4:Bouwdeel_2064 .
+    otl:OlieEnBenzineafscheider dct:conformsTo nen2767:Bouwdeel_2064 .
 
-    otl:Olieboom dct:conformsTo nen-2767-4:Bouwdeel_2181 .
+    otl:Olieboom dct:conformsTo nen2767:Bouwdeel_2181 .
 
-    otl:Oliefilter dct:conformsTo nen-2767-4:Bouwdeel_1977 .
+    otl:Oliefilter dct:conformsTo nen2767:Bouwdeel_1977 .
 
-    otl:Omloopbaan dct:conformsTo nen-2767-4:Bouwdeel_1851 .
+    otl:Omloopbaan dct:conformsTo nen2767:Bouwdeel_1851 .
 
-    otl:Omloopriool dct:conformsTo nen-2767-4:Bouwdeel_1383 .
+    otl:Omloopriool dct:conformsTo nen2767:Bouwdeel_1383 .
 
-    otl:Omroepinstallatie dct:conformsTo nen-2767-4:Element_175 .
+    otl:Omroepinstallatie dct:conformsTo nen2767:Element_175 .
 
-    otl:Onderbak dct:conformsTo nen-2767-4:Bouwdeel_2048 .
+    otl:Onderbak dct:conformsTo nen2767:Bouwdeel_2048 .
 
-    otl:Onderbouw dct:conformsTo nen-2767-4:Element_176 .
+    otl:Onderbouw dct:conformsTo nen2767:Element_176 .
 
-    otl:Onderbouwconstructie dct:conformsTo nen-2767-4:Element_177 .
+    otl:Onderbouwconstructie dct:conformsTo nen2767:Element_177 .
 
-    otl:Onderdoorgang dct:conformsTo nen-2767-4:Beheerobject_BB .
+    otl:Onderdoorgang dct:conformsTo nen2767:Beheerobject_BB .
 
-    otl:Ondergrond dct:conformsTo nen-2767-4:Bouwdeel_2178 .
+    otl:Ondergrond dct:conformsTo nen2767:Bouwdeel_2178 .
 
-    otl:OndergrondSpeelvoorziening dct:conformsTo nen-2767-4:Bouwdeel_1852 .
+    otl:OndergrondSpeelvoorziening dct:conformsTo nen2767:Bouwdeel_1852 .
 
-    otl:Onderhoudsstrook dct:conformsTo nen-2767-4:Element_262 .
+    otl:Onderhoudsstrook dct:conformsTo nen2767:Element_262 .
 
-    otl:Onderhoudsvoorziening dct:conformsTo nen-2767-4:Element_178 .
+    otl:Onderhoudsvoorziening dct:conformsTo nen2767:Element_178 .
 
-    otl:Onderlaag dct:conformsTo nen-2767-4:Bouwdeel_2175 .
+    otl:Onderlaag dct:conformsTo nen2767:Bouwdeel_2175 .
 
-    otl:Onderloopsheidscherm dct:conformsTo nen-2767-4:Bouwdeel_1391 .
+    otl:Onderloopsheidscherm dct:conformsTo nen2767:Bouwdeel_1391 .
 
-    otl:Onderverdeler dct:conformsTo nen-2767-4:Bouwdeel_1393 .
+    otl:Onderverdeler dct:conformsTo nen2767:Bouwdeel_1393 .
 
-    otl:Ontvangbed dct:conformsTo nen-2767-4:Bouwdeel_1395 .
+    otl:Ontvangbed dct:conformsTo nen2767:Bouwdeel_1395 .
 
-    otl:Ontvanger dct:conformsTo nen-2767-4:Bouwdeel_1396 .
+    otl:Ontvanger dct:conformsTo nen2767:Bouwdeel_1396 .
 
-    otl:OntvangstEnVerdeelwerk dct:conformsTo nen-2767-4:Beheerobject_CT .
+    otl:OntvangstEnVerdeelwerk dct:conformsTo nen2767:Beheerobject_CT .
 
-    otl:OnverhardOppervlak dct:conformsTo nen-2767-4:Bouwdeel_1397 .
+    otl:OnverhardOppervlak dct:conformsTo nen2767:Bouwdeel_1397 .
 
-    otl:OpEnAfrit dct:conformsTo nen-2767-4:Bouwdeel_1398 .
+    otl:OpEnAfrit dct:conformsTo nen2767:Bouwdeel_1398 .
 
-    otl:OpenBuispalen dct:conformsTo nen-2767-4:Bouwdeel_1399 .
+    otl:OpenBuispalen dct:conformsTo nen2767:Bouwdeel_1399 .
 
-    otl:OpenTunnelbak dct:conformsTo nen-2767-4:Beheerobject_BD .
+    otl:OpenTunnelbak dct:conformsTo nen2767:Beheerobject_BD .
 
-    otl:OpenbareVerlichting dct:conformsTo nen-2767-4:Element_179 .
+    otl:OpenbareVerlichting dct:conformsTo nen2767:Element_179 .
 
-    otl:Openfilterconstructie dct:conformsTo nen-2767-4:Bouwdeel_1401 .
+    otl:Openfilterconstructie dct:conformsTo nen2767:Bouwdeel_1401 .
 
-    otl:Ophangconstructie dct:conformsTo nen-2767-4:Bouwdeel_1854 .
+    otl:Ophangconstructie dct:conformsTo nen2767:Bouwdeel_1854 .
 
-    otl:Ophoging dct:conformsTo nen-2767-4:Bouwdeel_1402 .
+    otl:Ophoging dct:conformsTo nen2767:Bouwdeel_1402 .
 
-    otl:Oplegbalk dct:conformsTo nen-2767-4:Bouwdeel_1687 .
+    otl:Oplegbalk dct:conformsTo nen2767:Bouwdeel_1687 .
 
-    otl:Oplegblok dct:conformsTo nen-2767-4:Bouwdeel_1686 .
+    otl:Oplegblok dct:conformsTo nen2767:Bouwdeel_1686 .
 
-    otl:Oplegging dct:conformsTo nen-2767-4:Element_180 .
+    otl:Oplegging dct:conformsTo nen2767:Element_180 .
 
-    otl:Oplegpunt dct:conformsTo nen-2767-4:Bouwdeel_1403 .
+    otl:Oplegpunt dct:conformsTo nen2767:Bouwdeel_1403 .
 
-    otl:Oplegstoel dct:conformsTo nen-2767-4:Bouwdeel_1688 .
+    otl:Oplegstoel dct:conformsTo nen2767:Bouwdeel_1688 .
 
-    otl:Oplegtafel dct:conformsTo nen-2767-4:Bouwdeel_1689 .
+    otl:Oplegtafel dct:conformsTo nen2767:Bouwdeel_1689 .
 
-    otl:Opnamemedium dct:conformsTo nen-2767-4:Bouwdeel_1405 .
+    otl:Opnamemedium dct:conformsTo nen2767:Bouwdeel_1405 .
 
-    otl:Oppervlaktewater dct:conformsTo nen-2767-4:Element_421 .
+    otl:Oppervlaktewater dct:conformsTo nen2767:Element_421 .
 
-    otl:Opslagtank dct:conformsTo nen-2767-4:Beheerobject_CW .
+    otl:Opslagtank dct:conformsTo nen2767:Beheerobject_CW .
 
-    otl:Opsluitband dct:conformsTo nen-2767-4:Bouwdeel_1408 .
+    otl:Opsluitband dct:conformsTo nen2767:Bouwdeel_1408 .
 
-    otl:Opsluitconstructie dct:conformsTo nen-2767-4:Bouwdeel_1411 .
+    otl:Opsluitconstructie dct:conformsTo nen2767:Bouwdeel_1411 .
 
-    otl:Opstal dct:conformsTo nen-2767-4:Element_181 .
+    otl:Opstal dct:conformsTo nen2767:Element_181 .
 
-    otl:Opvulling dct:conformsTo nen-2767-4:Bouwdeel_1615 .
+    otl:Opvulling dct:conformsTo nen2767:Bouwdeel_1615 .
 
-    otl:Opzetinrichting dct:conformsTo nen-2767-4:Bouwdeel_1418 .
+    otl:Opzetinrichting dct:conformsTo nen2767:Bouwdeel_1418 .
 
-    otl:OverEnOnderdrukinstallatie dct:conformsTo nen-2767-4:Element_182 .
+    otl:OverEnOnderdrukinstallatie dct:conformsTo nen2767:Element_182 .
 
-    otl:Overgangsconstructie dct:conformsTo nen-2767-4:Element_183 .
+    otl:Overgangsconstructie dct:conformsTo nen2767:Element_183 .
 
-    otl:Overgangsplaat dct:conformsTo nen-2767-4:Bouwdeel_1420 .
+    otl:Overgangsplaat dct:conformsTo nen2767:Bouwdeel_1420 .
 
-    otl:Overkluizing dct:conformsTo nen-2767-4:Beheerobject_BE .
+    otl:Overkluizing dct:conformsTo nen2767:Beheerobject_BE .
 
-    otl:Overlastbelastingsbeveiliging dct:conformsTo nen-2767-4:Bouwdeel_1421 .
+    otl:Overlastbelastingsbeveiliging dct:conformsTo nen2767:Bouwdeel_1421 .
 
-    otl:Overspanningbeveiliging dct:conformsTo nen-2767-4:Bouwdeel_1422 .
+    otl:Overspanningbeveiliging dct:conformsTo nen2767:Bouwdeel_1422 .
 
-    otl:Oversteek dct:conformsTo nen-2767-4:Bouwdeel_2217 .
+    otl:Oversteek dct:conformsTo nen2767:Bouwdeel_2217 .
 
-    otl:PLC dct:conformsTo nen-2767-4:Bouwdeel_1431 .
+    otl:PLC dct:conformsTo nen2767:Bouwdeel_1431 .
 
-    otl:Paaiplaats dct:conformsTo nen-2767-4:Bouwdeel_1855 .
+    otl:Paaiplaats dct:conformsTo nen2767:Bouwdeel_1855 .
 
-    otl:Paal dct:conformsTo nen-2767-4:Bouwdeel_1423 .
+    otl:Paal dct:conformsTo nen2767:Bouwdeel_1423 .
 
-    otl:Paalbeugel dct:conformsTo nen-2767-4:Bouwdeel_1424 .
+    otl:Paalbeugel dct:conformsTo nen2767:Bouwdeel_1424 .
 
-    otl:Palenrij dct:conformsTo nen-2767-4:Bouwdeel_2234 .
+    otl:Palenrij dct:conformsTo nen2767:Bouwdeel_2234 .
 
-    otl:Panamawiel dct:conformsTo nen-2767-4:Bouwdeel_1661 .
+    otl:Panamawiel dct:conformsTo nen2767:Bouwdeel_1661 .
 
-    otl:Paneel dct:conformsTo nen-2767-4:Bouwdeel_2136 .
+    otl:Paneel dct:conformsTo nen2767:Bouwdeel_2136 .
 
-    otl:Pannakooi dct:conformsTo nen-2767-4:Bouwdeel_1856 .
+    otl:Pannakooi dct:conformsTo nen2767:Bouwdeel_1856 .
 
-    otl:Papierbak dct:conformsTo nen-2767-4:Bouwdeel_1857 .
+    otl:Papierbak dct:conformsTo nen2767:Bouwdeel_1857 .
 
-    otl:Park dct:conformsTo nen-2767-4:Beheerobject_BG .
+    otl:Park dct:conformsTo nen2767:Beheerobject_BG .
 
-    otl:Parkeerbeugel dct:conformsTo nen-2767-4:Bouwdeel_2172 .
+    otl:Parkeerbeugel dct:conformsTo nen2767:Bouwdeel_2172 .
 
-    otl:Peilbuis dct:conformsTo nen-2767-4:Bouwdeel_2226 .
+    otl:Peilbuis dct:conformsTo nen2767:Bouwdeel_2226 .
 
-    otl:Peilschaal dct:conformsTo nen-2767-4:Bouwdeel_1425 .
+    otl:Peilschaal dct:conformsTo nen2767:Bouwdeel_1425 .
 
-    otl:Pennenbaan dct:conformsTo nen-2767-4:Bouwdeel_1427 .
+    otl:Pennenbaan dct:conformsTo nen2767:Bouwdeel_1427 .
 
-    otl:Pergola dct:conformsTo nen-2767-4:Bouwdeel_1859 .
+    otl:Pergola dct:conformsTo nen2767:Bouwdeel_1859 .
 
-    otl:Perron dct:conformsTo nen-2767-4:Element_404 .
+    otl:Perron dct:conformsTo nen2767:Element_404 .
 
-    otl:Persinstallatie dct:conformsTo nen-2767-4:Element_383 .
+    otl:Persinstallatie dct:conformsTo nen2767:Element_383 .
 
-    otl:Persleiding dct:conformsTo nen-2767-4:Beheerobject_DB .
+    otl:Persleiding dct:conformsTo nen2767:Beheerobject_DB .
 
-    otl:Personenzoekinstallatie dct:conformsTo nen-2767-4:Element_184 .
+    otl:Personenzoekinstallatie dct:conformsTo nen2767:Element_184 .
 
-    otl:Pictogram dct:conformsTo nen-2767-4:Bouwdeel_1429 .
+    otl:Pictogram dct:conformsTo nen2767:Bouwdeel_1429 .
 
-    otl:Pijler dct:conformsTo nen-2767-4:Bouwdeel_1430 .
+    otl:Pijler dct:conformsTo nen2767:Bouwdeel_1430 .
 
-    otl:Pipingberm dct:conformsTo nen-2767-4:Element_265 .
+    otl:Pipingberm dct:conformsTo nen2767:Element_265 .
 
-    otl:Plaatbeluchter dct:conformsTo nen-2767-4:Bouwdeel_2107 .
+    otl:Plaatbeluchter dct:conformsTo nen2767:Bouwdeel_2107 .
 
-    otl:Plaatveld dct:conformsTo nen-2767-4:Bouwdeel_1680 .
+    otl:Plaatveld dct:conformsTo nen2767:Bouwdeel_1680 .
 
-    otl:Plafond dct:conformsTo nen-2767-4:Bouwdeel_1563 .
+    otl:Plafond dct:conformsTo nen2767:Bouwdeel_1563 .
 
-    otl:Plafondafwerking dct:conformsTo nen-2767-4:Bouwdeel_2148 .
+    otl:Plafondafwerking dct:conformsTo nen2767:Bouwdeel_2148 .
 
-    otl:Plafondconstructie dct:conformsTo nen-2767-4:Element_392 .
+    otl:Plafondconstructie dct:conformsTo nen2767:Element_392 .
 
-    otl:Plant dct:conformsTo nen-2767-4:Bouwdeel_2215 .
+    otl:Plant dct:conformsTo nen2767:Bouwdeel_2215 .
 
-    otl:Plasberm dct:conformsTo nen-2767-4:Bouwdeel_1863 .
+    otl:Plasberm dct:conformsTo nen2767:Bouwdeel_1863 .
 
-    otl:Poer dct:conformsTo nen-2767-4:Bouwdeel_1433 .
+    otl:Poer dct:conformsTo nen2767:Bouwdeel_1433 .
 
-    otl:Pollerinstallatie dct:conformsTo nen-2767-4:Element_402 .
+    otl:Pollerinstallatie dct:conformsTo nen2767:Element_402 .
 
-    otl:Pomp dct:conformsTo nen-2767-4:Bouwdeel_1434 .
+    otl:Pomp dct:conformsTo nen2767:Bouwdeel_1434 .
 
-    otl:Pompinstallatie dct:conformsTo nen-2767-4:Element_186 .
+    otl:Pompinstallatie dct:conformsTo nen2767:Element_186 .
 
-    otl:Pompkelder dct:conformsTo nen-2767-4:Element_187 .
+    otl:Pompkelder dct:conformsTo nen2767:Element_187 .
 
-    otl:Ponton dct:conformsTo nen-2767-4:Element_336 .
+    otl:Ponton dct:conformsTo nen2767:Element_336 .
 
-    otl:Portaal dct:conformsTo nen-2767-4:Element_188 .
+    otl:Portaal dct:conformsTo nen2767:Element_188 .
 
-    otl:Portofoon dct:conformsTo nen-2767-4:Bouwdeel_2221 .
+    otl:Portofoon dct:conformsTo nen2767:Bouwdeel_2221 .
 
-    otl:Praatpaal dct:conformsTo nen-2767-4:Bouwdeel_1440 .
+    otl:Praatpaal dct:conformsTo nen2767:Bouwdeel_1440 .
 
-    otl:Procesbassin dct:conformsTo nen-2767-4:Beheerobject_CL .
+    otl:Procesbassin dct:conformsTo nen2767:Beheerobject_CL .
 
-    otl:Puntbeluchter dct:conformsTo nen-2767-4:Bouwdeel_2108 .
+    otl:Puntbeluchter dct:conformsTo nen2767:Bouwdeel_2108 .
 
-    otl:Puntdeur dct:conformsTo nen-2767-4:Bouwdeel_1445 .
+    otl:Puntdeur dct:conformsTo nen2767:Bouwdeel_1445 .
 
-    otl:Put dct:conformsTo nen-2767-4:Element_354 .
+    otl:Put dct:conformsTo nen2767:Element_354 .
 
-    otl:Putrand dct:conformsTo nen-2767-4:Bouwdeel_2057 .
+    otl:Putrand dct:conformsTo nen2767:Bouwdeel_2057 .
 
-    otl:Pyloon dct:conformsTo nen-2767-4:Bouwdeel_1447 .
+    otl:Pyloon dct:conformsTo nen2767:Bouwdeel_1447 .
 
-    otl:Raam dct:conformsTo nen-2767-4:Bouwdeel_2150 .
+    otl:Raam dct:conformsTo nen2767:Bouwdeel_2150 .
 
-    otl:Radarinstallatie dct:conformsTo nen-2767-4:Element_189 .
+    otl:Radarinstallatie dct:conformsTo nen2767:Element_189 .
 
-    otl:Radarscanner dct:conformsTo nen-2767-4:Bouwdeel_1449 .
+    otl:Radarscanner dct:conformsTo nen2767:Bouwdeel_1449 .
 
-    otl:RadioDirectionFinding dct:conformsTo nen-2767-4:Bouwdeel_1458 .
+    otl:RadioDirectionFinding dct:conformsTo nen2767:Bouwdeel_1458 .
 
-    otl:Rail dct:conformsTo nen-2767-4:Bouwdeel_1450 .
+    otl:Rail dct:conformsTo nen2767:Bouwdeel_1450 .
 
-    otl:Railbaan dct:conformsTo nen-2767-4:Bouwdeel_1451 .
+    otl:Railbaan dct:conformsTo nen2767:Bouwdeel_1451 .
 
-    otl:Railgeleiding dct:conformsTo nen-2767-4:Bouwdeel_1452 .
+    otl:Railgeleiding dct:conformsTo nen2767:Bouwdeel_1452 .
 
-    otl:RailsInVerharding dct:conformsTo nen-2767-4:Bouwdeel_1453 .
+    otl:RailsInVerharding dct:conformsTo nen2767:Bouwdeel_1453 .
 
-    otl:RailsVrijliggend dct:conformsTo nen-2767-4:Bouwdeel_1454 .
+    otl:RailsVrijliggend dct:conformsTo nen2767:Bouwdeel_1454 .
 
-    otl:Railsysteem dct:conformsTo nen-2767-4:Bouwdeel_1455 .
+    otl:Railsysteem dct:conformsTo nen2767:Bouwdeel_1455 .
 
-    otl:Randelement dct:conformsTo nen-2767-4:Bouwdeel_1456 .
+    otl:Randelement dct:conformsTo nen2767:Bouwdeel_1456 .
 
-    otl:Randprofiel dct:conformsTo nen-2767-4:Bouwdeel_1457 .
+    otl:Randprofiel dct:conformsTo nen2767:Bouwdeel_1457 .
 
-    otl:Reclamezuil dct:conformsTo nen-2767-4:Bouwdeel_2135 .
+    otl:Reclamezuil dct:conformsTo nen2767:Bouwdeel_2135 .
 
-    otl:RecreatiefGebied dct:conformsTo nen-2767-4:Beheerobject_CD .
+    otl:RecreatiefGebied dct:conformsTo nen2767:Beheerobject_CD .
 
-    otl:Reddingsboei dct:conformsTo nen-2767-4:Bouwdeel_2072 .
+    otl:Reddingsboei dct:conformsTo nen2767:Bouwdeel_2072 .
 
-    otl:Reddingsdavit dct:conformsTo nen-2767-4:Bouwdeel_2078 .
+    otl:Reddingsdavit dct:conformsTo nen2767:Bouwdeel_2078 .
 
-    otl:Reddingslijn dct:conformsTo nen-2767-4:Bouwdeel_2070 .
+    otl:Reddingslijn dct:conformsTo nen2767:Bouwdeel_2070 .
 
-    otl:Reddingsmiddel dct:conformsTo nen-2767-4:Element_362 .
+    otl:Reddingsmiddel dct:conformsTo nen2767:Element_362 .
 
-    otl:Reddingsvest dct:conformsTo nen-2767-4:Bouwdeel_2071 .
+    otl:Reddingsvest dct:conformsTo nen2767:Bouwdeel_2071 .
 
-    otl:Reductiekast dct:conformsTo nen-2767-4:Bouwdeel_1459 .
+    otl:Reductiekast dct:conformsTo nen2767:Bouwdeel_1459 .
 
-    otl:Reflector dct:conformsTo nen-2767-4:Bouwdeel_1043 .
+    otl:Reflector dct:conformsTo nen2767:Bouwdeel_1043 .
 
-    otl:Regelballast dct:conformsTo nen-2767-4:Bouwdeel_1662 .
+    otl:Regelballast dct:conformsTo nen2767:Bouwdeel_1662 .
 
-    otl:RegelbareAandrijving dct:conformsTo nen-2767-4:Bouwdeel_2193 .
+    otl:RegelbareAandrijving dct:conformsTo nen2767:Bouwdeel_2193 .
 
-    otl:Reling dct:conformsTo nen-2767-4:Bouwdeel_1334 .
+    otl:Reling dct:conformsTo nen2767:Bouwdeel_1334 .
 
-    otl:Rem dct:conformsTo nen-2767-4:Bouwdeel_1460 .
+    otl:Rem dct:conformsTo nen2767:Bouwdeel_1460 .
 
-    otl:RemmingEnGeleidewerk dct:conformsTo nen-2767-4:Element_190 .
+    otl:RemmingEnGeleidewerk dct:conformsTo nen2767:Element_190 .
 
-    otl:Remschot dct:conformsTo nen-2767-4:Bouwdeel_2051 .
+    otl:Remschot dct:conformsTo nen2767:Bouwdeel_2051 .
 
-    otl:Riem dct:conformsTo nen-2767-4:Bouwdeel_2094 .
+    otl:Riem dct:conformsTo nen2767:Bouwdeel_2094 .
 
-    otl:RijIJzer dct:conformsTo nen-2767-4:Bouwdeel_1700 .
+    otl:RijIJzer dct:conformsTo nen2767:Bouwdeel_1700 .
 
-    otl:Rijdek dct:conformsTo nen-2767-4:Bouwdeel_1461 .
+    otl:Rijdek dct:conformsTo nen2767:Bouwdeel_1461 .
 
-    otl:Rijzendam dct:conformsTo nen-2767-4:Bouwdeel_1992 .
+    otl:Rijzendam dct:conformsTo nen2767:Bouwdeel_1992 .
 
-    otl:Riolering dct:conformsTo nen-2767-4:Beheerobject_BH .
+    otl:Riolering dct:conformsTo nen2767:Beheerobject_BH .
 
-    otl:Rivier dct:conformsTo nen-2767-4:Beheerobject_BI .
+    otl:Rivier dct:conformsTo nen2767:Beheerobject_BI .
 
-    otl:Rivierhout dct:conformsTo nen-2767-4:Bouwdeel_2216 .
+    otl:Rivierhout dct:conformsTo nen2767:Bouwdeel_2216 .
 
-    otl:Roerwerk dct:conformsTo nen-2767-4:Bouwdeel_2118 .
+    otl:Roerwerk dct:conformsTo nen2767:Bouwdeel_2118 .
 
-    otl:Rolbaan dct:conformsTo nen-2767-4:Bouwdeel_1466 .
+    otl:Rolbaan dct:conformsTo nen2767:Bouwdeel_1466 .
 
-    otl:Roldeur dct:conformsTo nen-2767-4:Bouwdeel_1467 .
+    otl:Roldeur dct:conformsTo nen2767:Bouwdeel_1467 .
 
-    otl:Rolgordijn dct:conformsTo nen-2767-4:Bouwdeel_2187 .
+    otl:Rolgordijn dct:conformsTo nen2767:Bouwdeel_2187 .
 
-    otl:Rolluik dct:conformsTo nen-2767-4:Bouwdeel_2185 .
+    otl:Rolluik dct:conformsTo nen2767:Bouwdeel_2185 .
 
-    otl:Rolsleufmechanisme dct:conformsTo nen-2767-4:Bouwdeel_1468 .
+    otl:Rolsleufmechanisme dct:conformsTo nen2767:Bouwdeel_1468 .
 
-    otl:Roltrapinstallatie dct:conformsTo nen-2767-4:Element_192 .
+    otl:Roltrapinstallatie dct:conformsTo nen2767:Element_192 .
 
-    otl:Roltraptrede dct:conformsTo nen-2767-4:Bouwdeel_1555 .
+    otl:Roltraptrede dct:conformsTo nen2767:Bouwdeel_1555 .
 
-    otl:Rolwagen dct:conformsTo nen-2767-4:Bouwdeel_1470 .
+    otl:Rolwagen dct:conformsTo nen2767:Bouwdeel_1470 .
 
-    otl:Rondsel dct:conformsTo nen-2767-4:Bouwdeel_1471 .
+    otl:Rondsel dct:conformsTo nen2767:Bouwdeel_1471 .
 
-    otl:Rookafvoer dct:conformsTo nen-2767-4:Bouwdeel_1699 .
+    otl:Rookafvoer dct:conformsTo nen2767:Bouwdeel_1699 .
 
-    otl:Rooster dct:conformsTo nen-2767-4:Bouwdeel_1473 .
+    otl:Rooster dct:conformsTo nen2767:Bouwdeel_1473 .
 
-    otl:Roostergoedcontainer dct:conformsTo nen-2767-4:Element_381 .
+    otl:Roostergoedcontainer dct:conformsTo nen2767:Element_381 .
 
-    otl:Roosterput dct:conformsTo nen-2767-4:Bouwdeel_1873 .
+    otl:Roosterput dct:conformsTo nen2767:Bouwdeel_1873 .
 
-    otl:Roosterreinigingsinstallatie dct:conformsTo nen-2767-4:Element_382 .
+    otl:Roosterreinigingsinstallatie dct:conformsTo nen2767:Element_382 .
 
-    otl:Rotorbeluchter dct:conformsTo nen-2767-4:Bouwdeel_2112 .
+    otl:Rotorbeluchter dct:conformsTo nen2767:Bouwdeel_2112 .
 
-    otl:Ruimerinstallatie dct:conformsTo nen-2767-4:Element_384 .
+    otl:Ruimerinstallatie dct:conformsTo nen2767:Element_384 .
 
-    otl:SCADA dct:conformsTo nen-2767-4:Bouwdeel_1475 .
+    otl:SCADA dct:conformsTo nen2767:Bouwdeel_1475 .
 
-    otl:SanitaireInstallatie dct:conformsTo nen-2767-4:Element_394 .
+    otl:SanitaireInstallatie dct:conformsTo nen2767:Element_394 .
 
-    otl:Schacht dct:conformsTo nen-2767-4:Bouwdeel_2046 .
+    otl:Schacht dct:conformsTo nen2767:Bouwdeel_2046 .
 
-    otl:Schachtopbouw dct:conformsTo nen-2767-4:Bouwdeel_2050 .
+    otl:Schachtopbouw dct:conformsTo nen2767:Bouwdeel_2050 .
 
-    otl:Schakelaar dct:conformsTo nen-2767-4:Bouwdeel_2180 .
+    otl:Schakelaar dct:conformsTo nen2767:Bouwdeel_2180 .
 
-    otl:Schamelstel dct:conformsTo nen-2767-4:Bouwdeel_1476 .
+    otl:Schamelstel dct:conformsTo nen2767:Bouwdeel_1476 .
 
-    otl:Schampkant dct:conformsTo nen-2767-4:Element_193 .
+    otl:Schampkant dct:conformsTo nen2767:Element_193 .
 
-    otl:Schampstrook dct:conformsTo nen-2767-4:Bouwdeel_1478 .
+    otl:Schampstrook dct:conformsTo nen2767:Bouwdeel_1478 .
 
-    otl:Schanskorf dct:conformsTo nen-2767-4:Bouwdeel_1878 .
+    otl:Schanskorf dct:conformsTo nen2767:Bouwdeel_1878 .
 
-    otl:ScheepvaartdetectieInstallatie dct:conformsTo nen-2767-4:Element_194 .
+    otl:ScheepvaartdetectieInstallatie dct:conformsTo nen2767:Element_194 .
 
-    otl:Scheepvaartsein dct:conformsTo nen-2767-4:Bouwdeel_1480 .
+    otl:Scheepvaartsein dct:conformsTo nen2767:Bouwdeel_1480 .
 
-    otl:Scheepverkeersbeseining dct:conformsTo nen-2767-4:Element_195 .
+    otl:Scheepverkeersbeseining dct:conformsTo nen2767:Element_195 .
 
-    otl:Scherm dct:conformsTo nen-2767-4:Bouwdeel_2186 .
+    otl:Scherm dct:conformsTo nen2767:Bouwdeel_2186 .
 
-    otl:Schietbaan dct:conformsTo nen-2767-4:Element_308 .
+    otl:Schietbaan dct:conformsTo nen2767:Element_308 .
 
-    otl:Schietbaanportaal dct:conformsTo nen-2767-4:Bouwdeel_1969 .
+    otl:Schietbaanportaal dct:conformsTo nen2767:Bouwdeel_1969 .
 
-    otl:Schietbord dct:conformsTo nen-2767-4:Bouwdeel_1749 .
+    otl:Schietbord dct:conformsTo nen2767:Bouwdeel_1749 .
 
-    otl:Schijnduiker dct:conformsTo nen-2767-4:Bouwdeel_2225 .
+    otl:Schijnduiker dct:conformsTo nen2767:Bouwdeel_2225 .
 
-    otl:Schokdemper dct:conformsTo nen-2767-4:Bouwdeel_2170 .
+    otl:Schokdemper dct:conformsTo nen2767:Bouwdeel_2170 .
 
-    otl:Schommel dct:conformsTo nen-2767-4:Bouwdeel_1880 .
+    otl:Schommel dct:conformsTo nen2767:Bouwdeel_1880 .
 
-    otl:Schoor dct:conformsTo nen-2767-4:Bouwdeel_1482 .
+    otl:Schoor dct:conformsTo nen2767:Bouwdeel_1482 .
 
-    otl:Schoorsteen dct:conformsTo nen-2767-4:Element_403 .
+    otl:Schoorsteen dct:conformsTo nen2767:Element_403 .
 
-    otl:Schort dct:conformsTo nen-2767-4:Bouwdeel_1983 .
+    otl:Schort dct:conformsTo nen2767:Bouwdeel_1983 .
 
-    otl:Schotbalk dct:conformsTo nen-2767-4:Bouwdeel_1483 .
+    otl:Schotbalk dct:conformsTo nen2767:Bouwdeel_1483 .
 
-    otl:Schotbalksponning dct:conformsTo nen-2767-4:Bouwdeel_1484 .
+    otl:Schotbalksponning dct:conformsTo nen2767:Bouwdeel_1484 .
 
-    otl:Schotelbeluchter dct:conformsTo nen-2767-4:Bouwdeel_2125 .
+    otl:Schotelbeluchter dct:conformsTo nen2767:Bouwdeel_2125 .
 
-    otl:Schraalgrasland dct:conformsTo nen-2767-4:Bouwdeel_1883 .
+    otl:Schraalgrasland dct:conformsTo nen2767:Bouwdeel_1883 .
 
-    otl:Schraper dct:conformsTo nen-2767-4:Bouwdeel_2114 .
+    otl:Schraper dct:conformsTo nen2767:Bouwdeel_2114 .
 
-    otl:Schrikhek dct:conformsTo nen-2767-4:Bouwdeel_1485 .
+    otl:Schrikhek dct:conformsTo nen2767:Bouwdeel_1485 .
 
-    otl:Schuif dct:conformsTo nen-2767-4:Bouwdeel_1486 .
+    otl:Schuif dct:conformsTo nen2767:Bouwdeel_1486 .
 
-    otl:Schuifconstructie dct:conformsTo nen-2767-4:Element_196 .
+    otl:Schuifconstructie dct:conformsTo nen2767:Element_196 .
 
-    otl:Schuifgeleiding dct:conformsTo nen-2767-4:Bouwdeel_1994 .
+    otl:Schuifgeleiding dct:conformsTo nen2767:Bouwdeel_1994 .
 
-    otl:Schuifketting dct:conformsTo nen-2767-4:Bouwdeel_1488 .
+    otl:Schuifketting dct:conformsTo nen2767:Bouwdeel_1488 .
 
-    otl:Schuifpoort dct:conformsTo nen-2767-4:Bouwdeel_2033 .
+    otl:Schuifpoort dct:conformsTo nen2767:Bouwdeel_2033 .
 
-    otl:Schutsluis dct:conformsTo nen-2767-4:Beheerobject_BK .
+    otl:Schutsluis dct:conformsTo nen2767:Beheerobject_BK .
 
-    otl:Sensor dct:conformsTo nen-2767-4:Bouwdeel_1490 .
+    otl:Sensor dct:conformsTo nen2767:Bouwdeel_1490 .
 
-    otl:Server dct:conformsTo nen-2767-4:Bouwdeel_1491 .
+    otl:Server dct:conformsTo nen2767:Bouwdeel_1491 .
 
-    otl:Shikanen dct:conformsTo nen-2767-4:Bouwdeel_2126 .
+    otl:Shikanen dct:conformsTo nen2767:Bouwdeel_2126 .
 
-    otl:Sifon dct:conformsTo nen-2767-4:Beheerobject_CG .
+    otl:Sifon dct:conformsTo nen2767:Beheerobject_CG .
 
-    otl:Signaalgever dct:conformsTo nen-2767-4:Bouwdeel_1492 .
+    otl:Signaalgever dct:conformsTo nen2767:Bouwdeel_1492 .
 
-    otl:Signaalkabel dct:conformsTo nen-2767-4:Bouwdeel_1493 .
+    otl:Signaalkabel dct:conformsTo nen2767:Bouwdeel_1493 .
 
-    otl:Skatebaan dct:conformsTo nen-2767-4:Bouwdeel_1890 .
+    otl:Skatebaan dct:conformsTo nen2767:Bouwdeel_1890 .
 
-    otl:Skateramp dct:conformsTo nen-2767-4:Bouwdeel_1891 .
+    otl:Skateramp dct:conformsTo nen2767:Bouwdeel_1891 .
 
-    otl:Skatetoestel dct:conformsTo nen-2767-4:Bouwdeel_1892 .
+    otl:Skatetoestel dct:conformsTo nen2767:Bouwdeel_1892 .
 
-    otl:Sleufonderbouw dct:conformsTo nen-2767-4:Bouwdeel_2038 .
+    otl:Sleufonderbouw dct:conformsTo nen2767:Bouwdeel_2038 .
 
-    otl:Sleufopbouw dct:conformsTo nen-2767-4:Bouwdeel_2037 .
+    otl:Sleufopbouw dct:conformsTo nen2767:Bouwdeel_2037 .
 
-    otl:Slibafscheider dct:conformsTo nen-2767-4:Bouwdeel_2066 .
+    otl:Slibafscheider dct:conformsTo nen2767:Bouwdeel_2066 .
 
-    otl:Slijtlaag dct:conformsTo nen-2767-4:Element_413 .
+    otl:Slijtlaag dct:conformsTo nen2767:Element_413 .
 
-    otl:Slokop dct:conformsTo nen-2767-4:Bouwdeel_2061 .
+    otl:Slokop dct:conformsTo nen2767:Bouwdeel_2061 .
 
-    otl:Sloof dct:conformsTo nen-2767-4:Bouwdeel_1496 .
+    otl:Sloof dct:conformsTo nen2767:Bouwdeel_1496 .
 
-    otl:Sloot dct:conformsTo nen-2767-4:Element_351 .
+    otl:Sloot dct:conformsTo nen2767:Element_351 .
 
-    otl:Slufter dct:conformsTo nen-2767-4:Bouwdeel_2235 .
+    otl:Slufter dct:conformsTo nen2767:Bouwdeel_2235 .
 
-    otl:Sluisdeur dct:conformsTo nen-2767-4:Element_198 .
+    otl:Sluisdeur dct:conformsTo nen2767:Element_198 .
 
-    otl:Sluishoofd dct:conformsTo nen-2767-4:Element_199 .
+    otl:Sluishoofd dct:conformsTo nen2767:Element_199 .
 
-    otl:Sluiskolk dct:conformsTo nen-2767-4:Element_200 .
+    otl:Sluiskolk dct:conformsTo nen2767:Element_200 .
 
-    otl:Sluismarkering dct:conformsTo nen-2767-4:Element_398 .
+    otl:Sluismarkering dct:conformsTo nen2767:Element_398 .
 
-    otl:Smeedwerk dct:conformsTo nen-2767-4:Bouwdeel_1970 .
+    otl:Smeedwerk dct:conformsTo nen2767:Bouwdeel_1970 .
 
-    otl:Smeersysteem dct:conformsTo nen-2767-4:Bouwdeel_1497 .
+    otl:Smeersysteem dct:conformsTo nen2767:Bouwdeel_1497 .
 
-    otl:Spar dct:conformsTo nen-2767-4:Bouwdeel_1712 .
+    otl:Spar dct:conformsTo nen2767:Bouwdeel_1712 .
 
-    otl:Speelhuisje dct:conformsTo nen-2767-4:Bouwdeel_1894 .
+    otl:Speelhuisje dct:conformsTo nen2767:Bouwdeel_1894 .
 
-    otl:Speeltoestel dct:conformsTo nen-2767-4:Element_345 .
+    otl:Speeltoestel dct:conformsTo nen2767:Element_345 .
 
-    otl:Speelweide dct:conformsTo nen-2767-4:Bouwdeel_1895 .
+    otl:Speelweide dct:conformsTo nen2767:Bouwdeel_1895 .
 
-    otl:Spieplank dct:conformsTo nen-2767-4:Bouwdeel_1498 .
+    otl:Spieplank dct:conformsTo nen2767:Bouwdeel_1498 .
 
-    otl:Spoorweg dct:conformsTo nen-2767-4:Beheerobject_BL .
+    otl:Spoorweg dct:conformsTo nen2767:Beheerobject_BL .
 
-    otl:SportEnSpelvoorziening dct:conformsTo nen-2767-4:Beheerobject_BM .
+    otl:SportEnSpelvoorziening dct:conformsTo nen2767:Beheerobject_BM .
 
-    otl:Sportattribuut dct:conformsTo nen-2767-4:Element_343 .
+    otl:Sportattribuut dct:conformsTo nen2767:Element_343 .
 
-    otl:Sportdoel dct:conformsTo nen-2767-4:Bouwdeel_1760 .
+    otl:Sportdoel dct:conformsTo nen2767:Bouwdeel_1760 .
 
-    otl:Sportgrasveld dct:conformsTo nen-2767-4:Bouwdeel_1896 .
+    otl:Sportgrasveld dct:conformsTo nen2767:Bouwdeel_1896 .
 
-    otl:Sportveld dct:conformsTo nen-2767-4:Element_344 .
+    otl:Sportveld dct:conformsTo nen2767:Element_344 .
 
-    otl:Springbak dct:conformsTo nen-2767-4:Bouwdeel_1897 .
+    otl:Springbak dct:conformsTo nen2767:Bouwdeel_1897 .
 
-    otl:SproeiInstallatie dct:conformsTo nen-2767-4:Element_415 .
+    otl:SproeiInstallatie dct:conformsTo nen2767:Element_415 .
 
-    otl:Sproeikop dct:conformsTo nen-2767-4:Bouwdeel_2127 .
+    otl:Sproeikop dct:conformsTo nen2767:Bouwdeel_2127 .
 
-    otl:Spuisein dct:conformsTo nen-2767-4:Bouwdeel_1502 .
+    otl:Spuisein dct:conformsTo nen2767:Bouwdeel_1502 .
 
-    otl:Spuisluis dct:conformsTo nen-2767-4:Beheerobject_BN .
+    otl:Spuisluis dct:conformsTo nen2767:Beheerobject_BN .
 
-    otl:Spuitkanon dct:conformsTo nen-2767-4:Bouwdeel_2003 .
+    otl:Spuitkanon dct:conformsTo nen2767:Bouwdeel_2003 .
 
-    otl:Staalkabel dct:conformsTo nen-2767-4:Bouwdeel_1504 .
+    otl:Staalkabel dct:conformsTo nen2767:Bouwdeel_1504 .
 
-    otl:Staalmat dct:conformsTo nen-2767-4:Bouwdeel_1898 .
+    otl:Staalmat dct:conformsTo nen2767:Bouwdeel_1898 .
 
-    otl:Stabiliteitsberm dct:conformsTo nen-2767-4:Element_261 .
+    otl:Stabiliteitsberm dct:conformsTo nen2767:Element_261 .
 
-    otl:Stankscherm dct:conformsTo nen-2767-4:Bouwdeel_2055 .
+    otl:Stankscherm dct:conformsTo nen2767:Bouwdeel_2055 .
 
-    otl:Startmotor dct:conformsTo nen-2767-4:Bouwdeel_1506 .
+    otl:Startmotor dct:conformsTo nen2767:Bouwdeel_1506 .
 
-    otl:StatischeMenger dct:conformsTo nen-2767-4:Bouwdeel_2115 .
+    otl:StatischeMenger dct:conformsTo nen2767:Bouwdeel_2115 .
 
-    otl:Steenhoop dct:conformsTo nen-2767-4:Bouwdeel_1971 .
+    otl:Steenhoop dct:conformsTo nen2767:Bouwdeel_1971 .
 
-    otl:Steiger dct:conformsTo nen-2767-4:Element_201 .
+    otl:Steiger dct:conformsTo nen2767:Element_201 .
 
-    otl:Steilwand dct:conformsTo nen-2767-4:Bouwdeel_1708 .
+    otl:Steilwand dct:conformsTo nen2767:Bouwdeel_1708 .
 
-    otl:Stempelbuis dct:conformsTo nen-2767-4:Bouwdeel_1507 .
+    otl:Stempelbuis dct:conformsTo nen2767:Bouwdeel_1507 .
 
-    otl:Steunpunt dct:conformsTo nen-2767-4:Element_202 .
+    otl:Steunpunt dct:conformsTo nen2767:Element_202 .
 
-    otl:Stijl dct:conformsTo nen-2767-4:Bouwdeel_2137 .
+    otl:Stijl dct:conformsTo nen2767:Bouwdeel_2137 .
 
-    otl:Stobbenwal dct:conformsTo nen-2767-4:Bouwdeel_1901 .
+    otl:Stobbenwal dct:conformsTo nen2767:Bouwdeel_1901 .
 
-    otl:Stootkussen dct:conformsTo nen-2767-4:Bouwdeel_1190 .
+    otl:Stootkussen dct:conformsTo nen2767:Bouwdeel_1190 .
 
-    otl:Stormvloedkering dct:conformsTo nen-2767-4:Beheerobject_BO .
+    otl:Stormvloedkering dct:conformsTo nen2767:Beheerobject_BO .
 
-    otl:Stortebed dct:conformsTo nen-2767-4:Bouwdeel_1510 .
+    otl:Stortebed dct:conformsTo nen2767:Bouwdeel_1510 .
 
-    otl:Stortvak dct:conformsTo nen-2767-4:Element_350 .
+    otl:Stortvak dct:conformsTo nen2767:Element_350 .
 
-    otl:Straatnaambord dct:conformsTo nen-2767-4:Bouwdeel_1903 .
+    otl:Straatnaambord dct:conformsTo nen2767:Bouwdeel_1903 .
 
-    otl:Strand dct:conformsTo nen-2767-4:Bouwdeel_1707 .
+    otl:Strand dct:conformsTo nen2767:Bouwdeel_1707 .
 
-    otl:Strandhoofd dct:conformsTo nen-2767-4:Element_203 .
+    otl:Strandhoofd dct:conformsTo nen2767:Element_203 .
 
-    otl:Strekdam dct:conformsTo nen-2767-4:Element_204 .
+    otl:Strekdam dct:conformsTo nen2767:Element_204 .
 
-    otl:Strooiveld dct:conformsTo nen-2767-4:Bouwdeel_1904 .
+    otl:Strooiveld dct:conformsTo nen2767:Bouwdeel_1904 .
 
-    otl:Stroombreker dct:conformsTo nen-2767-4:Bouwdeel_1514 .
+    otl:Stroombreker dct:conformsTo nen2767:Bouwdeel_1514 .
 
-    otl:Stroomprofiel dct:conformsTo nen-2767-4:Bouwdeel_2059 .
+    otl:Stroomprofiel dct:conformsTo nen2767:Bouwdeel_2059 .
 
-    otl:Struikroos dct:conformsTo nen-2767-4:Bouwdeel_1906 .
+    otl:Struikroos dct:conformsTo nen2767:Bouwdeel_1906 .
 
-    otl:Stuifkuil dct:conformsTo nen-2767-4:Bouwdeel_2236 .
+    otl:Stuifkuil dct:conformsTo nen2767:Bouwdeel_2236 .
 
-    otl:Stuifscherm dct:conformsTo nen-2767-4:Bouwdeel_2237 .
+    otl:Stuifscherm dct:conformsTo nen2767:Bouwdeel_2237 .
 
-    otl:Stuifzand dct:conformsTo nen-2767-4:Bouwdeel_1907 .
+    otl:Stuifzand dct:conformsTo nen2767:Bouwdeel_1907 .
 
-    otl:Stuurstroomvoedingsinstallatie dct:conformsTo nen-2767-4:Element_406 .
+    otl:Stuurstroomvoedingsinstallatie dct:conformsTo nen2767:Element_406 .
 
-    otl:Stuw dct:conformsTo nen-2767-4:Beheerobject_BP .
+    otl:Stuw dct:conformsTo nen2767:Beheerobject_BP .
 
-    otl:Stuwelement dct:conformsTo nen-2767-4:Bouwdeel_1515 .
+    otl:Stuwelement dct:conformsTo nen2767:Bouwdeel_1515 .
 
-    otl:Stuwhoofd dct:conformsTo nen-2767-4:Element_255 .
+    otl:Stuwhoofd dct:conformsTo nen2767:Element_255 .
 
-    otl:Switch dct:conformsTo nen-2767-4:Bouwdeel_2190 .
+    otl:Switch dct:conformsTo nen2767:Bouwdeel_2190 .
 
-    otl:Taats dct:conformsTo nen-2767-4:Bouwdeel_1704 .
+    otl:Taats dct:conformsTo nen2767:Bouwdeel_1704 .
 
-    otl:Tafel dct:conformsTo nen-2767-4:Bouwdeel_2026 .
+    otl:Tafel dct:conformsTo nen2767:Bouwdeel_2026 .
 
-    otl:Tafeltennistafel dct:conformsTo nen-2767-4:Bouwdeel_1908 .
+    otl:Tafeltennistafel dct:conformsTo nen2767:Bouwdeel_1908 .
 
-    otl:Takel dct:conformsTo nen-2767-4:Bouwdeel_1516 .
+    otl:Takel dct:conformsTo nen2767:Bouwdeel_1516 .
 
-    otl:Takkenril dct:conformsTo nen-2767-4:Bouwdeel_2018 .
+    otl:Takkenril dct:conformsTo nen2767:Bouwdeel_2018 .
 
-    otl:Talud dct:conformsTo nen-2767-4:Element_272 .
+    otl:Talud dct:conformsTo nen2767:Element_272 .
 
-    otl:Tandbaan dct:conformsTo nen-2767-4:Bouwdeel_1663 .
+    otl:Tandbaan dct:conformsTo nen2767:Bouwdeel_1663 .
 
-    otl:Tandwiel dct:conformsTo nen-2767-4:Bouwdeel_1518 .
+    otl:Tandwiel dct:conformsTo nen2767:Bouwdeel_1518 .
 
-    otl:Tandwieloverbrenging dct:conformsTo nen-2767-4:Bouwdeel_1519 .
+    otl:Tandwieloverbrenging dct:conformsTo nen2767:Bouwdeel_1519 .
 
-    otl:TandwieloverbrengingOpen dct:conformsTo nen-2767-4:Bouwdeel_1001 .
+    otl:TandwieloverbrengingOpen dct:conformsTo nen2767:Bouwdeel_1001 .
 
-    otl:Tank dct:conformsTo nen-2767-4:Bouwdeel_1520 .
+    otl:Tank dct:conformsTo nen2767:Bouwdeel_1520 .
 
-    otl:Tankconstructie dct:conformsTo nen-2767-4:Element_385 .
+    otl:Tankconstructie dct:conformsTo nen2767:Element_385 .
 
-    otl:Teensloot dct:conformsTo nen-2767-4:Element_263 .
+    otl:Teensloot dct:conformsTo nen2767:Element_263 .
 
-    otl:Telefooninstallatie dct:conformsTo nen-2767-4:Element_206 .
+    otl:Telefooninstallatie dct:conformsTo nen2767:Element_206 .
 
-    otl:Telefoontoestel dct:conformsTo nen-2767-4:Bouwdeel_1522 .
+    otl:Telefoontoestel dct:conformsTo nen2767:Bouwdeel_1522 .
 
-    otl:TelemetrieInstallatie dct:conformsTo nen-2767-4:Element_207 .
+    otl:TelemetrieInstallatie dct:conformsTo nen2767:Element_207 .
 
-    otl:Tennisbaan dct:conformsTo nen-2767-4:Bouwdeel_1909 .
+    otl:Tennisbaan dct:conformsTo nen2767:Bouwdeel_1909 .
 
-    otl:Tenniskooi dct:conformsTo nen-2767-4:Bouwdeel_1910 .
+    otl:Tenniskooi dct:conformsTo nen2767:Bouwdeel_1910 .
 
-    otl:Terrein dct:conformsTo nen-2767-4:Beheerobject_BQ .
+    otl:Terrein dct:conformsTo nen2767:Beheerobject_BQ .
 
-    otl:TerreindeelBegroeid dct:conformsTo nen-2767-4:Element_418 .
+    otl:TerreindeelBegroeid dct:conformsTo nen2767:Element_418 .
 
-    otl:TerreindeelOnbegroeid dct:conformsTo nen-2767-4:Element_333 .
+    otl:TerreindeelOnbegroeid dct:conformsTo nen2767:Element_333 .
 
-    otl:Terreinmeubilair dct:conformsTo nen-2767-4:Element_319 .
+    otl:Terreinmeubilair dct:conformsTo nen2767:Element_319 .
 
-    otl:Terugslagklep dct:conformsTo nen-2767-4:Bouwdeel_2128 .
+    otl:Terugslagklep dct:conformsTo nen2767:Bouwdeel_2128 .
 
-    otl:ToegangscontroleInstallatie dct:conformsTo nen-2767-4:Element_400 .
+    otl:ToegangscontroleInstallatie dct:conformsTo nen2767:Element_400 .
 
-    otl:Toegangshek dct:conformsTo nen-2767-4:Element_209 .
+    otl:Toegangshek dct:conformsTo nen2767:Element_209 .
 
-    otl:Toerenregelinstallatie dct:conformsTo nen-2767-4:Bouwdeel_1530 .
+    otl:Toerenregelinstallatie dct:conformsTo nen2767:Bouwdeel_1530 .
 
-    otl:Toilet dct:conformsTo nen-2767-4:Bouwdeel_1912 .
+    otl:Toilet dct:conformsTo nen2767:Bouwdeel_1912 .
 
-    otl:Toiletcabine dct:conformsTo nen-2767-4:Bouwdeel_1913 .
+    otl:Toiletcabine dct:conformsTo nen2767:Bouwdeel_1913 .
 
-    otl:Ton dct:conformsTo nen-2767-4:Bouwdeel_1710 .
+    otl:Ton dct:conformsTo nen2767:Bouwdeel_1710 .
 
-    otl:Toplaag dct:conformsTo nen-2767-4:Bouwdeel_2208 .
+    otl:Toplaag dct:conformsTo nen2767:Bouwdeel_2208 .
 
-    otl:Touwbaan dct:conformsTo nen-2767-4:Bouwdeel_1914 .
+    otl:Touwbaan dct:conformsTo nen2767:Bouwdeel_1914 .
 
-    otl:Touwkliminstallatie dct:conformsTo nen-2767-4:Bouwdeel_1916 .
+    otl:Touwkliminstallatie dct:conformsTo nen2767:Bouwdeel_1916 .
 
-    otl:Tracing dct:conformsTo nen-2767-4:Element_210 .
+    otl:Tracing dct:conformsTo nen2767:Element_210 .
 
-    otl:Trafohuis dct:conformsTo nen-2767-4:Bouwdeel_1550 .
+    otl:Trafohuis dct:conformsTo nen2767:Bouwdeel_1550 .
 
-    otl:Traliedeur dct:conformsTo nen-2767-4:Bouwdeel_1917 .
+    otl:Traliedeur dct:conformsTo nen2767:Bouwdeel_1917 .
 
-    otl:Trambaan dct:conformsTo nen-2767-4:Element_211 .
+    otl:Trambaan dct:conformsTo nen2767:Element_211 .
 
-    otl:Transformator dct:conformsTo nen-2767-4:Bouwdeel_1549 .
+    otl:Transformator dct:conformsTo nen2767:Bouwdeel_1549 .
 
-    otl:TransmissieApparatuur dct:conformsTo nen-2767-4:Bouwdeel_1551 .
+    otl:TransmissieApparatuur dct:conformsTo nen2767:Bouwdeel_1551 .
 
-    otl:TransmissieNetwerk dct:conformsTo nen-2767-4:Element_124 .
+    otl:TransmissieNetwerk dct:conformsTo nen2767:Element_124 .
 
-    otl:Transportinstallatie dct:conformsTo nen-2767-4:Element_386 .
+    otl:Transportinstallatie dct:conformsTo nen2767:Element_386 .
 
-    otl:Trap dct:conformsTo nen-2767-4:Bouwdeel_1552 .
+    otl:Trap dct:conformsTo nen2767:Bouwdeel_1552 .
 
-    otl:Trapafwerking dct:conformsTo nen-2767-4:Bouwdeel_2141 .
+    otl:Trapafwerking dct:conformsTo nen2767:Bouwdeel_2141 .
 
-    otl:Trapconstructie dct:conformsTo nen-2767-4:Element_390 .
+    otl:Trapconstructie dct:conformsTo nen2767:Element_390 .
 
-    otl:Trapveld dct:conformsTo nen-2767-4:Bouwdeel_1918 .
+    otl:Trapveld dct:conformsTo nen2767:Bouwdeel_1918 .
 
-    otl:Trekduwstang dct:conformsTo nen-2767-4:Bouwdeel_1556 .
+    otl:Trekduwstang dct:conformsTo nen2767:Bouwdeel_1556 .
 
-    otl:Trekpalen dct:conformsTo nen-2767-4:Bouwdeel_1557 .
+    otl:Trekpalen dct:conformsTo nen2767:Bouwdeel_1557 .
 
-    otl:Triangel dct:conformsTo nen-2767-4:Bouwdeel_1558 .
+    otl:Triangel dct:conformsTo nen2767:Bouwdeel_1558 .
 
-    otl:Trottoirband dct:conformsTo nen-2767-4:Bouwdeel_1729 .
+    otl:Trottoirband dct:conformsTo nen2767:Bouwdeel_1729 .
 
-    otl:Tuidraad dct:conformsTo nen-2767-4:Bouwdeel_1559 .
+    otl:Tuidraad dct:conformsTo nen2767:Bouwdeel_1559 .
 
-    otl:Tuinakker dct:conformsTo nen-2767-4:Bouwdeel_1919 .
+    otl:Tuinakker dct:conformsTo nen2767:Bouwdeel_1919 .
 
-    otl:Tuinhuisje dct:conformsTo nen-2767-4:Bouwdeel_1922 .
+    otl:Tuinhuisje dct:conformsTo nen2767:Bouwdeel_1922 .
 
-    otl:Tuinmuur dct:conformsTo nen-2767-4:Bouwdeel_1923 .
+    otl:Tuinmuur dct:conformsTo nen2767:Bouwdeel_1923 .
 
-    otl:Tunnel dct:conformsTo nen-2767-4:Beheerobject_BR .
+    otl:Tunnel dct:conformsTo nen2767:Beheerobject_BR .
 
-    otl:Tunnelbuis dct:conformsTo nen-2767-4:Element_212 .
+    otl:Tunnelbuis dct:conformsTo nen2767:Element_212 .
 
-    otl:Turbine dct:conformsTo nen-2767-4:Bouwdeel_1673 .
+    otl:Turbine dct:conformsTo nen2767:Bouwdeel_1673 .
 
-    otl:Tussenlaag dct:conformsTo nen-2767-4:Bouwdeel_2179 .
+    otl:Tussenlaag dct:conformsTo nen2767:Bouwdeel_2179 .
 
-    otl:Uiterwaard dct:conformsTo nen-2767-4:Beheerobject_BS .
+    otl:Uiterwaard dct:conformsTo nen2767:Beheerobject_BS .
 
-    otl:Uithouder dct:conformsTo nen-2767-4:Element_215 .
+    otl:Uithouder dct:conformsTo nen2767:Element_215 .
 
-    otl:Uitlaatvoorziening dct:conformsTo nen-2767-4:Element_357 .
+    otl:Uitlaatvoorziening dct:conformsTo nen2767:Element_357 .
 
-    otl:Uitmonding dct:conformsTo nen-2767-4:Bouwdeel_2218 .
+    otl:Uitmonding dct:conformsTo nen2767:Bouwdeel_2218 .
 
-    otl:Uitstroombak dct:conformsTo nen-2767-4:Bouwdeel_2060 .
+    otl:Uitstroombak dct:conformsTo nen2767:Bouwdeel_2060 .
 
-    otl:Uitstroomopening dct:conformsTo nen-2767-4:Bouwdeel_1569 .
+    otl:Uitstroomopening dct:conformsTo nen2767:Bouwdeel_1569 .
 
-    otl:Urinoir dct:conformsTo nen-2767-4:Bouwdeel_2155 .
+    otl:Urinoir dct:conformsTo nen2767:Bouwdeel_2155 .
 
-    otl:Urnengraf dct:conformsTo nen-2767-4:Bouwdeel_1925 .
+    otl:Urnengraf dct:conformsTo nen2767:Bouwdeel_1925 .
 
-    otl:Vaargeul dct:conformsTo nen-2767-4:Element_267 .
+    otl:Vaargeul dct:conformsTo nen2767:Element_267 .
 
-    otl:Vaarwegmarkering dct:conformsTo nen-2767-4:Element_216 .
+    otl:Vaarwegmarkering dct:conformsTo nen2767:Element_216 .
 
-    otl:Valbeveiliging dct:conformsTo nen-2767-4:Element_417 .
+    otl:Valbeveiliging dct:conformsTo nen2767:Element_417 .
 
-    otl:Valreep dct:conformsTo nen-2767-4:Bouwdeel_1571 .
+    otl:Valreep dct:conformsTo nen2767:Bouwdeel_1571 .
 
-    otl:Vangconstructie dct:conformsTo nen-2767-4:Element_217 .
+    otl:Vangconstructie dct:conformsTo nen2767:Element_217 .
 
-    otl:Veiligheidsventiel dct:conformsTo nen-2767-4:Bouwdeel_1576 .
+    otl:Veiligheidsventiel dct:conformsTo nen2767:Bouwdeel_1576 .
 
-    otl:Veldafscheiding dct:conformsTo nen-2767-4:Bouwdeel_1928 .
+    otl:Veldafscheiding dct:conformsTo nen2767:Bouwdeel_1928 .
 
-    otl:Veldbus dct:conformsTo nen-2767-4:Bouwdeel_2219 .
+    otl:Veldbus dct:conformsTo nen2767:Bouwdeel_2219 .
 
-    otl:Ven dct:conformsTo nen-2767-4:Element_363 .
+    otl:Ven dct:conformsTo nen2767:Element_363 .
 
-    otl:VentilatieInstallatie dct:conformsTo nen-2767-4:Element_213 .
+    otl:VentilatieInstallatie dct:conformsTo nen2767:Element_213 .
 
-    otl:Ventilator dct:conformsTo nen-2767-4:Bouwdeel_1578 .
+    otl:Ventilator dct:conformsTo nen2767:Bouwdeel_1578 .
 
-    otl:Verankering dct:conformsTo nen-2767-4:Element_218 .
+    otl:Verankering dct:conformsTo nen2767:Element_218 .
 
-    otl:VerbindingElektrisch dct:conformsTo nen-2767-4:Bouwdeel_1581 .
+    otl:VerbindingElektrisch dct:conformsTo nen2767:Bouwdeel_1581 .
 
-    otl:Verbindingsbrug dct:conformsTo nen-2767-4:Bouwdeel_1341 .
+    otl:Verbindingsbrug dct:conformsTo nen2767:Bouwdeel_1341 .
 
-    otl:Verbrandingsmotor dct:conformsTo nen-2767-4:Bouwdeel_1582 .
+    otl:Verbrandingsmotor dct:conformsTo nen2767:Bouwdeel_1582 .
 
-    otl:Verdeelblok dct:conformsTo nen-2767-4:Bouwdeel_1583 .
+    otl:Verdeelblok dct:conformsTo nen2767:Bouwdeel_1583 .
 
-    otl:VerhardingWegtype1-Hoofdwegennet dct:conformsTo nen-2767-4:Element_219 .
+    otl:VerhardingWegtype1-Hoofdwegennet dct:conformsTo nen2767:Element_219 .
 
-    otl:VerhardingWegtype2-ZwaarbelasteWeg dct:conformsTo nen-2767-4:Element_220 .
+    otl:VerhardingWegtype2-ZwaarbelasteWeg dct:conformsTo nen2767:Element_220 .
 
-    otl:VerhardingWegtype3-GemiddeldBelasteWeg dct:conformsTo nen-2767-4:Element_221 .
+    otl:VerhardingWegtype3-GemiddeldBelasteWeg dct:conformsTo nen2767:Element_221 .
 
-    otl:VerhardingWegtype4-LichtBelast dct:conformsTo nen-2767-4:Element_222 .
+    otl:VerhardingWegtype4-LichtBelast dct:conformsTo nen2767:Element_222 .
 
-    otl:VerhardingWegtype5-WegInWoongebied dct:conformsTo nen-2767-4:Element_223 .
+    otl:VerhardingWegtype5-WegInWoongebied dct:conformsTo nen2767:Element_223 .
 
-    otl:VerhardingWegtype6-WegInVerblijfsgebied dct:conformsTo nen-2767-4:Element_224 .
+    otl:VerhardingWegtype6-WegInVerblijfsgebied dct:conformsTo nen2767:Element_224 .
 
-    otl:VerhardingWegtype7-Fietspaden dct:conformsTo nen-2767-4:Element_225 .
+    otl:VerhardingWegtype7-Fietspaden dct:conformsTo nen2767:Element_225 .
 
-    otl:Verkeersbord dct:conformsTo nen-2767-4:Bouwdeel_1586 .
+    otl:Verkeersbord dct:conformsTo nen2767:Bouwdeel_1586 .
 
-    otl:Verkeerscentrale dct:conformsTo nen-2767-4:Beheerobject_BU .
+    otl:Verkeerscentrale dct:conformsTo nen2767:Beheerobject_BU .
 
-    otl:VerkeersdetectieInstallatie dct:conformsTo nen-2767-4:Element_226 .
+    otl:VerkeersdetectieInstallatie dct:conformsTo nen2767:Element_226 .
 
-    otl:Verkeerseiland dct:conformsTo nen-2767-4:Element_399 .
+    otl:Verkeerseiland dct:conformsTo nen2767:Element_399 .
 
-    otl:Verkeersgeleidingsverlichting dct:conformsTo nen-2767-4:Bouwdeel_1588 .
+    otl:Verkeersgeleidingsverlichting dct:conformsTo nen2767:Bouwdeel_1588 .
 
-    otl:Verkeersregelinstallatie dct:conformsTo nen-2767-4:Element_227 .
+    otl:Verkeersregelinstallatie dct:conformsTo nen2767:Element_227 .
 
-    otl:VerplaatsbareGeleidebarrier dct:conformsTo nen-2767-4:Element_229 .
+    otl:VerplaatsbareGeleidebarrier dct:conformsTo nen2767:Element_229 .
 
-    otl:Versnijder dct:conformsTo nen-2767-4:Bouwdeel_2117 .
+    otl:Versnijder dct:conformsTo nen2767:Bouwdeel_2117 .
 
-    otl:Verspringaccommodatie dct:conformsTo nen-2767-4:Bouwdeel_1818 .
+    otl:Verspringaccommodatie dct:conformsTo nen2767:Bouwdeel_1818 .
 
-    otl:Versterker dct:conformsTo nen-2767-4:Bouwdeel_1591 .
+    otl:Versterker dct:conformsTo nen2767:Bouwdeel_1591 .
 
-    otl:VerticaalVakwerkligger dct:conformsTo nen-2767-4:Bouwdeel_1592 .
+    otl:VerticaalVakwerkligger dct:conformsTo nen2767:Bouwdeel_1592 .
 
-    otl:Verwarmingstoestel dct:conformsTo nen-2767-4:Bouwdeel_1596 .
+    otl:Verwarmingstoestel dct:conformsTo nen2767:Bouwdeel_1596 .
 
-    otl:Verwerkingseenheid dct:conformsTo nen-2767-4:Bouwdeel_1597 .
+    otl:Verwerkingseenheid dct:conformsTo nen2767:Bouwdeel_1597 .
 
-    otl:Verzorgingsplaats dct:conformsTo nen-2767-4:Beheerobject_BV .
+    otl:Verzorgingsplaats dct:conformsTo nen2767:Beheerobject_BV .
 
-    otl:Vetafscheider dct:conformsTo nen-2767-4:Bouwdeel_2065 .
+    otl:Vetafscheider dct:conformsTo nen2767:Bouwdeel_2065 .
 
-    otl:Viaduct dct:conformsTo nen-2767-4:Beheerobject_BW .
+    otl:Viaduct dct:conformsTo nen2767:Beheerobject_BW .
 
-    otl:Videomatrix dct:conformsTo nen-2767-4:Bouwdeel_1600 .
+    otl:Videomatrix dct:conformsTo nen2767:Bouwdeel_1600 .
 
-    otl:Videowall dct:conformsTo nen-2767-4:Bouwdeel_1672 .
+    otl:Videowall dct:conformsTo nen2767:Bouwdeel_1672 .
 
-    otl:Vijver dct:conformsTo nen-2767-4:Element_322 .
+    otl:Vijver dct:conformsTo nen2767:Element_322 .
 
-    otl:Vijzel dct:conformsTo nen-2767-4:Bouwdeel_1601 .
+    otl:Vijzel dct:conformsTo nen2767:Bouwdeel_1601 .
 
-    otl:Vijzelgoot dct:conformsTo nen-2767-4:Bouwdeel_1602 .
+    otl:Vijzelgoot dct:conformsTo nen2767:Bouwdeel_1602 .
 
-    otl:Vijzelinstallatie dct:conformsTo nen-2767-4:Element_230 .
+    otl:Vijzelinstallatie dct:conformsTo nen2767:Element_230 .
 
-    otl:Vispassage dct:conformsTo nen-2767-4:Element_266 .
+    otl:Vispassage dct:conformsTo nen2767:Element_266 .
 
-    otl:Vissluis dct:conformsTo nen-2767-4:Element_335 .
+    otl:Vissluis dct:conformsTo nen2767:Element_335 .
 
-    otl:Vistrap dct:conformsTo nen-2767-4:Bouwdeel_1930 .
+    otl:Vistrap dct:conformsTo nen2767:Bouwdeel_1930 .
 
-    otl:Vleermuiskelder dct:conformsTo nen-2767-4:Element_323 .
+    otl:Vleermuiskelder dct:conformsTo nen2767:Element_323 .
 
-    otl:Vleugelwand dct:conformsTo nen-2767-4:Bouwdeel_1604 .
+    otl:Vleugelwand dct:conformsTo nen2767:Bouwdeel_1604 .
 
-    otl:Vloer dct:conformsTo nen-2767-4:Bouwdeel_1605 .
+    otl:Vloer dct:conformsTo nen2767:Bouwdeel_1605 .
 
-    otl:Vloerafwerking dct:conformsTo nen-2767-4:Bouwdeel_2140 .
+    otl:Vloerafwerking dct:conformsTo nen2767:Bouwdeel_2140 .
 
-    otl:Vloerconstructie dct:conformsTo nen-2767-4:Element_389 .
+    otl:Vloerconstructie dct:conformsTo nen2767:Element_389 .
 
-    otl:Vlonder dct:conformsTo nen-2767-4:Bouwdeel_2023 .
+    otl:Vlonder dct:conformsTo nen2767:Bouwdeel_2023 .
 
-    otl:Vluchtdeur dct:conformsTo nen-2767-4:Bouwdeel_1606 .
+    otl:Vluchtdeur dct:conformsTo nen2767:Bouwdeel_1606 .
 
-    otl:VluchthavenAanwezigheidsdetectieInstallatie dct:conformsTo nen-2767-4:Element_231 .
+    otl:VluchthavenAanwezigheidsdetectieInstallatie dct:conformsTo nen2767:Element_231 .
 
-    otl:Vluchtstang dct:conformsTo nen-2767-4:Bouwdeel_1934 .
+    otl:Vluchtstang dct:conformsTo nen2767:Bouwdeel_1934 .
 
-    otl:Vluchtweginstallatie dct:conformsTo nen-2767-4:Element_232 .
+    otl:Vluchtweginstallatie dct:conformsTo nen2767:Element_232 .
 
-    otl:Vluchtwegverlichting dct:conformsTo nen-2767-4:Bouwdeel_1609 .
+    otl:Vluchtwegverlichting dct:conformsTo nen2767:Bouwdeel_1609 .
 
-    otl:Voegconstructie dct:conformsTo nen-2767-4:Bouwdeel_1610 .
+    otl:Voegconstructie dct:conformsTo nen2767:Bouwdeel_1610 .
 
-    otl:VoeglozeOvergang dct:conformsTo nen-2767-4:Bouwdeel_1681 .
+    otl:VoeglozeOvergang dct:conformsTo nen2767:Bouwdeel_1681 .
 
-    otl:Voegovergang dct:conformsTo nen-2767-4:Element_233 .
+    otl:Voegovergang dct:conformsTo nen2767:Element_233 .
 
-    otl:Voetbalkooi dct:conformsTo nen-2767-4:Bouwdeel_1935 .
+    otl:Voetbalkooi dct:conformsTo nen2767:Bouwdeel_1935 .
 
-    otl:Voetbalveld dct:conformsTo nen-2767-4:Bouwdeel_1936 .
+    otl:Voetbalveld dct:conformsTo nen2767:Bouwdeel_1936 .
 
-    otl:Voetpedaal dct:conformsTo nen-2767-4:Bouwdeel_1685 .
+    otl:Voetpedaal dct:conformsTo nen2767:Bouwdeel_1685 .
 
-    otl:Voliere dct:conformsTo nen-2767-4:Bouwdeel_1937 .
+    otl:Voliere dct:conformsTo nen2767:Bouwdeel_1937 .
 
-    otl:Voorland dct:conformsTo nen-2767-4:Element_256 .
+    otl:Voorland dct:conformsTo nen2767:Element_256 .
 
-    otl:Vooroever dct:conformsTo nen-2767-4:Element_257 .
+    otl:Vooroever dct:conformsTo nen2767:Element_257 .
 
-    otl:Voortstuwer dct:conformsTo nen-2767-4:Bouwdeel_2129 .
+    otl:Voortstuwer dct:conformsTo nen2767:Bouwdeel_2129 .
 
-    otl:Vuilvangrooster dct:conformsTo nen-2767-4:Bouwdeel_1614 .
+    otl:Vuilvangrooster dct:conformsTo nen2767:Bouwdeel_1614 .
 
-    otl:Waaiervlotdeur dct:conformsTo nen-2767-4:Bouwdeel_1997 .
+    otl:Waaiervlotdeur dct:conformsTo nen2767:Bouwdeel_1997 .
 
-    otl:WaarschuwingsEnAlarmeringssysteem dct:conformsTo nen-2767-4:Element_372 .
+    otl:WaarschuwingsEnAlarmeringssysteem dct:conformsTo nen2767:Element_372 .
 
-    otl:Waarschuwingslicht dct:conformsTo nen-2767-4:Bouwdeel_1986 .
+    otl:Waarschuwingslicht dct:conformsTo nen2767:Bouwdeel_1986 .
 
-    otl:Wadi dct:conformsTo nen-2767-4:Bouwdeel_1617 .
+    otl:Wadi dct:conformsTo nen2767:Bouwdeel_1617 .
 
-    otl:Wagen dct:conformsTo nen-2767-4:Bouwdeel_1618 .
+    otl:Wagen dct:conformsTo nen2767:Bouwdeel_1618 .
 
-    otl:Wals dct:conformsTo nen-2767-4:Bouwdeel_2130 .
+    otl:Wals dct:conformsTo nen2767:Bouwdeel_2130 .
 
-    otl:Wand dct:conformsTo nen-2767-4:Bouwdeel_1619 .
+    otl:Wand dct:conformsTo nen2767:Bouwdeel_1619 .
 
-    otl:Wandafwerking dct:conformsTo nen-2767-4:Bouwdeel_2138 .
+    otl:Wandafwerking dct:conformsTo nen2767:Bouwdeel_2138 .
 
-    otl:Wandconstructie dct:conformsTo nen-2767-4:Element_388 .
+    otl:Wandconstructie dct:conformsTo nen2767:Element_388 .
 
-    otl:WarmteKrachtKoppelingsinstallatie dct:conformsTo nen-2767-4:Element_408 .
+    otl:WarmteKrachtKoppelingsinstallatie dct:conformsTo nen2767:Element_408 .
 
-    otl:Warmtewisselaar dct:conformsTo nen-2767-4:Bouwdeel_1620 .
+    otl:Warmtewisselaar dct:conformsTo nen2767:Bouwdeel_1620 .
 
-    otl:Wastafel dct:conformsTo nen-2767-4:Bouwdeel_2156 .
+    otl:Wastafel dct:conformsTo nen2767:Bouwdeel_2156 .
 
-    otl:WaterEnWatergangLijnvormig dct:conformsTo nen-2767-4:Beheerobject_CK .
+    otl:WaterEnWatergangLijnvormig dct:conformsTo nen2767:Beheerobject_CK .
 
-    otl:WaterEnWatergangNietLijnvormig dct:conformsTo nen-2767-4:Beheerobject_CJ .
+    otl:WaterEnWatergangNietLijnvormig dct:conformsTo nen2767:Beheerobject_CJ .
 
-    otl:Waterbodem dct:conformsTo nen-2767-4:Bouwdeel_1078 .
+    otl:Waterbodem dct:conformsTo nen2767:Bouwdeel_1078 .
 
-    otl:Waterbuffer dct:conformsTo nen-2767-4:Beheerobject_AH .
+    otl:Waterbuffer dct:conformsTo nen2767:Beheerobject_AH .
 
-    otl:Watermistinstallatie dct:conformsTo nen-2767-4:Element_410 .
+    otl:Watermistinstallatie dct:conformsTo nen2767:Element_410 .
 
-    otl:Waterplant dct:conformsTo nen-2767-4:Bouwdeel_1940 .
+    otl:Waterplant dct:conformsTo nen2767:Bouwdeel_1940 .
 
-    otl:WaterplantOndergedoken dct:conformsTo nen-2767-4:Bouwdeel_1941 .
+    otl:WaterplantOndergedoken dct:conformsTo nen2767:Bouwdeel_1941 .
 
-    otl:Waterreguleringswerk dct:conformsTo nen-2767-4:Beheerobject_BZ .
+    otl:Waterreguleringswerk dct:conformsTo nen2767:Beheerobject_BZ .
 
-    otl:Watertapinstallatie dct:conformsTo nen-2767-4:Element_395 .
+    otl:Watertapinstallatie dct:conformsTo nen2767:Element_395 .
 
-    otl:Weerhut dct:conformsTo nen-2767-4:Bouwdeel_1676 .
+    otl:Weerhut dct:conformsTo nen2767:Bouwdeel_1676 .
 
-    otl:Weg dct:conformsTo nen-2767-4:Beheerobject_CA .
+    otl:Weg dct:conformsTo nen2767:Beheerobject_CA .
 
-    otl:Wegkantsysteem dct:conformsTo nen-2767-4:Element_169 .
+    otl:Wegkantsysteem dct:conformsTo nen2767:Element_169 .
 
-    otl:Wegkruipplek dct:conformsTo nen-2767-4:Bouwdeel_1945 .
+    otl:Wegkruipplek dct:conformsTo nen2767:Bouwdeel_1945 .
 
-    otl:Wegmarkering dct:conformsTo nen-2767-4:Element_238 .
+    otl:Wegmarkering dct:conformsTo nen2767:Element_238 .
 
-    otl:Weide dct:conformsTo nen-2767-4:Bouwdeel_1946 .
+    otl:Weide dct:conformsTo nen2767:Bouwdeel_1946 .
 
-    otl:WeighInMotion dct:conformsTo nen-2767-4:Element_239 .
+    otl:WeighInMotion dct:conformsTo nen2767:Element_239 .
 
-    otl:WerkSpreekverbinding dct:conformsTo nen-2767-4:Element_240 .
+    otl:WerkSpreekverbinding dct:conformsTo nen2767:Element_240 .
 
-    otl:Werpaccommodatie dct:conformsTo nen-2767-4:Bouwdeel_1948 .
+    otl:Werpaccommodatie dct:conformsTo nen2767:Bouwdeel_1948 .
 
-    otl:Wervelventiel dct:conformsTo nen-2767-4:Bouwdeel_2054 .
+    otl:Wervelventiel dct:conformsTo nen2767:Bouwdeel_2054 .
 
-    otl:WideAreaNetwork dct:conformsTo nen-2767-4:Bouwdeel_2220 .
+    otl:WideAreaNetwork dct:conformsTo nen2767:Bouwdeel_2220 .
 
-    otl:Wiel dct:conformsTo nen-2767-4:Bouwdeel_2092 .
+    otl:Wiel dct:conformsTo nen2767:Bouwdeel_2092 .
 
-    otl:Wielstel dct:conformsTo nen-2767-4:Bouwdeel_1626 .
+    otl:Wielstel dct:conformsTo nen2767:Bouwdeel_1626 .
 
-    otl:Windmeter dct:conformsTo nen-2767-4:Bouwdeel_1628 .
+    otl:Windmeter dct:conformsTo nen2767:Bouwdeel_1628 .
 
-    otl:Windmolen dct:conformsTo nen-2767-4:Beheerobject_DA .
+    otl:Windmolen dct:conformsTo nen2767:Beheerobject_DA .
 
-    otl:Windverband dct:conformsTo nen-2767-4:Bouwdeel_1630 .
+    otl:Windverband dct:conformsTo nen2767:Bouwdeel_1630 .
 
-    otl:Wingebied dct:conformsTo nen-2767-4:Element_270 .
+    otl:Wingebied dct:conformsTo nen2767:Element_270 .
 
-    otl:Wiptoestel dct:conformsTo nen-2767-4:Bouwdeel_1927 .
+    otl:Wiptoestel dct:conformsTo nen2767:Bouwdeel_1927 .
 
-    otl:Woelbak dct:conformsTo nen-2767-4:Bouwdeel_1631 .
+    otl:Woelbak dct:conformsTo nen2767:Bouwdeel_1631 .
 
-    otl:Wrijfgording dct:conformsTo nen-2767-4:Bouwdeel_1632 .
+    otl:Wrijfgording dct:conformsTo nen2767:Bouwdeel_1632 .
 
-    otl:Wrijfschort dct:conformsTo nen-2767-4:Bouwdeel_1633 .
+    otl:Wrijfschort dct:conformsTo nen2767:Bouwdeel_1633 .
 
-    otl:Wrijfstijl dct:conformsTo nen-2767-4:Bouwdeel_1634 .
+    otl:Wrijfstijl dct:conformsTo nen2767:Bouwdeel_1634 .
 
-    otl:Wrijvingswerk dct:conformsTo nen-2767-4:Bouwdeel_1635 .
+    otl:Wrijvingswerk dct:conformsTo nen2767:Bouwdeel_1635 .
 
-    otl:Zadel dct:conformsTo nen-2767-4:Bouwdeel_1636 .
+    otl:Zadel dct:conformsTo nen2767:Bouwdeel_1636 .
 
-    otl:Zandbak dct:conformsTo nen-2767-4:Bouwdeel_1960 .
+    otl:Zandbak dct:conformsTo nen2767:Bouwdeel_1960 .
 
-    otl:Zandbed dct:conformsTo nen-2767-4:Bouwdeel_1638 .
+    otl:Zandbed dct:conformsTo nen2767:Bouwdeel_1638 .
 
-    otl:Zandbedekking dct:conformsTo nen-2767-4:Bouwdeel_1792 .
+    otl:Zandbedekking dct:conformsTo nen2767:Bouwdeel_1792 .
 
-    otl:Zandfilterbassin dct:conformsTo nen-2767-4:Beheerobject_CY .
+    otl:Zandfilterbassin dct:conformsTo nen2767:Beheerobject_CY .
 
-    otl:Zandvang dct:conformsTo nen-2767-4:Bouwdeel_1639 .
+    otl:Zandvang dct:conformsTo nen2767:Bouwdeel_1639 .
 
-    otl:Zee dct:conformsTo nen-2767-4:Beheerobject_CB .
+    otl:Zee dct:conformsTo nen2767:Beheerobject_CB .
 
-    otl:Zeestrand dct:conformsTo nen-2767-4:Element_432 .
+    otl:Zeestrand dct:conformsTo nen2767:Element_432 .
 
-    otl:Zender dct:conformsTo nen-2767-4:Bouwdeel_1640 .
+    otl:Zender dct:conformsTo nen2767:Bouwdeel_1640 .
 
-    otl:ZettingbeperkendeElement dct:conformsTo nen-2767-4:Bouwdeel_1642 .
+    otl:ZettingbeperkendeElement dct:conformsTo nen2767:Bouwdeel_1642 .
 
-    otl:Zijschildafdichting dct:conformsTo nen-2767-4:Bouwdeel_1644 .
+    otl:Zijschildafdichting dct:conformsTo nen2767:Bouwdeel_1644 .
 
-    otl:Zinker dct:conformsTo nen-2767-4:Element_242 .
+    otl:Zinker dct:conformsTo nen2767:Element_242 .
 
-    otl:Zinkerbord dct:conformsTo nen-2767-4:Bouwdeel_1706 .
+    otl:Zinkerbord dct:conformsTo nen2767:Bouwdeel_1706 .
 
-    otl:Zinkstuk dct:conformsTo nen-2767-4:Bouwdeel_1646 .
+    otl:Zinkstuk dct:conformsTo nen2767:Bouwdeel_1646 .
 
-    otl:Zitelement dct:conformsTo nen-2767-4:Bouwdeel_2025 .
+    otl:Zitelement dct:conformsTo nen2767:Bouwdeel_2025 .
 
-    otl:Zonnekap dct:conformsTo nen-2767-4:Bouwdeel_1993 .
+    otl:Zonnekap dct:conformsTo nen2767:Bouwdeel_1993 .
 
-    otl:Zonnepaneel dct:conformsTo nen-2767-4:Bouwdeel_1651 .
+    otl:Zonnepaneel dct:conformsTo nen2767:Bouwdeel_1651 .
 
-    otl:ZonwerendRooster dct:conformsTo nen-2767-4:Bouwdeel_1652 .
+    otl:ZonwerendRooster dct:conformsTo nen2767:Bouwdeel_1652 .
 
-    otl:Zonweringsinstallatie dct:conformsTo nen-2767-4:Element_401 .
+    otl:Zonweringsinstallatie dct:conformsTo nen2767:Element_401 .
 
     otl:graaf-otl-nen2767-4-linkset a owl:Ontology ;
-        dct:created "2024-03-20"^^xsd:date ;
+        dct:created "2024-10-15"^^xsd:date ;
         dct:description "De OTL-nen2767-4 linkset legt een koppeling tussen OTL-concepten en nen2767-4-concepten."@nl ;
         dct:title "Linkset naar OTL voor RWS-kader 'nen2767-4'"@nl ;
-        pav:derivedFrom "IB RWS Release 26.4" ;
-        pav:version "Release 26.4" ;
-        owl:imports nen-2767-4:,
+        pav:derivedFrom "IB RWS Release 29.0" ;
+        pav:version "Release 29.0" ;
+        owl:imports nen2767:,
             otl:graaf-kennismodel .
 }
 
