@@ -1,0 +1,385 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix otl: <https://data.rws.nl/def/otl/> .
+@prefix otl-patroon: <https://data.rws.nl/def/otl-patroon/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
+    otl-patroon:Aanleginrichting a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Aanleginrichting binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Aanleginrichting"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Aquaduct a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Aquaduct binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Aquaduct"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:BebordingEnBewegwijzering a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BebordingEnBewegwijzering binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Bebording en bewegwijzering"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ] .
+
+    otl-patroon:BeheerobjectOverstijgendeVoorziening a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BeheerobjectOverstijgendeVoorziening binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Beheerobject Overstijgende Voorziening"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Brug a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Brug binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Brug"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:BrugBeweegbaar a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BrugBeweegbaar binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Brug beweegbaar"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:BrugVast a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BrugVast binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Brug vast"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Bunker a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Bunker binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Bunker"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Complex a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Complex binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Complex"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:naam ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Coupure a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Coupure binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Coupure"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Dam a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Dam binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Dam"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:isPrimaireKering ],
+            [ sh:minCount 1 ;
+                sh:path otl:lengte ] .
+
+    otl-patroon:Dijk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Dijk binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Dijk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:isPrimaireKering ],
+            [ sh:minCount 1 ;
+                sh:path otl:lengte ] .
+
+    otl-patroon:Duiker a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Duiker binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Duiker"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Duingebied a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Duingebied binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Duingebied"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:isPrimaireKering ],
+            [ sh:minCount 1 ;
+                sh:path otl:lengte ] .
+
+    otl-patroon:Ecoduct a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Ecoduct binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Ecoduct"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Faunatunnel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Faunatunnel binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Faunatunnel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Gemaal a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Gemaal binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Gemaal"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Grondkering a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Grondkering binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Grondkering"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Haven a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Haven binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Haven"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ],
+            [ sh:minCount 1 ;
+                sh:path otl:oppervlakte ],
+            [ sh:minCount 1 ;
+                sh:path otl:vaarwegtype ] .
+
+    otl-patroon:Hevel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Hevel binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Hevel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:IBAsysteem a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept IBAsysteem binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "IBA-systeem"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Kade a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kade binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Kade"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Kanaal a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kanaal binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Kanaal"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:oppervlakte ],
+            [ sh:minCount 1 ;
+                sh:path otl:vaarwegtype ],
+            [ sh:minCount 1 ;
+                sh:path otl:lengteVaarweg ] .
+
+    otl-patroon:Keersluis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Keersluis binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Keersluis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Kunstwerk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kunstwerk binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Kunstwerk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Meer a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Meer binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Meer"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:oppervlakte ],
+            [ sh:minCount 1 ;
+                sh:path otl:vaarwegtype ],
+            [ sh:minCount 1 ;
+                sh:path otl:lengteVaarweg ] .
+
+    otl-patroon:Onderdoorgang a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Onderdoorgang binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Onderdoorgang"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:OpenTunnelbak a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept OpenTunnelbak binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Open tunnelbak"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Overkluizing a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Overkluizing binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Overkluizing"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Rivier a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Rivier binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Rivier"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:oppervlakte ],
+            [ sh:minCount 1 ;
+                sh:path otl:vaarwegtype ],
+            [ sh:minCount 1 ;
+                sh:path otl:lengteVaarweg ] .
+
+    otl-patroon:Schutsluis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Schutsluis binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Schutsluis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Sifon a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Sifon binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Sifon"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Sluis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Sluis binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Sluis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Spuisluis a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Spuisluis binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Spuisluis"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Stormvloedkering a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Stormvloedkering binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Stormvloedkering"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Stuw a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Stuw binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Stuw"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Tunnel a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Tunnel binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Tunnel"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Uiterwaard a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Uiterwaard binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Uiterwaard"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:oppervlakte ] .
+
+    otl-patroon:Verkeerscentrale a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Verkeerscentrale binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Verkeerscentrale"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:type ],
+            [ sh:minCount 1 ;
+                sh:path otl:verkeersbegeleidingslengte ] .
+
+    otl-patroon:Viaduct a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Viaduct binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Viaduct"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:WaterEnWatergangLijnvormig a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept WaterEnWatergangLijnvormig binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Water en watergang lijnvormig"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:oppervlakte ],
+            [ sh:minCount 1 ;
+                sh:path otl:vaarwegtype ],
+            [ sh:minCount 1 ;
+                sh:path otl:lengteVaarweg ] .
+
+    otl-patroon:WaterEnWatergangNietLijnvormig a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept WaterEnWatergangNietLijnvormig binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Water en watergang niet lijnvormig"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:oppervlakte ],
+            [ sh:minCount 1 ;
+                sh:path otl:vaarwegtype ],
+            [ sh:minCount 1 ;
+                sh:path otl:lengteVaarweg ] .
+
+    otl-patroon:Waterreguleringswerk a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Waterreguleringswerk binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Waterreguleringswerk"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:status ],
+            [ sh:minCount 1 ;
+                sh:path otl:topcode ] .
+
+    otl-patroon:Zee a sh:NodeShape ;
+        sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Zee binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
+        sh:name "Zee"@nl ;
+        sh:property [ sh:minCount 1 ;
+                sh:path otl:oppervlakte ],
+            [ sh:minCount 1 ;
+                sh:path otl:vaarwegtype ] .
+
+    otl:graaf-ib-areaaltabel-nfi-hvwn-hws a owl:Ontology ;
+        dct:created "2024-10-15"^^xsd:date ;
+        dct:description "Het informatiemodel voor informatieproduct 'areaaltabel-nfi-hvwn-hws' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
+        dct:title "IB voor informatieproduct 'areaaltabel-nfi-hvwn-hws'"@nl ;
+        pav:derivedFrom "IB RWS Release 29.0" ;
+        pav:version "Release 29.0" ;
+        owl:imports pav:,
+            otl:graaf-informatiemodel .
+}
+

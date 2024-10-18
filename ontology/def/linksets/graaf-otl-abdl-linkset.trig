@@ -49,6 +49,9 @@ otl:graaf-otl-abdl-linkset {
     otl:Aanvrager dct:conformsTo abdl:DEF-8376 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-8376> .
 
+    otl:AanvullendeVoorziening dct:conformsTo abdl:DEF-10264 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10264> .
+
     otl:Aardelektrode dct:conformsTo abdl:DEF-0050 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0050> .
 
@@ -87,6 +90,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:AdviseurCrisiscommunicatie dct:conformsTo abdl:DEF-9544 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-9544> .
+
+    otl:AdviseurSecurityCentre dct:conformsTo abdl:DEF-10258 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10258> .
 
     otl:Afdekplaat dct:conformsTo abdl:DEF-0101 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0101> .
@@ -165,6 +171,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Appendage dct:conformsTo abdl:DEF-0183 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0183> .
+
+    otl:Applicatie dct:conformsTo abdl:DEF-0184 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0184> .
 
     otl:Applicatiebeheerder dct:conformsTo abdl:DEF-9537 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-9537> .
@@ -298,11 +307,20 @@ otl:graaf-otl-abdl-linkset {
     otl:Beheergebied dct:conformsTo abdl:DEF-5331 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-5331> .
 
+    otl:Beheerobject dct:conformsTo abdl:DEF-0379 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0379> .
+
     otl:BeheerobjectOverstijgendeVoorziening dct:conformsTo abdl:DEF-0380 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0380> .
 
+    otl:Beheerorganisatie dct:conformsTo abdl:DEF-10265 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10265> .
+
     otl:Beheersmaatregel dct:conformsTo abdl:DEF-0385 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0385> .
+
+    otl:BeheersmaatregelRUPS dct:conformsTo abdl:DEF-10268 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10268> .
 
     otl:Bekabeling dct:conformsTo abdl:DEF-0390 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0390> .
@@ -324,6 +342,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Beluchtingstank dct:conformsTo abdl:DEF-0406 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0406> .
+
+    otl:BeoordelingToetsing dct:conformsTo abdl:DEF-10290 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10290> .
 
     otl:Beoordelingscriterium dct:conformsTo abdl:DEF-9528 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-9528> .
@@ -381,6 +402,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:BetrouwbaarheidEis dct:conformsTo abdl:DEF-5346 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-5346> .
+
+    otl:BeveiligingEis dct:conformsTo abdl:DEF-10273 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10273> .
 
     otl:Bevestiging dct:conformsTo abdl:DEF-0499 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0499> .
@@ -481,6 +505,12 @@ otl:graaf-otl-abdl-linkset {
     otl:Bouwakker dct:conformsTo abdl:DEF-0612 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0612> .
 
+    otl:Bouwdeel dct:conformsTo abdl:DEF-0614 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0614> .
+
+    otl:Bouwstof dct:conformsTo abdl:DEF-5079 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-5079> .
+
     otl:Bovenbouwconstructie dct:conformsTo abdl:DEF-0627 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0627> .
 
@@ -492,6 +522,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Brandblusser dct:conformsTo abdl:DEF-0636 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0636> .
+
+    otl:BrandcompartimenteringEnRookscheidingen dct:conformsTo abdl:DEF-0637 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0637> .
 
     otl:Brandgang dct:conformsTo abdl:DEF-0638 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0638> .
@@ -516,6 +549,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Broeihoop dct:conformsTo abdl:DEF-0653 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0653> .
+
+    otl:Brug dct:conformsTo abdl:DEF-0660 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0660> .
 
     otl:BrugBeweegbaar dct:conformsTo abdl:DEF-0661 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0661> .
@@ -654,6 +690,18 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Cyberbedreiging dct:conformsTo abdl:DEF-7602 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-7602> .
+
+    otl:CybersecurityBeheersmaatregel dct:conformsTo abdl:DEF-10267 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10267> .
+
+    otl:CybersecurityEis dct:conformsTo abdl:DEF-10274 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10274> .
+
+    otl:CybersecurityRisico dct:conformsTo abdl:DEF-10275 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10275> .
+
+    otl:Cybersecuritygevolg dct:conformsTo abdl:DEF-10282 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10282> .
 
     otl:Dak dct:conformsTo abdl:DEF-0865 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0865> .
@@ -895,8 +943,11 @@ otl:graaf-otl-abdl-linkset {
     otl:Effectenindicator dct:conformsTo abdl:DEF-9559 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-9559> .
 
-    otl:Eis dct:conformsTo abdl:DEF-1130 ;
-        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-1130> .
+    otl:EisenBeheerFaunavoorziening dct:conformsTo abdl:DEF-10278 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10278> .
+
+    otl:EisenBeheerGroenvoorziening dct:conformsTo abdl:DEF-10279 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10279> .
 
     otl:ElektrischeVeiligheid dct:conformsTo abdl:DEF-8947 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-8947> .
@@ -909,6 +960,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Elektrovijzel dct:conformsTo abdl:DEF-1141 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-1141> .
+
+    otl:Element dct:conformsTo abdl:DEF-1142 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-1142> .
 
     otl:Elementenverharding dct:conformsTo abdl:DEF-1145 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-1145> .
@@ -952,8 +1006,17 @@ otl:graaf-otl-abdl-linkset {
     otl:Faalfrequentie dct:conformsTo abdl:DEF-1215 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-1215> .
 
+    otl:FaalfrequentieEis dct:conformsTo abdl:DEF-10270 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10270> .
+
     otl:Faalgevolg dct:conformsTo abdl:DEF-7977 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-7977> .
+
+    otl:FaalkansSluitenKering dct:conformsTo abdl:DEF-10271 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10271> .
+
+    otl:FaalkansSluitenKeringEis dct:conformsTo abdl:DEF-10272 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10272> .
 
     otl:Faaloorzaak dct:conformsTo abdl:DEF-2475 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-2475> .
@@ -1237,6 +1300,9 @@ otl:graaf-otl-abdl-linkset {
     otl:Grindkoffer dct:conformsTo abdl:DEF-1514 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-1514> .
 
+    otl:Groenbeheertype dct:conformsTo abdl:DEF-10289 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10289> .
+
     otl:Gronddepot dct:conformsTo abdl:DEF-1526 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-1526> .
 
@@ -1516,6 +1582,9 @@ otl:graaf-otl-abdl-linkset {
     otl:Inspectiewagen dct:conformsTo abdl:DEF-1796 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-1796> .
 
+    otl:Installatie dct:conformsTo abdl:DEF-1797 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-1797> .
+
     otl:Installatiekabel dct:conformsTo abdl:DEF-1798 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-1798> .
 
@@ -1530,6 +1599,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Instroomopening dct:conformsTo abdl:DEF-1805 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-1805> .
+
+    otl:IntegraleBeveiliging dct:conformsTo abdl:DEF-6911 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-6911> .
 
     otl:Intercom dct:conformsTo abdl:DEF-1824 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-1824> .
@@ -1671,6 +1743,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Keuring dct:conformsTo abdl:DEF-1933 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-1933> .
+
+    otl:Keuringsmethode dct:conformsTo abdl:DEF-9578 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-9578> .
 
     otl:Kinderspeelplaats dct:conformsTo abdl:DEF-1940 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-1940> .
@@ -1845,6 +1920,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Leuningband dct:conformsTo abdl:DEF-2138 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-2138> .
+
+    otl:Leuningconstructie dct:conformsTo abdl:DEF-2139 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-2139> .
 
     otl:Levensduur dct:conformsTo abdl:DEF-7848 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-7848> .
@@ -2032,8 +2110,17 @@ otl:graaf-otl-abdl-linkset {
     otl:Monitoring dct:conformsTo abdl:DEF-2362 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-2362> .
 
+    otl:Monster dct:conformsTo abdl:DEF-10307 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10307> .
+
     otl:Monsternameapparaat dct:conformsTo abdl:DEF-2364 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-2364> .
+
+    otl:NEN1010 dct:conformsTo abdl:DEF-9592 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-9592> .
+
+    otl:NEN3140 dct:conformsTo abdl:DEF-9593 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-9593> .
 
     otl:NEN57172009Inspectie dct:conformsTo abdl:DEF-9550 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-9550> .
@@ -2064,6 +2151,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Net dct:conformsTo abdl:DEF-2417 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-2417> .
+
+    otl:Netaansluiting dct:conformsTo abdl:DEF-9887 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-9887> .
 
     otl:Netwerk dct:conformsTo abdl:DEF-2419 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-2419> .
@@ -2107,8 +2197,20 @@ otl:graaf-otl-abdl-linkset {
     otl:Nulinspectie dct:conformsTo abdl:DEF-9525 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-9525> .
 
+    otl:OTOactiviteit dct:conformsTo abdl:DEF-9598 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-9598> .
+
+    otl:OTOmodule dct:conformsTo abdl:DEF-2351 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-2351> .
+
     otl:ObjectInBeeld dct:conformsTo abdl:DEF-8127 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-8127> .
+
+    otl:Objectcategorie dct:conformsTo abdl:DEF-10281 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10281> .
+
+    otl:Objectsubcategorie dct:conformsTo abdl:DEF-10280 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10280> .
 
     otl:Objecttoestand dct:conformsTo abdl:DEF-2494 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-2494> .
@@ -2215,6 +2317,9 @@ otl:graaf-otl-abdl-linkset {
     otl:Onderverdeler dct:conformsTo abdl:DEF-2564 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-2564> .
 
+    otl:OngeclassificeerdDing dct:conformsTo abdl:DEF-4897 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-4897> .
+
     otl:OngewensteGebeurtenis dct:conformsTo abdl:DEF-2572 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-2572> .
 
@@ -2235,6 +2340,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:OnvoorzieneNietBeschikbaarheid dct:conformsTo abdl:DEF-3724 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-3724> .
+
+    otl:OnvoorzieneNietBeschikbaarheidEis dct:conformsTo abdl:DEF-10276 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10276> .
 
     otl:Oorzaak dct:conformsTo abdl:DEF-1115 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-1115> .
@@ -2509,6 +2617,9 @@ otl:graaf-otl-abdl-linkset {
     otl:Product dct:conformsTo abdl:DEF-2944 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-2944> .
 
+    otl:Productmanager dct:conformsTo abdl:DEF-10262 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10262> .
+
     otl:ProgrammeringMaatregelcluster dct:conformsTo abdl:DEF-9896 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-9896> .
 
@@ -2635,6 +2746,9 @@ otl:graaf-otl-abdl-linkset {
     otl:Regioanalyse dct:conformsTo abdl:DEF-8128 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-8128> .
 
+    otl:Regiopiket dct:conformsTo abdl:DEF-10261 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10261> .
+
     otl:RegisseurCrisiscommunicatie dct:conformsTo abdl:DEF-9608 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-9608> .
 
@@ -2649,9 +2763,6 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Remschot dct:conformsTo abdl:DEF-3125 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-3125> .
-
-    otl:Representatie dct:conformsTo abdl:DEF-3129 ;
-        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-3129> .
 
     otl:Reservedeel dct:conformsTo abdl:DEF-8063 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-8063> .
@@ -2751,6 +2862,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:STOWAInspectie dct:conformsTo abdl:DEF-9617 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-9617> .
+
+    otl:Samenstelling dct:conformsTo abdl:DEF-7949 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-7949> .
 
     otl:SanitaireInstallatie dct:conformsTo abdl:DEF-3271 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-3271> .
@@ -2865,6 +2979,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Servicebaarheid dct:conformsTo abdl:DEF-9610 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-9610> .
+
+    otl:Servicemanager dct:conformsTo abdl:DEF-10259 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10259> .
 
     otl:Shikanen dct:conformsTo abdl:DEF-3363 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-3363> .
@@ -3109,6 +3226,9 @@ otl:graaf-otl-abdl-linkset {
     otl:Strooiveld dct:conformsTo abdl:DEF-3551 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-3551> .
 
+    otl:Strookvak dct:conformsTo abdl:DEF-3553 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-3553> .
+
     otl:Stroombreker dct:conformsTo abdl:DEF-3554 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-3554> .
 
@@ -3286,6 +3406,9 @@ otl:graaf-otl-abdl-linkset {
     otl:Trafohuis dct:conformsTo abdl:DEF-3763 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-3763> .
 
+    otl:Training dct:conformsTo abdl:DEF-9512 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-9512> .
+
     otl:Traliedeur dct:conformsTo abdl:DEF-3766 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-3766> .
 
@@ -3388,6 +3511,9 @@ otl:graaf-otl-abdl-linkset {
     otl:Uitstroomopening dct:conformsTo abdl:DEF-3860 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-3860> .
 
+    otl:Uitvoeringsgebeurtenis dct:conformsTo abdl:DEF-3868 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-3868> .
+
     otl:Urinoir dct:conformsTo abdl:DEF-3885 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-3885> .
 
@@ -3403,6 +3529,9 @@ otl:graaf-otl-abdl-linkset {
     otl:Vaarwegennetwerk dct:conformsTo abdl:DEF-4834 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-4834> .
 
+    otl:Vaarwegjunctie dct:conformsTo abdl:DEF-8990 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-8990> .
+
     otl:Vaarweglink dct:conformsTo abdl:DEF-4851 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-4851> .
 
@@ -3411,6 +3540,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Vaarwegnode dct:conformsTo abdl:DEF-4868 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-4868> .
+
+    otl:Valbeveiliging dct:conformsTo abdl:DEF-7929 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-7929> .
 
     otl:Valreep dct:conformsTo abdl:DEF-3906 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-3906> .
@@ -3432,6 +3564,27 @@ otl:graaf-otl-abdl-linkset {
 
     otl:VeiligheidGevaar dct:conformsTo abdl:DEF-9626 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-9626> .
+
+    otl:VeiligheidGezondheidMilieu dct:conformsTo abdl:DEF-10263 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10263> .
+
+    otl:VeiligheidGezondheidMilieuEffect1 dct:conformsTo abdl:DEF-10283 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10283> .
+
+    otl:VeiligheidGezondheidMilieuEffect2 dct:conformsTo abdl:DEF-10284 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10284> .
+
+    otl:VeiligheidGezondheidMilieuEffect3 dct:conformsTo abdl:DEF-10285 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10285> .
+
+    otl:VeiligheidGezondheidMilieuEffect4 dct:conformsTo abdl:DEF-10286 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10286> .
+
+    otl:VeiligheidGezondheidMilieuEffect5 dct:conformsTo abdl:DEF-10287 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10287> .
+
+    otl:VeiligheidGezondheidMilieuEffect6 dct:conformsTo abdl:DEF-10288 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10288> .
 
     otl:VeiligheidRisico dct:conformsTo abdl:DEF-9627 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-9627> .
@@ -3486,6 +3639,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Verdeelblok dct:conformsTo abdl:DEF-3983 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-3983> .
+
+    otl:Vergunningsrol dct:conformsTo abdl:DEF-10260 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10260> .
 
     otl:Verharding dct:conformsTo abdl:DEF-4381 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-4381> .
@@ -3549,6 +3705,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Verkeersregelinstallatie dct:conformsTo abdl:DEF-4041 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-4041> .
+
+    otl:Verkeerssnelheid dct:conformsTo abdl:DEF-4286 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-4286> .
 
     otl:Verkeersstrook dct:conformsTo abdl:DEF-1953 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-1953> .
@@ -3703,6 +3862,9 @@ otl:graaf-otl-abdl-linkset {
     otl:VoorzieneNietBeschikbaarheid dct:conformsTo abdl:DEF-4210 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-4210> .
 
+    otl:VoorzieneNietBeschikbaarheidEis dct:conformsTo abdl:DEF-10275 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10275> .
+
     otl:Vrachtwagenstrook dct:conformsTo abdl:DEF-4233 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-4233> .
 
@@ -3808,6 +3970,9 @@ otl:graaf-otl-abdl-linkset {
     otl:Wegennetwerk dct:conformsTo abdl:DEF-4832 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-4832> .
 
+    otl:Wegjunctie dct:conformsTo abdl:DEF-8988 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-8988> .
+
     otl:Wegkantsysteem dct:conformsTo abdl:DEF-4369 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-4369> .
 
@@ -3819,6 +3984,9 @@ otl:graaf-otl-abdl-linkset {
 
     otl:Wegmarkering dct:conformsTo abdl:DEF-4372 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-4372> .
+
+    otl:Wegment dct:conformsTo abdl:DEF-10460 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-10460> .
 
     otl:WegsegmentLuchtkwaliteit dct:conformsTo abdl:DEF-9635 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-9635> .
@@ -3967,13 +4135,46 @@ otl:graaf-otl-abdl-linkset {
     otl:Zonweringsinstallatie dct:conformsTo abdl:DEF-4523 ;
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-4523> .
 
+    otl:asbest dct:conformsTo abdl:DEF-8958 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-8958> .
+
+    otl:beton dct:conformsTo abdl:DEF-0494 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-0494> .
+
+    otl:betongranulaat dct:conformsTo abdl:DEF-6198 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-6198> .
+
+    otl:bindmiddel dct:conformsTo abdl:DEF-5083 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-5083> .
+
+    otl:cement dct:conformsTo abdl:DEF-2447 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-2447> .
+
     otl:graaf-otl-abdl-linkset a owl:Ontology ;
-        dct:created "2024-03-20"^^xsd:date ;
+        dct:created "2024-10-15"^^xsd:date ;
         dct:description "De OTL-abdl linkset legt een koppeling tussen OTL-concepten en abdl-concepten."@nl ;
         dct:title "Linkset naar OTL voor RWS-kader 'abdl'"@nl ;
-        pav:derivedFrom "IB RWS Release 26.4" ;
-        pav:version "Release 26.4" ;
+        pav:derivedFrom "IB RWS Release 29.0" ;
+        pav:version "Release 29.0" ;
         owl:imports abdl:,
             otl:graaf-kennismodel .
+
+    otl:grind dct:conformsTo abdl:DEF-5104 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-5104> .
+
+    otl:hulpstof dct:conformsTo abdl:DEF-1684 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-1684> .
+
+    otl:staal dct:conformsTo abdl:DEF-1093 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-1093> .
+
+    otl:toeslagmateriaal dct:conformsTo abdl:DEF-3730 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-3730> .
+
+    otl:vulstof dct:conformsTo abdl:DEF-4933 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-4933> .
+
+    otl:zand dct:conformsTo abdl:DEF-4473 ;
+        rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-4473> .
 }
 
