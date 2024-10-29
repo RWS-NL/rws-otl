@@ -189,7 +189,7 @@ otl:graaf-otl-sato-linkset {
     otl:Zonweringsinstallatie dct:conformsTo sato:Installatie_309 .
 
     otl:graaf-otl-sato-linkset a owl:Ontology ;
-        dct:created "2024-10-15"^^xsd:date ;
+        dct:created "2024-10-29"^^xsd:date ;
         dct:description "De OTL-sato linkset legt een koppeling tussen OTL-concepten en sato-concepten."@nl ;
         dct:title "Linkset naar OTL voor RWS-kader 'sato'"@nl ;
         pav:derivedFrom "IB RWS Release 29.0" ;

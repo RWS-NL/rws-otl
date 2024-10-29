@@ -10,1150 +10,716 @@ otl:graaf-ib-programmering {
     otl-patroon:Aanleginrichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Aanleginrichting binnen de context van informatieproduct programmering"@nl ;
         sh:name "Aanleginrichting"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Aanleginrichting>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Aquaduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Aquaduct binnen de context van informatieproduct programmering"@nl ;
         sh:name "Aquaduct"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Aquaduct>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:AssetRisico a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept AssetRisico binnen de context van informatieproduct programmering"@nl ;
         sh:name "Assetrisico"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:toelichting ],
-            otl-patroon:toelichting-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/AssetRisico>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'toelichting' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:toelichting ] .
 
     otl-patroon:BeheerobjectOverstijgendeVoorziening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BeheerobjectOverstijgendeVoorziening binnen de context van informatieproduct programmering"@nl ;
         sh:name "Beheerobject Overstijgende Voorziening"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BeheerobjectOverstijgendeVoorziening>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:BeheersmaatregelRUPS a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BeheersmaatregelRUPS binnen de context van informatieproduct programmering"@nl ;
         sh:name "Beheersmaatregel RUPS"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'aangepasteUiterstJaarVanUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:aangepasteUiterstJaarVanUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'adviesjaarUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:adviesjaarUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'geplandeJaarUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:geplandeJaarUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'invoerdatum' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:invoerdatum ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'isHandmatigToegevoegd' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:isHandmatigToegevoegd ],
-            [ sh:minCount 0 ;
+            [ sh:message "Eigenschap 'jaarGerealiseerd' ontbreekt" ;
+                sh:minCount 0 ;
                 sh:path otl:jaarGerealiseerd ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'onderbouwingVerwachteKosten' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:onderbouwingVerwachteKosten ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'programmeerjaarUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:programmeerjaarUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'programmeringsmaatregelBasistype' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:programmeringsmaatregelBasistype ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'programmeringsmaatregelnummer' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:programmeringsmaatregelnummer ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'programmeringsstatus' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:programmeringsstatus ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'sturingstype' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:sturingstype ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'uitersteJaarVanUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:uitersteJaarVanUitvoering ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachteKosten ],
-            otl-patroon:aangepasteUiterstJaarVanUitvoering-gYear-restrictie,
-            otl-patroon:adviesjaarUitvoering-adviesjaarUitvoering-restrictie,
-            otl-patroon:geplandeJaarUitvoering-gYear-restrictie,
-            otl-patroon:invoerdatum-date-restrictie,
-            otl-patroon:isHandmatigToegevoegd-boolean-restrictie,
-            otl-patroon:jaarGerealiseerd-gYear-restrictie,
-            otl-patroon:naam-string-restrictie,
-            otl-patroon:onderbouwingVerwachteKosten-string-restrictie,
-            otl-patroon:programmeerjaarUitvoering-gYear-restrictie,
-            otl-patroon:programmeringsmaatregelBasistype-string-restrictie,
-            otl-patroon:programmeringsmaatregelnummer-string-restrictie,
-            otl-patroon:programmeringsstatus-string-restrictie,
-            otl-patroon:sturingstype-string-restrictie,
-            otl-patroon:uitersteJaarVanUitvoering-uitersteJaarVanUitvoering-restrictie,
-            otl-patroon:verwachteKosten-valutabedrag-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BeheersmaatregelRUPS>
-            }""" ] .
+            [ sh:message "Eigenschap 'verwachteKosten' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:verwachteKosten ] .
 
     otl-patroon:Bosgebied a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Bosgebied binnen de context van informatieproduct programmering"@nl ;
         sh:name "Bosgebied"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            otl-patroon:naam-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Bosgebied>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:Brug a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Brug binnen de context van informatieproduct programmering"@nl ;
         sh:name "Brug"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Brug>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:BrugBeweegbaar a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BrugBeweegbaar binnen de context van informatieproduct programmering"@nl ;
         sh:name "Brug beweegbaar"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BrugBeweegbaar>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:BrugVast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BrugVast binnen de context van informatieproduct programmering"@nl ;
         sh:name "Brug vast"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BrugVast>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Bunker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Bunker binnen de context van informatieproduct programmering"@nl ;
         sh:name "Bunker"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Bunker>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Coupure a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Coupure binnen de context van informatieproduct programmering"@nl ;
         sh:name "Coupure"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Coupure>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Dam a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Dam binnen de context van informatieproduct programmering"@nl ;
         sh:name "Dam"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            otl-patroon:naam-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Dam>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:Dijk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Dijk binnen de context van informatieproduct programmering"@nl ;
         sh:name "Dijk"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            otl-patroon:naam-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Dijk>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:District a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept District binnen de context van informatieproduct programmering"@nl ;
         sh:name "District"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            otl-patroon:naam-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/District>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:Duiker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Duiker binnen de context van informatieproduct programmering"@nl ;
         sh:name "Duiker"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Duiker>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Duingebied a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Duingebied binnen de context van informatieproduct programmering"@nl ;
         sh:name "Duingebied"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            otl-patroon:naam-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Duingebied>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:Ecoduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Ecoduct binnen de context van informatieproduct programmering"@nl ;
         sh:name "Ecoduct"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Ecoduct>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Faunatunnel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Faunatunnel binnen de context van informatieproduct programmering"@nl ;
         sh:name "Faunatunnel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Faunatunnel>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Gemaal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Gemaal binnen de context van informatieproduct programmering"@nl ;
         sh:name "Gemaal"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Gemaal>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Grondkering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Grondkering binnen de context van informatieproduct programmering"@nl ;
         sh:name "Grondkering"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Grondkering>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Haven a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Haven binnen de context van informatieproduct programmering"@nl ;
         sh:name "Haven"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Haven>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Hevel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Hevel binnen de context van informatieproduct programmering"@nl ;
         sh:name "Hevel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Hevel>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Hoofdfunctie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Hoofdfunctie binnen de context van informatieproduct programmering"@nl ;
         sh:name "Hoofdfunctie"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:omschrijving ],
-            otl-patroon:naam-string-restrictie,
-            otl-patroon:omschrijving-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Hoofdfunctie>
-            }""" ] .
+            [ sh:message "Eigenschap 'omschrijving' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Hoofdsysteem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Hoofdsysteem binnen de context van informatieproduct programmering"@nl ;
         sh:name "Hoofdsysteem"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 0 ;
-                sh:path otl:omschrijving ],
-            otl-patroon:naam-string-restrictie,
-            otl-patroon:omschrijving-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Hoofdsysteem>
-            }""" ] .
+            [ sh:message "Eigenschap 'omschrijving' ontbreekt" ;
+                sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:IBAsysteem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept IBAsysteem binnen de context van informatieproduct programmering"@nl ;
         sh:name "IBA-systeem"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/IBAsysteem>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Infrawerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Infrawerk binnen de context van informatieproduct programmering"@nl ;
         sh:name "Infrawerk"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            otl-patroon:naam-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Infrawerk>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:Kade a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kade binnen de context van informatieproduct programmering"@nl ;
         sh:name "Kade"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Kade>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Kanaal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kanaal binnen de context van informatieproduct programmering"@nl ;
         sh:name "Kanaal"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 0 ;
-                sh:path otl:omschrijving ],
-            otl-patroon:naam-string-restrictie,
-            otl-patroon:omschrijving-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Kanaal>
-            }""" ] .
+            [ sh:message "Eigenschap 'omschrijving' ontbreekt" ;
+                sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Keersluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Keersluis binnen de context van informatieproduct programmering"@nl ;
         sh:name "Keersluis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Keersluis>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Kunstwerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kunstwerk binnen de context van informatieproduct programmering"@nl ;
         sh:name "Kunstwerk"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Kunstwerk>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Meer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Meer binnen de context van informatieproduct programmering"@nl ;
         sh:name "Meer"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 0 ;
-                sh:path otl:omschrijving ],
-            otl-patroon:naam-string-restrictie,
-            otl-patroon:omschrijving-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Meer>
-            }""" ] .
+            [ sh:message "Eigenschap 'omschrijving' ontbreekt" ;
+                sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Natuurgebied a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Natuurgebied binnen de context van informatieproduct programmering"@nl ;
         sh:name "Natuurgebied"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            otl-patroon:naam-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Natuurgebied>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:Objectcategorie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Objectcategorie binnen de context van informatieproduct programmering"@nl ;
         sh:name "Objectcategorie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            otl-patroon:naam-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Objectcategorie>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:Objectsubcategorie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Objectsubcategorie binnen de context van informatieproduct programmering"@nl ;
         sh:name "Objectsubcategorie"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            otl-patroon:naam-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Objectsubcategorie>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:Observatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Observatie binnen de context van informatieproduct programmering"@nl ;
         sh:name "Observatie"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'adviesjaarUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:adviesjaarUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'uitersteJaarVanUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:uitersteJaarVanUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'verwachteKosten' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:verwachteKosten ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'aangepasteUiterstJaarVanUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:aangepasteUiterstJaarVanUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'D3-product' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:D3-product ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'geplandeJaarUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:geplandeJaarUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'invoerdatum' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:invoerdatum ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'isHandmatigToegevoegd' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:isHandmatigToegevoegd ],
-            [ sh:minCount 0 ;
+            [ sh:message "Eigenschap 'jaarGerealiseerd' ontbreekt" ;
+                sh:minCount 0 ;
                 sh:path otl:jaarGerealiseerd ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'onderbouwingVerwachteKosten' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:onderbouwingVerwachteKosten ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'priocode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:priocode ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'programmeerjaarUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:programmeerjaarUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'programmeringsmaatregelBasistype' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:programmeringsmaatregelBasistype ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'programmeringsmaatregelnummer' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:programmeringsmaatregelnummer ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'programmeringsstatus' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:programmeringsstatus ],
-            [ sh:minCount 1 ;
-                sh:path otl:sturingstype ],
-            otl-patroon:D3-product-string-restrictie,
-            otl-patroon:aangepasteUiterstJaarVanUitvoering-gYear-restrictie,
-            otl-patroon:adviesjaarUitvoering-adviesjaarUitvoering-restrictie,
-            otl-patroon:geplandeJaarUitvoering-gYear-restrictie,
-            otl-patroon:invoerdatum-date-restrictie,
-            otl-patroon:isHandmatigToegevoegd-boolean-restrictie,
-            otl-patroon:jaarGerealiseerd-gYear-restrictie,
-            otl-patroon:naam-string-restrictie,
-            otl-patroon:onderbouwingVerwachteKosten-string-restrictie,
-            otl-patroon:priocode-string-restrictie,
-            otl-patroon:programmeerjaarUitvoering-gYear-restrictie,
-            otl-patroon:programmeringsmaatregelBasistype-string-restrictie,
-            otl-patroon:programmeringsmaatregelnummer-string-restrictie,
-            otl-patroon:programmeringsstatus-string-restrictie,
-            otl-patroon:sturingstype-string-restrictie,
-            otl-patroon:uitersteJaarVanUitvoering-uitersteJaarVanUitvoering-restrictie,
-            otl-patroon:verwachteKosten-valutabedrag-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Observatie>
-            }""" ] .
+            [ sh:message "Eigenschap 'sturingstype' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:sturingstype ] .
 
     otl-patroon:Onderdoorgang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Onderdoorgang binnen de context van informatieproduct programmering"@nl ;
         sh:name "Onderdoorgang"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Onderdoorgang>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:OpenTunnelbak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept OpenTunnelbak binnen de context van informatieproduct programmering"@nl ;
         sh:name "Open tunnelbak"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/OpenTunnelbak>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Overkluizing a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Overkluizing binnen de context van informatieproduct programmering"@nl ;
         sh:name "Overkluizing"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Overkluizing>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:PreventiefOnderhoud a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept PreventiefOnderhoud binnen de context van informatieproduct programmering"@nl ;
         sh:name "Preventief Onderhoud"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:geplandeJaarUitvoering ],
-            [ sh:minCount 1 ;
-                sh:path otl:invoerdatum ],
-            [ sh:minCount 1 ;
-                sh:path otl:isHandmatigToegevoegd ],
-            [ sh:minCount 0 ;
-                sh:path otl:jaarGerealiseerd ],
-            [ sh:minCount 1 ;
-                sh:path otl:onderbouwingVerwachteKosten ],
-            [ sh:minCount 1 ;
-                sh:path otl:priocode ],
-            [ sh:minCount 1 ;
-                sh:path otl:programmeerjaarUitvoering ],
-            [ sh:minCount 1 ;
-                sh:path otl:programmeringsmaatregelBasistype ],
-            [ sh:minCount 1 ;
-                sh:path otl:programmeringsmaatregelnummer ],
-            [ sh:minCount 1 ;
-                sh:path otl:programmeringsstatus ],
-            [ sh:minCount 1 ;
-                sh:path otl:sturingstype ],
-            [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'adviesjaarUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:adviesjaarUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'uitersteJaarVanUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:uitersteJaarVanUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'verwachteKosten' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:verwachteKosten ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'aangepasteUiterstJaarVanUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:aangepasteUiterstJaarVanUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'D3-product' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:D3-product ],
-            otl-patroon:D3-product-string-restrictie,
-            otl-patroon:aangepasteUiterstJaarVanUitvoering-gYear-restrictie,
-            otl-patroon:adviesjaarUitvoering-adviesjaarUitvoering-restrictie,
-            otl-patroon:geplandeJaarUitvoering-gYear-restrictie,
-            otl-patroon:invoerdatum-date-restrictie,
-            otl-patroon:isHandmatigToegevoegd-boolean-restrictie,
-            otl-patroon:jaarGerealiseerd-gYear-restrictie,
-            otl-patroon:naam-string-restrictie,
-            otl-patroon:onderbouwingVerwachteKosten-string-restrictie,
-            otl-patroon:priocode-string-restrictie,
-            otl-patroon:programmeerjaarUitvoering-gYear-restrictie,
-            otl-patroon:programmeringsmaatregelBasistype-string-restrictie,
-            otl-patroon:programmeringsmaatregelnummer-string-restrictie,
-            otl-patroon:programmeringsstatus-string-restrictie,
-            otl-patroon:sturingstype-string-restrictie,
-            otl-patroon:uitersteJaarVanUitvoering-uitersteJaarVanUitvoering-restrictie,
-            otl-patroon:verwachteKosten-valutabedrag-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/PreventiefOnderhoud>
-            }""" ] .
+            [ sh:message "Eigenschap 'geplandeJaarUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:geplandeJaarUitvoering ],
+            [ sh:message "Eigenschap 'invoerdatum' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:invoerdatum ],
+            [ sh:message "Eigenschap 'isHandmatigToegevoegd' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:isHandmatigToegevoegd ],
+            [ sh:message "Eigenschap 'jaarGerealiseerd' ontbreekt" ;
+                sh:minCount 0 ;
+                sh:path otl:jaarGerealiseerd ],
+            [ sh:message "Eigenschap 'onderbouwingVerwachteKosten' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:onderbouwingVerwachteKosten ],
+            [ sh:message "Eigenschap 'priocode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:priocode ],
+            [ sh:message "Eigenschap 'programmeerjaarUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:programmeerjaarUitvoering ],
+            [ sh:message "Eigenschap 'programmeringsmaatregelBasistype' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelBasistype ],
+            [ sh:message "Eigenschap 'programmeringsmaatregelnummer' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:programmeringsmaatregelnummer ],
+            [ sh:message "Eigenschap 'programmeringsstatus' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:programmeringsstatus ],
+            [ sh:message "Eigenschap 'sturingstype' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:sturingstype ] .
 
     otl-patroon:ProgrammeringMaatregelcluster a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept ProgrammeringMaatregelcluster binnen de context van informatieproduct programmering"@nl ;
         sh:name "Programmering Maatregelcluster"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'aangepasteUiterstJaarVanUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:aangepasteUiterstJaarVanUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'adviesjaarUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:adviesjaarUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'D3-product' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:D3-product ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'geplandeJaarUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:geplandeJaarUitvoering ],
-            [ sh:minCount 0 ;
+            [ sh:message "Eigenschap 'jaarGerealiseerd' ontbreekt" ;
+                sh:minCount 0 ;
                 sh:path otl:jaarGerealiseerd ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'onderbouwingVerwachteKosten' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:onderbouwingVerwachteKosten ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'priocode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:priocode ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'programmeerjaarUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:programmeerjaarUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'programmeringsmaatregelBasistype' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:programmeringsmaatregelBasistype ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'programmeringsmaatregelnummer' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:programmeringsmaatregelnummer ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'programmeringsstatus' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:programmeringsstatus ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'sturingstype' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:sturingstype ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'toelichting' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:toelichting ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'uitersteJaarVanUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:uitersteJaarVanUitvoering ],
-            [ sh:minCount 1 ;
-                sh:path otl:verwachteKosten ],
-            otl-patroon:D3-product-string-restrictie,
-            otl-patroon:aangepasteUiterstJaarVanUitvoering-gYear-restrictie,
-            otl-patroon:adviesjaarUitvoering-adviesjaarUitvoering-restrictie,
-            otl-patroon:geplandeJaarUitvoering-gYear-restrictie,
-            otl-patroon:jaarGerealiseerd-gYear-restrictie,
-            otl-patroon:naam-string-restrictie,
-            otl-patroon:onderbouwingVerwachteKosten-string-restrictie,
-            otl-patroon:priocode-string-restrictie,
-            otl-patroon:programmeerjaarUitvoering-gYear-restrictie,
-            otl-patroon:programmeringsmaatregelBasistype-string-restrictie,
-            otl-patroon:programmeringsmaatregelnummer-string-restrictie,
-            otl-patroon:programmeringsstatus-string-restrictie,
-            otl-patroon:sturingstype-string-restrictie,
-            otl-patroon:toelichting-string-restrictie,
-            otl-patroon:uitersteJaarVanUitvoering-uitersteJaarVanUitvoering-restrictie,
-            otl-patroon:verwachteKosten-valutabedrag-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/ProgrammeringMaatregelcluster>
-            }""" ] .
+            [ sh:message "Eigenschap 'verwachteKosten' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:verwachteKosten ] .
 
     otl-patroon:Regio a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Regio binnen de context van informatieproduct programmering"@nl ;
         sh:name "Regio"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'programmeringsbudgetHVWN' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:programmeringsbudgetHVWN ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'programmeringsbudgetHWN' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:programmeringsbudgetHWN ],
-            [ sh:minCount 1 ;
-                sh:path otl:programmeringsbudgetHWS ],
-            otl-patroon:naam-string-restrictie,
-            otl-patroon:programmeringsbudgetHVWN-valutabedrag-restrictie,
-            otl-patroon:programmeringsbudgetHWN-valutabedrag-restrictie,
-            otl-patroon:programmeringsbudgetHWS-valutabedrag-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Regio>
-            }""" ] .
+            [ sh:message "Eigenschap 'programmeringsbudgetHWS' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:programmeringsbudgetHWS ] .
 
     otl-patroon:Rivier a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Rivier binnen de context van informatieproduct programmering"@nl ;
         sh:name "Rivier"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 0 ;
-                sh:path otl:omschrijving ],
-            otl-patroon:naam-string-restrictie,
-            otl-patroon:omschrijving-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Rivier>
-            }""" ] .
+            [ sh:message "Eigenschap 'omschrijving' ontbreekt" ;
+                sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Schutsluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Schutsluis binnen de context van informatieproduct programmering"@nl ;
         sh:name "Schutsluis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Schutsluis>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Sifon a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Sifon binnen de context van informatieproduct programmering"@nl ;
         sh:name "Sifon"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Sifon>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Sluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Sluis binnen de context van informatieproduct programmering"@nl ;
         sh:name "Sluis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Sluis>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Spuisluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Spuisluis binnen de context van informatieproduct programmering"@nl ;
         sh:name "Spuisluis"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Spuisluis>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:StandaardVerzorgendOnderhoud a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept StandaardVerzorgendOnderhoud binnen de context van informatieproduct programmering"@nl ;
         sh:name "Standaard Verzorgend Onderhoud"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 0 ;
+            [ sh:message "Eigenschap 'adviesjaarUitvoering' ontbreekt" ;
+                sh:minCount 0 ;
                 sh:path otl:adviesjaarUitvoering ],
-            [ sh:minCount 0 ;
+            [ sh:message "Eigenschap 'uitersteJaarVanUitvoering' ontbreekt" ;
+                sh:minCount 0 ;
                 sh:path otl:uitersteJaarVanUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'verwachteKosten' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:verwachteKosten ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'aangepasteUiterstJaarVanUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:aangepasteUiterstJaarVanUitvoering ],
-            [ sh:minCount 0 ;
+            [ sh:message "Eigenschap 'D3-product' ontbreekt" ;
+                sh:minCount 0 ;
                 sh:path otl:D3-product ],
-            [ sh:minCount 0 ;
+            [ sh:message "Eigenschap 'geplandeJaarUitvoering' ontbreekt" ;
+                sh:minCount 0 ;
                 sh:path otl:geplandeJaarUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'invoerdatum' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:invoerdatum ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'isHandmatigToegevoegd' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:isHandmatigToegevoegd ],
-            [ sh:minCount 0 ;
+            [ sh:message "Eigenschap 'jaarGerealiseerd' ontbreekt" ;
+                sh:minCount 0 ;
                 sh:path otl:jaarGerealiseerd ],
-            [ sh:minCount 0 ;
+            [ sh:message "Eigenschap 'onderbouwingVerwachteKosten' ontbreekt" ;
+                sh:minCount 0 ;
                 sh:path otl:onderbouwingVerwachteKosten ],
-            [ sh:minCount 0 ;
+            [ sh:message "Eigenschap 'priocode' ontbreekt" ;
+                sh:minCount 0 ;
                 sh:path otl:priocode ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'programmeerjaarUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:programmeerjaarUitvoering ],
-            [ sh:minCount 0 ;
+            [ sh:message "Eigenschap 'programmeringsmaatregelBasistype' ontbreekt" ;
+                sh:minCount 0 ;
                 sh:path otl:programmeringsmaatregelBasistype ],
-            [ sh:minCount 0 ;
+            [ sh:message "Eigenschap 'programmeringsmaatregelnummer' ontbreekt" ;
+                sh:minCount 0 ;
                 sh:path otl:programmeringsmaatregelnummer ],
-            [ sh:minCount 0 ;
+            [ sh:message "Eigenschap 'programmeringsstatus' ontbreekt" ;
+                sh:minCount 0 ;
                 sh:path otl:programmeringsstatus ],
-            [ sh:minCount 1 ;
-                sh:path otl:sturingstype ],
-            otl-patroon:D3-product-string-restrictie,
-            otl-patroon:aangepasteUiterstJaarVanUitvoering-gYear-restrictie,
-            otl-patroon:adviesjaarUitvoering-adviesjaarUitvoering-restrictie,
-            otl-patroon:geplandeJaarUitvoering-gYear-restrictie,
-            otl-patroon:invoerdatum-date-restrictie,
-            otl-patroon:isHandmatigToegevoegd-boolean-restrictie,
-            otl-patroon:jaarGerealiseerd-gYear-restrictie,
-            otl-patroon:naam-string-restrictie,
-            otl-patroon:onderbouwingVerwachteKosten-string-restrictie,
-            otl-patroon:priocode-string-restrictie,
-            otl-patroon:programmeerjaarUitvoering-gYear-restrictie,
-            otl-patroon:programmeringsmaatregelBasistype-string-restrictie,
-            otl-patroon:programmeringsmaatregelnummer-string-restrictie,
-            otl-patroon:programmeringsstatus-string-restrictie,
-            otl-patroon:sturingstype-string-restrictie,
-            otl-patroon:uitersteJaarVanUitvoering-uitersteJaarVanUitvoering-restrictie,
-            otl-patroon:verwachteKosten-valutabedrag-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/StandaardVerzorgendOnderhoud>
-            }""" ] .
+            [ sh:message "Eigenschap 'sturingstype' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:sturingstype ] .
 
     otl-patroon:Stormvloedkering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Stormvloedkering binnen de context van informatieproduct programmering"@nl ;
         sh:name "Stormvloedkering"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Stormvloedkering>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Stuw a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Stuw binnen de context van informatieproduct programmering"@nl ;
         sh:name "Stuw"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Stuw>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Systeem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Systeem binnen de context van informatieproduct programmering"@nl ;
         sh:name "Systeem"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 0 ;
-                sh:path otl:omschrijving ],
-            otl-patroon:naam-string-restrictie,
-            otl-patroon:omschrijving-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Systeem>
-            }""" ] .
+            [ sh:message "Eigenschap 'omschrijving' ontbreekt" ;
+                sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Systeemdeel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Systeemdeel binnen de context van informatieproduct programmering"@nl ;
         sh:name "Systeemdeel"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 0 ;
-                sh:path otl:omschrijving ],
-            otl-patroon:naam-string-restrictie,
-            otl-patroon:omschrijving-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Systeemdeel>
-            }""" ] .
+            [ sh:message "Eigenschap 'omschrijving' ontbreekt" ;
+                sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Tunnel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Tunnel binnen de context van informatieproduct programmering"@nl ;
         sh:name "Tunnel"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Tunnel>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Uiterwaard a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Uiterwaard binnen de context van informatieproduct programmering"@nl ;
         sh:name "Uiterwaard"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            otl-patroon:naam-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Uiterwaard>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:Verzorgingsplaats a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Verzorgingsplaats binnen de context van informatieproduct programmering"@nl ;
         sh:name "Verzorgingsplaats"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            otl-patroon:naam-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Verzorgingsplaats>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:Viaduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Viaduct binnen de context van informatieproduct programmering"@nl ;
         sh:name "Viaduct"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Viaduct>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:VoorzieneNietBeschikbaarheid a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept VoorzieneNietBeschikbaarheid binnen de context van informatieproduct programmering"@nl ;
         sh:name "VoorzieneNietBeschikbaarheid"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'datumVastgesteld' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:datumVastgesteld ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:waarde ],
-            otl-patroon:datumVastgesteld-date-restrictie,
-            otl-patroon:naam-string-restrictie,
-            otl-patroon:status-string-restrictie,
-            otl-patroon:waarde-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/VoorzieneNietBeschikbaarheid>
-            }""" ] .
+            [ sh:message "Eigenschap 'waarde' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:waarde ] .
 
     otl-patroon:WaterEnWatergangLijnvormig a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept WaterEnWatergangLijnvormig binnen de context van informatieproduct programmering"@nl ;
         sh:name "Water en watergang lijnvormig"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 0 ;
-                sh:path otl:omschrijving ],
-            otl-patroon:naam-string-restrictie,
-            otl-patroon:omschrijving-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WaterEnWatergangLijnvormig>
-            }""" ] .
+            [ sh:message "Eigenschap 'omschrijving' ontbreekt" ;
+                sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:WaterEnWatergangNietLijnvormig a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept WaterEnWatergangNietLijnvormig binnen de context van informatieproduct programmering"@nl ;
         sh:name "Water en watergang niet lijnvormig"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 0 ;
-                sh:path otl:omschrijving ],
-            otl-patroon:naam-string-restrictie,
-            otl-patroon:omschrijving-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WaterEnWatergangNietLijnvormig>
-            }""" ] .
+            [ sh:message "Eigenschap 'omschrijving' ontbreekt" ;
+                sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
 
     otl-patroon:Waterreguleringswerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Waterreguleringswerk binnen de context van informatieproduct programmering"@nl ;
         sh:name "Waterreguleringswerk"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Waterreguleringswerk>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Weg a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Weg binnen de context van informatieproduct programmering"@nl ;
         sh:name "Weg"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:naam ],
-            otl-patroon:naam-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Weg>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:naam ] .
 
     otl-patroon:Zee a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Zee binnen de context van informatieproduct programmering"@nl ;
         sh:name "Zee"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 0 ;
-                sh:path otl:omschrijving ],
-            otl-patroon:naam-string-restrictie,
-            otl-patroon:omschrijving-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Zee>
-            }""" ] .
+            [ sh:message "Eigenschap 'omschrijving' ontbreekt" ;
+                sh:minCount 0 ;
+                sh:path otl:omschrijving ] .
 
     otl:graaf-ib-programmering a owl:Ontology ;
-        dct:created "2024-10-15"^^xsd:date ;
+        dct:created "2024-10-29"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'programmering' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'programmering'"@nl ;
         pav:derivedFrom "IB RWS Release 29.0" ;
         pav:version "Release 29.0" ;
         owl:imports pav:,
             sh: .
-
-    otl-patroon:datumVastgesteld-date-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:date ;
-        sh:description "datumVastgesteld patroon met date restrictie"@nl ;
-        sh:name "datumVastgesteld"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:datumVastgesteld .
-
-    otl-patroon:programmeringsbudgetHVWN-valutabedrag-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:decimal ;
-        sh:description "programmeringsbudgetHVWN patroon met valutabedrag restrictie"@nl ;
-        sh:minExclusive 0.0 ;
-        sh:name "programmeringsbudgetHVWN"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:programmeringsbudgetHVWN .
-
-    otl-patroon:programmeringsbudgetHWN-valutabedrag-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:decimal ;
-        sh:description "programmeringsbudgetHWN patroon met valutabedrag restrictie"@nl ;
-        sh:minExclusive 0.0 ;
-        sh:name "programmeringsbudgetHWN"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:programmeringsbudgetHWN .
-
-    otl-patroon:programmeringsbudgetHWS-valutabedrag-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:decimal ;
-        sh:description "programmeringsbudgetHWS patroon met valutabedrag restrictie"@nl ;
-        sh:minExclusive 0.0 ;
-        sh:name "programmeringsbudgetHWS"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:programmeringsbudgetHWS .
-
-    otl-patroon:status-string-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "status patroon met string restrictie"@nl ;
-        sh:name "status"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:status .
-
-    otl-patroon:waarde-decimal-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:decimal ;
-        sh:description "waarde patroon met decimal restrictie"@nl ;
-        sh:name "waarde"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:waarde .
-
-    otl-patroon:toelichting-string-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "toelichting patroon met string restrictie"@nl ;
-        sh:name "toelichting"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:toelichting .
-
-    otl-patroon:D3-product-string-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "D3-product patroon met string restrictie"@nl ;
-        sh:name "D3-product"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:D3-product .
-
-    otl-patroon:invoerdatum-date-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:date ;
-        sh:description "invoerdatum patroon met date restrictie"@nl ;
-        sh:name "invoerdatum"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:invoerdatum .
-
-    otl-patroon:isHandmatigToegevoegd-boolean-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:boolean ;
-        sh:description "isHandmatigToegevoegd patroon met boolean restrictie"@nl ;
-        sh:name "isHandmatigToegevoegd"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:isHandmatigToegevoegd .
-
-    otl-patroon:priocode-string-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "priocode patroon met string restrictie"@nl ;
-        sh:name "priocode"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:priocode .
-
-    otl-patroon:aangepasteUiterstJaarVanUitvoering-gYear-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:gYear ;
-        sh:description "aangepasteUiterstJaarVanUitvoering patroon met gYear restrictie"@nl ;
-        sh:name "aangepasteUiterstJaarVanUitvoering"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:aangepasteUiterstJaarVanUitvoering .
-
-    otl-patroon:adviesjaarUitvoering-adviesjaarUitvoering-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:gYear ;
-        sh:description "adviesjaarUitvoering patroon met adviesjaarUitvoering restrictie"@nl ;
-        sh:maxInclusive "2100"^^xsd:gYear ;
-        sh:minInclusive "1594"^^xsd:gYear ;
-        sh:name "adviesjaarUitvoering"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:adviesjaarUitvoering .
-
-    otl-patroon:geplandeJaarUitvoering-gYear-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:gYear ;
-        sh:description "geplandeJaarUitvoering patroon met gYear restrictie"@nl ;
-        sh:name "geplandeJaarUitvoering"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:geplandeJaarUitvoering .
-
-    otl-patroon:jaarGerealiseerd-gYear-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:gYear ;
-        sh:description "jaarGerealiseerd patroon met gYear restrictie"@nl ;
-        sh:name "jaarGerealiseerd"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:jaarGerealiseerd .
-
-    otl-patroon:onderbouwingVerwachteKosten-string-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "onderbouwingVerwachteKosten patroon met string restrictie"@nl ;
-        sh:name "onderbouwingVerwachteKosten"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:onderbouwingVerwachteKosten .
-
-    otl-patroon:programmeerjaarUitvoering-gYear-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:gYear ;
-        sh:description "programmeerjaarUitvoering patroon met gYear restrictie"@nl ;
-        sh:name "programmeerjaarUitvoering"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:programmeerjaarUitvoering .
-
-    otl-patroon:programmeringsmaatregelBasistype-string-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "programmeringsmaatregelBasistype patroon met string restrictie"@nl ;
-        sh:name "programmeringsmaatregelBasistype"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:programmeringsmaatregelBasistype .
-
-    otl-patroon:programmeringsmaatregelnummer-string-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "programmeringsmaatregelnummer patroon met string restrictie"@nl ;
-        sh:name "programmeringsmaatregelnummer"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:programmeringsmaatregelnummer .
-
-    otl-patroon:programmeringsstatus-string-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "programmeringsstatus patroon met string restrictie"@nl ;
-        sh:name "programmeringsstatus"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:programmeringsstatus .
-
-    otl-patroon:sturingstype-string-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "sturingstype patroon met string restrictie"@nl ;
-        sh:name "sturingstype"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:sturingstype .
-
-    otl-patroon:uitersteJaarVanUitvoering-uitersteJaarVanUitvoering-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:gYear ;
-        sh:description "uitersteJaarVanUitvoering patroon met uitersteJaarVanUitvoering restrictie"@nl ;
-        sh:maxInclusive "2100"^^xsd:gYear ;
-        sh:minInclusive "1594"^^xsd:gYear ;
-        sh:name "uitersteJaarVanUitvoering"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:uitersteJaarVanUitvoering .
-
-    otl-patroon:verwachteKosten-valutabedrag-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:decimal ;
-        sh:description "verwachteKosten patroon met valutabedrag restrictie"@nl ;
-        sh:minExclusive 0.0 ;
-        sh:name "verwachteKosten"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:verwachteKosten .
-
-    otl-patroon:omschrijving-string-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "omschrijving patroon met string restrictie"@nl ;
-        sh:name "omschrijving"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:omschrijving .
-
-    otl-patroon:naam-string-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "naam patroon met string restrictie"@nl ;
-        sh:name "naam"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:naam .
-
-    otl-patroon:topcode-string-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "topcode patroon met string restrictie"@nl ;
-        sh:name "topcode"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:topcode .
 }
 

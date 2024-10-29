@@ -3,7 +3,6 @@
 @prefix otl-patroon: <https://data.rws.nl/def/otl-patroon/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -11,843 +10,539 @@ otl:graaf-ib-areaaltabel-nfi-hwn {
     otl-patroon:Aanleginrichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Aanleginrichting binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Aanleginrichting"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Aanleginrichting>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Afrit a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Afrit binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Afrit"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:oppervlakte ],
-            otl-patroon:oppervlakte-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Afrit>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:oppervlakte ] .
 
     otl-patroon:Aquaduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Aquaduct binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Aquaduct"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Aquaduct>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:BeheerobjectOverstijgendeVoorziening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BeheerobjectOverstijgendeVoorziening binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Beheerobject Overstijgende Voorziening"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BeheerobjectOverstijgendeVoorziening>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Binnenberm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Binnenberm binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Binnenberm"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:oppervlakte ],
-            otl-patroon:oppervlakte-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Binnenberm>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:oppervlakte ] .
 
     otl-patroon:Brug a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Brug binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Brug"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Brug>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:BrugBeweegbaar a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BrugBeweegbaar binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Brug beweegbaar"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BrugBeweegbaar>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:BrugVast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BrugVast binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Brug vast"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BrugVast>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Buitenberm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Buitenberm binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Buitenberm"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:oppervlakte ],
-            otl-patroon:oppervlakte-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Buitenberm>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:oppervlakte ] .
 
     otl-patroon:Bunker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Bunker binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Bunker"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Bunker>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Complex a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Complex binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Complex"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:naam-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Complex>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Coupure a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Coupure binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Coupure"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Coupure>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:DetectieOnderstation a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept DetectieOnderstation binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Detectie onderstation"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'betreftMTM' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:betreftMTM ],
-            [ sh:minCount 1 ;
-                sh:path otl:kilometerVan ],
-            otl-patroon:betreftMTM-boolean-restrictie,
-            otl-patroon:kilometerVan-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/DetectieOnderstation>
-            }""" ] .
+            [ sh:message "Eigenschap 'kilometerVan' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:kilometerVan ] .
 
     otl-patroon:Detectielus a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Detectielus binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Detectielus"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'betreftMTM' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:betreftMTM ],
-            [ sh:minCount 1 ;
-                sh:path otl:kilometerVan ],
-            otl-patroon:betreftMTM-boolean-restrictie,
-            otl-patroon:kilometerVan-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Detectielus>
-            }""" ] .
+            [ sh:message "Eigenschap 'kilometerVan' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:kilometerVan ] .
 
     otl-patroon:Detectorstation a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Detectorstation binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Detectorstation"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'betreftMTM' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:betreftMTM ],
-            [ sh:minCount 1 ;
-                sh:path otl:kilometerVan ],
-            otl-patroon:betreftMTM-boolean-restrictie,
-            otl-patroon:kilometerVan-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Detectorstation>
-            }""" ] .
+            [ sh:message "Eigenschap 'kilometerVan' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:kilometerVan ] .
 
     otl-patroon:Duiker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Duiker binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Duiker"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Duiker>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Ecoduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Ecoduct binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Ecoduct"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Ecoduct>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Faunatunnel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Faunatunnel binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Faunatunnel"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Faunatunnel>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Gemaal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Gemaal binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Gemaal"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Gemaal>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Grondkering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Grondkering binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Grondkering"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Grondkering>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Haven a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Haven binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Haven"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
-            [ sh:minCount 1 ;
-                sh:path otl:oppervlakte ],
-            otl-patroon:oppervlakte-decimal-restrictie,
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Haven>
-            }""" ] .
+            [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:oppervlakte ] .
 
     otl-patroon:Hevel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Hevel binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Hevel"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Hevel>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Hoofdrijbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Hoofdrijbaan binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Hoofdrijbaan"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:oppervlakte ],
-            otl-patroon:oppervlakte-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Hoofdrijbaan>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:oppervlakte ] .
 
     otl-patroon:IBAsysteem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept IBAsysteem binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "IBA-systeem"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/IBAsysteem>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Kade a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kade binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Kade"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Kade>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Kanaal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kanaal binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Kanaal"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:oppervlakte ],
-            otl-patroon:oppervlakte-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Kanaal>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:oppervlakte ] .
 
     otl-patroon:Keersluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Keersluis binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Keersluis"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Keersluis>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Kunstwerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kunstwerk binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Kunstwerk"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Kunstwerk>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Meer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Meer binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Meer"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:oppervlakte ],
-            otl-patroon:oppervlakte-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Meer>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:oppervlakte ] .
 
     otl-patroon:Onderdoorgang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Onderdoorgang binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Onderdoorgang"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Onderdoorgang>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:OpenTunnelbak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept OpenTunnelbak binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Open tunnelbak"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/OpenTunnelbak>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Overkluizing a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Overkluizing binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Overkluizing"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Overkluizing>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Pipingberm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Pipingberm binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Pipingberm"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:oppervlakte ],
-            otl-patroon:oppervlakte-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Pipingberm>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:oppervlakte ] .
 
     otl-patroon:Rivier a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Rivier binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Rivier"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:oppervlakte ],
-            otl-patroon:oppervlakte-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Rivier>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:oppervlakte ] .
 
     otl-patroon:Schutsluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Schutsluis binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Schutsluis"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Schutsluis>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Sifon a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Sifon binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Sifon"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Sifon>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Signaalgever a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Signaalgever binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Signaalgever"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:kilometerVan ],
-            otl-patroon:kilometerVan-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Signaalgever>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'kilometerVan' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:kilometerVan ] .
 
     otl-patroon:Sloot a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Sloot binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Sloot"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:oppervlakte ],
-            otl-patroon:oppervlakte-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Sloot>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:oppervlakte ] .
 
     otl-patroon:Sluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Sluis binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Sluis"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Sluis>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Spitsstrook a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Spitsstrook binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Spitsstrook"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:lengte ],
-            otl-patroon:lengte-lengte-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Spitsstrook>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'lengte' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:lengte ] .
 
     otl-patroon:Spuisluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Spuisluis binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Spuisluis"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Spuisluis>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Stabiliteitsberm a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Stabiliteitsberm binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Stabiliteitsberm"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:oppervlakte ],
-            otl-patroon:oppervlakte-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Stabiliteitsberm>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:oppervlakte ] .
 
     otl-patroon:Stormvloedkering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Stormvloedkering binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Stormvloedkering"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Stormvloedkering>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Stuw a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Stuw binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Stuw"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Stuw>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Tunnel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Tunnel binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Tunnel"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Tunnel>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Verbindingsweg a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Verbindingsweg binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Verbindingsweg"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:oppervlakte ],
-            otl-patroon:oppervlakte-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Verbindingsweg>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:oppervlakte ] .
 
     otl-patroon:Verkeersbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Verkeersbaan binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Wegbaan"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:oppervlakte ],
-            otl-patroon:oppervlakte-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Verkeersbaan>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:oppervlakte ] .
 
     otl-patroon:Verkeerscentrale a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Verkeerscentrale binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Verkeerscentrale"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:type ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:type-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Verkeerscentrale>
-            }""" ] .
+            [ sh:message "Eigenschap 'type' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:type ] .
 
     otl-patroon:VerkeersdetectieInstallatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept VerkeersdetectieInstallatie binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Verkeersdetectie-installatie"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'kilometerVan' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:kilometerVan ],
-            [ sh:minCount 1 ;
-                sh:path otl:type ],
-            otl-patroon:kilometerVan-decimal-restrictie,
-            otl-patroon:type-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/VerkeersdetectieInstallatie>
-            }""" ] .
+            [ sh:message "Eigenschap 'type' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:type ] .
 
     otl-patroon:Verkeersstrook a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Verkeersstrook binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Wegstrook"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:lengte ],
-            otl-patroon:lengte-lengte-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Verkeersstrook>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'lengte' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:lengte ] .
 
     otl-patroon:Verzorgingsbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Verzorgingsbaan binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Verzorgingsbaan"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:oppervlakte ],
-            otl-patroon:oppervlakte-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Verzorgingsbaan>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:oppervlakte ] .
 
     otl-patroon:Viaduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Viaduct binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Viaduct"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Viaduct>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:WaterEnWatergangLijnvormig a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept WaterEnWatergangLijnvormig binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Water en watergang lijnvormig"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:oppervlakte ],
-            otl-patroon:oppervlakte-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WaterEnWatergangLijnvormig>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:oppervlakte ] .
 
     otl-patroon:WaterEnWatergangNietLijnvormig a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept WaterEnWatergangNietLijnvormig binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Water en watergang niet lijnvormig"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:oppervlakte ],
-            otl-patroon:oppervlakte-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WaterEnWatergangNietLijnvormig>
-            }""" ] .
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:oppervlakte ] .
 
     otl-patroon:Waterreguleringswerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Waterreguleringswerk binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Waterreguleringswerk"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
-                sh:path otl:topcode ],
-            otl-patroon:status-string-restrictie,
-            otl-patroon:topcode-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Waterreguleringswerk>
-            }""" ] .
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:topcode ] .
 
     otl-patroon:Weg a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Weg binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Weg"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'lengte' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:lengte ],
-            [ sh:minCount 1 ;
-                sh:path otl:type ],
-            otl-patroon:lengte-lengte-restrictie,
-            otl-patroon:type-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Weg>
-            }""" ] .
+            [ sh:message "Eigenschap 'type' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:type ] .
 
     otl-patroon:Wegkantsysteem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Wegkantsysteem binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Wegkantsysteem"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'kilometerTot' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:kilometerTot ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'kilometerVan' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:kilometerVan ],
-            [ sh:minCount 1 ;
-                sh:path otl:type ],
-            otl-patroon:kilometerTot-decimal-restrictie,
-            otl-patroon:kilometerVan-decimal-restrictie,
-            otl-patroon:type-string-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Wegkantsysteem>
-            }""" ] .
+            [ sh:message "Eigenschap 'type' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:type ] .
 
     otl-patroon:Zee a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Zee binnen de context van informatieproduct areaaltabel-nfi-hwn"@nl ;
         sh:name "Zee"@nl ;
-        sh:property [ sh:minCount 1 ;
-                sh:path otl:oppervlakte ],
-            otl-patroon:oppervlakte-decimal-restrictie ;
-        sh:target [ a sh:SPARQLTarget ;
-                sh:select """SELECT ?this WHERE {
-                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Zee>
-            }""" ] .
-
-    otl-patroon:type-type-Pomp-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "type patroon met type Pomp restrictie"@nl ;
-        sh:in ( "Lobbenpomp" "Lenspomp" ) ;
-        sh:name "type"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:type .
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:oppervlakte ] .
 
     otl:graaf-ib-areaaltabel-nfi-hwn a owl:Ontology ;
-        dct:created "2024-10-15"^^xsd:date ;
+        dct:created "2024-10-29"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'areaaltabel-nfi-hwn' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'areaaltabel-nfi-hwn'"@nl ;
         pav:derivedFrom "IB RWS Release 29.0" ;
         pav:version "Release 29.0" ;
         owl:imports pav:,
             sh: .
-
-    otl-patroon:kilometerTot-decimal-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:decimal ;
-        sh:description "kilometerTot patroon met decimal restrictie"@nl ;
-        sh:name "kilometerTot"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:kilometerTot .
-
-    otl-patroon:naam-string-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "naam patroon met string restrictie"@nl ;
-        sh:name "naam"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:naam .
-
-    otl-patroon:betreftMTM-boolean-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:boolean ;
-        sh:description "betreftMTM patroon met boolean restrictie"@nl ;
-        sh:name "betreftMTM"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:betreftMTM .
-
-    otl-patroon:lengte-lengte-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:decimal ;
-        sh:description "lengte patroon met lengte restrictie"@nl ;
-        sh:minExclusive 0.0 ;
-        sh:name "lengte"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:lengte .
-
-    otl-patroon:type-string-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "type patroon met string restrictie"@nl ;
-        sh:name "type"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:type .
-
-    otl-patroon:kilometerVan-decimal-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:decimal ;
-        sh:description "kilometerVan patroon met decimal restrictie"@nl ;
-        sh:name "kilometerVan"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:kilometerVan .
-
-    otl-patroon:oppervlakte-decimal-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:decimal ;
-        sh:description "oppervlakte patroon met decimal restrictie"@nl ;
-        sh:name "oppervlakte"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:oppervlakte .
-
-    otl-patroon:status-string-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "status patroon met string restrictie"@nl ;
-        sh:name "status"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:status .
-
-    otl-patroon:topcode-string-restrictie a sh:PropertyShape ;
-        sh:datatype xsd:string ;
-        sh:description "topcode patroon met string restrictie"@nl ;
-        sh:name "topcode"@nl ;
-        sh:nodeKind sh:Literal ;
-        sh:path otl:topcode .
 }
 
