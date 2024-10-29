@@ -4151,7 +4151,7 @@ otl:graaf-otl-abdl-linkset {
         rdfs:seeAlso <https://www.begrippenxl.nl/ABDL/nl/page/DEF-2447> .
 
     otl:graaf-otl-abdl-linkset a owl:Ontology ;
-        dct:created "2024-10-15"^^xsd:date ;
+        dct:created "2024-10-29"^^xsd:date ;
         dct:description "De OTL-abdl linkset legt een koppeling tussen OTL-concepten en abdl-concepten."@nl ;
         dct:title "Linkset naar OTL voor RWS-kader 'abdl'"@nl ;
         pav:derivedFrom "IB RWS Release 29.0" ;

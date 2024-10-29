@@ -11,9 +11,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Aanleginrichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Aanleginrichting binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Aanleginrichting"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -25,9 +27,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Aquaduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Aquaduct binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Aquaduct"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -39,9 +43,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:BebordingEnBewegwijzering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BebordingEnBewegwijzering binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Bebording en bewegwijzering"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'type' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:type ],
             otl-patroon:status-string-restrictie,
             otl-patroon:type-string-restrictie ;
@@ -53,9 +59,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:BeheerobjectOverstijgendeVoorziening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BeheerobjectOverstijgendeVoorziening binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Beheerobject Overstijgende Voorziening"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -67,9 +75,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Brug a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Brug binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Brug"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -81,9 +91,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:BrugBeweegbaar a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BrugBeweegbaar binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Brug beweegbaar"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -95,9 +107,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:BrugVast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BrugVast binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Brug vast"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -109,9 +123,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Bunker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Bunker binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Bunker"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -123,9 +139,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Complex a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Complex binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Complex"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:naam-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -137,9 +155,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Coupure a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Coupure binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Coupure"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -151,9 +171,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Dam a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Dam binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Dam"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'isPrimaireKering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:isPrimaireKering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'lengte' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:lengte ],
             otl-patroon:isPrimaireKering-boolean-restrictie,
             otl-patroon:lengte-lengte-restrictie ;
@@ -165,9 +187,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Dijk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Dijk binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Dijk"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'isPrimaireKering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:isPrimaireKering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'lengte' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:lengte ],
             otl-patroon:isPrimaireKering-boolean-restrictie,
             otl-patroon:lengte-lengte-restrictie ;
@@ -179,9 +203,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Duiker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Duiker binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Duiker"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -193,9 +219,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Duingebied a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Duingebied binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Duingebied"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'isPrimaireKering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:isPrimaireKering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'lengte' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:lengte ],
             otl-patroon:isPrimaireKering-boolean-restrictie,
             otl-patroon:lengte-lengte-restrictie ;
@@ -207,9 +235,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Ecoduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Ecoduct binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Ecoduct"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -221,9 +251,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Faunatunnel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Faunatunnel binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Faunatunnel"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -235,9 +267,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Gemaal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Gemaal binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Gemaal"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -249,9 +283,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Grondkering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Grondkering binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Grondkering"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -263,13 +299,17 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Haven a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Haven binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Haven"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:oppervlakte ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'vaarwegtype' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:vaarwegtype ],
             otl-patroon:oppervlakte-decimal-restrictie,
             otl-patroon:status-string-restrictie,
@@ -283,9 +323,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Hevel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Hevel binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Hevel"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -297,9 +339,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:IBAsysteem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept IBAsysteem binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "IBA-systeem"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -311,9 +355,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Kade a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kade binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Kade"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -325,11 +371,14 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Kanaal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kanaal binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Kanaal"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:oppervlakte ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'vaarwegtype' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:vaarwegtype ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'lengteVaarweg' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:lengteVaarweg ],
             otl-patroon:lengteVaarweg-lengte-restrictie,
             otl-patroon:oppervlakte-decimal-restrictie,
@@ -342,9 +391,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Keersluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Keersluis binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Keersluis"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -356,9 +407,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Kunstwerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kunstwerk binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Kunstwerk"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -370,11 +423,14 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Meer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Meer binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Meer"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:oppervlakte ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'vaarwegtype' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:vaarwegtype ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'lengteVaarweg' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:lengteVaarweg ],
             otl-patroon:lengteVaarweg-lengte-restrictie,
             otl-patroon:oppervlakte-decimal-restrictie,
@@ -387,9 +443,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Onderdoorgang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Onderdoorgang binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Onderdoorgang"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -401,9 +459,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:OpenTunnelbak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept OpenTunnelbak binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Open tunnelbak"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -415,9 +475,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Overkluizing a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Overkluizing binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Overkluizing"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -429,11 +491,14 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Rivier a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Rivier binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Rivier"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:oppervlakte ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'vaarwegtype' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:vaarwegtype ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'lengteVaarweg' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:lengteVaarweg ],
             otl-patroon:lengteVaarweg-lengte-restrictie,
             otl-patroon:oppervlakte-decimal-restrictie,
@@ -446,9 +511,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Schutsluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Schutsluis binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Schutsluis"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -460,9 +527,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Sifon a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Sifon binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Sifon"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -474,9 +543,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Sluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Sluis binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Sluis"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -488,9 +559,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Spuisluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Spuisluis binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Spuisluis"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -502,9 +575,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Stormvloedkering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Stormvloedkering binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Stormvloedkering"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -516,9 +591,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Stuw a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Stuw binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Stuw"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -530,9 +607,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Tunnel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Tunnel binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Tunnel"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -544,7 +623,8 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Uiterwaard a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Uiterwaard binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Uiterwaard"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:oppervlakte ],
             otl-patroon:oppervlakte-decimal-restrictie ;
         sh:target [ a sh:SPARQLTarget ;
@@ -555,11 +635,14 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Verkeerscentrale a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Verkeerscentrale binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Verkeerscentrale"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'type' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:type ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'verkeersbegeleidingslengte' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:verkeersbegeleidingslengte ],
             otl-patroon:status-string-restrictie,
             otl-patroon:type-string-restrictie,
@@ -572,9 +655,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Viaduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Viaduct binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Viaduct"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -586,11 +671,14 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:WaterEnWatergangLijnvormig a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept WaterEnWatergangLijnvormig binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Water en watergang lijnvormig"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:oppervlakte ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'vaarwegtype' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:vaarwegtype ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'lengteVaarweg' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:lengteVaarweg ],
             otl-patroon:lengteVaarweg-lengte-restrictie,
             otl-patroon:oppervlakte-decimal-restrictie,
@@ -603,11 +691,14 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:WaterEnWatergangNietLijnvormig a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept WaterEnWatergangNietLijnvormig binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Water en watergang niet lijnvormig"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:oppervlakte ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'vaarwegtype' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:vaarwegtype ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'lengteVaarweg' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:lengteVaarweg ],
             otl-patroon:lengteVaarweg-lengte-restrictie,
             otl-patroon:oppervlakte-decimal-restrictie,
@@ -620,9 +711,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Waterreguleringswerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Waterreguleringswerk binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Waterreguleringswerk"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'status' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:status ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'topcode' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:topcode ],
             otl-patroon:status-string-restrictie,
             otl-patroon:topcode-string-restrictie ;
@@ -634,9 +727,11 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:Zee a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Zee binnen de context van informatieproduct areaaltabel-nfi-hvwn-hws"@nl ;
         sh:name "Zee"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'oppervlakte' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:oppervlakte ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'vaarwegtype' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:vaarwegtype ],
             otl-patroon:oppervlakte-decimal-restrictie,
             otl-patroon:vaarwegtype-string-restrictie ;
@@ -649,12 +744,13 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
         sh:datatype xsd:string ;
         sh:description "type patroon met type Pomp restrictie"@nl ;
         sh:in ( "Lobbenpomp" "Lenspomp" ) ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn.,,,sh:InConstraintComponent|||Domeinlijst Pomptypen" ;
         sh:name "type"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:type .
 
     otl:graaf-ib-areaaltabel-nfi-hvwn-hws a owl:Ontology ;
-        dct:created "2024-10-15"^^xsd:date ;
+        dct:created "2024-10-29"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'areaaltabel-nfi-hvwn-hws' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'areaaltabel-nfi-hvwn-hws'"@nl ;
         pav:derivedFrom "IB RWS Release 29.0" ;
@@ -665,6 +761,7 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:naam-string-restrictie a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "naam patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "naam"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:naam .
@@ -672,6 +769,7 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:verkeersbegeleidingslengte-lengte-restrictie a sh:PropertyShape ;
         sh:datatype xsd:decimal ;
         sh:description "verkeersbegeleidingslengte patroon met lengte restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:decimal zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn.,,,sh:MinExclusiveConstraintComponent|||Waarde moet groter dan 0 zijn." ;
         sh:minExclusive 0.0 ;
         sh:name "verkeersbegeleidingslengte"@nl ;
         sh:nodeKind sh:Literal ;
@@ -680,6 +778,7 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:type-string-restrictie a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "type patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "type"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:type .
@@ -687,6 +786,7 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:isPrimaireKering-boolean-restrictie a sh:PropertyShape ;
         sh:datatype xsd:boolean ;
         sh:description "isPrimaireKering patroon met boolean restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:boolean zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "isPrimaireKering"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:isPrimaireKering .
@@ -694,6 +794,7 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:lengte-lengte-restrictie a sh:PropertyShape ;
         sh:datatype xsd:decimal ;
         sh:description "lengte patroon met lengte restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:decimal zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn.,,,sh:MinExclusiveConstraintComponent|||Waarde moet groter dan 0 zijn." ;
         sh:minExclusive 0.0 ;
         sh:name "lengte"@nl ;
         sh:nodeKind sh:Literal ;
@@ -702,6 +803,7 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:lengteVaarweg-lengte-restrictie a sh:PropertyShape ;
         sh:datatype xsd:decimal ;
         sh:description "lengteVaarweg patroon met lengte restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:decimal zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn.,,,sh:MinExclusiveConstraintComponent|||Waarde moet groter dan 0 zijn." ;
         sh:minExclusive 0.0 ;
         sh:name "lengteVaarweg"@nl ;
         sh:nodeKind sh:Literal ;
@@ -710,6 +812,7 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:vaarwegtype-string-restrictie a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "vaarwegtype patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "vaarwegtype"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:vaarwegtype .
@@ -717,6 +820,7 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:oppervlakte-decimal-restrictie a sh:PropertyShape ;
         sh:datatype xsd:decimal ;
         sh:description "oppervlakte patroon met decimal restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:decimal zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "oppervlakte"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:oppervlakte .
@@ -724,6 +828,7 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:topcode-string-restrictie a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "topcode patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "topcode"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:topcode .
@@ -731,6 +836,7 @@ otl:graaf-ib-areaaltabel-nfi-hvwn-hws {
     otl-patroon:status-string-restrictie a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "status patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "status"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:status .

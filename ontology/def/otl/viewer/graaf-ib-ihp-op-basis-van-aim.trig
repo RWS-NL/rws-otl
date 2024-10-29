@@ -10,9 +10,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Aanleginrichting a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Aanleginrichting binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Aanleginrichting"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -24,9 +26,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Aquaduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Aquaduct binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Aquaduct"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -38,9 +42,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:BeheerobjectOverstijgendeVoorziening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BeheerobjectOverstijgendeVoorziening binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Beheerobject Overstijgende Voorziening"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -52,7 +58,8 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Beheersmaatregel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Beheersmaatregel binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Beheersmaatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:naam-string-restrictie ;
         sh:target [ a sh:SPARQLTarget ;
@@ -63,9 +70,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Bosgebied a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Bosgebied binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Bosgebied"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -77,9 +86,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Brug a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Brug binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Brug"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -91,9 +102,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:BrugBeweegbaar a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BrugBeweegbaar binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Brug beweegbaar"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -105,9 +118,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:BrugVast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BrugVast binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Brug vast"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -119,9 +134,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Bunker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Bunker binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Bunker"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -133,9 +150,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Coupure a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Coupure binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Coupure"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -147,9 +166,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Dam a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Dam binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Dam"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -161,9 +182,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Dijk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Dijk binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Dijk"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -175,7 +198,8 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:District a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept District binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "District"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:naam-string-restrictie ;
         sh:target [ a sh:SPARQLTarget ;
@@ -186,9 +210,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Duiker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Duiker binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Duiker"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -200,9 +226,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Duingebied a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Duingebied binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Duingebied"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -214,9 +242,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Ecoduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Ecoduct binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Ecoduct"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -228,13 +258,17 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Elementgroep a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Elementgroep binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Elementgroep"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'aantal' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:aantal ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'GUIDUTD' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:GUIDUTD ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'objectID' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:objectID ],
             otl-patroon:GUIDUTD-string-restrictie,
             otl-patroon:aantal-positiveInteger-restrictie,
@@ -248,9 +282,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Faunatunnel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Faunatunnel binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Faunatunnel"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -262,9 +298,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Gebouw a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Gebouw binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Gebouw"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -276,9 +314,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Gemaal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Gemaal binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Gemaal"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -290,9 +330,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Grondkering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Grondkering binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Grondkering"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -304,9 +346,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Haven a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Haven binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Haven"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -318,9 +362,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Hevel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Hevel binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Hevel"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -332,7 +378,8 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Hoofdsysteem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Hoofdsysteem binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Hoofdsysteem"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:naam-string-restrictie ;
         sh:target [ a sh:SPARQLTarget ;
@@ -343,9 +390,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:IBAsysteem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept IBAsysteem binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "IBA-systeem"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -357,9 +406,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:InfragebondenGebouw a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept InfragebondenGebouw binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Infragebonden gebouw"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -371,9 +422,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Infrawerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Infrawerk binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Infrawerk"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -385,21 +438,29 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:InstandhoudingBeheersmaatregel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept InstandhoudingBeheersmaatregel binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Instandhouding Beheersmaatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'aantal' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:aantal ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'adviesjaarUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:adviesjaarUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'eerstMogelijkeJaarVanUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:eerstMogelijkeJaarVanUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'startjaarInterval' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:startjaarInterval ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'tarief' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:tarief ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'uitersteJaarVanUitvoering' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:uitersteJaarVanUitvoering ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'verwachteKosten' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:verwachteKosten ],
             otl-patroon:aantal-positiveInteger-restrictie,
             otl-patroon:adviesjaarUitvoering-adviesjaarUitvoering-restrictie,
@@ -417,9 +478,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Kade a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kade binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Kade"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -431,7 +494,8 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Kanaal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kanaal binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Kanaal"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:naam-string-restrictie ;
         sh:target [ a sh:SPARQLTarget ;
@@ -442,9 +506,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Keersluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Keersluis binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Keersluis"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -456,9 +522,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Kunstwerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kunstwerk binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Kunstwerk"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -470,7 +538,8 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Locatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Locatie binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Locatie"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'omschrijving' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:omschrijving ],
             otl-patroon:omschrijving-string-restrictie ;
         sh:target [ a sh:SPARQLTarget ;
@@ -481,7 +550,8 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Meer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Meer binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Meer"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:naam-string-restrictie ;
         sh:target [ a sh:SPARQLTarget ;
@@ -492,9 +562,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Natuurgebied a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Natuurgebied binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Natuurgebied"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -506,7 +578,8 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Netwerkschakel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Netwerkschakel binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Netwerkschakel"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:naam-string-restrictie ;
         sh:target [ a sh:SPARQLTarget ;
@@ -517,9 +590,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Onderdoorgang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Onderdoorgang binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Onderdoorgang"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -531,7 +606,8 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Onderhoudsactiviteit a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Onderhoudsactiviteit binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Onderhoudsactiviteit"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:naam-string-restrictie ;
         sh:target [ a sh:SPARQLTarget ;
@@ -542,9 +618,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:OpenTunnelbak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept OpenTunnelbak binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Open tunnelbak"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -556,9 +634,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Overkluizing a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Overkluizing binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Overkluizing"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -570,7 +650,8 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Regio a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Regio binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Regio"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:naam-string-restrictie ;
         sh:target [ a sh:SPARQLTarget ;
@@ -581,7 +662,8 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Rivier a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Rivier binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Rivier"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:naam-string-restrictie ;
         sh:target [ a sh:SPARQLTarget ;
@@ -592,9 +674,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Schutsluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Schutsluis binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Schutsluis"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -606,9 +690,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Sifon a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Sifon binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Sifon"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -620,9 +706,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Sluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Sluis binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Sluis"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -634,9 +722,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Spuisluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Spuisluis binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Spuisluis"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -648,23 +738,32 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:StandaardBeheersmaatregel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept StandaardBeheersmaatregel binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Standaard Beheersmaatregel"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'activiteitssoort' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:activiteitssoort ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'adviesUitvoeringsInterval' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:adviesUitvoeringsInterval ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'eenheid' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:eenheid ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'kortstMogelijkeUitvoeringsInterval' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:kortstMogelijkeUitvoeringsInterval ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'langstMogelijkeUitvoeringsInterval' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:langstMogelijkeUitvoeringsInterval ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'onderhoudsType' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:onderhoudsType ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'schadebeeld' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:schadebeeld ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'tarief' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:tarief ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'toelichting' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:toelichting ],
             otl-patroon:activiteitssoort-string-restrictie,
             otl-patroon:adviesUitvoeringsInterval-duration-restrictie,
@@ -683,9 +782,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Stormvloedkering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Stormvloedkering binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Stormvloedkering"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -697,9 +798,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Stuw a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Stuw binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Stuw"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -711,7 +814,8 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Systeem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Systeem binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Systeem"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:naam-string-restrictie ;
         sh:target [ a sh:SPARQLTarget ;
@@ -722,9 +826,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Tunnel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Tunnel binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Tunnel"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -736,9 +842,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Uiterwaard a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Uiterwaard binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Uiterwaard"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -750,9 +858,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Verkeersbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Verkeersbaan binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Wegbaan"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'beginafstand' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:beginafstand ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'eindafstand' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:eindafstand ],
             otl-patroon:beginafstand-decimal-restrictie,
             otl-patroon:eindafstand-decimal-restrictie ;
@@ -764,9 +874,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Verkeerscentrale a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Verkeerscentrale binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Verkeerscentrale"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -778,9 +890,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Verzorgingsplaats a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Verzorgingsplaats binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Verzorgingsplaats"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -792,9 +906,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Viaduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Viaduct binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Viaduct"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -806,7 +922,8 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:WaterEnWatergangLijnvormig a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept WaterEnWatergangLijnvormig binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Water en watergang lijnvormig"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:naam-string-restrictie ;
         sh:target [ a sh:SPARQLTarget ;
@@ -817,7 +934,8 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:WaterEnWatergangNietLijnvormig a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept WaterEnWatergangNietLijnvormig binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Water en watergang niet lijnvormig"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:naam-string-restrictie ;
         sh:target [ a sh:SPARQLTarget ;
@@ -828,9 +946,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Waterreguleringswerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Waterreguleringswerk binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Waterreguleringswerk"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -842,9 +962,11 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Weg a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Weg binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Weg"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:bouwjaar ],
-            [ sh:minCount 1 ;
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:bouwjaar-bouwjaar-restrictie,
             otl-patroon:naam-string-restrictie ;
@@ -856,7 +978,8 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:Zee a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Zee binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Zee"@nl ;
-        sh:property [ sh:minCount 1 ;
+        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+                sh:minCount 1 ;
                 sh:path otl:naam ],
             otl-patroon:naam-string-restrictie ;
         sh:target [ a sh:SPARQLTarget ;
@@ -865,7 +988,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
             }""" ] .
 
     otl:graaf-ib-ihp-op-basis-van-aim a owl:Ontology ;
-        dct:created "2024-10-15"^^xsd:date ;
+        dct:created "2024-10-29"^^xsd:date ;
         dct:description "Het informatiemodel voor informatieproduct 'ihp-op-basis-van-aim' bevat restricties die alleen van toepassing zijn binnen de context van dit informatieproduct. Dit informatieproduct-specifieke informatiemodel is alleen te gebruiken in combinatie met het generieke OTL informatiemodel en het OTL kennismodel."@nl ;
         dct:title "IB voor informatieproduct 'ihp-op-basis-van-aim'"@nl ;
         pav:derivedFrom "IB RWS Release 29.0" ;
@@ -876,6 +999,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:GUIDUTD-string-restrictie a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "GUIDUTD patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "GUIDUTD"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:GUIDUTD .
@@ -883,6 +1007,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:activiteitssoort-string-restrictie a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "activiteitssoort patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "activiteitssoort"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:activiteitssoort .
@@ -890,6 +1015,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:adviesUitvoeringsInterval-duration-restrictie a sh:PropertyShape ;
         sh:datatype xsd:duration ;
         sh:description "adviesUitvoeringsInterval patroon met duration restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:duration zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "adviesUitvoeringsInterval"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:adviesUitvoeringsInterval .
@@ -898,6 +1024,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
         sh:datatype xsd:gYear ;
         sh:description "adviesjaarUitvoering patroon met adviesjaarUitvoering restrictie"@nl ;
         sh:maxInclusive "2100"^^xsd:gYear ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:gYear zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn.,,,sh:MaxInclusiveConstraintComponent|||Waarde moet liggen tussen 1594 en 2100.,,,sh:MinInclusiveConstraintComponent|||Waarde moet liggen tussen 1594 en 2100." ;
         sh:minInclusive "1594"^^xsd:gYear ;
         sh:name "adviesjaarUitvoering"@nl ;
         sh:nodeKind sh:Literal ;
@@ -906,6 +1033,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:beginafstand-decimal-restrictie a sh:PropertyShape ;
         sh:datatype xsd:decimal ;
         sh:description "beginafstand patroon met decimal restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:decimal zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "beginafstand"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:beginafstand .
@@ -913,6 +1041,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:eenheid-string-restrictie a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "eenheid patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "eenheid"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:eenheid .
@@ -920,6 +1049,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:eerstMogelijkeJaarVanUitvoering-gYear-restrictie a sh:PropertyShape ;
         sh:datatype xsd:gYear ;
         sh:description "eerstMogelijkeJaarVanUitvoering patroon met gYear restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:gYear zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "eerstMogelijkeJaarVanUitvoering"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:eerstMogelijkeJaarVanUitvoering .
@@ -927,6 +1057,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:eindafstand-decimal-restrictie a sh:PropertyShape ;
         sh:datatype xsd:decimal ;
         sh:description "eindafstand patroon met decimal restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:decimal zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "eindafstand"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:eindafstand .
@@ -934,6 +1065,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:kortstMogelijkeUitvoeringsInterval-duration-restrictie a sh:PropertyShape ;
         sh:datatype xsd:duration ;
         sh:description "kortstMogelijkeUitvoeringsInterval patroon met duration restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:duration zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "kortstMogelijkeUitvoeringsInterval"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:kortstMogelijkeUitvoeringsInterval .
@@ -941,6 +1073,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:langstMogelijkeUitvoeringsInterval-duration-restrictie a sh:PropertyShape ;
         sh:datatype xsd:duration ;
         sh:description "langstMogelijkeUitvoeringsInterval patroon met duration restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:duration zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "langstMogelijkeUitvoeringsInterval"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:langstMogelijkeUitvoeringsInterval .
@@ -948,6 +1081,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:objectID-string-restrictie a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "objectID patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "objectID"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:objectID .
@@ -955,6 +1089,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:omschrijving-string-restrictie a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "omschrijving patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "omschrijving"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:omschrijving .
@@ -962,6 +1097,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:onderhoudsType-string-restrictie a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "onderhoudsType patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "onderhoudsType"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:onderhoudsType .
@@ -969,6 +1105,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:schadebeeld-string-restrictie a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "schadebeeld patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "schadebeeld"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:schadebeeld .
@@ -976,6 +1113,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:startjaarInterval-gYear-restrictie a sh:PropertyShape ;
         sh:datatype xsd:gYear ;
         sh:description "startjaarInterval patroon met gYear restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:gYear zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "startjaarInterval"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:startjaarInterval .
@@ -983,6 +1121,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:toelichting-string-restrictie a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "toelichting patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "toelichting"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:toelichting .
@@ -991,6 +1130,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
         sh:datatype xsd:gYear ;
         sh:description "uitersteJaarVanUitvoering patroon met uitersteJaarVanUitvoering restrictie"@nl ;
         sh:maxInclusive "2100"^^xsd:gYear ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:gYear zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn.,,,sh:MaxInclusiveConstraintComponent|||Waarde moet liggen tussen 1594 en 2100.,,,sh:MinInclusiveConstraintComponent|||Waarde moet liggen tussen 1594 en 2100." ;
         sh:minInclusive "1594"^^xsd:gYear ;
         sh:name "uitersteJaarVanUitvoering"@nl ;
         sh:nodeKind sh:Literal ;
@@ -999,6 +1139,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:verwachteKosten-valutabedrag-restrictie a sh:PropertyShape ;
         sh:datatype xsd:decimal ;
         sh:description "verwachteKosten patroon met valutabedrag restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:decimal zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn.,,,sh:MinExclusiveConstraintComponent|||Waarde moet groter dan 0 zijn." ;
         sh:minExclusive 0.0 ;
         sh:name "verwachteKosten"@nl ;
         sh:nodeKind sh:Literal ;
@@ -1007,6 +1148,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:aantal-positiveInteger-restrictie a sh:PropertyShape ;
         sh:datatype xsd:positiveInteger ;
         sh:description "aantal patroon met positiveInteger restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:positiveInteger zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "aantal"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:aantal .
@@ -1014,6 +1156,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:tarief-valutabedrag-restrictie a sh:PropertyShape ;
         sh:datatype xsd:decimal ;
         sh:description "tarief patroon met valutabedrag restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:decimal zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn.,,,sh:MinExclusiveConstraintComponent|||Waarde moet groter dan 0 zijn." ;
         sh:minExclusive 0.0 ;
         sh:name "tarief"@nl ;
         sh:nodeKind sh:Literal ;
@@ -1023,6 +1166,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
         sh:datatype xsd:gYear ;
         sh:description "bouwjaar patroon met bouwjaar restrictie"@nl ;
         sh:maxExclusive "2100"^^xsd:gYear ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:gYear zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn.,,,sh:MaxExclusiveConstraintComponent|||Waarde moet liggen tussen 1594 en 2100.,,,sh:MinExclusiveConstraintComponent|||Waarde moet liggen tussen 1594 en 2100." ;
         sh:minExclusive "1594"^^xsd:gYear ;
         sh:name "bouwjaar"@nl ;
         sh:nodeKind sh:Literal ;
@@ -1031,6 +1175,7 @@ otl:graaf-ib-ihp-op-basis-van-aim {
     otl-patroon:naam-string-restrictie a sh:PropertyShape ;
         sh:datatype xsd:string ;
         sh:description "naam patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
         sh:name "naam"@nl ;
         sh:nodeKind sh:Literal ;
         sh:path otl:naam .

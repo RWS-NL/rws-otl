@@ -9217,7 +9217,7 @@ Hernoemen naar Gevaarafwendingsfactor?"""@nl ;
         skos:prefLabel "gezondheidsscore"@nl .
 
     otl:graaf-kennismodel a owl:Ontology ;
-        dct:created "2024-10-15"^^xsd:date ;
+        dct:created "2024-10-29"^^xsd:date ;
         dct:description "Het OTL kennismodel bevat concepten en eigenschappen met hun definities."@nl ;
         dct:title "OTL kennismodel"@nl ;
         pav:derivedFrom "IB RWS Release 29.0" ;

@@ -1947,7 +1947,7 @@ otl:graaf-otl-nen2767-4-linkset {
     otl:Zonweringsinstallatie dct:conformsTo nen2767:Element_401 .
 
     otl:graaf-otl-nen2767-4-linkset a owl:Ontology ;
-        dct:created "2024-10-15"^^xsd:date ;
+        dct:created "2024-10-29"^^xsd:date ;
         dct:description "De OTL-nen2767-4 linkset legt een koppeling tussen OTL-concepten en nen2767-4-concepten."@nl ;
         dct:title "Linkset naar OTL voor RWS-kader 'nen2767-4'"@nl ;
         pav:derivedFrom "IB RWS Release 29.0" ;
