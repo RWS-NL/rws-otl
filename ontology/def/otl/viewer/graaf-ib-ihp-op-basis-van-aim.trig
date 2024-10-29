@@ -15,7 +15,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Aanleginrichting>
+            }""" ] .
 
     otl-patroon:Aquaduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Aquaduct binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -25,7 +31,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Aquaduct>
+            }""" ] .
 
     otl-patroon:BeheerobjectOverstijgendeVoorziening a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BeheerobjectOverstijgendeVoorziening binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -35,14 +47,25 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BeheerobjectOverstijgendeVoorziening>
+            }""" ] .
 
     otl-patroon:Beheersmaatregel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Beheersmaatregel binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Beheersmaatregel"@nl ;
         sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Beheersmaatregel>
+            }""" ] .
 
     otl-patroon:Bosgebied a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Bosgebied binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -52,17 +75,29 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Bosgebied>
+            }""" ] .
 
     otl-patroon:Brug a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Brug binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Brug"@nl ;
-        sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
+        sh:property [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
+                sh:minCount 1 ;
+                sh:path otl:bouwjaar ],
+            [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
                 sh:path otl:naam ],
-            [ sh:message "Eigenschap 'bouwjaar' ontbreekt" ;
-                sh:minCount 1 ;
-                sh:path otl:bouwjaar ] .
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Brug>
+            }""" ] .
 
     otl-patroon:BrugBeweegbaar a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BrugBeweegbaar binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -72,7 +107,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BrugBeweegbaar>
+            }""" ] .
 
     otl-patroon:BrugVast a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept BrugVast binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -82,7 +123,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/BrugVast>
+            }""" ] .
 
     otl-patroon:Bunker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Bunker binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -92,7 +139,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Bunker>
+            }""" ] .
 
     otl-patroon:Coupure a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Coupure binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -102,7 +155,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Coupure>
+            }""" ] .
 
     otl-patroon:Dam a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Dam binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -112,7 +171,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Dam>
+            }""" ] .
 
     otl-patroon:Dijk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Dijk binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -122,14 +187,25 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Dijk>
+            }""" ] .
 
     otl-patroon:District a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept District binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "District"@nl ;
         sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/District>
+            }""" ] .
 
     otl-patroon:Duiker a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Duiker binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -139,7 +215,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Duiker>
+            }""" ] .
 
     otl-patroon:Duingebied a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Duingebied binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -149,7 +231,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Duingebied>
+            }""" ] .
 
     otl-patroon:Ecoduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Ecoduct binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -159,7 +247,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Ecoduct>
+            }""" ] .
 
     otl-patroon:Elementgroep a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Elementgroep binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -175,7 +269,15 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:naam ],
             [ sh:message "Eigenschap 'objectID' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:objectID ] .
+                sh:path otl:objectID ],
+            otl-patroon:GUIDUTD-string-restrictie,
+            otl-patroon:aantal-positiveInteger-restrictie,
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:objectID-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Elementgroep>
+            }""" ] .
 
     otl-patroon:Faunatunnel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Faunatunnel binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -185,7 +287,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Faunatunnel>
+            }""" ] .
 
     otl-patroon:Gebouw a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Gebouw binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -195,7 +303,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Gebouw>
+            }""" ] .
 
     otl-patroon:Gemaal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Gemaal binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -205,7 +319,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Gemaal>
+            }""" ] .
 
     otl-patroon:Grondkering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Grondkering binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -215,7 +335,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Grondkering>
+            }""" ] .
 
     otl-patroon:Haven a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Haven binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -225,7 +351,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Haven>
+            }""" ] .
 
     otl-patroon:Hevel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Hevel binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -235,14 +367,25 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Hevel>
+            }""" ] .
 
     otl-patroon:Hoofdsysteem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Hoofdsysteem binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Hoofdsysteem"@nl ;
         sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Hoofdsysteem>
+            }""" ] .
 
     otl-patroon:IBAsysteem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept IBAsysteem binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -252,7 +395,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/IBAsysteem>
+            }""" ] .
 
     otl-patroon:InfragebondenGebouw a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept InfragebondenGebouw binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -262,7 +411,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/InfragebondenGebouw>
+            }""" ] .
 
     otl-patroon:Infrawerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Infrawerk binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -272,7 +427,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Infrawerk>
+            }""" ] .
 
     otl-patroon:InstandhoudingBeheersmaatregel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept InstandhoudingBeheersmaatregel binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -300,7 +461,19 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:uitersteJaarVanUitvoering ],
             [ sh:message "Eigenschap 'verwachteKosten' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:verwachteKosten ] .
+                sh:path otl:verwachteKosten ],
+            otl-patroon:aantal-positiveInteger-restrictie,
+            otl-patroon:adviesjaarUitvoering-adviesjaarUitvoering-restrictie,
+            otl-patroon:eerstMogelijkeJaarVanUitvoering-gYear-restrictie,
+            otl-patroon:naam-string-restrictie,
+            otl-patroon:startjaarInterval-gYear-restrictie,
+            otl-patroon:tarief-valutabedrag-restrictie,
+            otl-patroon:uitersteJaarVanUitvoering-uitersteJaarVanUitvoering-restrictie,
+            otl-patroon:verwachteKosten-valutabedrag-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/InstandhoudingBeheersmaatregel>
+            }""" ] .
 
     otl-patroon:Kade a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kade binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -310,14 +483,25 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Kade>
+            }""" ] .
 
     otl-patroon:Kanaal a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kanaal binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Kanaal"@nl ;
         sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Kanaal>
+            }""" ] .
 
     otl-patroon:Keersluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Keersluis binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -327,7 +511,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Keersluis>
+            }""" ] .
 
     otl-patroon:Kunstwerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Kunstwerk binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -337,21 +527,37 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Kunstwerk>
+            }""" ] .
 
     otl-patroon:Locatie a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Locatie binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Locatie"@nl ;
         sh:property [ sh:message "Eigenschap 'omschrijving' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:omschrijving ] .
+                sh:path otl:omschrijving ],
+            otl-patroon:omschrijving-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Locatie>
+            }""" ] .
 
     otl-patroon:Meer a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Meer binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Meer"@nl ;
         sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Meer>
+            }""" ] .
 
     otl-patroon:Natuurgebied a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Natuurgebied binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -361,14 +567,25 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Natuurgebied>
+            }""" ] .
 
     otl-patroon:Netwerkschakel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Netwerkschakel binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Netwerkschakel"@nl ;
         sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Netwerkschakel>
+            }""" ] .
 
     otl-patroon:Onderdoorgang a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Onderdoorgang binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -378,14 +595,25 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Onderdoorgang>
+            }""" ] .
 
     otl-patroon:Onderhoudsactiviteit a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Onderhoudsactiviteit binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Onderhoudsactiviteit"@nl ;
         sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Onderhoudsactiviteit>
+            }""" ] .
 
     otl-patroon:OpenTunnelbak a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept OpenTunnelbak binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -395,7 +623,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/OpenTunnelbak>
+            }""" ] .
 
     otl-patroon:Overkluizing a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Overkluizing binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -405,21 +639,37 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Overkluizing>
+            }""" ] .
 
     otl-patroon:Regio a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Regio binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Regio"@nl ;
         sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Regio>
+            }""" ] .
 
     otl-patroon:Rivier a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Rivier binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Rivier"@nl ;
         sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Rivier>
+            }""" ] .
 
     otl-patroon:Schutsluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Schutsluis binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -429,7 +679,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Schutsluis>
+            }""" ] .
 
     otl-patroon:Sifon a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Sifon binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -439,7 +695,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Sifon>
+            }""" ] .
 
     otl-patroon:Sluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Sluis binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -449,7 +711,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Sluis>
+            }""" ] .
 
     otl-patroon:Spuisluis a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Spuisluis binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -459,7 +727,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Spuisluis>
+            }""" ] .
 
     otl-patroon:StandaardBeheersmaatregel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept StandaardBeheersmaatregel binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -490,7 +764,20 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:tarief ],
             [ sh:message "Eigenschap 'toelichting' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:toelichting ] .
+                sh:path otl:toelichting ],
+            otl-patroon:activiteitssoort-string-restrictie,
+            otl-patroon:adviesUitvoeringsInterval-duration-restrictie,
+            otl-patroon:eenheid-string-restrictie,
+            otl-patroon:kortstMogelijkeUitvoeringsInterval-duration-restrictie,
+            otl-patroon:langstMogelijkeUitvoeringsInterval-duration-restrictie,
+            otl-patroon:onderhoudsType-string-restrictie,
+            otl-patroon:schadebeeld-string-restrictie,
+            otl-patroon:tarief-valutabedrag-restrictie,
+            otl-patroon:toelichting-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/StandaardBeheersmaatregel>
+            }""" ] .
 
     otl-patroon:Stormvloedkering a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Stormvloedkering binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -500,7 +787,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Stormvloedkering>
+            }""" ] .
 
     otl-patroon:Stuw a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Stuw binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -510,14 +803,25 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Stuw>
+            }""" ] .
 
     otl-patroon:Systeem a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Systeem binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Systeem"@nl ;
         sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Systeem>
+            }""" ] .
 
     otl-patroon:Tunnel a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Tunnel binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -527,7 +831,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Tunnel>
+            }""" ] .
 
     otl-patroon:Uiterwaard a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Uiterwaard binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -537,7 +847,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Uiterwaard>
+            }""" ] .
 
     otl-patroon:Verkeersbaan a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Verkeersbaan binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -547,7 +863,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:beginafstand ],
             [ sh:message "Eigenschap 'eindafstand' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:eindafstand ] .
+                sh:path otl:eindafstand ],
+            otl-patroon:beginafstand-decimal-restrictie,
+            otl-patroon:eindafstand-decimal-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Verkeersbaan>
+            }""" ] .
 
     otl-patroon:Verkeerscentrale a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Verkeerscentrale binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -557,7 +879,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Verkeerscentrale>
+            }""" ] .
 
     otl-patroon:Verzorgingsplaats a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Verzorgingsplaats binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -567,7 +895,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Verzorgingsplaats>
+            }""" ] .
 
     otl-patroon:Viaduct a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Viaduct binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -577,21 +911,37 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Viaduct>
+            }""" ] .
 
     otl-patroon:WaterEnWatergangLijnvormig a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept WaterEnWatergangLijnvormig binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Water en watergang lijnvormig"@nl ;
         sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WaterEnWatergangLijnvormig>
+            }""" ] .
 
     otl-patroon:WaterEnWatergangNietLijnvormig a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept WaterEnWatergangNietLijnvormig binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Water en watergang niet lijnvormig"@nl ;
         sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/WaterEnWatergangNietLijnvormig>
+            }""" ] .
 
     otl-patroon:Waterreguleringswerk a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Waterreguleringswerk binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -601,7 +951,13 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Waterreguleringswerk>
+            }""" ] .
 
     otl-patroon:Weg a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Weg binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
@@ -611,14 +967,25 @@ otl:graaf-ib-ihp-op-basis-van-aim {
                 sh:path otl:bouwjaar ],
             [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:bouwjaar-bouwjaar-restrictie,
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Weg>
+            }""" ] .
 
     otl-patroon:Zee a sh:NodeShape ;
         sh:description "Basispatroon voor het vastleggen van restricties op eigenschappen van het concept Zee binnen de context van informatieproduct ihp-op-basis-van-aim"@nl ;
         sh:name "Zee"@nl ;
         sh:property [ sh:message "Eigenschap 'naam' ontbreekt" ;
                 sh:minCount 1 ;
-                sh:path otl:naam ] .
+                sh:path otl:naam ],
+            otl-patroon:naam-string-restrictie ;
+        sh:target [ a sh:SPARQLTarget ;
+                sh:select """SELECT ?this WHERE {
+                ?this <http://purl.org/dc/terms/subject> <https://data.rws.nl/def/otl/Zee>
+            }""" ] .
 
     otl:graaf-ib-ihp-op-basis-van-aim a owl:Ontology ;
         dct:created "2024-10-29"^^xsd:date ;
@@ -628,5 +995,189 @@ otl:graaf-ib-ihp-op-basis-van-aim {
         pav:version "Release 29.0" ;
         owl:imports pav:,
             sh: .
+
+    otl-patroon:GUIDUTD-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "GUIDUTD patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
+        sh:name "GUIDUTD"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:GUIDUTD .
+
+    otl-patroon:activiteitssoort-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "activiteitssoort patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
+        sh:name "activiteitssoort"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:activiteitssoort .
+
+    otl-patroon:adviesUitvoeringsInterval-duration-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:duration ;
+        sh:description "adviesUitvoeringsInterval patroon met duration restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:duration zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
+        sh:name "adviesUitvoeringsInterval"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:adviesUitvoeringsInterval .
+
+    otl-patroon:adviesjaarUitvoering-adviesjaarUitvoering-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:gYear ;
+        sh:description "adviesjaarUitvoering patroon met adviesjaarUitvoering restrictie"@nl ;
+        sh:maxInclusive "2100"^^xsd:gYear ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:gYear zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn.,,,sh:MaxInclusiveConstraintComponent|||Waarde moet liggen tussen 1594 en 2100.,,,sh:MinInclusiveConstraintComponent|||Waarde moet liggen tussen 1594 en 2100." ;
+        sh:minInclusive "1594"^^xsd:gYear ;
+        sh:name "adviesjaarUitvoering"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:adviesjaarUitvoering .
+
+    otl-patroon:beginafstand-decimal-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:decimal ;
+        sh:description "beginafstand patroon met decimal restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:decimal zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
+        sh:name "beginafstand"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:beginafstand .
+
+    otl-patroon:eenheid-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "eenheid patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
+        sh:name "eenheid"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:eenheid .
+
+    otl-patroon:eerstMogelijkeJaarVanUitvoering-gYear-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:gYear ;
+        sh:description "eerstMogelijkeJaarVanUitvoering patroon met gYear restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:gYear zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
+        sh:name "eerstMogelijkeJaarVanUitvoering"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:eerstMogelijkeJaarVanUitvoering .
+
+    otl-patroon:eindafstand-decimal-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:decimal ;
+        sh:description "eindafstand patroon met decimal restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:decimal zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
+        sh:name "eindafstand"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:eindafstand .
+
+    otl-patroon:kortstMogelijkeUitvoeringsInterval-duration-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:duration ;
+        sh:description "kortstMogelijkeUitvoeringsInterval patroon met duration restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:duration zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
+        sh:name "kortstMogelijkeUitvoeringsInterval"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:kortstMogelijkeUitvoeringsInterval .
+
+    otl-patroon:langstMogelijkeUitvoeringsInterval-duration-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:duration ;
+        sh:description "langstMogelijkeUitvoeringsInterval patroon met duration restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:duration zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
+        sh:name "langstMogelijkeUitvoeringsInterval"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:langstMogelijkeUitvoeringsInterval .
+
+    otl-patroon:objectID-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "objectID patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
+        sh:name "objectID"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:objectID .
+
+    otl-patroon:omschrijving-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "omschrijving patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
+        sh:name "omschrijving"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:omschrijving .
+
+    otl-patroon:onderhoudsType-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "onderhoudsType patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
+        sh:name "onderhoudsType"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:onderhoudsType .
+
+    otl-patroon:schadebeeld-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "schadebeeld patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
+        sh:name "schadebeeld"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:schadebeeld .
+
+    otl-patroon:startjaarInterval-gYear-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:gYear ;
+        sh:description "startjaarInterval patroon met gYear restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:gYear zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
+        sh:name "startjaarInterval"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:startjaarInterval .
+
+    otl-patroon:toelichting-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "toelichting patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
+        sh:name "toelichting"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:toelichting .
+
+    otl-patroon:uitersteJaarVanUitvoering-uitersteJaarVanUitvoering-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:gYear ;
+        sh:description "uitersteJaarVanUitvoering patroon met uitersteJaarVanUitvoering restrictie"@nl ;
+        sh:maxInclusive "2100"^^xsd:gYear ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:gYear zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn.,,,sh:MaxInclusiveConstraintComponent|||Waarde moet liggen tussen 1594 en 2100.,,,sh:MinInclusiveConstraintComponent|||Waarde moet liggen tussen 1594 en 2100." ;
+        sh:minInclusive "1594"^^xsd:gYear ;
+        sh:name "uitersteJaarVanUitvoering"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:uitersteJaarVanUitvoering .
+
+    otl-patroon:verwachteKosten-valutabedrag-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:decimal ;
+        sh:description "verwachteKosten patroon met valutabedrag restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:decimal zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn.,,,sh:MinExclusiveConstraintComponent|||Waarde moet groter dan 0 zijn." ;
+        sh:minExclusive 0.0 ;
+        sh:name "verwachteKosten"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:verwachteKosten .
+
+    otl-patroon:aantal-positiveInteger-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:positiveInteger ;
+        sh:description "aantal patroon met positiveInteger restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:positiveInteger zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
+        sh:name "aantal"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:aantal .
+
+    otl-patroon:tarief-valutabedrag-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:decimal ;
+        sh:description "tarief patroon met valutabedrag restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:decimal zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn.,,,sh:MinExclusiveConstraintComponent|||Waarde moet groter dan 0 zijn." ;
+        sh:minExclusive 0.0 ;
+        sh:name "tarief"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:tarief .
+
+    otl-patroon:bouwjaar-bouwjaar-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:gYear ;
+        sh:description "bouwjaar patroon met bouwjaar restrictie"@nl ;
+        sh:maxExclusive "2100"^^xsd:gYear ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:gYear zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn.,,,sh:MaxExclusiveConstraintComponent|||Waarde moet liggen tussen 1594 en 2100.,,,sh:MinExclusiveConstraintComponent|||Waarde moet liggen tussen 1594 en 2100." ;
+        sh:minExclusive "1594"^^xsd:gYear ;
+        sh:name "bouwjaar"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:bouwjaar .
+
+    otl-patroon:naam-string-restrictie a sh:PropertyShape ;
+        sh:datatype xsd:string ;
+        sh:description "naam patroon met string restrictie"@nl ;
+        sh:message "XXX,,,sh:DatatypeConstraintComponent|||De waarde is niet van het juiste type, het moet van het type xsd:string zijn.,,,sh:NodeKindConstraintComponent|||De waarde-node is niet van het juiste type, het moet een Literal zijn." ;
+        sh:name "naam"@nl ;
+        sh:nodeKind sh:Literal ;
+        sh:path otl:naam .
 }
 
