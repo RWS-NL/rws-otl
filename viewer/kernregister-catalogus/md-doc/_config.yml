@@ -1,0 +1,12 @@
+---
+title: RWS Informatieconcepten
+logo: "/assets/rws.svg"
+favicon_ico: "/assets/favicon.ico"
+remote_theme: just-the-docs/just-the-docs@v0.8.2
+markdown: kramdown
+color_scheme: rws
+plugins:
+  - jekyll-toc
+toc:
+  min_level: 2
+  max_level: 3

@@ -1,0 +1,49 @@
+name: Generate documentation and build Jekyll site
+on:
+  push:
+    branches: ["main"]
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Checkout mapping rules
+        uses: actions/checkout@v4
+        with:
+          repository: RWS-NL/airbim-mappingrule-generator
+          path: airbim-mappingrule-generator
+          token: ${{ secrets.RWS_TOKEN }}
+      - name: Parse mapping rules
+        run: python3 bin/parse-mappings.py airbim-mappingrule-generator/mappingregels mapping.json
+      - name: Generate documentation
+        run: python3 bin/write-documentation.py .
+      - name: Generate UTD
+        run: python3 bin/write-utd.py .
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Build Pages
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: "kernregister-catalogus/md-doc"
+          destination: "_github-pages-deployment"
+      - name: Upload Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "_github-pages-deployment"
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}

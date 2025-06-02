@@ -1,0 +1,22 @@
+@media (min-width: 50rem) {
+    .site-header {
+      height: 7rem;
+      max-height: 7rem;
+      width: 25rem;
+    }
+  }
+  
+  @media (min-width: 50rem) {
+    .site-title {
+      padding-top: 0rem;
+      padding-bottom: 0rem;
+    }
+  }
+
+ul#toc ul {
+  padding-left: 2rem;
+}
+
+ul#toc {
+  padding-left: 4rem;
+}

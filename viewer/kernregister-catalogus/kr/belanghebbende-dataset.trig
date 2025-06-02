@@ -1,0 +1,36 @@
+@prefix adms:	<http://www.w3.org/ns/adms#> .
+@prefix dc:	<http://purl.org/dc/elements/1.1/> .
+@prefix dcat:	<http://www.w3.org/ns/dcat#> .
+@prefix dcterms:	<http://purl.org/dc/> .
+@prefix dctype:	<http://purl.org/dc/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix locn:	<http://www.w3.org/ns/> .
+@prefix odrl:	<http://www.w3.org/ns/odrl/2/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix prov:	<http://www.w3.org/ns/prov#> .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix spdx:	<http://spdx.org/rdf/> .
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix vcard:	<http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix rws-kr: <https://data.rws.nl/kr/> .
+
+rws-kr:belanghebbende-dataset {
+#rws-kr:dataset {
+rws-kr:belanghebbende-dataset-001
+  a dcat:Dataset ;
+  dcterms:title "Belanghebbenden"@nl ;
+  dcat:keyword "agent", "persoon" ;
+  dcterms:creator rws-kr:rws-cio-office ;
+  dcterms:issued "2023-12-05"^^xsd:date ;
+  dcterms:modified "2023-12-15"^^xsd:date ;
+  dcat:contactPoint <http://dcat.example.org/rws-cio-office/contact> ;
+  dcterms:publisher rws-kr:rws-cio-office ;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/nl> ;
+  dcterms:accrualPeriodicity <http://purl.org/linked-data/sdmx/2009/code#freq-W>  ;
+  dcat:DataService  rws-kr:belanghebbende-dataservice-003 ;
+  dcat:DataService  rws-kr:belanghebbende-dataservice-002 ;
+  dcat:DataService  rws-kr:belanghebbende-dataservice-001 .
+}
