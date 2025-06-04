@@ -153,12 +153,16 @@ def main():
 
     initials = ""
 
+    # Ensure the directory exists before writing otl-list.md
+    otl_list_dir = f'{args["root"]}/documentation/src/content/docs'
+    os.makedirs(otl_list_dir, exist_ok=True)
+
     with open(
-        f'{args["root"]}/kernregister-catalogus/md-doc/otl-list.md', "w"
+        f'{otl_list_dir}/otl-list.md', "w"
     ) as md_otl_list:
 
         # Voorbereiding otl-list.md
-        md_otl_list.write("---\ntitle: OTL-concepten (alfabetisch)\nparent: RWS Informatieconcepten\nnav_order: 1\n---\n")
+        md_otl_list.write("---\ntitle: OTL-concepten (alfabetisch)\neditUrl: false\nnext: true\nprev: true\nsidebar:\n  order: 1\n---\n")
         md_otl_list.write(
             "\n## Introductie\nDeze pagina bevat een alfabetisch overzicht van alle OTL-concepten.\n## Alfabetisch overzicht\n"
         )
@@ -194,11 +198,13 @@ def main():
 
     for char in distinct_initials:
         print("Writing file: " + char)
-        md_filename = f'{args["root"]}/kernregister-catalogus/md-doc/concepten-' + char + ".md"
+        md_dir = f'{args["root"]}/documentation/src/content/docs/concepten/'
+        os.makedirs(md_dir, exist_ok=True)  # Ensure directory exists
+        md_filename = md_dir + "concepten-" + char + ".md"
         with open(md_filename, "w") as md_output:
             # Voorbereiding markdown file
             md_output.write(
-                f"---\ntitle: OTL-concepten ({char})\nparent: OTL-concepten (alfabetisch)\nnav_order: 1\n---\n"
+                f"---\ntitle: OTL-concepten ({char})\neditUrl: false\nnext: true\nprev: true\n---\n"
             )
             md_output.write(
                 f"\n## Introductie\nDeze pagina bevat een overzicht van alle OTL-concepten beginnend met de letter '{char}'.\n## Overzicht\n"
@@ -405,7 +411,7 @@ def wrap_anchor(wrapstr):
 
 def wrap_href(wrapstr, initial):
     return_str = (
-        '<a href="concepten-' + initial + ".html#" + wrapstr.replace(" ", "-").lower() + '"> ' + wrapstr + "</a>\n"
+        '<a href="concepten/concepten-' + initial.lower() + "/#" + wrapstr.replace(" ", "-").lower() + '"> ' + wrapstr + "</a>\n"
     )
     return return_str
 
