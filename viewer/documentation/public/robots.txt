@@ -1,0 +1,4 @@
+# https://www.robotstxt.org/robotstxt.html
+Sitemap: https://rws-nl.github.io/rws-otl/sitemap-index.xml
+User-agent: *
+Disallow:

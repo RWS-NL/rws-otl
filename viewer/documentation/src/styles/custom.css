@@ -1,0 +1,33 @@
+@font-face {
+    font-family: RijksoverheidSansHeading;
+    font-style: normal;
+    font-weight: normal;
+    src: url('/rws-otl/font/heading/regular/rijksoverheidsansheading-regular_2_0-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: RijksoverheidSansText;
+    font-style: italic;
+    font-weight: normal;
+    src: url('/rws-otl/font/text/italic/rijksoverheidsanswebtext-italic-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: RijksoverheidSansText;
+    font-style: normal;
+    font-weight: normal;
+    src: url('/rws-otl/font/text/regular/rijksoverheidsanswebtext-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: RijksoverheidSansText;
+    font-style: normal;
+    font-weight: bold;
+    src: url('/rws-otl/font/text/bold/rijksoverheidsanswebtext-bold-webfont.woff') format('woff'); }
+
+:root, ::backdrop {
+    --sl-font: 'RijksoverheidSansText',
+        verdana,
+        arial,
+        sans-serif;
+}
