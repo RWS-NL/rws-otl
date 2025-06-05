@@ -411,7 +411,7 @@ def wrap_anchor(wrapstr):
 
 def wrap_href(wrapstr, initial):
     return_str = (
-        '<a href="concepten/concepten-' + initial.lower() + "/#" + wrapstr.replace(" ", "-").lower() + '"> ' + wrapstr + "</a>\n"
+        '<a href="../concepten/concepten-' + initial.lower() + "/#" + wrapstr.replace(" ", "-").lower() + '"> ' + wrapstr + "</a>\n"
     )
     return return_str
 
