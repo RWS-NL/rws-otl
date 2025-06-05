@@ -11,16 +11,14 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: viewer
+    runs-on: ubuntu-latest 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+        working-directory: viewer
 
       - name: Checkout mapping rules
         uses: actions/checkout@v4
@@ -31,12 +29,15 @@ jobs:
 
       - name: Parse mapping rules
         run: python3 bin/parse-mappings.py airbim-mappingrule-generator/mappingregels mapping.json
+        working-directory: viewer
 
       - name: Generate documentation
         run: python3 bin/write-documentation.py .
+        working-directory: viewer
 
       - name: Generate UTD
         run: python3 bin/write-utd.py .
+        working-directory: viewer
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -44,7 +45,7 @@ jobs:
       - name: Build Pages
         uses: actions/jekyll-build-pages@v1
         with:
-          source: "kernregister-catalogus/md-doc"
+          source: "viewer/kernregister-catalogus/md-doc"
           destination: "_github-pages-deployment"
 
       - name: Upload Pages
