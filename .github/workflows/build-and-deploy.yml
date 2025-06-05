@@ -1,4 +1,4 @@
-name: Generate documentation and build Jekyll site
+name: Generate documentation
 
 on:
   push:
