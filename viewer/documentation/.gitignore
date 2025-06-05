@@ -11,3 +11,7 @@ node_modules/
 src/content/docs/concepten/
 src/content/docs/otl-list.md
 src/content/docs/utd-list.md
+
+# Yarn files
+.yarn/install-state.gz
+.yarn/build-state.yml

@@ -18,5 +18,6 @@
 		"@types/react": "^19.1.6",
 		"@vite-pwa/astro": "^1.1.0",
 		"typescript": "^5.8.3"
-	}
+	},
+	"packageManager": "yarn@4.9.2"
 }
