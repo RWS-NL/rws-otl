@@ -29,7 +29,7 @@ Klik links in het navigatiemenu op ['OTL-concepten (alfabetisch)'](otl-list.html
 ['UTD-concepten'](utd-list.html)
 
 ## Feedback
-We ontvangen graag feedback. Maak een issue aan op [GitHub](https://github.com/gjaaf/rws-otl) als u opmerkingen heeft.
+We ontvangen graag feedback. Maak een issue aan op [GitHub](https://github.com/RWS-NL/rws-otl/issues) als u opmerkingen heeft.
 
 ## Status
 *Status:*  
@@ -43,4 +43,4 @@ We ontvangen graag feedback. Maak een issue aan op [GitHub](https://github.com/g
 *Ontwikkelaar*:  
 &nbsp;&nbsp;&nbsp;&nbsp;[Gert-Jan Aaftink](https://gjaaf.github.io/)  
 *Feedback*:  
-&nbsp;&nbsp;&nbsp;&nbsp;[GitHub gjaaf/rws-otl](https://github.com/gjaaf/rws-otl) ([pull requests](https://github.com/gjaaf/rws-otl/pulls), [new issue](https://github.com/gjaaf/rws-otl/issues/new/choose), [open issues](https://github.com/gjaaf/rws-otl/issues))  
+&nbsp;&nbsp;&nbsp;&nbsp;[GitHub rws-otl](https://github.com/RWS-NL/rws-otl) ([new issue](https://github.com/RWS-NL/rws-otl/issues/new), [open issues](https://github.com/RWS-NL/rws-otl/issues))
