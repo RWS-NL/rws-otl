@@ -31,16 +31,6 @@ Klik links in het navigatiemenu op ['OTL-concepten (alfabetisch)'](otl-list.html
 ## Feedback
 We ontvangen graag feedback. Maak een issue aan op [GitHub](https://github.com/RWS-NL/rws-otl/issues) als u opmerkingen heeft.
 
-## Status
-*Status:*  
-&nbsp;&nbsp;&nbsp;&nbsp;Proof of technology  
-*Meest recente gepubliceerde versie*:  
-&nbsp;&nbsp;&nbsp;&nbsp;[https://www.w3.org/RWS%20OTL/](https://www.w3.org/RWS%20OTL/)  
-*Meest recente ontwikkelversie*:  
-&nbsp;&nbsp;&nbsp;&nbsp;[https://gjaaf.github.io/rws-otl/](https://gjaaf.github.io/rws-otl/)  
-*Historie*:  
-&nbsp;&nbsp;&nbsp;&nbsp;[Commit-historie](https://github.com/gjaaf/rws-otl/commits/)  
-*Ontwikkelaar*:  
-&nbsp;&nbsp;&nbsp;&nbsp;[Gert-Jan Aaftink](https://gjaaf.github.io/)  
+## Feedback
 *Feedback*:  
 &nbsp;&nbsp;&nbsp;&nbsp;[GitHub rws-otl](https://github.com/RWS-NL/rws-otl) ([new issue](https://github.com/RWS-NL/rws-otl/issues/new), [open issues](https://github.com/RWS-NL/rws-otl/issues))
