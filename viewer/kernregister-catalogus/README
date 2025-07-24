@@ -1,0 +1,14 @@
+![Logo Rijkswaterstaat - Ministerie van Infrastructuur en Waterstaat](https://github.com/RWS-NL/rws-otl/assets/467305/13932dd5-c2c1-4fb0-9cca-d93ba02b5076)
+
+# Rijkswaterstaat Kernregistratie Administratie
+
+Catalogus.trig bevat de catalogue record. Nu staat de catalog in
+DEFAULT.  Elke dataset heeft een aparte file. En die staan elke in een
+aparte graaf. Die file bevat de data set. De data service en de data
+distribution hebben elke een aparte file. Dat zorgt voor kleinere
+commits. De dataset, de data service en de data distribution van een
+specifieke KR hebben elke een aparte graaf die alleen ind e default
+graag samen komt. Dat zorgt er voor dat je per
+service/dataset/distribution kan vernieuwen door de graaf te laten
+vervallen en opnieuw te laden, wat dus qua ganulariteit overeenkomt
+met de files.

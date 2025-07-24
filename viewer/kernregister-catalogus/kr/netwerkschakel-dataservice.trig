@@ -1,0 +1,49 @@
+@prefix adms:	<http://www.w3.org/ns/adms#> .
+@prefix dc:	<http://purl.org/dc/elements/1.1/> .
+@prefix dcat:	<http://www.w3.org/ns/dcat#> .
+@prefix dcterms:	<http://purl.org/dc/> .
+@prefix dctype:	<http://purl.org/dc/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix locn:	<http://www.w3.org/ns/> .
+@prefix odrl:	<http://www.w3.org/ns/odrl/2/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix prov:	<http://www.w3.org/ns/prov#> .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix spdx:	<http://spdx.org/rdf/> .
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix vcard:	<http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix rws-kr: <https://data.rws.nl/kr/> .
+
+rws-kr:netwerkschakel-dataservice {
+rws-kr:netwerkschakel-dataservice-001
+  a dcat:DataService ;
+  dcterms:title "De netwerkschakeldata van WVL"@nl ;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/nl> ;
+  dcterms:conformsTo "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" ;
+  dcterms:conformsTo "application/vnd.openxmlformats-officedocument.wordprocessingml.document" ;
+  dcat:endpointDescription <file://ad.rws.nl/p-dfs01/appsdata/GeoDataRuimte/fileshare/systeemdelen_netwerkschakels/HWN/>;
+  dcat:servesDataset rws-kr:netwerkschakel-dataset-001 .
+
+rws-kr:netwerkschakel-dataservice-002
+  a dcat:DataService ;
+  dcterms:title "Netwerkschakelgegevens per geo viewer"@nl ;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/nl> ;
+  dcterms:conformsTo "text/html" ;
+  dcat:endpointDescription <https://geo.intranet.rijkswaterstaat.nl/portal/apps/webappviewer/index.html?id=4dff8e8a85ef4c69bd4db278bc006835>;
+  dcat:servesDataset rws-kr:netwerkschakel-dataset-001 .
+
+
+rws-kr:netwerkschakel-dataservice-003
+  a dcat:DataService ;
+  dcterms:title "Netwerkschakelgegevens vanuit CTD"@nl ;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/nl> ;
+  dcterms:conformsTo "text/html";
+  dcat:endpointDescription <https://centraaltoegangspuntdata.rws.nl/?t=wegvakken&d=719>;
+  dcat:servesDataset rws-kr:netwerkschakel-dataset-001 .
+}
+
+
+
