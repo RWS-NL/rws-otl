@@ -30,7 +30,3 @@ Klik links in het navigatiemenu op ['OTL-concepten (alfabetisch)'](otl-list.html
 
 ## Feedback
 We ontvangen graag feedback. Maak een issue aan op [GitHub](https://github.com/RWS-NL/rws-otl/issues) als u opmerkingen heeft.
-
-## Feedback
-*Feedback*:  
-&nbsp;&nbsp;&nbsp;&nbsp;[GitHub rws-otl](https://github.com/RWS-NL/rws-otl) ([new issue](https://github.com/RWS-NL/rws-otl/issues/new), [open issues](https://github.com/RWS-NL/rws-otl/issues))
